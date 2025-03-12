@@ -1,0 +1,184 @@
+import pandas as pd
+import nltk
+import os
+import warnings
+warnings.filterwarnings("ignore")
+
+
+input_file = os.path.abspath("../modelos/traducao_frances_ingles_teste_mbart.csv")
+
+#BLEU
+
+from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
+
+# Função para calcular o BLEU para um único poema
+def calcular_bleu(referencia, traducao):
+    # Tokenizar as referências e a tradução
+    referencia_tokens = [nltk.word_tokenize(referencia.lower())]
+    traducao_tokens = nltk.word_tokenize(traducao.lower())
+
+    # Calcular BLEU com suavização para evitar pontuações zero
+    smooth = SmoothingFunction().method4
+    return sentence_bleu(referencia_tokens, traducao_tokens, smoothing_function=smooth)
+
+# Função para calcular a média do BLEU de todos os poemas
+def calcular_bleu_media(input_file):
+    df = pd.read_csv(input_file)
+
+    # Verificar se as colunas necessárias estão presentes
+    if "translated_poem" not in df.columns or "translated_by_mbart" not in df.columns:
+        raise ValueError("O arquivo CSV deve conter as colunas 'translated_poem' e 'translated_by_mbart'.")
+
+    bleu_scores = []
+
+    # Calcular o BLEU para cada poema
+    for i in range(len(df)):
+        referencia_poema = df["translated_poem"].iloc[i]
+        traducao_mbart = df["translated_by_mbart"].iloc[i]
+
+        # Calcular o BLEU para o poema
+        bleu_score = calcular_bleu(referencia_poema, traducao_mbart)
+        bleu_scores.append(bleu_score)
+
+    # Calcular a média do BLEU
+    bleu_media = sum(bleu_scores) / len(bleu_scores)
+
+    # Imprimir o resultado
+    print(f"Pontuação média BLEU para todos os poemas: {bleu_media:.4f}")
+
+# Calcular a média do BLEU e exibir o resultado
+calcular_bleu_media(input_file)
+
+#METEOR
+
+from nltk.translate.meteor_score import meteor_score
+
+# Função para calcular a METEOR para um único poema
+def calcular_meteor(referencia, traducao):
+    # Tokenizar as referências e a tradução
+    referencia_tokens = nltk.word_tokenize(referencia.lower())
+    traducao_tokens = nltk.word_tokenize(traducao.lower())
+
+    # Calcular METEOR
+    return meteor_score([referencia_tokens], traducao_tokens)
+
+# Função para calcular a média da METEOR de todos os poemas
+def calcular_meteor_media(input_file):
+    df = pd.read_csv(input_file)
+
+    # Verificar se as colunas necessárias estão presentes
+    if "translated_poem" not in df.columns or "translated_by_mbart" not in df.columns:
+        raise ValueError("O arquivo CSV deve conter as colunas 'translated_poem' e 'translated_by_mbart'.")
+
+    meteor_scores = []
+
+    # Calcular a METEOR para cada poema
+    for i in range(len(df)):
+        referencia_poema = df["translated_poem"].iloc[i]
+        traducao_mbart = df["translated_by_mbart"].iloc[i]
+
+        # Calcular a METEOR para o poema
+        meteor_score_value = calcular_meteor(referencia_poema, traducao_mbart)
+        meteor_scores.append(meteor_score_value)
+
+    # Calcular a média da METEOR
+    meteor_media = sum(meteor_scores) / len(meteor_scores)
+
+    # Imprimir o resultado
+    print(f"Pontuação média METEOR para todos os poemas: {meteor_media:.4f}")
+
+# Calcular a média da METEOR e exibir o resultado
+calcular_meteor_media(input_file)
+
+
+#BERTSCORE
+
+from bert_score import score
+
+# Função para calcular o BERTScore para um único poema
+def calcular_bertscore(referencia, traducao):
+    # Calcular o BERTScore entre a referência e a tradução
+    P, R, F1 = score([traducao], [referencia], lang="pt")
+    return F1.mean().item()  # Retornar a pontuação F1 média (similaridade semântica)
+
+# Função para calcular a média do BERTScore de todos os poemas
+def calcular_bertscore_media(input_file):
+    df = pd.read_csv(input_file)
+
+    # Verificar se as colunas necessárias estão presentes
+    if "translated_poem" not in df.columns or "translated_by_mbart" not in df.columns:
+        raise ValueError("O arquivo CSV deve conter as colunas 'translated_poem' e 'translated_by_mbart'.")
+
+    bertscore_scores = []
+
+    # Calcular o BERTScore para cada poema
+    for i in range(len(df)):
+        referencia_poema = df["translated_poem"].iloc[i]
+        traducao_mbart = df["translated_by_mbart"].iloc[i]
+
+        # Calcular o BERTScore para o poema
+        bertscore_value = calcular_bertscore(referencia_poema, traducao_mbart)
+        bertscore_scores.append(bertscore_value)
+
+    # Calcular a média do BERTScore
+    bertscore_media = sum(bertscore_scores) / len(bertscore_scores)
+
+    # Imprimir o resultado
+    print(f"Pontuação média BERTScore para todos os poemas: {bertscore_media:.4f}")
+
+# Calcular a média do BERTScore e exibir o resultado
+calcular_bertscore_media(input_file)
+
+
+#BARTSCORE
+
+import torch
+from transformers import BartTokenizer, BartForConditionalGeneration
+from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
+from concurrent.futures import ThreadPoolExecutor
+
+# Carregar o modelo BART e o tokenizer
+model_name = "facebook/bart-large-cnn"
+tokenizer = BartTokenizer.from_pretrained(model_name)
+model = BartForConditionalGeneration.from_pretrained(model_name)
+
+# Função para calcular o BARTScore
+def calcular_bartscore(referencia, traducao):
+    # Tokenizar a referência e a tradução
+    inputs_ref = tokenizer(referencia, return_tensors="pt", truncation=True, padding=True, max_length=1024)
+    inputs_trad = tokenizer(traducao, return_tensors="pt", truncation=True, padding=True, max_length=1024)
+
+    # Gerar os embeddings de BART para a referência e tradução
+    with torch.no_grad():
+        embeddings_ref = model.get_encoder()(inputs_ref['input_ids'])[0]
+        embeddings_trad = model.get_encoder()(inputs_trad['input_ids'])[0]
+
+    # Calcular similaridade de cosseno entre os embeddings
+    cosine_sim = cosine_similarity(embeddings_ref.mean(dim=1).cpu().numpy(), embeddings_trad.mean(dim=1).cpu().numpy())
+
+    return cosine_sim[0][0]
+
+# Função para calcular o BARTScore para todos os poemas de forma paralela
+def calcular_bartscore_media_paralela(input_file):
+    df = pd.read_csv(input_file)
+
+    # Verificar se as colunas necessárias estão presentes
+    if "translated_poem" not in df.columns or "translated_by_mbart" not in df.columns:
+        raise ValueError("O arquivo CSV deve conter as colunas 'translated_poem' e 'translated_by_mbart'.")
+
+    # Usar ThreadPoolExecutor para processar os poemas em paralelo
+    with ThreadPoolExecutor() as executor:
+        # Calcular o BARTScore para todos os poemas em paralelo
+        bartscore_scores = list(executor.map(calcular_bartscore,
+                                            df["translated_poem"],
+                                            df["translated_by_mbart"]))
+
+    # Calcular a média do BARTScore
+    bartscore_media = sum(bartscore_scores) / len(bartscore_scores)
+
+    # Imprimir o resultado
+    print(f"Pontuação média BARTScore para todos os poemas: {bartscore_media:.4f}")
+
+# Calcular o BARTScore médio para todos os poemas e exibir o resultado
+calcular_bartscore_media_paralela(input_file)

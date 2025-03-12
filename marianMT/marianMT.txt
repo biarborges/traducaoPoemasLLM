@@ -1,0 +1,9 @@
+marianMT
+Helsinki-NLP/opus-mt-en-fr
+Helsinki-NLP/opus-mt-tc-big-en-pt
+https://huggingface.co/models?sort=trending&search=Helsinki-NLP+%2F+opus-mt-en-fr
+
+https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-en-pt
+
+
+mto mais leve
