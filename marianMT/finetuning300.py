@@ -20,14 +20,14 @@ train_dataset = load_data(train_csv_path)
 val_dataset = load_data(val_csv_path)
 
 # Escolher o modelo base do MarianMT
-model_name = "Helsinki-NLP/opus-mt-ROMANCE-EN"  # Troque pelo idioma correto
+model_name = "Helsinki-NLP/opus-mt-fr-en"  # Troque pelo idioma correto
 tokenizer = MarianTokenizer.from_pretrained(model_name)
 model = MarianMTModel.from_pretrained(model_name).to(device)
 
 # Função de pré-processamento dos textos
 def preprocess_function(examples):
-    inputs = tokenizer(examples["original_poem"], padding="max_length", truncation=True, max_length=512)  # Ajuste o max_length
-    targets = tokenizer(examples["translated_poem"], padding="max_length", truncation=True, max_length=512)
+    inputs = tokenizer(examples["original_poem"], padding="max_length", truncation=True, max_length=1024)  # Ajuste o max_length
+    targets = tokenizer(examples["translated_poem"], padding="max_length", truncation=True, max_length=1024)
     inputs["labels"] = targets["input_ids"]
     return inputs
 
