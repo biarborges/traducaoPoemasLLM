@@ -26,8 +26,8 @@ model = MarianMTModel.from_pretrained(model_name).to(device)
 
 # Função de pré-processamento dos textos
 def preprocess_function(examples):
-    inputs = tokenizer(examples["original_poem"], padding="max_length", truncation=True, max_length=1024)  # Ajuste o max_length
-    targets = tokenizer(examples["translated_poem"], padding="max_length", truncation=True, max_length=1024)
+    inputs = tokenizer(examples["original_poem"], padding="max_length", truncation=True, max_length=512)  # Ajuste o max_length
+    targets = tokenizer(examples["translated_poem"], padding="max_length", truncation=True, max_length=512)
     inputs["labels"] = targets["input_ids"]
     return inputs
 
