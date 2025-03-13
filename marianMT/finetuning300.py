@@ -64,11 +64,11 @@ try:
         output_dir="/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles",
         eval_strategy="epoch",
         learning_rate=2e-5,
-        per_device_train_batch_size=8,
-        per_device_eval_batch_size=8,
-        weight_decay=0.01,
+        per_device_train_batch_size=16,
+        per_device_eval_batch_size=16,
+        weight_decay=0.1,
         save_total_limit=3,
-        num_train_epochs=3,
+        num_train_epochs=1,
         logging_steps=10,
         predict_with_generate=True,
         fp16=torch.cuda.is_available(),  # Usa FP16 se GPU suportar
@@ -111,5 +111,5 @@ except Exception as e:
 
 print(f"Tamanho do dataset de treino: {len(train_dataset)}")
 print(f"Tamanho do dataset de validação: {len(val_dataset)}")
-trainer.train().log()
+trainer.train()
 
