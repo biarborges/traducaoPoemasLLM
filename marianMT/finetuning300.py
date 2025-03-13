@@ -7,6 +7,9 @@ from transformers import MarianMTModel, MarianTokenizer, Seq2SeqTrainer, Seq2Seq
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Usando dispositivo: {device}")
 
+if device == "cuda":
+    torch.cuda.empty_cache()
+
 # Caminhos dos arquivos CSV
 train_csv_path = "../poemas/poemas300/frances_ingles_poems.csv"
 val_csv_path = "../poemas/validation/frances_ingles_validation.csv"
@@ -73,6 +76,7 @@ try:
         predict_with_generate=True,
         fp16=torch.cuda.is_available(),  # Usa FP16 se GPU suportar
         save_strategy="epoch",
+        gradient_accumulation_steps=2,
         report_to="none"  # Evita logs desnecessários
     )
 except Exception as e:
