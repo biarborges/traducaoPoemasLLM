@@ -1,11 +1,8 @@
 from transformers import MarianMTModel, MarianTokenizer
 
-# Carregar modelo treinado
-model_path = "/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles/checkpoint-81"
-model = MarianMTModel.from_pretrained(model_path)
-tokenizer = MarianTokenizer.from_pretrained(model_path)
+model = MarianMTModel.from_pretrained("/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles/checkpoint-81")
+tokenizer = MarianTokenizer.from_pretrained("/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles/checkpoint-81")
 
-# Texto de entrada em francês
 input_text = """ça ressemble
 à un cartoon
 tchouri comète surveillée
@@ -33,18 +30,8 @@ ma bassine d’eau isolée en apparence
 le berceau
 d’un réseau
 sans fil"""
+input_ids = tokenizer.encode(input_text, return_tensors="pt")
+translated = model.generate(input_ids)
 
-# Tokenizar entrada
-input_ids = tokenizer(input_text, return_tensors="pt").input_ids
-
-# Gerar tradução com idioma de destino forçado para inglês
-translated = model.generate(
-    input_ids,
-    forced_bos_token_id=tokenizer.lang_code_to_id["en_XX"],  # Garante que o modelo sabe que está traduzindo para inglês
-    max_length=200,
-    num_beams=5  # Melhora a qualidade da tradução ao explorar mais possibilidades
-)
-
-# Decodificar resultado
 output_text = tokenizer.decode(translated[0], skip_special_tokens=True)
 print(output_text)
