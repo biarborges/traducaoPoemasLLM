@@ -61,7 +61,7 @@ except Exception as e:
 # Configurar os parâmetros do treinamento
 try:
     training_args = Seq2SeqTrainingArguments(
-        output_dir="../fineTuning/marianMT",
+        output_dir="/home/ubuntu/finetuning/marianMT_frances_ingles",
         eval_strategy="epoch",
         learning_rate=2e-5,
         per_device_train_batch_size=8,
@@ -101,8 +101,8 @@ except Exception as e:
 
 # Salvar o modelo treinado
 try:
-    model.save_pretrained("../fineTuning/marianMT_frances_ingles")
-    tokenizer.save_pretrained("../fineTuning/marianMT_frances_ingles")
+    model.save_pretrained("/home/ubuntu/finetuning/marianMT_frances_ingles")
+    tokenizer.save_pretrained("/home/ubuntu/finetuning/marianMT_frances_ingles")
     print("Fine-tuning finalizado e modelo salvo.")
 except Exception as e:
     print(f"Erro ao salvar o modelo: {e}")
