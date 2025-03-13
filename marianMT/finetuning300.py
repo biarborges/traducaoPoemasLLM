@@ -13,60 +13,97 @@ val_csv_path = "../poemas/validation/frances_ingles_validation.csv"
 
 # Carregar os dados dos CSVs como Dataset Hugging Face
 def load_data(csv_path):
-    df = pd.read_csv(csv_path)
-    return Dataset.from_pandas(df)
+    try:
+        df = pd.read_csv(csv_path)
+        return Dataset.from_pandas(df)
+    except FileNotFoundError:
+        print(f"Erro: O arquivo {csv_path} não foi encontrado.")
+        raise
+    except Exception as e:
+        print(f"Erro ao carregar o arquivo {csv_path}: {e}")
+        raise
 
-train_dataset = load_data(train_csv_path)
-val_dataset = load_data(val_csv_path)
+try:
+    train_dataset = load_data(train_csv_path)
+    val_dataset = load_data(val_csv_path)
+except Exception as e:
+    print(f"Falha ao carregar os dados. Erro: {e}")
+    exit(1)
 
 # Escolher o modelo base do MarianMT
-model_name = "Helsinki-NLP/opus-mt-fr-en"  # Troque pelo idioma correto
-tokenizer = MarianTokenizer.from_pretrained(model_name)
-model = MarianMTModel.from_pretrained(model_name).to(device)
+try:
+    model_name = "Helsinki-NLP/opus-mt-fr-en"  # Troque pelo idioma correto
+    tokenizer = MarianTokenizer.from_pretrained(model_name)
+    model = MarianMTModel.from_pretrained(model_name).to(device)
+except Exception as e:
+    print(f"Erro ao carregar o modelo ou tokenizer: {e}")
+    exit(1)
 
 # Função de pré-processamento dos textos
 def preprocess_function(examples):
-    inputs = tokenizer(examples["original_poem"], padding="max_length", truncation=True, max_length=512)  # Ajuste o max_length
-    targets = tokenizer(examples["translated_poem"], padding="max_length", truncation=True, max_length=512)
-    inputs["labels"] = targets["input_ids"]
-    return inputs
-
+    try:
+        inputs = tokenizer(examples["original_poem"], padding="max_length", truncation=True, max_length=512)  # Ajuste o max_length
+        targets = tokenizer(examples["translated_poem"], padding="max_length", truncation=True, max_length=512)
+        inputs["labels"] = targets["input_ids"]
+        return inputs
+    except Exception as e:
+        print(f"Erro durante o pré-processamento: {e}")
+        raise
 
 # Aplicar o pré-processamento
-train_dataset = train_dataset.map(preprocess_function, batched=True)
-val_dataset = val_dataset.map(preprocess_function, batched=True)
+try:
+    train_dataset = train_dataset.map(preprocess_function, batched=True)
+    val_dataset = val_dataset.map(preprocess_function, batched=True)
+except Exception as e:
+    print(f"Erro ao aplicar o pré-processamento: {e}")
+    exit(1)
 
 # Configurar os parâmetros do treinamento
-training_args = Seq2SeqTrainingArguments(
-    output_dir="../fineTuning/marianMT",
-    evaluation_strategy="epoch",
-    learning_rate=2e-5,
-    per_device_train_batch_size=8,
-    per_device_eval_batch_size=8,
-    weight_decay=0.01,
-    save_total_limit=3,
-    num_train_epochs=3,
-    predict_with_generate=True,
-    fp16=torch.cuda.is_available(),  # Usa FP16 se GPU suportar
-    save_strategy="epoch",
-    report_to="none"  # Evita logs desnecessários
-)
+try:
+    training_args = Seq2SeqTrainingArguments(
+        output_dir="../fineTuning/marianMT",
+        evaluation_strategy="epoch",
+        learning_rate=2e-5,
+        per_device_train_batch_size=8,
+        per_device_eval_batch_size=8,
+        weight_decay=0.01,
+        save_total_limit=3,
+        num_train_epochs=3,
+        predict_with_generate=True,
+        fp16=torch.cuda.is_available(),  # Usa FP16 se GPU suportar
+        save_strategy="epoch",
+        report_to="none"  # Evita logs desnecessários
+    )
+except Exception as e:
+    print(f"Erro ao configurar os parâmetros de treinamento: {e}")
+    exit(1)
 
 # Criar o trainer
-trainer = Seq2SeqTrainer(
-    model=model,
-    args=training_args,
-    train_dataset=train_dataset,
-    eval_dataset=val_dataset,
-    tokenizer=tokenizer,
-    data_collator=DataCollatorForSeq2Seq(tokenizer, model=model),
-)
+try:
+    trainer = Seq2SeqTrainer(
+        model=model,
+        args=training_args,
+        train_dataset=train_dataset,
+        eval_dataset=val_dataset,
+        tokenizer=tokenizer,
+        data_collator=DataCollatorForSeq2Seq(tokenizer, model=model),
+    )
+except Exception as e:
+    print(f"Erro ao criar o trainer: {e}")
+    exit(1)
 
 # Iniciar o treinamento
-trainer.train()
+try:
+    trainer.train()
+except Exception as e:
+    print(f"Erro durante o treinamento: {e}")
+    exit(1)
 
 # Salvar o modelo treinado
-model.save_pretrained("../fineTuning/marianMT_frances_ingles")
-tokenizer.save_pretrained("../fineTuning/marianMT_frances_ingles")
-
-print("Fine-tuning finalizado e modelo salvo.")
+try:
+    model.save_pretrained("../fineTuning/marianMT_frances_ingles")
+    tokenizer.save_pretrained("../fineTuning/marianMT_frances_ingles")
+    print("Fine-tuning finalizado e modelo salvo.")
+except Exception as e:
+    print(f"Erro ao salvar o modelo: {e}")
+    exit(1)
