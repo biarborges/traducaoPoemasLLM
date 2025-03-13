@@ -8,8 +8,8 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Usando dispositivo: {device}")
 
 # Caminhos dos arquivos CSV
-train_csv_path = "../poemas/train/frances_ingles_train.csv"
-val_csv_path = "../poemas/validation/frances_ingles_validation.csv"
+train_csv_path = "../poemas/poemas300/frances_ingles_poems.csv"
+val_csv_path = "../poemas/validation/frances_ingles_validation1.csv"
 
 # Carregar os dados dos CSVs como Dataset Hugging Face
 def load_data(csv_path):
