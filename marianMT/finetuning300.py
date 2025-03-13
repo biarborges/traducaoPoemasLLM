@@ -9,6 +9,7 @@ print(f"Usando dispositivo: {device}")
 
 if device == "cuda":
     torch.cuda.empty_cache()
+    print("Memória da GPU liberada.")
 
 # Caminhos dos arquivos CSV
 train_csv_path = "../poemas/poemas300/frances_ingles_poems.csv"
@@ -67,8 +68,8 @@ try:
         output_dir="/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles",
         eval_strategy="epoch",
         learning_rate=2e-5,
-        per_device_train_batch_size=16,
-        per_device_eval_batch_size=16,
+        per_device_train_batch_size=8,
+        per_device_eval_batch_size=8,
         weight_decay=0.1,
         save_total_limit=3,
         num_train_epochs=1,
