@@ -1,8 +1,8 @@
 from transformers import MarianMTModel, MarianTokenizer
 
 # Carregar o último checkpoint (ou qualquer outro)
-model = MarianMTModel.from_pretrained("/home/ubuntu/finetuning/marianMT_frances_ingles/checkpoint-81")
-tokenizer = MarianTokenizer.from_pretrained("/home/ubuntu/finetuning/marianMT_frances_ingles/checkpoint-81")
+model = MarianMTModel.from_pretrained("/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles/checkpoint-81")
+tokenizer = MarianTokenizer.from_pretrained("/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles/checkpoint-81")
 
 # Testar com uma frase de exemplo
 input_text = "Bonjour tout le monde"
