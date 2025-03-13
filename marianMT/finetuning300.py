@@ -44,7 +44,7 @@ def split_poem(poem, max_tokens=512):
     # Tokenizar o poema sem adicionar tokens especiais (como [CLS] ou [SEP])
     tokens = tokenizer.encode(poem, add_special_tokens=False)
     
-    # Dividir os tokens em partes de no máximo `max_tokens`
+    # Dividir os tokens em partes de no máximo max_tokens
     parts = [tokens[i:i + max_tokens] for i in range(0, len(tokens), max_tokens)]
     
     # Decodificar as partes de volta para texto
@@ -57,9 +57,15 @@ def preprocess_function(examples):
         original_parts = split_poem(examples["original_poem"])
         translated_parts = split_poem(examples["translated_poem"])
 
+        # Verificar se o número de partes é o mesmo
+        if len(original_parts) != len(translated_parts):
+            raise ValueError("O número de partes dos poemas originais e traduzidos não corresponde.")
+
         # Tokenizar cada parte
         inputs = tokenizer(original_parts, padding="max_length", truncation=True, max_length=512)
         targets = tokenizer(translated_parts, padding="max_length", truncation=True, max_length=512)
+
+        # Adicionar os labels ao dicionário de inputs
         inputs["labels"] = targets["input_ids"]
         return inputs
     except Exception as e:
@@ -68,8 +74,8 @@ def preprocess_function(examples):
 
 # Aplicar o pré-processamento
 try:
-    train_dataset = train_dataset.map(preprocess_function, batched=True)
-    val_dataset = val_dataset.map(preprocess_function, batched=True)
+    train_dataset = train_dataset.map(preprocess_function, batched=False)  # batched=False para processar um exemplo por vez
+    val_dataset = val_dataset.map(preprocess_function, batched=False)
 except Exception as e:
     print(f"Erro ao aplicar o pré-processamento: {e}")
     exit(1)
