@@ -2,6 +2,8 @@ import torch
 import pandas as pd
 import time
 from datasets import load_dataset, Dataset
+from google.colab import files
+import shutil
 from transformers import MarianMTModel, MarianTokenizer, Seq2SeqTrainer, Seq2SeqTrainingArguments, DataCollatorForSeq2Seq
 
 # Marcar o início do tempo
@@ -15,9 +17,10 @@ if device == "cuda":
     torch.cuda.empty_cache()
     print("Memória da GPU liberada.")
 
-# Caminhos dos arquivos CSV
-train_csv_path = "../poemas/poemas300/train/frances_ingles_train.csv"
-val_csv_path = "../poemas/poemas300/validation/frances_ingles_validation.csv"
+
+# Definir caminhos dos arquivos CSV (ajuste conforme necessário)
+train_csv_path = "/content/frances_portugues_train.csv"
+val_csv_path = "/content/frances_portugues_validation.csv"
 
 # Carregar os dados dos CSVs como Dataset Hugging Face
 def load_data(csv_path):
@@ -40,7 +43,7 @@ except Exception as e:
 
 # Escolher o modelo base do MarianMT
 try:
-    model_name = "Helsinki-NLP/opus-mt-fr-en"  # Troque pelo idioma correto
+    model_name = "Helsinki-NLP/opus-mt-fr-en"  # Ajuste o modelo conforme necessário
     tokenizer = MarianTokenizer.from_pretrained(model_name)
     model = MarianMTModel.from_pretrained(model_name).to(device)
 except Exception as e:
@@ -69,20 +72,18 @@ except Exception as e:
 # Configurar os parâmetros do treinamento
 try:
     training_args = Seq2SeqTrainingArguments(
-        output_dir="/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles",
-        eval_strategy="epoch",  # Avaliar por época
+        output_dir="/content/finetuning/marianMT/marianMT_frances_portugues",
+        eval_strategy="epoch",
         learning_rate=2e-5,
         per_device_train_batch_size=8,
         per_device_eval_batch_size=8,
         weight_decay=0.01,
-        save_total_limit=3,
+        #save_total_limit=3,
         num_train_epochs=3,
         predict_with_generate=True,
         fp16=torch.cuda.is_available(),  # Usa FP16 se GPU suportar
-        save_strategy="epoch",  # Salva modelo por época
-        report_to="none",  # Evita logs desnecessários
-        logging_dir='/home/ubuntu/logs',  # Log para monitorar o loss
-        logging_steps=1,  # Frequência de logs
+        save_strategy="epoch",
+        report_to="none"  # Evita logs desnecessários
     )
 except Exception as e:
     print(f"Erro ao configurar os parâmetros de treinamento: {e}")
@@ -104,24 +105,15 @@ except Exception as e:
 
 # Iniciar o treinamento
 try:
-    # Treinamento
     trainer.train()
 except Exception as e:
     print(f"Erro durante o treinamento: {e}")
     exit(1)
 
-# Após o treinamento, pegar a perda e as épocas
-train_results = trainer.evaluate()
-
-# Mostrar os resultados da perda por época
-print("Resultados do treinamento:")
-print(f"Perda no final do treinamento: {train_results['eval_loss']}")
-print(f"Perda no final da última época: {train_results['eval_loss']}")
-
 # Salvar o modelo treinado
 try:
-    model.save_pretrained("/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles")
-    tokenizer.save_pretrained("/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles")
+    model.save_pretrained("/content/marianMT_frances_portugues")
+    tokenizer.save_pretrained("/content/marianMT_frances_portugues")
     print("Fine-tuning finalizado e modelo salvo.")
 except Exception as e:
     print(f"Erro ao salvar o modelo: {e}")
@@ -134,3 +126,9 @@ print(f"Tempo total de execução: {elapsed_time:.2f} segundos")
 
 print(f"Tamanho do dataset de treino: {len(train_dataset)}")
 print(f"Tamanho do dataset de validação: {len(val_dataset)}")
+
+# Compactar diretamente sem salvar em outra pasta
+shutil.make_archive("/content/marianMT_frances_portugues", 'zip', "/content/marianMT_frances_portugues")
+
+# Baixar o arquivo compactado
+files.download("/content/marianMT_frances_portugues.zip")
