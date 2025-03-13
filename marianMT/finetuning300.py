@@ -1,6 +1,6 @@
 import torch
 import pandas as pd
-from datasets import load_dataset, Dataset
+from datasets import Dataset
 from transformers import MarianMTModel, MarianTokenizer, Seq2SeqTrainer, Seq2SeqTrainingArguments, DataCollatorForSeq2Seq
 
 # Verificar se há GPU disponível
@@ -32,18 +32,34 @@ except Exception as e:
 
 # Escolher o modelo base do MarianMT
 try:
-    model_name = "Helsinki-NLP/opus-mt-fr-en"  # Troque pelo idioma correto
+    model_name = "Helsinki-NLP/opus-mt-fr-en"  # Modelo para tradução de francês para inglês
     tokenizer = MarianTokenizer.from_pretrained(model_name)
     model = MarianMTModel.from_pretrained(model_name).to(device)
 except Exception as e:
     print(f"Erro ao carregar o modelo ou tokenizer: {e}")
     exit(1)
 
+# Função para dividir poemas em partes menores
+def split_poem(poem, max_tokens=512):
+    # Tokenizar o poema sem adicionar tokens especiais (como [CLS] ou [SEP])
+    tokens = tokenizer.encode(poem, add_special_tokens=False)
+    
+    # Dividir os tokens em partes de no máximo `max_tokens`
+    parts = [tokens[i:i + max_tokens] for i in range(0, len(tokens), max_tokens)]
+    
+    # Decodificar as partes de volta para texto
+    return [tokenizer.decode(part) for part in parts]
+
 # Função de pré-processamento dos textos
 def preprocess_function(examples):
     try:
-        inputs = tokenizer(examples["original_poem"], padding="max_length", truncation=True, max_length=512)  # Ajuste o max_length
-        targets = tokenizer(examples["translated_poem"], padding="max_length", truncation=True, max_length=512)
+        # Dividir poemas longos em partes menores
+        original_parts = split_poem(examples["original_poem"])
+        translated_parts = split_poem(examples["translated_poem"])
+
+        # Tokenizar cada parte
+        inputs = tokenizer(original_parts, padding="max_length", truncation=True, max_length=512)
+        targets = tokenizer(translated_parts, padding="max_length", truncation=True, max_length=512)
         inputs["labels"] = targets["input_ids"]
         return inputs
     except Exception as e:
@@ -61,7 +77,7 @@ except Exception as e:
 # Configurar os parâmetros do treinamento
 try:
     training_args = Seq2SeqTrainingArguments(
-        output_dir="../fineTuning/marianMT",
+        output_dir="/home/ubuntu/finetuning/marianMT",
         evaluation_strategy="epoch",
         learning_rate=2e-5,
         per_device_train_batch_size=8,
@@ -101,8 +117,8 @@ except Exception as e:
 
 # Salvar o modelo treinado
 try:
-    model.save_pretrained("../fineTuning/marianMT_frances_ingles")
-    tokenizer.save_pretrained("../fineTuning/marianMT_frances_ingles")
+    model.save_pretrained("/home/ubuntu/finetuning/marianMT_frances_ingles")
+    tokenizer.save_pretrained("/home/ubuntu/finetuning/marianMT_frances_ingles")
     print("Fine-tuning finalizado e modelo salvo.")
 except Exception as e:
     print(f"Erro ao salvar o modelo: {e}")
