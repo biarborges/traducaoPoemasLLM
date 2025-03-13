@@ -1,4 +1,4 @@
-from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
+from transformers import MarianMTModel, MarianTokenizer
 import torch
 import pandas as pd
 import os
@@ -6,12 +6,8 @@ from tqdm import tqdm
 import warnings
 warnings.filterwarnings("ignore")
 
-# Caminho do modelo treinado
-model_path = os.path.abspath("../modelos/mbart/finetuned_mbart")
-
-# Carregar modelo e tokenizer
-model = MBartForConditionalGeneration.from_pretrained(model_path)
-tokenizer = MBart50TokenizerFast.from_pretrained(model_path)
+model = MarianMTModel.from_pretrained("/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles/checkpoint-81")
+tokenizer = MarianTokenizer.from_pretrained("/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles/checkpoint-81")
 
 # Configurar para GPU se disponível
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
