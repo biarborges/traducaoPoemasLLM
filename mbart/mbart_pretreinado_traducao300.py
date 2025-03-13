@@ -13,12 +13,12 @@ tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
 model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
 
 # Definir idiomas
-SRC_LANG = "pt_XX"
-TGT_LANG = "fr_XX"
+SRC_LANG = "fr_XX"
+TGT_LANG = "en_XX"
 
 # Carregar CSV
-input_file = os.path.abspath("../poemas/poemas300/portugues_frances_poems.csv")
-output_file = os.path.abspath("../poemas/poemas300/mbart/portugues_frances_poems_traducao_mbart.csv")
+input_file = os.path.abspath("../poemas/poemas300/frances_ingles_poems.csv")
+output_file = os.path.abspath("../poemas/poemas300/mbart/frances_ingles_poems_traducao_mbart.csv")
 
 df = pd.read_csv(input_file)
 
