@@ -61,7 +61,7 @@ except Exception as e:
 # Configurar os parâmetros do treinamento
 try:
     training_args = Seq2SeqTrainingArguments(
-        output_dir="/home/ubuntu/finetuning/marianMT_frances_ingles",
+        output_dir="/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles",
         eval_strategy="epoch",
         learning_rate=2e-5,
         per_device_train_batch_size=8,
