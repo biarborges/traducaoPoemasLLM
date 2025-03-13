@@ -108,3 +108,8 @@ try:
 except Exception as e:
     print(f"Erro ao salvar o modelo: {e}")
     exit(1)
+
+print(f"Tamanho do dataset de treino: {len(train_dataset)}")
+print(f"Tamanho do dataset de validação: {len(val_dataset)}")
+trainer.train().log()
+
