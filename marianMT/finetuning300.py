@@ -102,8 +102,8 @@ except Exception as e:
 
 # Salvar o modelo treinado
 try:
-    model.save_pretrained("/home/ubuntu/finetuning/marianMT_frances_ingles")
-    tokenizer.save_pretrained("/home/ubuntu/finetuning/marianMT_frances_ingles")
+    model.save_pretrained("/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles")
+    tokenizer.save_pretrained("/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles")
     print("Fine-tuning finalizado e modelo salvo.")
 except Exception as e:
     print(f"Erro ao salvar o modelo: {e}")
