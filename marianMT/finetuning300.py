@@ -70,7 +70,7 @@ try:
         learning_rate=2e-5,
         per_device_train_batch_size=8,
         per_device_eval_batch_size=8,
-        weight_decay=0.1,
+        weight_decay=0.01,
         save_total_limit=3,
         num_train_epochs=3,
         #logging_steps=10,
