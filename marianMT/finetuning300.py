@@ -1,7 +1,11 @@
 import torch
 import pandas as pd
+import time
 from datasets import load_dataset, Dataset
 from transformers import MarianMTModel, MarianTokenizer, Seq2SeqTrainer, Seq2SeqTrainingArguments, DataCollatorForSeq2Seq
+
+# Marcar o início do tempo
+start_time = time.time()
 
 # Verificar se há GPU disponível
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -73,11 +77,9 @@ try:
         weight_decay=0.01,
         save_total_limit=3,
         num_train_epochs=3,
-        #logging_steps=10,
         predict_with_generate=True,
         fp16=torch.cuda.is_available(),  # Usa FP16 se GPU suportar
         save_strategy="epoch",
-        #gradient_accumulation_steps=2,
         report_to="none"  # Evita logs desnecessários
     )
 except Exception as e:
@@ -114,7 +116,10 @@ except Exception as e:
     print(f"Erro ao salvar o modelo: {e}")
     exit(1)
 
+# Calcular o tempo de execução
+end_time = time.time()
+elapsed_time = end_time - start_time
+print(f"Tempo total de execução: {elapsed_time:.2f} segundos")
+
 print(f"Tamanho do dataset de treino: {len(train_dataset)}")
 print(f"Tamanho do dataset de validação: {len(val_dataset)}")
-trainer.train()
-
