@@ -12,8 +12,8 @@ if device == "cuda":
     print("Memória da GPU liberada.")
 
 # Caminhos dos arquivos CSV
-train_csv_path = "../poemas/poemas300/frances_ingles_poems.csv"
-val_csv_path = "../poemas/validation/frances_ingles_validation.csv"
+train_csv_path = "../poemas/poemas300/train/frances_ingles_train.csv"
+val_csv_path = "../poemas/poemas300/validation/frances_ingles_validation.csv"
 
 # Carregar os dados dos CSVs como Dataset Hugging Face
 def load_data(csv_path):
@@ -71,13 +71,13 @@ try:
         per_device_train_batch_size=8,
         per_device_eval_batch_size=8,
         weight_decay=0.1,
-        save_total_limit=3,
-        num_train_epochs=1,
-        logging_steps=10,
+        save_total_limit=4,
+        num_train_epochs=4,
+        #logging_steps=10,
         predict_with_generate=True,
         fp16=torch.cuda.is_available(),  # Usa FP16 se GPU suportar
         save_strategy="epoch",
-        gradient_accumulation_steps=2,
+        #gradient_accumulation_steps=2,
         report_to="none"  # Evita logs desnecessários
     )
 except Exception as e:

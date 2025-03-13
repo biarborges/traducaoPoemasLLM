@@ -2,7 +2,7 @@ import csv
 import os
 
 # Nome do arquivo CSV
-csv_file = os.path.abspath("../modelos/poemas/poemas300/portugues_frances_poems.csv")
+csv_file = os.path.abspath("../traducaoPoemasLLM/poemas/poemas300/validation/frances_ingles_validation.csv")
 
 # Inicializar o contador de poemas
 poem_count = 0
