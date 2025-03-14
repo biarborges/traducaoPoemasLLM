@@ -83,14 +83,14 @@ try:
         per_device_train_batch_size=8,
         per_device_eval_batch_size=8,
         weight_decay=0.01,
-        save_total_limit=3,
-        num_train_epochs=3,
+        save_total_limit=1,
+        num_train_epochs=5,
         predict_with_generate=True,
         fp16=torch.cuda.is_available(),  # Usa FP16 se GPU suportar
         save_strategy="epoch",  # Salva modelo por época
         report_to="none",  # Evita logs desnecessários
         logging_dir='/home/ubuntu/logs',  # Log para monitorar o loss
-        logging_steps=1,  # Frequência de logs
+        logging_steps=10,  # Frequência de logs
     )
 except Exception as e:
     print(f"Erro ao configurar os parâmetros de treinamento: {e}")
