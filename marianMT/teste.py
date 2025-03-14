@@ -1,12 +1,28 @@
-import os
-import pandas as pd
 import torch
 from transformers import MarianMTModel, MarianTokenizer
 
 # Caminhos dos arquivos
 model_path = "/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles/checkpoint-90"
-input_file = os.path.abspath("../poemas/poemas300/test/frances_ingles_test.csv")
-output_file = os.path.abspath("../poemas/poemas300/marianmt/frances_ingles_test_traducao_marianmt.csv")
+
+# Poema de entrada
+poema_original = """
+je m’éveillai, c’était la maison natale,
+il faisait nuit, des arbres se pressaient
+de toutes parts autour de notre porte,
+j’étais seul sur le seuil dans le vent froid,
+mais non, nullement seul, car deux grands êtres
+se parlaient au-dessus de moi, à travers moi.
+l’un, derrière, une vieille femme, courbe, mauvaise,
+l’autre debout dehors comme une lampe,
+belle, tenant la coupe qu’on lui offrait,
+buvant avidement de toute sa soif.
+ai-je voulu me moquer, certes non,
+plutôt ai-je poussé un cri d’amour
+mais avec la bizarrerie du désespoir,
+et le poison fut partout dans mes membres,
+cérès moquée brisa qui l’avait aimée.
+ainsi parle aujourd’hui la vie murée dans la vie.
+"""
 
 # Verificar dispositivo
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -16,32 +32,13 @@ print(f"Usando dispositivo: {device}")
 model = MarianMTModel.from_pretrained(model_path).to(device)
 tokenizer = MarianTokenizer.from_pretrained(model_path)
 
-# Carregar dados do CSV
-df = pd.read_csv(input_file)
+# Preparar o texto para tradução
+inputs = tokenizer(poema_original, return_tensors="pt", padding=True, truncation=True, max_length=512).to(device)
 
-# Traduzir cada poema em lotes
-batch_size = 8  # Defina um tamanho de lote (ajuste conforme sua memória)
-translated_texts = []
+# Gerar tradução
+translated_ids = model.generate(**inputs)
 
-# Função para processar lotes
-def translate_batch(batch):
-    inputs = tokenizer(batch, return_tensors="pt", padding=True, truncation=True, max_length=512).to(device)
-    translated_ids = model.generate(**inputs)
-    return [tokenizer.decode(t, skip_special_tokens=True) for t in translated_ids]
+# Decodificar a tradução
+translated_text = tokenizer.decode(translated_ids[0], skip_special_tokens=True)
 
-# Traduzir em lotes
-for i in range(0, len(df), batch_size):
-    batch = df["original_poem"][i:i+batch_size].tolist()
-    translated_batch = translate_batch(batch)
-    translated_texts.extend(translated_batch)
-
-# Adicionar a coluna com a tradução
-df["translated_by_marian"] = translated_texts
-
-# Reorganizar as colunas
-df = df[["original_poem", "translated_poem", "translated_by_marian", "src_lang", "tgt_lang"]]
-
-# Salvar no novo CSV
-df.to_csv(output_file, index=False)
-
-print(f"Tradução concluída! Arquivo salvo.")
+print(translated_text)
