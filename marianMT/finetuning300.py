@@ -1,7 +1,7 @@
 import torch
 import pandas as pd
 import time
-from datasets import Dataset
+from datasets import load_dataset, Dataset
 from transformers import MarianMTModel, MarianTokenizer, Seq2SeqTrainer, Seq2SeqTrainingArguments, DataCollatorForSeq2Seq
 
 # Marcar o início do tempo
@@ -70,7 +70,7 @@ except Exception as e:
 try:
     training_args = Seq2SeqTrainingArguments(
         output_dir="/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles",
-        eval_strategy="epoch",
+        eval_strategy="epoch",  # Avaliar por época
         learning_rate=2e-5,
         per_device_train_batch_size=8,
         per_device_eval_batch_size=8,
@@ -79,8 +79,10 @@ try:
         num_train_epochs=3,
         predict_with_generate=True,
         fp16=torch.cuda.is_available(),  # Usa FP16 se GPU suportar
-        save_strategy="epoch",
-        report_to="none"  # Evita logs desnecessários
+        save_strategy="epoch",  # Salva modelo por época
+        report_to="none",  # Evita logs desnecessários
+        logging_dir='/home/ubuntu/logs',  # Log para monitorar o loss
+        logging_steps=1,  # Frequência de logs
     )
 except Exception as e:
     print(f"Erro ao configurar os parâmetros de treinamento: {e}")
@@ -102,10 +104,18 @@ except Exception as e:
 
 # Iniciar o treinamento
 try:
+    # Treinamento
     trainer.train()
 except Exception as e:
     print(f"Erro durante o treinamento: {e}")
     exit(1)
+
+# Após o treinamento, pegar a perda e as épocas
+train_results = trainer.evaluate()
+
+# Mostrar os resultados da perda por época
+print("Resultados do treinamento:")
+print(f"Perda no final da última época: {train_results['eval_loss']}")
 
 # Salvar o modelo treinado
 try:
