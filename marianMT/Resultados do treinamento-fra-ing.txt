@@ -1,5 +1,4 @@
 Resultados do treinamento:
-Perda no final do treinamento: 2.017117977142334
 Perda no final da última época: 2.017117977142334
 Fine-tuning finalizado e modelo salvo.
 Tempo total de execução: 122.36 segundos
