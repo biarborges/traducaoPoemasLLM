@@ -107,6 +107,16 @@ except Exception as e:
     print(f"Erro durante o treinamento: {e}")
     exit(1)
 
+last_loss = None
+for log in trainer.state.log_history:
+    if "loss" in log:
+        last_loss = log["loss"]
+
+if last_loss is not None:
+    print(f"Última loss registrada: {last_loss:.4f}")
+else:
+    print("Nenhuma loss registrada.")
+
 # Salvar o modelo treinado
 try:
     model.save_pretrained("/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles")
@@ -123,8 +133,3 @@ print(f"Tempo total de execução: {elapsed_time:.2f} segundos")
 
 print(f"Tamanho do dataset de treino: {len(train_dataset)}")
 print(f"Tamanho do dataset de validação: {len(val_dataset)}")
-
-last_loss = trainer.state.log_history[-1].get("loss", None)
-
-if last_loss is not None:
-    print(f"Última loss registrada: {last_loss:.4f}")
