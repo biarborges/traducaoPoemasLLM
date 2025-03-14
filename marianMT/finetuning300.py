@@ -75,11 +75,11 @@ try:
         per_device_train_batch_size=8,
         per_device_eval_batch_size=8,
         weight_decay=0.01,
-        save_total_limit=3,
+        #save_total_limit=3,
         num_train_epochs=3,
         predict_with_generate=True,
         fp16=torch.cuda.is_available(),  # Usa FP16 se GPU suportar
-        save_strategy="epoch",  # Salva modelo por época
+        #save_strategy="epoch",  # Salva modelo por época
         report_to="none",  # Evita logs desnecessários
         logging_dir='/home/ubuntu/logs',  # Log para monitorar o loss
         logging_steps=1,  # Frequência de logs
@@ -115,7 +115,6 @@ train_results = trainer.evaluate()
 
 # Mostrar os resultados da perda por época
 print("Resultados do treinamento:")
-print(f"Perda no final do treinamento: {train_results['eval_loss']}")
 print(f"Perda no final da última época: {train_results['eval_loss']}")
 
 # Salvar o modelo treinado
