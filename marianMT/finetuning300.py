@@ -44,7 +44,7 @@ except Exception as e:
     exit(1)
 
 # Configurar o optimizer
-optimizer = AdamW(model.parameters(), lr=5e-5, weight_decay=0.01)
+optimizer = AdamW(model.parameters(), weight_decay=0.01)
 
 # Configurar o scheduler
 num_training_steps = len(train_dataset) * 3  # Número total de passos (épocas * tamanho do dataset)
@@ -84,7 +84,7 @@ try:
         per_device_eval_batch_size=8,
         weight_decay=0.01,
         save_total_limit=1,
-        num_train_epochs=5,
+        num_train_epochs=2,
         predict_with_generate=True,
         fp16=torch.cuda.is_available(),  # Usa FP16 se GPU suportar
         save_strategy="epoch",  # Salva modelo por época
