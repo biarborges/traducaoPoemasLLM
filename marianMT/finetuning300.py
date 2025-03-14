@@ -87,7 +87,7 @@ try:
     training_args = Seq2SeqTrainingArguments(
         output_dir="/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles",
         eval_strategy="epoch",  # Substitua evaluation_strategy por eval_strategy
-        learning_rate=5e-5,
+        learning_rate=2e-5,
         per_device_train_batch_size=8,
         per_device_eval_batch_size=8,
         weight_decay=0.01,
