@@ -17,7 +17,7 @@ tokenizer = MarianTokenizer.from_pretrained("/home/ubuntu/finetuning/marianMT/ma
 
 # Carregar CSV
 input_file = os.path.abspath("../poemas/poemas300/test/frances_ingles_test.csv")
-output_file = os.path.abspath("../poemas/poemas300/test/marianmt/frances_ingles_test_traducao_marianmt.csv")
+output_file = os.path.abspath("../poemas/poemas300/marianmt/frances_ingles_test_traducao_marianmt.csv")
 
 df = pd.read_csv(input_file)
 
