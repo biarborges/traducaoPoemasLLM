@@ -1,8 +1,8 @@
 import torch
 import pandas as pd
 import time
-from datasets import load_dataset, Dataset
-from transformers import MarianMTModel, MarianTokenizer, Seq2SeqTrainer, Seq2SeqTrainingArguments, DataCollatorForSeq2Seq
+from datasets import Dataset
+from transformers import AdamW, get_scheduler, MarianMTModel, MarianTokenizer, Seq2SeqTrainer, Seq2SeqTrainingArguments, DataCollatorForSeq2Seq
 
 # Marcar o início do tempo
 start_time = time.time()
@@ -10,10 +10,6 @@ start_time = time.time()
 # Verificar se há GPU disponível
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Usando dispositivo: {device}")
-
-if device == "cuda":
-    torch.cuda.empty_cache()
-    print("Memória da GPU liberada.")
 
 # Caminhos dos arquivos CSV
 train_csv_path = "../poemas/poemas300/train/frances_ingles_train.csv"
@@ -40,12 +36,24 @@ except Exception as e:
 
 # Escolher o modelo base do MarianMT
 try:
-    model_name = "Helsinki-NLP/opus-mt-tc-big-fr-en"  # Troque pelo idioma correto
+    model_name = "Helsinki-NLP/opus-mt-tc-big-fr-en"  # Modelo para tradução de francês para inglês
     tokenizer = MarianTokenizer.from_pretrained(model_name)
     model = MarianMTModel.from_pretrained(model_name).to(device)
 except Exception as e:
     print(f"Erro ao carregar o modelo ou tokenizer: {e}")
     exit(1)
+
+# Configurar o optimizer
+optimizer = AdamW(model.parameters(), lr=5e-5, weight_decay=0.01)
+
+# Configurar o scheduler
+num_training_steps = len(train_dataset) * 3  # Número total de passos (épocas * tamanho do dataset)
+lr_scheduler = get_scheduler(
+    "linear",
+    optimizer=optimizer,
+    num_warmup_steps=0,
+    num_training_steps=num_training_steps
+)
 
 # Função de pré-processamento dos textos
 def preprocess_function(examples):
@@ -70,7 +78,7 @@ except Exception as e:
 try:
     training_args = Seq2SeqTrainingArguments(
         output_dir="/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles",
-        eval_strategy="epoch",  # Avaliar por época
+        evaluation_strategy="epoch",  # Avaliar por época
         learning_rate=5e-5,
         per_device_train_batch_size=8,
         per_device_eval_batch_size=8,
@@ -83,8 +91,6 @@ try:
         report_to="none",  # Evita logs desnecessários
         logging_dir='/home/ubuntu/logs',  # Log para monitorar o loss
         logging_steps=1,  # Frequência de logs
-        num_beams=5,  # Aumente o número de feixes
-        temperature=0.7
     )
 except Exception as e:
     print(f"Erro ao configurar os parâmetros de treinamento: {e}")
@@ -98,6 +104,7 @@ try:
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
         tokenizer=tokenizer,
+        optimizers=(optimizer, lr_scheduler),  # Passar o optimizer e o scheduler
         data_collator=DataCollatorForSeq2Seq(tokenizer, model=model),
     )
 except Exception as e:
