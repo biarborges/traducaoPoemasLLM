@@ -40,7 +40,7 @@ except Exception as e:
 
 # Escolher o modelo base do MarianMT
 try:
-    model_name = "Helsinki-NLP/opus-mt-fr-en"  # Troque pelo idioma correto
+    model_name = "Helsinki-NLP/opus-mt-tc-big-fr-en"  # Troque pelo idioma correto
     tokenizer = MarianTokenizer.from_pretrained(model_name)
     model = MarianMTModel.from_pretrained(model_name).to(device)
 except Exception as e:
@@ -71,7 +71,7 @@ try:
     training_args = Seq2SeqTrainingArguments(
         output_dir="/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles",
         eval_strategy="epoch",  # Avaliar por época
-        learning_rate=2e-5,
+        learning_rate=5e-5,
         per_device_train_batch_size=8,
         per_device_eval_batch_size=8,
         weight_decay=0.01,
@@ -83,6 +83,8 @@ try:
         report_to="none",  # Evita logs desnecessários
         logging_dir='/home/ubuntu/logs',  # Log para monitorar o loss
         logging_steps=1,  # Frequência de logs
+        num_beams=5,  # Aumente o número de feixes
+        temperature=0.7
     )
 except Exception as e:
     print(f"Erro ao configurar os parâmetros de treinamento: {e}")
