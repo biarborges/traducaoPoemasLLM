@@ -100,6 +100,18 @@ except Exception as e:
     print(f"Erro ao criar o trainer: {e}")
     exit(1)
 
+
+class LossCallback:
+    def __init__(self):
+        self.last_loss = None
+
+    def on_log(self, args, state, control, logs=None, **kwargs):
+        if logs and "loss" in logs:
+            self.last_loss = logs["loss"]
+
+loss_callback = LossCallback()
+trainer.add_callback(loss_callback)
+
 # Iniciar o treinamento
 try:
     trainer.train()
@@ -133,3 +145,4 @@ print(f"Tempo total de execução: {elapsed_time:.2f} segundos")
 
 print(f"Tamanho do dataset de treino: {len(train_dataset)}")
 print(f"Tamanho do dataset de validação: {len(val_dataset)}")
+print(f"Última loss registrada: {loss_callback.last_loss:.4f}" if loss_callback.last_loss else "Nenhuma loss registrada.")
