@@ -5,8 +5,8 @@ from transformers import MarianMTModel, MarianTokenizer
 
 # Caminhos dos arquivos
 model_path = "/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles/checkpoint-90"
-input_file = os.path.abspath("../poemas/poemas300/test/frances_ingles_test.csv")
-output_file = os.path.abspath("../poemas/poemas300/marianmt/frances_ingles_test_traducao_marianmt.csv")
+input_file = os.path.abspath("../poemas/poemas300/test/frances_ingles_test2.csv")
+output_file = os.path.abspath("../poemas/poemas300/marianmt/frances_ingles_test_traducao_marianmt2.csv")
 
 # Verificar dispositivo
 device = "cuda" if torch.cuda.is_available() else "cpu"
