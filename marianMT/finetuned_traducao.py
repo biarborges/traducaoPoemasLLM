@@ -1,7 +1,10 @@
 import torch
 import os
 import pandas as pd
+import time
 from transformers import MarianMTModel, MarianTokenizer
+
+start_time = time.time()
 
 # Caminhos dos arquivos
 #model_path = "../traducaoPoemasLLM/finetuning/marianMT/marianMT_frances_portugues/checkpoint-90"
@@ -44,3 +47,7 @@ df = df[["original_poem", "translated_poem", "translated_by_marian", "src_lang",
 df.to_csv(output_file, index=False)
 
 print(f"Tradução concluída! Arquivo salvo em {output_file}.")
+
+end_time = time.time()
+elapsed_time = end_time - start_time
+print(f"Tempo total de execução: {elapsed_time:.2f} segundos")
