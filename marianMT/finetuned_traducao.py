@@ -4,9 +4,10 @@ import pandas as pd
 from transformers import MarianMTModel, MarianTokenizer
 
 # Caminhos dos arquivos
-model_path = "/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles/checkpoint-150"
-input_file = os.path.abspath("../poemas/poemas300/test/frances_ingles_test.csv")
-output_file = os.path.abspath("../poemas/poemas300/marianmt/frances_ingles_test_traducao_marianmt3.csv")
+model_path = "../traducaoPoemasLLM/finetuning/marianMT/marianMT_frances_ingles/checkpoint-90"
+#model_path = "/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles/checkpoint-150"
+input_file = os.path.abspath("../traducaoPoemasLLM/poemas/poemas300/test/frances_ingles_test.csv")
+output_file = os.path.abspath("../traducaoPoemasLLM/poemas/poemas300/marianmt/frances_ingles_test_traducao_marianmt3.csv")
 
 # Verificar dispositivo
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -36,6 +37,8 @@ for poem in df["original_poem"]:
 
 # Adicionar a coluna com a tradução ao DataFrame
 df["translated_by_marian"] = translated_texts
+
+df = df[["original_poem", "translated_poem", "translated_by_marian", "src_lang", "tgt_lang"]]
 
 # Salvar o novo CSV com as traduções
 df.to_csv(output_file, index=False)
