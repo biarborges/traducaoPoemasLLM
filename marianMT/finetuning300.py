@@ -77,7 +77,7 @@ try:
         per_device_eval_batch_size=4,
         weight_decay=0.01,
         save_total_limit=1,
-        num_train_epochs=3,
+        num_train_epochs=8,
         predict_with_generate=True,
         fp16=torch.cuda.is_available(),  # Usa FP16 se GPU suportar
         save_strategy="epoch",
