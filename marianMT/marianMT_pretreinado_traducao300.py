@@ -26,36 +26,28 @@ df = pd.read_csv(input_file)
 if "original_poem" not in df.columns:
     raise ValueError("A coluna 'original_poem' não foi encontrada no CSV.")
 
-# Função para traduzir um poema
-def traduzir_texto(texto):
-    texto_com_prefixo = f">>en<< {texto}"  #lingua destino
+# Função para traduzir textos em batch
+def traduzir_textos(textos, batch_size=8):
+    textos_com_prefixo = [">>en<< " + texto for texto in textos]  # Adiciona o prefixo de idioma
     
-    # Dividir o poema em estrofes (ou versos) usando o separador de linha
-    estrofes = texto_com_prefixo.split('\n')
-
-    traducao_completa = []
-    # Barra de progresso para estrofes dentro de cada poema
-    for estrofe in tqdm(estrofes, desc="Traduzindo estrofes", unit="estrofe"):
-        # Tokenizar e traduzir cada estrofe separadamente
-        encoded = tokenizer(estrofe, return_tensors="pt", truncation=True, padding="max_length", max_length=512)
-        encoded = {key: value.to(device) for key, value in encoded.items()}  # Mover os dados para a GPU
+    traducoes = []
+    for i in tqdm(range(0, len(textos_com_prefixo), batch_size), desc="Traduzindo", unit="batch"):
+        batch = textos_com_prefixo[i:i+batch_size]
+        
+        encoded = tokenizer(batch, return_tensors="pt", padding=True, truncation=True, max_length=512)
+        encoded = {key: value.to(device) for key, value in encoded.items()}  # Mover para GPU
+        
         with torch.no_grad():
-            generated_tokens = model.generate(**encoded)
-        traducao_completa.append(tokenizer.decode(generated_tokens[0], skip_special_tokens=True))
+            with torch.cuda.amp.autocast():  # Ativar FP16 para maior velocidade
+                generated_tokens = model.generate(**encoded)
+        
+        batch_traduzido = tokenizer.batch_decode(generated_tokens, skip_special_tokens=True)
+        traducoes.extend(batch_traduzido)
+    
+    return traducoes
 
-    # Juntar as estrofes traduzidas de volta
-    return '\n'.join(traducao_completa)
-
-# Função para traduzir todos os poemas com contador global
-def traduzir_com_contador(row, index, total_poemas):
-    print(f"Traduzindo poema {index+1}/{total_poemas}")
-    return traduzir_texto(row["original_poem"])
-
-# Barra de progresso para poemas
-tqdm.pandas(desc="Traduzindo poemas", total=len(df))
-
-# Aplicar a tradução para cada linha do CSV com barra de progresso para os poemas
-df["translated_by_marian"] = [traduzir_com_contador(row, index, len(df)) for index, row in tqdm(df.iterrows(), total=len(df), desc="Traduzindo poemas")]
+# Aplicar a tradução para todos os poemas
+df["translated_by_marian"] = traduzir_textos(df["original_poem"].tolist())
 
 # Reorganizar as colunas na ordem desejada
 df = df[["original_poem", "translated_poem", "translated_by_marian", "src_lang", "tgt_lang"]]
