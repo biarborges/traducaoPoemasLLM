@@ -2,22 +2,23 @@ import pandas as pd
 from transformers import MarianMTModel, MarianTokenizer
 import os
 import torch
+import time
 from tqdm import tqdm
+
+start_time = time.time()
 
 # Verificar GPU
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Carregar modelo e tokenizer do MarianMT
-model = MarianMTModel.from_pretrained("/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles/checkpoint-90").to(device)
-tokenizer = MarianTokenizer.from_pretrained("/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles/checkpoint-90")
-#model_name = "Helsinki-NLP/opus-mt-ROMANCE-en"  
-#tokenizer = MarianTokenizer.from_pretrained(model_name)
-#model = MarianMTModel.from_pretrained(model_name).to(device)
+model_name = "Helsinki-NLP/opus-mt-ROMANCE-en"  
+tokenizer = MarianTokenizer.from_pretrained(model_name)
+model = MarianMTModel.from_pretrained(model_name).to(device)
 
 # Carregar CSV
-input_file = os.path.abspath("../poemas/poemas300/test/frances_ingles_test.csv")
-output_file = os.path.abspath("../poemas/poemas300/marianmt/frances_ingles_test_traducao_marianmt.csv")
+input_file = os.path.abspath("../poemas/poemas300/frances_ingles_poems.csv")
+output_file = os.path.abspath("../poemas/poemas300/marianmt/frances_ingles_traducao_marianmt.csv")
 
 df = pd.read_csv(input_file)
 
@@ -63,3 +64,7 @@ df = df[["original_poem", "translated_poem", "translated_by_marian", "src_lang",
 df.to_csv(output_file, index=False, encoding="utf-8")
 
 print(f"Tradução concluída! Arquivo salvo como {output_file}")
+
+end_time = time.time()
+elapsed_time = end_time - start_time
+print(f"Tempo total de execução: {elapsed_time:.2f} segundos")
