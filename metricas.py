@@ -4,6 +4,15 @@ import os
 import warnings
 warnings.filterwarnings("ignore")
 
+# Verificar se o recurso punkt_tab está disponível
+try:
+    nltk.data.find('tokenizers/punkt_tab')
+    print("nltk ok.")
+except LookupError:
+    print("baixando nltk...")
+    nltk.download('punkt_tab')
+
+
 
 input_file = os.path.abspath("../TraducaoPoemasLLM/poemas/poemas300/marianmt/frances_ingles_test_finetuning_marianmt2.csv")
 
