@@ -1,3 +1,4 @@
+#esse aqui é pros 30 pre treinados.
 import torch
 import pandas as pd
 from transformers import MarianMTModel, MarianTokenizer
