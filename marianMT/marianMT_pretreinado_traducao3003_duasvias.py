@@ -10,8 +10,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Modelos para tradução
-model1 = "Helsinki-NLP/opus-mt-fr-en"  # Francês → Inglês
-model2 = "Helsinki-NLP/opus-mt-tc-big-en-pt"  # Inglês → Português
+model1 = "Helsinki-NLP/opus-mt-ROMANCE-en"  # Francês → Inglês
+model2 = "Helsinki-NLP/opus-mt-en-fr"  # Inglês → Português
 
 # Carregar tokenizers e modelos
 tokenizer1 = MarianTokenizer.from_pretrained(model1)
@@ -38,7 +38,7 @@ def traduzir_duas_etapas(poema, tokenizer1, model1, tokenizer2, model2, device):
     # Segunda etapa: Inglês → Português
     traducao_final = []
     for verso in traducao_intermediaria_texto.split("\n"):
-        encoded = tokenizer2(f">>pt<< {verso.strip()}", return_tensors="pt", truncation=True, padding=True, max_length=512)
+        encoded = tokenizer2(f">>fr<< {verso.strip()}", return_tensors="pt", truncation=True, padding=True, max_length=512)
         encoded = {key: value.to(device) for key, value in encoded.items()}
         with torch.no_grad():
             generated_tokens = model2.generate(**encoded, max_length=512, num_beams=5)
@@ -47,7 +47,7 @@ def traduzir_duas_etapas(poema, tokenizer1, model1, tokenizer2, model2, device):
     return "\n".join(traducao_final)
 
 # Carregar o CSV com os poemas
-df = pd.read_csv('../poemas/poemas300/test/frances_portugues_test.csv')
+df = pd.read_csv('../poemas/poemas300/test/portugues_frances_test.csv')
 
 # Aplicar a tradução e salvar apenas a versão final
 df['translated_by_marian'] = df['original_poem'].apply(
@@ -55,7 +55,7 @@ df['translated_by_marian'] = df['original_poem'].apply(
 )
 
 # Salvar o CSV com apenas a tradução final
-df.to_csv('../poemas/poemas300/marianmt/frances_portugues_test_pretreinado_marianmt.csv', index=False)
+df.to_csv('../poemas/poemas300/marianmt/portugues_frances_test_pretreinado_marianmt.csv', index=False)
 
 print("Tradução concluída e salva.")
 
