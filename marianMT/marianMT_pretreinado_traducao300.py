@@ -21,7 +21,7 @@ model = MarianMTModel.from_pretrained(model_name).to(device)
 #input_file = os.path.abspath("../poemas/poemas300/frances_ingles_poems.csv")
 #output_file = os.path.abspath("../poemas/poemas300/marianmt/frances_ingles_traducao_marianmt.csv")
 input_file = os.path.abspath("../poemas/poemas300/test/frances_ingles_test.csv")
-output_file = os.path.abspath("../poemas/poemas300/marianmt/frances_ingles_test_traducao_marianmt2.csv")
+output_file = os.path.abspath("../poemas/poemas300/marianmt/frances_ingles_test_pretreinado_marianmt.csv")
 
 df = pd.read_csv(input_file)
 
