@@ -47,7 +47,7 @@ def traduzir_duas_etapas(poema, tokenizer1, model1, tokenizer2, model2, device):
     return "\n".join(traducao_final)
 
 # Carregar o CSV com os poemas
-df = pd.read_csv('../poemas/poemas300/test/frances_ingles_test.csv')
+df = pd.read_csv('../poemas/poemas300/test/frances_portugues_test.csv')
 
 # Aplicar a tradução e salvar apenas a versão final
 df['translated_by_marian'] = df['original_poem'].apply(
@@ -55,7 +55,7 @@ df['translated_by_marian'] = df['original_poem'].apply(
 )
 
 # Salvar o CSV com apenas a tradução final
-df.to_csv('../poemas/poemas300/marianmt/frances_ingles_test_pretreinado_marianmt.csv', index=False)
+df.to_csv('../poemas/poemas300/marianmt/frances_portugues_test_pretreinado_marianmt.csv', index=False)
 
 print("Tradução concluída e salva.")
 
