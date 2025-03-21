@@ -9,8 +9,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Modelos para tradução
-model_1 = "Helsinki-NLP/opus-mt-ROMANCE-en"  # Primeira etapa 
-model_2 = "Helsinki-NLP/opus-mt-en-fr"  # Segunda etapa 
+model_1 = "Helsinki-NLP/opus-mt-fr-en"  # Primeira etapa 
+model_2 = "Helsinki-NLP/opus-mt-en-pt"  # Segunda etapa 
 
 # Carregar tokenizers e modelos
 tokenizer_1 = MarianTokenizer.from_pretrained(model_1)
@@ -20,8 +20,8 @@ tokenizer_2 = MarianTokenizer.from_pretrained(model_2)
 model_2 = MarianMTModel.from_pretrained(model_2).to(device)
 
 # Carregar CSV
-input_file = os.path.abspath("../modelos/poemas/poemas300/portugues_frances_poems.csv")
-output_file = os.path.abspath("../modelos/poemas/poemas300/marianmt/portugues_frances_poems_traducao_marianmt.csv")
+input_file = os.path.abspath("../poemas/poemas300/test/frances_portugues_test.csv")
+output_file = os.path.abspath("../poemas/poemas300/marianmt/frances_portugues_test_pretreinado_marianmt.csv")
 
 df = pd.read_csv(input_file)
 
@@ -54,10 +54,10 @@ def traduzir_duas_etapas(row):
     print(f"Traduzindo poema {row.name + 1}/{len(df)}")
 
     # Primeira etapa: Francês → Inglês
-    traducao_en = traduzir_texto(row["original_poem"], tokenizer_1, model_1, "pt", "en")
+    traducao_en = traduzir_texto(row["original_poem"], tokenizer_1, model_1, "fr", "en")
 
     # Segunda etapa: Inglês → Português
-    traducao_pt = traduzir_texto(traducao_en, tokenizer_2, model_2, "en", "fr")
+    traducao_pt = traduzir_texto(traducao_en, tokenizer_2, model_2, "en", "pt")
 
     return traducao_pt
 
@@ -66,8 +66,8 @@ tqdm.pandas(desc="Traduzindo poemas")
 df["translated_by_marian"] = df.progress_apply(traduzir_duas_etapas, axis=1)
 
 # Reorganizar colunas
-df["src_lang"] = "pt"
-df["tgt_lang"] = "fr"
+df["src_lang"] = "fr"
+df["tgt_lang"] = "pt"
 df = df[["original_poem", "translated_poem", "translated_by_marian", "src_lang", "tgt_lang"]]
 
 # Salvar em CSV
