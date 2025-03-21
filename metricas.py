@@ -17,7 +17,7 @@ except LookupError:
 
 
 
-input_file = os.path.abspath("../TraducaoPoemasLLM/poemas/poemas300/marianmt/frances_ingles_test_finetuning_marianmt2.csv")
+input_file = os.path.abspath("../TraducaoPoemasLLM/poemas/poemas300/marianmt/frances_ingles_test_finetuning_marianmt.csv")
 
 #BLEU
 
