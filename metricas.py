@@ -4,13 +4,16 @@ import os
 import warnings
 warnings.filterwarnings("ignore")
 
-# Verificar se o recurso punkt_tab está disponível
+# Verificar se o recurso nltk está disponível
 try:
     nltk.data.find('tokenizers/punkt_tab')
-    print("nltk ok.")
+    nltk.data.find('corpora/wordnet')
+    print("punkt_tab ok.")
+    print("wordnet ok.")
 except LookupError:
-    print("baixando nltk...")
+    print("baixando...")
     nltk.download('punkt_tab')
+    nltk.download('wordnet')
 
 
 
