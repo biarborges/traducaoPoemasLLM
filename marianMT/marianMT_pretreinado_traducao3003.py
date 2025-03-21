@@ -1,4 +1,4 @@
-#esse daqui pareceu melhor nos resultados visuais, traduziu todas as frases apesar de muitas terem repetiçoes, mas traduziu tudo!!! 0 300 nao traduziu tudo, mas teve resultados melhores nas métricas. o 3002 é pra ver o poema sozinho.
+#esse daqui pareceu melhor nos resultados visuais, traduziu todas as frases apesar de muitas terem repetiçoes, mas traduziu tudo!!! 0 finetuned_traducao nao traduziu tudo, mas teve resultados melhores nas métricas. o 3002 é pra ver o poema sozinho.
 #mas esse aqui é pros 30 pre treinados.
 import torch
 import pandas as pd
