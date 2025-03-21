@@ -3,6 +3,9 @@
 import torch
 import pandas as pd
 from transformers import MarianMTModel, MarianTokenizer
+import time
+
+start_time = time.time()
 
 # Verificar GPU
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -10,7 +13,7 @@ print(f"Usando dispositivo: {device}")
 
 # Carregar modelo e tokenizer do MarianMT
 #model_name = "/home/ubuntu/finetuning/marianMT/marianMT_portugues_ingles/checkpoint-160"
-model_name = "Helsinki-NLP/opus-mt-tc-big-en-pt"  
+model_name = "Helsinki-NLP/opus-mt-ROMANCE-en"  
 tokenizer = MarianTokenizer.from_pretrained(model_name)
 model = MarianMTModel.from_pretrained(model_name).to(device)
 
@@ -21,7 +24,7 @@ def traduzir_poema(poema, tokenizer, model, device):
 
     # Traduzir verso por verso
     for verso in versos:
-        texto_com_prefixo = f">>pt<< {verso.strip()}"  # Adicionar prefixo da língua
+        texto_com_prefixo = f">>en<< {verso.strip()}"  # Adicionar prefixo da língua
         encoded = tokenizer(texto_com_prefixo, return_tensors="pt", truncation=True, padding=True, max_length=512)
         encoded = {key: value.to(device) for key, value in encoded.items()}  # Mover para GPU
 
@@ -34,12 +37,16 @@ def traduzir_poema(poema, tokenizer, model, device):
     return "\n".join(traducao_completa)
 
 # Carregar o CSV com os poemas
-df = pd.read_csv('../poemas/poemas300/test/ingles_portugues_test.csv')
+df = pd.read_csv('../poemas/poemas300/test/portugues_ingles_test.csv')
 
 # Adicionar a coluna para as traduções
 df['translated_by_marian'] = df['original_poem'].apply(lambda x: traduzir_poema(x, tokenizer, model, device))
 
 # Salvar o CSV com a tradução
-df.to_csv('../poemas/poemas300/marianmt/ingles_portugues_test_pretreinado_marianmt.csv', index=False)
+df.to_csv('../poemas/poemas300/marianmt/portugues_ingles_test_pretreinado_marianmt.csv', index=False)
 
 print("Tradução concluída e salva.")
+
+end_time = time.time()
+elapsed_time = end_time - start_time
+print(f"Tempo total de execução: {elapsed_time:.2f} segundos")
