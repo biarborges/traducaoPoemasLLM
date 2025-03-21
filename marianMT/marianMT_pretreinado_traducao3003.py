@@ -37,13 +37,13 @@ def traduzir_poema(poema, tokenizer, model, device):
     return "\n".join(traducao_completa)
 
 # Carregar o CSV com os poemas
-df = pd.read_csv('../poemas/poemas300/test/frances_ingles_test.csv')
+df = pd.read_csv('../poemas/poemas300/test/ingles_frances_test.csv')
 
 # Adicionar a coluna para as traduções
 df['translated_by_marian'] = df['original_poem'].apply(lambda x: traduzir_poema(x, tokenizer, model, device))
 
 # Salvar o CSV com a tradução
-df.to_csv('../poemas/poemas300/marianmt/frances_ingles_test_pretreinado_marianmt_3003.csv', index=False)
+df.to_csv('../poemas/poemas300/marianmt/ingles_frances_test_pretreinado_marianmt_3003.csv', index=False)
 
 print("Tradução concluída e salva.")
 
