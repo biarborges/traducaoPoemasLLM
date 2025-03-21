@@ -10,7 +10,7 @@ print(f"Usando dispositivo: {device}")
 
 # Modelos para tradução
 model_1 = "Helsinki-NLP/opus-mt-fr-en"  # Primeira etapa 
-model_2 = "Helsinki-NLP/opus-mt-en-pt"  # Segunda etapa 
+model_2 = "Helsinki-NLP/opus-mt-tc-big-en-pt"  # Segunda etapa 
 
 # Carregar tokenizers e modelos
 tokenizer_1 = MarianTokenizer.from_pretrained(model_1)

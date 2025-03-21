@@ -13,7 +13,7 @@ print(f"Usando dispositivo: {device}")
 
 # Carregar modelo e tokenizer do MarianMT
 #model_name = "/home/ubuntu/finetuning/marianMT/marianMT_frances_ingles/checkpoint-90"
-model_name = "Helsinki-NLP/opus-mt-fr-en"  
+model_name = "Helsinki-NLP/opus-mt-tc-big-fr-en"  
 tokenizer = MarianTokenizer.from_pretrained(model_name)
 model = MarianMTModel.from_pretrained(model_name).to(device)
 
