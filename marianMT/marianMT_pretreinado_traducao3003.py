@@ -1,50 +1,42 @@
+import torch
 import pandas as pd
 from transformers import MarianMTModel, MarianTokenizer
-import torch
-from tqdm import tqdm
 
 # Verificar GPU
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Carregar modelo e tokenizer do MarianMT
-model_name = "Helsinki-NLP/opus-mt-fr-en"
+model_name = "Helsinki-NLP/opus-mt-tc-big-fr-en"  
 tokenizer = MarianTokenizer.from_pretrained(model_name)
 model = MarianMTModel.from_pretrained(model_name).to(device)
 
-# Caminhos dos arquivos
-input_file = "../poemas/poemas300/test/frances_ingles_test.csv"
-output_file = "../poemas/poemas300/marianmt/frances_ingles_test_pretreinado_marianmt.csv"
-
-# Carregar CSV
-df = pd.read_csv(input_file)
-
-# Verifica se a coluna original_poem existe
-if "original_poem" not in df.columns:
-    raise ValueError("A coluna 'original_poem' não foi encontrada no CSV.")
-
-# Função para traduzir um poema
-def traduzir_texto(texto):
-    texto_com_prefixo = f">>en<< {texto}"
-    estrofes = texto_com_prefixo.split('\n')
+# Função para traduzir poema
+def traduzir_poema(poema, tokenizer, model, device):
+    versos = poema.split("\n")
     traducao_completa = []
-    
-    for estrofe in estrofes:
-        encoded = tokenizer(estrofe, return_tensors="pt", truncation=True, padding="max_length", max_length=512).to(device)
+
+    # Traduzir verso por verso
+    for verso in versos:
+        texto_com_prefixo = f">>en<< {verso.strip()}"  # Adicionar prefixo da língua
+        encoded = tokenizer(texto_com_prefixo, return_tensors="pt", truncation=True, padding=True, max_length=512)
+        encoded = {key: value.to(device) for key, value in encoded.items()}  # Mover para GPU
+
         with torch.no_grad():
-            generated_tokens = model.generate(**encoded)
-        traducao_completa.append(tokenizer.decode(generated_tokens[0], skip_special_tokens=True))
-    
-    return '\n'.join(traducao_completa)
+            generated_tokens = model.generate(**encoded, max_length=512, num_beams=5)
 
-# Aplicar a tradução para cada poema com barra de progresso
-tqdm.pandas(desc="Traduzindo poemas")
-df["translated_by_marian"] = df["original_poem"].progress_apply(traduzir_texto)
+        traducao = tokenizer.decode(generated_tokens[0], skip_special_tokens=True)
+        traducao_completa.append(traducao)
 
-# Reorganizar as colunas
-df = df[["original_poem", "translated_poem", "translated_by_marian", "src_lang", "tgt_lang"]]
+    return "\n".join(traducao_completa)
 
-# Salvar em um novo CSV
-df.to_csv(output_file, index=False, encoding="utf-8")
+# Carregar o CSV com os poemas
+df = pd.read_csv('poemas.csv')
 
-print(f"Tradução concluída! Arquivo salvo como {output_file}")
+# Adicionar a coluna para as traduções
+df['translated_by_marian'] = df['original_poem'].apply(lambda x: traduzir_poema(x, tokenizer, model, device))
+
+# Salvar o CSV com a tradução
+df.to_csv('poemas_traduzidos.csv', index=False)
+
+print("Tradução concluída e salva em 'poemas_traduzidos.csv'.")
