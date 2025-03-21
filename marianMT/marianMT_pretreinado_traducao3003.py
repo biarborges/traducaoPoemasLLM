@@ -12,7 +12,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Carregar modelo e tokenizer do MarianMT
-model_name = "/home/ubuntu/finetuning/marianMT/marianMT_ingles_frances/checkpoint-60"
+model_name = "/home/ubuntu/finetuning/checkpoint-60"
 #model_name = "Helsinki-NLP/opus-mt-ROMANCE-en"  
 tokenizer = MarianTokenizer.from_pretrained(model_name)
 model = MarianMTModel.from_pretrained(model_name).to(device)
@@ -24,7 +24,7 @@ def traduzir_poema(poema, tokenizer, model, device):
 
     # Traduzir verso por verso
     for verso in versos:
-        texto_com_prefixo = f">>en<< {verso.strip()}"  # Adicionar prefixo da língua
+        texto_com_prefixo = f">>fr<< {verso.strip()}"  # Adicionar prefixo da língua
         encoded = tokenizer(texto_com_prefixo, return_tensors="pt", truncation=True, padding=True, max_length=512)
         encoded = {key: value.to(device) for key, value in encoded.items()}  # Mover para GPU
 
