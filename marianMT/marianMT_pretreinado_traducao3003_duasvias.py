@@ -36,28 +36,26 @@ def traduzir_duas_etapas(poema, tokenizer1, model1, tokenizer2, model2, device):
     traducao_intermediaria_texto = "\n".join(traducao_intermediaria)
 
     # Segunda etapa: Inglês → Português
-    versos_traduzidos = traducao_intermediaria_texto.split("\n")
     traducao_final = []
-
-    for verso in versos_traduzidos:
+    for verso in traducao_intermediaria_texto.split("\n"):
         encoded = tokenizer2(f">>pt<< {verso.strip()}", return_tensors="pt", truncation=True, padding=True, max_length=512)
         encoded = {key: value.to(device) for key, value in encoded.items()}
         with torch.no_grad():
             generated_tokens = model2.generate(**encoded, max_length=512, num_beams=5)
         traducao_final.append(tokenizer2.decode(generated_tokens[0], skip_special_tokens=True))
 
-    return "\n".join(traducao_intermediaria), "\n".join(traducao_final)
+    return "\n".join(traducao_final)
 
 # Carregar o CSV com os poemas
-df = pd.read_csv('../poemas/poemas300/test/frances_portugues_test.csv')
+df = pd.read_csv('../poemas/poemas300/test/frances_ingles_test.csv')
 
-# Aplicar a tradução em duas etapas
-df[['translated_fr_en', 'translated_fr_en_pt']] = df['original_poem'].apply(
+# Aplicar a tradução e salvar apenas a versão final
+df['translated_by_marian'] = df['original_poem'].apply(
     lambda x: traduzir_duas_etapas(x, tokenizer1, model1, tokenizer2, model2, device)
-).apply(pd.Series)
+)
 
-# Salvar o CSV com as traduções
-df.to_csv('../poemas/poemas300/marianmt/frances_portugues_test_pretreinado_marianmt.csv', index=False)
+# Salvar o CSV com apenas a tradução final
+df.to_csv('../poemas/poemas300/marianmt/frances_ingles_test_pretreinado_marianmt.csv', index=False)
 
 print("Tradução concluída e salva.")
 
