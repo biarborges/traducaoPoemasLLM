@@ -28,19 +28,28 @@ et le poison fut partout dans mes membres,
 cérès moquée brisa qui l’avait aimée.
 ainsi parle aujourd’hui la vie murée dans la vie."""
 
-# Adicionar prefixo de idioma e tokenizar
-texto_com_prefixo = f">>en<< {poema_original}"
-encoded = tokenizer(texto_com_prefixo, return_tensors="pt", truncation=True, padding=True, max_length=512)
-encoded = {key: value.to(device) for key, value in encoded.items()}  # Mover para GPU
+# Separar por linhas para evitar truncamento
+versos = poema_original.split("\n")
 
-# Gerar a tradução
-with torch.no_grad():
-    generated_tokens = model.generate(**encoded, max_length=512, num_beams=5)
+traducao_completa = []
 
-# Decodificar e imprimir o resultado
-traducao = tokenizer.decode(generated_tokens[0], skip_special_tokens=True)
+# Traduzir verso por verso
+for verso in versos:
+    texto_com_prefixo = f">>en<< {verso.strip()}"  # Adicionar prefixo da língua
+    encoded = tokenizer(texto_com_prefixo, return_tensors="pt", truncation=True, padding=True, max_length=512)
+    encoded = {key: value.to(device) for key, value in encoded.items()}  # Mover para GPU
 
+    with torch.no_grad():
+        generated_tokens = model.generate(**encoded, max_length=512, num_beams=5)
+
+    traducao = tokenizer.decode(generated_tokens[0], skip_special_tokens=True)
+    traducao_completa.append(traducao)
+
+# Unir os versos traduzidos
+poema_traduzido = "\n".join(traducao_completa)
+
+# Exibir resultado
 print("\n=== Poema Original ===\n")
 print(poema_original)
 print("\n=== Tradução ===\n")
-print(traducao)
+print(poema_traduzido)
