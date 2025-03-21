@@ -16,8 +16,8 @@ if device == "cuda":
     print("Memória da GPU liberada.")
 
 
-train_csv_path = "../poemas/poemas300/train/ingles_frances_train.csv"
-val_csv_path = "../poemas/poemas300/validation/ingles_frances_validation.csv"
+train_csv_path = "../poemas/poemas300/train/ingles_portugues_train.csv"
+val_csv_path = "../poemas/poemas300/validation/ingles_portugues_validation.csv"
 
 # Carregar os dados dos CSVs como Dataset Hugging Face
 def load_data(csv_path):
@@ -40,7 +40,7 @@ except Exception as e:
 
 # Escolher o modelo base do MarianMT
 try:
-    model_name = "Helsinki-NLP/opus-mt-en-fr"  # Ajuste o modelo conforme necessário
+    model_name = "Helsinki-NLP/opus-mt-tc-big-en-pt"  # Ajuste o modelo conforme necessário
     tokenizer = MarianTokenizer.from_pretrained(model_name)
     model = MarianMTModel.from_pretrained(model_name).to(device)
 except Exception as e:

@@ -1,3 +1,4 @@
+#esse é ok, mas usar o 3003
 import torch
 import os
 import pandas as pd

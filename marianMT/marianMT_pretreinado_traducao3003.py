@@ -1,5 +1,5 @@
-#esse daqui pareceu melhor nos resultados visuais, traduziu todas as frases apesar de muitas terem repetiçoes, mas traduziu tudo!!! 0 finetuned_traducao nao traduziu tudo, mas teve resultados melhores nas métricas. o 3002 é pra ver o poema sozinho.
-#mas esse aqui é pros 30 pre treinados.
+#usar esse, parece melhor
+#ta q é pretreinado, mas serve pro finetuning tbm
 import torch
 import pandas as pd
 from transformers import MarianMTModel, MarianTokenizer
@@ -24,7 +24,7 @@ def traduzir_poema(poema, tokenizer, model, device):
 
     # Traduzir verso por verso
     for verso in versos:
-        texto_com_prefixo = f">>fr<< {verso.strip()}"  # Adicionar prefixo da língua
+        texto_com_prefixo = f">>pt<< {verso.strip()}"  # Adicionar prefixo da língua
         encoded = tokenizer(texto_com_prefixo, return_tensors="pt", truncation=True, padding=True, max_length=512)
         encoded = {key: value.to(device) for key, value in encoded.items()}  # Mover para GPU
 
@@ -37,13 +37,13 @@ def traduzir_poema(poema, tokenizer, model, device):
     return "\n".join(traducao_completa)
 
 # Carregar o CSV com os poemas
-df = pd.read_csv('../poemas/poemas300/test/ingles_frances_test.csv')
+df = pd.read_csv('../poemas/poemas300/test/ingles_portugues_test.csv')
 
 # Adicionar a coluna para as traduções
 df['translated_by_marian'] = df['original_poem'].apply(lambda x: traduzir_poema(x, tokenizer, model, device))
 
 # Salvar o CSV com a tradução
-df.to_csv('../poemas/poemas300/marianmt/ingles_frances_test_pretreinado_marianmt_3003.csv', index=False)
+df.to_csv('../poemas/poemas300/marianmt/ingles_portugues_test_finetuning_marianmt.csv', index=False)
 
 print("Tradução concluída e salva.")
 
