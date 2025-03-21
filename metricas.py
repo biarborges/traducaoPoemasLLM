@@ -5,7 +5,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-input_file = os.path.abspath("../poemas/poemas300/marianmt/frances_ingles_test_finetuning_marianmt2.csv")
+input_file = os.path.abspath("../TraducaoPoemasLLM/poemas/poemas300/marianmt/frances_ingles_test_finetuning_marianmt2.csv")
 
 #BLEU
 
