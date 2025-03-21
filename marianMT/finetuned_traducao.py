@@ -8,7 +8,7 @@ start_time = time.time()
 
 # Caminhos dos arquivos
 #model_path = "../traducaoPoemasLLM/finetuning/marianMT/marianMT_ingles_frances/checkpoint-90"
-model_path = "/home/ubuntu/finetuning/marianMT/marianMT_ingles_frances/checkpoint-60"
+model_path = "/home/ubuntu/finetuning/marianMT/marianMT_ingles_frances/checkpoint-160"
 input_file = os.path.abspath("../poemas/poemas300/test/ingles_frances_test.csv")
 output_file = os.path.abspath("../poemas/poemas300/marianmt/ingles_frances_test_traducao_marianmt2.csv")
 
