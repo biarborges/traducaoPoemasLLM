@@ -59,7 +59,7 @@ df['translated_by_marian'] = df['original_poem'].apply(
 )
 
 # Salvar o CSV com apenas a tradução final
-df.to_csv('../poemas/poemas300/marianmt/frances_portugues_test_pretreinado_marianmt.csv', index=False)
+df.to_csv('../poemas/poemas300/marianmt/frances_portugues_test_finetuning_marianmt.csv', index=False)
 
 print("Tradução concluída e salva.")
 
