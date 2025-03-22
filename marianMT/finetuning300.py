@@ -16,8 +16,8 @@ if device == "cuda":
     print("Memória da GPU liberada.")
 
 
-train_csv_path = "../poemas/poemas300/train/portugues_ingles_train.csv"
-val_csv_path = "../poemas/poemas300/validation/portugues_ingles_validation.csv"
+train_csv_path = "../poemas/poemas300/train/frances_ingles_train.csv"
+val_csv_path = "../poemas/poemas300/validation/frances_ingles_validation.csv"
 
 # Carregar os dados dos CSVs como Dataset Hugging Face
 def load_data(csv_path):
@@ -69,8 +69,7 @@ except Exception as e:
 # Configurar os parâmetros do treinamento
 try:
     training_args = Seq2SeqTrainingArguments(
-        output_dir="/home/ubuntu/finetuning",
-        #output_dir="../traducaoPoemasLLM/finetuning/marianMT_frances_portugues",
+        output_dir="/home/ubuntu/finetuning_fr_ing",
         eval_strategy="epoch",
         learning_rate=2e-5,
         per_device_train_batch_size=8,
@@ -110,8 +109,8 @@ except Exception as e:
 
 # Salvar o modelo treinado
 try:
-    model.save_pretrained("/home/ubuntu/finetuning")
-    tokenizer.save_pretrained("/home/ubuntu/finetuning")
+    model.save_pretrained("/home/ubuntu/finetuning_fr_ing")
+    tokenizer.save_pretrained("/home/ubuntu/finetuning_fr_ing")
     print("Fine-tuning finalizado e modelo salvo.")
 except Exception as e:
     print(f"Erro ao salvar o modelo: {e}")
