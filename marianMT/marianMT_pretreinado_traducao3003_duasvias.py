@@ -14,8 +14,8 @@ print(f"Usando dispositivo: {device}")
 #model1 = "Helsinki-NLP/opus-mt-ROMANCE-en"  # Francês → Inglês
 #model2 = "Helsinki-NLP/opus-mt-en-pt"  # Inglês → Português
 
-model1 = "/home/ubuntu/finetuning_fr_ing"  # Francês → Inglês
-model2 = "/home/ubuntu/finetuning_ing_pt"  # Inglês → Português
+model1 = "/home/ubuntu/finetuning_fr_ing/checkpoint-90"  # Francês → Inglês
+model2 = "/home/ubuntu/finetuning_ing_pt/checkpoint-90"  # Inglês → Português
 
 # Carregar tokenizers e modelos
 tokenizer1 = MarianTokenizer.from_pretrained(model1)
