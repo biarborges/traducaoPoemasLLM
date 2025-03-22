@@ -16,8 +16,8 @@ if device == "cuda":
     print("Memória da GPU liberada.")
 
 
-train_csv_path = "../poemas/poemas300/train/frances_ingles_train.csv"
-val_csv_path = "../poemas/poemas300/validation/frances_ingles_validation.csv"
+train_csv_path = "../poemas/poemas300/train/ingles_portugues_train.csv"
+val_csv_path = "../poemas/poemas300/validation/ingles_portugues_validation.csv"
 
 # Carregar os dados dos CSVs como Dataset Hugging Face
 def load_data(csv_path):
@@ -40,7 +40,7 @@ except Exception as e:
 
 # Escolher o modelo base do MarianMT
 try:
-    model_name = "Helsinki-NLP/opus-mt-fr-en"  # Ajuste o modelo conforme necessário
+    model_name = "Helsinki-NLP/opus-mt-tc-big-en-pt"  # Ajuste o modelo conforme necessário
     tokenizer = MarianTokenizer.from_pretrained(model_name)
     model = MarianMTModel.from_pretrained(model_name).to(device)
 except Exception as e:
@@ -69,7 +69,7 @@ except Exception as e:
 # Configurar os parâmetros do treinamento
 try:
     training_args = Seq2SeqTrainingArguments(
-        output_dir="/home/ubuntu/finetuning_fr_ing",
+        output_dir="/home/ubuntu/finetuning_ing_pt",
         eval_strategy="epoch",
         learning_rate=2e-5,
         per_device_train_batch_size=8,
@@ -109,8 +109,8 @@ except Exception as e:
 
 # Salvar o modelo treinado
 try:
-    model.save_pretrained("/home/ubuntu/finetuning_fr_ing")
-    tokenizer.save_pretrained("/home/ubuntu/finetuning_fr_ing")
+    model.save_pretrained("/home/ubuntu/finetuning_ing_pt")
+    tokenizer.save_pretrained("/home/ubuntu/finetuning_ing_pt")
     print("Fine-tuning finalizado e modelo salvo.")
 except Exception as e:
     print(f"Erro ao salvar o modelo: {e}")
