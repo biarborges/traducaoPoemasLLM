@@ -40,7 +40,7 @@ except Exception as e:
 
 # Escolher o modelo base do MarianMT
 try:
-    model_name = "Helsinki-NLP/opus-mt-ROMANCE-en"  # Ajuste o modelo conforme necessário
+    model_name = "Helsinki-NLP/opus-mt-fr-en"  # Ajuste o modelo conforme necessário
     tokenizer = MarianTokenizer.from_pretrained(model_name)
     model = MarianMTModel.from_pretrained(model_name).to(device)
 except Exception as e:
