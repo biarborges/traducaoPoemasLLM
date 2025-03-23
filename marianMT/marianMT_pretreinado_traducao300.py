@@ -58,10 +58,10 @@ def traduzir_com_contador(row, index, total_poemas):
 tqdm.pandas(desc="Traduzindo poemas", total=len(df))
 
 # Aplicar a tradução para cada linha do CSV com barra de progresso para os poemas
-df["translated_by_marian"] = [traduzir_com_contador(row, index, len(df)) for index, row in tqdm(df.iterrows(), total=len(df), desc="Traduzindo poemas")]
+df["translated_by_TA"] = [traduzir_com_contador(row, index, len(df)) for index, row in tqdm(df.iterrows(), total=len(df), desc="Traduzindo poemas")]
 
 # Reorganizar as colunas na ordem desejada
-df = df[["original_poem", "translated_poem", "translated_by_marian", "src_lang", "tgt_lang"]]
+df = df[["original_poem", "translated_poem", "translated_by_TA", "src_lang", "tgt_lang"]]
 
 # Salvar em um novo CSV
 df.to_csv(output_file, index=False, encoding="utf-8")

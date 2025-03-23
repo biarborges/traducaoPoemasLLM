@@ -17,8 +17,8 @@ SRC_LANG = "fr_XX"
 TGT_LANG = "en_XX"
 
 # Carregar CSV
-input_file = os.path.abspath("../poemas/poemas300/frances_ingles_poems.csv")
-output_file = os.path.abspath("../poemas/poemas300/test/frances_ingles_poems_traducao_mbart.csv")
+input_file = os.path.abspath('../poemas/poemas300/test/frances_ingles_test.csv')
+output_file = os.path.abspath('../poemas/poemas300/mbart/frances_ingles_test_pretreinado_mbart.csv')
 
 df = pd.read_csv(input_file)
 
@@ -53,10 +53,10 @@ def traduzir_com_contador(row, index, total_poemas):
 tqdm.pandas(desc="Traduzindo poemas", total=len(df))
 
 # Aplicar a tradução para cada linha do CSV com barra de progresso para os poemas
-df["translated_by_mbart"] = [traduzir_com_contador(row, index, len(df)) for index, row in tqdm(df.iterrows(), total=len(df), desc="Traduzindo poemas")]
+df["translated_by_TA"] = [traduzir_com_contador(row, index, len(df)) for index, row in tqdm(df.iterrows(), total=len(df), desc="Traduzindo poemas")]
 
 # Reorganizar as colunas na ordem desejada
-df = df[["original_poem", "translated_poem", "translated_by_mbart", "src_lang", "tgt_lang"]]
+df = df[["original_poem", "translated_poem", "translated_by_TA", "src_lang", "tgt_lang"]]
 
 # Salvar em um novo CSV
 df.to_csv(output_file, index=False, encoding="utf-8")

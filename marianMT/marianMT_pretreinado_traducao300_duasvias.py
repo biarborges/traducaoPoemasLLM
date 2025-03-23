@@ -63,12 +63,12 @@ def traduzir_duas_etapas(row):
 
 # Aplicar a tradução com barra de progresso
 tqdm.pandas(desc="Traduzindo poemas")
-df["translated_by_marian"] = df.progress_apply(traduzir_duas_etapas, axis=1)
+df["translated_by_TA"] = df.progress_apply(traduzir_duas_etapas, axis=1)
 
 # Reorganizar colunas
 df["src_lang"] = "fr"
 df["tgt_lang"] = "pt"
-df = df[["original_poem", "translated_poem", "translated_by_marian", "src_lang", "tgt_lang"]]
+df = df[["original_poem", "translated_poem", "translated_by_TA", "src_lang", "tgt_lang"]]
 
 # Salvar em CSV
 df.to_csv(output_file, index=False, encoding="utf-8")

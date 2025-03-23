@@ -52,7 +52,7 @@ def traduzir_texto(texto):
 tqdm.pandas(desc="Traduzindo poemas...")
 
 # Aplicar a tradução com progresso por poema
-df["translated_by_mbart"] = df["original_poem"].progress_apply(traduzir_texto)
+df["translated_by_TA"] = df["original_poem"].progress_apply(traduzir_texto)
 
 # Salvar em um novo CSV
 df.to_csv(output_file, index=False, encoding="utf-8")
