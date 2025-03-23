@@ -16,8 +16,8 @@ tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
 model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
 
 # Definir idiomas de origem e destino
-src_lang = "fr_XX"  # Português
-trg_lang = "en_XX"  # Inglês
+src_lang = "fr_XX"  
+trg_lang = "en_XX"  
 
 tokenizer.src_lang = src_lang
 
