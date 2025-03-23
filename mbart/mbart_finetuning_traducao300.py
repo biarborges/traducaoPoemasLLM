@@ -62,7 +62,7 @@ for _, exemplo in tqdm(df_test.iterrows(), desc="Traduzindo poemas", unit="poema
     resultados.append({
         "original_poem": poema_original,
         "translated_poem": referencia,
-        "translated_by_mbart": traducao_gerada,
+        "translated_by_TA": traducao_gerada,
         "src_lang": SRC_LANG,
         "tgt_lang": TGT_LANG
     })

@@ -1,71 +1,53 @@
+import torch
 import pandas as pd
 from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
-import os
-import torch
-from tqdm import tqdm
 import time
 
 start_time = time.time()
 
+# Verificar GPU
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
-# Carregar modelo e tokenizer
-model_name = "facebook/mbart-large-50-many-to-many-mmt"
+# Carregar modelo e tokenizer do mBART
+model_name = "facebook/mbart-large-50"  # Modelo pré-treinado do mBART
+
 tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
 model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
 
-# Definir idiomas
-SRC_LANG = "fr_XX"
-TGT_LANG = "en_XX"
+# Definir idiomas de origem e destino
+src_lang = "fr_XX"  # Português
+trg_lang = "en_XX"  # Inglês
 
-# Carregar CSV
-input_file = os.path.abspath('../poemas/poemas300/frances_ingles_poems.csv')
-#output_file = os.path.abspath('../poemas/poemas300/mbart/frances_ingles_test_pretreinado_mbart.csv')
-output_file = os.path.abspath('../poemas/poemas300/mbart/frances_ingles_poems_mbart.csv')
+tokenizer.src_lang = src_lang
 
-df = pd.read_csv(input_file)
-
-# Verifica se a coluna original_poem existe
-if "original_poem" not in df.columns:
-    raise ValueError("A coluna 'original_poem' não foi encontrada no CSV.")
-
-# Função para traduzir um poema
-def traduzir_texto(texto):
-    tokenizer.src_lang = SRC_LANG
-    # Dividir o poema em estrofes (ou versos) usando o separador de linha
-    estrofes = texto.split('\n')
-
+# Função para traduzir poema
+def traduzir_poema(poema, tokenizer, model, device, trg_lang):
+    versos = poema.split("\n")
     traducao_completa = []
-    # Barra de progresso para estrofes dentro de cada poema
-    for estrofe in tqdm(estrofes, desc="Traduzindo estrofes", unit="estrofe"):
-        # Tokenizar e traduzir cada estrofe separadamente
-        encoded = tokenizer(estrofe, return_tensors="pt", truncation=True, padding="max_length", max_length=512)
-        encoded = {key: value.to(device) for key, value in encoded.items()}  # Mover os dados para a GPU
-        generated_tokens = model.generate(**encoded, forced_bos_token_id=tokenizer.lang_code_to_id[TGT_LANG])
-        traducao_completa.append(tokenizer.decode(generated_tokens[0], skip_special_tokens=True))
 
-    # Juntar as estrofes traduzidas de volta
-    return '\n'.join(traducao_completa)
+    for verso in versos:
+        encoded = tokenizer(verso.strip(), return_tensors="pt", truncation=True, padding=True, max_length=512)
+        encoded = {key: value.to(device) for key, value in encoded.items()}  # Mover para GPU
 
-# Função para traduzir todos os poemas com contador global
-def traduzir_com_contador(row, index, total_poemas):
-    print(f"Traduzindo poema {index+1}/{total_poemas}")
-    return traduzir_texto(row["original_poem"])
+        with torch.no_grad():
+            generated_tokens = model.generate(**encoded, max_length=512, num_beams=5, forced_bos_token_id=tokenizer.lang_code_to_id[trg_lang])
 
-# Barra de progresso para poemas
-tqdm.pandas(desc="Traduzindo poemas", total=len(df))
+        traducao = tokenizer.decode(generated_tokens[0], skip_special_tokens=True)
+        traducao_completa.append(traducao)
 
-# Aplicar a tradução para cada linha do CSV com barra de progresso para os poemas
-df["translated_by_TA"] = [traduzir_com_contador(row, index, len(df)) for index, row in tqdm(df.iterrows(), total=len(df), desc="Traduzindo poemas")]
+    return "\n".join(traducao_completa)
 
-# Reorganizar as colunas na ordem desejada
-df = df[["original_poem", "translated_poem", "translated_by_TA", "src_lang", "tgt_lang"]]
+# Carregar o CSV com os poemas
+df = pd.read_csv('../poemas/poemas300/test/frances_ingles_test.csv')
 
-# Salvar em um novo CSV
-df.to_csv(output_file, index=False, encoding="utf-8")
+# Adicionar a coluna para as traduções
+df['translated_by_TA'] = df['original_poem'].apply(lambda x: traduzir_poema(x, tokenizer, model, device, trg_lang))
 
-print(f"Tradução concluída! Arquivo salvo como {output_file}")
+# Salvar o CSV com a tradução
+df.to_csv('../poemas/poemas300/mbart/frances_ingles_test_pretreinado_mbart.csv', index=False)
+
+print("Tradução concluída e salva.")
 
 end_time = time.time()
 elapsed_time = end_time - start_time

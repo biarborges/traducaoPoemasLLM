@@ -38,18 +38,18 @@ def calcular_bleu_media(input_file):
     df = pd.read_csv(input_file)
 
     # Verificar se as colunas necessárias estão presentes
-    if "translated_poem" not in df.columns or "translated_by_marian" not in df.columns:
-        raise ValueError("O arquivo CSV deve conter as colunas 'translated_poem' e 'translated_by_marian'.")
+    if "translated_poem" not in df.columns or "translated_by_TA" not in df.columns:
+        raise ValueError("O arquivo CSV deve conter as colunas 'translated_poem' e 'translated_by_TA'.")
 
     bleu_scores = []
 
     # Calcular o BLEU para cada poema
     for i in range(len(df)):
         referencia_poema = df["translated_poem"].iloc[i]
-        traducao_mbart = df["translated_by_marian"].iloc[i]
+        traducao_TA = df["translated_by_TA"].iloc[i]
 
         # Calcular o BLEU para o poema
-        bleu_score = calcular_bleu(referencia_poema, traducao_mbart)
+        bleu_score = calcular_bleu(referencia_poema, traducao_TA)
         bleu_scores.append(bleu_score)
 
     # Calcular a média do BLEU
@@ -79,18 +79,18 @@ def calcular_meteor_media(input_file):
     df = pd.read_csv(input_file)
 
     # Verificar se as colunas necessárias estão presentes
-    if "translated_poem" not in df.columns or "translated_by_marian" not in df.columns:
-        raise ValueError("O arquivo CSV deve conter as colunas 'translated_poem' e 'translated_by_marian'.")
+    if "translated_poem" not in df.columns or "translated_by_TA" not in df.columns:
+        raise ValueError("O arquivo CSV deve conter as colunas 'translated_poem' e 'translated_by_TA'.")
 
     meteor_scores = []
 
     # Calcular a METEOR para cada poema
     for i in range(len(df)):
         referencia_poema = df["translated_poem"].iloc[i]
-        traducao_mbart = df["translated_by_marian"].iloc[i]
+        traducao_TA = df["translated_by_TA"].iloc[i]
 
         # Calcular a METEOR para o poema
-        meteor_score_value = calcular_meteor(referencia_poema, traducao_mbart)
+        meteor_score_value = calcular_meteor(referencia_poema, traducao_TA)
         meteor_scores.append(meteor_score_value)
 
     # Calcular a média da METEOR
@@ -118,18 +118,18 @@ def calcular_bertscore_media(input_file):
     df = pd.read_csv(input_file)
 
     # Verificar se as colunas necessárias estão presentes
-    if "translated_poem" not in df.columns or "translated_by_marian" not in df.columns:
-        raise ValueError("O arquivo CSV deve conter as colunas 'translated_poem' e 'translated_by_marian'.")
+    if "translated_poem" not in df.columns or "translated_by_TA" not in df.columns:
+        raise ValueError("O arquivo CSV deve conter as colunas 'translated_poem' e 'translated_by_TA'.")
 
     bertscore_scores = []
 
     # Calcular o BERTScore para cada poema
     for i in range(len(df)):
         referencia_poema = df["translated_poem"].iloc[i]
-        traducao_mbart = df["translated_by_marian"].iloc[i]
+        traducao_TA = df["translated_by_TA"].iloc[i]
 
         # Calcular o BERTScore para o poema
-        bertscore_value = calcular_bertscore(referencia_poema, traducao_mbart)
+        bertscore_value = calcular_bertscore(referencia_poema, traducao_TA)
         bertscore_scores.append(bertscore_value)
 
     # Calcular a média do BERTScore
@@ -176,15 +176,15 @@ def calcular_bartscore_media_paralela(input_file):
     df = pd.read_csv(input_file)
 
     # Verificar se as colunas necessárias estão presentes
-    if "translated_poem" not in df.columns or "translated_by_marian" not in df.columns:
-        raise ValueError("O arquivo CSV deve conter as colunas 'translated_poem' e 'translated_by_marian'.")
+    if "translated_poem" not in df.columns or "translated_by_TA" not in df.columns:
+        raise ValueError("O arquivo CSV deve conter as colunas 'translated_poem' e 'translated_by_TA'.")
 
     # Usar ThreadPoolExecutor para processar os poemas em paralelo
     with ThreadPoolExecutor() as executor:
         # Calcular o BARTScore para todos os poemas em paralelo
         bartscore_scores = list(executor.map(calcular_bartscore,
                                             df["translated_poem"],
-                                            df["translated_by_marian"]))
+                                            df["translated_by_TA"]))
 
     # Calcular a média do BARTScore
     bartscore_media = sum(bartscore_scores) / len(bartscore_scores)
