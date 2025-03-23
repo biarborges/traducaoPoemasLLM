@@ -3,6 +3,9 @@ from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
 import os
 import torch
 from tqdm import tqdm
+import time
+
+start_time = time.time()
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
@@ -62,3 +65,7 @@ df = df[["original_poem", "translated_poem", "translated_by_TA", "src_lang", "tg
 df.to_csv(output_file, index=False, encoding="utf-8")
 
 print(f"Tradução concluída! Arquivo salvo como {output_file}")
+
+end_time = time.time()
+elapsed_time = end_time - start_time
+print(f"Tempo total de execução: {elapsed_time:.2f} segundos")
