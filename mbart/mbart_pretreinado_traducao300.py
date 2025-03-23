@@ -20,8 +20,9 @@ SRC_LANG = "fr_XX"
 TGT_LANG = "en_XX"
 
 # Carregar CSV
-input_file = os.path.abspath('../poemas/poemas300/test/frances_ingles_test.csv')
-output_file = os.path.abspath('../poemas/poemas300/mbart/frances_ingles_test_pretreinado_mbart.csv')
+input_file = os.path.abspath('../poemas/poemas300/frances_ingles_poems.csv')
+#output_file = os.path.abspath('../poemas/poemas300/mbart/frances_ingles_test_pretreinado_mbart.csv')
+output_file = os.path.abspath('../poemas/poemas300/mbart/frances_ingles_poems_mbart.csv')
 
 df = pd.read_csv(input_file)
 
