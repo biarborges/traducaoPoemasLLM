@@ -16,8 +16,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Caminhos dos arquivos CSV
-train_file = "../poemas/poemas300/train/ingles_portugues_train.csv"
-val_file = "../poemas/poemas300/validation/ingles_portugues_validation.csv"
+train_file = "../poemas/poemas300/train/portugues_frances_train.csv"
+val_file = "../poemas/poemas300/validation/portugues_frances_validation.csv"
 
 # Carregar os dados
 df_train = pd.read_csv(train_file).dropna()
@@ -46,7 +46,7 @@ val_dataset = val_dataset.map(preprocess_function, batched=True)
 
 # Definir parâmetros de treinamento
 training_args = TrainingArguments(
-    output_dir="/home/ubuntu/finetuning_ing_pt",
+    output_dir="/home/ubuntu/finetuning_pt_fr",
     evaluation_strategy="epoch",  # Avaliar ao final de cada época
     save_strategy="epoch",  # Salvar modelo ao final de cada época
     per_device_train_batch_size=4,  # Ajuste conforme memória disponível
@@ -76,8 +76,8 @@ trainer = Trainer(
 trainer.train()
 
 # Salvar modelo treinado
-model.save_pretrained("/home/ubuntu/finetuning_ing_pt")
-tokenizer.save_pretrained("/home/ubuntu/finetuning_ing_pt")
+model.save_pretrained("/home/ubuntu/finetuning_pt_fr")
+tokenizer.save_pretrained("/home/ubuntu/finetuning_pt_fr")
 
 print("Fine-tuning concluído e modelo salvo.")
 
