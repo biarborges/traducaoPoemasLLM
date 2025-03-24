@@ -10,7 +10,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Carregar o modelo e o tokenizador
-model = MBartForConditionalGeneration.from_pretrained("facebook/mbart-large-50-many-to-many-mmt")
+model = MBartForConditionalGeneration.from_pretrained("facebook/mbart-large-50-many-to-many-mmt").to(device)
 tokenizer = MBart50TokenizerFast.from_pretrained("facebook/mbart-large-50-many-to-many-mmt")
 
 # Carregar o arquivo CSV
@@ -22,6 +22,7 @@ tokenizer.src_lang = "fr_XX"
 
 # Função para traduzir um poema
 def traduzir_poema(poema):
+    # Garantir que os tensores estejam no mesmo dispositivo
     encoded_text = tokenizer(poema, return_tensors="pt").to(device)
     generated_tokens = model.generate(
         **encoded_text,
