@@ -6,22 +6,23 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 input = """
-je m’éveillai, c’était la maison natale,
-il faisait nuit, des arbres se pressaient
-de toutes parts autour de notre porte,
-j’étais seul sur le seuil dans le vent froid,
-mais non, nullement seul, car deux grands êtres
-se parlaient au-dessus de moi, à travers moi.
-l’un, derrière, une vieille femme, courbe, mauvaise,
-l’autre debout dehors comme une lampe,
-belle, tenant la coupe qu’on lui offrait,
-buvant avidement de toute sa soif.
-ai-je voulu me moquer, certes non,
-plutôt ai-je poussé un cri d’amour
-mais avec la bizarrerie du désespoir,
-et le poison fut partout dans mes membres,
-cérès moquée brisa qui l’avait aimée.
-ainsi parle aujourd’hui la vie murée dans la vie.
+terre
+tu rentres. tu quittes le rivage. tu retournes en terre. les amers quittent la mer.
+soudain cette moitié du monde qui était en mer redevient terre – forêts, champs, campagne. a
+son tour celle-ci devient l’océan. tu reviens au monde des vivants comme un grec débarqué
+tournait le dos à l’inféconde. l’immensité se fait solide, moissonneuse, verte et blonde,
+guéable. les nuages sont utile. tu écartes les buissons de la lisière, rentres dans le bois,
+retournes à l’épais – l’impénétrable. la forêt de chênes chante.
+en même temps c’est le temps, le double régime chaque moitié est le tout, dans
+l’indivsion.
+celle de la sérénité hölderlinienne: l’oubli de la menace, le vaste, la pérennité, le pour-
+toujours du s’entr’aimer multiple, pareil au spectacle quand le monde se donne en spectacle,
+l’oisiveté léopardienne; c’est quand les champs et les eaux, les forêts et les fleurs, les nuages
+et les neiges assonent dans le zèle des saisons.
+avec celle-ci: repoussé, pressenti, ulcérant, le contre-courant funèbre, le complot du
+destin, affliction et nuisance, la conspiration de la perte, voici la morition des proches, la
+contagion des maux, l’acerbe érosion, la calomnie générale, l’abréviation de la vie,
+l’encombre, la terre périmée, l’extermination du passé, le périr.
 """
 
 model = MBartForConditionalGeneration.from_pretrained("facebook/mbart-large-50-many-to-many-mmt")
