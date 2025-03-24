@@ -1,11 +1,7 @@
-import os
 import torch
 import pandas as pd
 import time
 from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
-
-# Forçar execução síncrona de CUDA para depuração
-os.environ['CUDA_LAUNCH_BLOCKING'] = "1"
 
 start_time = time.time()
 
@@ -28,17 +24,10 @@ tokenizer.src_lang = "fr_XX"
 def traduzir_poema(poema):
     # Garantir que os tensores estejam no mesmo dispositivo
     encoded_text = tokenizer(poema, return_tensors="pt").to(device)
-    
-    # Depuração: Imprimir a entrada tokenizada
-    print(f"Entrada tokenizada: {encoded_text}")
-
-    # Gerar a tradução
     generated_tokens = model.generate(
         **encoded_text,
         forced_bos_token_id=tokenizer.lang_code_to_id["en_XX"]
     )
-    
-    # Decodificar a tradução
     translated_text = tokenizer.batch_decode(generated_tokens, skip_special_tokens=True)[0]
     return translated_text
 
