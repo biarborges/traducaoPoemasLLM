@@ -7,9 +7,9 @@ model = MBartForConditionalGeneration.from_pretrained(model_name)
 tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
 
 # Função para traduzir um poema
-def translate_poem(poem, src_lang="fr", tgt_lang="en"):
-    # Tokenizar o poema
-    inputs = tokenizer(poem, return_tensors="pt", padding=True, truncation=True)
+def translate_poem(poem, src_lang="fr", tgt_lang="en", max_length=512):
+    # Tokenizar o poema com truncamento para o comprimento máximo
+    inputs = tokenizer(poem, return_tensors="pt", padding=True, truncation=True, max_length=max_length)
 
     # Definir as línguas de origem e destino
     tokenizer.src_lang = src_lang
@@ -29,7 +29,7 @@ df = pd.read_csv(file_path)
 df['translated_by_TA'] = df['original_poem'].apply(lambda poem: translate_poem(poem, src_lang="fr", tgt_lang="en"))
 
 # Salvar o resultado em um novo CSV
-df.to_csv("../poemas/poemas300/test/frances_ingles_test_pretreinado_mbart.csv", index=False)
+df.to_csv("../poemas/poemas300/test/frances_ingles_test_translated.csv", index=False)
 
 # Verificar as primeiras traduções
 print(df[['original_poem', 'translated_by_TA']].head())
