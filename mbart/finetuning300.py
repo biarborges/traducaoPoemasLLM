@@ -36,8 +36,8 @@ model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
 
 # Função para tokenizar os dados
 def preprocess_function(examples):
-    inputs = tokenizer(examples["original_poem"], max_length=512, truncation=True, padding="max_length")
-    targets = tokenizer(examples["translated_poem"], max_length=512, truncation=True, padding="max_length")
+    inputs = tokenizer(examples["original_poem"], max_length=256, truncation=True, padding="max_length")
+    targets = tokenizer(examples["translated_poem"], max_length=256, truncation=True, padding="max_length")
 
     inputs["labels"] = targets["input_ids"]  # Definir os labels para o modelo aprender
     return inputs
@@ -51,16 +51,16 @@ training_args = TrainingArguments(
     output_dir="/home/ubuntu/finetuning_fr_ing",
     evaluation_strategy="epoch",  # Avaliar ao final de cada época
     save_strategy="epoch",  # Salvar modelo ao final de cada época
-    per_device_train_batch_size=2,  # Ajuste conforme memória disponível
+    per_device_train_batch_size=4,  # Ajuste conforme memória disponível
     per_device_eval_batch_size=8,
-    gradient_accumulation_steps=6,
+    gradient_accumulation_steps=4,
     learning_rate=2e-5,
     weight_decay=0.01,
     num_train_epochs=3, 
     save_total_limit=1, 
     fp16=True,  # Usa cálculos em 16 bits para acelerar na GPU
     logging_dir="./logs",
-    logging_steps=50,
+    #logging_steps=50,
     report_to="none"
 )
 
