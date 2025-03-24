@@ -35,8 +35,8 @@ model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
 
 # Função para tokenizar os dados
 def preprocess_function(examples):
-    inputs = tokenizer(examples["original_poem"], max_length=128, truncation=True, padding="max_length")
-    targets = tokenizer(examples["translated_poem"], max_length=128, truncation=True, padding="max_length")
+    inputs = tokenizer(examples["original_poem"], max_length=64, truncation=True, padding="max_length")
+    targets = tokenizer(examples["translated_poem"], max_length=64, truncation=True, padding="max_length")
 
     inputs["labels"] = targets["input_ids"]  # Definir os labels para o modelo aprender
     return inputs
