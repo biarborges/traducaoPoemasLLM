@@ -1,109 +1,81 @@
-from datasets import load_dataset
-from transformers import MBart50Tokenizer, MBartForConditionalGeneration
-from torch.optim import AdamW
-from torch.utils.data import DataLoader
 import torch
-from tqdm import tqdm
+import pandas as pd
+import time
+from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
+from datasets import Dataset
+from transformers import TrainingArguments, Trainer
 
-# Caminhos dos arquivos CSV
-train_csv_path = "../modelos/poemas/train/poems_train.csv"
-val_csv_path = "../modelos/poemas/validation/poems_validation.csv"
+start_time = time.time()
 
-# Carregar dataset
-dataset = load_dataset('csv', data_files={'train': train_csv_path, 'validation': val_csv_path})
+# Verificar GPU
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"Usando dispositivo: {device}")
 
-# Carregar tokenizer
-tokenizer = MBart50Tokenizer.from_pretrained("facebook/mbart-large-50-many-to-many-mmt")
+# Caminhos dos arquivos CSV (substitua pelos seus arquivos)
+train_file = "../poemas/poemas300/train/frances_ingles_train.csv"
+val_file = "../poemas/poemas300/validation/frances_ingles_validation.csv"
 
-# Função de pré-processamento
+# Carregar os dados
+df_train = pd.read_csv(train_file).dropna()
+df_val = pd.read_csv(val_file).dropna()
+
+# Converter para dataset Hugging Face
+train_dataset = Dataset.from_pandas(df_train)
+val_dataset = Dataset.from_pandas(df_val)
+
+# Carregar modelo e tokenizer do mBART
+model_name = "facebook/mbart-large-50-many-to-many-mmt"
+tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
+model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
+
+# Função para tokenizar os dados
 def preprocess_function(examples):
-    src_langs = examples['src_lang']
-    tgt_langs = examples['tgt_lang']
-    original_poems = examples['original_poem']
-    translated_poems = examples['translated_poem']
+    inputs = tokenizer(examples["original_poem"], max_length=512, truncation=True, padding="max_length")
+    targets = tokenizer(examples["translated_poem"], max_length=512, truncation=True, padding="max_length")
 
-    input_ids_list, attention_mask_list, labels_list = [], [], []
+    inputs["labels"] = targets["input_ids"]  # Definir os labels para o modelo aprender
+    return inputs
 
-    for src_lang, tgt_lang, original_poem, translated_poem in zip(src_langs, tgt_langs, original_poems, translated_poems):
-        if isinstance(original_poem, str) and isinstance(translated_poem, str):  # Verifica se não é None
-            tokenizer.src_lang = src_lang
-            tokenizer.tgt_lang = tgt_lang
+# Tokenizar datasets de treino e validação
+train_dataset = train_dataset.map(preprocess_function, batched=True)
+val_dataset = val_dataset.map(preprocess_function, batched=True)
 
-            inputs = tokenizer(original_poem, max_length=512, truncation=True, padding="max_length", return_tensors="pt")
-            labels = tokenizer(translated_poem, max_length=512, truncation=True, padding="max_length", return_tensors="pt")
+# Definir parâmetros de treinamento
+training_args = TrainingArguments(
+    output_dir="/home/ubuntu/finetuning_fr_ing",
+    evaluation_strategy="epoch",  # Avaliar ao final de cada época
+    save_strategy="epoch",  # Salvar modelo ao final de cada época
+    per_device_train_batch_size=8,  # Ajuste conforme memória disponível
+    per_device_eval_batch_size=8,
+    learning_rate=5e-5,
+    weight_decay=0.01,
+    num_train_epochs=3, 
+    save_total_limit=1, 
+    fp16=True,  # Usa cálculos em 16 bits para acelerar na GPU
+    logging_dir="./logs",
+    logging_steps=50,
+    report_to="none"
+)
 
-            input_ids_list.append(inputs["input_ids"].squeeze(0))
-            attention_mask_list.append(inputs["attention_mask"].squeeze(0))
-            labels_list.append(labels["input_ids"].squeeze(0))
+# Criar Trainer
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=train_dataset,
+    eval_dataset=val_dataset,
+    tokenizer=tokenizer,
+)
 
-    # Retorna listas de tensores (com tamanho correto)
-    return {
-        "input_ids": torch.stack(input_ids_list),
-        "attention_mask": torch.stack(attention_mask_list),
-        "labels": torch.stack(labels_list)
-    }
-
-# Aplicar o pré-processamento sem remover exemplos
-tokenized_datasets = dataset.map(preprocess_function, batched=True, remove_columns=dataset["train"].column_names)
-
-# Definir formato PyTorch
-tokenized_datasets.set_format(type="torch", columns=["input_ids", "attention_mask", "labels"])
-
-# Carregar modelo e otimizador
-model = MBartForConditionalGeneration.from_pretrained("facebook/mbart-large-50-many-to-many-mmt")
-optimizer = AdamW(model.parameters(), lr=2e-5)
-
-# Criar DataLoaders
-train_dataloader = DataLoader(tokenized_datasets["train"], shuffle=True, batch_size=1)
-val_dataloader = DataLoader(tokenized_datasets["validation"], batch_size=1)
-
-# Configurar dispositivo
-device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
-model.to(device)
-
-# Loop de Treinamento
-num_epochs = 3
-for epoch in range(num_epochs):
-    model.train()
-    total_train_loss = 0
-
-    for batch_idx, batch in enumerate(tqdm(train_dataloader, desc=f"Epoch {epoch + 1} - Training")):
-        optimizer.zero_grad()
-
-        input_ids = batch['input_ids'].to(device)
-        attention_mask = batch['attention_mask'].to(device)
-        labels = batch['labels'].to(device)
-
-        outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
-        loss = outputs.loss
-        loss.backward()
-        optimizer.step()
-
-        total_train_loss += loss.item()
-
-        # Adiciona um print a cada 10 lotes para ver se está rodando
-        if batch_idx % 10 == 0:
-            print(f"Epoch {epoch + 1} - Batch {batch_idx}/{len(train_dataloader)} - Loss: {loss.item():.4f}")
-
-    avg_train_loss = total_train_loss / len(train_dataloader)
-    print(f"Epoch {epoch + 1} - Train Loss: {avg_train_loss}")
-
-    # Avaliação
-    model.eval()
-    total_eval_loss = 0
-    for batch in tqdm(val_dataloader, desc=f"Epoch {epoch + 1} - Validation"):
-        with torch.no_grad():
-            input_ids = batch['input_ids'].to(device)
-            attention_mask = batch['attention_mask'].to(device)
-            labels = batch['labels'].to(device)
-
-            outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
-            loss = outputs.loss
-            total_eval_loss += loss.item()
-
-    avg_eval_loss = total_eval_loss / len(val_dataloader)
-    print(f"Epoch {epoch + 1} - Validation Loss: {avg_eval_loss}")
+# Iniciar o treinamento
+trainer.train()
 
 # Salvar modelo treinado
-model.save_pretrained("./fine-tuned-mbart-50-poems")
-tokenizer.save_pretrained("./fine-tuned-mbart-50-poems")
+model.save_pretrained("/home/ubuntu/finetuning_fr_ing")
+tokenizer.save_pretrained("/home/ubuntu/finetuning_fr_ing")
+
+print("Fine-tuning concluído e modelo salvo.")
+
+# Tempo total de execução
+end_time = time.time()
+elapsed_time = end_time - start_time
+print(f"Tempo total de execução: {elapsed_time:.2f} segundos")

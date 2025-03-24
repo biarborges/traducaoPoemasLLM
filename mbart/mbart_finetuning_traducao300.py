@@ -1,75 +1,64 @@
-from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
+#igual ao 300, só q pra portugues como lingua source
+
 import torch
 import pandas as pd
-import os
-from tqdm import tqdm  
-import warnings
-warnings.filterwarnings("ignore")
+import time
+from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
 
-# Caminho do modelo treinado
-model_path = os.path.abspath("../modelos/mbart/finetuned_mbart")
+start_time = time.time()
 
-# Carregar modelo e tokenizer
-model = MBartForConditionalGeneration.from_pretrained(model_path)
-tokenizer = MBart50TokenizerFast.from_pretrained(model_path)
-
-# Configurar para GPU se disponível
+# Verificar GPU
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-model.to(device)
+print(f"Usando dispositivo: {device}")
 
-# Definir a língua de origem e destino manualmente
-SRC_LANG = "fr_XX"  
-TGT_LANG = "en_XX"  
+# Carregar modelo e tokenizer do mBART
+model_name = "/home/ubuntu/finetuning_fr_ing/checkpoint-90"
+tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
+model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
 
-# Carregar conjunto de teste
-test_dataset_path = os.path.abspath("../modelos/poemas/test/frances_ingles_test.csv")
-df_test = pd.read_csv(test_dataset_path)  # Carregar o CSV em um DataFrame
-print(f"Número de exemplos no conjunto de teste: {len(df_test)}")
+# Função para traduzir poema
+def traduzir_poema(poema, src_lang="fr_XX", tgt_lang="en_XX"):
+    if not isinstance(poema, str) or poema.strip() == "":
+        return ""  # Evitar erros com valores nulos ou vazios
 
-# Função para traduzir um poema em partes
-def traduzir_poema(texto_origem, chunk_size=256):
-    tokenizer.src_lang = SRC_LANG  # Definir língua de origem
-    
-    # Tokenizar o texto sem truncar
-    tokens = tokenizer(texto_origem, return_tensors="pt", padding=False, truncation=False).input_ids[0].tolist()
-    
-    # Dividir em partes menores
-    partes = [tokens[i:i + chunk_size] for i in range(0, len(tokens), chunk_size)]
-    traducoes = []
-    
-    for parte in partes:
-        input_tensor = torch.tensor([parte], dtype=torch.long).to(device)  # Certificar que é um tensor válido
-        with torch.no_grad():
-            output_tokens = model.generate(
-                input_ids=input_tensor,
-                forced_bos_token_id=tokenizer.lang_code_to_id[TGT_LANG],
-                max_length=chunk_size * 2  # Permite mais espaço para tradução
-            )
-        traducoes.append(tokenizer.decode(output_tokens[0], skip_special_tokens=True))
-    
-    return " ".join(traducoes)
+    # Configurar o idioma correto no tokenizer
+    tokenizer.src_lang = src_lang
+    tokenizer.tgt_lang = tgt_lang
 
-# Traduzir todo o conjunto de teste com barra de progresso
-resultados = []
+    # Tokenizar o texto com a configuração correta
+    encoded = tokenizer(poema.strip(), return_tensors="pt", truncation=True, padding=True, max_length=512)
+    encoded = {key: value.to(device) for key, value in encoded.items()}  # Mover para GPU
 
-for _, exemplo in tqdm(df_test.iterrows(), desc="Traduzindo poemas", unit="poema", total=len(df_test)):
-    poema_original = exemplo["original_poem"]
-    referencia = exemplo["translated_poem"]
+    # Forçar o idioma de saída correto
+    forced_bos_token_id = tokenizer.lang_code_to_id[tgt_lang]
 
-    # Traduzir o poema
-    traducao_gerada = traduzir_poema(poema_original)
+    # Gerar tradução
+    with torch.no_grad():
+        generated_tokens = model.generate(
+            **encoded,
+            max_length=512,
+            num_beams=5,
+            forced_bos_token_id=forced_bos_token_id  # Isso garante que a saída seja no idioma correto
+        )
 
-    resultados.append({
-        "original_poem": poema_original,
-        "translated_poem": referencia,
-        "translated_by_TA": traducao_gerada,
-        "src_lang": SRC_LANG,
-        "tgt_lang": TGT_LANG
-    })
+    traducao = tokenizer.decode(generated_tokens[0], skip_special_tokens=True)
+    return traducao
 
-# Salvar os resultados em um CSV
-df_resultados = pd.DataFrame(resultados)
-output_path = os.path.abspath("../modelos/poemas/test/mbart_finetuning/frances_ingles_test_traducao_mbart.csv")
-df_resultados.to_csv(output_path, index=False)
+# Carregar o arquivo CSV com os poemas
+file_path = "../poemas/poemas300/test/frances_ingles_test.csv"
+df = pd.read_csv(file_path)
 
-print("Traduções salvas.")
+# Exibir para verificar o conteúdo e garantir que 'src_lang' e 'tgt_lang' estejam corretos
+print(df[['original_poem', 'src_lang', 'tgt_lang']].head())
+
+# Traduzir os poemas e adicionar à nova coluna 'translated_by_TA'
+df['translated_by_TA'] = df.apply(lambda row: traduzir_poema(row['original_poem'], src_lang=row['src_lang'], tgt_lang=row['tgt_lang']), axis=1)
+
+# Salvar o resultado em um novo CSV
+df.to_csv("../poemas/poemas300/mbart/frances_ingles_test_pretreinado_mbart.csv", index=False)
+
+print("Tradução concluída e salva.")
+
+end_time = time.time()
+elapsed_time = end_time - start_time
+print(f"Tempo total de execução: {elapsed_time:.2f} segundos")
