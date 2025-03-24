@@ -1,7 +1,7 @@
 import torch
 import pandas as pd
-from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
 import time
+from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
 
 start_time = time.time()
 
@@ -9,45 +9,36 @@ start_time = time.time()
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
-# Carregar modelo e tokenizer do mBART
-model_name = "facebook/mbart-large-50"  # Modelo pré-treinado do mBART
+# Carregar o modelo e o tokenizador
+model = MBartForConditionalGeneration.from_pretrained("facebook/mbart-large-50-many-to-many-mmt")
+tokenizer = MBart50TokenizerFast.from_pretrained("facebook/mbart-large-50-many-to-many-mmt")
 
-tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
-model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
+# Carregar o arquivo CSV
+input_csv = "../poemas/poemas300/test/frances_ingles_test.csv"
+df = pd.read_csv(input_csv)
 
-# Definir idiomas de origem e destino
-src_lang = "fr_XX"  
-trg_lang = "en_XX"  
+# Definir o idioma de origem para o francês (ou ajustar conforme o CSV)
+tokenizer.src_lang = "fr_XX"
 
-tokenizer.src_lang = src_lang
+# Função para traduzir um poema
+def traduzir_poema(poema):
+    encoded_text = tokenizer(poema, return_tensors="pt").to(device)
+    generated_tokens = model.generate(
+        **encoded_text,
+        forced_bos_token_id=tokenizer.lang_code_to_id["en_XX"]
+    )
+    translated_text = tokenizer.batch_decode(generated_tokens, skip_special_tokens=True)[0]
+    return translated_text
 
-# Função para traduzir poema
-def traduzir_poema(poema, tokenizer, model, device, trg_lang):
-    versos = poema.split("\n")
-    traducao_completa = []
+# Aplicar a função de tradução a todos os poemas e armazenar no novo campo 'translated_by_TA'
+df['translated_by_TA'] = df['original_poem'].apply(traduzir_poema)
 
-    for verso in versos:
-        encoded = tokenizer(verso.strip(), return_tensors="pt", truncation=True, padding=True, max_length=512)
-        encoded = {key: value.to(device) for key, value in encoded.items()}  # Mover para GPU
+# Salvar o arquivo CSV com a nova coluna
+output_csv = "../poemas/poemas300/test/frances_ingles_test_pretreinado_mbart.csv"
+df.to_csv(output_csv, index=False)
 
-        with torch.no_grad():
-            generated_tokens = model.generate(**encoded, max_length=512, num_beams=5, forced_bos_token_id=tokenizer.lang_code_to_id[trg_lang])
-
-        traducao = tokenizer.decode(generated_tokens[0], skip_special_tokens=True)
-        traducao_completa.append(traducao)
-
-    return "\n".join(traducao_completa)
-
-# Carregar o CSV com os poemas
-df = pd.read_csv('../poemas/poemas300/test/frances_ingles_test.csv')
-
-# Adicionar a coluna para as traduções
-df['translated_by_TA'] = df['original_poem'].apply(lambda x: traduzir_poema(x, tokenizer, model, device, trg_lang))
-
-# Salvar o CSV com a tradução
-df.to_csv('../poemas/poemas300/mbart/frances_ingles_test_pretreinado_mbart.csv', index=False)
-
-print("Tradução concluída e salva.")
+# Exibir o resultado
+print(f"Arquivo CSV com traduções salvo em: {output_csv}")
 
 end_time = time.time()
 elapsed_time = end_time - start_time
