@@ -45,10 +45,6 @@ def preprocess_function(examples):
 train_dataset = train_dataset.map(preprocess_function, batched=True)
 val_dataset = val_dataset.map(preprocess_function, batched=True)
 
-# Criar DataLoader personalizados para o treinamento e validação
-train_dataloader = DataLoader(train_dataset, batch_size=1, num_workers=2, pin_memory=True)
-val_dataloader = DataLoader(val_dataset, batch_size=4, num_workers=2, pin_memory=True)
-
 # Definir parâmetros de treinamento
 training_args = TrainingArguments(
     output_dir="/home/ubuntu/finetuning_fr_ing",
@@ -74,7 +70,7 @@ trainer = Trainer(
     train_dataset=train_dataset,
     eval_dataset=val_dataset,
     tokenizer=tokenizer,
-    data_collator=None,  # Colocar seu próprio DataLoader aqui
+    data_collator=None,  
 )
 
 # Iniciar o treinamento
