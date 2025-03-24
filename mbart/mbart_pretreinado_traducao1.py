@@ -1,3 +1,4 @@
+#ate funciona, mas o 2 é melhor
 import torch
 from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
 
