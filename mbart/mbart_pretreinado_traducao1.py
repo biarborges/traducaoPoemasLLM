@@ -37,4 +37,5 @@ generated_tokens = model.generate(
 translated_text = tokenizer.batch_decode(generated_tokens, skip_special_tokens=True)
 
 # Exibir a tradução
+print(f"Texto original (francês): {input}")
 print(f"Tradução (inglês): {translated_text}")
