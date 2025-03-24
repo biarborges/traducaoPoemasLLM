@@ -37,6 +37,7 @@ def translate_poem(poem, src_lang="fr_XX", tgt_lang="en_XX", max_length=1024):
 def split_and_translate(poem, src_lang="fr_XX", tgt_lang="en_XX", max_length=1024):
     # Se o poema for muito longo, divida-o em pedaços menores
     if len(poem.split()) > max_length:
+        # Dividir o poema em partes menores, com no máximo `max_length` tokens
         parts = [poem[i:i+max_length] for i in range(0, len(poem), max_length)]
         translated_parts = [translate_poem(part, src_lang, tgt_lang, max_length) for part in parts]
         return ' '.join(translated_parts)  # Combine as partes traduzidas
