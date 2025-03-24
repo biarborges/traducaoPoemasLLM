@@ -28,7 +28,7 @@ train_dataset = Dataset.from_pandas(df_train)
 val_dataset = Dataset.from_pandas(df_val)
 
 # Carregar modelo e tokenizer do mBART
-model_name = "facebook/mbart-large-50-many-to-many-mmt"
+model_name = "facebook/mbart-base-50-many-to-many-mmt"
 tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
 model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
 
@@ -48,7 +48,7 @@ training_args = TrainingArguments(
     output_dir="/home/ubuntu/finetuning_fr_ing",
     evaluation_strategy="epoch",  # Avaliar ao final de cada época
     save_strategy="epoch",  # Salvar modelo ao final de cada época
-    per_device_train_batch_size=1,  # Ajuste conforme memória disponível
+    per_device_train_batch_size=8,  # Ajuste conforme memória disponível
     per_device_eval_batch_size=8,
     gradient_accumulation_steps=8,
     learning_rate=2e-5,
