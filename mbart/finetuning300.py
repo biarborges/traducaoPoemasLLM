@@ -12,7 +12,7 @@ start_time = time.time()
 # Verificar GPU
 import gc
 torch.cuda.empty_cache()
-gc.collect()
+torch.cuda.ipc_collect()
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
