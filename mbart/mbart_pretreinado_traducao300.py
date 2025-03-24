@@ -1,15 +1,26 @@
 import pandas as pd
 from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
+import torch
+import time
+
+time_start = time.time()
 
 # Carregar o modelo mBART para francês -> inglês
 model_name = "facebook/mbart-large-50-one-to-many-mmt"
 model = MBartForConditionalGeneration.from_pretrained(model_name)
 tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
 
+# Mover o modelo para a GPU (se disponível)
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device)
+
 # Função para traduzir um poema
 def translate_poem(poem, src_lang="fr", tgt_lang="en", max_length=512):
     # Tokenizar o poema com truncamento para o comprimento máximo
     inputs = tokenizer(poem, return_tensors="pt", padding=True, truncation=True, max_length=max_length)
+
+    # Mover os dados para a GPU
+    inputs = {key: value.to(device) for key, value in inputs.items()}
 
     # Definir as línguas de origem e destino
     tokenizer.src_lang = src_lang
@@ -31,5 +42,8 @@ df['translated_by_TA'] = df['original_poem'].apply(lambda poem: translate_poem(p
 # Salvar o resultado em um novo CSV
 df.to_csv("../poemas/poemas300/test/frances_ingles_test_translated.csv", index=False)
 
-# Verificar as primeiras traduções
-print(df[['original_poem', 'translated_by_TA']].head())
+print("Tradução concluída e salva.")
+
+time_end = time.time()
+elapsed_time = time_end - time_start
+print(f"Tempo total de execução: {elapsed_time:.2f} segundos")
