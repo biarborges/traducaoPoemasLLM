@@ -5,15 +5,13 @@ from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
 from datasets import Dataset
 from transformers import TrainingArguments, Trainer
 import os
+
+# Configuração de variável para expandir segmentos de memória CUDA
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
 start_time = time.time()
 
 # Verificar GPU
-import gc
-torch.cuda.empty_cache()
-torch.cuda.ipc_collect()
-
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
@@ -38,7 +36,6 @@ model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
 def preprocess_function(examples):
     inputs = tokenizer(examples["original_poem"], max_length=512, truncation=True, padding="max_length")
     targets = tokenizer(examples["translated_poem"], max_length=512, truncation=True, padding="max_length")
-
     inputs["labels"] = targets["input_ids"]  # Definir os labels para o modelo aprender
     return inputs
 
@@ -52,7 +49,7 @@ training_args = TrainingArguments(
     evaluation_strategy="epoch",  # Avaliar ao final de cada época
     save_strategy="epoch",  # Salvar modelo ao final de cada época
     per_device_train_batch_size=1,  # Ajuste conforme memória disponível
-    per_device_eval_batch_size=4,
+    per_device_eval_batch_size=8,
     gradient_accumulation_steps=8,
     learning_rate=2e-5,
     weight_decay=0.01,
@@ -64,6 +61,11 @@ training_args = TrainingArguments(
     report_to="none"
 )
 
+# Função para liberar memória
+def clear_memory():
+    torch.cuda.empty_cache()
+    torch.cuda.ipc_collect()
+
 # Criar Trainer
 trainer = Trainer(
     model=model,
@@ -73,10 +75,16 @@ trainer = Trainer(
     tokenizer=tokenizer,
 )
 
-# Iniciar o treinamento
+# Função para liberar memória após cada época (com o colab do Trainer)
+def compute_metrics(p):
+    clear_memory()  # Libera memória após cada época
+    return {}
+
+# Iniciar o treinamento com a limpeza de memória após cada época
 trainer.train()
 
 # Salvar modelo treinado
+clear_memory()  # Liberar memória antes de salvar
 model.save_pretrained("/home/ubuntu/finetuning_fr_ing")
 tokenizer.save_pretrained("/home/ubuntu/finetuning_fr_ing")
 
