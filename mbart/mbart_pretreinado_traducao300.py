@@ -16,27 +16,34 @@ model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
 
 # Função para traduzir poema
 def traduzir_poema(poema, src_lang="en_XX", tgt_lang="fr_XX"):
-    # Configurar a língua de origem e destino no tokenizer
-    tokenizer.src_lang = src_lang
-    tokenizer.tgt_lang = tgt_lang
+    if not isinstance(poema, str) or poema.strip() == "":
+        return ""  # Evitar erros com valores nulos ou vazios
 
-    # Tokenizar o verso
+    # Tokenizar o texto com a configuração correta
     encoded = tokenizer(poema.strip(), return_tensors="pt", truncation=True, padding=True, max_length=512)
     encoded = {key: value.to(device) for key, value in encoded.items()}  # Mover para GPU
 
+    # Forçar o idioma de saída correto
+    forced_bos_token_id = tokenizer.lang_code_to_id[tgt_lang]
+
     # Gerar tradução
     with torch.no_grad():
-        generated_tokens = model.generate(**encoded, max_length=512, num_beams=5)
+        generated_tokens = model.generate(
+            **encoded,
+            max_length=512,
+            num_beams=5,
+            forced_bos_token_id=forced_bos_token_id  # Isso garante que a saída seja no idioma correto
+        )
 
     traducao = tokenizer.decode(generated_tokens[0], skip_special_tokens=True)
     return traducao
 
 # Carregar o arquivo CSV com os poemas
-file_path = "../poemas/poemas300/test/ingles_frances_test.csv"  # Altere o caminho do arquivo conforme necessário
+file_path = "../poemas/poemas300/test/ingles_frances_test.csv"
 df = pd.read_csv(file_path)
 
 # Traduzir os poemas e adicionar à nova coluna 'translated_by_TA'
-df['translated_by_TA'] = df['original_poem'].apply(lambda poem: traduzir_poema(poem, src_lang="en_XX", tgt_lang="fr_XX"))
+df['translated_by_TA'] = df.apply(lambda row: traduzir_poema(row['original_poem'], src_lang=row['src_lang'], tgt_lang=row['tgt_lang']), axis=1)
 
 # Salvar o resultado em um novo CSV
 df.to_csv("../poemas/poemas300/mbart/ingles_frances_test_pretreinado_mbart.csv", index=False)
