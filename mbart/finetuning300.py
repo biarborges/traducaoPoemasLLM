@@ -8,6 +8,10 @@ from transformers import TrainingArguments, Trainer
 start_time = time.time()
 
 # Verificar GPU
+import gc
+torch.cuda.empty_cache()
+gc.collect()
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
@@ -47,6 +51,7 @@ training_args = TrainingArguments(
     save_strategy="epoch",  # Salvar modelo ao final de cada época
     per_device_train_batch_size=8,  # Ajuste conforme memória disponível
     per_device_eval_batch_size=8,
+    gradient_accumulation_steps=4,
     learning_rate=5e-5,
     weight_decay=0.01,
     num_train_epochs=3, 
