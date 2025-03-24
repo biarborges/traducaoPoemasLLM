@@ -15,7 +15,7 @@ tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
 model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
 
 # Função para traduzir poema
-def traduzir_poema(poema, src_lang="en_XX", tgt_lang="fr_XX"):
+def traduzir_poema(poema, src_lang="fr_XX", tgt_lang="pt_XX"):
     if not isinstance(poema, str) or poema.strip() == "":
         return ""  # Evitar erros com valores nulos ou vazios
 
