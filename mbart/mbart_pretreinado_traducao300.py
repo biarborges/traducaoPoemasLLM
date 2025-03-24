@@ -39,14 +39,14 @@ def traduzir_poema(poema, src_lang="fr_XX", tgt_lang="pt_XX"):
     return traducao
 
 # Carregar o arquivo CSV com os poemas
-file_path = "../poemas/poemas300/test/ingles_frances_test.csv"
+file_path = "../poemas/poemas300/test/frances_portugues_test.csv"
 df = pd.read_csv(file_path)
 
 # Traduzir os poemas e adicionar à nova coluna 'translated_by_TA'
 df['translated_by_TA'] = df.apply(lambda row: traduzir_poema(row['original_poem'], src_lang=row['src_lang'], tgt_lang=row['tgt_lang']), axis=1)
 
 # Salvar o resultado em um novo CSV
-df.to_csv("../poemas/poemas300/mbart/ingles_frances_test_pretreinado_mbart.csv", index=False)
+df.to_csv("../poemas/poemas300/mbart/frances_portugues_test_pretreinado_mbart.csv", index=False)
 
 print("Tradução concluída e salva.")
 
