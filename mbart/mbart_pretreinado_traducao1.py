@@ -5,24 +5,25 @@ from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
-from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
-
 # Carregar o tokenizador e o modelo pré-treinado para tradução do francês para o inglês
 model_name = "facebook/mbart-large-50-one-to-many-mmt"
 tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
 model = MBartForConditionalGeneration.from_pretrained(model_name)
 
-# Definir o idioma de origem (francês) e o idioma de destino (inglês)
+# Definir o idioma de origem (francês)
 tokenizer.src_lang = "fr_XX"
 
 # Texto em francês para tradução
 texto_frances = "Bonjour, comment ça va ?"
 
 # Tokenizar o texto de entrada
-inputs = tokenizer(texto_frances, return_tensors="pt")
+inputs = tokenizer(texto_frances, return_tensors="pt").to(device)
 
-# Gerar a tradução
-translated = model.generate(**inputs, forced_bos_token_id=tokenizer.get_lang_id("en_XX")).to(device)
+# Obter o ID do idioma de destino (inglês)
+tgt_lang_id = tokenizer.lang2id["en_XX"]
+
+# Gerar a tradução (usando forced_bos_token_id para garantir que a tradução será para o inglês)
+translated = model.generate(**inputs, forced_bos_token_id=tgt_lang_id).to(device)
 
 # Decodificar a tradução de volta para texto
 translated_text = tokenizer.decode(translated[0], skip_special_tokens=True)
