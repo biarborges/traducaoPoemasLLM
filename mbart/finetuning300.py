@@ -4,6 +4,8 @@ import time
 from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
 from datasets import Dataset
 from transformers import TrainingArguments, Trainer
+import os
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
 start_time = time.time()
 
