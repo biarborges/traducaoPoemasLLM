@@ -46,10 +46,15 @@ traducao_completa = []
 
 # Traduzir verso por verso
 for verso in versos:
-    texto_com_prefixo = f">>en<< {verso.strip()}"  # Adicionar prefixo da língua
-    encoded = tokenizer(texto_com_prefixo, return_tensors="pt", truncation=True, padding=True, max_length=512)
+    # Configurar a língua de origem e destino no tokenizer
+    tokenizer.src_lang = "fr_XX"  # Língua de origem: francês
+    tokenizer.tgt_lang = "en_XX"  # Língua de destino: inglês
+
+    # Tokenizar o verso
+    encoded = tokenizer(verso.strip(), return_tensors="pt", truncation=True, padding=True, max_length=512)
     encoded = {key: value.to(device) for key, value in encoded.items()}  # Mover para GPU
 
+    # Gerar tradução
     with torch.no_grad():
         generated_tokens = model.generate(**encoded, max_length=512, num_beams=5)
 
