@@ -6,7 +6,7 @@ from onmt.translate.translator import build_translator
 # Caminhos
 CSV_INPUT = "../poemas/poemas300/test/frances_ingles_test2.csv"  # Substituir pelo caminho correto
 CSV_OUTPUT = "../poemas/poemas300/openRNN/frances_ingles_poems_openRNN.csv"
-MODEL_PATH = "models_en_fr/model_en_fr_step_50000.pt"  # Ajuste conforme necessário
+MODEL_PATH = "../openRNN/models_en_fr/model_en_fr_step_50000.pt"  # Ajuste conforme necessário
 CONFIG_PATH = "config.yaml"
 
 # Carregar configuração
