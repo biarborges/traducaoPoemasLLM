@@ -1,6 +1,6 @@
 import pandas as pd
 import torch
-from onmt.translate import TranslationServer
+from onmt.translate import Translator
 import os
 import yaml
 
@@ -10,38 +10,37 @@ CSV_OUTPUT = "../poemas/poemas300/openRNN/frances_ingles_poems_openRNN.csv"
 MODEL_PATH = "../openRNN/models_en_fr/model_en_fr_step_50000.pt"
 
 def load_translator(model_path):
-    """Carrega o tradutor usando a API mais recente"""
-    # Configuração do modelo
-    config = {
-        'models': [{
+    """Carrega o tradutor de forma direta"""
+    try:
+        # Configuração mínima necessária
+        kwargs = {
             'model_path': model_path,
-            'timeout': -1,
-            'on_timeout': 'to_cpu',
-            'load': True,
-            'tokenizer': {
-                'type': 'space'
-            }
-        }],
-        'services': {
-            'n_best': 1,
+            'src': 'en',
+            'tgt': 'fr',
             'beam_size': 5,
-            'batch_size': 16
+            'batch_size': 16,
+            'gpu': 0 if torch.cuda.is_available() else -1
         }
-    }
-    
-    # Inicializa o servidor de tradução
-    server = TranslationServer()
-    server.start(config)
-    
-    # Retorna o primeiro modelo carregado
-    return server.models[0][0]
+        
+        # Carrega o tradutor diretamente
+        return Translator(**kwargs)
+    except Exception as e:
+        print(f"Erro ao carregar modelo: {str(e)}")
+        return None
 
 def translate_texts(texts, translator):
     """Traduz uma lista de textos"""
+    if translator is None:
+        return ["ERRO: Tradutor não carregado"] * len(texts)
+    
     translations = []
     for text in texts:
-        result = translator.translate([text])[0][0]
-        translations.append(result)
+        try:
+            result = translator.translate([text], batch_size=1)[0][0]
+            translations.append(result)
+        except Exception as e:
+            print(f"Erro ao traduzir texto: {str(e)}")
+            translations.append("ERRO NA TRADUÇÃO")
     return translations
 
 def main():
@@ -62,6 +61,10 @@ def main():
         # Carregar modelo
         print(f"Carregando modelo: {MODEL_PATH}")
         translator = load_translator(MODEL_PATH)
+        
+        if translator is None:
+            print("Não foi possível carregar o tradutor")
+            return
         
         # Traduzir
         print("Traduzindo poemas...")
