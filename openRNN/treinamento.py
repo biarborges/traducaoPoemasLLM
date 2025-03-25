@@ -158,7 +158,7 @@ class TranslationPipeline:
             yaml.dump(config, f)
         
         os.system(f"onmt_build_vocab -config config.yml -n_sample 100000")
-        os.system(f"onmt_train -config config.yml")
+        os.system(f"onmt_train -config config.yaml")
 
 def main():
     pipeline = TranslationPipeline(CONFIG)
