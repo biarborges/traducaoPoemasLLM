@@ -1,121 +1,114 @@
 import os
 import requests
 import zipfile
-import gzip
-import shutil
 from tqdm import tqdm
 import sacremoses
 from subword_nmt import apply_bpe, learn_bpe
-import time
 
-# Configurações específicas para fr-pt
-DATA_DIR = "opus_data_fr_pt"
-MODEL_DIR = "models_fr_pt"
+# ============== CONFIGURAÇÃO (EDITAR AQUI!) ==============
+LINK_DOWNLOAD = "https://object.pouta.csc.fi/OPUS-KDE4/v2/moses/fr-pt.txt.zip"  # Substitua pelo link do dataset
+SOURCE_LANG = "fr"  # Código do idioma de origem (ex: "en", "es", "de")
+TARGET_LANG = "en"  # Código do idioma alvo
+# ========================================================
+
+# Configurações automáticas
+DATA_DIR = f"opus_data_{SOURCE_LANG}_{TARGET_LANG}"
+MODEL_DIR = f"models_{SOURCE_LANG}_{TARGET_LANG}"
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(MODEL_DIR, exist_ok=True)
 
-# --- 1. Download dos dados ---
-def download_fr_pt():
-    url = "https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2024/moses/fr-pt_BR.txt.zip"
-    zip_path = os.path.join(DATA_DIR, "fr-pt.zip")
-    
+def download_data():
+    """Baixa os dados do link especificado"""
     try:
-        # Download
-        response = requests.get(url, stream=True)
+        print(f"Baixando {SOURCE_LANG}-{TARGET_LANG}...")
+        local_path = os.path.join(DATA_DIR, "dataset.zip")
+        
+        # Download com barra de progresso
+        response = requests.get(LINK_DOWNLOAD, stream=True)
         response.raise_for_status()
         
-        with open(zip_path, "wb") as f, tqdm(
-            desc="Baixando fr-pt",
-            unit="B",
-            unit_scale=True,
-            unit_divisor=1024,
+        with open(local_path, "wb") as f, tqdm(
+            unit="B", unit_scale=True, unit_divisor=1024,
+            total=int(response.headers.get('content-length', 0))
         ) as bar:
             for chunk in response.iter_content(chunk_size=8192):
                 f.write(chunk)
                 bar.update(len(chunk))
         
         # Extração
-        with zipfile.ZipFile(zip_path, "r") as zip_ref:
+        with zipfile.ZipFile(local_path, 'r') as zip_ref:
             zip_ref.extractall(DATA_DIR)
         
-        print("Download e extração concluídos!")
+        os.remove(local_path)
         return True
     
     except Exception as e:
         print(f"Erro no download: {e}")
         return False
 
-# --- 2. Pré-processamento ---
-def preprocess_fr_pt():
+def preprocess():
+    """Pré-processamento genérico para qualquer par de idiomas"""
     try:
-        # Caminhos dos arquivos
-        fr_file = os.path.join(DATA_DIR, "OpenSubtitles.fr-pt_BR.fr")
-        pt_file = os.path.join(DATA_DIR, "OpenSubtitles.fr-pt_BR.pt_BR")
+        base_name = os.path.join(DATA_DIR, os.path.basename(LINK_DOWNLOAD).replace(".zip", ""))
         
         # Tokenização
-        tokenizer_fr = sacremoses.MosesTokenizer(lang="fr")
-        tokenizer_pt = sacremoses.MosesTokenizer(lang="pt")
-        
-        def tokenize(input_file, output_file, tokenizer):
+        def tokenize_file(input_file, output_file, lang):
+            tokenizer = sacremoses.MosesTokenizer(lang=lang)
             with open(input_file, "r", encoding="utf-8") as fin, \
                  open(output_file, "w", encoding="utf-8") as fout:
-                for line in tqdm(fin, desc=f"Tokenizando {input_file}"):
-                    fout.write(tokenizer.tokenize(line.strip(), return_str=True) + "\n")
+                for line in tqdm(fin, desc=f"Tokenizando {lang}"):
+                    fout.write(tokenizer.tokenize(line.strip(), return_str=True) + "\n"
         
-        tokenize(fr_file, fr_file + ".tok", tokenizer_fr)
-        tokenize(pt_file, pt_file + ".tok", tokenizer_pt)
+        tokenize_file(f"{base_name}.{SOURCE_LANG}", f"{base_name}.{SOURCE_LANG}.tok", SOURCE_LANG)
+        tokenize_file(f"{base_name}.{TARGET_LANG}", f"{base_name}.{TARGET_LANG}.tok", TARGET_LANG)
         
         # BPE
-        with open(fr_file + ".tok", "r", encoding="utf-8") as fr, \
-             open(pt_file + ".tok", "r", encoding="utf-8") as pt, \
-             open(os.path.join(DATA_DIR, "bpe.codes"), "w", encoding="utf-8") as bpe_out:
+        print("Aprendendo BPE...")
+        with open(f"{base_name}.{SOURCE_LANG}.tok", "r") as src, \
+             open(f"{base_name}.{TARGET_LANG}.tok", "r") as tgt, \
+             open(os.path.join(DATA_DIR, "bpe.codes"), "w") as out:
             
             learn_bpe.learn_bpe(
-                [fr, pt],
-                bpe_out,
+                [src, tgt],
+                out,
                 num_symbols=10000,
                 min_frequency=2
             )
         
-        print("Pré-processamento concluído!")
         return True
     
     except Exception as e:
         print(f"Erro no pré-processamento: {e}")
         return False
 
-# --- 3. Treinamento ---
-def train_fr_pt():
+def train():
+    """Treinamento universal"""
+    base_name = os.path.join(DATA_DIR, os.path.basename(LINK_DOWNLOAD).replace(".zip", ""))
+    
     config = f"""
     data:
         corpus_1:
-            path_src: {DATA_DIR}/OpenSubtitles.fr-pt_BR.fr.tok
-            path_tgt: {DATA_DIR}/OpenSubtitles.fr-pt_BR.pt_BR.tok
+            path_src: {base_name}.{SOURCE_LANG}.tok
+            path_tgt: {base_name}.{TARGET_LANG}.tok
         valid:
-            path_src: {DATA_DIR}/valid.fr.tok
-            path_tgt: {DATA_DIR}/valid.pt.tok
-    save_model: {MODEL_DIR}/model_fr_pt
-    src_vocab: {DATA_DIR}/vocab.fr
-    tgt_vocab: {DATA_DIR}/vocab.pt
+            path_src: {base_name}.valid.{SOURCE_LANG}.tok
+            path_tgt: {base_name}.valid.{TARGET_LANG}.tok
+    save_model: {MODEL_DIR}/model_{SOURCE_LANG}_{TARGET_LANG}
+    src_vocab: {DATA_DIR}/vocab.{SOURCE_LANG}
+    tgt_vocab: {DATA_DIR}/vocab.{TARGET_LANG}
     encoder_type: lstm
     decoder_type: lstm
     rnn_size: 512
     batch_size: 64
-    dropout: 0.3
     train_steps: 50000
     """
     
-    with open("config_fr_pt.yml", "w", encoding="utf-8") as f:
+    with open("config.yml", "w") as f:
         f.write(config)
     
-    # Comandos de treinamento
-    os.system(f"onmt_build_vocab -config config_fr_pt.yml -n_sample 100000")
-    os.system(f"onmt_train -config config_fr_pt.yml")
+    os.system(f"onmt_build_vocab -config config.yml -n_sample 100000")
+    os.system(f"onmt_train -config config.yml")
 
-# --- Execução principal ---
 if __name__ == "__main__":
-    start_time = time.time()
-    if download_fr_pt() and preprocess_fr_pt():
-        train_fr_pt()
-    end_time = time.time()
-    print(f"\nTempo total: {end_time - start_time:.2f} segundos.")
+    if download_data() and preprocess():
+        train()
