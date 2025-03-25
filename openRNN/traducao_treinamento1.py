@@ -1,37 +1,36 @@
 import pandas as pd
-import os
 import torch
-from onmt.translate import TranslationServer, Translator
+from onmt.translate import Translator
+from onmt.models import build_model_saver
+from onmt.utils import parse_opt
+from onmt.opts import translate_opts
 
 # Configurações
 CSV_INPUT = "../poemas/poemas300/test/frances_ingles_test2.csv"
 CSV_OUTPUT = "../poemas/poemas300/openRNN/frances_ingles_poems_openRNN.csv"
 MODEL_PATH = "../openRNN/models_en_fr/model_en_fr_step_50000.pt"
 
-# Configuração do modelo RNN
-MODEL_CONFIG = {
-    'model_path': MODEL_PATH,
-    'src': 'en',
-    'tgt': 'fr',
-    'encoder_type': 'rnn',
-    'decoder_type': 'rnn',
-    'beam_size': 5,
-    'batch_size': 16,
-    'gpu': 0 if torch.cuda.is_available() else -1
-}
-
-def initialize_translator(config):
-    """Inicializa o tradutor para modelos RNN"""
-    server = TranslationServer()
-    server.start(config)
-    return server.models[0][0]  # Retorna o primeiro modelo carregado
+def load_rnn_model(model_path):
+    """Carrega um modelo RNN do OpenNMT-py"""
+    # Configuração mínima necessária
+    opt = parse_opt(translate_opts())
+    opt.models = [model_path]
+    opt.encoder_type = 'rnn'
+    opt.decoder_type = 'rnn'
+    opt.beam_size = 5
+    opt.batch_size = 16
+    opt.gpu = 0 if torch.cuda.is_available() else -1
+    
+    # Construir o tradutor
+    translator = Translator.from_opt(opt)
+    return translator
 
 def translate_texts(texts, translator):
     """Traduz uma lista de textos"""
     translations = []
     for text in texts:
-        result = translator.translate([text])
-        translations.append(result[0][0])  # Pega a primeira hipótese da primeira tradução
+        result = translator.translate([text], batch_size=1)[0]
+        translations.append(result[0])  # Pega a melhor tradução
     return translations
 
 def main():
@@ -46,16 +45,16 @@ def main():
         required_cols = {'original_poem', 'src_lang', 'tgt_lang'}
         if not required_cols.issubset(df.columns):
             missing = required_cols - set(df.columns)
-            print(f"Colunas faltando no CSV: {missing}")
+            print(f"Colunas faltando: {missing}")
             return
     except Exception as e:
         print(f"Erro ao carregar CSV: {e}")
         return
 
-    # Inicializar tradutor
+    # Carregar modelo
     try:
         print(f"Carregando modelo RNN: {MODEL_PATH}")
-        translator = initialize_translator({'models': [MODEL_CONFIG]})
+        translator = load_rnn_model(MODEL_PATH)
     except Exception as e:
         print(f"Erro ao carregar modelo: {e}")
         return
