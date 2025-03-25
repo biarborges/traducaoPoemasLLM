@@ -2,8 +2,8 @@ import os
 from multiprocessing import Pool
 import sacremoses
 from subword_nmt import apply_bpe, learn_bpe
-from onmt_train import train
-from onmt.translate import Translator
+from onmt.bin.train import train
+from onmt.bin.translate import translate
 
 # Configurações (ajuste esses paths!)
 DATA_DIR = "opus_mini"
