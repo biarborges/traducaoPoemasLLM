@@ -3,6 +3,7 @@ import os
 import yaml
 from onmt.translate import Translator
 from onmt.model_builder import load_test_model
+import torch
 
 # Caminhos
 CSV_INPUT = "../poemas/poemas300/test/frances_ingles_test2.csv"
