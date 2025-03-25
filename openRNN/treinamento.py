@@ -61,53 +61,7 @@ class TranslationPipeline:
                 os.remove(zip_path)
             return False
 
-    def preprocess(self):
-        """Tokenização e BPE com tratamento robusto"""
-        try:
-            base_name = os.path.join(
-                self.data_dir,
-                f"{self.config['dataset']}.{self.config['source_lang']}-{self.config['target_lang']}"
-            )
-            
-            # Tokenização
-            tokenizers = {
-                self.config["source_lang"]: sacremoses.MosesTokenizer(lang=self.config["source_lang"]),
-                self.config["target_lang"]: sacremoses.MosesTokenizer(lang=self.config["target_lang"])
-            }
-            
-            for lang in [self.config["source_lang"], self.config["target_lang"]]:
-                input_file = f"{base_name}.{lang}"
-                output_file = f"{input_file}.tok"
-                
-                with open(input_file, "r", encoding="utf-8") as fin, \
-                    open(output_file, "w", encoding="utf-8") as fout:
-                    for line in tqdm(fin, desc=f"Tokenizando {lang}"):
-                        fout.write(tokenizers[lang].tokenize(line.strip(), return_str=True) + "\n")
-            
-            # BPE (Versão Corrigida)
-            print("Processando BPE...")
-            src_lines = []
-            tgt_lines = []
-            
-            with open(f"{base_name}.{self.config['source_lang']}.tok", "r", encoding="utf-8") as f:
-                src_lines = [line.strip() for line in f]
-            
-            with open(f"{base_name}.{self.config['target_lang']}.tok", "r", encoding="utf-8") as f:
-                tgt_lines = [line.strip() for line in f]
-            
-            with open(os.path.join(self.data_dir, "bpe.codes"), "w", encoding="utf-8") as f_bpe:
-                learn_bpe.learn_bpe(
-                    [src_lines, tgt_lines],
-                    f_bpe,
-                    num_symbols=10000,
-                    min_frequency=2
-                )
-            
-            return True
-        
-        except Exception as e:
-            print(f"Erro no pré-processamento: {e}")
-            return False
+	
 
     def train(self):
         """Configura e executa o treinamento"""
