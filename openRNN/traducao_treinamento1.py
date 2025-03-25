@@ -1,9 +1,8 @@
 import pandas as pd
 import torch
 from onmt.translate import Translator
-from onmt.models import build_model_saver
-from onmt.utils import parse_opt
 from onmt.opts import translate_opts
+import argparse
 
 # Configurações
 CSV_INPUT = "../poemas/poemas300/test/frances_ingles_test2.csv"
@@ -12,14 +11,21 @@ MODEL_PATH = "../openRNN/models_en_fr/model_en_fr_step_50000.pt"
 
 def load_rnn_model(model_path):
     """Carrega um modelo RNN do OpenNMT-py"""
-    # Configuração mínima necessária
-    opt = parse_opt(translate_opts())
-    opt.models = [model_path]
-    opt.encoder_type = 'rnn'
-    opt.decoder_type = 'rnn'
-    opt.beam_size = 5
-    opt.batch_size = 16
-    opt.gpu = 0 if torch.cuda.is_available() else -1
+    # Configura os argumentos manualmente
+    parser = argparse.ArgumentParser()
+    translate_opts(parser)
+    
+    # Define os parâmetros manualmente para RNN
+    args = [
+        '-model', model_path,
+        '-encoder_type', 'rnn',
+        '-decoder_type', 'rnn',
+        '-beam_size', '5',
+        '-batch_size', '16',
+        '-gpu', '0' if torch.cuda.is_available() else '-1'
+    ]
+    
+    opt = parser.parse_args(args)
     
     # Construir o tradutor
     translator = Translator.from_opt(opt)
@@ -72,4 +78,5 @@ def main():
         print(f"Erro durante tradução: {e}")
 
 if __name__ == "__main__":
+    import os
     main()
