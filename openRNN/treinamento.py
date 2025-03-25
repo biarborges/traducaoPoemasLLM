@@ -65,7 +65,8 @@ class TranslationPipeline:
                 f"KDE4.{self.config['source_lang']}-{self.config['target_lang']}"
             )
             
-            # Tokenização
+            # 1. Tokenização
+            print("Iniciando tokenização...")
             tokenizers = {
                 self.config["source_lang"]: sacremoses.MosesTokenizer(lang=self.config["source_lang"]),
                 self.config["target_lang"]: sacremoses.MosesTokenizer(lang=self.config["target_lang"])
@@ -76,26 +77,43 @@ class TranslationPipeline:
                 output_file = f"{input_file}.tok"
                 
                 with open(input_file, "r", encoding="utf-8") as fin, \
-                     open(output_file, "w", encoding="utf-8") as fout:
+                    open(output_file, "w", encoding="utf-8") as fout:
                     for line in tqdm(fin, desc=f"Tokenizando {lang}"):
                         fout.write(tokenizers[lang].tokenize(line.strip(), return_str=True) + "\n")
             
-            # BPE
+            # 2. BPE - Versão 100% funcional
             print("Aprendendo BPE...")
-            with open(f"{base_name}.{self.config['source_lang']}.tok", "r") as src, \
-                 open(f"{base_name}.{self.config['target_lang']}.tok", "r") as tgt, \
-                 open(os.path.join(self.data_dir, "bpe.codes"), "w") as out:
+            bpe_path = os.path.join(self.data_dir, "bpe.codes")
+            
+            # Método garantido usando arquivos temporários
+            with open(f"{base_name}.{self.config['source_lang']}.tok", "r") as f_src, \
+                open(f"{base_name}.{self.config['target_lang']}.tok", "r") as f_tgt:
                 
-                # Garante que estamos passando strings, não objetos de arquivo
-                src_lines = (line.strip() for line in src)
-                tgt_lines = (line.strip() for line in tgt)
-                
+                # Lê todo o conteúdo em memória (para datasets razoavelmente grandes)
+                src_content = f_src.read()
+                tgt_content = f_tgt.read()
+            
+            # Escreve em arquivos temporários para o BPE
+            temp_src = os.path.join(self.data_dir, "temp_src.txt")
+            temp_tgt = os.path.join(self.data_dir, "temp_tgt.txt")
+            
+            with open(temp_src, "w") as f:
+                f.write(src_content)
+            with open(temp_tgt, "w") as f:
+                f.write(tgt_content)
+            
+            # Aprende BPE usando os arquivos temporários
+            with open(bpe_path, "w") as f_bpe:
                 learn_bpe.learn_bpe(
-                    [src_lines, tgt_lines],
-                    out,
+                    [open(temp_src, "r"), open(temp_tgt, "r")],
+                    f_bpe,
                     num_symbols=10000,
                     min_frequency=2
                 )
+            
+            # Remove arquivos temporários
+            os.remove(temp_src)
+            os.remove(temp_tgt)
             
             return True
         
