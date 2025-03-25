@@ -30,8 +30,18 @@ if not {'original_poem', 'src_lang', 'tgt_lang'}.issubset(df.columns):
 # Carregar configuração
 config = load_config(CONFIG_PATH)
 
+# Ajustar o dicionário de configuração para carregar o modelo corretamente
+opt = {
+    'models': [MODEL_PATH],
+    'src': config['data']['corpus_1']['path_src'],
+    'tgt': config['data']['corpus_1']['path_tgt'],
+    'batch_size': 16,
+    'gpu': config.get('gpu_ranks', [0]),
+    'beam_size': 5,
+}
+
 # Carregar o modelo de tradução
-model, fields = load_test_model(MODEL_PATH, config)
+model, fields = load_test_model(opt)
 
 # Inicializar o tradutor para RNN
 translator = Translator(model=model, fields=fields, beam_size=5)
