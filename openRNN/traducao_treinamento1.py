@@ -3,6 +3,7 @@ import torch
 from onmt.translate import Translator
 from onmt.opts import translate_opts
 import argparse
+import os
 
 # Configurações
 CSV_INPUT = "../poemas/poemas300/test/frances_ingles_test2.csv"
@@ -11,72 +12,54 @@ MODEL_PATH = "../openRNN/models_en_fr/model_en_fr_step_50000.pt"
 
 def load_rnn_model(model_path):
     """Carrega um modelo RNN do OpenNMT-py"""
-    # Configura os argumentos manualmente
     parser = argparse.ArgumentParser()
     translate_opts(parser)
     
-    # Define os parâmetros manualmente para RNN
+    # Configuração completa para modelo RNN en→fr
     args = [
-        '-model', model_path,
-        '-encoder_type', 'rnn',
-        '-decoder_type', 'rnn',
-        '-beam_size', '5',
-        '-batch_size', '16',
-        '-gpu', '0' if torch.cuda.is_available() else '-1'
+        '--model', model_path,
+        '--src', 'en',                 # Idioma fonte
+        '--tgt', 'fr',                 # Idioma alvo
+        '--encoder_type', 'rnn',
+        '--decoder_type', 'rnn',
+        '--beam_size', '5',
+        '--batch_size', '16',
+        '--gpu', '0' if torch.cuda.is_available() else '-1'
     ]
     
     opt = parser.parse_args(args)
-    
-    # Construir o tradutor
     translator = Translator.from_opt(opt)
     return translator
 
 def translate_texts(texts, translator):
     """Traduz uma lista de textos"""
-    translations = []
-    for text in texts:
-        result = translator.translate([text], batch_size=1)[0]
-        translations.append(result[0])  # Pega a melhor tradução
-    return translations
+    return [translator.translate([text], batch_size=1)[0][0] for text in texts]
 
 def main():
-    # Verificar se o modelo existe
+    # Verificar arquivos
     if not os.path.exists(MODEL_PATH):
-        print(f"Erro: Modelo não encontrado em {MODEL_PATH}")
+        print(f"Modelo não encontrado: {MODEL_PATH}")
         return
 
-    # Carregar dados
     try:
+        # Carregar dados
         df = pd.read_csv(CSV_INPUT)
-        required_cols = {'original_poem', 'src_lang', 'tgt_lang'}
-        if not required_cols.issubset(df.columns):
-            missing = required_cols - set(df.columns)
-            print(f"Colunas faltando: {missing}")
-            return
-    except Exception as e:
-        print(f"Erro ao carregar CSV: {e}")
-        return
-
-    # Carregar modelo
-    try:
-        print(f"Carregando modelo RNN: {MODEL_PATH}")
+        assert {'original_poem', 'src_lang', 'tgt_lang'}.issubset(df.columns)
+        
+        # Carregar modelo
+        print(f"Carregando modelo: {MODEL_PATH}")
         translator = load_rnn_model(MODEL_PATH)
-    except Exception as e:
-        print(f"Erro ao carregar modelo: {e}")
-        return
-
-    # Processar traduções
-    try:
-        print("Iniciando tradução...")
+        
+        # Traduzir
+        print("Traduzindo poemas...")
         df['translated_by_TA'] = translate_texts(df['original_poem'].tolist(), translator)
         
-        # Salvar resultados
+        # Salvar
         df.to_csv(CSV_OUTPUT, index=False)
         print(f"Traduções salvas em: {CSV_OUTPUT}")
         
     except Exception as e:
-        print(f"Erro durante tradução: {e}")
+        print(f"Erro: {e}")
 
 if __name__ == "__main__":
-    import os
     main()
