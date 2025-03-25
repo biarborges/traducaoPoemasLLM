@@ -57,7 +57,7 @@ def preprocess():
             with open(input_file, "r", encoding="utf-8") as fin, \
                  open(output_file, "w", encoding="utf-8") as fout:
                 for line in tqdm(fin, desc=f"Tokenizando {lang}"):
-                    fout.write(tokenizer.tokenize(line.strip(), return_str=True) + "\n"
+                    fout.write(tokenizer.tokenize(line.strip(), return_str=True) + "\n")
         
         tokenize_file(f"{base_name}.{SOURCE_LANG}", f"{base_name}.{SOURCE_LANG}.tok", SOURCE_LANG)
         tokenize_file(f"{base_name}.{TARGET_LANG}", f"{base_name}.{TARGET_LANG}.tok", TARGET_LANG)
