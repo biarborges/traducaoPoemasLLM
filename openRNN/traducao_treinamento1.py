@@ -1,50 +1,42 @@
+import pandas as pd
 import os
-from subword_nmt import apply_bpe
-import sacremoses
-from onmt.translate import Translator
-from onmt.models import load_model
+import yaml
+from onmt.translate.translator import build_translator
 
-# Configurações
-DATA_DIR = "opus_data_fr_pt"
-MODEL_PATH = "models_fr_pt/model_fr_pt_step_50000.pt"
-BPE_CODES = os.path.join(DATA_DIR, "bpe.codes")
+# Caminhos
+CSV_INPUT = "../poemas/poemas300/test/frances_ingles_test2.csv"  # Substituir pelo caminho correto
+CSV_OUTPUT = "../poemas/poemas300/openRNN/frances_ingles_poems_openRNN.csv"
+MODEL_PATH = "models_en_fr/model_en_fr_step_50000.pt"  # Ajuste conforme necessário
+CONFIG_PATH = "config.yaml"
 
-# --- 1. Pré-processamento do texto de entrada ---
-def preprocess(text, lang):
-    # Tokenização
-    tokenizer = sacremoses.MosesTokenizer(lang=lang)
-    tokens = tokenizer.tokenize(text.strip(), return_str=True)
-    
-    # Aplicar BPE
-    with open(BPE_CODES, "r", encoding="utf-8") as codes:
-        bpe = apply_bpe.BPE(codes)
-        return bpe.process_line(tokens)
+# Carregar configuração
+def load_config(config_path):
+    with open(config_path, "r") as f:
+        return yaml.safe_load(f)
 
-# --- 2. Carregar o modelo ---
-def load_translator():
-    return Translator.from_checkpoint(
-        MODEL_PATH,
-        batch_size=1,
-        beam_size=5
-    )
+# Traduzir usando modelo treinado
+def translate_texts(texts, translator):
+    translations = translator.translate(texts, batch_size=16)
+    return [t[0] for t in translations]
 
-# --- 3. Tradução ---
-def translate(text):
-    # Pré-processar (fr → pt)
-    processed_text = preprocess(text, "fr")
-    
-    # Traduzir
-    translator = load_translator()
-    output = translator.translate([processed_text])
-    
-    # Pós-processamento (remover BPE)
-    translated = output[0].replace("@@ ", "")
-    return translated
+# Carregar dados
+df = pd.read_csv(CSV_INPUT)
 
-# --- Interface simples ---
-if __name__ == "__main__":
-    while True:
-        text = input("\nDigite o texto em francês (ou 'sair'): ")
-        if text.lower() == "sair":
-            break
-        print("\nTradução:", translate(text))
+# Verificar colunas necessárias
+if not {'original_poem', 'src_lang', 'tgt_lang'}.issubset(df.columns):
+    raise ValueError("O CSV deve conter as colunas 'original_poem', 'src_lang' e 'tgt_lang'")
+
+# Inicializar o tradutor
+config = load_config(CONFIG_PATH)
+translator = build_translator(
+    model=MODEL_PATH,
+    config=config,
+    gpu=config['fp16']
+)
+
+# Traduzir os poemas
+df['translated_by_TA'] = translate_texts(df['original_poem'].tolist(), translator)
+
+# Salvar novo CSV
+df.to_csv(CSV_OUTPUT, index=False)
+print("Tradução concluída e salva em", CSV_OUTPUT)
