@@ -6,18 +6,18 @@ import sacremoses
 from subword_nmt import apply_bpe, learn_bpe
 import yaml
 
-# ============= CONFIGURAÇÃO (EDITAR AQUI) =============
+# ============= CONFIGURAÇÃO =============
 CONFIG = {
-    "dataset": "KDE4",                # Nome do dataset (OPUS)
-    "source_lang": "en",              # Código do idioma fonte
-    "target_lang": "fr",              # Código do idioma alvo
+    "dataset": "KDE4",
+    "source_lang": "en",
+    "target_lang": "fr",
     "base_url": "https://object.pouta.csc.fi/OPUS-KDE4/v2/moses/en-fr.txt.zip",
-    "train_steps": 50000,             # Passos de treinamento
-    "rnn_size": 512,                  # Tamanho das RNNs
-    "batch_size": 64,                 # Tamanho do batch
-    "use_gpu": True                   # Usar GPU se disponível
+    "train_steps": 50000,
+    "rnn_size": 512,
+    "batch_size": 64,
+    "use_gpu": True
 }
-# ======================================================
+# ========================================
 
 class TranslationPipeline:
     def __init__(self, config):
@@ -26,15 +26,32 @@ class TranslationPipeline:
         self.model_dir = f"models_{config['source_lang']}_{config['target_lang']}"
         os.makedirs(self.data_dir, exist_ok=True)
         os.makedirs(self.model_dir, exist_ok=True)
+        
+        # Nomes de arquivos base
+        self.base_name = os.path.join(
+            self.data_dir,
+            f"KDE4.{self.config['source_lang']}-{self.config['target_lang']}"
+        )
+
+    def _check_files_exist(self):
+        """Verifica se os arquivos necessários já existem"""
+        required_files = [
+            f"{self.base_name}.{self.config['source_lang']}",
+            f"{self.base_name}.{self.config['target_lang']}"
+        ]
+        return all(os.path.exists(f) for f in required_files)
 
     def download_data(self):
-        """Baixa dados paralelos do OPUS"""
-        url = self.config["base_url"]
-        zip_path = os.path.join(self.data_dir, "dataset.zip")
-        
+        """Baixa dados apenas se necessário"""
+        if self._check_files_exist():
+            print("Arquivos já existem. Pulando download.")
+            return True
+            
         try:
-            print(f"Baixando {url}...")
-            response = requests.get(url, stream=True)
+            print(f"Baixando {self.config['base_url']}...")
+            zip_path = os.path.join(self.data_dir, "dataset.zip")
+            
+            response = requests.get(self.config["base_url"], stream=True)
             response.raise_for_status()
             
             with open(zip_path, "wb") as f, tqdm(
@@ -50,7 +67,7 @@ class TranslationPipeline:
             
             os.remove(zip_path)
             return True
-        
+            
         except Exception as e:
             print(f"Erro no download: {e}")
             if os.path.exists(zip_path):
@@ -58,65 +75,52 @@ class TranslationPipeline:
             return False
 
     def preprocess(self):
-        """Tokenização e BPE com tratamento robusto"""
+        """Pré-processamento com tratamento robusto"""
         try:
-            base_name = os.path.join(
-                self.data_dir,
-                f"KDE4.{self.config['source_lang']}-{self.config['target_lang']}"
-            )
-            
-            # 1. Tokenização
-            print("Iniciando tokenização...")
-            tokenizers = {
-                self.config["source_lang"]: sacremoses.MosesTokenizer(lang=self.config["source_lang"]),
-                self.config["target_lang"]: sacremoses.MosesTokenizer(lang=self.config["target_lang"])
-            }
-            
-            for lang in [self.config["source_lang"], self.config["target_lang"]]:
-                input_file = f"{base_name}.{lang}"
-                output_file = f"{input_file}.tok"
+            # Verifica se os arquivos tokenizados já existem
+            if all(os.path.exists(f"{self.base_name}.{lang}.tok") for lang in [self.config["source_lang"], self.config["target_lang"]]):
+                print("Arquivos tokenizados já existem. Pulando tokenização.")
+            else:
+                print("Iniciando tokenização...")
+                tokenizers = {
+                    self.config["source_lang"]: sacremoses.MosesTokenizer(lang=self.config["source_lang"]),
+                    self.config["target_lang"]: sacremoses.MosesTokenizer(lang=self.config["target_lang"])
+                }
                 
-                with open(input_file, "r", encoding="utf-8") as fin, \
-                    open(output_file, "w", encoding="utf-8") as fout:
-                    for line in tqdm(fin, desc=f"Tokenizando {lang}"):
-                        fout.write(tokenizers[lang].tokenize(line.strip(), return_str=True) + "\n")
+                for lang in [self.config["source_lang"], self.config["target_lang"]]:
+                    input_file = f"{self.base_name}.{lang}"
+                    output_file = f"{input_file}.tok"
+                    
+                    with open(input_file, "r", encoding="utf-8") as fin, \
+                         open(output_file, "w", encoding="utf-8") as fout:
+                        for line in tqdm(fin, desc=f"Tokenizando {lang}"):
+                            fout.write(tokenizers[lang].tokenize(line.strip(), return_str=True) + "\n")
             
-            # 2. BPE - Versão 100% funcional
-            print("Aprendendo BPE...")
+            # Processamento BPE
             bpe_path = os.path.join(self.data_dir, "bpe.codes")
-            
-            # Método garantido usando arquivos temporários
-            with open(f"{base_name}.{self.config['source_lang']}.tok", "r") as f_src, \
-                open(f"{base_name}.{self.config['target_lang']}.tok", "r") as f_tgt:
+            if os.path.exists(bpe_path):
+                print("Arquivo BPE já existe. Pulando aprendizado.")
+            else:
+                print("Aprendendo BPE...")
+                src_lines = []
+                tgt_lines = []
                 
-                # Lê todo o conteúdo em memória (para datasets razoavelmente grandes)
-                src_content = f_src.read()
-                tgt_content = f_tgt.read()
-            
-            # Escreve em arquivos temporários para o BPE
-            temp_src = os.path.join(self.data_dir, "temp_src.txt")
-            temp_tgt = os.path.join(self.data_dir, "temp_tgt.txt")
-            
-            with open(temp_src, "w") as f:
-                f.write(src_content)
-            with open(temp_tgt, "w") as f:
-                f.write(tgt_content)
-            
-            # Aprende BPE usando os arquivos temporários
-            with open(bpe_path, "w") as f_bpe:
-                learn_bpe.learn_bpe(
-                    [open(temp_src, "r"), open(temp_tgt, "r")],
-                    f_bpe,
-                    num_symbols=10000,
-                    min_frequency=2
-                )
-            
-            # Remove arquivos temporários
-            os.remove(temp_src)
-            os.remove(temp_tgt)
+                with open(f"{self.base_name}.{self.config['source_lang']}.tok", "r") as f:
+                    src_lines = [line.strip() for line in f]
+                
+                with open(f"{self.base_name}.{self.config['target_lang']}.tok", "r") as f:
+                    tgt_lines = [line.strip() for line in f]
+                
+                with open(bpe_path, "w") as f_bpe:
+                    learn_bpe.learn_bpe(
+                        [src_lines, tgt_lines],
+                        f_bpe,
+                        num_symbols=10000,
+                        min_frequency=2
+                    )
             
             return True
-        
+            
         except Exception as e:
             print(f"Erro no pré-processamento: {e}")
             return False
@@ -126,14 +130,8 @@ class TranslationPipeline:
         config = {
             "data": {
                 "corpus_1": {
-                    "path_src": os.path.join(
-                        self.data_dir,
-                        f"KDE4.{self.config['source_lang']}-{self.config['target_lang']}.{self.config['source_lang']}.tok"
-                    ),
-                    "path_tgt": os.path.join(
-                        self.data_dir,
-                        f"KDE4.{self.config['source_lang']}-{self.config['target_lang']}.{self.config['target_lang']}.tok"
-                    )
+                    "path_src": f"{self.base_name}.{self.config['source_lang']}.tok",
+                    "path_tgt": f"{self.base_name}.{self.config['target_lang']}.tok"
                 },
                 "valid": {
                     "path_src": os.path.join(self.data_dir, "valid.src.tok"),
@@ -153,7 +151,7 @@ class TranslationPipeline:
             "train_steps": self.config["train_steps"],
             "world_size": 1,
             "gpu_ranks": [0] if self.config["use_gpu"] else [],
-            "fp16": self.config["use_gpu"]  # Mixed precision para GPU
+            "fp16": self.config["use_gpu"]
         }
         
         with open("config.yml", "w") as f:
