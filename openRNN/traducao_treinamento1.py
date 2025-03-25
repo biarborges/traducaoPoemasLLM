@@ -3,12 +3,12 @@ import sacremoses
 from subword_nmt import apply_bpe
 import argparse
 
-# Configurações (ajuste conforme seu treinamento)
+# Configurações corrigidas
 CONFIG = {
     "source_lang": "fr",
     "target_lang": "en",
-    "data_dir": f"/home/ubuntu/TraducaoPoemasLLM/openRNN/opus_data_en_fr",
-    "model_dir": f"../openRNN/models_en_fr/model_en_fr_step_50000.pt",
+    "data_dir": "/home/ubuntu/TraducaoPoemasLLM/openRNN/opus_data_en_fr",
+    "model_dir": "/home/ubuntu/TraducaoPoemasLLM/openRNN/models_en_fr",  # Deve ser diretório, não arquivo
     "use_gpu": True
 }
 
@@ -18,26 +18,47 @@ class Translator:
         self.tokenizer = sacremoses.MosesTokenizer(lang=config['source_lang'])
         self.detokenizer = sacremoses.MosesDetokenizer(lang=config['target_lang'])
         
-        # Carrega BPE se existir
+        # Verifica e carrega BPE corretamente
         bpe_path = os.path.join(config['data_dir'], "bpe.codes")
         self.bpe = None
         if os.path.exists(bpe_path):
-            with open(bpe_path, 'r') as bpe_file:
-                self.bpe = apply_bpe.BPE(bpe_file)
+            print(f"Carregando BPE codes de {bpe_path}")
+            try:
+                # Verifica se o arquivo BPE é válido
+                with open(bpe_path, 'r') as f:
+                    for i, line in enumerate(f, 1):
+                        parts = line.strip().split()
+                        if len(parts) != 2:
+                            print(f"Aviso: Linha {i} mal formatada no arquivo BPE: '{line.strip()}'")
+                
+                # Se passou na verificação, carrega
+                with open(bpe_path, 'r') as bpe_file:
+                    self.bpe = apply_bpe.BPE(bpe_file)
+            except Exception as e:
+                print(f"Erro ao carregar BPE: {e}")
+                self.bpe = None
         
         # Encontra o modelo mais recente
-        model_files = [f for f in os.listdir(config['model_dir']) 
-                      if f.startswith("model_") and f.endswith(".pt")]
-        if not model_files:
-            raise FileNotFoundError("Nenhum modelo treinado encontrado!")
+        if os.path.isfile(config['model_dir']):
+            # Se model_dir é na verdade um arquivo .pt
+            self.model_path = config['model_dir']
+        else:
+            model_files = [f for f in os.listdir(config['model_dir']) 
+                         if f.startswith("model_") and f.endswith(".pt")]
+            if not model_files:
+                raise FileNotFoundError(f"Nenhum modelo .pt encontrado em {config['model_dir']}")
+            self.model_path = os.path.join(config['model_dir'], sorted(model_files)[-1])
         
-        self.model_path = os.path.join(config['model_dir'], sorted(model_files)[-1])
+        print(f"Usando modelo: {self.model_path}")
 
     def preprocess(self, text):
         """Pré-processa o texto para tradução"""
         tokenized = self.tokenizer.tokenize(text.strip(), return_str=True)
         if self.bpe:
-            tokenized = self.bpe.process_line(tokenized)
+            try:
+                tokenized = self.bpe.process_line(tokenized)
+            except Exception as e:
+                print(f"Erro ao aplicar BPE: {e}")
         return tokenized
 
     def postprocess(self, text):
@@ -48,9 +69,13 @@ class Translator:
 
     def translate(self, text, beam_size=5):
         """Traduz um texto usando o modelo treinado"""
-        # Cria arquivos temporários
-        input_path = "../poemas/poemas300/test/frances_ingles_test2.csv"
-        output_path = "../poemas/poemas300/openRNN/frances_ingles_poems_openRNN.csv"
+        # Cria arquivos temporários com nomes únicos
+        import tempfile
+        temp_dir = "/home/ubuntu/TraducaoPoemasLLM/openRNN/temp"
+        os.makedirs(temp_dir, exist_ok=True)
+        
+        input_path = os.path.join(temp_dir, "temp_input.txt")
+        output_path = os.path.join(temp_dir, "temp_output.txt")
         
         try:
             # Pré-processamento
@@ -67,6 +92,7 @@ class Translator:
                 f"-replace_unk -verbose"
             )
             
+            print(f"Executando: {translate_cmd}")
             os.system(translate_cmd)
             
             # Lê e pós-processa a saída
@@ -83,7 +109,7 @@ class Translator:
                 os.remove(output_path)
 
 def main():
-    parser = argparse.ArgumentParser(description='Tradutor EN-FR usando modelo RNN')
+    parser = argparse.ArgumentParser(description='Tradutor FR-EN usando modelo RNN')
     parser.add_argument('--text', type=str, help='Texto para traduzir')
     parser.add_argument('--file', type=str, help='Arquivo para traduzir')
     parser.add_argument('--beam', type=int, default=5, help='Tamanho do beam search')
@@ -92,11 +118,14 @@ def main():
     translator = Translator(CONFIG)
     
     if args.file:
-        # Modo arquivo
-        with open(args.file, 'r', encoding='utf-8') as f:
-            for line in f:
+        # Modo arquivo - versão segura para grandes arquivos
+        output_file = os.path.splitext(args.file)[0] + "_translated.txt"
+        with open(args.file, 'r', encoding='utf-8') as fin, \
+             open(output_file, 'w', encoding='utf-8') as fout:
+            for line in fin:
                 translated = translator.translate(line.strip(), args.beam)
-                print(translated)
+                fout.write(translated + "\n")
+        print(f"Tradução completa. Resultado salvo em {output_file}")
     elif args.text:
         # Modo texto único
         translated = translator.translate(args.text, args.beam)
