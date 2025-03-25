@@ -28,11 +28,8 @@ if not {'original_poem', 'src_lang', 'tgt_lang'}.issubset(df.columns):
 
 # Inicializar o tradutor
 config = load_config(CONFIG_PATH)
-translator = build_translator(
-    model=MODEL_PATH,
-    config=config,
-    gpu=config['fp16']
-)
+translator = build_translator(config_path=CONFIG_PATH, report_score=True)
+
 
 # Traduzir os poemas
 df['translated_by_TA'] = translate_texts(df['original_poem'].tolist(), translator)
