@@ -1,7 +1,8 @@
 import pandas as pd
 import os
 import yaml
-from onmt.translate.translator import build_translator
+from onmt.translate import Translator
+from onmt.model_builder import load_test_model
 
 # Caminhos
 CSV_INPUT = "../poemas/poemas300/test/frances_ingles_test2.csv"  # Substituir pelo caminho correto
@@ -26,10 +27,14 @@ df = pd.read_csv(CSV_INPUT)
 if not {'original_poem', 'src_lang', 'tgt_lang'}.issubset(df.columns):
     raise ValueError("O CSV deve conter as colunas 'original_poem', 'src_lang' e 'tgt_lang'")
 
-# Inicializar o tradutor
+# Carregar configuração
 config = load_config(CONFIG_PATH)
-translator = build_translator(config_path=CONFIG_PATH, report_score=True)
 
+# Carregar o modelo de tradução
+model, fields = load_test_model(MODEL_PATH, config)
+
+# Inicializar o tradutor para RNN
+translator = Translator(model=model, fields=fields, beam_size=5)
 
 # Traduzir os poemas
 df['translated_by_TA'] = translate_texts(df['original_poem'].tolist(), translator)
