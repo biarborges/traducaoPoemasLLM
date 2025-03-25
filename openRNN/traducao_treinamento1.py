@@ -1,7 +1,6 @@
 import pandas as pd
 import torch
 from onmt.translate import Translator
-from onmt.opts import translate_opts
 import argparse
 import os
 
@@ -10,26 +9,33 @@ CSV_INPUT = "../poemas/poemas300/test/frances_ingles_test2.csv"
 CSV_OUTPUT = "../poemas/poemas300/openRNN/frances_ingles_poems_openRNN.csv"
 MODEL_PATH = "../openRNN/models_en_fr/model_en_fr_step_50000.pt"
 
-def load_rnn_model(model_path):
-    """Carrega um modelo RNN do OpenNMT-py"""
-    parser = argparse.ArgumentParser()
-    translate_opts(parser)
+def load_rnn_translator(model_path):
+    """Carrega um tradutor para modelo RNN"""
+    # Configuração mínima necessária
+    args = argparse.Namespace(
+        models=[model_path],
+        src='en',
+        tgt='fr',
+        beam_size=5,
+        batch_size=16,
+        gpu=0 if torch.cuda.is_available() else -1,
+        alpha=0.0,
+        beta=0.0,
+        length_penalty='none',
+        coverage_penalty='none',
+        stepwise_penalty=False,
+        dump_beam='',
+        n_best=1,
+        max_length=100,
+        min_length=0,
+        ratio=-0.0,
+        random_sampling_topk=1,
+        random_sampling_temp=1.0,
+        replace_unk=False,
+        verbose=False
+    )
     
-    # Configuração completa para modelo RNN en→fr
-    args = [
-        '--model', model_path,
-        '--src', 'en',                 # Idioma fonte
-        '--tgt', 'fr',                 # Idioma alvo
-        '--encoder_type', 'rnn',
-        '--decoder_type', 'rnn',
-        '--beam_size', '5',
-        '--batch_size', '16',
-        '--gpu', '0' if torch.cuda.is_available() else '-1'
-    ]
-    
-    opt = parser.parse_args(args)
-    translator = Translator.from_opt(opt)
-    return translator
+    return Translator.from_opt(args)
 
 def translate_texts(texts, translator):
     """Traduz uma lista de textos"""
@@ -48,7 +54,7 @@ def main():
         
         # Carregar modelo
         print(f"Carregando modelo: {MODEL_PATH}")
-        translator = load_rnn_model(MODEL_PATH)
+        translator = load_rnn_translator(MODEL_PATH)
         
         # Traduzir
         print("Traduzindo poemas...")
