@@ -32,7 +32,7 @@ config = load_config(CONFIG_PATH)
 
 # Ajustar o dicionário de configuração para carregar o modelo corretamente
 opt = {
-    'models': [MODEL_PATH],
+    'models': [MODEL_PATH],  # Caminho para o modelo
     'src': config['data']['corpus_1']['path_src'],
     'tgt': config['data']['corpus_1']['path_tgt'],
     'batch_size': 16,
