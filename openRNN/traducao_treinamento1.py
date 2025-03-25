@@ -1,7 +1,7 @@
 import pandas as pd
 import torch
 from onmt.translate import Translator
-import argparse
+from onmt.utils.parse import ArgumentParser
 import os
 
 # Configurações
@@ -10,36 +10,35 @@ CSV_OUTPUT = "../poemas/poemas300/openRNN/frances_ingles_poems_openRNN.csv"
 MODEL_PATH = "../openRNN/models_en_fr/model_en_fr_step_50000.pt"
 
 def load_rnn_translator(model_path):
-    """Carrega um tradutor para modelo RNN"""
-    # Configuração mínima necessária
-    args = argparse.Namespace(
-        models=[model_path],
-        src='en',
-        tgt='fr',
-        beam_size=5,
-        batch_size=16,
-        gpu=0 if torch.cuda.is_available() else -1,
-        alpha=0.0,
-        beta=0.0,
-        length_penalty='none',
-        coverage_penalty='none',
-        stepwise_penalty=False,
-        dump_beam='',
-        n_best=1,
-        max_length=100,
-        min_length=0,
-        ratio=-0.0,
-        random_sampling_topk=1,
-        random_sampling_temp=1.0,
-        replace_unk=False,
-        verbose=False
-    )
+    """Carrega um tradutor para modelo RNN com a API atual"""
+    # Configuração do parser
+    parser = ArgumentParser()
+    group = parser.add_argument_group('Translation')
+    group.add_argument('--model', required=True, help="Path to model .pt file")
+    group.add_argument('--src', default="en", help="Source language")
+    group.add_argument('--tgt', default="fr", help="Target language")
+    group.add_argument('--beam_size', type=int, default=5)
+    group.add_argument('--batch_size', type=int, default=16)
+    group.add_argument('--gpu', type=int, default=0 if torch.cuda.is_available() else -1)
     
-    return Translator.from_opt(args)
+    # Parse dos argumentos
+    opt = parser.parse_args([
+        '--model', model_path,
+        '--src', 'en',
+        '--tgt', 'fr'
+    ])
+    
+    # Carrega o tradutor
+    return Translator.from_opt(opt)
 
 def translate_texts(texts, translator):
     """Traduz uma lista de textos"""
-    return [translator.translate([text], batch_size=1)[0][0] for text in texts]
+    translations = []
+    for text in texts:
+        # Para cada texto, faz a tradução individualmente
+        translation = translator.translate([text], batch_size=1)[0][0]
+        translations.append(translation)
+    return translations
 
 def main():
     # Verificar arquivos
@@ -50,7 +49,11 @@ def main():
     try:
         # Carregar dados
         df = pd.read_csv(CSV_INPUT)
-        assert {'original_poem', 'src_lang', 'tgt_lang'}.issubset(df.columns)
+        required_cols = {'original_poem', 'src_lang', 'tgt_lang'}
+        if not required_cols.issubset(df.columns):
+            missing = required_cols - set(df.columns)
+            print(f"Colunas faltando: {missing}")
+            return
         
         # Carregar modelo
         print(f"Carregando modelo: {MODEL_PATH}")
@@ -65,7 +68,7 @@ def main():
         print(f"Traduções salvas em: {CSV_OUTPUT}")
         
     except Exception as e:
-        print(f"Erro: {e}")
+        print(f"Erro: {str(e)}")
 
 if __name__ == "__main__":
     main()
