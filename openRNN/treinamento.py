@@ -29,11 +29,7 @@ class TranslationPipeline:
 
     def download_data(self):
         """Baixa dados paralelos do OPUS"""
-        url = self.config["base_url"].format(
-            dataset=self.config["dataset"],
-            src=self.config["source_lang"],
-            tgt=self.config["target_lang"]
-        )
+        url = self.config["base_url"]
         zip_path = os.path.join(self.data_dir, "dataset.zip")
         
         try:
@@ -61,7 +57,51 @@ class TranslationPipeline:
                 os.remove(zip_path)
             return False
 
-	
+    def preprocess(self):
+        """Tokenização e BPE com tratamento robusto"""
+        try:
+            base_name = os.path.join(
+                self.data_dir,
+                f"KDE4.{self.config['source_lang']}-{self.config['target_lang']}"
+            )
+            
+            # Tokenização
+            tokenizers = {
+                self.config["source_lang"]: sacremoses.MosesTokenizer(lang=self.config["source_lang"]),
+                self.config["target_lang"]: sacremoses.MosesTokenizer(lang=self.config["target_lang"])
+            }
+            
+            for lang in [self.config["source_lang"], self.config["target_lang"]]:
+                input_file = f"{base_name}.{lang}"
+                output_file = f"{input_file}.tok"
+                
+                with open(input_file, "r", encoding="utf-8") as fin, \
+                     open(output_file, "w", encoding="utf-8") as fout:
+                    for line in tqdm(fin, desc=f"Tokenizando {lang}"):
+                        fout.write(tokenizers[lang].tokenize(line.strip(), return_str=True) + "\n")
+            
+            # BPE
+            print("Aprendendo BPE...")
+            with open(f"{base_name}.{self.config['source_lang']}.tok", "r") as src, \
+                 open(f"{base_name}.{self.config['target_lang']}.tok", "r") as tgt, \
+                 open(os.path.join(self.data_dir, "bpe.codes"), "w") as out:
+                
+                # Garante que estamos passando strings, não objetos de arquivo
+                src_lines = (line.strip() for line in src)
+                tgt_lines = (line.strip() for line in tgt)
+                
+                learn_bpe.learn_bpe(
+                    [src_lines, tgt_lines],
+                    out,
+                    num_symbols=10000,
+                    min_frequency=2
+                )
+            
+            return True
+        
+        except Exception as e:
+            print(f"Erro no pré-processamento: {e}")
+            return False
 
     def train(self):
         """Configura e executa o treinamento"""
@@ -70,11 +110,11 @@ class TranslationPipeline:
                 "corpus_1": {
                     "path_src": os.path.join(
                         self.data_dir,
-                        f"{self.config['dataset']}.{self.config['source_lang']}-{self.config['target_lang']}.{self.config['source_lang']}.tok"
+                        f"KDE4.{self.config['source_lang']}-{self.config['target_lang']}.{self.config['source_lang']}.tok"
                     ),
                     "path_tgt": os.path.join(
                         self.data_dir,
-                        f"{self.config['dataset']}.{self.config['source_lang']}-{self.config['target_lang']}.{self.config['target_lang']}.tok"
+                        f"KDE4.{self.config['source_lang']}-{self.config['target_lang']}.{self.config['target_lang']}.tok"
                     )
                 },
                 "valid": {
