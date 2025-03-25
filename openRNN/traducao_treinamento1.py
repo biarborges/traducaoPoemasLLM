@@ -1,106 +1,116 @@
-import pandas as pd
-import torch
-from onmt.model_builder import load_test_model
-from onmt.translate import Translator
 import os
+import sacremoses
+from subword_nmt import apply_bpe
 import argparse
 
-# Configurações
-CSV_INPUT = "../poemas/poemas300/test/frances_ingles_test2.csv"
-CSV_OUTPUT = "../poemas/poemas300/openRNN/frances_ingles_poems_openRNN.csv"
-MODEL_PATH = "../openRNN/models_en_fr/model_en_fr_step_50000.pt"
+# Configurações (ajuste conforme seu treinamento)
+CONFIG = {
+    "source_lang": "fr",
+    "target_lang": "en",
+    "data_dir": f"/home/ubuntu/TraducaoPoemasLLM/openRNN/opus_data_en_fr",
+    "model_dir": f"../openRNN/models_en_fr/model_en_fr_step_50000.pt",
+    "use_gpu": True
+}
 
-def load_translator_directly(model_path):
-    """Carrega o modelo diretamente, contornando a API padrão"""
-    try:
-        # Configuração manual dos argumentos
-        parser = argparse.ArgumentParser()
-        parser.add_argument('--model', type=str, required=True)
-        parser.add_argument('--src', type=str, default='en')
-        parser.add_argument('--tgt', type=str, default='fr')
-        parser.add_argument('--beam_size', type=int, default=5)
-        parser.add_argument('--batch_size', type=int, default=16)
-        parser.add_argument('--gpu', type=int, default=0 if torch.cuda.is_available() else -1)
+class Translator:
+    def __init__(self, config):
+        self.config = config
+        self.tokenizer = sacremoses.MosesTokenizer(lang=config['source_lang'])
+        self.detokenizer = sacremoses.MosesDetokenizer(lang=config['target_lang'])
         
-        args = parser.parse_args(['--model', model_path])
+        # Carrega BPE se existir
+        bpe_path = os.path.join(config['data_dir'], "bpe.codes")
+        self.bpe = None
+        if os.path.exists(bpe_path):
+            with open(bpe_path, 'r') as bpe_file:
+                self.bpe = apply_bpe.BPE(bpe_file)
         
-        # Carrega o modelo e os campos
-        fields, model, model_opt = load_test_model(args)
+        # Encontra o modelo mais recente
+        model_files = [f for f in os.listdir(config['model_dir']) 
+                      if f.startswith("model_") and f.endswith(".pt")]
+        if not model_files:
+            raise FileNotFoundError("Nenhum modelo treinado encontrado!")
         
-        # Cria o tradutor
-        translator = Translator.from_opt(
-            opt=args,
-            model=model,
-            fields=fields,
-            model_opt=model_opt
-        )
-        
-        return translator
-    except Exception as e:
-        print(f"Erro detalhado no carregamento direto: {str(e)}")
-        return None
+        self.model_path = os.path.join(config['model_dir'], sorted(model_files)[-1])
 
-def translate_texts(texts, translator):
-    """Traduz uma lista de textos"""
-    if translator is None:
-        return ["ERRO: Tradutor não carregado"] * len(texts)
-    
-    translations = []
-    for text in texts:
+    def preprocess(self, text):
+        """Pré-processa o texto para tradução"""
+        tokenized = self.tokenizer.tokenize(text.strip(), return_str=True)
+        if self.bpe:
+            tokenized = self.bpe.process_line(tokenized)
+        return tokenized
+
+    def postprocess(self, text):
+        """Pós-processa o texto traduzido"""
+        if self.bpe:
+            text = text.replace("@@ ", "")
+        return self.detokenizer.detokenize(text.split())
+
+    def translate(self, text, beam_size=5):
+        """Traduz um texto usando o modelo treinado"""
+        # Cria arquivos temporários
+        input_path = "../poemas/poemas300/test/frances_ingles_test2.csv"
+        output_path = "../poemas/poemas300/openRNN/frances_ingles_poems_openRNN.csv"
+        
         try:
-            result = translator.translate([text], batch_size=1)[0][0]
-            translations.append(result)
-        except Exception as e:
-            print(f"Erro ao traduzir: {str(e)}")
-            translations.append("ERRO NA TRADUÇÃO")
-    return translations
+            # Pré-processamento
+            preprocessed = self.preprocess(text)
+            with open(input_path, 'w', encoding='utf-8') as f:
+                f.write(preprocessed + "\n")
+            
+            # Comando de tradução
+            translate_cmd = (
+                f"onmt_translate -model {self.model_path} "
+                f"-src {input_path} -output {output_path} "
+                f"-beam_size {beam_size} "
+                f"-gpu {'0' if self.config['use_gpu'] else ''} "
+                f"-replace_unk -verbose"
+            )
+            
+            os.system(translate_cmd)
+            
+            # Lê e pós-processa a saída
+            with open(output_path, 'r', encoding='utf-8') as f:
+                translated = self.postprocess(f.read().strip())
+            
+            return translated
+        
+        finally:
+            # Limpa arquivos temporários
+            if os.path.exists(input_path):
+                os.remove(input_path)
+            if os.path.exists(output_path):
+                os.remove(output_path)
 
 def main():
-    # Verificação de arquivo
-    if not os.path.exists(MODEL_PATH):
-        print(f"Erro: Modelo não encontrado em {MODEL_PATH}")
-        print("Execute o treinamento primeiro ou verifique o caminho")
-        return
+    parser = argparse.ArgumentParser(description='Tradutor EN-FR usando modelo RNN')
+    parser.add_argument('--text', type=str, help='Texto para traduzir')
+    parser.add_argument('--file', type=str, help='Arquivo para traduzir')
+    parser.add_argument('--beam', type=int, default=5, help='Tamanho do beam search')
+    args = parser.parse_args()
 
-    try:
-        # Carregar dados
-        df = pd.read_csv(CSV_INPUT)
-        required_cols = {'original_poem', 'src_lang', 'tgt_lang'}
-        if not required_cols.issubset(df.columns):
-            missing = required_cols - set(df.columns)
-            print(f"Erro: CSV está faltando colunas: {missing}")
-            return
-        
-        # Carregar modelo
-        print(f"Carregando modelo diretamente: {MODEL_PATH}")
-        translator = load_translator_directly(MODEL_PATH)
-        
-        if translator is None:
-            print("Falha crítica no carregamento do modelo")
-            print("Sugestões:")
-            print("1. Verifique se o modelo foi gerado com a mesma versão do OpenNMT-py")
-            print("2. Tente reinstalar o OpenNMT-py: pip install --force-reinstall opennmt-py")
-            print("3. Considere retreinar o modelo com a versão atual")
-            return
-        
-        # Tradução
-        print("Traduzindo poemas...")
-        df['translated_by_TA'] = translate_texts(df['original_poem'].tolist(), translator)
-        
-        # Salvar
-        df.to_csv(CSV_OUTPUT, index=False)
-        print(f"Traduções salvas com sucesso em: {CSV_OUTPUT}")
-        
-    except Exception as e:
-        print(f"Erro inesperado: {str(e)}")
+    translator = Translator(CONFIG)
+    
+    if args.file:
+        # Modo arquivo
+        with open(args.file, 'r', encoding='utf-8') as f:
+            for line in f:
+                translated = translator.translate(line.strip(), args.beam)
+                print(translated)
+    elif args.text:
+        # Modo texto único
+        translated = translator.translate(args.text, args.beam)
+        print(f"Texto original: {args.text}")
+        print(f"Tradução: {translated}")
+    else:
+        # Modo interativo
+        print(f"Tradutor {CONFIG['source_lang']}->{CONFIG['target_lang']} (digite 'quit' para sair)")
+        while True:
+            text = input("\nTexto para traduzir: ")
+            if text.lower() == 'quit':
+                break
+            translated = translator.translate(text, args.beam)
+            print(f"Tradução: {translated}")
 
 if __name__ == "__main__":
-    # Verificação de instalação
-    try:
-        from onmt.model_builder import load_test_model
-    except ImportError:
-        print("Erro: OpenNMT-py não está instalado corretamente")
-        print("Instale com: pip install opennmt-py")
-        exit(1)
-    
     main()
