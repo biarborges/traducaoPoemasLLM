@@ -3,7 +3,7 @@ import os
 
 # Configuração dos modelos de tradução
 MODEL_PATHS = {
-    ("en", "fr"): "models_en_fr/model_en_fr_step_50000.pt"
+    ("en", "fr"): "../openRNN/models_en_fr/model_en_fr_step_50000.pt"
     # Adicione mais idiomas se necessário
 }
 
