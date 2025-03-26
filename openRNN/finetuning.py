@@ -6,8 +6,8 @@ import os
 
 # ============= CONFIGURAÇÃO =============
 
-CSV_TRAIN_PATH = "../poemas/poemas300/test/frances_ingles_train.csv"  # Arquivo de treinamento
-CSV_VALID_PATH = "../poemas/poemas300/test/frances_ingles_validation.csv"  # Arquivo de validação
+CSV_TRAIN_PATH = "../poemas/poemas300/train/ingles_frances_train.csv"  # Arquivo de treinamento
+CSV_VALID_PATH = "../poemas/poemas300/validation/ingles_frances_validation.csv"  # Arquivo de validação
 
 DATA_DIR = "opus_data_en_fr"
 MODEL_DIR = "models_en_fr"
