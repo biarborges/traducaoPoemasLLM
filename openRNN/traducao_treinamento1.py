@@ -1,5 +1,8 @@
 import pandas as pd
 import os
+import  time
+
+start_time = time.time()
 
 # Configuração dos modelos de tradução
 MODEL_PATHS = {
@@ -43,3 +46,6 @@ df["translated_by_TA"] = df.apply(
 df.to_csv(OUTPUT_CSV, index=False, encoding="utf-8")
 
 print(f"✅ Tradução concluída! Arquivo salvo como {OUTPUT_CSV}")
+
+end_time = time.time()
+print(f"Tempo total: {end_time - start_time:.2f} segundos")
