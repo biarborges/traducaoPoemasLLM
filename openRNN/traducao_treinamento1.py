@@ -7,7 +7,7 @@ import onmt.translate
 from onmt.translate.translator import build_translator
 
 # Configurações
-MODEL_PATH = "models_fr_en/model_en_fr.pt"  # Caminho do modelo treinado (verifique se está correto)
+MODEL_PATH = "../openRNN/models_en_fr/model_en_fr_step_50000.pt"  # Caminho do modelo treinado (verifique se está correto)
 SRC_LANG = "fr"  # Idioma de origem
 TGT_LANG = "en"  # Idioma de destino
 INPUT_FILE = os.path.abspath("../poemas/poemas300/test/frances_ingles_test2.csv")  # Arquivo CSV de entrada
