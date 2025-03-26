@@ -30,7 +30,7 @@ def get_translator_options(model_path, gpu=True):
     parser.add_argument("-parallel_mode", type=str, default="data_parallel")
     parser.add_argument("-precision", type=str, default="fp32")
 
-    # Adicionando parâmetros necessários para evitar erro
+    # Parâmetros adicionais
     parser.add_argument("-alpha", type=float, default=0.0)  
     parser.add_argument("-beta", type=float, default=0.0)  
     parser.add_argument("-length_penalty", type=str, default="none")
@@ -39,6 +39,7 @@ def get_translator_options(model_path, gpu=True):
     parser.add_argument("-n_best", type=int, default=1)  # Retorna apenas a melhor tradução
     parser.add_argument("-min_length", type=int, default=1)  # Definindo o comprimento mínimo da tradução
     parser.add_argument("-max_length", type=int, default=100)  # Definindo o comprimento máximo da tradução
+    parser.add_argument("-max_length_ratio", type=float, default=1.0)  # Proporção do comprimento máximo
 
     return parser.parse_args([])  # Retorna um Namespace
 
