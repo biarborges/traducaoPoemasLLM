@@ -41,6 +41,8 @@ def get_translator_options(model_path, gpu=True):
     parser.add_argument("-max_length", type=int, default=100)  # Definindo o comprimento máximo da tradução
     parser.add_argument("-max_length_ratio", type=float, default=1.0)  # Proporção do comprimento máximo
     parser.add_argument("-ratio", type=float, default=1.0)  # Adicionando o parâmetro 'ratio'
+    parser.add_argument("-beam_size", type=int, default=5)  # Adicionando o parâmetro 'beam_size'
+
 
     return parser.parse_args([])  # Retorna um Namespace
 
