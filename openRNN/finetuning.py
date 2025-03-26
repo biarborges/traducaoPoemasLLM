@@ -6,8 +6,8 @@ import os
 
 # ============= CONFIGURAÇÃO =============
 
-CSV_TRAIN_PATH = "../poemas/poemas300/train/ingles_frances_train.csv"  # Arquivo de treinamento
-CSV_VALID_PATH = "../poemas/poemas300/validation/ingles_frances_validation.csv"  # Arquivo de validação
+CSV_TRAIN_PATH = "../poemas/poemas300/test/frances_ingles_train.csv"  # Arquivo de treinamento
+CSV_VALID_PATH = "../poemas/poemas300/test/frances_ingles_validation.csv"  # Arquivo de validação
 
 DATA_DIR = "opus_data_en_fr"
 MODEL_DIR = "models_en_fr"
@@ -75,8 +75,21 @@ class TranslationPreprocess:
         """Aplica o BPE nos arquivos de origem e destino"""
         bpe_codes = os.path.join(self.data_dir, "bpe.codes")
 
-        apply_bpe.apply_bpe(src_file, src_file + ".bpe", bpe_codes)
-        apply_bpe.apply_bpe(tgt_file, tgt_file + ".bpe", bpe_codes)
+        # Usando a função correta para aplicar o BPE
+        from subword_nmt.apply_bpe import BPE
+        
+        with open(bpe_codes, 'r', encoding='utf-8') as codes:
+            bpe = BPE(codes)
+            
+            # Aplicando o BPE nos arquivos de origem e destino
+            with open(src_file, 'r', encoding='utf-8') as src_in, open(src_file + ".bpe", 'w', encoding='utf-8') as src_out:
+                for line in tqdm(src_in, desc=f"Aplicando BPE em {src_file}"):
+                    src_out.write(bpe.process_line(line.strip()) + "\n")
+            
+            with open(tgt_file, 'r', encoding='utf-8') as tgt_in, open(tgt_file + ".bpe", 'w', encoding='utf-8') as tgt_out:
+                for line in tqdm(tgt_in, desc=f"Aplicando BPE em {tgt_file}"):
+                    tgt_out.write(bpe.process_line(line.strip()) + "\n")
+        
         print(f"BPE aplicado nos arquivos {src_file} e {tgt_file}.")
 
     def run(self):
