@@ -5,9 +5,10 @@ from tqdm import tqdm
 import torch
 import onmt.translate
 from onmt.translate.translator import build_translator
+from onmt.model_builder import load_test_model
 
 # Configurações
-MODEL_PATH = "../openRNN/models_en_fr/model_en_fr_step_50000.pt"  # Caminho do modelo treinado (verifique se está correto)
+MODEL_PATH = "models_fr_en/model_en_fr.pt"  # Caminho do modelo treinado (verifique se está correto)
 SRC_LANG = "fr"  # Idioma de origem
 TGT_LANG = "en"  # Idioma de destino
 INPUT_FILE = os.path.abspath("../poemas/poemas300/test/frances_ingles_test2.csv")  # Arquivo CSV de entrada
@@ -25,6 +26,8 @@ def get_translator_options(model_path, gpu=True):
     parser.add_argument("-batch_size", type=int, default=1)
     parser.add_argument("-replace_unk", action="store_true", default=True)
     parser.add_argument("-verbose", action="store_true", default=False)
+    parser.add_argument("-world_size", type=int, default=1)  # Corrigido: Adicionando world_size
+    parser.add_argument("-parallel_mode", type=str, default="data_parallel")  # Corrigido: Adicionando parallel_mode
     
     return parser.parse_args([])  # Retorna um objeto Namespace sem argumentos da linha de comando
 
