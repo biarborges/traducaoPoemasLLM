@@ -6,8 +6,8 @@ import os
 
 # ============= CONFIGURAÇÃO =============
 
-CSV_TRAIN_PATH = "../poemas/poemas300/train/ingles_frances_train.csv"  # Arquivo de treinamento
-CSV_VALID_PATH = "../poemas/poemas300/validation/ingles_frances_validation.csv"  # Arquivo de validação
+CSV_TRAIN_PATH = "../poemas/poemas300/test/frances_ingles_train.csv"  # Arquivo de treinamento
+CSV_VALID_PATH = "../poemas/poemas300/test/frances_ingles_validation.csv"  # Arquivo de validação
 
 DATA_DIR = "opus_data_en_fr"
 MODEL_DIR = "models_en_fr"
@@ -58,18 +58,21 @@ class TranslationPreprocess:
             tgt_lines = [line.strip() for line in f]
         
         bpe_path = os.path.join(self.data_dir, "bpe.codes")
+        
+        # Remover o arquivo bpe.codes se já existir
         if os.path.exists(bpe_path):
-            print("Arquivo BPE já existe. Pulando aprendizado BPE.")
-        else:
-            print("Aprendendo BPE...")
-            with open(bpe_path, "w", encoding="utf-8") as f_bpe:
-                learn_bpe.learn_bpe(
-                    [src_lines, tgt_lines],
-                    f_bpe,
-                    num_symbols=10000,
-                    min_frequency=2
-                )
-            print("BPE aprendido com sucesso!")
+            print("Arquivo BPE já existe. Removendo arquivo antigo.")
+            os.remove(bpe_path)
+        
+        print("Aprendendo BPE...")
+        with open(bpe_path, "w", encoding="utf-8") as f_bpe:
+            learn_bpe.learn_bpe(
+                [src_lines, tgt_lines],
+                f_bpe,
+                num_symbols=10000,
+                min_frequency=2
+            )
+        print("BPE aprendido com sucesso!")
 
     def apply_bpe(self, src_file, tgt_file):
         """Aplica o BPE nos arquivos de origem e destino"""
