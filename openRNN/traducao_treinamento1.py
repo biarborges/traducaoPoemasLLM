@@ -1,10 +1,10 @@
 import csv
 import os
-import argparse
-from tqdm import tqdm
 import torch
 import onmt.translate
 from onmt.translate.translator import build_translator
+from argparse import Namespace
+from tqdm import tqdm
 
 # Configurações
 MODEL_PATH = "../openRNN/models_en_fr/model_en_fr_step_50000.pt"  # Caminho do modelo treinado
@@ -16,37 +16,18 @@ TEMP_OUTPUT_FILE = os.path.abspath("temp_output.txt")  # Arquivo temporário exi
 
 # Função para criar argumentos do tradutor
 def get_translator_options(model_path, gpu=True):
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-models", type=str, nargs="+", default=[model_path])
-    parser.add_argument("-gpu", type=int, default=0 if gpu and torch.cuda.is_available() else -1)
-    parser.add_argument("-gpu_ranks", type=int, nargs="+", default=[0] if gpu and torch.cuda.is_available() else [])
-    parser.add_argument("-src", type=str, default=None)
-    parser.add_argument("-tgt", type=str, default=None)
-    parser.add_argument("-output", type=str, default=TEMP_OUTPUT_FILE)
-    parser.add_argument("-batch_size", type=int, default=1)
-    parser.add_argument("-replace_unk", action="store_true", default=True)
-    parser.add_argument("-verbose", action="store_true", default=False)
-    parser.add_argument("-world_size", type=int, default=1)
-    parser.add_argument("-parallel_mode", type=str, default="data_parallel")
-    parser.add_argument("-precision", type=str, default="fp32")
-
-    # Parâmetros adicionais
-    parser.add_argument("-alpha", type=float, default=0.0)  
-    parser.add_argument("-beta", type=float, default=0.0)  
-    parser.add_argument("-length_penalty", type=str, default="none")
-    parser.add_argument("-coverage_penalty", type=str, default="none")
-    parser.add_argument("-report_align", action="store_true", default=False)
-    parser.add_argument("-n_best", type=int, default=1)  # Retorna apenas a melhor tradução
-    parser.add_argument("-min_length", type=int, default=1)  # Definindo o comprimento mínimo da tradução
-    parser.add_argument("-max_length", type=int, default=100)  # Definindo o comprimento máximo da tradução
-    parser.add_argument("-max_length_ratio", type=float, default=1.0)  # Proporção do comprimento máximo
-    parser.add_argument("-ratio", type=float, default=1.0)  # Adicionando o parâmetro 'ratio'
-    parser.add_argument("-beam_size", type=int, default=5)  # Adicionando o parâmetro 'beam_size'
-
-    # Parâmetro de amostragem top-k
-    parser.add_argument("-random_sampling_topk", type=int, default=10)  # Adicionando o parâmetro 'random_sampling_topk'
-
-    return parser.parse_args([])  # Retorna um Namespace
+    opt = Namespace(
+        models=[model_path],
+        gpu=0 if gpu and torch.cuda.is_available() else -1,
+        gpu_ranks=[0] if gpu and torch.cuda.is_available() else [],
+        src=None, tgt=None, output=TEMP_OUTPUT_FILE,
+        batch_size=1, replace_unk=True, verbose=False,
+        world_size=1, parallel_mode="data_parallel", precision="fp32",
+        alpha=0.0, beta=0.0, length_penalty="none", coverage_penalty="none",
+        report_align=False, n_best=1, min_length=1, max_length=100,
+        max_length_ratio=1.0, ratio=1.0, beam_size=5, random_sampling_topk=10
+    )
+    return opt
 
 # Função para carregar o modelo corretamente
 def load_translator(model_path, gpu=True):
@@ -58,20 +39,32 @@ def load_translator(model_path, gpu=True):
 def translate_poems(input_file, output_file, translator):
     with open(input_file, 'r', encoding='utf-8') as infile, \
          open(output_file, 'w', encoding='utf-8', newline='') as outfile:
-
-        reader = csv.DictReader(infile)
-        fieldnames = reader.fieldnames + ['translated_by_TA']
-        writer = csv.DictWriter(outfile, fieldnames=fieldnames)
         
+        reader = csv.DictReader(infile)
+        fieldnames = reader.fieldnames + ['translated_poem', 'translated_by_TA']
+        writer = csv.DictWriter(outfile, fieldnames=fieldnames)
         writer.writeheader()
 
         for row in tqdm(reader, desc="Traduzindo poemas"):
             original_poem = row['original_poem']
-            translated_text = translator.translate([original_poem])[0]
+            
+            # Escreve o poema em um arquivo temporário
+            with open(TEMP_OUTPUT_FILE, 'w', encoding='utf-8') as temp_src:
+                temp_src.write(original_poem + '\n')
+
+            # Executa a tradução usando o OpenNMT
+            translator.translate(
+                src_path=TEMP_OUTPUT_FILE,
+                tgt_path=None,
+                src=[original_poem]
+            )
+
+            # Lê a saída gerada pelo OpenNMT
+            with open(TEMP_OUTPUT_FILE, 'r', encoding='utf-8') as temp_out:
+                translated_text = temp_out.read().strip()
 
             row['translated_poem'] = translated_text
             row['translated_by_TA'] = "OpenRNN"
-            
             writer.writerow(row)
 
 # Função principal
