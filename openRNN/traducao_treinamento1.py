@@ -12,6 +12,7 @@ SRC_LANG = "fr"  # Idioma de origem
 TGT_LANG = "en"  # Idioma de destino
 INPUT_FILE = os.path.abspath("../poemas/poemas300/test/frances_ingles_test2.csv")  # Arquivo CSV de entrada
 OUTPUT_FILE = os.path.abspath("../poemas/poemas300/openRNN/frances_ingles_poems_openrnn.csv")  # Arquivo CSV de saída
+TEMP_OUTPUT_FILE = os.path.abspath("temp_output.txt")  # Arquivo temporário exigido pelo OpenNMT
 
 # Função para criar um objeto de argumentos (Namespace)
 def get_translator_options(model_path, gpu=True):
@@ -20,7 +21,7 @@ def get_translator_options(model_path, gpu=True):
     parser.add_argument("-gpu", type=int, default=0 if gpu and torch.cuda.is_available() else -1)
     parser.add_argument("-src", type=str, default=None)
     parser.add_argument("-tgt", type=str, default=None)
-    parser.add_argument("-output", type=str, default=None)
+    parser.add_argument("-output", type=str, default=TEMP_OUTPUT_FILE)  # Define um arquivo temporário de saída
     parser.add_argument("-batch_size", type=int, default=1)
     parser.add_argument("-replace_unk", action="store_true", default=True)
     parser.add_argument("-verbose", action="store_true", default=False)
