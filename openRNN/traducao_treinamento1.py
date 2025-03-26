@@ -7,7 +7,7 @@ MODEL_PATHS = {
     # Adicione mais idiomas se necessário
 }
 
-CSV_PATH = "../poemas/poemas300/test/frances_ingles_test2.csv"
+CSV_PATH = "../poemas/poemas300/test/ingles_frances_test.csv"
 OUTPUT_CSV = "../poemas/poemas300/openRNN/ingles_frances_poems_openRNN.csv"
 
 def traduzir_texto(texto, src, tgt):
