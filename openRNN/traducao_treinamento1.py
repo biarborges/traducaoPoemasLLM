@@ -37,6 +37,7 @@ def get_translator_options(model_path, gpu=True):
     parser.add_argument("-coverage_penalty", type=str, default="none")
     parser.add_argument("-report_align", action="store_true", default=False)
     parser.add_argument("-n_best", type=int, default=1)  # Retorna apenas a melhor tradução
+    parser.add_argument("-min_length", type=int, default=1)  # Definindo o comprimento mínimo da tradução
 
     return parser.parse_args([])  # Retorna um Namespace
 
