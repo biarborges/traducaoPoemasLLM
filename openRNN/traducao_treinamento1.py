@@ -29,13 +29,14 @@ def get_translator_options(model_path, gpu=True):
     parser.add_argument("-world_size", type=int, default=1)
     parser.add_argument("-parallel_mode", type=str, default="data_parallel")
     parser.add_argument("-precision", type=str, default="fp32")
-    
+
     # Adicionando parâmetros necessários para evitar erro
     parser.add_argument("-alpha", type=float, default=0.0)  
     parser.add_argument("-beta", type=float, default=0.0)  
     parser.add_argument("-length_penalty", type=str, default="none")
     parser.add_argument("-coverage_penalty", type=str, default="none")
-    parser.add_argument("-report_align", action="store_true", default=False)  # Corrigindo erro atual
+    parser.add_argument("-report_align", action="store_true", default=False)
+    parser.add_argument("-n_best", type=int, default=1)  # Retorna apenas a melhor tradução
 
     return parser.parse_args([])  # Retorna um Namespace
 
