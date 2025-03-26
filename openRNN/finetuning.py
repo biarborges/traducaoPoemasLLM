@@ -1,6 +1,7 @@
 import os
 import pandas as pd
-from subword_nmt import apply_bpe, learn_bpe
+from subword_nmt import learn_bpe
+from subword_nmt.apply_bpe import BPE
 import sacremoses
 from tqdm import tqdm
 
@@ -43,8 +44,8 @@ def tokenize_file(input_file, output_file, lang):
     print(f"Arquivo {output_file} tokenizado com sucesso!")
 
 # Função para aprender o BPE
-def learn_bpe_on_data(src_file, tgt_file):
-    """Aplica o BPE aos dados"""
+def learn_bpe_on_data(src_file, tgt_file, bpe_codes_file):
+    """Aprende o BPE a partir dos arquivos tokenizados"""
     src_lines = []
     tgt_lines = []
     
@@ -55,7 +56,7 @@ def learn_bpe_on_data(src_file, tgt_file):
         tgt_lines = [line.strip() for line in f.readlines()]
 
     # Aplicando o BPE separadamente para src e tgt
-    with open("bpe.codes", "w", encoding="utf-8") as f_bpe:
+    with open(bpe_codes_file, "w", encoding="utf-8") as f_bpe:
         learn_bpe.learn_bpe(src_lines + tgt_lines, f_bpe, num_symbols=10000, min_frequency=2)
         
     print("Aprendizado BPE concluído!")
@@ -63,12 +64,20 @@ def learn_bpe_on_data(src_file, tgt_file):
 # Função para aplicar BPE nos arquivos de dados
 def apply_bpe_on_data(src_file, tgt_file, bpe_codes_file, output_dir):
     """Aplica o BPE nos dados tokenizados e cria arquivos com a codificação BPE"""
+    # Carregar códigos BPE
+    with open(bpe_codes_file, "r", encoding="utf-8") as f_codes:
+        bpe = BPE(f_codes)
+
+    # Aplicar BPE para o arquivo de origem (src)
     with open(src_file, "r", encoding="utf-8") as f_in, open(f"{output_dir}/train.src.bpe", "w", encoding="utf-8") as f_out:
-        apply_bpe(f_in, f_out, bpe_codes_file)
-    
+        for line in f_in:
+            f_out.write(bpe.process_line(line.strip()) + "\n")
+
+    # Aplicar BPE para o arquivo de destino (tgt)
     with open(tgt_file, "r", encoding="utf-8") as f_in, open(f"{output_dir}/train.tgt.bpe", "w", encoding="utf-8") as f_out:
-        apply_bpe(f_in, f_out, bpe_codes_file)
-    
+        for line in f_in:
+            f_out.write(bpe.process_line(line.strip()) + "\n")
+
     print("BPE aplicado com sucesso nos dados de treinamento!")
 
 # Função principal de execução
@@ -85,7 +94,7 @@ def run():
     tokenize_file(f"{output_dir}/train.tgt", f"{output_dir}/train.tgt.tok", "fr")
     
     # Passo 3: Aprender o BPE
-    learn_bpe_on_data(f"{output_dir}/train.src.tok", f"{output_dir}/train.tgt.tok")
+    learn_bpe_on_data(f"{output_dir}/train.src.tok", f"{output_dir}/train.tgt.tok", "bpe.codes")
     
     # Passo 4: Aplicar o BPE nos dados tokenizados
     apply_bpe_on_data(f"{output_dir}/train.src.tok", f"{output_dir}/train.tgt.tok", "bpe.codes", output_dir)
