@@ -1,30 +1,36 @@
 import csv
 import os
+import argparse
 from tqdm import tqdm
 import torch
 import onmt.translate
-import onmt.opts
 from onmt.translate.translator import build_translator
 
 # Configurações
-MODEL_PATH = "models_fr_en/model_en_fr.pt"  # Caminho para o modelo treinado (verifique se está correto)
+MODEL_PATH = "models_fr_en/model_en_fr.pt"  # Caminho do modelo treinado (verifique se está correto)
 SRC_LANG = "fr"  # Idioma de origem
 TGT_LANG = "en"  # Idioma de destino
 INPUT_FILE = os.path.abspath("../poemas/poemas300/test/frances_ingles_test2.csv")  # Arquivo CSV de entrada
 OUTPUT_FILE = os.path.abspath("../poemas/poemas300/openRNN/frances_ingles_poems_openrnn.csv")  # Arquivo CSV de saída
 
+# Função para criar um objeto de argumentos (Namespace)
+def get_translator_options(model_path, gpu=True):
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-model", type=str, default=model_path)
+    parser.add_argument("-gpu", type=int, default=0 if gpu and torch.cuda.is_available() else -1)
+    parser.add_argument("-src", type=str, default=None)
+    parser.add_argument("-tgt", type=str, default=None)
+    parser.add_argument("-output", type=str, default=None)
+    parser.add_argument("-batch_size", type=int, default=1)
+    parser.add_argument("-replace_unk", action="store_true", default=True)
+    parser.add_argument("-verbose", action="store_true", default=False)
+    
+    return parser.parse_args([])  # Retorna um objeto Namespace sem argumentos da linha de comando
+
 # Função para carregar o modelo corretamente
 def load_translator(model_path, gpu=True):
-    translator = build_translator(opt={
-        "model": model_path,
-        "gpu": 0 if gpu and torch.cuda.is_available() else -1,
-        "src": None,
-        "tgt": None,
-        "output": None,
-        "batch_size": 1,
-        "replace_unk": True,
-        "verbose": False
-    }, report_score=False)
+    opt = get_translator_options(model_path, gpu)
+    translator = build_translator(opt, report_score=False)
     return translator
 
 # Função para traduzir os poemas
