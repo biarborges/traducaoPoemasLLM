@@ -37,6 +37,24 @@ def tokenize_file(input_file, output_file, lang):
     
     print(f"Arquivo {output_file} tokenizado com sucesso!")
 
+# Função para aprender BPE
+def learn_bpe_on_data(src_file, tgt_file, bpe_codes_file):
+    """Aprende o BPE a partir dos arquivos tokenizados"""
+    src_lines = []
+    tgt_lines = []
+    
+    with open(src_file, "r", encoding="utf-8") as f:
+        src_lines = [line.strip() for line in f.readlines()]
+        
+    with open(tgt_file, "r", encoding="utf-8") as f:
+        tgt_lines = [line.strip() for line in f.readlines()]
+
+    # Aplicando o BPE separadamente para src e tgt
+    with open(bpe_codes_file, "w", encoding="utf-8") as f_bpe:
+        learn_bpe.learn_bpe(src_lines + tgt_lines, f_bpe, num_symbols=10000, min_frequency=2)
+        
+    print("Aprendizado BPE concluído!")
+
 # Função para aplicar BPE nos arquivos de dados
 def apply_bpe_on_data(input_file, output_file, bpe_codes_file):
     """Aplica o BPE nos dados tokenizados e cria arquivos codificados"""
