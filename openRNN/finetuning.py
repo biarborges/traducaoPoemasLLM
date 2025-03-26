@@ -1,5 +1,6 @@
+import os
 import pandas as pd
-from subword_nmt import learn_bpe
+from subword_nmt import learn_bpe, apply_bpe
 import sacremoses
 from tqdm import tqdm
 
@@ -8,7 +9,7 @@ CSV_TRAIN_PATH = "../poemas/poemas300/train/ingles_frances_train.csv"  # Arquivo
 CSV_VALID_PATH = "../poemas/poemas300/validation/ingles_frances_validation.csv"  # Arquivo de validação
 
 # Função para pré-processamento
-def preprocess_csv(csv_path):
+def preprocess_csv(csv_path, output_dir):
     """Processa o CSV e cria arquivos de treinamento e validação em formato .src e .tgt"""
     df = pd.read_csv(csv_path)
     
@@ -20,11 +21,11 @@ def preprocess_csv(csv_path):
         tgt_lines.append(row['translated_poem'])
 
     # Salvando como arquivos .src e .tgt
-    with open("train.src", "w", encoding="utf-8") as f:
+    with open(f"{output_dir}/train.src", "w", encoding="utf-8") as f:
         for line in src_lines:
             f.write(line + "\n")
             
-    with open("train.tgt", "w", encoding="utf-8") as f:
+    with open(f"{output_dir}/train.tgt", "w", encoding="utf-8") as f:
         for line in tgt_lines:
             f.write(line + "\n")
             
@@ -59,15 +60,35 @@ def learn_bpe_on_data(src_file, tgt_file):
         
     print("Aprendizado BPE concluído!")
 
+# Função para aplicar BPE nos arquivos de dados
+def apply_bpe_on_data(src_file, tgt_file, bpe_codes_file, output_dir):
+    """Aplica o BPE nos dados tokenizados e cria arquivos com a codificação BPE"""
+    with open(src_file, "r", encoding="utf-8") as f_in, open(f"{output_dir}/train.src.bpe", "w", encoding="utf-8") as f_out:
+        apply_bpe.apply_bpe(f_in, f_out, bpe_codes_file)
+    
+    with open(tgt_file, "r", encoding="utf-8") as f_in, open(f"{output_dir}/train.tgt.bpe", "w", encoding="utf-8") as f_out:
+        apply_bpe.apply_bpe(f_in, f_out, bpe_codes_file)
+    
+    print("BPE aplicado com sucesso nos dados de treinamento!")
+
 # Função principal de execução
 def run():
-    """Executa todo o pipeline de pré-processamento e aprendizado de BPE"""
-    preprocess_csv(CSV_TRAIN_PATH)
-    tokenize_file("train.src", "train.src.tok", "en")
-    tokenize_file("train.tgt", "train.tgt.tok", "fr")
+    """Executa todo o pipeline de pré-processamento, tokenização, aprendizado de BPE e aplicação de BPE"""
+    output_dir = "output_data"
+    os.makedirs(output_dir, exist_ok=True)
     
-    # Aplica o BPE
-    learn_bpe_on_data("train.src.tok", "train.tgt.tok")
+    # Passo 1: Pré-processamento (converter CSV para arquivos .src e .tgt)
+    preprocess_csv(CSV_TRAIN_PATH, output_dir)
+    
+    # Passo 2: Tokenização dos arquivos .src e .tgt
+    tokenize_file(f"{output_dir}/train.src", f"{output_dir}/train.src.tok", "en")
+    tokenize_file(f"{output_dir}/train.tgt", f"{output_dir}/train.tgt.tok", "fr")
+    
+    # Passo 3: Aprender o BPE
+    learn_bpe_on_data(f"{output_dir}/train.src.tok", f"{output_dir}/train.tgt.tok")
+    
+    # Passo 4: Aplicar o BPE nos dados tokenizados
+    apply_bpe_on_data(f"{output_dir}/train.src.tok", f"{output_dir}/train.tgt.tok", "bpe.codes", output_dir)
 
 # Execução
 if __name__ == "__main__":
