@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from subword_nmt import learn_bpe, apply_bpe
+from subword_nmt import apply_bpe, learn_bpe
 import sacremoses
 from tqdm import tqdm
 
@@ -64,10 +64,10 @@ def learn_bpe_on_data(src_file, tgt_file):
 def apply_bpe_on_data(src_file, tgt_file, bpe_codes_file, output_dir):
     """Aplica o BPE nos dados tokenizados e cria arquivos com a codificação BPE"""
     with open(src_file, "r", encoding="utf-8") as f_in, open(f"{output_dir}/train.src.bpe", "w", encoding="utf-8") as f_out:
-        apply_bpe.apply_bpe(f_in, f_out, bpe_codes_file)
+        apply_bpe(f_in, f_out, bpe_codes_file)
     
     with open(tgt_file, "r", encoding="utf-8") as f_in, open(f"{output_dir}/train.tgt.bpe", "w", encoding="utf-8") as f_out:
-        apply_bpe.apply_bpe(f_in, f_out, bpe_codes_file)
+        apply_bpe(f_in, f_out, bpe_codes_file)
     
     print("BPE aplicado com sucesso nos dados de treinamento!")
 
