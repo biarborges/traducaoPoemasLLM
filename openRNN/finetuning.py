@@ -53,8 +53,9 @@ def learn_bpe_on_data(src_file, tgt_file):
     with open(tgt_file, "r", encoding="utf-8") as f:
         tgt_lines = [line.strip() for line in f.readlines()]
 
+    # Aplicando o BPE separadamente para src e tgt
     with open("bpe.codes", "w", encoding="utf-8") as f_bpe:
-        learn_bpe.learn_bpe([src_lines, tgt_lines], f_bpe, num_symbols=10000, min_frequency=2)
+        learn_bpe.learn_bpe(src_lines + tgt_lines, f_bpe, num_symbols=10000, min_frequency=2)
         
     print("Aprendizado BPE concluído!")
 
