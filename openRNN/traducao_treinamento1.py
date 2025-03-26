@@ -20,7 +20,7 @@ def get_translator_options(model_path, gpu=True):
     parser = argparse.ArgumentParser()
     parser.add_argument("-models", type=str, nargs="+", default=[model_path])  # Lista de modelos
     parser.add_argument("-gpu", type=int, default=0 if gpu and torch.cuda.is_available() else -1)
-    parser.add_argument("-gpu_ranks", type=int, nargs="+", default=[0] if gpu and torch.cuda.is_available() else [])  # Adicionado
+    parser.add_argument("-gpu_ranks", type=int, nargs="+", default=[0] if gpu and torch.cuda.is_available() else [])
     parser.add_argument("-src", type=str, default=None)
     parser.add_argument("-tgt", type=str, default=None)
     parser.add_argument("-output", type=str, default=TEMP_OUTPUT_FILE)
@@ -29,6 +29,7 @@ def get_translator_options(model_path, gpu=True):
     parser.add_argument("-verbose", action="store_true", default=False)
     parser.add_argument("-world_size", type=int, default=1)
     parser.add_argument("-parallel_mode", type=str, default="data_parallel")
+    parser.add_argument("-precision", type=str, default="fp32")  # Adicionado para evitar erro
     
     return parser.parse_args([])  # Retorna um objeto Namespace
 
