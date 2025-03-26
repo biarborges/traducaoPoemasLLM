@@ -5,7 +5,6 @@ from tqdm import tqdm
 import torch
 import onmt.translate
 from onmt.translate.translator import build_translator
-from onmt.model_builder import load_test_model
 
 # Configurações
 MODEL_PATH = "../openRNN/models_en_fr/model_en_fr_step_50000.pt"  # Caminho do modelo treinado
@@ -13,12 +12,12 @@ SRC_LANG = "fr"
 TGT_LANG = "en"
 INPUT_FILE = os.path.abspath("../poemas/poemas300/test/frances_ingles_test2.csv")
 OUTPUT_FILE = os.path.abspath("../poemas/poemas300/openRNN/frances_ingles_poems_openrnn.csv")
-TEMP_OUTPUT_FILE = os.path.abspath("temp_output.txt")  # Arquivo temporário de saída exigido pelo OpenNMT
+TEMP_OUTPUT_FILE = os.path.abspath("temp_output.txt")  # Arquivo temporário exigido pelo OpenNMT
 
-# Função para criar um objeto de argumentos (Namespace)
+# Função para criar argumentos do tradutor
 def get_translator_options(model_path, gpu=True):
     parser = argparse.ArgumentParser()
-    parser.add_argument("-models", type=str, nargs="+", default=[model_path])  # Lista de modelos
+    parser.add_argument("-models", type=str, nargs="+", default=[model_path])
     parser.add_argument("-gpu", type=int, default=0 if gpu and torch.cuda.is_available() else -1)
     parser.add_argument("-gpu_ranks", type=int, nargs="+", default=[0] if gpu and torch.cuda.is_available() else [])
     parser.add_argument("-src", type=str, default=None)
@@ -29,15 +28,16 @@ def get_translator_options(model_path, gpu=True):
     parser.add_argument("-verbose", action="store_true", default=False)
     parser.add_argument("-world_size", type=int, default=1)
     parser.add_argument("-parallel_mode", type=str, default="data_parallel")
-    parser.add_argument("-precision", type=str, default="fp32")  # Adicionado para evitar erro
+    parser.add_argument("-precision", type=str, default="fp32")
     
-    # Adicionado para evitar erro de 'alpha' e 'beta'
-    parser.add_argument("-alpha", type=float, default=0.0)  # Penalização de comprimento
-    parser.add_argument("-beta", type=float, default=0.0)  # Penalização de cobertura
+    # Adicionando parâmetros necessários para evitar erro
+    parser.add_argument("-alpha", type=float, default=0.0)  
+    parser.add_argument("-beta", type=float, default=0.0)  
     parser.add_argument("-length_penalty", type=str, default="none")
     parser.add_argument("-coverage_penalty", type=str, default="none")
-    
-    return parser.parse_args([])  # Retorna um objeto Namespace
+    parser.add_argument("-report_align", action="store_true", default=False)  # Corrigindo erro atual
+
+    return parser.parse_args([])  # Retorna um Namespace
 
 # Função para carregar o modelo corretamente
 def load_translator(model_path, gpu=True):
