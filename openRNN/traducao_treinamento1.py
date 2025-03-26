@@ -31,6 +31,12 @@ def get_translator_options(model_path, gpu=True):
     parser.add_argument("-parallel_mode", type=str, default="data_parallel")
     parser.add_argument("-precision", type=str, default="fp32")  # Adicionado para evitar erro
     
+    # Adicionado para evitar erro de 'alpha' e 'beta'
+    parser.add_argument("-alpha", type=float, default=0.0)  # Penalização de comprimento
+    parser.add_argument("-beta", type=float, default=0.0)  # Penalização de cobertura
+    parser.add_argument("-length_penalty", type=str, default="none")
+    parser.add_argument("-coverage_penalty", type=str, default="none")
+    
     return parser.parse_args([])  # Retorna um objeto Namespace
 
 # Função para carregar o modelo corretamente
