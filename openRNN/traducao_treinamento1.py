@@ -17,7 +17,7 @@ TEMP_OUTPUT_FILE = os.path.abspath("temp_output.txt")  # Arquivo temporário exi
 # Função para criar um objeto de argumentos (Namespace)
 def get_translator_options(model_path, gpu=True):
     parser = argparse.ArgumentParser()
-    parser.add_argument("-model", type=str, default=model_path)
+    parser.add_argument("-models", type=str, nargs="+", default=[model_path])  # Corrigido para uma lista
     parser.add_argument("-gpu", type=int, default=0 if gpu and torch.cuda.is_available() else -1)
     parser.add_argument("-src", type=str, default=None)
     parser.add_argument("-tgt", type=str, default=None)
