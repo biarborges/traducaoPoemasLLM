@@ -1,117 +1,101 @@
 import pandas as pd
-import sacremoses
-from subword_nmt import apply_bpe, learn_bpe
-from tqdm import tqdm
 import os
+from subword_nmt import apply_bpe, learn_bpe
+import sacremoses
+from tqdm import tqdm
 
-# ============= CONFIGURAÇÃO =============
-
+# Caminhos dos arquivos CSV
 CSV_TRAIN_PATH = "../poemas/poemas300/train/ingles_frances_train.csv"  # Arquivo de treinamento
 CSV_VALID_PATH = "../poemas/poemas300/validation/ingles_frances_validation.csv"  # Arquivo de validação
 
-DATA_DIR = "opus_data_en_fr"
-MODEL_DIR = "models_en_fr"
+# Diretórios de saída
+DATA_DIR = "opus_data"
+MODEL_DIR = "models"
 
-# ========================================
+# Função para pré-processamento
+def preprocess_csv(csv_path):
+    """Processa o CSV e cria arquivos de treinamento e validação em formato .src e .tgt"""
+    df = pd.read_csv(csv_path)
+    
+    # Criar arquivos de texto separados para src e tgt
+    src_file = csv_path.replace(".csv", ".src")
+    tgt_file = csv_path.replace(".csv", ".tgt")
+    
+    with open(src_file, "w", encoding="utf-8") as f_src, open(tgt_file, "w", encoding="utf-8") as f_tgt:
+        for _, row in df.iterrows():
+            f_src.write(row["original_poem"] + "\n")
+            f_tgt.write(row["translated_poem"] + "\n")
+    
+    print(f"Arquivos {src_file} e {tgt_file} criados com sucesso!")
 
-class TranslationPreprocess:
-    def __init__(self):
-        self.data_dir = DATA_DIR
-        self.model_dir = MODEL_DIR
-        os.makedirs(self.data_dir, exist_ok=True)
-        os.makedirs(self.model_dir, exist_ok=True)
+    return src_file, tgt_file
 
-        self.tokenizers = {
-            "en": sacremoses.MosesTokenizer(lang="en"),
-            "fr": sacremoses.MosesTokenizer(lang="fr")
-        }
+# Função para tokenização
+def tokenize_file(file_path, lang):
+    """Tokeniza os arquivos de entrada usando o sacremoses"""
+    tokenizer = sacremoses.MosesTokenizer(lang=lang)
+    tokenized_file = file_path + ".tok"
+    
+    with open(file_path, "r", encoding="utf-8") as f_in, open(tokenized_file, "w", encoding="utf-8") as f_out:
+        for line in tqdm(f_in, desc=f"Tokenizando {lang}"):
+            f_out.write(tokenizer.tokenize(line.strip(), return_str=True) + "\n")
+    
+    print(f"Arquivo {tokenized_file} tokenizado com sucesso!")
+    return tokenized_file
 
-    def create_text_files(self, csv_path, src_file, tgt_file):
-        """Cria arquivos de texto a partir do CSV"""
-        df = pd.read_csv(csv_path)
-        with open(src_file, "w", encoding="utf-8") as src_f, open(tgt_file, "w", encoding="utf-8") as tgt_f:
-            for _, row in df.iterrows():
-                src_f.write(row["original_poem"] + "\n")
-                tgt_f.write(row["translated_poem"] + "\n")
-        print(f"Arquivos {src_file} e {tgt_file} criados com sucesso!")
+# Função para aprender e aplicar o BPE
+def learn_bpe_on_data(src_file, tgt_file):
+    """Aprende o BPE a partir dos arquivos de treino e validação"""
+    src_lines = []
+    tgt_lines = []
+    
+    with open(src_file, "r") as f:
+        for line in f:
+            src_lines.append(line.strip())  # Adicionando linha ao vetor
 
-    def tokenize(self, src_file, tgt_file):
-        """Realiza a tokenização dos arquivos de origem e destino"""
-        with open(src_file, "r", encoding="utf-8") as fin, open(src_file + ".tok", "w", encoding="utf-8") as fout:
-            for line in tqdm(fin, desc=f"Tokenizando {src_file}"):
-                fout.write(self.tokenizers["en"].tokenize(line.strip(), return_str=True) + "\n")
-        
-        with open(tgt_file, "r", encoding="utf-8") as fin, open(tgt_file + ".tok", "w", encoding="utf-8") as fout:
-            for line in tqdm(fin, desc=f"Tokenizando {tgt_file}"):
-                fout.write(self.tokenizers["fr"].tokenize(line.strip(), return_str=True) + "\n")
-        print(f"Arquivos {src_file}.tok e {tgt_file}.tok tokenizados com sucesso!")
+    with open(tgt_file, "r") as f:
+        for line in f:
+            tgt_lines.append(line.strip())  # Adicionando linha ao vetor
 
-    def learn_bpe(self, src_file, tgt_file):
-        """Aplica o BPE nos arquivos tokenizados"""
-        src_lines = []
-        tgt_lines = []
+    print("Aprendendo o BPE...")
 
-        with open(src_file, "r", encoding="utf-8") as f:
-            src_lines = [line.strip() for line in f]
-        
-        with open(tgt_file, "r", encoding="utf-8") as f:
-            tgt_lines = [line.strip() for line in f]
-        
-        bpe_path = os.path.join(self.data_dir, "bpe.codes")
-        
-        # Remover o arquivo bpe.codes se já existir
-        if os.path.exists(bpe_path):
-            print("Arquivo BPE já existe. Removendo arquivo antigo.")
-            os.remove(bpe_path)
-        
-        print("Aprendendo BPE...")
-        with open(bpe_path, "w", encoding="utf-8") as f_bpe:
-            learn_bpe.learn_bpe(
-                [src_lines, tgt_lines],
-                f_bpe,
-                num_symbols=10000,
-                min_frequency=2
-            )
-        print("BPE aprendido com sucesso!")
+    # Aqui, estamos passando as linhas de forma correta
+    with open("bpe.codes", "w") as f_bpe:
+        learn_bpe.learn_bpe([src_lines, tgt_lines], f_bpe, num_symbols=10000, min_frequency=2)
 
-    def apply_bpe(self, src_file, tgt_file):
-        """Aplica o BPE nos arquivos de origem e destino"""
-        bpe_codes = os.path.join(self.data_dir, "bpe.codes")
+    print("BPE aprendido com sucesso!")
 
-        # Usando a função correta para aplicar o BPE
-        from subword_nmt.apply_bpe import BPE
-        
-        with open(bpe_codes, 'r', encoding='utf-8') as codes:
-            bpe = BPE(codes)
-            
-            # Aplicando o BPE nos arquivos de origem e destino
-            with open(src_file, 'r', encoding='utf-8') as src_in, open(src_file + ".bpe", 'w', encoding='utf-8') as src_out:
-                for line in tqdm(src_in, desc=f"Aplicando BPE em {src_file}"):
-                    src_out.write(bpe.process_line(line.strip()) + "\n")
-            
-            with open(tgt_file, 'r', encoding='utf-8') as tgt_in, open(tgt_file + ".bpe", 'w', encoding='utf-8') as tgt_out:
-                for line in tqdm(tgt_in, desc=f"Aplicando BPE em {tgt_file}"):
-                    tgt_out.write(bpe.process_line(line.strip()) + "\n")
-        
-        print(f"BPE aplicado nos arquivos {src_file} e {tgt_file}.")
+# Função para aplicar BPE
+def apply_bpe_to_files(src_file, tgt_file, bpe_codes):
+    """Aplica o BPE nos arquivos de origem e destino"""
+    apply_bpe.apply_bpe(src_file, src_file + ".bpe", bpe_codes)
+    apply_bpe.apply_bpe(tgt_file, tgt_file + ".bpe", bpe_codes)
+    print(f"BPE aplicado em {src_file} e {tgt_file}.")
 
-    def run(self):
-        """Executa todo o processo"""
-        # Criar os arquivos de treinamento e validação
-        self.create_text_files(CSV_TRAIN_PATH, "train.src", "train.tgt")
-        self.create_text_files(CSV_VALID_PATH, "valid.src", "valid.tgt")
-        
-        # Tokenizar os arquivos de treinamento e validação
-        self.tokenize("train.src", "train.tgt")
-        self.tokenize("valid.src", "valid.tgt")
-        
-        # Aprender o BPE
-        self.learn_bpe("train.src.tok", "train.tgt.tok")
-        
-        # Aplicar o BPE nos arquivos de treinamento e validação
-        self.apply_bpe("train.src.tok", "train.tgt.tok")
-        self.apply_bpe("valid.src.tok", "valid.tgt.tok")
+# Função principal
+def run():
+    # Pré-processamento dos dados
+    src_train_file, tgt_train_file = preprocess_csv(CSV_TRAIN_PATH)
+    src_valid_file, tgt_valid_file = preprocess_csv(CSV_VALID_PATH)
+    
+    # Tokenização dos arquivos
+    src_train_tok = tokenize_file(src_train_file, lang="en")
+    tgt_train_tok = tokenize_file(tgt_train_file, lang="fr")
+    src_valid_tok = tokenize_file(src_valid_file, lang="en")
+    tgt_valid_tok = tokenize_file(tgt_valid_file, lang="fr")
+    
+    # Aprendizado do BPE
+    bpe_codes = "bpe.codes"
+    if not os.path.exists(bpe_codes):
+        learn_bpe_on_data(src_train_tok, tgt_train_tok)
+    else:
+        print("Arquivo BPE já existe. Pulando aprendizado.")
+    
+    # Aplicando o BPE nos dados de treino e validação
+    apply_bpe_to_files(src_train_tok, tgt_train_tok, bpe_codes)
+    apply_bpe_to_files(src_valid_tok, tgt_valid_tok, bpe_codes)
+
+    print("Pré-processamento concluído!")
 
 if __name__ == "__main__":
-    preprocess = TranslationPreprocess()
-    preprocess.run()
+    run()
