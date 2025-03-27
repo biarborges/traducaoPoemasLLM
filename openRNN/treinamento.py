@@ -12,8 +12,8 @@ start_time = time.time()
 # ============= CONFIGURAÇÃO =============
 CONFIG = {
     "dataset": "KDE4",
-    "source_lang": "en",
-    "target_lang": "fr",
+    "source_lang": "fr",
+    "target_lang": "en",
     "base_url": "https://object.pouta.csc.fi/OPUS-KDE4/v2/moses/en-fr.txt.zip",
     "train_steps": 50000,
     "rnn_size": 512,
