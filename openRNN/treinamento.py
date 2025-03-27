@@ -186,6 +186,7 @@ class TranslationPipeline:
                 self.model_dir,
                 f"model_{self.config['source_lang']}_{self.config['target_lang']}"
             ),
+            "save_data": os.path.join(self.model_dir, f"train_{self.config['source_lang']}_{self.config['target_lang']}"),
             "src_vocab": os.path.join(self.data_dir, "vocab.src"),
             "tgt_vocab": os.path.join(self.data_dir, "vocab.tgt"),
             "encoder_type": "rnn",
