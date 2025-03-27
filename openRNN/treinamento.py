@@ -119,12 +119,14 @@ class TranslationPipeline:
                     tgt_lines = [line.strip() for line in f.readlines()]
                 
                 with open(bpe_path, "w") as f_bpe:
-                    learn_bpe.learn_bpe(
-                        [src_lines, tgt_lines],
-                        f_bpe,
-                        num_symbols=10000,
-                        min_frequency=2
-                    )
+                    with open(f"{self.base_name}.{self.config['source_lang']}.tok", "r") as src_file, \
+                        open(f"{self.base_name}.{self.config['target_lang']}.tok", "r") as tgt_file:
+                        learn_bpe.learn_bpe(
+                            (line.strip() for line in src_file),  # Passando iterador
+                            f_bpe,
+                            num_symbols=10000,
+                            min_frequency=2
+                        )
             
             return True
             
