@@ -73,7 +73,7 @@ rnn_size: 512
 word_vec_size: 300
 layers: 2
 dropout: 0.3
-optim: adamw
+optim: adam
 learning_rate: 0.002
 fp16: true
 """
