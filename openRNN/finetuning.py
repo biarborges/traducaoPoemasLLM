@@ -112,9 +112,9 @@ def run():
     # Tokenizar usando multiprocessing
     jobs = [
         (f"{OUTPUT_DIR}/train.src", f"{OUTPUT_DIR}/train.src.tok", "fr"),
-        (f"{OUTPUT_DIR}/train.tgt", f"{OUTPUT_DIR}/train.tgt.tok", "en"),
+        (f"{OUTPUT_DIR}/train.tgt", f"{OUTPUT_DIR}/train.tgt.tok", "pt"),
         (f"{OUTPUT_DIR}/valid.src", f"{OUTPUT_DIR}/valid.src.tok", "fr"),
-        (f"{OUTPUT_DIR}/valid.tgt", f"{OUTPUT_DIR}/valid.tgt.tok", "en"),
+        (f"{OUTPUT_DIR}/valid.tgt", f"{OUTPUT_DIR}/valid.tgt.tok", "pt"),
     ]
     with multiprocessing.Pool(len(jobs)) as pool:
         pool.starmap(tokenize_file, jobs)
