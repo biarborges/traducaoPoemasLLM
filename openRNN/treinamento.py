@@ -109,10 +109,10 @@ class TranslationPipeline:
                 tgt_lines = []
                 
                 with open(f"{self.base_name}.{self.config['source_lang']}.tok", "r") as f:
-                    src_lines = [line.strip() for line in f]
+                    src_lines = [line.strip() for line in f.readlines()]
                 
                 with open(f"{self.base_name}.{self.config['target_lang']}.tok", "r") as f:
-                    tgt_lines = [line.strip() for line in f]
+                    tgt_lines = [line.strip() for line in f.readlines()]
                 
                 with open(bpe_path, "w") as f_bpe:
                     learn_bpe.learn_bpe(
