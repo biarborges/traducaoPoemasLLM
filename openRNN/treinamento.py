@@ -12,8 +12,8 @@ start_time = time.time()
 # ============= CONFIGURAÇÃO =============
 CONFIG = {
     "dataset": "KDE4",
-    "source_lang": "fr",  # Defina a língua de origem
-    "target_lang": "en",  # Defina a língua de destino
+    "source_lang": "fr",
+    "target_lang": "en",
     "base_url": "https://object.pouta.csc.fi/OPUS-KDE4/v2/moses/en-fr.txt.zip",
     "train_steps": 50000,
     "rnn_size": 512,
@@ -25,13 +25,12 @@ CONFIG = {
 class TranslationPipeline:
     def __init__(self, config):
         self.config = config
-        # Defina o nome dos diretórios com base na direção da tradução
         self.data_dir = f"opus_data_{config['source_lang']}_{config['target_lang']}"
         self.model_dir = f"models_{config['source_lang']}_{config['target_lang']}"
         os.makedirs(self.data_dir, exist_ok=True)
         os.makedirs(self.model_dir, exist_ok=True)
         
-        # Nomes de arquivos base, usando a combinação correta de línguas
+        # Nomes de arquivos base
         self.base_name = os.path.join(
             self.data_dir,
             f"KDE4.{self.config['source_lang']}-{self.config['target_lang']}"
