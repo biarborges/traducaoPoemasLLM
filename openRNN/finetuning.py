@@ -10,8 +10,8 @@ from subword_nmt.apply_bpe import BPE
 start_time = time.time()
 
 # Caminhos dos arquivos CSV
-CSV_TRAIN_PATH = "../poemas/poemas300/train/frances_ingles_train.csv"
-CSV_VALID_PATH = "../poemas/poemas300/validation/frances_ingles_validation.csv"
+CSV_TRAIN_PATH = "../poemas/poemas300/train/frances_portugues_train.csv"
+CSV_VALID_PATH = "../poemas/poemas300/validation/frances_portugues_validation.csv"
 
 # Diretório de saída
 OUTPUT_DIR = "output_data"
