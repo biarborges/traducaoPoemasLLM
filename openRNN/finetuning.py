@@ -5,6 +5,9 @@ from subword_nmt.apply_bpe import BPE
 import sacremoses
 from tqdm import tqdm
 import subprocess
+import time
+
+start_time = time.time()
 
 # Caminhos dos arquivos CSV
 CSV_TRAIN_PATH = "../poemas/poemas300/train/ingles_frances_train.csv"
@@ -85,7 +88,7 @@ model_dir: output_model
 save_model: output_model/model
 save_data: output_data/onmt
 save_checkpoint_steps: 1000
-train_steps: 50000
+train_steps: 10000
 valid_steps: 1000
 world_size: 1
 gpu_ranks: [0]
@@ -140,6 +143,9 @@ def run():
     create_config()
     build_vocab()
     train_model()
+
+end_time = time.time()
+print(f"Tempo total: {end_time - start_time:.2f} segundos")
 
 if __name__ == "__main__":
     run()
