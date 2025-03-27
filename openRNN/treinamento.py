@@ -157,10 +157,10 @@ class TranslationPipeline:
             "fp16": self.config["use_gpu"]
         }
         
-        with open("config.yml", "w") as f:
+        with open("config.yaml", "w") as f:
             yaml.dump(config, f)
         
-        os.system(f"onmt_build_vocab -config config.yml -n_sample 100000")
+        os.system(f"onmt_build_vocab -config config.yaml -n_sample 100000")
         os.system(f"onmt_train -config config.yaml")
 
 def main():
