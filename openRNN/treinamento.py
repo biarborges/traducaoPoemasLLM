@@ -201,7 +201,10 @@ class TranslationPipeline:
         with open("config.yaml", "w") as f:
             yaml.dump(config, f)
         
+        # Primeiro, gera os vocabulários
         os.system(f"onmt_build_vocab -config config.yaml -n_sample 100000")
+        
+        # Em seguida, inicia o treinamento
         os.system(f"onmt_train -config config.yaml")
 
 def main():
