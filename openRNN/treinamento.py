@@ -52,7 +52,7 @@ class TranslationPipeline:
             return True
             
         try:
-            print(f"Baixando {self.config['base_url']}...") 
+            print(f"Baixando {self.config['base_url']}...")
             zip_path = os.path.join(self.data_dir, "dataset.zip")
             
             response = requests.get(self.config["base_url"], stream=True)
@@ -82,10 +82,10 @@ class TranslationPipeline:
         """Pré-processamento com tratamento robusto"""
         try:
             # Verifica se os arquivos tokenizados já existem
-            if all(os.path.exists(f"{self.base_name}.{lang}.tok") for lang in [self.config["source_lang"], self.config["target_lang"]]):
+            if all(os.path.exists(f"{self.base_name}.{lang}.tok") for lang in [self.config["source_lang"], self.config["target_lang"]] ):
                 print("Arquivos tokenizados já existem. Pulando tokenização.")
             else:
-                print("Iniciando tokenização...") 
+                print("Iniciando tokenização...")
                 tokenizers = {
                     self.config["source_lang"]: sacremoses.MosesTokenizer(lang=self.config["source_lang"]),
                     self.config["target_lang"]: sacremoses.MosesTokenizer(lang=self.config["target_lang"])
@@ -100,15 +100,15 @@ class TranslationPipeline:
                         for line in tqdm(fin, desc=f"Tokenizando {lang}"):
                             fout.write(tokenizers[lang].tokenize(line.strip(), return_str=True) + "\n")
             
-            # Dividindo 10% dos dados para validação
-            self.split_data_for_validation()
-
+            # Dividir 10% do treinamento para validação
+            self.create_validation_set()
+            
             # Processamento BPE
             bpe_path = os.path.join(self.data_dir, "bpe.codes")
             if os.path.exists(bpe_path):
                 print("Arquivo BPE já existe. Pulando aprendizado.")
             else:
-                print("Aprendendo BPE...") 
+                print("Aprendendo BPE...")
                 src_lines = []
                 tgt_lines = []
                 
@@ -131,41 +131,55 @@ class TranslationPipeline:
         except Exception as e:
             print(f"Erro no pré-processamento: {e}")
             return False
-
-    def split_data_for_validation(self):
-        """Divide os dados de treinamento em 90% para treinamento e 10% para validação"""
-        for lang in [self.config["source_lang"], self.config["target_lang"]]:
-            input_file = f"{self.base_name}.{lang}.tok"
-            output_train_file = f"{input_file}.train"
-            output_valid_file = f"{input_file}.valid"
+    
+    def create_validation_set(self):
+        """Cria 10% do conjunto de validação a partir do treinamento"""
+        try:
+            # Abra os arquivos tokenizados
+            src_lines = []
+            tgt_lines = []
             
-            with open(input_file, "r", encoding="utf-8") as f:
-                lines = f.readlines()
+            with open(f"{self.base_name}.{self.config['source_lang']}.tok", "r") as f_src:
+                src_lines = [line.strip() for line in f_src.readlines()]
             
-            # Embaralha as linhas e divide 10% para validação
-            random.shuffle(lines)
-            valid_size = int(len(lines) * 0.10)
+            with open(f"{self.base_name}.{self.config['target_lang']}.tok", "r") as f_tgt:
+                tgt_lines = [line.strip() for line in f_tgt.readlines()]
             
-            valid_lines = lines[:valid_size]
-            train_lines = lines[valid_size:]
+            # Embaralha os dados e seleciona 10% para validação
+            combined = list(zip(src_lines, tgt_lines))
+            random.shuffle(combined)
+            valid_size = int(0.1 * len(combined))  # 10% para validação
+            valid_data = combined[:valid_size]
+            train_data = combined[valid_size:]
             
-            with open(output_valid_file, "w", encoding="utf-8") as fout:
-                fout.writelines(valid_lines)
+            # Salva os arquivos de validação
+            with open(os.path.join(self.data_dir, "valid.src.tok"), "w", encoding="utf-8") as f_src, \
+                 open(os.path.join(self.data_dir, "valid.tgt.tok"), "w", encoding="utf-8") as f_tgt:
+                for src, tgt in valid_data:
+                    f_src.write(src + "\n")
+                    f_tgt.write(tgt + "\n")
             
-            with open(output_train_file, "w", encoding="utf-8") as fout:
-                fout.writelines(train_lines)
+            # Salva os arquivos de treinamento
+            with open(f"{self.base_name}.{self.config['source_lang']}.tok", "w", encoding="utf-8") as f_src, \
+                 open(f"{self.base_name}.{self.config['target_lang']}.tok", "w", encoding="utf-8") as f_tgt:
+                for src, tgt in train_data:
+                    f_src.write(src + "\n")
+                    f_tgt.write(tgt + "\n")
+            
+        except Exception as e:
+            print(f"Erro ao criar o conjunto de validação: {e}")
 
     def train(self):
         """Configura e executa o treinamento"""
         config = {
             "data": {
                 "corpus_1": {
-                    "path_src": f"{self.base_name}.{self.config['source_lang']}.tok.train",
-                    "path_tgt": f"{self.base_name}.{self.config['target_lang']}.tok.train"
+                    "path_src": f"{self.base_name}.{self.config['source_lang']}.tok",
+                    "path_tgt": f"{self.base_name}.{self.config['target_lang']}.tok"
                 },
                 "valid": {
-                    "path_src": os.path.join(self.data_dir, f"{self.base_name}.{self.config['source_lang']}.tok.valid"),
-                    "path_tgt": os.path.join(self.data_dir, f"{self.base_name}.{self.config['target_lang']}.tok.valid")
+                    "path_src": os.path.join(self.data_dir, "valid.src.tok"),
+                    "path_tgt": os.path.join(self.data_dir, "valid.tgt.tok")
                 }
             },
             "save_model": os.path.join(
