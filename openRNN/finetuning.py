@@ -83,6 +83,19 @@ fp16: true
 
 # Criar vocabulário
 def build_vocab():
+    # Verificar e remover arquivos de vocabulário existentes
+    vocab_src_path = f"{OUTPUT_DIR}/vocab.src"
+    vocab_tgt_path = f"{OUTPUT_DIR}/vocab.tgt"
+    
+    if os.path.exists(vocab_src_path):
+        os.remove(vocab_src_path)
+        print(f"{vocab_src_path} removido.")
+        
+    if os.path.exists(vocab_tgt_path):
+        os.remove(vocab_tgt_path)
+        print(f"{vocab_tgt_path} removido.")
+    
+    # Criar vocabulário
     subprocess.run(["onmt_build_vocab", "-config", "config.yaml", "-n_sample", "-1"], check=True)
     print("Vocabulário criado!")
 

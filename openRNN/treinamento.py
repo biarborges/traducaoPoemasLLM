@@ -5,6 +5,9 @@ from tqdm import tqdm
 import sacremoses
 from subword_nmt import apply_bpe, learn_bpe
 import yaml
+import time
+
+start_time = time.time()
 
 # ============= CONFIGURAÇÃO =============
 CONFIG = {
@@ -168,3 +171,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    print(f"Tempo total: {time.time() - start_time:.2f} segundos")
