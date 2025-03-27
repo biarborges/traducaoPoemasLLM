@@ -6,10 +6,11 @@ import sacremoses
 from subword_nmt import apply_bpe, learn_bpe
 import yaml
 import time
+import random
 
 start_time = time.time()
 
-# ============= CONFIGURAÇÃO =============
+# ============= CONFIGURAÇÃO ============= 
 CONFIG = {
     "dataset": "KDE4",
     "source_lang": "fr",
@@ -51,7 +52,7 @@ class TranslationPipeline:
             return True
             
         try:
-            print(f"Baixando {self.config['base_url']}...")
+            print(f"Baixando {self.config['base_url']}...") 
             zip_path = os.path.join(self.data_dir, "dataset.zip")
             
             response = requests.get(self.config["base_url"], stream=True)
@@ -84,7 +85,7 @@ class TranslationPipeline:
             if all(os.path.exists(f"{self.base_name}.{lang}.tok") for lang in [self.config["source_lang"], self.config["target_lang"]]):
                 print("Arquivos tokenizados já existem. Pulando tokenização.")
             else:
-                print("Iniciando tokenização...")
+                print("Iniciando tokenização...") 
                 tokenizers = {
                     self.config["source_lang"]: sacremoses.MosesTokenizer(lang=self.config["source_lang"]),
                     self.config["target_lang"]: sacremoses.MosesTokenizer(lang=self.config["target_lang"])
@@ -99,12 +100,15 @@ class TranslationPipeline:
                         for line in tqdm(fin, desc=f"Tokenizando {lang}"):
                             fout.write(tokenizers[lang].tokenize(line.strip(), return_str=True) + "\n")
             
+            # Dividindo 10% dos dados para validação
+            self.split_data_for_validation()
+
             # Processamento BPE
             bpe_path = os.path.join(self.data_dir, "bpe.codes")
             if os.path.exists(bpe_path):
                 print("Arquivo BPE já existe. Pulando aprendizado.")
             else:
-                print("Aprendendo BPE...")
+                print("Aprendendo BPE...") 
                 src_lines = []
                 tgt_lines = []
                 
@@ -128,17 +132,40 @@ class TranslationPipeline:
             print(f"Erro no pré-processamento: {e}")
             return False
 
+    def split_data_for_validation(self):
+        """Divide os dados de treinamento em 90% para treinamento e 10% para validação"""
+        for lang in [self.config["source_lang"], self.config["target_lang"]]:
+            input_file = f"{self.base_name}.{lang}.tok"
+            output_train_file = f"{input_file}.train"
+            output_valid_file = f"{input_file}.valid"
+            
+            with open(input_file, "r", encoding="utf-8") as f:
+                lines = f.readlines()
+            
+            # Embaralha as linhas e divide 10% para validação
+            random.shuffle(lines)
+            valid_size = int(len(lines) * 0.10)
+            
+            valid_lines = lines[:valid_size]
+            train_lines = lines[valid_size:]
+            
+            with open(output_valid_file, "w", encoding="utf-8") as fout:
+                fout.writelines(valid_lines)
+            
+            with open(output_train_file, "w", encoding="utf-8") as fout:
+                fout.writelines(train_lines)
+
     def train(self):
         """Configura e executa o treinamento"""
         config = {
             "data": {
                 "corpus_1": {
-                    "path_src": f"{self.base_name}.{self.config['source_lang']}.tok",
-                    "path_tgt": f"{self.base_name}.{self.config['target_lang']}.tok"
+                    "path_src": f"{self.base_name}.{self.config['source_lang']}.tok.train",
+                    "path_tgt": f"{self.base_name}.{self.config['target_lang']}.tok.train"
                 },
                 "valid": {
-                    "path_src": os.path.join(self.data_dir, "valid.src.tok"),
-                    "path_tgt": os.path.join(self.data_dir, "valid.tgt.tok")
+                    "path_src": os.path.join(self.data_dir, f"{self.base_name}.{self.config['source_lang']}.tok.valid"),
+                    "path_tgt": os.path.join(self.data_dir, f"{self.base_name}.{self.config['target_lang']}.tok.valid")
                 }
             },
             "save_model": os.path.join(
