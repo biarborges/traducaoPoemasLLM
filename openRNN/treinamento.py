@@ -12,7 +12,7 @@ start_time = time.time()
 
 # ============= CONFIGURAÇÃO ============= 
 CONFIG = {
-    "dataset": "KDE4",
+    "dataset": "TED2020",
     "source_lang": "fr",
     "target_lang": "en",
     "base_url": "https://object.pouta.csc.fi/OPUS-TED2020/v1/moses/en-fr.txt.zip",
@@ -34,7 +34,7 @@ class TranslationPipeline:
         # Nomes de arquivos base
         self.base_name = os.path.join(
             self.data_dir,
-            f"KDE4.{self.config['source_lang']}-{self.config['target_lang']}"
+            f"TED2020.{self.config['source_lang']}-{self.config['target_lang']}"
         )
 
     def _check_files_exist(self):
