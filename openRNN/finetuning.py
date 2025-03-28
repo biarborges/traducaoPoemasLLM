@@ -10,8 +10,8 @@ from subword_nmt.apply_bpe import BPE
 start_time = time.time()
 
 # Caminhos dos arquivos CSV
-CSV_TRAIN_PATH = "../poemas/poemas300/train/portugues_frances_train.csv"
-CSV_VALID_PATH = "../poemas/poemas300/validation/portugues_frances_validation.csv"
+CSV_TRAIN_PATH = "../poemas/poemas300/train/frances_ingles_train.csv"
+CSV_VALID_PATH = "../poemas/poemas300/validation/frances_ingles_validation.csv"
 
 # Diretório de saída
 OUTPUT_DIR = "output_data"
@@ -111,10 +111,10 @@ def run():
     
     # Tokenizar usando multiprocessing
     jobs = [
-        (f"{OUTPUT_DIR}/train.src", f"{OUTPUT_DIR}/train.src.tok", "pt"),
-        (f"{OUTPUT_DIR}/train.tgt", f"{OUTPUT_DIR}/train.tgt.tok", "fr"),
-        (f"{OUTPUT_DIR}/valid.src", f"{OUTPUT_DIR}/valid.src.tok", "pt"),
-        (f"{OUTPUT_DIR}/valid.tgt", f"{OUTPUT_DIR}/valid.tgt.tok", "fr"),
+        (f"{OUTPUT_DIR}/train.src", f"{OUTPUT_DIR}/train.src.tok", "fr"),
+        (f"{OUTPUT_DIR}/train.tgt", f"{OUTPUT_DIR}/train.tgt.tok", "en"),
+        (f"{OUTPUT_DIR}/valid.src", f"{OUTPUT_DIR}/valid.src.tok", "fr"),
+        (f"{OUTPUT_DIR}/valid.tgt", f"{OUTPUT_DIR}/valid.tgt.tok", "en"),
     ]
     with multiprocessing.Pool(len(jobs)) as pool:
         pool.starmap(tokenize_file, jobs)
