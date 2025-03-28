@@ -13,8 +13,8 @@ start_time = time.time()
 # ============= CONFIGURAÇÃO ============= 
 CONFIG = {
     "dataset": "TED2020",
-    "source_lang": "fr",
-    "target_lang": "en",
+    "source_lang": "en",
+    "target_lang": "fr",
     "base_url": "https://object.pouta.csc.fi/OPUS-TED2020/v1/moses/en-fr.txt.zip",
     "train_steps": 50000,
     "rnn_size": 512,
