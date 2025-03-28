@@ -16,7 +16,7 @@ CONFIG = {
     "source_lang": "fr",
     "target_lang": "en",
     "base_url": "https://object.pouta.csc.fi/OPUS-TED2020/v1/moses/en-fr.txt.zip",
-    "train_steps": 30000,
+    "train_steps": 50000,
     "rnn_size": 512,
     "batch_size": 64,
     "use_gpu": True
