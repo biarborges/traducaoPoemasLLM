@@ -3,7 +3,7 @@ import requests
 import zipfile
 from tqdm import tqdm
 import sacremoses
-from subword_nmt import apply_bpe, learn_bpe
+from subword_nmt import learn_bpe
 import yaml
 import time
 import random
