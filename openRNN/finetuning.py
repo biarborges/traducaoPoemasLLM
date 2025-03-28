@@ -62,7 +62,7 @@ model_dir: output_model
 save_model: output_model/model
 save_data: {OUTPUT_DIR}/onmt
 save_checkpoint_steps: 1000
-train_steps: 10000
+train_steps: 3000
 valid_steps: 1000
 world_size: 1
 gpu_ranks: [0]
