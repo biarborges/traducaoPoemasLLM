@@ -22,5 +22,5 @@ def count_words_in_csv(csv_file):
     print(f"Total de palavras no 'translated_poem': {translated_poem_word_count}")
 
 # Exemplo de uso
-csv_file = '../traducaoPoemasLLM/poemas/poemas300/frances_ingles_poems.csv'  # Substitua pelo seu caminho do CSV
+csv_file = '../traducaoPoemasLLM/poemas/poemas300/portugues_ingles_poems.csv'  # Substitua pelo seu caminho do CSV
 count_words_in_csv(csv_file)
