@@ -10,11 +10,11 @@ MODEL_PATHS = {
 
 }
 
-#CSV_PATH = "../poemas/poemas300/test/ingles_portugues_test.csv"
-#OUTPUT_CSV = "../poemas/poemas300/openRNN/ingles_portugues_test_pretreinado_openRNN.csv"
+CSV_PATH = "../poemas/poemas300/test/ingles_portugues_test.csv"
+OUTPUT_CSV = "../poemas/poemas300/openRNN/ingles_portugues_test_pretreinado_openRNN.csv"
 
-CSV_PATH = "../poemas/poemas300/ingles_portugues_poems.csv"
-OUTPUT_CSV = "../poemas/poemas300/openRNN/ingles_portugues_poems_openRNN.csv"
+#CSV_PATH = "../poemas/poemas300/ingles_portugues_poems.csv"
+#OUTPUT_CSV = "../poemas/poemas300/openRNN/ingles_portugues_poems_openRNN.csv"
 
 def traduzir_texto(texto, src, tgt):
     """Traduz um texto usando o modelo adequado"""
