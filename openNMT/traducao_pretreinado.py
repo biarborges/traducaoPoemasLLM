@@ -8,9 +8,9 @@ start_time = time.time()
 # Caminhos
 CSV_INPUT = "../poemas/frances_ingles_poems.csv"
 CSV_OUTPUT = "../poemas/openNMT/frances_ingles_poems_openNMT.csv"
-YAML_CONFIG = "nllb_fr_to_en.yaml"  # ou o nome correto do seu yaml
-TEMP_SRC = "temp_src.txt"
-TEMP_OUT = "temp_out.txt"
+YAML_CONFIG = "../openNMT/nllb_fr_to_en.yaml"  # ou o nome correto do seu yaml
+TEMP_SRC = "../poemas/openNMT/temp_src.txt"
+TEMP_OUT = "../poemas/openNMT/temp_out.txt"
 
 # Carrega o CSV e filtra para francês → inglês
 df = pd.read_csv(CSV_INPUT)
