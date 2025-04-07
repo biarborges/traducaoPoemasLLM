@@ -2,13 +2,14 @@ import pandas as pd
 import subprocess
 import os
 import time
+from tqdm import tqdm
 
 start_time = time.time()
 
 # Caminhos
 CSV_INPUT = "../poemas/frances_ingles_poems.csv"
 CSV_OUTPUT = "../poemas/openNMT/frances_ingles_poems_openNMT.csv"
-YAML_CONFIG = "nllb_fr_to_en.yaml"  # ou o nome correto do seu yaml
+YAML_CONFIG = "nllb-inference.yaml"  # Atualize para o nome correto
 TEMP_SRC = "../poemas/openNMT/temp_src.txt"
 TEMP_OUT = "../poemas/openNMT/temp_out.txt"
 
@@ -16,10 +17,12 @@ TEMP_OUT = "../poemas/openNMT/temp_out.txt"
 df = pd.read_csv(CSV_INPUT)
 df_filtered = df[(df["src_lang"] == "fr") & (df["tgt_lang"] == "en")].copy()
 
-# Salva apenas o texto original (sem prefixo manual)
+# Salva os poemas a serem traduzidos
 df_filtered["original_poem"].to_csv(TEMP_SRC, index=False, header=False)
 
-# Roda o OpenNMT com seu arquivo .yaml
+print("Iniciando tradução com OpenNMT...")
+
+# Roda o OpenNMT
 subprocess.run([
     "onmt_translate",
     "-config", YAML_CONFIG,
@@ -27,12 +30,15 @@ subprocess.run([
     "-output", TEMP_OUT
 ])
 
+print("Tradução concluída! Processando resultados...")
+
 # Lê a saída do OpenNMT
 with open(TEMP_OUT, "r", encoding="utf-8") as f:
     translations = f.read().splitlines()
 
-# Salva as traduções no DataFrame original
-df.loc[df_filtered.index, "translated_by_TA"] = translations
+# Salva as traduções no DataFrame com barra de progresso
+for idx, trans in tqdm(zip(df_filtered.index, translations), total=len(translations), desc="Salvando traduções"):
+    df.loc[idx, "translated_by_TA"] = trans
 
 # Exporta para o novo CSV
 df.to_csv(CSV_OUTPUT, index=False)
@@ -44,5 +50,5 @@ os.remove(TEMP_OUT)
 end_time = time.time()
 execution_time = end_time - start_time
 
-print("Tradução concluída com sucesso!")
-print(f"Tempo de execução: {execution_time:.2f} segundos")
+print("✅ Tradução concluída com sucesso!")
+print(f"⏱️ Tempo de execução: {execution_time:.2f} segundos")
