@@ -1,0 +1,56 @@
+original_poem,translated_poem,src_lang,tgt_lang
+"All the world's a stage, 
+And all the men and women merely players: 
+They have their exits and their entrances; 
+And one man in his time plays many parts, 
+His acts being seven ages. At first the infant, 
+Mewling and puking in the nurse's arms. 
+And then the whining school-boy, with his satchel, 
+And shining morning face, creeping like snail 
+Unwillingly to school. And then the lover, 
+Sighing like furnace, with a woful ballad 
+Made to his mistress' eyebrow. Then a soldier, 
+Full of strange oaths, and bearded like the pard, 
+Jealous in honour, sudden and quick in quarrel, 
+Seeking the bubble reputation 
+Even in the cannon's mouth. And then the justice, 
+In fair round belly with good capon lin'd, 
+With eyes severe, and beard of formal cut, 
+Full of wise saws and modern instances; 
+And so he plays his part. The sixth age shifts 
+Into the lean and slipper'd pantaloon, 
+With spectacles on nose and pouch on side, 
+His youthful hose well sav'd, a world too wide 
+For his shrunk shank; and his big manly voice, 
+Turning again toward childish treble, pipes 
+And whistles in his sound. Last scene of all, 
+That ends this strange eventful history, 
+Is second childishness and mere oblivion, 
+Sans teeth, sans eyes, sans taste, sans everything.","Le monde entier est un théâtre,
+et les hommes et les femmes ne sont que des acteurs ;
+ils ont leurs entrées et leurs sorties.
+Un homme, dans le cours de sa vie, joue différents rôles ;
+et les actes de la pièce sont les sept âges. Dans le premier, c’est l’enfant,
+vagissant, bavant dans les bras de sa nourrice.
+Ensuite l’écolier, toujours en pleurs, avec son frais visage du matin
+et son petit sac, rampe, comme le limaçon,
+à contre-cœur jusqu’à l’école. Puis vient l’amoureux,
+qui soupire comme une fournaise et chante une ballade
+plaintive qu’il a adressée au sourcil de sa maîtresse. Puis le soldat,
+prodigue de jurements étranges et barbu comme le léopard,
+jaloux sur le point d’honneur, emporté, toujours prêt à se quereller,
+cherchant la renommée, cette bulle de savon,
+jusque dans la bouche du canon. Après lui, c’est le juge
+au ventre arrondi, garni d’un bon chapon,
+l’œil sévère, la barbe taillée d’une forme grave ;
+il abonde en vieilles sentences, en maximes vulgaires ;
+et c’est ainsi qu’il joue son rôle. Le sixième âge offre
+un maigre Pantalon en pantoufles,
+avec des lunettes sur le nez et une poche de côté :
+les bas bien conservés de sa jeunesse se trouvent maintenant beaucoup trop vastes
+pour sa jambe ratatinée ; sa voix, jadis forte et mâle,
+revient au fausset de l’enfance, et ne fait plus
+que siffler d’un ton aigre et grêle. Enfin le septième et dernier âge
+vient unir cette histoire pleine d’étranges événements ;
+c’est la seconde enfance, état d’oubli profond où l’homme se trouve
+sans dents, sans yeux, sans goût, sans rien.",en_XX,fr_XX

@@ -1,0 +1,928 @@
+original_poem,translated_poem,src_lang,tgt_lang,translated_by_TA
+"bright star, would i were stedfast as thou art—
+not in lone splendour hung aloft the night
+and watching, with eternal lids apart,
+like nature's patient, sleepless eremite,
+the moving waters at their priestlike task
+of pure ablution round earth's human shores,
+or gazing on the new soft-fallen mask
+of snow upon the mountains and the moors—
+no—yet still stedfast, still unchangeable,
+pillow'd upon my fair love's ripening breast,
+to feel for ever its soft fall and swell,
+awake for ever in a sweet unrest,
+still, still to hear her tender-taken breath,
+and so live ever—or else swoon to death.","astre brillant! puissé-je, immobile comme tu l'es—
+non pas, resplendir à l'écart suspendu dans la nuit,
+et surveiller, les paupières éternellement redressées,
+tel un forçat de la nature, ermite sans sommeil,
+les eaux mouvantes, dans leur tâche lustrale,
+purifiant de leur ablution les rivages des hommes,
+ou contempler le masque floconneux, que, fraîchement tombée,
+la neige impose aux montagnes et aux bruyères,—
+non,—mais, puissé-je, toujours immobile, toujours immuable,
+posséder comme oreiller le sein mûrissant de ma bien aimée,
+pour le sentir à jamais doucement se soulever puis s'abaisser,
+eveillé à jamais en une délicieuse insomnie,
+pour entendre encore, et encore, sa tendre respiration,
+et vivre ainsi toujours—ou sinon m'évanouir dans la mort!",en_XX,fr_XX,"<unk> <unk> , <unk> , était <unk> comme vous <unk> <unk> comme vous <unk> <unk>
+<unk> la nuit ne <unk> pas dans les <unk> isolés <unk> la nuit de l&apos; air
+et <unk> avec des <unk> éternelles <unk> <unk> .
+<unk> <unk> <unk> <unk> <unk> .
+les eaux <unk> à leur tâche <unk> de travail <unk> de leur tâche <unk> de travail
+<unk> <unk> de <unk> <unk> <unk> humain pur <unk> <unk> .
+ou <unk> sur le nouveau masque de <unk> .
+La neige sur les montagnes et les <unk> sur les montagnes et les <unk> de la
+<unk> encore <unk> <unk> encore <unk> <unk> encore <unk> <unk> <unk> encore <unk> <unk> <unk> encore
+<unk> <unk> <unk> <unk> <unk> <unk> <unk> .
+pour sentir sa chute douce et <unk> <unk> .
+<unk> dans un doux <unk> de <unk> .
+<unk> toujours l&apos; entendre <unk> <unk> <unk> .
+et donc <unk> d&apos; autres <unk> pour <unk> à <unk> ."
+"so on a pleasant morning, as he leant
+into the sun-rise, o’er the balustrade
+of the garden-terrace, towards him they bent
+their footing through the dews; and to him said,
+«you seem there in the quiet of content,
+«lorenzo, and we are most loth to invade
+«calm speculation; but if you are wise,
+«bestride your steed while cold is in the skies.","ainsi, par une riante matinée, comme il se penchait
+au lever du soleil, par dessus la balustrade
+de la terrasse du jardin, vers lui ils dirigèrent
+leurs pas à travers la rosée; et lui dirent:
+«vous semblez heureux et satisfait ici,
+lorenzo, et nous sommes désolés de troubler
+votre paisible méditation; mais si vous êtes sage,
+enfourchez votre coursier pendant qu'il fait encore frais.",en_XX,fr_XX,"<unk> comme il <unk> dans un <unk> <unk> alors qu&apos; il <unk> en <unk>
+<unk> <unk> the <unk> <unk> le <unk> <unk> the <unk> <unk> the <unk> <unk> the <unk>
+des <unk> vers lui s&apos; <unk> sur lui <unk> .
+et lui <unk> à travers le <unk> et lui <unk> sur le <unk> et lui <unk>
+<unk> semble qu&apos; il y en ait dans le calme de <unk> <unk> .
+<unk> et nous sommes le plus <unk> pour envahir la <unk> et nous sommes le plus
+<unk> <unk> mais si vous êtes <unk> <unk> .
+<unk> votre <unk> pendant le froid est dans les <unk> ."
+"music, when soft voices die,
+vibrates in the memory;
+odours, when sweet violets sicken,
+live within the sense they quicken.
+rose leaves, when the rose is dead,
+are heap’d for the belovèd’s bed;
+and so thy thoughts, when thou art gone,
+love itself shall slumber on.","la musique, au moment que se taisent les voix douces,
+résonne en la mémoire ;
+les baumes, au moment que s’assèchent les violettes délicates,
+perdurent dans le sens qu’elles exaltent.
+les pétales de rose, une fois que la rose a péri,
+s’amoncellent pour former la couche de l’aimé ;
+de même la pensée de toi, une fois que tu seras parti,
+à quoi l’amour lui-même s’endormira.",en_XX,fr_XX,"<unk> quand les voix douces <unk> <unk>
+<unk> dans les <unk> dans les <unk> <unk> dans les <unk> <unk> dans les <unk>
+<unk> quand <unk> <unk> <unk> <unk> <unk>
+<unk> dans le sens où ils <unk> dans le sens où ils <unk> dans le
+<unk> <unk> quand la rose est <unk> .
+<unk> pour les <unk> <unk> <unk> pour les <unk> <unk>
+et donc votre <unk> quand vous tapez des <unk> d&apos; art.
+L&apos; amour se <unk> de la <unk> <unk> <unk> <unk> ."
+"had i the heavens’ embroidered cloths,
+enwrought with golden and silver light,
+the blue and the dim and the dark cloths
+of night and light and the half light,
+i would spread the cloths under your feet:
+but i, being poor, have only my dreams;
+i have spread my dreams under your feet;
+tread softly because you tread on my dreams.","eussé-je des cieux les vêtements brodés,
+tissus de lumière d’or et de lumière d’argent,
+les bleus, les troubles, les noirs vêtements
+de la nuit et du jour et du demi-jour,
+je jetterais sous tes pieds tous ces vêtements ;
+mais je suis pauvre, et je n’ai que mes rêves ;
+j’ai voulu que mes rêves soient jetés sous tes pieds ;
+fais-toi légère car tu foules mes rêves.",en_XX,fr_XX,"Il y avait une <unk> <unk> <unk> <unk> .
+<unk> avec des <unk> d&apos; or et des <unk> d&apos; argent .
+le bleu et les vêtements sombres et les vêtements sombres et sombres et les vêtements sombres
+La nuit et la moitié <unk> et la moitié <unk> et la moitié <unk> et la
+<unk> les habits sous vos <unk> sous vos <unk> <unk> .
+Mais <unk> n&apos; a que mon <unk> .
+Il y a eu une diffusion de mes rêves sous vos <unk> .
+<unk> doucement parce que vous marchez sur mon <unk> <unk> ."
+"out in the mindless void the daemon bore me,
+past the bright clusters of dimensioned space,
+till neither time nor matter stretched before me,
+but only chaos, without form or place.
+here the vast lord of all in darkness muttered
+things he had dreamed but could not understand,
+while near him shapeless bat-things flopped and fluttered
+in idiot vortices that ray-streams fanned.
+they danced insanely to the high, thin whining
+of a cracked flute clutched in a moustrous paw,
+whence flow the aimless waves whose chance combining
+gives each frail cosmos its eternal law.
+« i am his messenger, » the daemon said,
+as in contempt he struck his master’s head.","le daimôn m’enleva dans le vide insensible,
+par-delà les amas brillants de l’espace dimensionné,
+jusqu’à ce que ni le temps ni la matière ne s’étendissent devant moi,
+rien que le chaos, sans forme ni lieu.
+ici, le vaste seigneur de tout murmurait dans les ténèbres
+des choses qu’il avait rêvées mais ne pouvait comprendre,
+pendant qu’auprès de lui d’informes choses vampiriques voltigeaient, chutaient,
+en vortex idiots qu’éventaient des flux de rayons.
+prises de frénésie elles dansaient au son aigu, plaintivement fluet
+d’une flûte fendue, dans l’étau d’une patte monstrueuse,
+d’où s’écoulait sans but l’onde aux mélanges hasardeux qui
+donnent à chaque cosmos fragile sa loi éternelle.
+« je suis son messager », affirma le daimôn,
+alors qu’il frappait, méprisant, la tête de son maître.",en_XX,fr_XX,"<unk> dans le vide <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>
+Le passé de <unk> <unk> de <unk> <unk>
+Jusqu&apos; à ce qu&apos; il n&apos; y ait pas de temps ou d&apos; importance avant de
+mais seulement <unk> sans forme ou <unk> .
+Ici , le vaste seigneur de tout dans les ténèbres de l&apos; obscurité dans les <unk>
+qu&apos; il avait rêvé mais ne pouvait pas <unk> <unk> .
+<unk> <unk> <unk> et <unk> <unk> <unk>
+<unk> <unk> qui <unk> <unk> <unk> qui <unk> <unk> <unk> qui <unk> <unk> <unk> qui <unk>
+Ils dansaient intensément à la fin de la <unk> <unk> <unk> .
+<unk> <unk> d&apos; une <unk> <unk> dans un <unk> <unk> dans un <unk> <unk>
+<unk> les ondes <unk> dont la chance combine les ondes <unk> dont la chance combinant la
+Chaque <unk> <unk> son <unk> éternel <unk> <unk> .
+<unk> <unk> les <unk> <unk> <unk> <unk> <unk> .
+comme dans le mépris il <unk> son <unk> <unk> <unk> ."
+"she danc'd along with vague, regardless eyes,
+anxious her lips, her breathing quick and short:
+the hallow'd hour was near at hand: she sighs
+amid the timbrels, and the throng'd resort
+of whisperers in anger, or in sport;
+'mid looks of love, defiance, hate, and scorn,
+hoodwink'd with faery fancy; all amort,
+save to st. agnes and her lambs unshorn,
+and all the bliss to be before to-morrow morn.","elle trépignait dans l'attente, les yeux vagues, sans regards,
+les lèvres anxieuses, la respiration brève et haletante:
+l'heure consacrée approchait: elle soupirait
+parmi les tambourins et la foule entassée
+qui chuchotait avec colère, ou avec gaîté;
+parmi les regards d'amour, de défiance, de haine, de dédain,
+aveuglée par son fantasque caprice: toute triste,
+ne pensant qu'à sainte-agnès, à ses agneaux sous leurs toisons,
+et à toute la félicité qui devait survenir avant le lendemain matin.",en_XX,fr_XX,"Elle <unk> avec <unk> indépendamment de <unk> indépendamment de <unk> .
+Sa respiration sa respiration et ses <unk> <unk> rapides et <unk> sa respiration .
+<unk> l&apos; heure <unk> était près de <unk> elle <unk> <unk> elle <unk> <unk> elle <unk>
+<unk> la <unk> et le <unk> <unk> la <unk> et le <unk> <unk> la <unk> et
+de <unk> ou de <unk> dans <unk> ou à <unk> en <unk> ou dans <unk>
+<unk> a l&apos; air de <unk> <unk> <unk> et <unk> <unk> .
+<unk> <unk> <unk> <unk> tout <unk> <unk> <unk>
+<unk> de <unk> <unk> et ses agneaux <unk> de <unk> <unk> et ses agneaux <unk> <unk>
+et tout le bonheur pour être avant <unk> <unk>"
+"bright star, would i were steadfast as thou art—
+not in lone splendour hung aloft the night
+and watching, with eternal lids apart,
+like nature’s patient, sleepless eremite,
+the moving waters at their priestlike task
+of pure ablution round earth’s human shores,
+or gazing on the new soft-fallen mask
+of snow upon the mountains and the moors—
+no—yet still steadfast, still unchangeable,
+pillow’d upon my fair love’s ripening breast,
+to feel for ever its soft fall and swell,
+awake for ever in a sweet unrest,
+still, still to hear her tender-taken breath,
+and so live ever—or else swoon to death.","vive étoile, avec ta fermeté que j’advienne —
+non dans un éclat seul appendu dans la nuit,
+aux aguets, ouvrant des paupières éternelles
+tel de la nature l’ermite sans sommeil,
+des eaux mouvantes qui tâchent comme des prêtres
+à la pure ablution de toute rive humaine,
+à l’affût du masque doux, tombé à l’instant,
+de la neige sur les montagnes et les landes —
+non — pourtant ferme encore, indéfectible encore,
+ma tête sur le sein mûr de ma bien-aimée,
+pour sentir à jamais son doux balancement,
+à jamais éveillé dans un trouble plaisant,
+encore, encore à l’écoute de son haleine,
+ainsi vivre toujours — ou sombrer dans la mort.",en_XX,fr_XX,"<unk> <unk> , <unk> , était <unk> comme vous <unk> <unk> comme vous <unk> <unk>
+<unk> la nuit ne <unk> pas dans les <unk> isolés <unk> la nuit de l&apos; air
+et <unk> avec des <unk> éternelles <unk> <unk> .
+<unk> <unk> <unk> <unk> <unk> .
+les eaux <unk> à leur tâche <unk> de travail <unk> de leur tâche <unk> de travail
+<unk> <unk> de <unk> <unk> <unk> humain pur <unk> <unk> .
+ou <unk> sur le nouveau masque de <unk> .
+La neige sur les montagnes et les <unk> sur les montagnes et les <unk> de la
+<unk> encore <unk> <unk> encore <unk> <unk> encore <unk> <unk> <unk> encore <unk> <unk> <unk> encore
+<unk> <unk> <unk> <unk> <unk> <unk> <unk> .
+pour sentir sa chute douce et <unk> <unk> .
+<unk> dans un doux <unk> de <unk> .
+<unk> toujours l&apos; entendre <unk> <unk> <unk> .
+et donc <unk> d&apos; autres <unk> pour <unk> à <unk> ."
+"queen of the wide air; thou most lovely queen
+of all the brightness that mine eyes have seen!
+as thou exceedest all things in thy shine,
+so every tale, does this sweet tale of thine.
+o for three words of honey, that i might
+tell but one wonder of thy bridal night!","reine du vaste espace, ô souveraine la plus charmante
+entre toutes les splendeurs que mes yeux aient vues!
+de même que ton éclat surpasse toutes choses,
+de même aucun conte n'atteint la douceur du tien.
+oh! pour trois paroles suaves comme le miel, puissé-je
+raconter une seule merveille de ta nuit nuptiale!",en_XX,fr_XX,"reine de la grande reine <unk> la plus belle reine .
+de toute la luminosité que les yeux de la mienne ont <unk> les yeux de la
+Comme vous <unk> toutes les choses dans vos <unk> de <unk> .
+Chaque <unk> fait ce doux conte de <unk> .
+<unk> de trois mots de <unk> qui pourraient l&apos; étendre à l&apos; infini de trois mots
+mais une merveille de votre <unk> <unk> <unk>"
+"for them the ceylon diver held his breath,
+and went all naked to the hungry shark;
+for them his ears gush’d blood; for them in death
+the seal on the cold ice with piteous bark
+lay full of darts; for them alone did seethe
+a thousand men in troubles wide and dark:
+half-ignorant, they turn’d an easy wheel,
+that set sharp racks at work, to pinch and peel.","pour eux, le plongeur de ceylan retenait sa respiration,
+et s'exposait sans défense à la voracité des requins;
+pour eux le sang jaillissait de ses oreilles; pour eux, mourant,
+sur la froide glace, le phoque aboyait lugubrement
+et gisait criblé de dards; pour eux seuls se consumaient
+des milliers d'hommes en proie à des tourments innombrables:
+semi-barbares, ils tournaient nonchalamment une roue.
+instrument de torture qui tranchait, broyait, écorchait vif.",en_XX,fr_XX,"pour eux le plongeur <unk> tenait son <unk> <unk> <unk> son <unk> <unk> <unk> son <unk> <unk>
+et <unk> tous dans les <unk> affamés .
+pour eux en mort pour eux dans la mort de la mort pour eux dans la mort
+le léopard sur la glace froide avec <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>
+<unk> de <unk> pour eux seuls a fait <unk> <unk> .
+un millier d&apos; hommes en problèmes larges et <unk> .
+<unk> qu&apos; ils <unk> un <unk> facile <unk> .
+<unk> et <unk> <unk> à <unk> et <unk> <unk> et <unk> <unk> et <unk> <unk> et <unk>"
+"small, busy flames play through the fresh laid coals,
+and their faint cracklings o'er our silence creep
+like whispers of the household gods that keep
+a gentle empire o'er fraternal souls.
+and while, for rhymes, i search around the poles,
+your eyes are fix d, as in poetic sleep,
+upon the lore so voluble and deep,
+that aye at fall of night our care condoles.
+this is your birth-day tom, and i rejoice
+that thus it passes smoothly, quietly.
+many such eves of gently whisp'ring noise
+may we together pass, and calmly try
+what are this world s true joys, ere the great voice,
+from its fair face, shall bid our spirits fly.","de petites flammes agitées traversent le charbon dont on vient d'emplir l'âtre,
+et leur léger pétillement se fait entendre au milieu de notre solitude,
+tels des chuchotements de dieux familiers qui gardent
+un affectueux empire sur nos fraternelles âmes.
+et pendant qu'à la recherche de rimes je voyage jusqu'aux pôles,
+vos regards sont fixés, comme en un sommeil poétique,
+sur la légende si abondante et si profonde
+qui toujours, à la tombée de la nuit, apaise nos soucis.
+c'est votre jour de naissance, tom, et je me réjouis
+qu'il se passe ainsi en une reposante quiétude.
+bien des veillées semblables de doux chuchotement
+puissions-nous passer ensemble, et ressentir dans le calme
+ce que sont les vraies joies d'ici-bas—avant que la grande voix
+de la céleste bouche, ordonne à nos esprits de prendre notre vol.",en_XX,fr_XX,"Des flammes <unk> <unk> à travers le <unk> <unk> <unk>
+<unk> notre silence <unk> notre silence <unk> notre silence <unk> notre silence <unk> notre silence <unk> notre silence
+comme des <unk> de la maison qui maintient des <unk> de la maison qui maintient des <unk> de
+<unk> <unk> <unk> <unk> <unk> <unk> <unk>
+et <unk> pour <unk> une recherche autour de la <unk> .
+Vos yeux sont <unk> de façon <unk> comme dans les <unk> poétique de <unk> <unk>
+<unk> et <unk> <unk> et <unk>
+<unk> de la nuit nos soins <unk> de nos soins <unk> .
+C&apos; est votre <unk> <unk> et <unk> <unk> <unk> .
+ça fait donc <unk> <unk> <unk> .
+<unk> de ce genre de bruit de bruit gentiment <unk> de bruit de bruit gentiment <unk> de bruit
+nous ensemble <unk> et calmement essayons calmement d&apos; essayer de <unk> et d&apos; essayer calmement d&apos; essayer de
+ce que ce monde est vrai <unk> <unk> le grand <unk> <unk> le grand <unk> <unk> le grand
+de sa <unk> <unk> <unk> nos esprits <unk> <unk> nos esprits <unk> nos esprits <unk> nos esprits <unk>"
+"but selfishness, love’s cousin, held not long
+its fiery vigil in her single breast;
+she fretted for the golden hour, and hung
+upon the time with feverish unrest -
+not long - for soon into her heart a throng
+of higher occupants, a richer zest,
+came tragic; passion not to be subdued,
+and sorrow for her love in travels rude.","mais l'égoïsme, cousin de l'amour, n'imposa pas longtemps
+sa brûlante insomnie en son sein seulement;
+elle se consuma dans l'attente de l'heure fortunée et compta
+les instants fièvreusement, haletante, sans relâche—
+pas longtemps—car bientôt sur son cœur une infinité
+de tourments plus nobles, une douleur plus aiguë
+s'abattit tragiquement; passion insurmontable,
+et cruelle inquiétude pour les voyages de son amant.",en_XX,fr_XX,"<unk> <unk> <unk> n&apos; a pas longtemps tenu peu de temps .
+sa <unk> <unk> dans sa seule <unk> dans sa <unk> unique dans sa <unk> unique dans sa
+Elle <unk> pour l&apos; or d&apos; or et <unk> pour la <unk> d&apos; or et <unk> pour
+A l&apos; époque avec <unk> <unk> -
+Peu de temps après dans son cœur un <unk> <unk> .
+plus riche une <unk> plus riche un riche <unk> plus riche une <unk> plus riche d&apos; un
+<unk> passion n&apos; est pas obligé de ne pas être <unk> de <unk> de ne pas être
+et <unk> pour son amour en voyage <unk> <unk> <unk>"
+living in the earth-deposits of our history today a backhoe divulged out of a crumbling flank of earth one bottle amber perfect a hundred-year-old cure for fever or melancholy a tonic for living on this earth in the winters of this climate. today i was reading about marie curie: she must have known she suffered from radiation sickness her body bombarded for years by the element she had purified it seems she denied to the end the source of the cataracts on her eyes the cracked and suppurating skin of her finger-ends till she could no longer hold a test-tube or a pencil she died a famous woman denying her wounds denying her wounds came from the same source as her power.,"vivre dans les dépôts de terre de notre histoire aujourd’hui, une pelleteuse a divulgué d’un flanc de terre croulant une bouteille d’ambre parfait un remède centenaire un remède contre la fièvre ou la mélancolie un tonique pour vivre sur cette terre pendant les hivers de ce climat. aujourd’hui, je lisais un article sur marie curie : elle devait savoir qu’elle souffrait de la maladie des rayons. son corps bombardé pendant des années par l’élément qu’elle avait purifié. il semble qu’elle ait nié jusqu’à la fin l’origine de la cataracte de ses yeux la peau craquelée et suppurante de l’extrémité de ses doigts jusqu’à ce qu’elle ne puisse plus tenir une éprouvette ou un crayon. elle est morte en femme célèbre en niant ses blessures niant que ses blessures venaient de la même source que son pouvoir.",en_XX,fr_XX,"<unk> de la vie d&apos; une bouteille de la <unk> de notre histoire aujourd&apos; hui , un <unk> de la <unk> de notre histoire aujourd&apos; hui un <unk> de <unk> de la Terre une bouteille <unk> de la fièvre ou une <unk> de la Terre sur cette terre dans les <unk> de cette planète , les <unk> et la peau <unk> de sa <unk> jusqu&apos; à ce qu&apos; elle ne puisse plus tenir une <unk> ou un crayon qu&apos; elle a <unk> à la fin de la Terre , les <unk> et la peau <unk> de sa <unk> jusqu&apos; à ce qu&apos; elle ne puisse plus tenir une <unk> ou un crayon qu&apos; elle est mort de la même source qu&apos; elle <unk> ses blessures ."
+"when great trees fall, rocks on distant hills shudder, lions hunker down in tall grasses, and even elephants lumber after safety. when great trees fall in forests, small things recoil into silence, their senses eroded beyond fear. when great souls die, the air around us becomes light, rare, sterile. we breathe, briefly. our eyes, briefly, see with a hurtful clarity. our memory, suddenly sharpened, examines, gnaws on kind words unsaid, promised walks never taken. great souls die and our reality, bound to them, takes leave of us. our souls, dependent upon their nurture, now shrink, wizened. our minds, formed and informed by their radiance, fall away. we are not so much maddened as reduced to the unutterable ignorance of dark, cold caves. and when great souls die, after a period peace blooms, slowly and always irregularly. spaces fill with a kind of soothing electric vibration. our senses, restored, never to be the same, whisper to us. they existed. they existed. we can be. be and be better. for they existed.","quand de grands arbres tombent, les rochers des collines lointaines tremblent, les lions se terrent dans les hautes herbes, et même les éléphants se mettent en sécurité. quand de grands arbres tombent dans les forêts, les petites choses reculent dans le silence, leurs sens érodés au-delà de la peur. quand les grandes âmes meurent, l’air autour de nous devient léger, rare, stérile. nous respirons, brièvement. nos yeux, brièvement, voient avec une clarté blessante. notre mémoire, soudainement aiguisée, examine, ronge les mots gentils non dites, les promenades promises jamais faites. les grandes âmes meurent et notre réalité, liée à elles à elles, prend congé de nous. nos âmes, dépendantes de leur nourrice, se rétrécissent, s’étiolent. nos esprits, formés et informés par leur rayonnement, s’effacent. nous ne sommes pas tant fous que réduits à l’indicible ignorance de sombres et froides des cavernes sombres et froides. et quand les grandes âmes meurent, après une période, la paix fleurit, lentement et toujours irrégulièrement. les espaces se remplissent avec une sorte de vibration électrique apaisante. nos sens, restaurés, qui ne seront jamais jamais les mêmes, nous chuchotent. ils ont existé. ils ont existé. nous pouvons être. être et être meilleurs. car ils ont existé.",en_XX,fr_XX,<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>
+"now lords and ladies blithe and bold,
+to bless you here now am i bound:
+i thank you all a thousand-fold,
+and pray god save you whole and sound;
+wherever you go on grass or ground,
+may he you guide that nought you grieve,
+for friendship that i here have found
+against my will i take my leave.
+for friendship and for favours good,
+for meat and drink you heaped on me,
+the lord that raised was on the rood
+now keep you comely company.
+on sea or land where’er you be,
+may he you guide that nought you grieve.
+such fair delight you laid on me
+against my will i take my leave.
+against my will although i wend,
+i may not always tarry here;
+for everything must have and end,
+and even friends must part, i fear;
+be we beloved however dear
+out of this world death will us reave,
+and when we brought are to our bier
+against our will we take our leave.
+now good day to you, goodmen all,
+and good day to you, young and old,
+and good day to you, great and small,
+and gramercy a thousand-fold!
+if ought there were that dear ye hold,
+full fain i would the deed achieve –
+now christ you keep from sorrows cold
+for now at last i take my leave.","seigneurs et dames, allègres et admirables,
+recevez à présent ma bénédiction :
+soyez tous remerciés mille fois,
+et dieu vous garde sains et saufs ;
+que vos pas mènent sur l’herbe douce ou le sol dur,
+qu’il vous guide afin que rien ne vous afflige,
+puisque ici j’ai trouvé l’amitié
+je prends congé contre mon gré.
+vous m’avez tant couvert d’affection et de faveurs,
+tant pourvu en vivres et en boisson,
+puisse notre seigneur qui fut cloué sur la croix
+vous tenir une délicate compagnie.
+que vous soyez sur terre ou sur mer,
+qu’il vous guide afin que rien ne vous afflige.
+puisque vous m’avez apporté tant de plaisir
+je prends congé contre mon gré.
+quand bien même je m’en vais malgré moi,
+je ne pourrais demeurer ici pour toujours ;
+car toutes choses doivent finir,
+et même les amis se séparer, je le crains ;
+quelle que soit la force de nos liens
+la mort nous arrachera à ce monde,
+et lorsque nous serons mis en bière
+nous prendrons congé contre notre gré.
+à présent, salut à vous, tous gens de bien,
+salut à vous, jeunes et vieux,
+salut à vous, petits et grands,
+et mille fois grand merci !
+si quelque dessein vous tenait à cœur,
+je l’accomplirais bien volontiers –
+à présent, christ vous garde des peines cruelles,
+car enfin je prends congé.",en_XX,fr_XX,"<unk> et messieurs <unk> et <unk> <unk> et <unk> <unk> et <unk> <unk> et <unk>
+<unk> vous <unk> ici maintenant ,
+Merci beaucoup à tous un <unk> .
+et prier Dieu vous sauve tout et <unk> .
+où vous allez sur l&apos; herbe ou la <unk> .
+<unk> que vous <unk> cette <unk> qui vous <unk> <unk> <unk> qui vous <unk> <unk>
+pour l&apos; amitié qui a trouvé qu&apos; ici , ici , ont trouvé qu&apos; ici
+<unk> ma <unk> <unk> <unk> mon <unk> <unk>
+pour l&apos; amitié et pour les services de service pour l&apos; amitié et pour les
+pour la viande et boire des <unk> sur <unk>
+le seigneur qui a été élevé était sur le <unk> <unk> .
+maintenant vous gardez <unk> <unk> <unk> .
+<unk> sur la mer ou la terre <unk> vous <unk> <unk> .
+<unk> que vous <unk> cette <unk> qui vous <unk> <unk> <unk> qui vous <unk> <unk>
+si juste que vous me <unk> sur moi sur moi .
+<unk> ma <unk> <unk> <unk> mon <unk> <unk>
+contre ma volonté , bien qu&apos; un <unk> <unk> <unk> .
+Il n&apos; y a peut-être pas toujours de <unk> <unk> <unk> .
+pour tout avoir et <unk> pour tout avoir et <unk> pour tout avoir et <unk>
+et même des amis doivent <unk> d&apos; une certaine façon <unk> <unk> <unk>
+être appréciée par les chers aussi chers que nous sommes chers aussi chers que nous
+<unk> de ce monde <unk> nous <unk> de la mort de ce monde nous <unk>
+et quand nous avons amené nos <unk> à notre <unk> .
+<unk> notre volonté de prendre notre <unk>
+<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> .
+et du bon jour pour <unk> jeunes et <unk> jeunes et <unk> jeunes et <unk>
+et le bon jour pour <unk> grand et <unk> <unk>
+et <unk> une <unk> <unk> .
+S&apos; il y avait ce <unk> <unk> <unk> <unk> .
+L&apos; action <unk> <unk> -
+<unk> de <unk> froid .
+maintenant , à l&apos; échelle dernière ,"
+"strange sound it was, when the pale shadow spake;
+for there was striving, in its piteous tongue,
+to speak as when on earth it was awake,
+and isabella on its music hung:
+languor there was in it, and tremulous shake,
+as in a palsied druid’s harp unstrung;
+and through it moan’d a ghostly under-song,
+like hoarse night-gusts sepulchral briars among.","etrange fut le son que fit vibrer l'ombre blafarde;
+car elle s'efforçait, cette langue digne de pitié,
+de parler comme lorsque sur terre elle était éveillée,
+isabelle, haletante, écoutait cette musique
+languissante et secouée de hoquets,
+comme le chant d'une harpe druidique aux cordes distendues;
+on y percevait les lamentations en sourdine d'un spectre,
+telles les rauques rafales nocturnes parmi les ronces des sépulcres.",en_XX,fr_XX,"son étrange bruit <unk> quand l&apos; ombre pâle <unk> <unk> quand l&apos; ombre pâle <unk> <unk>
+Il y avait <unk> dans sa <unk> <unk> <unk> .
+pour parler comme quand sur Terre était <unk> <unk> .
+et <unk> sur sa musique <unk> <unk> .
+<unk> était dans <unk> et <unk> <unk> <unk> .
+<unk> <unk> <unk> <unk> <unk> <unk>
+et à travers un <unk> <unk> <unk> un <unk> de <unk> .
+<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>"
+"«o isabella, i can half perceive
+«that i may speak my grief into thine ear;
+«if thou didst ever any thing believe,
+«believe how i love thee, believe how near
+«my soul is to its doom: i would not grieve
+«thy hand by unwelcome pressing, would not fear
+«thine eyes by gazing; but i cannot live
+«another night, and not my passion shrive.","«o isabelle, je m'aperçois à demi
+que je peux confier ma souffrance à ton oreille;
+si jamais tu peux croire à quelque chose,
+crois à mon amour, crois que mon cœur
+est près de s'arrêter: je ne voudrais pas t'irriter
+en pressant ta main malgré toi, ni blesser
+tes yeux en les fixant; mais je ne peux vivre
+une nuit de plus sans t'avouer ma passion.",en_XX,fr_XX,"<unk> <unk> peut percevoir la moitié de la perception de la <unk> .
+<unk> <unk> peut parler de mon deuil <unk> <unk> <unk> .
+<unk> <unk> n&apos; importe quelle chose <unk> .
+<unk> à quel point l&apos; amour <unk> de la façon dont l&apos; amour <unk> près de la
+L&apos; âme de la <unk> n&apos; est pas la deuil de la douleur ne <unk> pas de
+<unk> <unk> n&apos; aurait pas peur de la peur de <unk> <unk> n&apos; aurait pas peur de
+Les yeux de <unk> mais en quelque sorte ne peuvent pas vivre vivre .
+<unk> <unk> et pas ma passion <unk> <unk>"
+"music, when soft voices die,
+vibrates in the memory;
+odours, when sweet violets sicken,
+live within the sense they quicken.
+rose leaves, when the rose is dead,
+are heap’d for the belovèd’s bed;
+and so thy thoughts, when thou art gone,
+love itself shall slumber on.","la musique, alors que les voix douces meurent,
+retentit dans la mémoire ;
+les senteurs, alors que les violettes suaves s’altèrent,
+vit encore dans les sens qu’elles exaltent.
+les pétales de rose, alors que la rose est morte,
+s’amoncellent pour la couche de l’être aimé ;
+or donc cette impression de toi, au moment de ton départ,
+sur quoi l’amour même trouvera le sommeil.",en_XX,fr_XX,"<unk> quand les voix douces <unk> <unk>
+<unk> dans les <unk> dans les <unk> <unk> dans les <unk> <unk> dans les <unk>
+<unk> quand <unk> <unk> <unk> <unk> <unk>
+<unk> dans le sens où ils <unk> dans le sens où ils <unk> dans le
+<unk> <unk> quand la rose est <unk> .
+<unk> pour les <unk> <unk> <unk> pour les <unk> <unk>
+et donc votre <unk> quand vous tapez des <unk> d&apos; art.
+L&apos; amour se <unk> de la <unk> <unk> <unk> <unk> ."
+"o what can ail thee, knight-at-arms,
+alone and palely loitering?
+the sedge has withered from the lake,
+and no birds sing.
+o what can ail thee, knight-at-arms,
+so haggard and so woe-begone?
+the squirrel’s granary is full,
+and the harvest’s done.
+i see a lily on thy brow,
+with anguish moist and fever-dew,
+and on thy cheeks a fading rose
+fast withereth too.
+i met a lady in the meads,
+full beautiful—a faery’s child,
+her hair was long, her foot was light,
+and her eyes were wild.
+i made a garland for her head,
+and bracelets too, and fragrant zone;
+she looked at me as she did love,
+and made sweet moan
+i set her on my pacing steed,
+and nothing else saw all day long,
+for sidelong would she bend, and sing
+a faery’s song.
+she found me roots of relish sweet,
+and honey wild, and manna-dew,
+and sure in language strange she said—
+‘i love thee true’.
+she took me to her elfin grot,
+and there she wept and sighed full sore,
+and there i shut her wild wild eyes
+with kisses four.
+and there she lullèd me asleep,
+and there i dreamed—ah! woe betide!—
+the latest dream i ever dreamt
+on the cold hill side.
+i saw pale kings and princes too,
+pale warriors, death-pale were they all;
+they cried—‘la belle dame sans merci
+thee hath in thrall!’
+i saw their starved lips in the gloam,
+with horrid warning gapèd wide,
+and i awoke and found me here,
+on the cold hill’s side.
+and this is why i sojourn here,
+alone and palely loitering,
+though the sedge is withered from the lake,
+and no birds sing.","ah! qui peut te faire souffrir, être infortuné,
+errant pâle et solitaire!
+les joncs sont desséchés au bord du lac,
+aucun oiseau n'y chante.
+ah! qui peut te faire souffrir, être infortuné,
+si farouche et si malheureux?
+le grenier de l'écureuil est rempli,
+et la moisson est rentrée.
+je vois un lis sur ton front
+avec la moiteur de l'agonie et la buée de la fièvre;
+et sur la joue une rose qui se flétrit
+et se fane de même rapidement.
+j'ai rencontré une dame, dans les prés,
+d'une grande beauté—la fille d'une fée;—
+ses cheveux étaient longs, ses pieds légers
+et ses yeux sauvages.
+je l'assis sur mon coursier paisible
+et ne vis rien d'autre tout le long du jour;
+car elle se penchait de côté et chantait
+une chanson de fée.
+je tressai une guirlande pour sa tête,
+puis des bracelets et une ceinture qui embaumait;
+elle me regardait comme si elle m'aimait
+et poussait un doux gémissement.
+elle trouva pour moi des racines d'un goût exquis,
+du miel sauvage et la manne de la rosée;
+et sûrement en langage étrange elle me dit:
+je t'aime véritablement.
+elle m'entraîna dans sa grotte d'elfe;
+là, me contemplant, elle poussa un profond soupir:
+là, je fermai ses yeux sauvages et tristes—
+et l'embrassai jusqu'à l'endormir.
+là nous sommeillâmes sur la mousse,
+et là, je rêvai, ah! malheur véritable!
+le dernier rêve que j'aie jamais rêvé,
+sur le flanc de la froide colline.
+je vis des rois pâles et des princes aussi,
+de pâles guerriers—tous avaient la pâleur de la mort,
+et criaient: «la belle dame sans mercy
+te tient en servage!»
+je vis leurs lèvres affamées, dans les ténèbres,
+grandes ouvertes pour me donner cet horrible avertissement;
+et je m'éveillai et me retrouvai ici,
+sur le flanc de la froide colline.
+et voilà pourquoi je reste ici
+errant pâle et solitaire:
+bien que les joncs soient desséchés au bord du lac,
+et qu'aucun oiseau ne chante.",en_XX,fr_XX,"<unk> <unk> <unk> <unk> <unk> <unk>
+seul et <unk> <unk> <unk>
+<unk> vient du <unk> de la <unk> de la <unk> de la <unk>
+et pas d&apos; oiseaux <unk> <unk> et pas d&apos; oiseaux <unk> <unk> et
+<unk> <unk> <unk> <unk> <unk> <unk>
+si <unk> et si <unk> et si <unk> .
+La <unk> <unk> est <unk> <unk> .
+et les <unk> <unk> <unk>
+Une <unk> sur ton <unk> <unk> .
+avec d&apos; angoisse humide et de <unk> humide <unk> et de <unk> humide
+et sur vos joues un rose <unk> .
+<unk> <unk> <unk> <unk> <unk>
+Une femme dans la <unk> <unk> .
+<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> .
+Ses cheveux <unk> son pied <unk> son pied était <unk> <unk> son pied était <unk>
+Ses yeux étaient <unk> <unk> et ses yeux étaient <unk> <unk> .
+<unk> a fait un <unk> pour sa <unk> <unk> .
+et <unk> <unk> et <unk> <unk> et <unk> <unk> et <unk> <unk> et
+Elle m&apos; a regardée comme elle faisait <unk> <unk> .
+et fait de très douces <unk> et se <unk> de douces <unk> et
+<unk> sur mon <unk> <unk> <unk>
+et rien d&apos; autre n&apos; a vu toute la journée <unk> .
+<unk> et chante pour <unk> <unk> et chante <unk> et chante <unk> <unk> et chante
+<unk> <unk> une <unk> <unk> <unk> .
+Elle m&apos; a trouvé des racines de <unk> <unk> <unk> .
+et <unk> <unk> et <unk> <unk> et <unk> <unk> et <unk> <unk> et
+et bien sûr dans la langue qu&apos; elle <unk> dans la langue .
+L&apos; amour <unk> vous <unk> <unk> .
+Elle m&apos; a emmené dans sa <unk> <unk> <unk> .
+et elle a pleuré et <unk> plein de <unk> <unk> et <unk> plein de <unk>
+et là , il y a les yeux sauvages .
+avec des <unk> <unk> <unk> avec des <unk> <unk> <unk> avec des <unk>
+et elle me <unk> <unk> me <unk> <unk> .
+<unk> <unk> <unk> <unk> <unk> .
+le dernier rêve <unk> jamais rêvé de rêver .
+sur la colline froide <unk> <unk> .
+Il y a eu des rois faibles et des princes <unk> <unk> <unk> <unk>
+<unk> <unk> <unk> <unk> <unk> .
+<unk> <unk> sans <unk> <unk> <unk> sans <unk> <unk> <unk> sans <unk> <unk>
+Vous <unk> dans <unk> <unk>
+Ils ont vu leurs lèvres <unk> dans les <unk> de la <unk> .
+<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>
+et <unk> et <unk> .
+sur le <unk> froid <unk> <unk> <unk> .
+C&apos; est pour ça qu&apos; une <unk> <unk> <unk> <unk> .
+seul et <unk> <unk> <unk>
+Cependant , le <unk> est <unk> de la <unk> de la <unk> de la <unk>
+et pas d&apos; oiseaux <unk> <unk> et pas d&apos; oiseaux <unk> <unk> et"
+"give me a golden pen, and let me lean
+on heaped-up flowers, in regions clear, and far;
+bring me a tablet whiter than a star,
+or hand of hymning angel, when 'tis seen
+the silver strings of heavenly harp atween:
+and let there glide by many a pearly car
+pink robes, and wavy hair, and diamond jar,
+and half-discovered wings, and glances keen.
+the while let music wander round my ears,
+and as it reaches each delicious ending,
+let me write down a line of glorious tone,
+and full of many wonders of the spheres:
+for what a height my spirit is contending!
+'tis not content so soon to be alone.","qu'on me donne une plume en or, et qu'il me soit permis de m'appuyer
+sur un monceau de fleurs, en des régions claires et lointaines;
+qu'on m'apporte une tablette plus blanche qu'une étoile,
+ou la main d'un ange chantant un hymne, lorsqu'on l'aperçoit
+entre les cordes d'argent d'une harpe céleste;
+qu'ici s'avancent sur de nombreux chars ornés de perles,
+des robes roses, des cheveux flottants, des corbeilles de diamants,
+des ailes à demi découvertes, et des regards perçants.
+en même temps, que la musique bourdonne autour de mes oreilles,
+et chaque fois qu'arrivera quelque délicieuse coda,
+que j'écrive un vers d'une somptueuse tonalité,
+plein des multiples émerveillements des sphères:
+jusqu'à quelle hauteur en effet mon esprit prétend-il s'élever!
+il n'est pas satisfait de demeurer si tôt seul.",en_XX,fr_XX,"me donne un <unk> d&apos; or et me <unk> <unk> <unk> .
+<unk> <unk> dans des régions <unk> et <unk> <unk> .
+<unk> une tablette <unk> que d&apos; un <unk>
+ou la main de <unk> <unk> quand <unk> a vu <unk> <unk> quand <unk> a vu
+<unk> <unk> de <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>
+<unk> sur une voiture de <unk> <unk> de plusieurs <unk> .
+<unk> rose et <unk> <unk> et diamant <unk> et diamant <unk> et diamant <unk> <unk> et
+<unk> <unk> et <unk> <unk> et <unk> <unk> <unk> <unk> et <unk> <unk> <unk> <unk> et
+<unk> <unk> <unk> mon <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>
+et comme il atteint chaque délicieuse <unk> de couleur .
+Permettez-moi d&apos; écrire une ligne de <unk> <unk> <unk> .
+et plein de merveilles de la <unk> des <unk> de la <unk> .
+à quelle hauteur mon esprit est <unk> <unk> .
+<unk> n&apos; est pas si rapide pour être <unk> ."
+"she weeps alone for pleasures not to be;
+sorely she wept until the night came on,
+and then, instead of love, o misery!
+she brooded o’er the luxury alone:
+his image in the dusk she seem’d to see,
+and to the silence made a gentle moan,
+spreading her perfect arms upon the air,
+and on her couch low murmuring, «where? o where?»","elle pleure solitaire sur ses plaisirs perdus;
+douloureusement elle pleura jusqu'à la venue de la nuit,
+puis alors, au lieu d'amour, o misère!
+elle médita solitaire sur la volupté:
+il lui semblait voir son image dans l'obscurité,
+elle répondait au silence par un doux gémissement,
+etreignant l'air de ses beaux bras,
+et sur sa couche murmurant tout bas: «où donc? où donc?»",en_XX,fr_XX,"Elle <unk> seul pour les plaisirs non <unk> de ne pas <unk> de ne pas <unk>
+Souvent , elle a pleuré jusqu&apos; à la nuit <unk> <unk> .
+et <unk> au lieu de <unk> heures de <unk> <unk> <unk> au lieu de <unk> heures
+<unk> <unk> le luxe <unk> <unk> .
+son image dans le crépuscule qu&apos; elle <unk> à <unk> pour <unk> à <unk> pour <unk>
+et le silence fait un doux <unk> <unk> .
+<unk> ses bras parfaits sur le <unk>
+<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>"
+"the fountains mingle with the river,
+and the rivers with the ocean;
+the winds of heaven mix for ever,
+with a sweet emotion;
+nothing in the world is single;
+all things by a law divine
+in one another’s being mingle: —
+why not i with thine?
+see, the mountains kiss high heaven
+and the waves clasp one another;
+no sister flower would be forgiven
+if it disdain’d its brother:
+and the sunlight clasps the earth,
+and the moonbeams kiss the sea: —
+what is all this sweet work worth,
+if thou kiss not me?","l’eau des fontaines se mêle à la rivière
+et les rivières à l’océan ;
+les vents célestes s’enchevêtrent sans fin
+dans une même tendresse ;
+au monde rien n’est seul ;
+la loi divine veut que toutes choses
+se mêlent les unes aux autres :
+— pourquoi pas toi et moi ?
+regarde, les montagnes portent leur baiser loin vers le ciel
+et les vagues s’enlacent toutes ensemble ;
+nulle sœur florale ne serait pardonnée
+pour avoir dédaigné son frère :
+et la lumière du soleil embrasse la terre,
+et le rayon de lune baise la mer :
+— que vaut donc tout ce tendre labeur,
+si tu ne m’embrasses pas ?",en_XX,fr_XX,"les fontaines <unk> avec les <unk> avec les <unk> <unk> avec les <unk>
+et les rivières avec les <unk> avec les <unk> avec les <unk> avec
+les vents du ciel se mélangent pour les <unk> de <unk> pour <unk>
+avec un doux <unk> avec un doux <unk> avec un doux <unk> avec
+Rien dans le monde n&apos; est <unk> .
+toutes choses par une loi divine .
+<unk> , <unk> -
+Pourquoi pas avec <unk> avec <unk> <unk> .
+<unk> les montagnes <unk> le paradis de la montagne <unk> le ciel haut
+et les vagues <unk> 1 <unk> <unk> .
+Aucune fleur ne serait <unk> <unk> .
+S&apos; il <unk> son <unk> <unk> .
+et le soleil de la lumière du soleil le <unk> <unk> les <unk>
+et le baiser <unk> le <unk> -
+ce que tout ce doux travail de travail est ce que tout ce
+si vous ne <unk> pas de <unk> , si vous ne <unk> pas"
+"death is nothing at all. it does not count. i have only slipped away into the next room. nothing has happened. everything remains exactly as it was. i am i, and you are you, and the old life that we lived so fondly together is untouched, unchanged. whatever we were to each other, that we are still. call me by the old familiar name. speak of me in the easy way which you always used. put no difference into your tone. wear no forced air of solemnity or sorrow. laugh as we always laughed at the little jokes that we enjoyed together. play, smile, think of me, pray for me. let my name be ever the household word that it always was. let it be spoken without an effort, without the ghost of a shadow upon it. life means all that it ever meant. it is the same as it ever was. there is absolute and unbroken continuity. what is this death but a negligible accident? why should i be out of mind because i am out of sight? i am but waiting for you, for an interval, somewhere very near, just round the corner. all is well. nothing is hurt; nothing is lost. one brief moment and all will be as it was before. how we shall laugh at the trouble of parting when we meet again!","la mort n’est rien du tout. elle ne compte pas. je me suis seulement éclipsé dans la pièce d’à côté. il ne s’est rien passé. tout reste exactement comme avant. je suis moi, et vous êtes vous, et l’ancienne vie que nous avons vécue si tendrement ensemble est intacte, inchangée. ce que nous étions l’un pour l’autre, nous le sommes toujours. appelle-moi par le vieux nom familier. parlez de moi avec la simplicité que vous avez toujours utilisée. ne faites aucune différence dans votre ton. ne portez pas d’air forcé de solennité ou de tristesse. riez comme nous avons toujours ri des petites blagues que nous aimions faire ensemble. joue, souris, pense à moi, prie pour moi. que mon nom soit toujours le mot familier qu’il a toujours été. qu’il soit prononcé sans effort, sans l’ombre d’une ombre sur lui. la vie signifie tout ce qu’elle a toujours signifié. elle est la même qu’elle a toujours été. il y a une continuité absolue et ininterrompue. qu’est-ce que cette mort, sinon un accident négligeable ? pourquoi devrais-je disparaître de ma tête parce que je ne suis plus visible ? je ne fais que t’attendre, pendant un intervalle, quelque part tout près, juste au coin de la rue. tout va bien. rien n’est blessé, rien n’est perdu. un bref instant et tout sera comme avant. comme nous rirons de la peine de la séparation quand nous nous retrouverons !",en_XX,fr_XX,"La mort n&apos; est rien à la <unk> , n&apos; a rien à voir avec les <unk> . La mort n&apos; est rien de tout ce que l&apos; on appelle la <unk> , et vous êtes <unk> , et la vieille vie que nous vivions aussi <unk> , c&apos; est l&apos; <unk> de l&apos; <unk> , et vous êtes <unk> , et la vieille vie à laquelle nous avons vécu tant de <unk> , ce n&apos; est pas de la <unk> , ni de <unk> , ni de <unk> , ni de <unk> , ni de <unk> , ni de <unk> , ni de <unk> , ni de <unk> , ni de <unk> , ni de <unk> , ni de <unk> ni de <unk> ."
+"were they unhappy then? - it cannot be -
+too many tears for lovers have been shed,
+too many sighs give we to them in fee,
+too much of pity after they are dead,
+too many doleful stories do we see,
+whose matter in bright gold were best be read;
+except in such a page where theseus’ spouse
+over the pathless waves towards him bows.","furent-ils malheureux alors?—cela ne peut être—
+trop de larmes ont été versées sur les amants,
+trop de soupirs furent poussés en leur faveur,
+trop de pitié leur fut accordée après leur mort,
+trop d'histoires douloureuses lisons-nous
+dont le thème serait mieux traduit en or resplendissant;
+excepté dans la page sublime où l'épouse de thésée
+sur les vagues sans traces[1] se pencha pour le voir.",en_XX,fr_XX,"Ce n&apos; était pas le cas . Ce n&apos; est pas le cas .
+trop de larmes pour les amants ont été <unk> <unk> .
+<unk> nous donne trop de <unk> à leur donner à <unk>
+trop de pitié après avoir été <unk> .
+<unk> <unk> fait trop de <unk> <unk> .
+La matière de l&apos; or brillant était le meilleur <unk> <unk> .
+à l&apos; exception d&apos; une telle page où <unk> épouse l&apos; épouse <unk> .
+sur les ondes <unk> vers lui <unk> vers lui <unk> sur les ondes <unk> vers lui"
+"ah, happy, happy boughs! that cannot shed
+your leaves, nor ever bid the spring adieu;
+and, happy melodist, unwearied,
+for ever piping songs for ever new;
+more happy love! more happy, happy love!
+for ever warm and still to be enjoy'd,
+for ever panting, and for ever young;
+all breathing human passion far above,
+that leaves a heart high-sorrowful and cloy'd,
+a burning forehead, and a parching tongue.","ah! heureux, heureux rameaux! qui ne pouvez perdre
+vos feuillages, ni jamais dire au printemps adieu;
+et toi, heureux mélodiste, jamais lassé,
+modulant à jamais des chants qui ne vieillissent jamais;
+plus heureux amour, plus heureux, heureux amour!
+que l'on peut goûter sans cesse, à jamais chaud,
+a jamais haletant, à jamais jeune;
+soupirant bien au-dessus de toute passion humaine,
+qui laisse le cœur repu et plein d'amertume,
+le front brûlant et la langue desséchée.",en_XX,fr_XX,"<unk> <unk> qui ne peut pas bloquer la <unk> qui ne peut pas se nourrir
+<unk> ou <unk> le printemps <unk> <unk>
+<unk> heureux <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>
+pour avoir jamais <unk> des chansons de <unk> pour avoir jamais <unk> de chansons pour
+plus heureux de plus heureux <unk> <unk> de plus en plus heureux de <unk> <unk>
+pour toujours être <unk> et toujours <unk> pour être <unk> et toujours <unk> pour être
+<unk> et pour jamais <unk> et pour jamais <unk> et pour avoir jamais été <unk>
+toute la passion humaine <unk> <unk> loin de la passion de l&apos; Homme .
+qui laisse un cœur <unk> et <unk> <unk> qui laisse un cœur <unk> et <unk>
+un <unk> qui brûle un <unk> et un <unk> <unk> <unk> <unk> et un <unk>"
+"i held the book beneath my coat, at pains
+to hide the thing from sight in such a place;
+hurrying through the ancient harbor lanes
+with often-turning head and nervous pace.
+dull, furtive windows in old tottering brick
+peered at me oddly as i hastened by,
+and thinking what they sheltered, i grew sick
+for a redeeming glimpse of clean blue sky.
+no one had seen me take the thing—but still
+a blank laugh echoed in my whirling head,
+and i could guess what nighted worlds of ill
+lurked in that volume i had coveted.
+the way grew strange—the walls alike and madding—
+and far behind me, unseen feet were padding.","je gardai le livre caché, avec effort,
+car pareils environs ont des regards pour tout ;
+je m’empressais par les anciennes rues du port
+d’un pas nerveux et l’œil qui bondissait partout.
+de ternes fenêtres en leurs briques branlantes
+m’épiaient d’un air louche, et je marchais plus vite,
+songeant à leurs secrets, une fièvre brûlante
+me prenant de revoir le ciel bleu sans limite.
+nul ne m’avait vu prendre l’ouvrage — pourtant
+l’écho d’un rire creux me vrillait la cervelle,
+et je devinai quels mondes noirs et souffrants
+guettaient dans le volume, objet d’envie cruelle.
+le chemin et les murs follement s’étiraient —
+invisibles après moi venaient des pas feutrés.",en_XX,fr_XX,"<unk> le livre sous ma <unk> de la douleur à la douleur de la douleur de mes
+pour cacher le truc de la vue dans une telle <unk> .
+<unk> à travers les anciennes voies du port <unk> .
+avec des <unk> et des <unk> nerveux <unk> et des <unk> nerveux .
+<unk> <unk> <unk> de <unk> <unk> de <unk> .
+<unk> à la recherche de <unk> <unk> .
+et de penser à ce qu&apos; ils ont <unk> .
+pour un aperçu d&apos; un <unk> bleu propre de <unk> bleu propre de <unk> bleu propre de
+Personne ne m&apos; avait jamais vu le <unk> <unk> toujours .
+un rire blanc <unk> dans mon <unk> <unk>
+Il pourrait deviner ce que les mondes de <unk> des mondes malades de malades .
+<unk> dans ce volume avait <unk> <unk> .
+la façon dont les murs <unk> se sont <unk> et <unk> les murs de la <unk> et
+et derrière les pieds invisibles <unk> <unk> ."
+"woman! when i behold thee flippant, vain,
+inconstant, childish, proud, and full of fancies;
+without that modest softening that enhances
+the downcast eye, repentant of the pain
+that its mild light creates to heal again:
+e'en then, elate, my spirit leaps, and prances,
+e'en then my soul with exultation dances
+for that to love, so long, i've dormant lain:
+but when i see thee meek, and kind, and tender,
+heavens! how desperately do i adore
+thy winning graces;--to be thy defender
+i hotly burn--to be a calidore--
+a very red cross knight--a stout leander--
+might i be loved by thee like these of yore.","femme! lorsque je te vois bavarde, vaine,
+inconstante, puérile, orgueilleuse et pleine de caprices;
+dénuée de cette modeste langueur qui rehausse le charme
+des yeux baissés, repentants des blessures
+causées par leur douce lueur et les guérissant aussitôt:
+aussitôt mon esprit enfiévré s'exalte et bondit,
+aussitôt mon âme tressaute et se réjouit
+de ce que si longtemps je sois resté fermé à l'amour.
+mais quand je te discerne bonne, charitable et tendre,
+o ciel! avec quel acharnement j'adore
+ta grâce enchanteresse;—je brûle d'être
+ton défenseur—d'être ton calidore—
+un vrai chevalier de la croix rouge—un vaillant léandre—
+pourvu que je sois aimé de toi comme ces héros de jadis!",en_XX,fr_XX,"<unk> <unk> <unk> <unk> <unk>
+<unk> <unk> <unk> et pleine de <unk> <unk>
+sans cette distorsion modeste qui renforce ce qui renforce la multiplication sans cette distorsion modeste qui renforce
+de la souffrance <unk> <unk> de la souffrance de la souffrance de la souffrance de la souffrance
+que sa lumière légère crée pour guérir des <unk> <unk> <unk> <unk> <unk> de la <unk> <unk>
+<unk> <unk> <unk> mon esprit <unk> et <unk> <unk>
+<unk> alors mon âme avec des danses <unk> <unk> <unk> .
+<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>
+Mais quand on vous voit <unk> et <unk> et <unk> et <unk> ,
+<unk> à quel point l&apos; alphabétisation <unk> désespérément .
+Vos <unk> gagnants sont votre défenseur de votre partenaire .
+<unk> <unk> est un <unk> <unk> .
+<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>
+comme ceux d&apos; entre vous comme ces <unk> de <unk> ."
+"how was it these same ledger-men could spy
+fair isabella in her downy nest?
+how could they find out in lorenzo’s eye
+a straying from his toil? hot egypt’s pest
+into their vision covetous and sly!
+how could these money-bags see east and west? -
+yet so they did - and every dealer fair
+must see behind, as doth the hunted hare.","comment se fit-il que ces mêmes teneurs de livres purent épier
+la gracieuse isabelle dans sa couche duvetée?
+comment purent-ils découvrir dans les yeux de lorenzo
+un obstacle à son labeur? torride plaie d'egypte
+dans leur horizon de cupidité et d'astuce!
+comment purent ces sacs d'argent regarder à l'est et à l'ouest?
+pourtant ils le firent—et tout bon joueur
+doit regarder derrière lui, comme le lièvre chassé.",en_XX,fr_XX,"Comment ces mêmes <unk> pouvaient espionner les mêmes <unk> pourraient espionner la même façon de <unk>
+<unk> <unk> dans sa <unk> <unk> <unk> dans sa <unk> <unk> <unk> .
+comment trouver à <unk> dans les yeux de <unk> .
+<unk> de sa <unk> <unk> <unk> <unk> <unk> .
+<unk> et <unk> dans leur vision <unk> et <unk>
+Comment ces <unk> voient l&apos; est et <unk> -
+Pourtant , ils ont fait - et chaque vendeur franche juste .
+<unk> les <unk> comme <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>"
+"they told her how, upon st. agnes' eve,
+young virgins might have visions of delight,
+and soft adorings from their loves receive
+upon the honey'd middle of the night,
+if ceremonies due they did aright;
+as, supperless to bed they must retire,
+and couch supine their beauties, lily white;
+nor look behind, nor sideways, but require
+of heaven with upward eyes for all that they desire.","elles lui avaient dit comment la veille de sainte agnès,
+de jeunes vierges pouvaient avoir des visions de délices,
+et recevoir les tendres aveux de leurs amants,
+a l'heure de minuit au parfum de miel,
+si elles exécutaient ponctuellement les cérémonies requises;
+comment, sans souper elles devaient se mettre au lit,
+puis étendre leurs beaux corps, blancs comme des lis;
+sans regarder derrière, ni de côté, mais implorer
+du ciel, les yeux tournés vers lui, tout ce qu'elles désiraient.",en_XX,fr_XX,"Ils lui ont raconté <unk> <unk> <unk> <unk> <unk> <unk> .
+Les jeunes vierges auraient des visions de <unk> de <unk> .
+et des <unk> souples de leur amour reçoivent la reçoivent de leur amour .
+Au milieu des <unk> du <unk> des <unk> de la <unk> .
+Si les cérémonies ont fait des <unk> à cause de la <unk> .
+<unk> <unk> pour coucher qu&apos; ils doivent <unk> <unk> .
+<unk> <unk> <unk> leur <unk> <unk> <unk> <unk> <unk>
+ni des <unk> , ni des <unk> mais nécessitant un <unk> ou un <unk> mais nécessitant un
+du paradis avec les yeux vers le haut pour tout ce qu&apos; ils <unk> <unk> pour tout"
+"do not go gentle into that good night, old age should burn and rave at close of day; rage, rage against the dying of the light. though wise men at their end know dark is right, because their words had forked no lightning they do not go gentle into that good night. good men, the last wave by, crying how bright their frail deeds might have danced in a green bay, rage, rage against the dying of the light. wild men who caught and sang the sun in flight, and learn, too late, they grieved it on its way, do not go gentle into that good night. grave men, near death, who see with blinding sight blind eyes could blaze like meteors and be gay, rage, rage against the dying of the light. and you, my father, there on the sad height, curse, bless, me now with your fierce tears, i pray. do not go gentle into that good night. rage, rage against the dying of the light.","ne va pas doucement dans cette bonne nuit, la vieillesse devrait brûler et délirer à la fin du jour ; rage, rage contre la mort de la lumière. bien que les hommes sages, à la fin de leur vie, sachent que le noir est juste, parce que leurs mots n’ont pas bifurqué, ils n’ont pas été éclairés. ne vont pas doucement dans cette bonne nuit. hommes bons, la dernière vague passe, pleurant combien brillant leurs frêles actions auraient pu danser dans une baie verte, rage, rage contre la mort de la lumière. des hommes sauvages qui ont attrapé et chanté le soleil en vol, et apprennent, trop tard, qu’ils l’ont pleuré sur son chemin, ne vont pas doucement dans cette bonne nuit. les hommes graves, proches de la mort, qui voient avec une vue aveuglante. des yeux aveugles pourraient briller comme des météores et être gais, rage, rage contre la mort de la lumière. et toi, mon père, là sur cette triste hauteur, maudissez, bénissez-moi maintenant avec vos larmes féroces, je vous en prie. ne va pas doucement dans cette bonne nuit. rage, rage contre la mort de la lumière.",en_XX,fr_XX,"Je ne passe pas de façon douce à ce que les <unk> ne soient pas gentils dans ce bon âge de <unk> , qui ne se <unk> pas à la fin de la colère de la <unk> de la <unk> des hommes sauvages de la fin de la <unk> des hommes sauvages de la fin de la mer , qui <unk> les yeux de la couleur de la <unk> et de <unk> <unk> contre la mort de la <unk> des hommes sauvages qui ont pris l&apos; attention de la mort de la <unk> des hommes sauvages qui ont pris l&apos; attention de la mort de la <unk> des hommes sauvages qui ont pris l&apos; attention de la mort de la <unk> des hommes sauvages qui ont pris l&apos; attention de la mort de la <unk> des hommes sauvages qui ont pris l&apos; attention de la mort de la <unk> des hommes sauvages qui ont pris la main dans la <unk> de la <unk> des hommes sauvages qui ont pris l&apos; attention de la mort de la <unk> et de <unk> de la <unk> de la <unk> de la <unk> ."
+"some say the world will end in fire,
+some say in ice.
+from what i’ve tasted of desire
+i hold with those who favor fire.
+but if it had to perish twice,
+i think i know enough of hate
+to say that for destruction ice
+is also great
+and would suffice.","d’aucuns prétendent que le monde finira dans le feu,
+d’aucuns que ce sera dans la glace.
+de ce que je connais de la passion
+je comprends ceux qui donnent l’avantage au feu.
+mais dût-il périr deux fois,
+je crois en savoir assez concernant la haine
+pour affirmer que pour la destruction la glace
+excelle également
+et suffirait.",en_XX,fr_XX,"Certains disent que le monde va mettre fin à <unk>
+Certains disent à <unk> en <unk> .
+de ce que le Ben <unk> de l&apos; <unk> du désir de désir de ce
+<unk> avec ceux qui préfèrent les <unk> <unk> avec ceux qui préfèrent les <unk> <unk>
+Mais si il fallait <unk> <unk> <unk> .
+<unk> assez de haine .
+pour que la destruction de la destruction de la glace de la destruction de la
+est aussi génial est aussi génial est aussi génial est aussi génial est aussi génial
+et <unk> <unk> <unk> et <unk> <unk> <unk> et <unk> <unk> <unk> et <unk> <unk>"

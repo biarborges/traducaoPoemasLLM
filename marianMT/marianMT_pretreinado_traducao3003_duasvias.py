@@ -11,11 +11,11 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Modelos para tradução
-#model1 = "Helsinki-NLP/opus-mt-ROMANCE-en"  
-#model2 = "Helsinki-NLP/opus-mt-en-pt"  
+model1 = "Helsinki-NLP/opus-mt-ROMANCE-en"  
+model2 = "Helsinki-NLP/opus-mt-en-pt"  
 
-model1 = "/home/ubuntu/finetuning_pt_ing/checkpoint-90"  
-model2 = "/home/ubuntu/finetuning_ing_fr/checkpoint-90" 
+#model1 = "/home/ubuntu/finetuning_pt_ing/checkpoint-90"  
+#model2 = "/home/ubuntu/finetuning_ing_fr/checkpoint-90" 
 
 # Carregar tokenizers e modelos
 tokenizer1 = MarianTokenizer.from_pretrained(model1)

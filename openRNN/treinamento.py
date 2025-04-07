@@ -16,9 +16,9 @@ CONFIG = {
     "source_lang": "pt",
     "target_lang": "en",
     "base_url": "https://object.pouta.csc.fi/OPUS-TED2020/v1/moses/en-pt.txt.zip",
-    "train_steps": 50000,
+    "train_steps": 100000,
     "rnn_size": 512,
-    "batch_size": 64,
+    "batch_size": 16,
     "use_gpu": True
 }
 # ========================================
@@ -196,7 +196,7 @@ class TranslationPipeline:
             "rnn_size": self.config["rnn_size"],
             "batch_size": self.config["batch_size"],
             "train_steps": self.config["train_steps"],
-            "world_size": 1,
+            "world_size": 2,
             "gpu_ranks": [0] if self.config["use_gpu"] else [],
             "fp16": self.config["use_gpu"]
         }
