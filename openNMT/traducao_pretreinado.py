@@ -45,4 +45,4 @@ end_time = time.time()
 execution_time = end_time - start_time
 
 print("Tradução concluída com sucesso!")
-print(f"⏱️ Tempo de execução: {execution_time:.2f} segundos")
+print(f"Tempo de execução: {execution_time:.2f} segundos")
