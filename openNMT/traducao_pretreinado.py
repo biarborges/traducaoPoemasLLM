@@ -11,7 +11,6 @@ OUTPUT_CSV = "../poemas/openNMT/frances_ingles_poems_opennmt.csv"
 TEMP_INPUT = "../poemas/openNMT/temp_input.txt"
 TEMP_OUTPUT = "../poemas/openNMT/output.txt"
 CONFIG_PATH = "../openNMT/config.yaml"
-SRC_PREFIX = "</s> fra_Latn"
 BREAK_TOKEN = "<br>"
 
 # Carregar CSV
@@ -27,7 +26,7 @@ for i in range(0, len(poemas), batch_size):
     print(f"Traduzindo blocos {i} até {i + len(batch) - 1}")
 
     # Substituir \n por <br> e adicionar prefixo
-    processed_batch = [SRC_PREFIX + " " + p.replace("\n", BREAK_TOKEN) for p in batch]
+    processed_batch = [p.replace("\n", BREAK_TOKEN) for p in batch]
 
     # Salvar arquivo temporário para entrada
     with open(TEMP_INPUT, "w", encoding="utf-8") as f:
