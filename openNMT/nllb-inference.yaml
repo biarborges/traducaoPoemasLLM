@@ -8,8 +8,8 @@ src_suffix: ""
 tgt_suffix: ""
 
 #### Subword
-src_subword_model: "../traducaoPoemasLLM/openNMT/flores200_sacrebleu_tokenizer_spm.model"
-tgt_subword_model: "../traducaoPoemasLLM/openNMT/flores200_sacrebleu_tokenizer_spm.model"
+src_subword_model: "../openNMT/flores200_sacrebleu_tokenizer_spm.model"
+tgt_subword_model: "../openNMT/flores200_sacrebleu_tokenizer_spm.model"
 src_subword_nbest: 1
 src_subword_alpha: 0.0
 tgt_subword_nbest: 1
