@@ -86,14 +86,20 @@ def process_csv(input_file, output_file, model_path, tokenizer_path, batch_size=
         raise
 
 if __name__ == "__main__":
-    # Configurações
+    # Configurações - agora com os nomes exatos dos parâmetros
     CONFIG = {
-        "input_csv": "../poemas/frances_ingles_poems_teste.csv",
-        "output_csv": "../poemas/OpenNMT/frances_ingles_poems_OpenNMT.csv",
+        "input_file": "../poemas/frances_ingles_poems_teste.csv",  # Corrigido para input_file
+        "output_file": "../poemas/OpenNMT/frances_ingles_poems_OpenNMT.csv",  # Corrigido para output_file
         "model_path": "nllb-200-1.3B-onmt.pt",
         "tokenizer_path": "flores200_sacrebleu_tokenizer_spm.model",
-        "batch_size": 4  # Reduzido para maior estabilidade
+        "batch_size": 4
     }
     
     # Executa o processo
-    process_csv(**CONFIG)
+    process_csv(
+        input_file=CONFIG["input_file"],
+        output_file=CONFIG["output_file"],
+        model_path=CONFIG["model_path"],
+        tokenizer_path=CONFIG["tokenizer_path"],
+        batch_size=CONFIG["batch_size"]
+    )
