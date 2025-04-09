@@ -17,8 +17,13 @@ df_filtered = df[(df["src_lang"] == "fr") & (df["tgt_lang"] == "en")].copy()
 
 # Substitui quebras de linha para preservar estrutura poética
 df_filtered["original_poem"] = df_filtered["original_poem"].apply(
-    lambda x: ">>en<< " + str(x).replace("\n", " [LB] ")
+    lambda x: str(x).replace("\n", " [LB] ")
 )
+
+# Verifica se os dados estão corretos antes de traduzir
+print("\nPré-visualização dos dados de entrada:")
+print(df_filtered["original_poem"].head(5).to_string(index=False))
+print(f"\nTotal de entradas: {len(df_filtered)}")
 
 
 # Cria arquivos temporários

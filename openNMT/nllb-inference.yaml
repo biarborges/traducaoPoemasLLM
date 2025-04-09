@@ -1,26 +1,25 @@
 transforms: [sentencepiece, prefix, suffix]
-#transforms: [prefix, suffix]
-# nllb-200 specific prefixing and suffixing
+
+# Prefixos para NLLB
 src_prefix: "</s> fra_Latn"
-tgt_prefix: "eng_Latn" 
-tgt_file_prefix: false
+tgt_prefix: "eng_Latn"
+tgt_file_prefix: true
+
+# Sufixos (vazios)
 src_suffix: ""
 tgt_suffix: ""
 
-#### Subword
+# Subword models
 src_subword_model: "../openNMT/flores200_sacrebleu_tokenizer_spm.model"
 tgt_subword_model: "../openNMT/flores200_sacrebleu_tokenizer_spm.model"
-src_subword_nbest: 1
-src_subword_alpha: 0.0
-tgt_subword_nbest: 1
-tgt_subword_alpha: 0.0
-# Model info
+
+# Modelo
 model: "nllb-200-1.3B-onmt.pt"
+
 # Inference
 max_length: 512
 gpu: 0
 batch_type: tokens
 batch_size: 2048
-fp16:
 beam_size: 5
 report_time: true
