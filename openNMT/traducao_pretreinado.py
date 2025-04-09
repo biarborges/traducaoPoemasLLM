@@ -1,7 +1,7 @@
 import pandas as pd
 import subprocess
-import os
 import time
+import tempfile
 from tqdm import tqdm
 
 start_time = time.time()
@@ -9,46 +9,42 @@ start_time = time.time()
 # Caminhos
 CSV_INPUT = "../poemas/frances_ingles_poems.csv"
 CSV_OUTPUT = "../poemas/openNMT/frances_ingles_poems_openNMT.csv"
-YAML_CONFIG = "../openNMT/nllb-inference.yaml"  # Atualize para o nome correto
-TEMP_SRC = "../poemas/openNMT/temp_src.txt"
-TEMP_OUT = "../poemas/openNMT/temp_out.txt"
+YAML_CONFIG = "../openNMT/nllb-inference.yaml"
 
 # Carrega o CSV e filtra para francês → inglês
 df = pd.read_csv(CSV_INPUT)
 df_filtered = df[(df["src_lang"] == "fr") & (df["tgt_lang"] == "en")].copy()
 
-# Salva os poemas a serem traduzidos
-df_filtered["original_poem"].to_csv(TEMP_SRC, index=False, header=False)
+# Cria arquivos temporários
+with tempfile.NamedTemporaryFile(mode="w+", delete=False) as temp_src, \
+     tempfile.NamedTemporaryFile(mode="r", delete=False) as temp_out:
 
-print("Iniciando tradução com OpenNMT...")
+    # Escreve os poemas no arquivo de entrada temporário
+    df_filtered["original_poem"].to_csv(temp_src.name, index=False, header=False)
 
-# Roda o OpenNMT
-subprocess.run([
-    "onmt_translate",
-    "-config", YAML_CONFIG,
-    "-src", TEMP_SRC,
-    "-output", TEMP_OUT
-])
+    print("Iniciando tradução com OpenNMT...")
 
-print("Tradução concluída! Processando resultados...")
+    # Chama o OpenNMT
+    subprocess.run([
+        "onmt_translate",
+        "-config", YAML_CONFIG,
+        "-src", temp_src.name,
+        "-output", temp_out.name
+    ])
 
-# Lê a saída do OpenNMT
-with open(TEMP_OUT, "r", encoding="utf-8") as f:
-    translations = f.read().splitlines()
+    print("Tradução concluída! Processando resultados...")
 
-# Salva as traduções no DataFrame com barra de progresso
+    # Lê as traduções
+    with open(temp_out.name, "r", encoding="utf-8") as f:
+        translations = f.read().splitlines()
+
+# Atualiza o DataFrame
 for idx, trans in tqdm(zip(df_filtered.index, translations), total=len(translations), desc="Salvando traduções"):
     df.loc[idx, "translated_by_TA"] = trans
 
-# Exporta para o novo CSV
+# Exporta o CSV
 df.to_csv(CSV_OUTPUT, index=False)
 
-# Limpa arquivos temporários
-os.remove(TEMP_SRC)
-os.remove(TEMP_OUT)
-
 end_time = time.time()
-execution_time = end_time - start_time
-
 print("✅ Tradução concluída com sucesso!")
-print(f"⏱️ Tempo de execução: {execution_time:.2f} segundos")
+print(f"⏱️ Tempo de execução: {end_time - start_time:.2f} segundos")
