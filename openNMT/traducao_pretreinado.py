@@ -16,7 +16,8 @@ SRC_PREFIX = "</s> fra_Latn"  # conforme seu YAML
 df = pd.read_csv(CSV_PATH)
 
 # Substitui quebras de linha por marcador temporário e insere prefixo
-inputs = df["original_poem"].apply(lambda x: f"{SRC_PREFIX} {x.replace('\n', '<br>')}")
+inputs = df["original_poem"].apply(lambda x: SRC_PREFIX + " " + x.replace('\n', '<br>'))
+
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 inputs.to_csv(INPUT_TXT, index=False, header=False)
 
