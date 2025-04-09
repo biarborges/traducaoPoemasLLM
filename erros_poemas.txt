@@ -1,2 +1,0 @@
-Linhas com erro no arquivo CSV:
-
