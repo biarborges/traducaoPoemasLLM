@@ -36,7 +36,18 @@ df = pd.read_csv(csv_path)
 # Tradução com tqdm
 tqdm.pandas()
 def traduzir(poema):
-    prompt = f"Translate the following poem from French to English. Do not invent or alter the meaning. Just translate:\n\n{poema}"
+    prompt = f"""
+    Traduza o seguinte poema do francês para o inglês **de forma fiel**, mantendo:
+    - O significado original
+    - Nenhuma adição ou invenção de texto
+
+    Retorne **APENAS** a tradução, sem comentários ou explicações.
+
+    Poema em francês:
+    {poema}
+
+    Tradução em inglês:
+    """
     response = pipe(prompt, max_new_tokens=512, do_sample=True, temperature=0.7)[0]['generated_text']
     translated = response.replace(prompt, "").strip()
     return translated
