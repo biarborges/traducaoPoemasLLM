@@ -1,9 +1,8 @@
 import pandas as pd
-from opennmt import tokenizers
-from opennmt import models
-from opennmt import inputters
-from opennmt import translators
-from opennmt import constants
+from opennmt.tokenizers import Tokenizer
+from opennmt.models import load_model
+from opennmt.config import load_config
+from opennmt import Runner
 import sentencepiece as spm
 import time
 from tqdm import tqdm
@@ -18,29 +17,22 @@ class PoemTranslator:
             tokenizer_path: caminho para o modelo .model do SentencePiece
         """
         # Configuração do tokenizer
-        self.sp_tokenizer = spm.SentencePieceProcessor()
-        self.sp_tokenizer.Load(tokenizer_path)
+        self.tokenizer = Tokenizer("sentencepiece", sp_model_path=tokenizer_path)
         
         # Configuração do modelo OpenNMT
-        self.model = models.Transformer.from_config({
+        config = {
             "model_dir": "",
             "data": {
-                "source_vocabulary": "vocab.txt",  # necessário mas não usado diretamente
-                "target_vocabulary": "vocab.txt"    # necessário mas não usado diretamente
+                "source_vocabulary": "vocab.txt",
+                "target_vocabulary": "vocab.txt"
             }
-        })
+        }
         
         # Carrega o modelo
-        self.model.load(model_path)
+        self.model = load_model(model_path, model_config=config)
         
-        # Configura o tradutor
-        self.translator = translators.Translator(
-            model=self.model,
-            tokenizer=self.sp_tokenizer,
-            device=constants.DEVICE_GPU if constants.CUDA else constants.DEVICE_CPU,
-            beam_size=5,
-            length_penalty=0.6
-        )
+        # Configura o runner
+        self.runner = Runner(self.model, self.tokenizer)
     
     def translate_poem(self, text, src_lang='fra_Latn', tgt_lang='eng_Latn'):
         """
@@ -58,7 +50,7 @@ class PoemTranslator:
         tagged_text = f"{src_lang} {text} {tgt_lang}"
         
         # Faz a tradução
-        output = self.translator.translate([tagged_text])
+        output = self.runner.infer(tagged_text)
         
         return output[0]['tokens']
 
