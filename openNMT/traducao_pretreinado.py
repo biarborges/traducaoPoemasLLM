@@ -1,10 +1,13 @@
 import pandas as pd
 import os
 import subprocess
+import time
+
+star_time = time.time()
 
 # Caminhos e constantes
-CSV_PATH = "../poemas/ingles_frances_poems.csv"
-OUTPUT_CSV = "../poemas/openNMT/ingles_frances_poems_traduzido.csv"
+CSV_PATH = "../poemas/frances_ingles_poems.csv"
+OUTPUT_CSV = "../poemas/openNMT/frances_ingles_poems_opennmt.csv"
 TEMP_INPUT = "../poemas/openNMT/temp_input.txt"
 TEMP_OUTPUT = "../poemas/openNMT/output.txt"
 CONFIG_PATH = "../openNMT/config.yaml"
@@ -59,3 +62,6 @@ df["translation_by_TA"] = translated_poemas
 df.to_csv(OUTPUT_CSV, index=False)
 
 print("✅ Tradução concluída e salva em:", OUTPUT_CSV)
+
+end_time = time.time()
+print(f"Tempo total de execução: {end_time - star_time:.2f} segundos")
