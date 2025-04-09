@@ -31,13 +31,19 @@ for i in range(0, len(poemas), batch_size):
         f.write("\n".join(processed_batch))
 
     # Chamar OpenNMT
-    subprocess.run([
+    result = subprocess.run([
         "onmt_translate",
         "-config", CONFIG_PATH,
         "-src", TEMP_INPUT,
         "-output", TEMP_OUTPUT,
         "-verbose"
-    ])
+    ], capture_output=True, text=True)
+
+    # Mostra qualquer erro
+    if result.returncode != 0:
+        print("Erro ao executar onmt_translate:")
+        print(result.stderr)
+        exit(1)
 
     # Ler a saída e restaurar quebras de linha
     with open(TEMP_OUTPUT, "r", encoding="utf-8") as f:
