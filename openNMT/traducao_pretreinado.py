@@ -25,8 +25,9 @@ for i in range(0, len(poemas), batch_size):
     batch = poemas[i:i+batch_size]
     print(f"🔤 Traduzindo blocos {i} até {i + len(batch) - 1}")
 
-    # Apenas troca quebra de linha por marcador — o prefixo é tratado no YAML!
-    processed_batch = [p.replace("\n", BREAK_TOKEN) for p in batch]
+# Adicionando o prefixo da língua de origem diretamente no texto
+    processed_batch = [f">>eng_Latn<< {p.replace('\n', BREAK_TOKEN)}" for p in batch]
+
 
     # Salva entrada
     with open(TEMP_INPUT, "w", encoding="utf-8") as f:
