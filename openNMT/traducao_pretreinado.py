@@ -3,9 +3,9 @@ import os
 import subprocess
 import time
 
-star_time = time.time()
+start_time = time.time()
 
-# Caminhos e constantes
+# Caminhos
 CSV_PATH = "../poemas/frances_ingles_poems.csv"
 OUTPUT_CSV = "../poemas/openNMT/frances_ingles_poems_opennmt.csv"
 TEMP_INPUT = "../poemas/openNMT/temp_input.txt"
@@ -13,26 +13,30 @@ TEMP_OUTPUT = "../poemas/openNMT/output.txt"
 CONFIG_PATH = "../openNMT/config.yaml"
 BREAK_TOKEN = "<br>"
 
-# Carregar CSV
+# Carrega CSV
 df = pd.read_csv(CSV_PATH)
 poemas = df["original_poem"].tolist()
 
-# Dividir em blocos
-batch_size = 50
+# Checagem básica de colunas
+if not all(df["src_lang"] == "fr_XX") or not all(df["tgt_lang"] == "en_XX"):
+    raise ValueError("O CSV contém pares de línguas diferentes de fr_XX -> en_XX")
+
+# Tradução por lotes
+batch_size = 5
 translated_poemas = []
 
 for i in range(0, len(poemas), batch_size):
     batch = poemas[i:i+batch_size]
-    print(f"Traduzindo blocos {i} até {i + len(batch) - 1}")
+    print(f"🔤 Traduzindo blocos {i} até {i + len(batch) - 1}")
 
-    # Substituir \n por <br> e adicionar prefixo
+    # Apenas troca quebra de linha por marcador — o prefixo é tratado no YAML!
     processed_batch = [p.replace("\n", BREAK_TOKEN) for p in batch]
 
-    # Salvar arquivo temporário para entrada
+    # Salva entrada
     with open(TEMP_INPUT, "w", encoding="utf-8") as f:
         f.write("\n".join(processed_batch))
 
-    # Chamar OpenNMT
+    # Chama o OpenNMT
     result = subprocess.run([
         "onmt_translate",
         "-config", CONFIG_PATH,
@@ -41,26 +45,25 @@ for i in range(0, len(poemas), batch_size):
         "-verbose"
     ], capture_output=True, text=True)
 
-    # Mostra qualquer erro
     if result.returncode != 0:
-        print("Erro ao executar onmt_translate:")
+        print("❌ Erro ao executar onmt_translate:")
         print(result.stderr)
         exit(1)
 
-    # Ler a saída e restaurar quebras de linha
+    # Lê a saída e restaura quebras de linha
     with open(TEMP_OUTPUT, "r", encoding="utf-8") as f:
         translated = [line.strip().replace(BREAK_TOKEN, "\n") for line in f.readlines()]
         translated_poemas.extend(translated)
 
-# Verificar se número de traduções está correto
+# Valida quantidade de traduções
 if len(translated_poemas) != len(poemas):
-    raise ValueError(f"Número de traduções ({len(translated_poemas)}) difere do número de poemas ({len(poemas)})")
+    raise ValueError(f"⚠️ Número de traduções ({len(translated_poemas)}) difere do número de poemas ({len(poemas)})")
 
-# Salvar no CSV
+# Salva no CSV
 df["translation_by_TA"] = translated_poemas
 df.to_csv(OUTPUT_CSV, index=False)
 
 print("✅ Tradução concluída e salva em:", OUTPUT_CSV)
 
 end_time = time.time()
-print(f"Tempo total de execução: {end_time - star_time:.2f} segundos")
+print(f"⏱️ Tempo total de execução: {end_time - start_time:.2f} segundos")

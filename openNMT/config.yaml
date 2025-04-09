@@ -1,7 +1,7 @@
 transforms: [sentencepiece, prefix, suffix]
 #transforms: [prefix, suffix]
 # nllb-200 specific prefixing and suffixing
-src_prefix: "</s> fra_Latn"
+src_prefix: "fra_Latn"
 tgt_prefix: "eng_Latn" 
 tgt_file_prefix: false
 src_suffix: ""
@@ -17,7 +17,7 @@ tgt_subword_alpha: 0.0
 # Model info
 model: "nllb-200-1.3B-onmt.pt"
 # Inference
-max_length: 512
+max_length: 1024
 gpu: 0
 batch_type: tokens
 batch_size: 512
