@@ -21,6 +21,5 @@ max_length: 512
 gpu: 0
 batch_type: tokens
 batch_size: 512
-fp16: true
 beam_size: 5
 report_time: true
