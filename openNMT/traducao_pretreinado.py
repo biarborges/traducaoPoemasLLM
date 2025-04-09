@@ -21,8 +21,7 @@ df_filtered = df_filtered[df_filtered["original_poem"].str.strip() != ""]
 
 # Substitui quebras por marcador temporário e adiciona token do idioma
 df_filtered["poem_for_translation"] = df_filtered["original_poem"].apply(
-    lambda x: f">>en<< {str(x).replace('\n', ' [LINEBREAK] ')}"
-)
+    lambda x: f">>en<< {str(x).replace('\n', ' [LINEBREAK] ')}")
 
 # Cria arquivos temporários
 with tempfile.NamedTemporaryFile(mode="w+", delete=False) as temp_src, \
