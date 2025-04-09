@@ -1,6 +1,9 @@
 import pandas as pd
 import subprocess
 import os
+import time
+
+start_time = time.time()
 
 # Caminhos
 CSV_PATH = "../poemas/frances_ingles_poems.csv"
@@ -44,3 +47,6 @@ df["translation_by_TA"] = translated_lines
 df.to_csv(FINAL_CSV, index=False)
 
 print(f"Tradução salva em: {FINAL_CSV}")
+
+end_time = time.time()
+print(f"Tempo total: {end_time - start_time:.2f} segundos")
