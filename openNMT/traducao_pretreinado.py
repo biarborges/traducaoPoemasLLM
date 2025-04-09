@@ -15,12 +15,15 @@ YAML_CONFIG = "../openNMT/nllb-inference.yaml"
 df = pd.read_csv(CSV_INPUT)
 df_filtered = df[(df["src_lang"] == "fr") & (df["tgt_lang"] == "en")].copy()
 
+# Substitui quebras de linha por token temporário
+df_filtered["poem_for_translation"] = df_filtered["original_poem"].apply(lambda x: str(x).replace("\n", " [LINEBREAK] "))
+
 # Cria arquivos temporários
 with tempfile.NamedTemporaryFile(mode="w+", delete=False) as temp_src, \
      tempfile.NamedTemporaryFile(mode="r", delete=False) as temp_out:
 
-    # Escreve os poemas no arquivo de entrada temporário
-    df_filtered["original_poem"].to_csv(temp_src.name, index=False, header=False)
+    # Escreve os poemas (com token) no arquivo de entrada temporário
+    df_filtered["poem_for_translation"].to_csv(temp_src.name, index=False, header=False)
 
     print("Iniciando tradução com OpenNMT...")
 
@@ -34,15 +37,15 @@ with tempfile.NamedTemporaryFile(mode="w+", delete=False) as temp_src, \
 
     print("Tradução concluída! Processando resultados...")
 
-    # Lê as traduções
+    # Lê as traduções e restaura quebras de linha
     with open(temp_out.name, "r", encoding="utf-8") as f:
-        translations = f.read().splitlines()
+        translations = [line.replace(" [LINEBREAK] ", "\n") for line in f.read().splitlines()]
 
 # Atualiza o DataFrame
 for idx, trans in tqdm(zip(df_filtered.index, translations), total=len(translations), desc="Salvando traduções"):
     df.loc[idx, "translated_by_TA"] = trans
 
-# Exporta o CSV
+# Exporta o CSV final
 df.to_csv(CSV_OUTPUT, index=False)
 
 end_time = time.time()
