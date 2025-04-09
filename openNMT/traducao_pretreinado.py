@@ -26,7 +26,8 @@ for i in range(0, len(poemas), batch_size):
     print(f"🔤 Traduzindo blocos {i} até {i + len(batch) - 1}")
 
 # Adicionando o prefixo da língua de origem diretamente no texto
-    processed_batch = [f">>eng_Latn<< {p.replace('\n', BREAK_TOKEN)}" for p in batch]
+    processed_batch = [f">>eng_Latn<< {p.replace('\\n', BREAK_TOKEN)}" for p in batch]
+
 
 
     # Salva entrada
