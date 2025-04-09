@@ -1,60 +1,45 @@
 import pandas as pd
 import subprocess
-import time
-import tempfile
-from tqdm import tqdm
+import os
 
 # Caminhos
-CSV_INPUT = "../poemas/frances_ingles_poems.csv"
-CSV_OUTPUT = "../poemas/openNMT/frances_ingles_poems_openNMT.csv"
-YAML_CONFIG = "../openNMT/nllb-inference.yaml"
+CSV_PATH = "../poemas/frances_ingles_poems.csv"
+OUTPUT_DIR = "../poemas/openNMT"
+INPUT_TXT = os.path.join(OUTPUT_DIR, "input.txt")
+OUTPUT_TXT = os.path.join(OUTPUT_DIR, "output.txt")
+FINAL_CSV = os.path.join(OUTPUT_DIR, "frances_ingles_poems_opennmt.csv")
 
-# Carrega o CSV
-df = pd.read_csv(CSV_INPUT)
+# Prefixo do idioma de origem (NLLB-200)
+SRC_PREFIX = "</s> fra_Latn"  # conforme seu YAML
 
-# Filtra as linhas de francês para inglês
-df_filtered = df[(df["src_lang"] == "fr") & (df["tgt_lang"] == "en")].copy()
+# Lê o CSV
+df = pd.read_csv(CSV_PATH)
 
-# Substitui quebras de linha para preservar estrutura poética
-df_filtered["original_poem"] = df_filtered["original_poem"].apply(
-    lambda x: str(x).replace("\n", " [LB] ")
-)
+# Substitui quebras de linha por marcador temporário e insere prefixo
+inputs = df["original_poem"].apply(lambda x: f"{SRC_PREFIX} {x.replace('\n', '<br>')}")
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+inputs.to_csv(INPUT_TXT, index=False, header=False)
 
-# Verifica se os dados estão corretos antes de traduzir
-print("\nPré-visualização dos dados de entrada:")
-print(df_filtered["original_poem"].head(5).to_string(index=False))
-print(f"\nTotal de entradas: {len(df_filtered)}")
+# Comando do OpenNMT com config.yaml
+cmd = [
+    "onmt_translate",
+    "-config", "../openNMT/config.yaml",  # caminho do seu YAML
+    "-src", INPUT_TXT,
+    "-output", OUTPUT_TXT,
+    "-verbose"
+]
 
+# Executa o comando
+subprocess.run(cmd)
 
-# Cria arquivos temporários
-with tempfile.NamedTemporaryFile(mode="w+", delete=False, encoding="utf-8") as temp_src, \
-     tempfile.NamedTemporaryFile(mode="r", delete=False, encoding="utf-8") as temp_out:
+# Lê o arquivo traduzido e restaura as quebras de linha
+with open(OUTPUT_TXT, "r", encoding="utf-8") as f:
+    translated_lines = [line.strip().replace("<br>", "\n") for line in f]
 
-    # Escreve os poemas no arquivo de entrada temporário
-    temp_src.write("\n".join(df_filtered["original_poem"].tolist()))
-    temp_src.flush()
+# Adiciona ao DataFrame
+df["translation_by_TA"] = translated_lines
 
-    print("Iniciando tradução com OpenNMT...")
+# Salva CSV final
+df.to_csv(FINAL_CSV, index=False)
 
-    # Executa o comando onmt_translate
-    subprocess.run([
-        "onmt_translate",
-        "-config", YAML_CONFIG,
-        "-src", temp_src.name,
-        "-output", temp_out.name
-    ], check=True)
-
-    print("Tradução concluída. Lendo resultados...")
-
-    # Lê as traduções
-    temp_out.seek(0)
-    translations = [line.strip().replace(' [LB] ', '\n') for line in temp_out.readlines()]
-
-# Atribui as traduções ao DataFrame original
-for idx, trans in tqdm(zip(df_filtered.index, translations), total=len(translations), desc="Salvando traduções"):
-    df.loc[idx, "translated_by_TA"] = trans
-
-# Salva o novo CSV
-df.to_csv(CSV_OUTPUT, index=False)
-
-print("✅ Tradução concluída e salva com sucesso.")
+print(f"Tradução salva em: {FINAL_CSV}")
