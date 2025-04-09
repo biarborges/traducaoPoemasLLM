@@ -1,8 +1,8 @@
 import pandas as pd
-from opennmt.tokenizers import Tokenizer
-from opennmt.models import load_model
-from opennmt.config import load_config
-from opennmt import Runner
+from OpenNMT.tokenizers import Tokenizer
+from OpenNMT.models import load_model
+from OpenNMT.config import load_config
+from OpenNMT import Runner
 import sentencepiece as spm
 import time
 from tqdm import tqdm
@@ -104,7 +104,7 @@ def process_csv(input_file, output_file, model_path, tokenizer_path, batch_size=
 if __name__ == "__main__":
     # Configurações (ajuste conforme necessário)
     INPUT_CSV = "../poemas/frances_ingles_poems_teste.csv"          # Arquivo CSV de entrada
-    OUTPUT_CSV = "../poemas/openNMT/frances_ingles_poems_opennmt.csv"  # Arquivo CSV de saída
+    OUTPUT_CSV = "../poemas/OpenNMT/frances_ingles_poems_OpenNMT.csv"  # Arquivo CSV de saída
     MODEL_PATH = "nllb-200-1.3B-onmt.pt"  # Caminho para o modelo OpenNMT
     TOKENIZER_PATH = "flores200_sacrebleu_tokenizer_spm.model"  # Caminho para o tokenizer
     
