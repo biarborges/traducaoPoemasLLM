@@ -4,8 +4,8 @@ import os
 from tqdm import tqdm
 
 # Caminhos
-CSV_PATH = "../traducaoPoemasLLM/poemas/ingles_frances_poems_teste.csv"
-OUT_DIR = "../traducaoPoemasLLM/poemas/OpenNMT/frances_ingles_poems_OpenNMT.csv"
+CSV_PATH = "../poemas/ingles_frances_poems_teste.csv"
+OUT_DIR = "../poemas/OpenNMT/frances_ingles_poems_OpenNMT.csv"
 MODEL_PATH = "nllb-200-1.3B-onmt.pt"
 SP_MODEL_PATH = "flores200_sacrebleu_tokenizer_spm.model"
 SRC_LANG_TAG = ">>eng_Latn<<"
