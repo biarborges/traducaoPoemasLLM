@@ -9,7 +9,7 @@ CSV_PATH = "../poemas/frances_ingles_poems_teste.csv"
 OUT_DIR = "../poemas/OpenNMT"
 MODEL_PATH = "nllb-200-1.3B-onmt.pt"
 SP_MODEL_PATH = "flores200_sacrebleu_tokenizer_spm.model"
-SRC_LANG_TAG = ">>eng_Latn<<"  # Linguagem de destino
+TGT_LANG_TAG = ">>eng_Latn<<"  # Linguagem de destino
 TMP_SRC = "tmp_input.txt"
 TMP_TGT = "tmp_output.txt"
 
@@ -23,7 +23,7 @@ df = pd.read_csv(CSV_PATH)
 # Substitui quebras de linha por marcador temporário e aplica tokenização
 def preprocess_poem(poem):
     poem = poem.replace("\n", " <n> ").strip()
-    tagged = f"{SRC_LANG_TAG} {poem}"
+    tagged = f"{TGT_LANG_TAG} {poem}"
     tokenized = sp.encode(tagged, out_type=str)
     return " ".join(tokenized)
 
