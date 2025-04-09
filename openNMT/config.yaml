@@ -23,3 +23,4 @@ batch_type: tokens
 batch_size: 1024
 beam_size: 5
 report_time: true
+early_stopping: false
