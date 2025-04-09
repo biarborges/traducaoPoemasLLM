@@ -23,7 +23,7 @@ translated_poemas = []
 
 for i in range(0, len(poemas), batch_size):
     batch = poemas[i:i+batch_size]
-    print(f"🔤 Traduzindo blocos {i} até {i + len(batch) - 1}")
+    print(f"Traduzindo blocos {i} até {i + len(batch) - 1}")
 
     # Substitui as quebras de linha por um marcador
     batch_processed = [p.replace("\n", BREAK_TOKEN) for p in batch]
@@ -48,7 +48,7 @@ for i in range(0, len(poemas), batch_size):
     ], capture_output=True, text=True)
 
     if result.returncode != 0:
-        print("❌ Erro ao executar onmt_translate:")
+        print("Erro ao executar onmt_translate:")
         print(result.stderr)
         exit(1)
 
@@ -65,7 +65,7 @@ if len(translated_poemas) != len(poemas):
 df["translation_by_TA"] = translated_poemas
 df.to_csv(OUTPUT_CSV, index=False)
 
-print("✅ Tradução concluída e salva em:", OUTPUT_CSV)
+print("Tradução concluída e salva em:", OUTPUT_CSV)
 
 end_time = time.time()
-print(f"⏱️ Tempo total de execução: {end_time - start_time:.2f} segundos")
+print(f" Tempo total de execução: {end_time - start_time:.2f} segundos")
