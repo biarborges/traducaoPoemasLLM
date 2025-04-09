@@ -1,105 +1,64 @@
 import pandas as pd
 import sentencepiece as spm
 from tqdm import tqdm
+import torch
+from opennmt.models import NMTModel
+from opennmt.utils.misc import load_checkpoint
 import time
-import ctranslate2
+import os
 
 class PoemTranslator:
     def __init__(self, model_path, tokenizer_path):
-        """Inicializa o tradutor com modelo e tokenizer
+        """Inicializa com modelo .pt e tokenizer"""
+        if not os.path.exists(model_path):
+            raise FileNotFoundError(f"Arquivo do modelo não encontrado: {model_path}")
+        if not os.path.exists(tokenizer_path):
+            raise FileNotFoundError(f"Arquivo do tokenizer não encontrado: {tokenizer_path}")
         
-        Args:
-            model_path: caminho para o modelo .pt
-            tokenizer_path: caminho para o tokenizer .model
-        """
-        try:
-            self.translator = ctranslate2.Translator(model_path)
-            self.tokenizer = spm.SentencePieceProcessor(tokenizer_path)
-            print("Modelo e tokenizer carregados com sucesso!")
-        except Exception as e:
-            print(f"Erro ao carregar modelo/tokenizer: {e}")
-            raise
-
+        # Carrega o modelo OpenNMT
+        self.model = NMTModel.load(model_path)
+        self.model.eval()  # Modo de avaliação
+        
+        # Carrega tokenizer
+        self.tokenizer = spm.SentencePieceProcessor()
+        self.tokenizer.Load(tokenizer_path)
+    
     def translate_poem(self, text, src_lang='fra_Latn', tgt_lang='eng_Latn'):
-        """Traduz um texto usando o modelo NLLB
-        
-        Args:
-            text: texto a ser traduzido
-            src_lang: código do idioma de origem
-            tgt_lang: código do idioma de destino
-            
-        Returns:
-            Texto traduzido ou None em caso de erro
-        """
+        """Traduz um texto usando o modelo .pt"""
         try:
+            # Preprocessa o texto
             tagged_text = f"{src_lang} {text} {tgt_lang}"
-            tokens = self.tokenizer.encode(tagged_text)
-            results = self.translator.translate_batch([tokens])
-            return self.tokenizer.decode(results[0].hypotheses[0])
+            tokens = self.tokenizer.EncodeAsPieces(tagged_text)
+            
+            # Converte para tensores
+            src = torch.tensor([self.tokenizer.PieceToId(p) for p in tokens]).unsqueeze(0)
+            
+            # Faz a tradução
+            with torch.no_grad():
+                outputs = self.model(src)
+                translated_ids = outputs[0].argmax(dim=-1)
+            
+            # Decodifica
+            translated_tokens = [self.tokenizer.IdToPiece(int(i)) for i in translated_ids[0]]
+            return ''.join(translated_tokens).replace('▁', ' ')
+        
         except Exception as e:
-            print(f"Erro ao traduzir texto: {e}")
+            print(f"Erro na tradução: {e}")
             return None
 
-def process_csv(input_file, output_file, model_path, tokenizer_path, batch_size=8):
-    """Processa um arquivo CSV com poemas para tradução
-    
-    Args:
-        input_file: caminho do CSV de entrada
-        output_file: caminho do CSV de saída
-        model_path: caminho do modelo .pt
-        tokenizer_path: caminho do tokenizer .model
-        batch_size: tamanho do lote para tradução
-    """
-    try:
-        # Carrega os dados
-        df = pd.read_csv(input_file)
-        
-        if 'original_poem' not in df.columns:
-            raise ValueError("CSV deve conter coluna 'original_poem'")
-        
-        # Inicializa tradutor
-        translator = PoemTranslator(model_path, tokenizer_path)
-        
-        # Tradução com barra de progresso
-        translations = []
-        for i in tqdm(range(0, len(df), batch_size), desc="Traduzindo"):
-            batch = df['original_poem'].iloc[i:i+batch_size].tolist()
-            
-            for poem in batch:
-                try:
-                    translated = translator.translate_poem(poem) if pd.notna(poem) else ""
-                    translations.append(translated if translated else "")
-                except Exception as e:
-                    print(f"Erro no lote {i}:{i+batch_size} - {e}")
-                    translations.extend([""] * len(batch))
-                    break
-                
-            time.sleep(0.1)  # Pausa para evitar sobrecarga
-        
-        # Adiciona resultados e salva
-        df['translated_by_TA'] = translations[:len(df)]  # Garante tamanho igual
-        df.to_csv(output_file, index=False)
-        print(f"Tradução concluída! Salvo em {output_file}")
-        
-    except Exception as e:
-        print(f"Erro no processamento: {e}")
-        raise
+# ... (o resto do código da função process_csv permanece igual)
 
 if __name__ == "__main__":
-    # Configurações - agora com os nomes exatos dos parâmetros
     CONFIG = {
-        "input_file": "../poemas/frances_ingles_poems_teste.csv",  # Corrigido para input_file
-        "output_file": "../poemas/OpenNMT/frances_ingles_poems_OpenNMT.csv",  # Corrigido para output_file
-        "model_path": "nllb-200-1.3B-onmt.pt",
+        "input_file": "../poemas/frances_ingles_poems_teste.csv",
+        "output_file": "../poemas/OpenNMT/frances_ingles_poems_OpenNMT.csv",
+        "model_path": "nllb-200-1.3B-onmt.pt",  # Arquivo .pt original
         "tokenizer_path": "flores200_sacrebleu_tokenizer_spm.model",
-        "batch_size": 4
+        "batch_size": 1  # Reduzido para 1 por limitações de memória
     }
     
-    # Executa o processo
-    process_csv(
-        input_file=CONFIG["input_file"],
-        output_file=CONFIG["output_file"],
-        model_path=CONFIG["model_path"],
-        tokenizer_path=CONFIG["tokenizer_path"],
-        batch_size=CONFIG["batch_size"]
-    )
+    # Verifica se os arquivos existem
+    if not all(os.path.exists(p) for p in [CONFIG["model_path"], CONFIG["tokenizer_path"]]):
+        print("Erro: Verifique se os caminhos dos arquivos estão corretos")
+    else:
+        process_csv(**CONFIG)
