@@ -16,7 +16,10 @@ df = pd.read_csv(CSV_INPUT)
 df_filtered = df[(df["src_lang"] == "fr") & (df["tgt_lang"] == "en")].copy()
 
 # Substitui quebras de linha para preservar estrutura poética
-df_filtered["original_poem"] = df_filtered["original_poem"].apply(lambda x: f">>en<< {str(x).replace('\n', ' [LB] ')}")
+df_filtered["original_poem"] = df_filtered["original_poem"].apply(
+    lambda x: ">>en<< " + str(x).replace("\n", " [LB] ")
+)
+
 
 # Cria arquivos temporários
 with tempfile.NamedTemporaryFile(mode="w+", delete=False, encoding="utf-8") as temp_src, \
