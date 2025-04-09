@@ -6,7 +6,7 @@ import time
 start_time = time.time()
 
 # Caminhos
-CSV_PATH = "../poemas/frances_ingles_poems_teste.csv"
+CSV_PATH = "../poemas/frances_ingles_poems.csv"
 OUTPUT_CSV = "../poemas/openNMT/frances_ingles_poems_opennmt.csv"
 TEMP_INPUT = "../poemas/openNMT/temp_input.txt"
 TEMP_OUTPUT = "../poemas/openNMT/output.txt"
