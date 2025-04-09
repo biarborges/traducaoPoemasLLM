@@ -13,8 +13,8 @@ model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float
 pipe = pipeline("text-generation", model=model, tokenizer=tokenizer)
 
 # Caminhos
-csv_path = "../traducaoPoemasLLM/poemas/frances_ingles_poems_teste.csv"
-output_dir = "../traducaoPoemasLLM/poemas/deepseek"
+csv_path = "../poemas/frances_ingles_poems_teste.csv"
+output_dir = "../poemas/deepseek"
 output_path = f"{output_dir}/frances_ingles_poems_deepseek_prompt1_teste.csv"
 
 if os.path.exists(csv_path):
