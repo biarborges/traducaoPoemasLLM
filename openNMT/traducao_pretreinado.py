@@ -6,7 +6,7 @@ import time
 start_time = time.time()
 
 # Caminhos
-CSV_PATH = "../poemas/frances_ingles_poems.csv"
+CSV_PATH = "../poemas/frances_ingles_poems_teste.csv"
 OUTPUT_CSV = "../poemas/openNMT/frances_ingles_poems_opennmt.csv"
 TEMP_INPUT = "../poemas/openNMT/temp_input.txt"
 TEMP_OUTPUT = "../poemas/openNMT/output.txt"
@@ -17,12 +17,8 @@ BREAK_TOKEN = "<br>"
 df = pd.read_csv(CSV_PATH)
 poemas = df["original_poem"].tolist()
 
-# Checagem básica de colunas
-if not all(df["src_lang"] == "fr_XX") or not all(df["tgt_lang"] == "en_XX"):
-    raise ValueError("O CSV contém pares de línguas diferentes de fr_XX -> en_XX")
-
 # Tradução por lotes
-batch_size = 5
+batch_size = 1
 translated_poemas = []
 
 for i in range(0, len(poemas), batch_size):
