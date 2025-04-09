@@ -20,7 +20,7 @@ model: "nllb-200-1.3B-onmt.pt"
 max_length: 512
 gpu: 0
 batch_type: tokens
-batch_size: 2048
-fp16:
+batch_size: 512
+fp16: true
 beam_size: 5
 report_time: true
