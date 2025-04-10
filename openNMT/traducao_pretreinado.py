@@ -7,8 +7,8 @@ import torch
 start_time = time.time()
 
 # Caminhos
-CSV_PATH = "../poemas/ingles_frances_poems.csv"
-OUTPUT_CSV = "../poemas/openNMT/ingles_frances_poems_opennmt_old.csv"
+CSV_PATH = "../poemas/frances_portugues_poems.csv"
+OUTPUT_CSV = "../poemas/openNMT/frances_portugues_poems_opennmt_old.csv"
 TEMP_INPUT = "../poemas/openNMT/temp_input.txt"
 TEMP_OUTPUT = "../poemas/openNMT/output.txt"
 CONFIG_PATH = "../openNMT/config.yaml"
@@ -30,7 +30,7 @@ for i in range(0, len(poemas), batch_size):
     batch_processed = [p.replace("\n", BREAK_TOKEN) for p in batch]
 
     # Adicionando o prefixo da língua de origem diretamente no texto
-    processed_batch = [f">>eng_Latn<< {p}" for p in batch_processed]
+    processed_batch = [f">>por_Latn<< {p}" for p in batch_processed]
 
     # Salva entrada
     with open(TEMP_INPUT, "w", encoding="utf-8") as f:
