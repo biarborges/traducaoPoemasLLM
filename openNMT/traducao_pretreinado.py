@@ -24,14 +24,8 @@ for i in range(0, len(poemas), batch_size):
     batch = poemas[i:i+batch_size]
     print(f"Traduzindo blocos {i} até {i + len(batch) - 1}")
 
-    # Substitui as quebras de linha por um marcador
-    batch_processed = batch
-
     # Adicionando o prefixo da língua de origem diretamente no texto
-    processed_batch = [f">>eng_Latn<< {p}" for p in batch_processed]
-
-
-
+    processed_batch = [f">>eng_Latn<< {p}" for p in batch]
 
     # Salva entrada
     with open(TEMP_INPUT, "w", encoding="utf-8") as f:
@@ -53,7 +47,7 @@ for i in range(0, len(poemas), batch_size):
 
     # Lê a saída e restaura quebras de linha
     with open(TEMP_OUTPUT, "r", encoding="utf-8") as f:
-        translated = [line.strip().replace(BREAK_TOKEN, "\n") for line in f.readlines()]
+        translated = [line.strip() for line in f.readlines()]
         translated_poemas.extend(translated)
 
 # Valida quantidade de traduções
@@ -67,4 +61,4 @@ df.to_csv(OUTPUT_CSV, index=False)
 print("Tradução concluída e salva em:", OUTPUT_CSV)
 
 end_time = time.time()
-print(f" Tempo total de execução: {end_time - start_time:.2f} segundos")
+print(f"Tempo total de execução: {end_time - start_time:.2f} segundos")
