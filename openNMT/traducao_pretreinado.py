@@ -11,7 +11,6 @@ OUTPUT_CSV = "../poemas/openNMT/frances_ingles_poems_opennmt.csv"
 TEMP_INPUT = "../poemas/openNMT/temp_input.txt"
 TEMP_OUTPUT = "../poemas/openNMT/output.txt"
 CONFIG_PATH = "../openNMT/config.yaml"
-BREAK_TOKEN = "<br>"
 
 # Carrega CSV
 df = pd.read_csv(CSV_PATH)
