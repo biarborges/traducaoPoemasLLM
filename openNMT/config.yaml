@@ -1,8 +1,8 @@
 transforms: [sentencepiece, prefix, suffix]
 #transforms: [prefix, suffix]
 # nllb-200 specific prefixing and suffixing
-src_prefix: "fra_Latn"
-tgt_prefix: "por_Latn" 
+src_prefix: "eng_Latn"
+tgt_prefix: "fra_Latn" 
 tgt_file_prefix: false
 src_suffix: ""
 tgt_suffix: ""
