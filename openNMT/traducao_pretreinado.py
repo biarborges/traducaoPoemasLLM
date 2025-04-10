@@ -17,7 +17,7 @@ df = pd.read_csv(CSV_PATH)
 poemas = df["original_poem"].tolist()
 
 # Tradução por lotes
-batch_size = 5
+batch_size = 3
 translated_poemas = []
 
 for i in range(0, len(poemas), batch_size):
