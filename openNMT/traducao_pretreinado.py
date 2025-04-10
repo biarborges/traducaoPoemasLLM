@@ -2,6 +2,7 @@ import pandas as pd
 import os
 import subprocess
 import time
+import torch
 
 start_time = time.time()
 
@@ -11,21 +12,25 @@ OUTPUT_CSV = "../poemas/openNMT/frances_ingles_poems_opennmt.csv"
 TEMP_INPUT = "../poemas/openNMT/temp_input.txt"
 TEMP_OUTPUT = "../poemas/openNMT/output.txt"
 CONFIG_PATH = "../openNMT/config.yaml"
+BREAK_TOKEN = "<br>"
 
 # Carrega CSV
 df = pd.read_csv(CSV_PATH)
 poemas = df["original_poem"].tolist()
 
 # Tradução por lotes
-batch_size = 3
+batch_size = 5
 translated_poemas = []
 
 for i in range(0, len(poemas), batch_size):
     batch = poemas[i:i+batch_size]
     print(f"Traduzindo blocos {i} até {i + len(batch) - 1}")
 
+    # Substitui as quebras de linha por um marcador
+    batch_processed = [p.replace("\n", BREAK_TOKEN) for p in batch]
+
     # Adicionando o prefixo da língua de origem diretamente no texto
-    processed_batch = [f">>eng_Latn<< {p}" for p in batch]
+    processed_batch = [f">>eng_Latn<< {p}" for p in batch_processed]
 
     # Salva entrada
     with open(TEMP_INPUT, "w", encoding="utf-8") as f:
@@ -47,8 +52,11 @@ for i in range(0, len(poemas), batch_size):
 
     # Lê a saída e restaura quebras de linha
     with open(TEMP_OUTPUT, "r", encoding="utf-8") as f:
-        translated = [line.strip() for line in f.readlines()]
+        translated = [line.strip().replace(BREAK_TOKEN, "\n") for line in f.readlines()]
         translated_poemas.extend(translated)
+
+    # Liberar memória da GPU entre as traduções
+    torch.cuda.empty_cache()
 
 # Valida quantidade de traduções
 if len(translated_poemas) != len(poemas):
