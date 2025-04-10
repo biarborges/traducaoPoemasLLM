@@ -19,7 +19,7 @@ def remover_linhas_em_branco_csv(caminho_entrada, caminho_saida):
 
 
 # Exemplo de uso
-entrada = "../poemas/openNMT/frances_ingles_poems_opennmt_old.csv"
-saida = "../poemas/openNMT/frances_ingles_poems_opennmt.csv"
+entrada = "../poemas/openNMT/frances_portugues_poems_opennmt_old.csv"
+saida = "../poemas/openNMT/frances_portugues_poems_opennmt.csv"
 
 remover_linhas_em_branco_csv(entrada, saida)
