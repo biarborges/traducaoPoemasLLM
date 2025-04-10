@@ -30,7 +30,8 @@ for i in range(0, len(poemas), batch_size):
     batch_processed = [p.replace("\n", BREAK_TOKEN) for p in batch]
 
     # Adicionando o prefixo da língua de origem diretamente no texto
-    processed_batch = [f">>fra_Latn<< {p}" for p in batch_processed]
+    #processed_batch = [f">>fra_Latn<< {p}" for p in batch_processed]
+    processed_batch = batch_processed
 
     # Salva entrada
     with open(TEMP_INPUT, "w", encoding="utf-8") as f:
