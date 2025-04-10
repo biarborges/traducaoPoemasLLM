@@ -2,6 +2,7 @@ import pandas as pd
 import nltk
 import os
 import warnings
+import torch
 warnings.filterwarnings("ignore")
 
 # Verificar se o recurso nltk está disponível
@@ -15,7 +16,7 @@ except LookupError:
     nltk.download('punkt_tab')
     nltk.download('wordnet')
 
-
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 input_file = os.path.abspath("poemas/marianmt/frances_ingles_test_finetuning_marianmt.csv")
 
