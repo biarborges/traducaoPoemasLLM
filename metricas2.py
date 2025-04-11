@@ -145,7 +145,11 @@ calcular_bertscore_media(input_file)
 
 #BARTSCORE
 
-from bartscore import BARTScorer
+import sys
+#sys.path.append("../BARTScore")
+from BARTScore.bart_score import BARTScorer
+
+
 import pandas as pd
 
 # Função para calcular o BARTScore para um único poema

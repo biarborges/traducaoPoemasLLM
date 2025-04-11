@@ -1,6 +1,4 @@
-baseado no artigo 5:
-
-Estrutura Poética: Refere-se ao grau em que a tradução preserva ou recria características estruturais da poesia, respeitando ao mesmo tempo as convenções poéticas da língua alvo.
+-Estrutura Poética: Refere-se ao grau em que a tradução preserva ou recria características estruturais da poesia, respeitando ao mesmo tempo as convenções poéticas da língua alvo.
 O que observar:
 	Métrica: Regularidade do número de sílabas poéticas por verso, respeitando o ritmo do poema original - mais difícil - ou recriando um ritmo equivalente na língua alvo.
 
@@ -13,8 +11,8 @@ O que observar:
 	Encadeamento e enjambement: Quando há a necessidade de não fazer pausa em um verso, continuando a sua leitura com o verso seguinte de forma a completar, assim, o seu sentido - deve-se observar se há recriação desse efeito.
 
 
-Estilística Poética: Refere-se ao grau em que a tradução preserva ou recria características estilísticas da poesia, respeitando ao mesmo tempo as convenções poéticas da língua alvo.
-Observar se são mantidos ou adaptados:
+-Estilística Poética: Refere-se ao grau em que a tradução preserva ou recria características estilísticas da poesia, respeitando ao mesmo tempo as convenções poéticas da língua alvo.
+Observar se são mantidos ou adaptados - caso haja:
 	Aliteração: Repetição de sons consonantais para efeito sonoro.
 
 	Assonância: Repetição de sons vocálicos para criar harmonia.
@@ -38,13 +36,13 @@ Observar se são mantidos ou adaptados:
 	Escolha lexical poética: Vocabulário mais elevado, arcaico, coloquial ou marcado — conforme o estilo do poema original.
 
 
-Fluência: Avalia a naturalidade do texto traduzido na língua alvo, considerando a escolha lexical e a sintaxe estão de acordo com o estilo da poesia naquela língua.
+-Fluência: Avalia a naturalidade do texto traduzido na língua alvo, considerando a escolha lexical e a sintaxe estão de acordo com o estilo da poesia naquela língua.
 
 
-Significado: Refere-se à capacidade da tradução de transmitir o significado do texto original.
+-Significado: Refere-se à capacidade da tradução de transmitir o significado do texto original.
 
 
-Impressão Geral: Uma avaliação geral da qualidade da tradução, considerando todos os aspectos anteriores de forma integrada. Aqui, o avaliador julga o impacto linguístico, literário e emocional da tradução como um todo — ou seja, se o poema funciona na língua alvo como um poema autônomo, e se preserva a essência do original de forma harmoniosa.
+-Impressão Geral: Uma avaliação geral da qualidade da tradução, considerando todos os aspectos anteriores de forma integrada, ou seja, se o poema funciona na língua alvo como um poema autônomo, e se preserva a essência do original de forma harmoniosa.
 
 
 Notas:
