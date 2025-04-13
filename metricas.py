@@ -2,9 +2,17 @@ import pandas as pd
 import nltk
 import os
 import warnings
+import torch
+import time
 warnings.filterwarnings("ignore")
 
-# Verificar se o recurso nltk está disponível
+start_time = time.time()
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"Usando dispositivo: {device}")
+
+
+#Verificar se o recurso nltk está disponível
 try:
     nltk.data.find('tokenizers/punkt_tab')
     nltk.data.find('corpora/wordnet')
@@ -15,9 +23,9 @@ except LookupError:
     nltk.download('punkt_tab')
     nltk.download('wordnet')
 
+input_file = os.path.abspath("../traducaoPoemasLLM/poemas/maritaca/frances_ingles_poems_maritaca_prompt2.csv")
 
-
-input_file = os.path.abspath("../TraducaoPoemasLLM/poemas/poemas300/marianmt/ingles_frances_test_finetuning_marianmt_3003.csv")
+print(f"Arquivo de entrada: {input_file}")
 
 #BLEU
 
@@ -153,13 +161,15 @@ from concurrent.futures import ThreadPoolExecutor
 # Carregar o modelo BART e o tokenizer
 model_name = "facebook/bart-large-cnn"
 tokenizer = BartTokenizer.from_pretrained(model_name)
-model = BartForConditionalGeneration.from_pretrained(model_name)
+model = BartForConditionalGeneration.from_pretrained(model_name).to(device)  # <== Mover o modelo pra GPU ou CPU
+
 
 # Função para calcular o BARTScore
 def calcular_bartscore(referencia, traducao):
     # Tokenizar a referência e a tradução
-    inputs_ref = tokenizer(referencia, return_tensors="pt", truncation=True, padding=True, max_length=1024)
-    inputs_trad = tokenizer(traducao, return_tensors="pt", truncation=True, padding=True, max_length=1024)
+    inputs_ref = tokenizer(referencia, return_tensors="pt", truncation=True, padding=True, max_length=1024).to(device)
+    inputs_trad = tokenizer(traducao, return_tensors="pt", truncation=True, padding=True, max_length=1024).to(device)
+
 
     # Gerar os embeddings de BART para a referência e tradução
     with torch.no_grad():
@@ -194,3 +204,7 @@ def calcular_bartscore_media_paralela(input_file):
 
 # Calcular o BARTScore médio para todos os poemas e exibir o resultado
 calcular_bartscore_media_paralela(input_file)
+
+
+end_time = time.time()
+print(f"Tempo total de execução: {end_time - start_time:.2f} segundos")

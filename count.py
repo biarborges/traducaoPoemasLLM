@@ -1,7 +1,7 @@
 import csv
 
 # Nome do arquivo CSV
-csv_file = "../traducaoPoemasLLM/poemas/maritaca/frances_ingles_poems_maritaca_prompt2_completo.csv"
+csv_file = "../traducaoPoemasLLM/poemas/maritaca/portugues_ingles_test_maritaca_prompt2_completo.csv"
 
 # Inicializar o contador de poemas
 poem_count = 0
