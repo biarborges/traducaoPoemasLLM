@@ -41,5 +41,7 @@ The goal is to evaluate how these models handle poetic elements like rhyme, rhyt
 |                         | 4                   | [revistaprosaversoearte - Whitman](https://www.revistaprosaversoearte.com/walt-whitman-poemas/) |
 
 Baudelaire, C.: As flores do mal. Apresentação de Marcelo Jacques; tradução, introdução e notas de Ivan Junqueira. [Ed. especial]. Rio de Janeiro: Nova Fronteira, 2012, 79 p.
+
 Bishop, E.: Poemas escolhidos. Seleção, tradução e textos introdutórios de Paulo Henriques Britto. 1ª ed. São Paulo: Companhia das Letras, 2012, 416 p.
+
 Shakespeare, W.: 50 sonetos. Tradução de Ivo Barroso, prefácio de Antônio Houaiss, estudo de Nehemias Gueiros. [Ed. especial]. Rio de Janeiro: Nova Fronteira, 2015. (Coleção 50 anos), 138 p.
