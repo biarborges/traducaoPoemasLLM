@@ -14,10 +14,10 @@ if device == "cuda":
     print("Memória da GPU liberada.")
 
 # Caminhos dos arquivos
-poem_train_csv = "../traducaoPoemasLLM/poemas/train/frances_ingles_train.csv"
-poem_val_csv = "../traducaoPoemasLLM/poemas/validation/frances_ingles_validation.csv"
-music_train_csv = "../traducaoPoemasLLM/musicas/train/frances_ingles_musics_train.csv"
-music_val_csv = "../traducaoPoemasLLM/musicas/validation/frances_ingles_musics_validation.csv"
+poem_train_csv = "../poemas/train/frances_ingles_train.csv"
+poem_val_csv = "../poemas/validation/frances_ingles_validation.csv"
+music_train_csv = "../musicas/train/frances_ingles_musics_train.csv"
+music_val_csv = "../musicas/validation/frances_ingles_musics_validation.csv"
 
 def load_dataset(csv_path):
     df = pd.read_csv(csv_path)
