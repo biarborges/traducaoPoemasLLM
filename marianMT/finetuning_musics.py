@@ -38,7 +38,7 @@ train_dataset = concatenate_datasets([poem_train, music_train])
 val_dataset = concatenate_datasets([poem_val, music_val])
 
 # Carregar modelo e tokenizer
-model_name = "Helsinki-NLP/opus-mt-en-fr"
+model_name = "Helsinki-NLP/opus-mt-fr-en"  
 try:
     tokenizer = MarianTokenizer.from_pretrained(model_name)
     model = MarianMTModel.from_pretrained(model_name).to(device)
@@ -66,7 +66,7 @@ except Exception as e:
 
 # Argumentos de treinamento
 training_args = Seq2SeqTrainingArguments(
-    output_dir="/home/ubuntu/finetuning",
+    output_dir="/home/ubuntu/finetuning_fr_en",
     evaluation_strategy="epoch",
     learning_rate=2e-5,
     per_device_train_batch_size=8,
@@ -99,8 +99,8 @@ except Exception as e:
 
 # Salvar modelo
 try:
-    model.save_pretrained("/home/ubuntu/finetuning")
-    tokenizer.save_pretrained("/home/ubuntu/finetuning")
+    model.save_pretrained("/home/ubuntu/finetuning_fr_en")
+    tokenizer.save_pretrained("/home/ubuntu/finetuning_fr_en")
     print("Modelo salvo com sucesso.")
 except Exception as e:
     print(f"Erro ao salvar: {e}")
