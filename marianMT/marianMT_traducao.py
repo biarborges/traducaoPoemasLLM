@@ -11,7 +11,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Carregar modelo e tokenizer do MarianMT
-model_name = "/home/ubuntu/finetuning/checkpoint-90"
+model_name = "/home/ubuntu/finetuning/checkpoint-2994"
 #model_name = "Helsinki-NLP/opus-mt-ROMANCE-en"  
 tokenizer = MarianTokenizer.from_pretrained(model_name)
 model = MarianMTModel.from_pretrained(model_name).to(device)
@@ -36,13 +36,13 @@ def traduzir_poema(poema, tokenizer, model, device):
     return "\n".join(traducao_completa)
 
 # Carregar o CSV com os poemas
-df = pd.read_csv('../poemas/poemas300/test/portugues_ingles_test.csv')
+df = pd.read_csv('../poemas/test/frances_ingles_test.csv')
 
 # Adicionar a coluna para as traduções
 df['translated_by_TA'] = df['original_poem'].apply(lambda x: traduzir_poema(x, tokenizer, model, device))
 
 # Salvar o CSV com a tradução
-df.to_csv('../poemas/poemas300/marianmt/portugues_ingles_test_finetuning_marianmt.csv', index=False)
+df.to_csv('../poemas/marianmt/finetuning_musics/frances_ingles.csv', index=False)
 
 print("Tradução concluída e salva.")
 
