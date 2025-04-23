@@ -11,8 +11,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Carregar modelo e tokenizer do MarianMT
-model_name = "/home/ubuntu/finetuning/checkpoint-2994"
-#model_name = "Helsinki-NLP/opus-mt-ROMANCE-en"  
+model_name = "/home/ubuntu/finetuning_fr_en/checkpoint-2994"
+#model_name = "Helsinki-NLP/opus-mt-ROMANCE-en"
 tokenizer = MarianTokenizer.from_pretrained(model_name)
 model = MarianMTModel.from_pretrained(model_name).to(device)
 
