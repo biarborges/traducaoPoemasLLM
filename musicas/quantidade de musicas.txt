@@ -1,0 +1,6 @@
+ingles-frances: 8308
+ingles-portugues: 8106
+frances-ingles: 9675
+frances-portugues: 3411
+português-ingles: 9795
+português-frances: 9390
