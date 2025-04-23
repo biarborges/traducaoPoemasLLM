@@ -1,7 +1,7 @@
-#pretreinado e finetuning tbm
 import torch
 import pandas as pd
 from transformers import MarianMTModel, MarianTokenizer
+from tqdm import tqdm
 import time
 
 start_time = time.time()
@@ -38,8 +38,11 @@ def traduzir_poema(poema, tokenizer, model, device):
 # Carregar o CSV com os poemas
 df = pd.read_csv('../poemas/test/frances_ingles_test.csv')
 
-# Adicionar a coluna para as traduções
-df['translated_by_TA'] = df['original_poem'].apply(lambda x: traduzir_poema(x, tokenizer, model, device))
+# Usar tqdm para mostrar o progresso da tradução
+tqdm.pandas(desc="Traduzindo poemas")
+
+# Adicionar a coluna para as traduções com barra de progresso
+df['translated_by_TA'] = df['original_poem'].progress_apply(lambda x: traduzir_poema(x, tokenizer, model, device))
 
 # Salvar o CSV com a tradução
 df.to_csv('../poemas/marianmt/finetuning_musics/frances_ingles.csv', index=False)

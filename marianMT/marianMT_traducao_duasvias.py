@@ -1,6 +1,7 @@
 import torch
 import pandas as pd
 from transformers import MarianMTModel, MarianTokenizer
+from tqdm import tqdm
 import time
 
 start_time = time.time()
@@ -52,8 +53,11 @@ def traduzir_duas_etapas(poema, tokenizer1, model1, tokenizer2, model2, device):
 # Carregar o CSV com os poemas
 df = pd.read_csv('../poemas/poemas300/test/portugues_frances_test.csv')
 
-# Aplicar a tradução e salvar apenas a versão final
-df['translated_by_TA'] = df['original_poem'].apply(
+# Adicionar barra de progresso com tqdm
+tqdm.pandas(desc="Traduzindo poemas em duas etapas")
+
+# Aplicar a tradução com progresso
+df['translated_by_TA'] = df['original_poem'].progress_apply(
     lambda x: traduzir_duas_etapas(x, tokenizer1, model1, tokenizer2, model2, device)
 )
 
