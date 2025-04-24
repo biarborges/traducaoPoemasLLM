@@ -55,7 +55,7 @@ df = pd.read_csv(file_path)
 # Traduzir os poemas com barra de progresso
 translated_poems = []
 for _, row in tqdm(df.iterrows(), total=len(df), desc="Traduzindo poemas"):
-    translated_poems.append(traduzir_poema(row['original_poem'], src_lang=row['src_lang'], tgt_lang=row['tgt_lang']))
+    translated_poems.append(traduzir_poema_em_partes(row['original_poem'], src_lang=row['src_lang'], tgt_lang=row['tgt_lang']))
 
 # Adicionar coluna com as traduções
 df['translated_by_TA'] = translated_poems
