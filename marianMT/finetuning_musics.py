@@ -14,10 +14,10 @@ if device == "cuda":
     print("Memória da GPU liberada.")
 
 # Caminhos dos arquivos
-poem_train_csv = "../poemas/train/ingles_portugues_train.csv"
-poem_val_csv = "../poemas/validation/ingles_portugues_validation.csv"
-music_train_csv = "../musicas/train/ingles_portugues_musics_train.csv"
-music_val_csv = "../musicas/validation/ingles_portugues_musics_validation.csv"
+poem_train_csv = "../poemas/train/portugues_ingles_train.csv"
+poem_val_csv = "../poemas/validation/portugues_ingles_validation.csv"
+music_train_csv = "../musicas/train/portugues_ingles_musics_train.csv"
+music_val_csv = "../musicas/validation/portugues_ingles_musics_validation.csv"
 
 def load_dataset(csv_path):
     df = pd.read_csv(csv_path)
@@ -38,7 +38,7 @@ train_dataset = concatenate_datasets([poem_train, music_train])
 val_dataset = concatenate_datasets([poem_val, music_val])
 
 # Carregar modelo e tokenizer
-model_name = "Helsinki-NLP/opus-mt-tc-big-en-pt"  
+model_name = "Helsinki-NLP/opus-mt-ROMANCE-en"  
 try:
     tokenizer = MarianTokenizer.from_pretrained(model_name)
     model = MarianMTModel.from_pretrained(model_name).to(device)
@@ -66,7 +66,7 @@ except Exception as e:
 
 # Argumentos de treinamento
 training_args = Seq2SeqTrainingArguments(
-    output_dir="/home/ubuntu/finetuning_en_pt",
+    output_dir="/home/ubuntu/finetuning_pt_en",
     evaluation_strategy="epoch",
     learning_rate=2e-5,
     per_device_train_batch_size=8,
@@ -99,8 +99,8 @@ except Exception as e:
 
 # Salvar modelo
 try:
-    model.save_pretrained("/home/ubuntu/finetuning_en_pt")
-    tokenizer.save_pretrained("/home/ubuntu/finetuning_en_pt")
+    model.save_pretrained("/home/ubuntu/finetuning_pt_en")
+    tokenizer.save_pretrained("/home/ubuntu/finetuning_pt_en")
     print("Modelo salvo com sucesso.")
 except Exception as e:
     print(f"Erro ao salvar: {e}")
