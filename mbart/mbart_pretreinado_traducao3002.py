@@ -13,14 +13,14 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Carregar modelo e tokenizer do mBART
-model_name = "/home/ubuntu/finetuning_fr_en/checkpoint-297"
+model_name = "/home/ubuntu/finetuning_fr_pt/checkpoint-297"
 tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
 model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
 
 tokenizer.model_max_length = 1024  # <- força para 1024 tokens
 
 # Função para traduzir poema
-def traduzir_poema_em_partes(poema, src_lang="fr_XX", tgt_lang="en_XX"):
+def traduzir_poema_em_partes(poema, src_lang="fr_XX", tgt_lang="pt_XX"):
     if not isinstance(poema, str) or poema.strip() == "":
         return ""
     
@@ -49,7 +49,7 @@ def traduzir_poema_em_partes(poema, src_lang="fr_XX", tgt_lang="en_XX"):
     return "\n".join(traducao)  # Junta as estrofes traduzidas
 
 # Carregar o arquivo CSV com os poemas
-file_path = "../poemas/test/frances_ingles_test.csv"
+file_path = "../poemas/test/frances_portugues_test.csv"
 df = pd.read_csv(file_path)
 
 # Traduzir os poemas com barra de progresso
@@ -61,7 +61,7 @@ for _, row in tqdm(df.iterrows(), total=len(df), desc="Traduzindo poemas"):
 df['translated_by_TA'] = translated_poems
 
 # Salvar o resultado em um novo CSV
-df.to_csv("../poemas/mbart/finetuning_musics/frances_ingles.csv", index=False)
+df.to_csv("../poemas/mbart/finetuning_musics/frances_portugues.csv", index=False)
 
 print("Tradução concluída e salva.")
 
