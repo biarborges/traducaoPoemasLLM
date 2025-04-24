@@ -51,7 +51,7 @@ def traduzir_duas_etapas(poema, tokenizer1, model1, tokenizer2, model2, device):
     return "\n".join(traducao_final)
 
 # Carregar o CSV com os poemas
-df = pd.read_csv('../poemas/test/portugues_frances_test.csv')
+df = pd.read_csv('../poemas/test/frances_portugues_test.csv')
 
 # Adicionar barra de progresso com tqdm
 tqdm.pandas(desc="Traduzindo poemas em duas etapas")
@@ -62,7 +62,7 @@ df['translated_by_TA'] = df['original_poem'].progress_apply(
 )
 
 # Salvar o CSV com apenas a tradução final
-df.to_csv('../poemas/marianmt/finetuning_musics/portugues_frances.csv', index=False)
+df.to_csv('../poemas/marianmt/finetuning_musics/frances_portugues.csv', index=False)
 
 print("Tradução concluída e salva.")
 
