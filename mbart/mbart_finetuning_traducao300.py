@@ -17,7 +17,7 @@ tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
 model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
 
 # Função para traduzir poema
-def traduzir_poema(poema, src_lang="pt_XX", tgt_lang="en_XX"):
+def traduzir_poema(poema, src_lang="fr_XX", tgt_lang="en_XX"):
     if not isinstance(poema, str) or poema.strip() == "":
         return ""  # Evitar erros com valores nulos ou vazios
 
@@ -45,7 +45,7 @@ def traduzir_poema(poema, src_lang="pt_XX", tgt_lang="en_XX"):
     return traducao
 
 # Carregar o arquivo CSV com os poemas
-file_path = "../poemas/poemas300/test/portugues_ingles_test.csv"
+file_path = "../poemas/test/frances_ingles_test.csv"
 df = pd.read_csv(file_path)
 
 # Exibir para verificar o conteúdo e garantir que 'src_lang' e 'tgt_lang' estejam corretos
@@ -55,7 +55,7 @@ print(df[['original_poem', 'src_lang', 'tgt_lang']].head())
 df['translated_by_TA'] = df.apply(lambda row: traduzir_poema(row['original_poem'], src_lang=row['src_lang'], tgt_lang=row['tgt_lang']), axis=1)
 
 # Salvar o resultado em um novo CSV
-df.to_csv("../poemas/poemas300/mbart/portugues_ingles_test_finetuning_mbart.csv", index=False)
+df.to_csv("../poemas/mbart/finetuning_musics/frances_ingles.csv", index=False)
 
 print("Tradução concluída e salva.")
 
