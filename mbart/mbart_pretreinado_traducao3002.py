@@ -20,28 +20,33 @@ model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
 tokenizer.model_max_length = 1024  # <- força para 1024 tokens
 
 # Função para traduzir poema
-def traduzir_poema(poema, src_lang="fr_XX", tgt_lang="en_XX"):
+def traduzir_poema_em_partes(poema, src_lang="fr_XX", tgt_lang="en_XX"):
     if not isinstance(poema, str) or poema.strip() == "":
         return ""
+    
+    partes = poema.split("\n")  # Divide o poema por estrofes (quebra de linha)
+    traducao = []
 
-    tokenizer.src_lang = src_lang
-    tokenizer.tgt_lang = tgt_lang
+    for parte in partes:
+        tokenizer.src_lang = src_lang
+        tokenizer.tgt_lang = tgt_lang
 
-    encoded = tokenizer(poema.strip(), return_tensors="pt", truncation=True, padding=True, max_length=1024)
-    encoded = {key: value.to(device) for key, value in encoded.items()}
+        encoded = tokenizer(parte.strip(), return_tensors="pt", truncation=True, padding=True, max_length=1024)
+        encoded = {key: value.to(device) for key, value in encoded.items()}
 
-    forced_bos_token_id = tokenizer.lang_code_to_id[tgt_lang]
+        forced_bos_token_id = tokenizer.lang_code_to_id[tgt_lang]
 
-    with torch.no_grad():
-        generated_tokens = model.generate(
-            **encoded,
-            max_length=1024,
-            num_beams=5,
-            forced_bos_token_id=forced_bos_token_id
-        )
+        with torch.no_grad():
+            generated_tokens = model.generate(
+                **encoded,
+                max_length=1024,
+                num_beams=5,
+                forced_bos_token_id=forced_bos_token_id
+            )
 
-    traducao = tokenizer.decode(generated_tokens[0], skip_special_tokens=True)
-    return traducao
+        traducao.append(tokenizer.decode(generated_tokens[0], skip_special_tokens=True))
+    
+    return "\n".join(traducao)  # Junta as estrofes traduzidas
 
 # Carregar o arquivo CSV com os poemas
 file_path = "../poemas/test/frances_ingles_test.csv"
