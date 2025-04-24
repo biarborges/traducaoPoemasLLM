@@ -17,6 +17,8 @@ model_name = "/home/ubuntu/finetuning_fr_en/checkpoint-297"
 tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
 model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
 
+tokenizer.model_max_length = 1024  # <- força para 1024 tokens
+
 # Função para traduzir poema
 def traduzir_poema(poema, src_lang="fr_XX", tgt_lang="en_XX"):
     if not isinstance(poema, str) or poema.strip() == "":
