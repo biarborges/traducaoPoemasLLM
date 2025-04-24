@@ -1,5 +1,3 @@
-#igual ao 300, só q pra portugues como lingua source
-
 import torch
 import pandas as pd
 import time
@@ -12,7 +10,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Carregar modelo e tokenizer do mBART
-model_name = "/home/ubuntu/finetuning_pt_ing/checkpoint-45"
+model_name = "/home/ubuntu/finetuning_fr_en/checkpoint-45"
 tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
 model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
 

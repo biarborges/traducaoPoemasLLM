@@ -19,8 +19,8 @@ print(f"Usando dispositivo: {device}")
 # Caminhos dos arquivos CSV
 poemas_train = "../poemas/train/frances_ingles_train.csv"
 poemas_val = "../poemas/validation/frances_ingles_validation.csv"
-musicas_train = "../musicas/train/frances_ingles_train.csv"
-musicas_val = "../musicas/validation/frances_ingles_validation.csv"
+musicas_train = "../musicas/train/frances_ingles_musics_train.csv"
+musicas_val = "../musicas/validation/frances_ingles_musics_validation.csv"
 
 # Carregar os dados
 df_poemas_train = pd.read_csv(poemas_train).dropna()
