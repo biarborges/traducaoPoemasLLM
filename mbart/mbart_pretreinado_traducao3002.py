@@ -4,7 +4,7 @@ import torch
 import pandas as pd
 import time
 from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
-from tqdm import tqdm  # <- importar tqdm
+from tqdm import tqdm  
 
 start_time = time.time()
 
@@ -13,7 +13,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Carregar modelo e tokenizer do mBART
-model_name = "/home/ubuntu/finetuning_en_fr/checkpoint-111"
+model_name = "/home/ubuntu/finetuning_en_fr/checkpoint-258"
 tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
 model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
 
