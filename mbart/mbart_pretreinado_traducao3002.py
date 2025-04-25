@@ -13,7 +13,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Carregar modelo e tokenizer do mBART
-model_name = "/home/ubuntu/finetuning_en_pt/checkpoint-258"
+model_name = "/home/ubuntu/finetuning_en_pt/checkpoint-252"
 tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
 model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
 
