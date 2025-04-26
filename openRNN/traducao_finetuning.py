@@ -6,12 +6,12 @@ start_time = time.time()
 
 # Configuração dos modelos de tradução
 MODEL_PATHS = {
-    ("en_XX", "pt_XX"): "../openRNN/output_model_duplo/model_step_10000.pt"
+    ("pt_XX", "fr_XX"): "../openRNN/output_model_duplo/model_step_10000.pt"
 
 }
 
-CSV_PATH = "../poemas/test/ingles_portugues_test.csv"
-OUTPUT_CSV = "../poemas/openRNN/finetuning_musics/ingles_portugues.csv"
+CSV_PATH = "../poemas/test/portugues_frances_test.csv"
+OUTPUT_CSV = "../poemas/openRNN/finetuning_musics/portugues_frances.csv"
 
 def traduzir_texto(texto, src, tgt):
     """Traduz um texto usando o modelo adequado"""
