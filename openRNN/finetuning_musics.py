@@ -16,10 +16,10 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Caminhos dos arquivos CSV
-CSV_POEM_TRAIN = "../poemas/train/frances_ingles_train.csv"
-CSV_POEM_VALID = "../poemas/validation/frances_ingles_validation.csv"
-CSV_SONG_TRAIN = "../musicas/train/frances_ingles_musics_train.csv"
-CSV_SONG_VALID = "../musicas/validation/frances_ingles_musics_validation.csv"
+CSV_POEM_TRAIN = "../poemas/train/frances_portugues_train.csv"
+CSV_POEM_VALID = "../poemas/validation/frances_portugues_validation.csv"
+CSV_SONG_TRAIN = "../musicas/train/frances_portugues_musics_train.csv"
+CSV_SONG_VALID = "../musicas/validation/frances_portugues_musics_validation.csv"
 
 # Diretório de saída
 OUTPUT_DIR = "output_data_duplo"
