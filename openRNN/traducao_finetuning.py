@@ -10,8 +10,8 @@ MODEL_PATHS = {
 
 }
 
-CSV_PATH = "../poemas/poemas300/test/portugues_ingles_test.csv"
-OUTPUT_CSV = "../poemas/poemas300/openRNN/portugues_ingles_test_finetuning_openRNN.csv"
+CSV_PATH = "../poemas/test/portugues_ingles_test.csv"
+OUTPUT_CSV = "../poemas/openRNN/portugues_ingles_test_finetuning_openRNN.csv"
 
 def traduzir_texto(texto, src, tgt):
     """Traduz um texto usando o modelo adequado"""

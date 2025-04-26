@@ -1,4 +1,4 @@
-#iual ao 300, só q forçando o bos_token_id para a lingua tgt para garantir a lingua.
+#igual ao 300, só q forçando o bos_token_id para a lingua tgt para garantir a lingua.
 
 import torch
 import pandas as pd
