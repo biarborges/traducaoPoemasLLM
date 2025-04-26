@@ -91,8 +91,18 @@ fp16: true
 
 # Construir vocabulário
 def build_vocab():
-    subprocess.run(["onmt_build_vocab", "-config", "config.yaml", "-n_sample", "-1"], check=True)
-    print("Vocabulário criado!")
+    # First build vocab files with word counts
+    for lang in ['src', 'tgt']:
+        with open(f"{OUTPUT_DIR}/train.{lang}.bpe", "r") as f_in:
+            words = [word for line in f_in for word in line.strip().split()]
+            from collections import Counter
+            word_counts = Counter(words)
+            
+        with open(f"{OUTPUT_DIR}/vocab.{lang}", "w") as f_out:
+            for word, count in word_counts.most_common():
+                f_out.write(f"{word} {count}\n")
+    
+    print("Vocabulário criado com contagens!")
 
 # Treinar
 def train_model():
