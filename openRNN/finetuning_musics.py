@@ -9,6 +9,8 @@ from subword_nmt.apply_bpe import BPE
 
 start_time = time.time()
 
+os.environ.pop("LD_LIBRARY_PATH", None)
+
 # Caminhos dos arquivos CSV
 CSV_POEM_TRAIN = "../poemas/train/frances_ingles_train.csv"
 CSV_POEM_VALID = "../poemas/validation/frances_ingles_validation.csv"
