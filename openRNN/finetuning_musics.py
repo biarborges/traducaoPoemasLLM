@@ -3,13 +3,15 @@ import pandas as pd
 import sacremoses
 import subprocess
 import time
+import torch
 import multiprocessing
 from subword_nmt import learn_bpe
 from subword_nmt.apply_bpe import BPE
 
 start_time = time.time()
 
-os.environ.pop("LD_LIBRARY_PATH", None)
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"Usando dispositivo: {device}")
 
 # Caminhos dos arquivos CSV
 CSV_POEM_TRAIN = "../poemas/train/frances_ingles_train.csv"
