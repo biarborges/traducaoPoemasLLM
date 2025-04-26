@@ -8,7 +8,7 @@ import multiprocessing
 from subword_nmt import learn_bpe
 from subword_nmt.apply_bpe import BPE
 
-os.environ['TORCH_CUDA_VERSION'] = 'cuDNN-8.7.0'
+os.environ['TORCH_CUDA_VERSION'] = ''
 
 start_time = time.time()
 
