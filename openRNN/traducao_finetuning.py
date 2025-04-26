@@ -6,7 +6,7 @@ start_time = time.time()
 
 # Configuração dos modelos de tradução
 MODEL_PATHS = {
-    ("pt_XX", "en_XX"): "../openRNN/output_model_duplo/model_step_10000.pt"
+    ("fr_XX", "en_XX"): "../openRNN/output_model_duplo/model_step_10000.pt"
 
 }
 
