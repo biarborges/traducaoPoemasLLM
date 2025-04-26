@@ -12,8 +12,8 @@ start_time = time.time()
 # Caminhos dos arquivos CSV
 CSV_POEM_TRAIN = "../poemas/train/frances_ingles_train.csv"
 CSV_POEM_VALID = "../poemas/validation/frances_ingles_validation.csv"
-CSV_SONG_TRAIN = "../musicas/train/frances_ingles_train.csv"
-CSV_SONG_VALID = "../musicas/validation/frances_ingles_validation.csv"
+CSV_SONG_TRAIN = "../musicas/train/frances_ingles_musics_train.csv"
+CSV_SONG_VALID = "../musicas/validation/frances_ingles_musics_validation.csv"
 
 # Diretório de saída
 OUTPUT_DIR = "output_data_duplo"
