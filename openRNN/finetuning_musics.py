@@ -8,6 +8,8 @@ import multiprocessing
 from subword_nmt import learn_bpe
 from subword_nmt.apply_bpe import BPE
 
+os.environ['TORCH_CUDA_VERSION'] = 'cuDNN-8.7.0'
+
 start_time = time.time()
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
