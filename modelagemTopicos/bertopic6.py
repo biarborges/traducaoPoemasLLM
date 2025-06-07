@@ -3,12 +3,17 @@ from bertopic import BERTopic
 import torch
 from sentence_transformers import SentenceTransformer
 from sklearn.feature_extraction.text import CountVectorizer
+import nltk
+from nltk.corpus import stopwords
 import os
 import time
 
 def etapa(nome):
     print(f"\n🔧 {nome}...")
     time.sleep(0.5)
+
+nltk.download('stopwords')
+stop_words_fr = stopwords.words('french')
 
 output_dir = "frances_ingles"
 os.makedirs(output_dir, exist_ok=True)
@@ -22,9 +27,8 @@ poemas = df["original_poem"].astype(str).tolist()
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"\n🚀 Usando dispositivo: {device}")
 
-# 3. Configura vectorizer com stopwords do idioma
-language_stopwords = "french"
-vectorizer_model = CountVectorizer(stop_words=language_stopwords)
+# 3. Configura vectorizer com stopwords do francês
+vectorizer_model = CountVectorizer(stop_words=stop_words_fr)
 
 # 4. Carrega modelo embeddings
 etapa("Carregando o modelo de embeddings")
@@ -54,18 +58,18 @@ topic_model.visualize_hierarchy().write_html(os.path.join(output_dir, "bertopic_
 # 9. Salva tópicos em TXT
 etapa("Salvando tópicos em arquivo TXT")
 with open(os.path.join(output_dir, "topicos_bertopic.txt"), "w", encoding="utf-8") as f:
-    f.write(f"Tópicos extraídos com stopwords em: {language_stopwords}\n\n")
+    f.write("Tópicos extraídos com stopwords em francês\n\n")
     topics_info = topic_model.get_topic_info()
     for topic_num in topics_info.Topic:
         if topic_num == -1:
-            continue  # Ignora outliers aqui
+            continue
         f.write(f"Tópico {topic_num}:\n")
         words_probs = topic_model.get_topic(topic_num)
         for word, prob in words_probs:
             f.write(f"  {word} ({prob:.4f})\n")
         f.write("\n")
 
-# 10. Filtra e salva os outliers (topic == -1)
+# 10. Salva outliers
 etapa("Salvando documentos outliers")
 outliers_df = df[df["topic"] == -1]
 outliers_df.to_csv(os.path.join(output_dir, "outliers_poemas.csv"), index=False)
