@@ -1,7 +1,7 @@
 import csv
 
 # Nome do arquivo CSV
-csv_file = "../traducaoPoemasLLM/poemas/maritaca/portugues_ingles_test_maritaca_prompt2_completo.csv"
+csv_file = "../traducaoPoemasLLM/poemas/ingles_portugues_poems.csv"
 
 # Inicializar o contador de poemas
 poem_count = 0
@@ -16,7 +16,7 @@ with open(csv_file, "r", encoding="utf-8") as f:
         row = [col.strip() for col in row]  # Remover espaços antes e depois
         
         # Verificar se a linha tem exatamente 2 colunas e ambas não são vazias
-        if len(row) == 5 and row[0] and row[1] and row[2] and row[3] and row[4]:
+        if len(row) == 4 and row[0] and row[1] and row[2] and row[3]:
             poem_count += 1
 
 print(f"Total de poemas no CSV: {poem_count}")

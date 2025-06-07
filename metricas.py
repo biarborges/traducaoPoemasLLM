@@ -23,7 +23,7 @@ except LookupError:
     nltk.download('punkt_tab')
     nltk.download('wordnet')
 
-input_file = os.path.abspath("../traducaoPoemasLLM/poemas/mariannmt/finetuning_musics/frances_ingles.csv")
+input_file = os.path.abspath("../traducaoPoemasLLM/poemas/openRNN/finetuning_musics/portugues_ingles.csv")
 
 print(f"Arquivo de entrada: {input_file}")
 
