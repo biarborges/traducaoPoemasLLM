@@ -12,7 +12,7 @@ def etapa(nome):
 
 # 1. Carrega os poemas
 etapa("Carregando o dataset")
-df = pd.read_csv("../traducaoPoemasLLM/modelagemTopicos/frances_ingles_poems.csv")  # ajuste o caminho se necessário
+df = pd.read_csv("/home/ubuntu/traducaoPoemasLLM/modelagemTopicos/frances_ingles_poems.csv")  # ajuste o caminho se necessário
 poemas = df["original_poem"].astype(str).tolist()
 
 # 2. Verifica GPU
