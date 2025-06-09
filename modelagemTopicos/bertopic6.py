@@ -22,7 +22,7 @@ def preprocess(text):
     doc = nlp(text)
     tokens = []
     for token in doc:
-        if not token.is_stop and not token.is_punct and not token.like_num and len(token.text) > 3:
+        if not token.is_stop and not token.is_punct and not token.like_num and len(token.text) > 2:
             tokens.append(token.lemma_.lower())
     return " ".join(tokens)
 
