@@ -74,6 +74,6 @@ salvar_topicos_txt(topic_model, txt_path)
 
 print("Gerando visualizações HTML...")
 topic_model.visualize_topics().write_html(os.path.join(DIRETORIO_SAIDA, "visual_topics.html"))
-topic_model.visualize_barchart(top_n_topics=10, n_words=20).write_html(os.path.join(DIRETORIO_SAIDA, "visual_barchart.html"))
+topic_model.visualize_barchart(top_n_topics=10, n_words=10, width=500, height=500).write_html(os.path.join(DIRETORIO_SAIDA, "visual_barchart.html"))
 
 print("✅ Processo finalizado! Veja a pasta:", DIRETORIO_SAIDA)
