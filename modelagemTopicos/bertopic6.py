@@ -83,12 +83,12 @@ print("Gerando gráficos...")
 n_topicos = len(set(topics)) - (1 if -1 in topics else 0)
 
 # Gera o gráfico com todos os tópicos
-fig = topic_model.visualize_barchart(top_n_topics=n_topicos, n_words=10, width=300, height=500)
+fig = topic_model.visualize_barchart(top_n_topics=n_topicos, n_words=5, width=300, height=500)
 
 # Aumenta o tamanho da fonte dos labels
 fig.update_layout(
     font=dict(
-        size=14  # ajuste o tamanho conforme quiser
+        size=16  # ajuste o tamanho conforme quiser
     ),
     yaxis=dict(
         tickfont=dict(size=16)  # aumenta o tamanho da fonte das palavras no eixo Y
