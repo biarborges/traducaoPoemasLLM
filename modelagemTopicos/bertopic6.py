@@ -60,7 +60,7 @@ print("Gerando embeddings...")
 embeddings = embedding_model.encode(poemas_limpos, show_progress_bar=True)
 
 print("Treinando modelo BERTopic...")
-topic_model = BERTopic(language="multilingual", nr_topics=4)
+topic_model = BERTopic(language="multilingual")
 topics, probs = topic_model.fit_transform(poemas_limpos, embeddings)
 
 topic_model_reduced, new_topics = topic_model.reduce_topics(poemas_limpos, topics, nr_topics=4)
