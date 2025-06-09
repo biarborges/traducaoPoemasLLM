@@ -94,7 +94,7 @@ fig.update_layout(
         tickfont=dict(size=16)  # aumenta o tamanho da fonte das palavras no eixo Y
     ),
     xaxis=dict(
-        tickfont=dict(size=14)
+        tickfont=dict(size=16)
     )
 )
 
