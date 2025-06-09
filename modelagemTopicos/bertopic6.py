@@ -109,8 +109,18 @@ pio.write_image(fig, os.path.join(DIRETORIO_SAIDA, "barchart.png"))
 # Frequência dos tópicos
 topic_freq = topic_model.get_topic_freq()
 
-# --- Dados ---
-labels = [f"Topic {t}" for t in topic_freq["topic"]]
+# Remove outlier (-1)
+topic_freq = topic_freq[topic_freq["Topic"] != -1]
+
+# Renomeia as colunas para minúsculo
+topic_freq.columns = [col.lower() for col in topic_freq.columns]  # agora temos "topic" e "count"
+
+# Adiciona coluna de percentual
+total_docs = topic_freq["count"].sum()
+topic_freq["percentual"] = topic_freq["count"] / total_docs * 100
+
+# --- Dados para gráfico ---
+labels = [f"Tópico {t}" for t in topic_freq["topic"]]
 sizes = topic_freq["percentual"]
 
 # --- Plotagem ---
@@ -118,14 +128,15 @@ plt.figure(figsize=(8, 8))
 plt.pie(
     sizes,
     labels=labels,
-    autopct='%1.1f%%',  # mostra a porcentagem com uma casa decimal
+    autopct='%1.1f%%',
     startangle=140,
-    colors=plt.cm.tab20.colors  # opcional: cores variadas
+    colors=plt.cm.tab20.colors
 )
-plt.title("Percentage distribution of topics")
+plt.title("Distribuição percentual dos tópicos")
 plt.tight_layout()
 plt.savefig(os.path.join(DIRETORIO_SAIDA, "distribuicao_topicos_pizza.png"))
 plt.close()
+
 
 
 print("✅ Processo finalizado! Veja a pasta:", DIRETORIO_SAIDA)
