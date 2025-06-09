@@ -12,10 +12,10 @@ from umap import UMAP
 import os
 
 # --- Configurações ---
-CAMINHO_CSV = "ingles_frances_poems.csv"  # ajuste seu arquivo aqui
+CAMINHO_CSV = "ingles_portugues_poems.csv"  # ajuste seu arquivo aqui
 COLUNA_POEMAS = "original_poem"
 LINGUA_SPACY = "en_core_web_sm"  # ex: "pt_core_news_sm", "fr_core_news_sm", "en_core_web_sm"
-DIRETORIO_SAIDA = "ingles_frances"
+DIRETORIO_SAIDA = "ingles_portugues"
 
 # --- Função de pré-processamento com spaCy ---
 print(f"Carregando spaCy modelo: {LINGUA_SPACY} ...")
