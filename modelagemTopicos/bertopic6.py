@@ -96,8 +96,8 @@ topic_freq = topic_model.get_topic_freq()
 # Remove o tópico -1 (outlier), se quiser
 topic_freq = topic_freq[topic_freq.Topic != -1]
 
-# Calcula a porcentagem
-total_docs = topic_freq.Frequency.sum()
+# Calcula a porcentagems
+total_docs = topic_freq.frequency.sum()
 topic_freq["Percentual"] = topic_freq["Frequency"] / total_docs * 100
 
 # Exibe
