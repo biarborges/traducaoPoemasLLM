@@ -87,7 +87,7 @@ pio.write_image(fig, os.path.join(DIRETORIO_SAIDA, "barchart.png"))
 
 #------------------------------------------------------------------------------------------------------------------
 
-umap_embeddings = topic_model.reduce_dimensionality(embeddings)
+umap_embeddings = topic_model.umap_model.transform(embeddings)
 
 # Cria DataFrame com coordenadas UMAP e o número do tópico
 df_umap = pd.DataFrame(umap_embeddings, columns=["x", "y"])
