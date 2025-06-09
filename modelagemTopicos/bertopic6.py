@@ -12,10 +12,10 @@ from umap import UMAP
 import os
 
 # --- Configurações ---
-CAMINHO_CSV = "frances_ingles_poems.csv"  # ajuste seu arquivo aqui
+CAMINHO_CSV = "frances_portugues_poems.csv"  # ajuste seu arquivo aqui
 COLUNA_POEMAS = "original_poem"
 LINGUA_SPACY = "fr_core_news_sm"  # ex: "pt_core_news_sm", "fr_core_news_sm", "en_core_web_sm"
-DIRETORIO_SAIDA = "frances_ingles"
+DIRETORIO_SAIDA = "frances_portugues"
 
 # --- Função de pré-processamento com spaCy ---
 print(f"Carregando spaCy modelo: {LINGUA_SPACY} ...")
@@ -77,8 +77,6 @@ print(f"Salvando Topics em texto legível em {txt_path}...")
 salvar_topicos_txt(topic_model, txt_path)
 
 print("Gerando gráficos...")
-#topic_model.visualize_topics().write_html(os.path.join(DIRETORIO_SAIDA, "visual_topics.html"))
-#topic_model.visualize_barchart(top_n_topics=10, n_words=10, width=500, height=500).write_html(os.path.join(DIRETORIO_SAIDA, "visual_barchart.html"))
 
 n_topicos = len(set(topics)) - (1 if -1 in topics else 0)
 
@@ -113,7 +111,7 @@ topic_freq = topic_model.get_topic_freq()
 topic_freq = topic_freq[topic_freq["Topic"] != -1]
 
 # Renomeia as colunas para minúsculo
-topic_freq.columns = [col.lower() for col in topic_freq.columns]  # agora temos "topic" e "count"
+topic_freq.columns = [col.lower() for col in topic_freq.columns]  
 
 # Adiciona coluna de percentual
 total_docs = topic_freq["count"].sum()
