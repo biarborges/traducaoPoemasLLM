@@ -12,10 +12,10 @@ from umap import UMAP
 import os
 
 # --- Configurações ---
-CAMINHO_CSV = "portugues_ingles_poems.csv"  
+CAMINHO_CSV = "portugues_frances_poems.csv"  
 COLUNA_POEMAS = "original_poem"
 LINGUA_SPACY = "pt_core_news_sm"  # "pt_core_news_sm", "fr_core_news_sm", "en_core_web_sm"
-DIRETORIO_SAIDA = "portugues_ingles"
+DIRETORIO_SAIDA = "portugues_frances"
 
 # --- Função de pré-processamento com spaCy ---
 print(f"Carregando spaCy modelo: {LINGUA_SPACY} ...")
@@ -60,7 +60,7 @@ print("Gerando embeddings...")
 embeddings = embedding_model.encode(poemas_limpos, show_progress_bar=True)
 
 print("Treinando modelo BERTopic...")
-topic_model = BERTopic(language="multilingual")
+topic_model = BERTopic(language="multilingual", nr_topics=4)
 topics, probs = topic_model.fit_transform(poemas_limpos, embeddings)
 
 print("Adicionando Topics ao DataFrame...")
