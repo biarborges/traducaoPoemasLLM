@@ -1,138 +1,152 @@
 import pandas as pd
-from bertopic import BERTopic
-from sentence_transformers import SentenceTransformer
 import torch
 import spacy
 from tqdm import tqdm
-import pandas as pd
 import plotly.express as px
 import plotly.io as pio
-import matplotlib.pyplot as plt
+from umap import UMAP
 import os
+import time
 
-# --- Configurações ---
-CAMINHO_CSV = "frances_ingles_poems.csv"  # ajuste seu arquivo aqui
+from bertopic import BERTopic
+from sentence_transformers import SentenceTransformer
+
+# ==============================================================================
+# CONFIGURAÇÕES
+# ==============================================================================
+CAMINHO_CSV = "frances_ingles_poems.csv"
 COLUNA_POEMAS = "original_poem"
-LINGUA_SPACY = "fr_core_news_sm"  # ex: "pt_core_news_sm", "fr_core_news_sm", "en_core_web_sm"
-DIRETORIO_SAIDA = "frances_ingles"
+LINGUA_SPACY = "fr_core_news_sm"  # pt_core_news_sm, fr_core_news_sm, en_core_web_sm
+MODELO_EMBEDDING = "paraphrase-multilingual-MiniLM-L12-v2"
+DIRETORIO_SAIDA = "resultados_frances_ingles"
 
-# --- Função de pré-processamento com spaCy ---
-print(f"Carregando spaCy modelo: {LINGUA_SPACY} ...")
-nlp = spacy.load(LINGUA_SPACY)
+# Parâmetros do BERTopic
+NR_TOPICOS = 10  # Pode ser um número ou 'auto'
 
-def preprocess(text):
-    doc = nlp(text)
-    tokens = []
-    for token in doc:
-        if not token.is_stop and not token.is_punct and not token.like_num and len(token.text) > 2:
-            tokens.append(token.lemma_.lower())
-    return " ".join(tokens)
+# ==============================================================================
+# FUNÇÕES AUXILIARES
+# ==============================================================================
 
-# --- Função para salvar tópicos legíveis em txt ---
-def salvar_topicos_txt(topic_model, path_txt):
-    with open(path_txt, "w", encoding="utf-8") as f:
+def carregar_spacy(model_name: str):
+    """Carrega o modelo spaCy de forma segura."""
+    try:
+        print(f"Carregando modelo spaCy: {model_name}...")
+        return spacy.load(model_name)
+    except OSError:
+        print(f"❌ Erro: Modelo spaCy '{model_name}' não encontrado.")
+        print(f"Por favor, execute: python -m spacy download {model_name}")
+        exit()
+
+def preprocessar_textos(textos: list, nlp) -> list:
+    """Limpa e pré-processa uma lista de textos usando spaCy."""
+    poemas_limpos = []
+    for doc in tqdm(nlp.pipe(textos), total=len(textos), desc="Pré-processando textos"):
+        tokens = [
+            token.lemma_.lower()
+            for token in doc
+            if not token.is_stop and not token.is_punct and not token.like_num and len(token.text) > 2
+        ]
+        poemas_limpos.append(" ".join(tokens))
+    return poemas_limpos
+
+def salvar_topicos_txt(topic_model: BERTopic, path: str):
+    """Salva os tópicos e suas palavras em um arquivo de texto."""
+    print(f"Salvando tópicos legíveis em: {path}")
+    with open(path, "w", encoding="utf-8") as f:
         for topic_num in topic_model.get_topic_freq().Topic:
-            if topic_num == -1:  # tópico outlier
+            if topic_num == -1:
                 continue
             palavras = topic_model.get_topic(topic_num)
             palavras_str = ", ".join([p[0] for p in palavras])
             f.write(f"Tópico {topic_num}: {palavras_str}\n")
 
-# --- MAIN ---
+def gerar_visualizacoes(topic_model: BERTopic, embeddings: list, topics: list, df: pd.DataFrame):
+    """Gera e salva todas as visualizações do modelo."""
+    print("Gerando e salvando visualizações...")
+    
+    # Gráfico de barras das palavras dos tópicos
+    fig_bar = topic_model.visualize_barchart(top_n_topics=NR_TOPICOS, n_words=10, height=400)
+    pio.write_image(fig_bar, os.path.join(DIRETORIO_SAIDA, "grafico_barras_topicos.png"), scale=2)
 
-print("Carregando dataset...")
-df = pd.read_csv(CAMINHO_CSV)
-poemas = df[COLUNA_POEMAS].astype(str).tolist()
+    # Gráfico de distribuição UMAP 2D
+    print("Gerando projeção UMAP 2D para visualização...")
+    # Criamos um UMAP *novo* para 2D, pois o do BERTopic é 5D por padrão.
+    umap_2d = UMAP(n_components=2, n_neighbors=15, min_dist=0.0, random_state=42)
+    projecao_2d = umap_2d.fit_transform(embeddings)
 
-print("Pré-processando poemas (com spaCy)...")
-poemas_limpos = []
-for p in tqdm(poemas, desc="Preprocessando"):
-    poemas_limpos.append(preprocess(p))
+    df_umap = pd.DataFrame(projecao_2d, columns=["x", "y"])
+    df_umap["Tópico"] = [f"Tópico {t}" if t != -1 else "Outlier" for t in topics]
+    
+    fig_umap = px.scatter(
+        df_umap[df_umap["Tópico"] != "Outlier"],
+        x="x", y="y", color="Tópico",
+        title="Distribuição de Tópicos (UMAP 2D)",
+        labels={"x": "UMAP-1", "y": "UMAP-2"}
+    )
+    fig_umap.update_traces(marker=dict(size=5))
+    pio.write_image(fig_umap, os.path.join(DIRETORIO_SAIDA, "grafico_dispersao_umap.png"), scale=2)
 
-device = "cuda" if torch.cuda.is_available() else "cpu"
-print(f"Usando dispositivo para embeddings: {device}")
+    # Gráfico de distribuição de tópicos (frequência)
+    frequencia = df["topic"].value_counts(normalize=True).rename_axis('Tópico').reset_index(name='Proporção')
+    frequencia = frequencia[frequencia["Tópico"] != -1].sort_values(by="Tópico")
+    frequencia["Tópico"] = frequencia["Tópico"].astype(str)
 
-print("Carregando modelo de embeddings...")
-embedding_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2", device=device)
+    fig_dist = px.bar(
+        frequencia, x="Tópico", y="Proporção",
+        title="Distribuição de Documentos por Tópico",
+        text_auto=".2%"
+    )
+    fig_dist.update_layout(yaxis_title="Proporção de Documentos", xaxis_title="Tópico")
+    pio.write_image(fig_dist, os.path.join(DIRETORIO_SAIDA, "grafico_distribuicao_topicos.png"), scale=2)
 
-print("Gerando embeddings...")
-embeddings = embedding_model.encode(poemas_limpos, show_progress_bar=True)
+# ==============================================================================
+# FLUXO PRINCIPAL
+# ==============================================================================
 
-print("Treinando modelo BERTopic...")
-topic_model = BERTopic(language="multilingual", nr_topics=5)
-topics, probs = topic_model.fit_transform(poemas_limpos, embeddings)
+def main():
+    """Executa o pipeline completo de modelagem de tópicos."""
+    
+    # Cria diretório de saída
+    os.makedirs(DIRETORIO_SAIDA, exist_ok=True)
+    
+    # Carrega modelo spaCy
+    nlp = carregar_spacy(LINGUA_SPACY)
 
-print("Adicionando tópicos ao DataFrame...")
-df["topic"] = topics
+    # Carrega e pré-processa os dados
+    print(f"Carregando dataset de: {CAMINHO_CSV}")
+    df = pd.read_csv(CAMINHO_CSV)
+    poemas_originais = df[COLUNA_POEMAS].dropna().astype(str).tolist()
+    poemas_limpos = preprocessar_textos(poemas_originais, nlp)
+    
+    # Configura dispositivo para PyTorch
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    print(f"Usando dispositivo para embeddings: {device.upper()}")
+    
+    # Gera embeddings
+    print(f"Carregando modelo de embedding: {MODELO_EMBEDDING}")
+    embedding_model = SentenceTransformer(MODELO_EMBEDDING, device=device)
+    embeddings = embedding_model.encode(poemas_limpos, show_progress_bar=True)
+    
+    # Treina modelo BERTopic
+    print("Treinando modelo BERTopic...")
+    topic_model = BERTopic(language="multilingual", nr_topics=NR_TOPICOS)
+    topics, probs = topic_model.fit_transform(poemas_limpos, embeddings)
+    
+    # Salva resultados
+    df["topic"] = topics
+    df["preprocessed_poem"] = poemas_limpos
+    
+    csv_path = os.path.join(DIRETORIO_SAIDA, "poemas_com_topicos.csv")
+    print(f"Salvando CSV completo em: {csv_path}")
+    df.to_csv(csv_path, index=False)
+    
+    salvar_topicos_txt(topic_model, os.path.join(DIRETORIO_SAIDA, "lista_topicos.txt"))
+    
+    # Gera as visualizações
+    gerar_visualizacoes(topic_model, embeddings, topics, df)
+    
+    print("\n✅ Processo finalizado com sucesso!")
+    print(f"Todos os resultados foram salvos na pasta: '{DIRETORIO_SAIDA}'")
 
-os.makedirs(DIRETORIO_SAIDA, exist_ok=True)
-
-csv_path = os.path.join(DIRETORIO_SAIDA, "poemas_com_topicos.csv")
-print(f"Salvando CSV em {csv_path}...")
-df.to_csv(csv_path, index=False)
-
-txt_path = os.path.join(DIRETORIO_SAIDA, "topicos.txt")
-print(f"Salvando tópicos em texto legível em {txt_path}...")
-salvar_topicos_txt(topic_model, txt_path)
-
-print("Gerando gráficos...")
-#topic_model.visualize_topics().write_html(os.path.join(DIRETORIO_SAIDA, "visual_topics.html"))
-#topic_model.visualize_barchart(top_n_topics=10, n_words=10, width=500, height=500).write_html(os.path.join(DIRETORIO_SAIDA, "visual_barchart.html"))
-
-fig = topic_model.visualize_barchart(top_n_topics=5, n_words=5, width=200, height=350)
-pio.write_image(fig, os.path.join(DIRETORIO_SAIDA, "barchart.png"))
-
-#fig = topic_model.visualize_topics()
-#pio.write_image(fig, os.path.join(DIRETORIO_SAIDA, "topics.png"))
-
-#------------------------------------------------------------------------------------------------------------------
-
-umap_embeddings = topic_model.umap_model.transform(embeddings)
-
-# Cria DataFrame com coordenadas UMAP e o número do tópico
-df_umap = pd.DataFrame(umap_embeddings, columns=["x", "y"])
-df_umap["Tópico"] = [f"Tópico {t}" if t != -1 else "Outlier" for t in topics]
-df_umap = df_umap[df_umap["Tópico"] != "Outlier"]
-
-# Cria gráfico de dispersão colorido por tópico
-fig = px.scatter(
-    df_umap,
-    x="x",
-    y="y",
-    color="Tópico",
-    title="Distribuição dos Tópicos com UMAP",
-    labels={"x": "UMAP-1", "y": "UMAP-2"},
-)
-
-# Ajusta tamanho dos pontos e layout
-fig.update_traces(marker=dict(size=5))
-fig.update_layout(
-    width=800,
-    height=600,
-    legend_title="Tópicos"
-)
-
-# Salva como imagem estática
-pio.write_image(fig, os.path.join(DIRETORIO_SAIDA, "umap_topicos.png"))
-
-#-----------------------------------------------------------------------------------
-# Frequência de cada tópico (excluindo outliers)
-frequencia_topicos = df["topic"].value_counts(normalize=True)  # porcentagem
-frequencia_topicos = frequencia_topicos[frequencia_topicos.index != -1]
-
-# Converte para rótulos legíveis
-frequencia_topicos.index = [f"Tópico {i}" for i in frequencia_topicos.index]
-
-# Plota
-plt.figure(figsize=(10, 5))
-frequencia_topicos.plot(kind="bar", color="skyblue")
-plt.ylabel("Proporção")
-plt.title("Distribuição de Tópicos (%)")
-plt.xticks(rotation=45)
-plt.tight_layout()
-plt.savefig(os.path.join(DIRETORIO_SAIDA, "distribuicao_topicos_barra.png"))
-plt.close()
-
-#----------------------------------------------------------------------------------------
-
-print("✅ Processo finalizado! Veja a pasta:", DIRETORIO_SAIDA)
+if __name__ == "__main__":
+    main()
