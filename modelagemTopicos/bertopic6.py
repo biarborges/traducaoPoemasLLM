@@ -4,6 +4,7 @@ from sentence_transformers import SentenceTransformer
 import torch
 import spacy
 from tqdm import tqdm
+import plotly.io as pio
 import time
 import os
 
@@ -72,8 +73,14 @@ txt_path = os.path.join(DIRETORIO_SAIDA, "topicos.txt")
 print(f"Salvando tópicos em texto legível em {txt_path}...")
 salvar_topicos_txt(topic_model, txt_path)
 
-print("Gerando visualizações HTML...")
-topic_model.visualize_topics().write_html(os.path.join(DIRETORIO_SAIDA, "visual_topics.html"))
-topic_model.visualize_barchart(top_n_topics=10, n_words=10, width=500, height=500).write_html(os.path.join(DIRETORIO_SAIDA, "visual_barchart.html"))
+print("Gerando gráficos...")
+#topic_model.visualize_topics().write_html(os.path.join(DIRETORIO_SAIDA, "visual_topics.html"))
+#topic_model.visualize_barchart(top_n_topics=10, n_words=10, width=500, height=500).write_html(os.path.join(DIRETORIO_SAIDA, "visual_barchart.html"))
+
+fig = topic_model.visualize_barchart(top_n_topics=10, n_words=10, width=500, height=500)
+pio.write_image(fig, os.path.join(DIRETORIO_SAIDA, "barchart.png"))
+
+fig = topic_model.visualize_topics()
+pio.write_image(fig, os.path.join(DIRETORIO_SAIDA, "topics.png"))
 
 print("✅ Processo finalizado! Veja a pasta:", DIRETORIO_SAIDA)
