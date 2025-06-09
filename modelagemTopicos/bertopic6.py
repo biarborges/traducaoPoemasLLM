@@ -91,29 +91,28 @@ pio.write_image(fig, os.path.join(DIRETORIO_SAIDA, "barchart.png"))
 
 #-------------------------------------------------------------------------------------------------------------------------
 
+# Frequência dos tópicos
 topic_freq = topic_model.get_topic_freq()
 
-# Remove o tópico -1 (outlier), se quiser
-topic_freq = topic_freq[topic_freq.Topic != -1]
+# Remove o outlier (-1)
+topic_freq = topic_freq[topic_freq["Topic"] != -1]
 
-# Calcula a porcentagems
-total_docs = topic_freq.frequency.sum()
-topic_freq["Percentual"] = topic_freq["Frequency"] / total_docs * 100
+# Renomeia a coluna corretamente se necessário
+topic_freq.columns = [col.lower() for col in topic_freq.columns]  # garante lowercase
+total_docs = topic_freq["count"].sum()
+topic_freq["percentual"] = topic_freq["count"] / total_docs * 100
 
-# Exibe
-print(topic_freq)
+# Ordena decrescentemente
+topic_freq = topic_freq.sort_values("percentual", ascending=False)
 
-# (Opcional) Salva em CSV
-topic_freq.to_csv(os.path.join(DIRETORIO_SAIDA, "frequencia_topicos.csv"), index=False)
-
-# Gráfico de barras
+# --- Plotagem ---
 plt.figure(figsize=(10, 6))
-plt.bar([f"Tópico {i}" for i in topic_freq["Topic"]], topic_freq["Percentual"], color='skyblue')
-plt.ylabel("Percentual (%)")
-plt.title("Distribuição dos Tópicos na Coleção")
-plt.xticks(rotation=45)
+plt.barh([f"Tópico {t}" for t in topic_freq["topic"]], topic_freq["percentual"], color='skyblue')
+plt.xlabel("Porcentagem dos documentos (%)")
+plt.title("Distribuição dos Tópicos")
+plt.gca().invert_yaxis()  # tópicos mais frequentes no topo
 plt.tight_layout()
-plt.savefig(os.path.join(DIRETORIO_SAIDA, "grafico_barras_topicos.png"))
+plt.savefig(os.path.join(DIRETORIO_SAIDA, "distribuicao_topicos.png"))
 plt.close()
 
 
