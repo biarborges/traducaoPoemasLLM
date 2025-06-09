@@ -83,7 +83,22 @@ print("Gerando gráficos...")
 n_topicos = len(set(topics)) - (1 if -1 in topics else 0)
 
 # Gera o gráfico com todos os tópicos
-fig = topic_model.visualize_barchart(top_n_topics=n_topicos, n_words=5, width=800, height=500)
+fig = topic_model.visualize_barchart(top_n_topics=n_topicos, n_words=5, width=300, height=500)
+
+# Aumenta o tamanho da fonte dos labels
+fig.update_layout(
+    font=dict(
+        size=14  # ajuste o tamanho conforme quiser
+    ),
+    yaxis=dict(
+        tickfont=dict(size=16)  # aumenta o tamanho da fonte das palavras no eixo Y
+    ),
+    xaxis=dict(
+        tickfont=dict(size=14)
+    )
+)
+
+
 pio.write_image(fig, os.path.join(DIRETORIO_SAIDA, "barchart.png"))
 
 #fig = topic_model.visualize_topics()
@@ -94,25 +109,22 @@ pio.write_image(fig, os.path.join(DIRETORIO_SAIDA, "barchart.png"))
 # Frequência dos tópicos
 topic_freq = topic_model.get_topic_freq()
 
-# Remove o outlier (-1)
-topic_freq = topic_freq[topic_freq["Topic"] != -1]
-
-# Renomeia a coluna corretamente se necessário
-topic_freq.columns = [col.lower() for col in topic_freq.columns]  # garante lowercase
-total_docs = topic_freq["count"].sum()
-topic_freq["percentual"] = topic_freq["count"] / total_docs * 100
-
-# Ordena decrescentemente
-topic_freq = topic_freq.sort_values("percentual", ascending=False)
+# --- Dados ---
+labels = [f"Topic {t}" for t in topic_freq["topic"]]
+sizes = topic_freq["percentual"]
 
 # --- Plotagem ---
-plt.figure(figsize=(10, 6))
-plt.barh([f"Tópico {t}" for t in topic_freq["topic"]], topic_freq["percentual"], color='skyblue')
-plt.xlabel("Porcentagem dos documentos (%)")
-plt.title("Distribuição dos Tópicos")
-plt.gca().invert_yaxis()  # tópicos mais frequentes no topo
+plt.figure(figsize=(8, 8))
+plt.pie(
+    sizes,
+    labels=labels,
+    autopct='%1.1f%%',  # mostra a porcentagem com uma casa decimal
+    startangle=140,
+    colors=plt.cm.tab20.colors  # opcional: cores variadas
+)
+plt.title("Percentage distribution of topics")
 plt.tight_layout()
-plt.savefig(os.path.join(DIRETORIO_SAIDA, "distribuicao_topicos.png"))
+plt.savefig(os.path.join(DIRETORIO_SAIDA, "distribuicao_topicos_pizza.png"))
 plt.close()
 
 
