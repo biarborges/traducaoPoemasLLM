@@ -62,17 +62,26 @@ embeddings = embedding_model.encode(poemas_limpos, show_progress_bar=True)
 
 print("Treinando modelo BERTopic...")
 # Ajuste: min_cluster_size pequeno → mais tópicos
-hdbscan_model = HDBSCAN(min_cluster_size=15, min_samples=5, metric='euclidean', prediction_data=True)
+hdbscan_model = HDBSCAN(min_cluster_size=6, min_samples=2, metric='euclidean', prediction_data=True)
 
 # Usa o modelo HDBSCAN no BERTopic
 topic_model = BERTopic(language="multilingual", hdbscan_model=hdbscan_model)
 #topic_model = BERTopic(language="multilingual")
 topics, probs = topic_model.fit_transform(poemas_limpos, embeddings)
 
+topic_model_reduced, new_topics = topic_model.reduce_topics(
+    documents=poemas_limpos,
+    topics=topics,
+    nr_topics=4
+)
+
+topic_model = topic_model_reduced
 
 
 print("Adicionando Topics ao DataFrame...")
-df["topic"] = topics
+#df["topic"] = topics
+df["topic"] = new_topics
+
 
 os.makedirs(DIRETORIO_SAIDA, exist_ok=True)
 
