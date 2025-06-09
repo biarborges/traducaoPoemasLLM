@@ -4,8 +4,10 @@ from sentence_transformers import SentenceTransformer
 import torch
 import spacy
 from tqdm import tqdm
+import pandas as pd
+import plotly.express as px
 import plotly.io as pio
-import time
+import matplotlib.pyplot as plt
 import os
 
 # --- Configurações ---
@@ -57,7 +59,7 @@ print("Gerando embeddings...")
 embeddings = embedding_model.encode(poemas_limpos, show_progress_bar=True)
 
 print("Treinando modelo BERTopic...")
-topic_model = BERTopic(language="multilingual")
+topic_model = BERTopic(language="multilingual", nr_topics=5)
 topics, probs = topic_model.fit_transform(poemas_limpos, embeddings)
 
 print("Adicionando tópicos ao DataFrame...")
@@ -77,10 +79,60 @@ print("Gerando gráficos...")
 #topic_model.visualize_topics().write_html(os.path.join(DIRETORIO_SAIDA, "visual_topics.html"))
 #topic_model.visualize_barchart(top_n_topics=10, n_words=10, width=500, height=500).write_html(os.path.join(DIRETORIO_SAIDA, "visual_barchart.html"))
 
-fig = topic_model.visualize_barchart(top_n_topics=5, n_words=5, width=300, height=300)
+fig = topic_model.visualize_barchart(top_n_topics=5, n_words=5, width=200, height=350)
 pio.write_image(fig, os.path.join(DIRETORIO_SAIDA, "barchart.png"))
 
-fig = topic_model.visualize_topics()
-pio.write_image(fig, os.path.join(DIRETORIO_SAIDA, "topics.png"))
+#fig = topic_model.visualize_topics()
+#pio.write_image(fig, os.path.join(DIRETORIO_SAIDA, "topics.png"))
+
+#------------------------------------------------------------------------------------------------------------------
+
+umap_embeddings = topic_model.reduce_dimensionality(embeddings)
+
+# Cria DataFrame com coordenadas UMAP e o número do tópico
+df_umap = pd.DataFrame(umap_embeddings, columns=["x", "y"])
+df_umap["Tópico"] = [f"Tópico {t}" if t != -1 else "Outlier" for t in topics]
+df_umap = df_umap[df_umap["Tópico"] != "Outlier"]
+
+# Cria gráfico de dispersão colorido por tópico
+fig = px.scatter(
+    df_umap,
+    x="x",
+    y="y",
+    color="Tópico",
+    title="Distribuição dos Tópicos com UMAP",
+    labels={"x": "UMAP-1", "y": "UMAP-2"},
+)
+
+# Ajusta tamanho dos pontos e layout
+fig.update_traces(marker=dict(size=5))
+fig.update_layout(
+    width=800,
+    height=600,
+    legend_title="Tópicos"
+)
+
+# Salva como imagem estática
+pio.write_image(fig, os.path.join(DIRETORIO_SAIDA, "umap_topicos.png"))
+
+#-----------------------------------------------------------------------------------
+# Frequência de cada tópico (excluindo outliers)
+frequencia_topicos = df["topic"].value_counts(normalize=True)  # porcentagem
+frequencia_topicos = frequencia_topicos[frequencia_topicos.index != -1]
+
+# Converte para rótulos legíveis
+frequencia_topicos.index = [f"Tópico {i}" for i in frequencia_topicos.index]
+
+# Plota
+plt.figure(figsize=(10, 5))
+frequencia_topicos.plot(kind="bar", color="skyblue")
+plt.ylabel("Proporção")
+plt.title("Distribuição de Tópicos (%)")
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig(os.path.join(DIRETORIO_SAIDA, "distribuicao_topicos_barra.png"))
+plt.close()
+
+#----------------------------------------------------------------------------------------
 
 print("✅ Processo finalizado! Veja a pasta:", DIRETORIO_SAIDA)
