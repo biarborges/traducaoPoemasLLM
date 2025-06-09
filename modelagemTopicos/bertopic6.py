@@ -65,7 +65,7 @@ print("Treinando modelo BERTopic...")
 hdbscan_model = HDBSCAN(min_cluster_size=6, min_samples=2, metric='euclidean', prediction_data=True)
 
 # Usa o modelo HDBSCAN no BERTopic
-topic_model = BERTopic(language="multilingual", hdbscan_model=hdbscan_model, nr_topics=4)
+topic_model = BERTopic(language="multilingual", hdbscan_model=hdbscan_model)
 #topic_model = BERTopic(language="multilingual")
 topics, probs = topic_model.fit_transform(poemas_limpos, embeddings)
 
