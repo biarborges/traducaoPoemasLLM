@@ -22,7 +22,7 @@ def preprocess(text):
     doc = nlp(text)
     tokens = []
     for token in doc:
-        if not token.is_stop and not token.is_punct and not token.like_num and len(token.text) > 2:
+        if not token.is_stop and not token.is_punct and not token.like_num and len(token.text) > 3:
             tokens.append(token.lemma_.lower())
     return " ".join(tokens)
 
@@ -77,7 +77,7 @@ print("Gerando gráficos...")
 #topic_model.visualize_topics().write_html(os.path.join(DIRETORIO_SAIDA, "visual_topics.html"))
 #topic_model.visualize_barchart(top_n_topics=10, n_words=10, width=500, height=500).write_html(os.path.join(DIRETORIO_SAIDA, "visual_barchart.html"))
 
-fig = topic_model.visualize_barchart(top_n_topics=10, n_words=5, width=300, height=500)
+fig = topic_model.visualize_barchart(top_n_topics=5, n_words=5, width=300, height=300)
 pio.write_image(fig, os.path.join(DIRETORIO_SAIDA, "barchart.png"))
 
 fig = topic_model.visualize_topics()
