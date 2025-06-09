@@ -69,11 +69,8 @@ topic_model = BERTopic(language="multilingual", hdbscan_model=hdbscan_model)
 #topic_model = BERTopic(language="multilingual")
 topics, probs = topic_model.fit_transform(poemas_limpos, embeddings)
 
-topic_model_reduced, new_topics = topic_model.reduce_topics(
-    documents=poemas_limpos,
-    topics=topics,
-    nr_topics=4
-)
+topic_model_reduced, new_topics = topic_model.reduce_topics(poemas_limpos, topics, 4)
+
 
 topic_model = topic_model_reduced
 
