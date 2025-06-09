@@ -62,12 +62,10 @@ embeddings = embedding_model.encode(poemas_limpos, show_progress_bar=True)
 
 print("Treinando modelo BERTopic...")
 # Ajuste: min_cluster_size pequeno → mais tópicos
-hdbscan_model = HDBSCAN(min_cluster_size=5, min_samples=1, metric='euclidean', prediction_data=True)
+hdbscan_model = HDBSCAN(min_cluster_size=15, min_samples=5, metric='euclidean', prediction_data=True)
 
 # Usa o modelo HDBSCAN no BERTopic
 topic_model = BERTopic(language="multilingual", hdbscan_model=hdbscan_model)
-
-
 #topic_model = BERTopic(language="multilingual")
 topics, probs = topic_model.fit_transform(poemas_limpos, embeddings)
 
