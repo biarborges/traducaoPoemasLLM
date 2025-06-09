@@ -11,7 +11,7 @@ import os
 CAMINHO_CSV = "frances_ingles_poems.csv"  # ajuste seu arquivo aqui
 COLUNA_POEMAS = "original_poem"
 LINGUA_SPACY = "fr_core_news_sm"  # ex: "pt_core_news_sm", "fr_core_news_sm", "en_core_web_sm"
-DIRETORIO_SAIDA = "saida_bertopic"
+DIRETORIO_SAIDA = "frances_ingles"
 
 # --- Função de pré-processamento com spaCy ---
 print(f"Carregando spaCy modelo: {LINGUA_SPACY} ...")
@@ -74,8 +74,6 @@ salvar_topicos_txt(topic_model, txt_path)
 
 print("Gerando visualizações HTML...")
 topic_model.visualize_topics().write_html(os.path.join(DIRETORIO_SAIDA, "visual_topics.html"))
-topic_model.visualize_barchart(top_n_topics=10).write_html(os.path.join(DIRETORIO_SAIDA, "visual_barchart.html"))
-topic_model.visualize_heatmap().write_html(os.path.join(DIRETORIO_SAIDA, "visual_heatmap.html"))
-topic_model.visualize_hierarchy().write_html(os.path.join(DIRETORIO_SAIDA, "visual_hierarchy.html"))
+topic_model.visualize_barchart(top_n_topics=10, n_words=20).write_html(os.path.join(DIRETORIO_SAIDA, "visual_barchart.html"))
 
 print("✅ Processo finalizado! Veja a pasta:", DIRETORIO_SAIDA)
