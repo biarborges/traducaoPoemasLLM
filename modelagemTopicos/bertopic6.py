@@ -10,6 +10,7 @@ import plotly.io as pio
 import matplotlib.pyplot as plt
 from umap import UMAP
 import os
+from hdbscan import HDBSCAN
 
 # --- Configurações ---
 CAMINHO_CSV = "portugues_frances_poems.csv"  
@@ -60,17 +61,21 @@ print("Gerando embeddings...")
 embeddings = embedding_model.encode(poemas_limpos, show_progress_bar=True)
 
 print("Treinando modelo BERTopic...")
-topic_model = BERTopic(language="multilingual")
+# Ajuste: min_cluster_size pequeno → mais tópicos
+hdbscan_model = HDBSCAN(min_cluster_size=5, min_samples=1, metric='euclidean', prediction_data=True)
+
+# Usa o modelo HDBSCAN no BERTopic
+topic_model = BERTopic(language="multilingual", hdbscan_model=hdbscan_model)
+
+
+#topic_model = BERTopic(language="multilingual")
 topics, probs = topic_model.fit_transform(poemas_limpos, embeddings)
 
 topic_model_reduced, new_topics = topic_model.reduce_topics(poemas_limpos, topics, nr_topics=4)
 
-# 4. Substitui o modelo original pelo reduzido (opcional, para facilitar o uso a seguir)
-topic_model = topic_model_reduced #APENAS PARA PT FR
 
 print("Adicionando Topics ao DataFrame...")
-df["topic"] = new_topics
-#df["topic"] = topics
+df["topic"] = topics
 
 os.makedirs(DIRETORIO_SAIDA, exist_ok=True)
 
