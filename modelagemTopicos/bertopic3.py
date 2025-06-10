@@ -16,8 +16,8 @@ from wordcloud import WordCloud
 # --- Configurações ---
 CAMINHO_CSV = "poemas_unificados.csv"  
 COLUNA_POEMAS = "original_poem"
-LINGUA_SPACY = "pt_core_news_sm"  # "pt_core_news_sm", "fr_core_news_sm", "en_core_web_sm"
-DIRETORIO_SAIDA = "portugues"
+LINGUA_SPACY = "en_core_web_sm"  # "pt_core_news_sm", "fr_core_news_sm", "en_core_web_sm"
+DIRETORIO_SAIDA = "ingles"
 
 # --- Função de pré-processamento com spaCy ---
 print(f"Carregando spaCy modelo: {LINGUA_SPACY} ...")
@@ -45,7 +45,7 @@ def salvar_topicos_txt(topic_model, path_txt):
 
 print("Carregando dataset...")
 df = pd.read_csv(CAMINHO_CSV)
-df = df[df["src_lang"] == "pt_XX"].reset_index(drop=True)
+df = df[df["src_lang"] == "en_XX"].reset_index(drop=True)
 poemas = df[COLUNA_POEMAS].astype(str).tolist()
 
 print("Pré-processando poemas (com spaCy)...")
