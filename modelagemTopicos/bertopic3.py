@@ -14,7 +14,7 @@ from hdbscan import HDBSCAN
 
 # --- 1. CONFIGURAÇÕES ---
 # Defina a língua que você quer analisar. Use 'fr', 'pt' ou 'en'.
-LINGUA_ALVO = "fr" 
+LINGUA_ALVO = "fr_XX" 
 
 # O script vai configurar o resto automaticamente com base na LINGUA_ALVO
 CAMINHO_CSV = "poemas_unificados.csv"
@@ -23,9 +23,9 @@ COLUNA_LINGUA = "src_lang"
 
 # Mapeamento para configurar o spaCy e o BERTopic
 CONFIG_LINGUAS = {
-    "fr": {"spacy": "fr_core_news_sm", "bertopic": "french"},
-    "pt": {"spacy": "pt_core_news_sm", "bertopic": "portuguese"},
-    "en": {"spacy": "en_core_web_sm", "bertopic": "english"}
+    "fr_XX": {"spacy": "fr_core_news_sm", "bertopic": "french"},
+    "pt_XX": {"spacy": "pt_core_news_sm", "bertopic": "portuguese"},
+    "en_XX": {"spacy": "en_core_web_sm", "bertopic": "english"}
 }
 
 # Verifica se a lingua_alvo é válida
