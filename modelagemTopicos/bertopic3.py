@@ -44,9 +44,17 @@ def salvar_topicos_txt(topic_model, path_txt):
 
 print("Carregando dataset...")
 df = pd.read_csv(CAMINHO_CSV)
-# --- Filtra apenas os poemas em francês ---
-df = df[df["src_lang"] == "fr"].reset_index(drop=True) #"fr" "pt" "en" 
+
+# Filtra apenas os poemas em francês
+df = df[df["src_lang"] == "fr"].reset_index(drop=True)
+
+# Remove linhas com poemas nulos ou vazios
+df = df[df[COLUNA_POEMAS].notnull()]
+df = df[df[COLUNA_POEMAS].str.strip() != ""]
+
+# Converte explicitamente para string
 poemas = df[COLUNA_POEMAS].astype(str).tolist()
+
 
 
 print("Pré-processando poemas (com spaCy)...")
