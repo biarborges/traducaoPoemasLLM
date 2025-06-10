@@ -1,10 +1,11 @@
-#BERTSCORE
 import torch
 import os
 import pandas as pd
 from bert_score import score
+import transformers
 
-import os
+# Define o nível de "verbosidade" do transformers para apenas mostrar erros.
+transformers.utils.logging.set_verbosity_error()
 
 input_file = os.path.abspath("../modelagemTopicos/results/frances_ingles_original/chatGPTPrompt1/topico_0.csv")
 lang = "en"
