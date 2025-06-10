@@ -14,10 +14,10 @@ from hdbscan import HDBSCAN
 from wordcloud import WordCloud
 
 # --- Configurações ---
-CAMINHO_CSV = "frances_ingles_poems.csv"  
+CAMINHO_CSV = "frances_portugues_poems.csv"  
 COLUNA_POEMAS = "original_poem"
 LINGUA_SPACY = "fr_core_news_sm"  # "pt_core_news_sm", "fr_core_news_sm", "en_core_web_sm"
-DIRETORIO_SAIDA = "frances_ingles_original"
+DIRETORIO_SAIDA = "frances_portugues_original"
 
 # --- Função de pré-processamento com spaCy ---
 print(f"Carregando spaCy modelo: {LINGUA_SPACY} ...")
