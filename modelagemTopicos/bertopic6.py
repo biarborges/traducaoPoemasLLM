@@ -13,10 +13,10 @@ import os
 from hdbscan import HDBSCAN
 
 # --- Configurações ---
-CAMINHO_CSV = "poemas_unificados.csv"  
+CAMINHO_CSV = "portugues_frances_poems.csv"  
 COLUNA_POEMAS = "original_poem"
-LINGUA_SPACY = "fr_core_news_sm"  # "pt_core_news_sm", "fr_core_news_sm", "en_core_web_sm"
-DIRETORIO_SAIDA = "frances"
+LINGUA_SPACY = "pt_core_news_sm"  # "pt_core_news_sm", "fr_core_news_sm", "en_core_web_sm"
+DIRETORIO_SAIDA = "portugues_frances"
 
 # --- Função de pré-processamento com spaCy ---
 print(f"Carregando spaCy modelo: {LINGUA_SPACY} ...")

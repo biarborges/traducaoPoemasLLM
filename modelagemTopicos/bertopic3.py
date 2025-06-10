@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 from umap import UMAP
 import os
 from hdbscan import HDBSCAN
+from wordcloud import WordCloud
 
 # --- Configurações ---
 CAMINHO_CSV = "poemas_unificados.csv"  
@@ -142,6 +143,28 @@ plt.title("Distribuição percentual dos tópicos")
 plt.tight_layout()
 plt.savefig(os.path.join(DIRETORIO_SAIDA, "distribuicao_topicos_pizza.png"))
 plt.close()
+
+#--------------------------------------------------------------------------------------------------------------------------
+
+print("Gerando nuvem de palavras geral...")
+
+# Junta todos os poemas pré-processados em uma string
+texto_geral = " ".join(poemas_limpos)
+
+# Cria a nuvem
+wc_geral = WordCloud(
+    width=1000,
+    height=500,
+    background_color='white',
+    colormap='viridis'
+).generate(texto_geral)
+
+# Salva a imagem
+caminho_wc_geral = os.path.join(DIRETORIO_SAIDA, "nuvem_palavras_geral.png")
+wc_geral.to_file(caminho_wc_geral)
+
+print("✅ Nuvem geral salva em:", caminho_wc_geral)
+
 
 
 
