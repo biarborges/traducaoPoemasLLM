@@ -13,10 +13,10 @@ import os
 from hdbscan import HDBSCAN
 
 # --- Configurações ---
-CAMINHO_CSV = "portugues_frances_poems.csv"  
+CAMINHO_CSV = "poemas_unificados.csv"  
 COLUNA_POEMAS = "original_poem"
-LINGUA_SPACY = "pt_core_news_sm"  # "pt_core_news_sm", "fr_core_news_sm", "en_core_web_sm"
-DIRETORIO_SAIDA = "portugues_frances"
+LINGUA_SPACY = "fr_core_news_sm"  # "pt_core_news_sm", "fr_core_news_sm", "en_core_web_sm"
+DIRETORIO_SAIDA = "frances"
 
 # --- Função de pré-processamento com spaCy ---
 print(f"Carregando spaCy modelo: {LINGUA_SPACY} ...")
@@ -62,11 +62,11 @@ embeddings = embedding_model.encode(poemas_limpos, show_progress_bar=True)
 
 print("Treinando modelo BERTopic...")
 # Ajuste: min_cluster_size pequeno → mais tópicos
-hdbscan_model = HDBSCAN(min_cluster_size=5, min_samples=2, metric='euclidean', prediction_data=True)
+#hdbscan_model = HDBSCAN(min_cluster_size=5, min_samples=2, metric='euclidean', prediction_data=True)
 
 # Usa o modelo HDBSCAN no BERTopic
-topic_model = BERTopic(language="multilingual", hdbscan_model=hdbscan_model, nr_topics=10)
-#topic_model = BERTopic(language="multilingual")
+#topic_model = BERTopic(language="multilingual", hdbscan_model=hdbscan_model, nr_topics=10)
+topic_model = BERTopic(language="multilingual")
 topics, probs = topic_model.fit_transform(poemas_limpos, embeddings)
 
 
