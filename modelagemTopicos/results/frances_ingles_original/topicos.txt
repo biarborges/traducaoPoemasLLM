@@ -1,0 +1,6 @@
+Topic 0: animal, pierre, jean, jour, savoir, lettre, écrir, grand, aimer, corps
+Topic 1: mort, être, antonyme, monde, jour, main, trop, paraître, nuit, ombre
+Topic 2: fille, enfant, mère, petit, jeune, famille, fois, reine, garçon, père
+Topic 3: neige, arbre, clair, flocon, être, ombre, hiver, gris, chaleur, il
+Topic 4: mot, livre, être, rien, corps, sens, image, enfant, ennuyer, compte
+Topic 5: ici, dédal, être, ville, lieu, cercle, voyage, plan, étranger, voie

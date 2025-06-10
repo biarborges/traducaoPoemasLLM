@@ -24,6 +24,7 @@ except LookupError:
     nltk.download('wordnet')
 
 input_file = os.path.abspath("../traducaoPoemasLLM/poemas/openRNN/finetuning_musics/portugues_ingles.csv")
+lang = "en"
 
 print(f"Arquivo de entrada: {input_file}")
 
@@ -115,10 +116,13 @@ calcular_meteor_media(input_file)
 
 from bert_score import score
 
+device = "cuda" if torch.cuda.is_available() else "cpu"
+print(f"Usando dispositivo: {device}")
+
 # Função para calcular o BERTScore para um único poema
 def calcular_bertscore(referencia, traducao):
     # Calcular o BERTScore entre a referência e a tradução
-    P, R, F1 = score([traducao], [referencia], lang="pt")
+    P, R, F1 = score([traducao], [referencia], lang=lang, device=device)
     return F1.mean().item()  # Retornar a pontuação F1 média (similaridade semântica)
 
 # Função para calcular a média do BERTScore de todos os poemas
@@ -161,7 +165,7 @@ from concurrent.futures import ThreadPoolExecutor
 # Carregar o modelo BART e o tokenizer
 model_name = "facebook/bart-large-cnn"
 tokenizer = BartTokenizer.from_pretrained(model_name)
-model = BartForConditionalGeneration.from_pretrained(model_name).to(device)  # <== Mover o modelo pra GPU ou CPU
+model = BartForConditionalGeneration.from_pretrained(model_name).to(device)  
 
 
 # Função para calcular o BARTScore

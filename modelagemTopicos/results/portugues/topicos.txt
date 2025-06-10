@@ -1,0 +1,7 @@
+Topic 0: mar, gente, terra, ser, deus, mouro, rei, se, capitão, ilha
+Topic 1: luz, se, sonho, símbolo, sol, terra, lua, cor, água, azul
+Topic 2: amor, amar, vida, dor, querer, me, perder, ser, coração, pena
+Topic 3: jano, mar, eu, vida, mãe, amor, haver, mulher, franco, criança
+Topic 4: casa, palavra, pátria, amor, noite, cantar, existir, alguém, neve, escrever
+Topic 5: noite, olho, me, alma, sombra, luz, caco, de, senão, se
+Topic 6: se, me, rua, mundo, certo, real, cair, cidade, mistério, destino
