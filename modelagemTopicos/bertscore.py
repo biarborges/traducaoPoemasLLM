@@ -4,7 +4,9 @@ import os
 import pandas as pd
 from bert_score import score
 
-input_file = os.path.abspath("../traducaoPoemasLLM/modelagemTopicos/results/frances_ingles_original/chatGPTPrompt1/topico_0.csv")
+import os
+
+input_file = os.path.abspath("../modelagemTopicos/results/frances_ingles_original/chatGPTPrompt1/topico_0.csv")
 lang = "en"
 
 print(f"Arquivo de entrada: {input_file}")
