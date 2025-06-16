@@ -36,8 +36,8 @@ IDIOMA_DESTINO = "en_XX" #  "fr_XX", "pt_XX", "en_XX"
 # Idioma para o pré-processamento (NLTK e spaCy)
 IDIOMA_PROC = "fr_XX"
 
-nr_topics = 6
-# 3 até o 8 - qtd de topicos reais +1
+nr_topics = 7
+# 3 até o 7 - qtd de topicos reais +1
 
 # ==============================================================================
 # 2. DEFINIÇÃO DAS FUNÇÕES
