@@ -20,10 +20,10 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # ==============================================================================
 
 # Caminho para o arquivo de entrada
-CAMINHO_CSV = "chatGPTPrompt1/poemas_unificados.csv"
+CAMINHO_CSV = "chatGPTPrompt2/poemas_unificados.csv"
 
 # Pasta para salvar os resultados
-PASTA_SAIDA = "chatGPTPrompt1/original"
+PASTA_SAIDA = "chatGPTPrompt2/original"
 
 # Coluna do DataFrame a ser utilizada
 COLUNA_POEMAS = "original_poem"  # Opções: "original_poem", "translated_poem", "translated_by_TA"
@@ -34,6 +34,9 @@ IDIOMA_DESTINO = "en_XX" # Opções: "fr_XX", "pt_XX", "en_XX"
 
 # Idioma para o pré-processamento (NLTK e spaCy)
 IDIOMA_PROC = "fr_XX"
+
+nr_topics = 3 
+# 3 até o 8
 
 # ==============================================================================
 # 2. DEFINIÇÃO DAS FUNÇÕES
@@ -134,8 +137,7 @@ if __name__ == '__main__':
 
     # --- Parte 4: Criação e Treinamento do Modelo BERTopic ---
     print("📚 Criando e treinando o modelo BERTopic...")
-    # 'nr_topics="auto"' permite que o BERTopic encontre o número ótimo de tópicos
-    topic_model = BERTopic(language="multilingual", nr_topics=8) # 3 até o 8
+    topic_model = BERTopic(language="multilingual", nr_topics=nr_topics) 
     topics, _ = topic_model.fit_transform(poemas_limpos, embeddings)
 
     # --- Parte 5: Análise e Salvamento dos Resultados ---
@@ -201,19 +203,9 @@ if __name__ == '__main__':
         texts=documentos_tokenizados,
         dictionary=dicionario,
         corpus=corpus,
-        coherence='c_npmi'
-    )
-    coherence_score1 = coherence_model.get_coherence()
-    print(f"✅ Coerência do Modelo c_npmi: {coherence_score1:.4f}")
-
-    coherence_model = CoherenceModel(
-        topics=topicos_palavras,
-        texts=documentos_tokenizados,
-        dictionary=dicionario,
-        corpus=corpus,
         coherence='c_v'
     )
-    coherence_score2 = coherence_model.get_coherence()
-    print(f"✅ Coerência do Modelo c_v: {coherence_score2:.4f}")
+    coherence_score = coherence_model.get_coherence()
+    print(f"✅ Coerência do Modelo c_v: {coherence_score:.4f}")
 
     print("\n🎉 Processo concluído com sucesso!")
