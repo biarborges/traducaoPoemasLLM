@@ -191,7 +191,7 @@ if __name__ == '__main__':
         topicos_palavras.append(palavras)
 
     # Inicia o cálculo de coerência (a parte mais demorada)
-    print("⏳ Calculando a coerência do modelo (C_V)... Isso pode levar alguns minutos.")
+    print("⏳ Calculando a coerência do modelo... Isso pode levar alguns minutos.")
 
     coherence_model = CoherenceModel(
         topics=topicos_palavras,
@@ -200,8 +200,17 @@ if __name__ == '__main__':
         corpus=corpus,
         coherence='c_npmi'
     )
-    coherence_score = coherence_model.get_coherence()
+    coherence_score1 = coherence_model.get_coherence()
+    print(f"✅ Coerência do Modelo c_npmi: {coherence_score1:.4f}")
 
-    print(f"✅ Coerência do Modelo (C_V): {coherence_score:.4f}")
+    coherence_model = CoherenceModel(
+        topics=topicos_palavras,
+        texts=documentos_tokenizados,
+        dictionary=dicionario,
+        corpus=corpus,
+        coherence='c_v'
+    )
+    coherence_score2 = coherence_model.get_coherence()
+    print(f"✅ Coerência do Modelo c_v: {coherence_score2:.4f}")
 
     print("\n🎉 Processo concluído com sucesso!")
