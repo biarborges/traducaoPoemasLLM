@@ -3,18 +3,18 @@ import os
 import pandas as pd
 from bert_score import score
 import transformers
-from tqdm import tqdm  # Barra de progresso
+from tqdm import tqdm  
 
-# Define o nível de "verbosidade" do transformers para apenas mostrar erros.
 transformers.utils.logging.set_verbosity_error()
 
-input_file = os.path.abspath("../modelagemTopicos/results/frances_ingles_original/chatGPTPrompt1/topico_0.csv")
-lang = "en"
-
-print(f"Arquivo de entrada: {input_file}")
+input_file = os.path.abspath("modelagemTopicos/results/portugues_ingles_original/googleTradutor/topico_5.csv")
+# chatGPTPrompt1 maritacaPrompt1 googleTradutor 
+lang = "en" # en pt fr
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Usando dispositivo: {device}")
+
+print(f"\nArquivo de entrada: {input_file} - Lang: {lang}\n")
 
 # Função para calcular o BERTScore para um único poema
 def calcular_bertscore(referencia, traducao):
@@ -30,7 +30,6 @@ def calcular_bertscore_media(input_file):
 
     bertscore_scores = []
 
-    # Usando tqdm para a barra de progresso
     for i in tqdm(range(len(df)), desc="Calculando BERTScore"):
         referencia_poema = df["translated_poem"].iloc[i]
         traducao_TA = df["translated_by_TA"].iloc[i]
@@ -40,7 +39,9 @@ def calcular_bertscore_media(input_file):
 
     bertscore_media = sum(bertscore_scores) / len(bertscore_scores)
 
+    print(f"\nArquivo de entrada: {input_file}")
+
     print(f"\n✅ Pontuação média BERTScore para todos os poemas: {bertscore_media:.4f}")
 
-# Executa
+#main
 calcular_bertscore_media(input_file)

@@ -3,12 +3,9 @@ import glob
 import os
 
 # --- 1. CONFIGURAÇÃO ---
-# !!! IMPORTANTE: Altere este caminho para a pasta onde seus arquivos .csv estão !!!
-caminho_para_arquivos = "../traducaoPoemasLLM/poemas/" 
+caminho_para_arquivos = "googleTradutor" 
 
-# O padrão para encontrar os arquivos. Ajuste se necessário.
-# Este padrão funciona para nomes como 'frances_ingles_poems.csv'
-padrao_arquivos = os.path.join(caminho_para_arquivos, "*_*_poems.csv")
+padrao_arquivos = os.path.join(caminho_para_arquivos, "*_*_poems_*.csv")
 
 lista_arquivos = glob.glob(padrao_arquivos)
 

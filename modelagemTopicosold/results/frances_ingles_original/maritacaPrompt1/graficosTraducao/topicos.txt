@@ -1,0 +1,5 @@
+Topic 0: child, antonym, like, night, light, white, day, little, mother, black
+Topic 1: snow, night, hand, like, light, dream, flake, tree, press, shadow
+Topic 2: poem, uncredited, kaku, story, version, poet, trr, great, say, wedding
+Topic 3: love, know, writing, want, egg, people, tut, remember, like, city
+Topic 4: maze, place, circle, city, journey, path, vertical, enclose, edge, street

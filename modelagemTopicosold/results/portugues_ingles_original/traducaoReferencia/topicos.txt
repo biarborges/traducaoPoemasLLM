@@ -1,0 +1,10 @@
+Topic 0: like, love, know, life, time, eye, day, word, light, thing
+Topic 1: home, train, language, like, land, river, boat, arrow, field, bridge
+Topic 2: dream, fish, sea, statue, water, pond, whale, belly, row, man
+
+
+topic
+-1     51
+ 0    234
+ 1     11
+ 2      4

@@ -1,0 +1,10 @@
+Topic 0: être, oeil, jour, amour, nuit, grand, bien, venir, nom, voir
+Topic 1: amour, être, vie, aimer, savoir, bien, solitude, cœur, voir, jamais
+Topic 2: tombeau, oeil, nous, saint, ange, rose, mort, pied, tombe, ce
+
+
+topic
+-1     59
+ 0    174
+ 1     49
+ 2     18

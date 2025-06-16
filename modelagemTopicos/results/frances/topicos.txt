@@ -1,9 +1,0 @@
-Topic 0: nom, écrire, cage, non, voir, grand, vouloir, rien, bien, mur
-Topic 1: jour, nuit, vite, ciel, soleil, oeil, voir, monde, soir, bleu
-Topic 2: mort, peau, paraître, noir, fleur, lorsqu, blanc, monstre, rose, voir
-Topic 3: amour, être, bien, aimer, savoir, vie, sentir, âme, jamais, regard
-Topic 4: antonyme, mot, ici, être, dédal, nom, lieu, ombre, ville, image
-Topic 5: fille, enfant, être, mère, famille, hui, aujourd, observer, vie, christ
-Topic 6: aimer, savoir, histoire, version, sai, vouloir, jusqu, aime, dire, poème
-Topic 7: neige, arbre, flocon, ombre, être, eau, percevoir, écharpe, charrue, instant
-Topic 8: solitude, beum, silence, venir, fleuve, revendiquer, trop, ciel, corps, manger

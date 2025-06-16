@@ -1,0 +1,4 @@
+Topic 0: know, love, like, write, letter, day, child, time, come, body
+Topic 1: snow, key, like, tree, flake, clear, light, summer, lock, cold
+Topic 2: cage, john, wall, acme, store, machine, fact, place, like, long
+Topic 3: maze, place, circle, city, journey, vertical, edge, surface, shadow, strange

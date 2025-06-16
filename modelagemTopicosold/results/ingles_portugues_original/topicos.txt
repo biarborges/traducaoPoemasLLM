@@ -1,0 +1,14 @@
+Topic 0: thy, love, thou, thee, shall, god, beauty, time, doth, st
+Topic 1: water, like, sea, white, come, little, run, fish, black, hang
+Topic 2: house, like, child, come, time, tear, lie, bedlam, dance, grandmother
+Topic 3: white, light, bird, blue, gray, leave, like, cow, water, house
+Topic 4: hand, thought, feel, half, day, flesh, thing, body, night, lie
+
+
+topic
+-1    152
+ 0     69
+ 1     31
+ 2     19
+ 3     15
+ 4     14

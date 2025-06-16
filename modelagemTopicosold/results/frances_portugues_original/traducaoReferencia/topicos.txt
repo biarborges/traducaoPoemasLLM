@@ -1,0 +1,16 @@
+Topic 0: amor, voce, alma, coração, vida, desejo, eu, nao, ser, olhar
+Topic 1: olho, noite, alma, se, te, sonho, hora, negro, me, amor
+Topic 2: escrevo, nome, conhecer, ser, amo, amar, amor, querer, mundo, noite
+Topic 3: sono, verso, rima, música, alma, de, ser, jovem, ir, palavra
+Topic 4: água, alto, se, noite, mar, horizonte, sombra, asa, sol, pairo
+Topic 5: deus, homem, mão, construir, vôo, chama, mundo, responder, ponte, fantasma
+
+
+topic
+-1    130
+ 0     51
+ 1     44
+ 2     35
+ 3     15
+ 4     13
+ 5     12

@@ -1,0 +1,5 @@
+Topic 0: terre, maure, mer, voir, capitaine, roi, être, grand, peuple, eau
+Topic 1: nuit, amour, oeil, vent, rivière, chanson, dieu, lune, voix, vie
+Topic 2: amour, aimer, savoir, vouloir, vie, jamais, ressentir, temps, cœur, voir
+Topic 3: ciel, oiseau, rêve, fleur, terre, voir, petit, soleil, midi, lumière
+Topic 4: poésie, vie, savoir, âme, ce, mort, être, donner, trop, poème

@@ -1,0 +1,8 @@
+Topic 0: rio, se, água, mar, pra, céu, de, branco, ser, casa
+Topic 1: amor, dia, morte, vida, coração, eu, se, noite, deus, me
+
+
+topic
+-1     66
+ 0    129
+ 1    105

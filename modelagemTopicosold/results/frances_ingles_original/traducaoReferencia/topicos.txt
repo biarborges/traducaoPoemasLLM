@@ -1,0 +1,18 @@
+Topic 0: animal, like, go, tale, city, version, people, wall, want, red
+Topic 1: house, bear, water, room, child, look, wake, life, time, window
+Topic 2: snow, key, flake, light, tree, keyhole, wood, summer, little, cold
+Topic 3: threshold, output, flag, hear, fury, walk, strength, heart, sweetness, knot
+Topic 4: like, hold, hobble, earth, throw, woman, kite, mwanza, man, wind
+Topic 5: poem, great, poet, say, france, poetry, century, forget, artist, come
+Topic 6: solitude, buum, decide, like, river, fate, eat, body, dream, avow
+
+
+topic
+-1    150
+ 0     67
+ 1     17
+ 2     16
+ 3     14
+ 4     14
+ 5     11
+ 6     11
