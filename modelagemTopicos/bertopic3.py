@@ -20,11 +20,11 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # ==============================================================================
 
 # Caminho para o arquivo de entrada
-CAMINHO_CSV = "maritacaPrompt1/poemas_unificados.csv"
+CAMINHO_CSV = "maritacaPrompt2/poemas_unificados.csv"
 # chatGPTPrompt1 googleTradutor maritacaPrompt1
 
 # Pasta para salvar os resultados
-PASTA_SAIDA = "maritacaPrompt1/original"
+PASTA_SAIDA = "maritacaPrompt2/original"
 
 # Coluna do DataFrame a ser utilizada
 COLUNA_POEMAS = "original_poem"  # "original_poem", "translated_poem", "translated_by_TA"
