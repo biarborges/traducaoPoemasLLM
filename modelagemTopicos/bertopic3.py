@@ -135,7 +135,7 @@ if __name__ == '__main__':
     # --- Parte 4: Criação e Treinamento do Modelo BERTopic ---
     print("📚 Criando e treinando o modelo BERTopic...")
     # 'nr_topics="auto"' permite que o BERTopic encontre o número ótimo de tópicos
-    topic_model = BERTopic(language="multilingual", nr_topics=4) # 3 até o 8
+    topic_model = BERTopic(language="multilingual", nr_topics=5) # 3 até o 8
     topics, _ = topic_model.fit_transform(poemas_limpos, embeddings)
 
     # --- Parte 5: Análise e Salvamento dos Resultados ---
