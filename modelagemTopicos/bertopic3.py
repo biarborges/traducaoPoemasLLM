@@ -36,7 +36,7 @@ IDIOMA_DESTINO = "en_XX" #  "fr_XX", "pt_XX", "en_XX"
 # Idioma para o pré-processamento (NLTK e spaCy)
 IDIOMA_PROC = "fr_XX"
 
-nr_topics = 6
+nr_topics = 7
 # 3 até o 8
 
 # ==============================================================================
@@ -210,4 +210,4 @@ if __name__ == '__main__':
     print(f"✅ Coerência do Modelo c_v: {coherence_score:.4f}")
 
     print("\n🎉 Processo concluído com sucesso!")
-    print(f"Quantidade de tópicos: {nr_topics}")
+    print(f"Quantidade de tópicos reais: {nr_topics-1}")
