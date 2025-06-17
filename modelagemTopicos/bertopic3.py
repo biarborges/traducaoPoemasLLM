@@ -20,21 +20,24 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # 1. CONFIGURAÇÕES E CONSTANTES
 # ==============================================================================
 
-SEED = 42  
+SEED = 42
+
+TITLE = "original"
+# original reference chatGPTPrompt1 googleTradutor maritacaPrompt1
 
 # Caminho para o arquivo de entrada
-CAMINHO_CSV = "maritacaPrompt1/poemas_unificados.csv"
+CAMINHO_CSV = "poemas_unificados.csv"
 # chatGPTPrompt1 googleTradutor maritacaPrompt1
 
 # Pasta para salvar os resultados
-PASTA_SAIDA = "maritacaPrompt1/original"
+PASTA_SAIDA = "results/frances_ingles/original"
 
 # Coluna do DataFrame a ser utilizada
 COLUNA_POEMAS = "original_poem"  # "original_poem", "translated_poem", "translated_by_TA"
 
 # Definição dos idiomas de origem e destino para filtrar o CSV
 IDIOMA_ORIGEM = "fr_XX"  #  "fr_XX", "pt_XX", "en_XX"
-IDIOMA_DESTINO = "pt_XX" #  "fr_XX", "pt_XX", "en_XX"
+IDIOMA_DESTINO = "en_XX" #  "fr_XX", "pt_XX", "en_XX"
 
 # Idioma para o pré-processamento (NLTK e spaCy)
 IDIOMA_PROC = "fr_XX"
@@ -160,12 +163,12 @@ if __name__ == '__main__':
     # Gráfico de Barras dos Tópicos
     n_topicos_reais = len(topic_model.get_topic_freq()) - (1 if -1 in topic_model.get_topic_freq().Topic.values else 0)
     fig_bar = topic_model.visualize_barchart(top_n_topics=n_topicos_reais, n_words=10, width=400, height=400)
-    pio.write_image(fig_bar, f"{PASTA_SAIDA}/grafico_barras_topicos.png")
+    pio.write_image(fig_bar, f"{PASTA_SAIDA}/grafico_barras_topicos_{TITLE}.png")
 
     # Nuvem de Palavras Geral
     texto_total = " ".join(poemas_limpos)
     wc = WordCloud(width=1200, height=600, background_color='white', colormap='viridis').generate(texto_total)
-    wc.to_file(f"{PASTA_SAIDA}/nuvem_palavras_geral.png")
+    wc.to_file(f"{PASTA_SAIDA}/nuvem_palavras_geral_{TITLE}.png")
 
     # Gráfico de Pizza da Distribuição dos Tópicos
     topic_freq = topic_model.get_topic_freq()
@@ -173,12 +176,12 @@ if __name__ == '__main__':
     plt.figure(figsize=(8, 8))
     plt.pie(
         topic_freq["Count"],
-        labels=[f"Tópico {i}" for i in topic_freq["Topic"]],
+        labels=[f"Topic {i}" for i in topic_freq["Topic"]],
         autopct='%1.1f%%',
         startangle=140
     )
-    plt.title("Distribuição Percentual dos Tópicos")
-    plt.savefig(f"{PASTA_SAIDA}/grafico_pizza.png")
+    plt.title("Percentage Distribution of Topics")
+    plt.savefig(f"{PASTA_SAIDA}/grafico_pizza_{TITLE}.png")
     plt.close()
     
 
