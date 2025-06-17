@@ -22,9 +22,6 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 SEED = 42
 
-TITLE = "original"
-# original reference chatGPTPrompt1 googleTradutor maritacaPrompt1
-
 # Caminho para o arquivo de entrada
 CAMINHO_CSV = "poemas_unificados.csv"
 # chatGPTPrompt1 googleTradutor maritacaPrompt1
@@ -44,6 +41,9 @@ IDIOMA_PROC = "fr_XX"
 
 nr_topics = 3
 # 3 até o 7 - qtd de topicos reais +1(outliers)
+
+TITLE = "original{nr_topics}"
+# original reference chatGPTPrompt1 googleTradutor maritacaPrompt1
 
 # ==============================================================================
 # 2. DEFINIÇÃO DAS FUNÇÕES
