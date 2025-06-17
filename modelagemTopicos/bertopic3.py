@@ -11,6 +11,7 @@ from gensim.models.coherencemodel import CoherenceModel
 from gensim.corpora import Dictionary
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+from umap import UMAP
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
@@ -18,6 +19,8 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # ==============================================================================
 # 1. CONFIGURAÇÕES E CONSTANTES
 # ==============================================================================
+
+SEED = 42  
 
 # Caminho para o arquivo de entrada
 CAMINHO_CSV = "maritacaPrompt1/poemas_unificados.csv"
@@ -138,7 +141,9 @@ if __name__ == '__main__':
 
     # --- Parte 4: Criação e Treinamento do Modelo BERTopic ---
     print("📚 Criando e treinando o modelo BERTopic...")
-    topic_model = BERTopic(language="multilingual", nr_topics=nr_topics) 
+    
+    umap_model = UMAP(random_state=SEED)
+    topic_model = BERTopic(language="multilingual", nr_topics=nr_topics, umap_model=umap_model)
     topics, _ = topic_model.fit_transform(poemas_limpos, embeddings)
 
     # --- Parte 5: Análise e Salvamento dos Resultados ---
