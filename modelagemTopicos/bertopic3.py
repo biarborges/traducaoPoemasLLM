@@ -20,23 +20,23 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # ==============================================================================
 
 # Caminho para o arquivo de entrada
-CAMINHO_CSV = "maritacaPrompt2/poemas_unificados.csv"
+CAMINHO_CSV = "chatGPTPrompt1/poemas_unificados.csv"
 # chatGPTPrompt1 googleTradutor maritacaPrompt1
 
 # Pasta para salvar os resultados
-PASTA_SAIDA = "maritacaPrompt2/original"
+PASTA_SAIDA = "chatGPTPrompt1/original"
 
 # Coluna do DataFrame a ser utilizada
 COLUNA_POEMAS = "original_poem"  # "original_poem", "translated_poem", "translated_by_TA"
 
 # Definição dos idiomas de origem e destino para filtrar o CSV
 IDIOMA_ORIGEM = "fr_XX"  #  "fr_XX", "pt_XX", "en_XX"
-IDIOMA_DESTINO = "en_XX" #  "fr_XX", "pt_XX", "en_XX"
+IDIOMA_DESTINO = "pt_XX" #  "fr_XX", "pt_XX", "en_XX"
 
 # Idioma para o pré-processamento (NLTK e spaCy)
 IDIOMA_PROC = "fr_XX"
 
-nr_topics = 7
+nr_topics = 3
 # 3 até o 7 - qtd de topicos reais +1
 
 # ==============================================================================
