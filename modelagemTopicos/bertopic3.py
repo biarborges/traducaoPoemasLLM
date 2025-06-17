@@ -22,6 +22,9 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 SEED = 42
 
+TITLE = "original"
+# original reference chatGPTPrompt1 googleTradutor maritacaPrompt1
+
 # Caminho para o arquivo de entrada
 CAMINHO_CSV = "poemas_unificados.csv"
 # chatGPTPrompt1 googleTradutor maritacaPrompt1
@@ -39,11 +42,8 @@ IDIOMA_DESTINO = "en_XX" #  "fr_XX", "pt_XX", "en_XX"
 # Idioma para o pré-processamento (NLTK e spaCy)
 IDIOMA_PROC = "fr_XX"
 
-nr_topics = 3
+nr_topics = 4
 # 3 até o 7 - qtd de topicos reais +1(outliers)
-
-TITLE = "original{nr_topics}"
-# original reference chatGPTPrompt1 googleTradutor maritacaPrompt1
 
 # ==============================================================================
 # 2. DEFINIÇÃO DAS FUNÇÕES
@@ -152,10 +152,10 @@ if __name__ == '__main__':
     # --- Parte 5: Análise e Salvamento dos Resultados ---
     print("📊 Adicionando tópicos ao DataFrame e salvando...")
     df["topic"] = topics
-    df.to_csv(f"{PASTA_SAIDA}/poemas_com_topicos.csv", index=False)
+    df.to_csv(f"{PASTA_SAIDA}/poemas_com_topicos_{TITLE}.csv", index=False)
 
     print("📝 Salvando descrição dos tópicos em TXT...")
-    salvar_topicos_legiveis(topic_model, f"{PASTA_SAIDA}/topicos.txt")
+    salvar_topicos_legiveis(topic_model, f"{PASTA_SAIDA}/topicos_{TITLE}.txt")
 
     # --- Parte 6: Geração de Visualizações ---
     print("🎨 Gerando e salvando gráficos...")
