@@ -128,7 +128,7 @@ if __name__ == '__main__':
     elif IDIOMA_PROC == "pt_XX":
         stopwords_personalizadas.update(["o", "a", "os", "as", "um", "uma", "eu", "tu", "ele", "ela", "nós", "vós", "eles", "elas"])
     elif IDIOMA_PROC == "en_XX":
-        stopwords_personalizadas.update(["the", "a", "an", "and", "but", "or", "so", "to", "of", "in", "for", "on", "at"])
+        stopwords_personalizadas.update(["the", "a", "an", "and", "but", "or", "so", "to", "of", "in", "for", "on", "at", "peter", "john", "mary", "jane", "kaku"])
     
     # Carrega o modelo spaCy UMA ÚNICA VEZ para eficiência
     nlp = carregar_modelo_spacy(IDIOMA_PROC)
