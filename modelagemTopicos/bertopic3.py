@@ -216,5 +216,3 @@ if __name__ == '__main__':
     print(f"✅ Coerência do Modelo c_v: {coherence_score:.4f}")
 
     print("\n🎉 Processo concluído com sucesso!")
-    print(f"\nQuantidade de tópicos reais: {nr_topics-1}")
-    print(f"Quantidade de tópicos nr_topics: {nr_topics}")
