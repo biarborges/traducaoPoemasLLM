@@ -43,6 +43,14 @@ IDIOMA_DESTINO = "pt_XX" #  "fr_XX", "pt_XX", "en_XX"
 IDIOMA_PROC = "pt_XX"
 
 
+
+correcoes_lemas = {
+    "conheçar": "conhecer",
+    "escrevar": "escrever",
+    "falecerar": "falecer"
+}
+
+
 # ==============================================================================
 # 2. DEFINIÇÃO DAS FUNÇÕES
 # ==============================================================================
@@ -59,28 +67,23 @@ def carregar_modelo_spacy(idioma: str):
         raise ValueError(f"Idioma '{idioma}' não suportado pelo spaCy neste script.")
     return spacy.load(modelos[idioma])
 
-def preprocessar_texto(texto: str, nlp_model, stopwords_custom: set, usar_lematizacao=True) -> str:
-    """
-    Realiza o pré-processamento de um texto, incluindo lematização opcional e remoção de stopwords.
-    """
+def preprocessar_texto(texto: str, nlp_model, stopwords_custom: set, usar_lematizacao=True):
     if usar_lematizacao:
-        # Lematização com spaCy
         doc = nlp_model(texto)
         tokens = [
-            token.lemma_.lower()
+            correcoes_lemas.get(token.lemma_.lower(), token.lemma_.lower())  # aplica correção
             for token in doc
             if not token.is_stop and not token.is_punct and not token.like_num and len(token.text) > 2
         ]
     else:
-        # Apenas tokenização com NLTK se a lematização for desativada
         tokens = word_tokenize(texto.lower())
 
-    # Filtragem final para garantir a qualidade dos tokens
     tokens_filtrados = [
         token for token in tokens
         if token.isalpha() and token not in stopwords_custom and len(token) > 2
     ]
     return " ".join(tokens_filtrados)
+
 
 def salvar_topicos_legiveis(topic_model: BERTopic, caminho_arquivo: str):
     """Salva os tópicos e suas palavras-chave em um arquivo de texto."""
