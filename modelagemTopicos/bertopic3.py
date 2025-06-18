@@ -125,7 +125,7 @@ if __name__ == '__main__':
     # Carrega stopwords e adiciona termos personalizados
     stopwords_personalizadas = set(stopwords.words(idioma_nltk))
     if IDIOMA_PROC == "fr_XX":
-        stopwords_personalizadas.update(["le", "la", "les", "un", "une", "jean", "john", "kaku", "lorsqu", "jusqu", "sai"])
+        stopwords_personalizadas.update(["le", "la", "les", "un", "une", "jean", "john", "kaku", "lorsqu", "jusqu", "sai", "congnois"])
     elif IDIOMA_PROC == "pt_XX":
         stopwords_personalizadas.update(["o", "a", "os", "as", "um", "uma", "eu", "tu", "ele", "ela", "nós", "vós", "eles", "elas", "voce", "nao"])
     elif IDIOMA_PROC == "en_XX":
