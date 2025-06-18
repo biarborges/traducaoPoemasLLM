@@ -42,6 +42,9 @@ IDIOMA_DESTINO = "en_XX" #  "fr_XX", "pt_XX", "en_XX"
 # Idioma para o pré-processamento (NLTK e spaCy)
 IDIOMA_PROC = "en_XX"
 
+nr_topics=4
+# "auto"
+
 
 # ==============================================================================
 # 2. DEFINIÇÃO DAS FUNÇÕES
@@ -144,7 +147,7 @@ if __name__ == '__main__':
     print("📚 Criando e treinando o modelo BERTopic...")
     
     umap_model = UMAP(random_state=SEED)
-    topic_model = BERTopic(language="multilingual", nr_topics="auto", umap_model=umap_model)
+    topic_model = BERTopic(language="multilingual", nr_topics=nr_topics, umap_model=umap_model)
     topics, _ = topic_model.fit_transform(poemas_limpos, embeddings)
 
     # --- Parte 5: Análise e Salvamento dos Resultados ---
