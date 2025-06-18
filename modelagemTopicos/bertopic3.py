@@ -51,9 +51,9 @@ def carregar_modelo_spacy(idioma: str):
     """Carrega o modelo spaCy apropriado para o idioma especificado."""
     print(f"✔️ Carregando modelo spaCy para o idioma: {idioma}")
     modelos = {
-        "pt_XX": "pt_core_news_sm",
-        "fr_XX": "fr_core_news_sm",
-        "en_XX": "en_core_web_sm"
+        "pt_XX": "pt_core_news_md",
+        "fr_XX": "fr_core_news_md",
+        "en_XX": "en_core_web_md"
     }
     if idioma not in modelos:
         raise ValueError(f"Idioma '{idioma}' não suportado pelo spaCy neste script.")
@@ -124,7 +124,7 @@ if __name__ == '__main__':
     if IDIOMA_PROC == "fr_XX":
         stopwords_personalizadas.update(["le", "la", "les", "un", "une", "jean", "john", "kaku", "lorsqu", "jusqu", "sai"])
     elif IDIOMA_PROC == "pt_XX":
-        stopwords_personalizadas.update(["o", "a", "os", "as", "um", "uma", "eu", "tu", "ele", "ela", "nós", "vós", "eles", "elas", "voce", "nao", "amo"])
+        stopwords_personalizadas.update(["o", "a", "os", "as", "um", "uma", "eu", "tu", "ele", "ela", "nós", "vós", "eles", "elas", "voce", "nao"])
     elif IDIOMA_PROC == "en_XX":
         stopwords_personalizadas.update(["the", "a", "an", "and", "but", "or", "so", "to", "of", "in", "for", "on", "at", "peter", "john", "mary", "jane", "kaku"])
     
