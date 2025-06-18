@@ -60,7 +60,7 @@ a solidão corrompe a alma.
 o temerário leal que ali passa,
 felizardo ou don juan,
 é que ele chegou …
-no bom lugar no momento certo.",fr_XX,pt_XX,0
+no bom lugar no momento certo.",fr_XX,pt_XX,-1
 "un soir d’été …
 je t’ai vu un soir d’été,
 t’étais là, élégant et svelte,
@@ -156,7 +156,7 @@ no meu coração …
 que serias tu para ele ?
 o amor …
 ele ja é um !?
-nao ! ele é a metade de um amor …",fr_XX,pt_XX,0
+nao ! ele é a metade de um amor …",fr_XX,pt_XX,-1
 "toi, yeux verts, visage brun
 si un jour ton visage m’a perturbé à jamais,
 et si pendant mon parcours ton regard m’a suivi,
@@ -817,7 +817,7 @@ que se lhes casem os dois :
 o cristo do corcovado e a torre eifel,
 visto que em fusão voces estão ja ha muito, tempo …
 desde quando o cristo do corcovado,
-me ensinara la marseillaise … eu tinha 10 anos.",fr_XX,pt_XX,0
+me ensinara la marseillaise … eu tinha 10 anos.",fr_XX,pt_XX,-1
 "ma petite brune
 une lumière dans mon cœur,
 a installé le bonheur,
@@ -1309,7 +1309,7 @@ sem querer interromper seu simples ritual.
 e a vida as vezes, pensa passar por alí,
 como um zéfiro fantasma no meio do deserto,
 e as lembranças que emergem visando direto o coração,
-o auscultam, o ferem, o desnudam sem reserva.",fr_XX,pt_XX,0
+o auscultam, o ferem, o desnudam sem reserva.",fr_XX,pt_XX,-1
 "vous êtes comme ça, moi comme-ci,
 lui différent et les autres … autrement.
 la paix, la sérénité … je les vénère.
@@ -1605,7 +1605,7 @@ sem medo algum, dentro da treva que nauseia.
 assim como um voraz devasso beija e suga
 o seio murcho que lhe oferta uma vadia,
 furtamos ao acaso uma carícia esguia
-para espremê-la qual laranja que se enruga.",fr_XX,pt_XX,0
+para espremê-la qual laranja que se enruga.",fr_XX,pt_XX,-1
 "serré, fourmillant, comme un million d’helminthes,
 dans nos cerveaux ribote un peuple de démons,
 et, quand nous respirons, la mort dans nos poumons
@@ -2093,7 +2093,7 @@ o sol se afoga em ondas que de sangue o tingem.
 almas ternas que odeiam o nada vasto e inglório
 recolhem do passado as ilusões que o fingem!
 o sol se afoga em ondas que de sangue o tingem...
-fulge a tua lembrança em mim qual ostensório!",fr_XX,pt_XX,0
+fulge a tua lembrança em mim qual ostensório!",fr_XX,pt_XX,-1
 "le vin sait revêtir le plus sordide bouge
 d’un luxe miraculeux,
 et fait surgir plus d’un portique fabuleux
@@ -2241,7 +2241,7 @@ andam sempre a irritar meus mortos mais queridos.
 sou como um camarim onde há rosas fanadas,
 em meio a um turbilhão de modas já passadas,
 onde os tristes pastéis de um boucher desbotado
-ainda aspiram o odor de um frasco destampado.",fr_XX,pt_XX,0
+ainda aspiram o odor de um frasco destampado.",fr_XX,pt_XX,-1
 "rien n’égale en longueur les boiteuses journées,
 quand sous les lourds flocons des neigeuses années,
 l’ennui, fruit de la morne incuriosité,
@@ -2306,7 +2306,7 @@ où le repentir même (oh! la dernière auberge!),
 où tout te dira: meurs, vieux lâche! il est trop tard!”","virá a hora em que o acaso, onde quer que te aguarde,
 em que a augusta virtude, esposa ainda intocada,
 e até mesmo o remorso (oh, a última pousada!)
-te dirão: vais morrer, velho medroso! é tarde!”",fr_XX,pt_XX,1
+te dirão: vais morrer, velho medroso! é tarde!”",fr_XX,pt_XX,-1
 "le long du vieux faubourg, où pendent aux masures
 les persiennes, abri des secrètes luxures,
 quand le soleil cruel frappe à traits redoublés
@@ -2401,7 +2401,7 @@ eu vejo esse infeliz, mito estranho e fatal,
 tal qual o homem de ovídio, às vezes num impulso,
 erguer-se para o céu cruelmente azul e irônico,
 a cabeça a emergir do pescoço convulso,
-como se a deus lançasse um desafio agônico!",fr_XX,pt_XX,1
+como se a deus lançasse um desafio agônico!",fr_XX,pt_XX,-1
 "paris change! mais rien dans ma mélancolie
 n’a bougé! palais neufs, échafaudages, blocs,
 vieux faubourgs, tout pour moi devient allégorie,
@@ -2424,7 +2424,7 @@ roído de um desejo infindo! e logo em ti,
 andrômaca, às carícias do esposo arrancada,
 de pirro a escrava, gado vil, trapo terreno,
 ao pé de ermo sepulcro em êxtase curvada,
-triste viúva de heitor e, após, mulher de heleno!",fr_XX,pt_XX,1
+triste viúva de heitor e, após, mulher de heleno!",fr_XX,pt_XX,-1
 "je pense à la négresse, amaigrie et phthisique,
 piétinant dans la boue, et cherchant, l’œil hagard,
 les cocotiers absents de la superbe afrique
@@ -2576,7 +2576,7 @@ já dos olhos de deus afinal tão distante,
 às planícies do tédio, infindas e desertas,
 e lança-me ao olhar imerso em confusão
 trajes imundos e feridas entreabertas
-— o aparato sangrento e atroz da destruição!",fr_XX,pt_XX,0
+— o aparato sangrento e atroz da destruição!",fr_XX,pt_XX,-1
 "comme un bétail pensif sur le sable couchées,
 elles tournent leurs yeux vers l’horizon des mers,
 et leurs pieds se cherchent et leurs mains rapprochées
@@ -2747,7 +2747,7 @@ eu envolvera nessa estranha alegoria.
 vênus, em tua ilha eu vi um só despojo
 simbólico: uma forca, e nela a minha imagem...
 — ah, senhor, dai-me a força e insuflai-me a coragem
-de olhar meu coração e meu corpo sem nojo!",fr_XX,pt_XX,0
+de olhar meu coração e meu corpo sem nojo!",fr_XX,pt_XX,-1
 "la lune était sereine et jouait sur les flots. –
 la fenêtre enfin libre est ouverte à la brise,
 la sultane regarde, et la mer qui se brise,
@@ -2943,7 +2943,7 @@ apontou o abismo onde tudo a pó se reduz,
 tão fundo que nem o eco aí segue a sua lei,
 e disse-me: – se quiseres, a ponte construirei.
 para o desconhecido ergui meus olhos do chão.
--como te chamas? perguntei. respondeu: – a oração.",fr_XX,pt_XX,1
+-como te chamas? perguntei. respondeu: – a oração.",fr_XX,pt_XX,-1
 "un jour, maigre et sentant un royal appétit,
 un singe d’une peau de tigre se vêtit.
 le tigre avait été méchant; lui, fut atroce.
@@ -3211,7 +3211,7 @@ já perscrutei o que ninguém
 nunca sequer imaginou
 e sopesei vezes sem conta
 até a vida imponderável
-se vou morrer, morro sorrindo",fr_XX,pt_XX,-1
+se vou morrer, morro sorrindo",fr_XX,pt_XX,0
 "mon ptit lou adoré je voudrais mourir un jour que tu m’aimes
 je voudrais être beau pour que tu m’aimes
 je voudrais être fort pour que tu m’aimes
@@ -3381,14 +3381,14 @@ passado amor
 nenhuma volta acena
 na ponte mirabeau se vai o sena
 a noite venha sem demora
-eu fico e o tempo vai embora",fr_XX,pt_XX,1
+eu fico e o tempo vai embora",fr_XX,pt_XX,-1
 "dans vos viviers, dans vos étangs,
 carpes, que vous vivez longtemps!
 est-ce que la mort vous oublie,
 poissons de la mélancolie.","carpas, viveis tão longa vida
 nesses viveiros de água fria!
 será que a morte vos olvida,
-ó peixes da melancolia.",fr_XX,pt_XX,-1
+ó peixes da melancolia.",fr_XX,pt_XX,0
 "automne malade et adoré
 tu mourras quand l’ouragan soufflera dans les roseraies
 quand il aura neigé
@@ -3479,7 +3479,7 @@ nem tempo volta
 nem nosso amor nossa pena
 sob esta ponte passa o rio sena
 chega a noite a hora soa
-vão-se os dias vivo à toa",fr_XX,pt_XX,1
+vão-se os dias vivo à toa",fr_XX,pt_XX,-1
 "mes durs rêves formels sauront te chevaucher,
 mon destin au char d’or sera ton beau cocher
 qui pour rênes tiendra tendus à frénésie,
@@ -3511,7 +3511,7 @@ mais que toujours ton cerveau soit
 la hase pleine qui conçoit.","não sejas lascivo e assustado
 como a lebre e o apaixonado,
 faça com que o célebro seja
-a fêmea que vários enseja.",fr_XX,pt_XX,0
+a fêmea que vários enseja.",fr_XX,pt_XX,-1
 "belles journées, souris du temps,
 vous rongez peu à peu ma vie.
 dieu! je vais avoir vingt-huit ans,
@@ -3657,7 +3657,7 @@ noite de 24 de setembro de 1915
 amanhã o assalto
 noite violenta ó noite cujo grito espantoso a cada minuto é mais intenso
 noite dos homens apenas
-noite que grita como uma mulher parindo.",fr_XX,pt_XX,1
+noite que grita como uma mulher parindo.",fr_XX,pt_XX,-1
 "zone
 à la fin tu es las de ce monde ancien
 bergère ô tour eiffel le troupeau des ponts bêle ce matin
@@ -4693,7 +4693,7 @@ cintilam vagamente escrínios ignorados!
 tem meu amor olhos tão negros quanto vastos,
 como os teus, noite imensa,e , como os teus, preclaros!
 sonhos de amor e fé são seus lampejos raros,
-que fulguram ao fundo, orgiásticos ou castos.",fr_XX,pt_XX,0
+que fulguram ao fundo, orgiásticos ou castos.",fr_XX,pt_XX,-1
 "le poète au cachot, débraillé, maladif,
 roulant un manuscrit sous son pied convulsif,
 mesure d’un regard que la terreur enflamme
@@ -4792,7 +4792,7 @@ tempera voluptuosidades,
 velho faraó, monselet!
 frente a tal figura imprevista,
 eu sonhei com você: à vista
-desse cemitério, café.",fr_XX,pt_XX,0
+desse cemitério, café.",fr_XX,pt_XX,-1
 "sonnet
 vous avez, compagnon dont le cœur est poète,
 passé dans quelque bourg tout paré, tout vermeil,
@@ -5705,7 +5705,7 @@ em silêncio caída, ao seu dorso se abeira.
 quanto mais ele faz-se ao largo; a se afastar
 do bosque escuro e, esplêndido, no azul reinar,
 só elegeu para saudar o alvor que admira
-o lugar reluzente em onde o sol se mira.",fr_XX,pt_XX,1
+o lugar reluzente em onde o sol se mira.",fr_XX,pt_XX,-1
 "puis, quand les bords de l’eau ne se distinguent plus,
 a l’heure où toute forme est un spectre confus,
 où l’horizon brunit rayé d’un long trait rouge,
@@ -5791,7 +5791,7 @@ o cisne, sob o olhar dessa noite de opala,
 em seu lago sombrio, enfim, descansa; e, acaso
 visto de alguém, assim, lembra de prata um vaso…
 põe sob a asa a cabeça, os olhos sonolentos
-fecha, e dorme, feliz, entre dois firmamentos.",fr_XX,pt_XX,1
+fecha, e dorme, feliz, entre dois firmamentos.",fr_XX,pt_XX,0
 "j’ai voulu tout aimer, et je suis malheureux,
 car j’ai de mes tourments multiplié les causes;
 d’innombrables liens frêles et douloureux
@@ -6245,7 +6245,7 @@ de meu bom tambor!
 e, ó janela! calma e pura,
 jaz talvez em tua moldura…
 ………………………………………………..
-um surdo senhor!",fr_XX,pt_XX,1
+um surdo senhor!",fr_XX,pt_XX,0
 "aumône au malandrin en chasse
 mauvais œil à l’œil assassin!
 fer contre fer au spadassin!
@@ -7793,7 +7793,7 @@ o que a mão tomou desdenha tomar a forma da mão,
 o que foi compreendido já não existe,
 a ave confundiu-se com o vento,
 o céu com a sua verdade,
-o homem com a sua realidade.",fr_XX,pt_XX,1
+o homem com a sua realidade.",fr_XX,pt_XX,-1
 "la courbe de tes yeux fait le tour de mon cœur,
 un rond de danse et de douceur,
 auréole du temps, berceau nocturne et sûr,
@@ -8229,7 +8229,7 @@ meu príncipe jesus, que a tudo vês,
 não nos entregues à soberania
 do inferno, que só ouvimos tua voz.
 homens, aqui não cabe zombaria,
-mas suplicai a deus por todos nós.",fr_XX,pt_XX,-1
+mas suplicai a deus por todos nós.",fr_XX,pt_XX,1
 "se j’ayme et sers la belle de bon hait.
 m’en devez vous tenir ne vil ne sot?
 elle a en soy des biens a fin souhait.
@@ -8426,7 +8426,7 @@ príncipe jesus, guiai-nos o tento,
 cuidai que o inferno não esteja atento:
 lá, não há o que ver ou resolver.
 homens, do riso aqui há banimento:
-clamai a deus a nos absolver.",fr_XX,pt_XX,-1
+clamai a deus a nos absolver.",fr_XX,pt_XX,1
 "ayez pitié, ayez pitié de moi,
 a tout le moins, s’il vous plaît, mes amis!
 en fosse gis, non pas sous houx ne mai,
@@ -9169,7 +9169,7 @@ rola e se engrossa ao devorar dos mundos…
 gigante! cresces todo o dia assim!. :.
 tal teu gênio, arrastando em novos trilhos
 no curso audaz constelações de idéias,
-marcha e recresce no marchar sem fim!",fr_XX,pt_XX,-1
+marcha e recresce no marchar sem fim!",fr_XX,pt_XX,0
 "ainsi, toujours poussés vers de nouveaux rivages,
 dans la nuit éternelle emportés sans retour,
 ne pourrons-nous jamais sur l’océan des âges
@@ -9296,7 +9296,7 @@ com seus brandos luzidos!
 com o vento a gemer, a cana que suspira,
 como em ti, leve aroma em teu ar perfumado,
 como tudo que se ouve, ou vê-se ou se respira,
-dizem: tinham amado!",fr_XX,pt_XX,1
+dizem: tinham amado!",fr_XX,pt_XX,-1
 "qu’est ce que tu m’as dit encore, en me quittant:
 que’l on ne s’aimait plus? …mais si, mais si, on s’aime!
 tu as pleure? tu seras donc toujours la meme?
@@ -9450,7 +9450,7 @@ quando eu sofro, eu sofro demais…
 … mas, não! não ouça! eu confessei
 ingênuo e fraco, uma cousa que eu não devia confessar…
 você sabe agora o meu fraco:
-e vai talvez se aproveitar…",fr_XX,pt_XX,0
+e vai talvez se aproveitar…",fr_XX,pt_XX,-1
 "on aime d’abord par hasard,
 par jeu, par curiosité,
 pour avoir dans um regard
@@ -9531,7 +9531,7 @@ essa cabeça linda
 e cem mil vezes, loucamente,
 digo e repito
 e torno a repetir ainda:
-você! você! você! você!",fr_XX,pt_XX,0
+você! você! você! você!",fr_XX,pt_XX,-1
 "je sais bien qu’irritable, exigeant et morose,
 insatisfait, jaloux, malheureux pour un mot,
 je te cherche souvent des querelles sans cause
@@ -10195,7 +10195,7 @@ os operários a caminho das tavernas,
 com os cachimbos à boca a afrontarem os guardas;
 paredes a ruir; telhados de mansardas;
 sarjetas pelo chão resvaladiço e imundo, –
-tal meu caminho, – mas com o paraíso ao fundo.",fr_XX,pt_XX,0
+tal meu caminho, – mas com o paraíso ao fundo.",fr_XX,pt_XX,-1
 "le bruit des cabarets, la fange des trottoirs,
 les platanes déchus s’effeuillant dans l’air noir,
 l’omnibus, ouragan de ferraille et de boues,
@@ -10285,7 +10285,7 @@ em outros céus para outros ideais.
 seja o teu verso a boa aventura
 esparsa ao áspero ar da manhã,
 que vai cheirando a giesta e hortelã…
-e tudo mais é literatura.",fr_XX,pt_XX,-1
+e tudo mais é literatura.",fr_XX,pt_XX,0
 "de la musique avant toute chose,
 et pour cela préfère l’impair
 plus vague et plus soluble dans l’air,
@@ -10574,7 +10574,7 @@ le donjon sort de son gant de taupe
 comme l’apparition de la voleuse de larmes.","pálida com a alva
 nos círculos das noites pesadas
 a masmorra da sua luva de toupeira parda
-como a aparição da ladra de lágrimas.",fr_XX,pt_XX,0
+como a aparição da ladra de lágrimas.",fr_XX,pt_XX,-1
 "une fois notre complaisance massacré,
 les griffes plantées dans la mémoire des anges,
 elle est descendue portant les pierres saintes dans ses mains.
@@ -10702,7 +10702,7 @@ que, doutra vida, pode ser aquela –
 déjà vue! – que inda mora na memória!",fr_XX,pt_XX,0
 "n’apprends qu’avec réserve.
 toute une vie ne suffit pas pour désapprendre, ce que naïf, soumis, tu t’es laissé mettre dans la tête – innocent! – sans songer aux conséquences.","aprende tão somente com reservas.
-toda uma vida não basta para desaprender o que, ingênuo, submisso, tu deixaste que te colocassem na cabeça – inocente! – sem pensar nas consequências.",fr_XX,pt_XX,0
+toda uma vida não basta para desaprender o que, ingênuo, submisso, tu deixaste que te colocassem na cabeça – inocente! – sem pensar nas consequências.",fr_XX,pt_XX,-1
 "avec tes défauts, pas de hâte. ne va pas à la légére les corriger.
 qu’irais-tu mettre à la place?","sem pressa com teus defeitos. não vás corrigi-los inconsideradamente.
 o que colocarias no lugar?",fr_XX,pt_XX,0
@@ -10740,7 +10740,7 @@ ela acolhe quem chega, e mima com doçura
 e um sedutor olhar os belos destemidos;
 mas de súbito, arisca, as garras ela acera,
 e tal fera da selva, assombrosa pantera,
-arranca-lhes a glória e os louros recebidos.",fr_XX,pt_XX,0
+arranca-lhes a glória e os louros recebidos.",fr_XX,pt_XX,-1
 "nonchalamment blottie en des coussins moelleux,
 une chatte en bâillant fait briller ses dents fines;
 son corps se pâme tout en des poses félines,
@@ -10822,7 +10822,7 @@ gelado.
 e cri me embriagar de uma intensa alegria
 ao respirar o amor da falsa criatura.
 ai! deixou-me a volúpia a sua dura agrura
-e às noites desde então a calma é fugidia.",fr_XX,pt_XX,0
+e às noites desde então a calma é fugidia.",fr_XX,pt_XX,-1
 "j’ai le goût de la mort qui m’effleure la bouche,
 j’appelle le malheur sur tout ce que je touche.
 je sais ma route ignoble, et cependant, farouche,
@@ -11400,4 +11400,4 @@ tão alto pulou tal palhaço
 que estourou o teto da lona,
 ao som da trompa e do tambor,
 e, devorado por amor,
-nas estrelas pegou carona!",fr_XX,pt_XX,0
+nas estrelas pegou carona!",fr_XX,pt_XX,-1
