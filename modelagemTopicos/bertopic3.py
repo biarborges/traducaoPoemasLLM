@@ -22,7 +22,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 SEED = 42
 
-TITLE = "reference"
+TITLE = "original"
 # original reference chatGPTPrompt1 googleTradutor maritacaPrompt1
 
 # Caminho para o arquivo de entrada
@@ -30,20 +30,17 @@ CAMINHO_CSV = "poemas_unificados.csv"
 # chatGPTPrompt1 googleTradutor maritacaPrompt1
 
 # Pasta para salvar os resultados
-PASTA_SAIDA = "results/frances_ingles"
+PASTA_SAIDA = "results/frances_portugues"
 
 # Coluna do DataFrame a ser utilizada
-COLUNA_POEMAS = "translated_poem"  # "original_poem", "translated_poem", "translated_by_TA"
+COLUNA_POEMAS = "original_poem"  # "original_poem", "translated_poem", "translated_by_TA"
 
 # Definição dos idiomas de origem e destino para filtrar o CSV
 IDIOMA_ORIGEM = "fr_XX"  #  "fr_XX", "pt_XX", "en_XX"
-IDIOMA_DESTINO = "en_XX" #  "fr_XX", "pt_XX", "en_XX"
+IDIOMA_DESTINO = "pt_XX" #  "fr_XX", "pt_XX", "en_XX"
 
 # Idioma para o pré-processamento (NLTK e spaCy)
-IDIOMA_PROC = "en_XX"
-
-nr_topics=4
-# "auto"
+IDIOMA_PROC = "fr_XX"
 
 
 # ==============================================================================
@@ -147,7 +144,7 @@ if __name__ == '__main__':
     print("📚 Criando e treinando o modelo BERTopic...")
     
     umap_model = UMAP(random_state=SEED)
-    topic_model = BERTopic(language="multilingual", nr_topics=nr_topics, umap_model=umap_model)
+    topic_model = BERTopic(language="multilingual", nr_topics="auto", umap_model=umap_model)
     topics, _ = topic_model.fit_transform(poemas_limpos, embeddings)
 
     # --- Parte 5: Análise e Salvamento dos Resultados ---
