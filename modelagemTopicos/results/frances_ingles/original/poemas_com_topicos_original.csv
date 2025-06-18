@@ -68,7 +68,7 @@ once, he even died for thirty minutes
 and was raised from the dead as if nothing had happened
 protester of the first rain, fine looking fellow
 from the summit of his three centuries of age
-my kaku had the quick blood of a youngster",fr_XX,en_XX,1
+my kaku had the quick blood of a youngster",fr_XX,en_XX,-1
 "1
 je ne me souviens de rien.
 rien.
@@ -95,7 +95,7 @@ everything is there.
 the colours, the prints, the flowers, every room of the house, the toys,
 the kindergarten, everything.
 but before that, nothing.
-just darkness.",fr_XX,en_XX,2
+just darkness.",fr_XX,en_XX,0
 "a.
 en cette journée lézardée de déceptions où le bleu a quitté la mer pour envahir la colline chaînes blindées dans l’amas minuscule minuit avorte le jour laissant la casbah à ses débris. j’en appelle à la mémoire d’alger de ses comptoirs marins aux chars de l’occupation j’en appelle à hassiba à djamila à didouche et à boudiaf aux ancêtres et aux amnésiques aux violeurs de rêves et aux traîtres de toujours j’en appelle à chaque goutte versée à chaque humiliation que jaillisse enfin la baie et qu’elle nous habite qu’elle ouvre nos paupières assommées que se réveillent al anka et les diwans assiégés que s’ouvrent les seuils de nos maisons et que s’élève le chant nouveau. que se lève le tgv expresse, qu’il ramène la brise de tanger et qu’il amorce sa course de tunis à alexandrie et de beyrouth à istanbul. que s’ouvre un jour nouveau et que minuit embaume de jasmin.","a.
 on this morning cracked with disappointments when blue has left the sea to invade the hill in a uniformed chain tightening on the diminishing crowds. midnight aborts the day leaving the casbah to its rubbish and fragments. i appeal to the memory of algiers from its seaside bars to the tanks of the occupation, i appeal to hassiba to djamila to didouche and to boudiaf to the ancestors and to the amnesiacs to the rapists of dreams and to the perpetual traitors i appeal to every drop spilled to every humiliation let the bay gush forth at last and let it inhabit us let it open our senseless eyelids let al anka and the besieged diwans awaken let the doorways of our houses open and let a new song arise. let the tgv express awaken, let it bring back the breeze from tanger and let it start a new route from tunis to alexandria and from beirut to istanbul. let a new day open and let midnight be fragrant with jasmine.",fr_XX,en_XX,1
@@ -563,7 +563,7 @@ that we invent landmarks
 that we forget having invented them
 that we must relinquish control
 when he says perhaps
-give your doubt back its soul",fr_XX,en_XX,-1
+give your doubt back its soul",fr_XX,en_XX,0
 "il me semble difficile
 qu’un mot-clé
 puisse ouvrir quoi que ce soit
@@ -585,7 +585,7 @@ function paralyses words
 i acknowledge the statistic
 paralyses
 all the software
-by saturation",fr_XX,en_XX,0
+by saturation",fr_XX,en_XX,-1
 "écrire
 écrire c’est attendre. écrire c’est attendre que ça vienne. écrire c’est dépendre de quand ça viendra. écrire c’est se dire que ça ne viendra plus. écrire c’est se demander si ça reviendra un jour. écrire c’est regarder la page blanche. écrire c’est fermer l’ordinateur et retourner devant la télé. écrire c’est regarder la page blanche. écrire c’est fermer l’ordinateur et prendre un truc à manger dans le réfrigérateur. écrire c’est regarder la page blanche. écrire c’est tourner en cage et aller lire pour oublier. écrire c’est attendre. écrire c’est douter. écrire c’est penser que les prochaines lignes ne seront jamais aussi bonnes que les dernières. écrire c’est douter. écrire c’est hésiter. écrire c’est attendre. écrire c’est la main qui s’agite enfin. écrire c’est les doigts qui galopent enfin. écrire c’est les mots qui s’alignent, les phrases qui s’allongent, la feuille qui devient noire. écrire c’est les caractères des mots comme des notes de musique sur une partition. écrire c’est de la musique, un rythme, une cadence, un mouvement, une mesure. écrire c’est des chevaux qui galopent dans le crâne, leurs sabots qui tapent sous le bureau, leurs queues qui fouettent les idées. écrire c’est l’adrénaline qui monte, le pouls qui s’accélère, la respiration en attente, une apnée. écrire c’est dire aux autres de vous foutre la paix, de se débrouiller pour le dîner, de commander une pizza. écrire c’est maintenant ou jamais sinon ça passera et il faudra de nouveau attendre, de nouveau douter. écrire c’est un éclair, une brèche, une baffe. écrire c’est une transe, une extase, un délire alcaloïde. écrire c’est lire et se demander d’où viennent ces mots, de quel arrière-pays de la raison, de quel étage, de quel sous-sol. écrire c’est s’étonner. écrire c’est reprendre le texte et ses esprits, reprendre la cadence, reprendre le galop, tatactatoum, tatactatoum, tatactatoum. écrire c’est un train qui passe. écrire c’est être à bord de ce train et regarder par la fenêtre. écrire c’est le paysage qui défile et l’oeil qui tente de le capturer. écrire c’est peindre. écrire c’est être pointilliste. écrire c’est jouir. écrire c’est jouir. écrire c’est jouir. écrire c’est silence. silence. écrire c’est des taches, des ronds et des couleurs devant les yeux. écrire c’est reprendre son souffle, soupirer, respirer. écrire c’est lire à voix haute les mots accouchés, lire à voix haute les phrases enfantées, dire. écrire c’est oser dire. écrire c’est parler. écrire c’est prononcer l’indicible, exprimer l’impalpable, figurer le vide. écrire c’est oser la poésie. et vivre.","writing
 writing is waiting. writing is waiting for something to come. writing is depending on when it will come. writing is thinking that it will never come back again. writing is wondering if it will come again. writing is looking at the white page. writing is leaving the computer and going back to the tv. writing is looking at the white page. writing is leaving the computer and eating something from the fridge. writing is looking at the white page. writing is pacing up and down and reading to forget. writing is waiting. writing is doubting. writing is thinking that the next line will be never as good as the last one. writing is doubting. writing is stumbling. writing is waiting. writing is at last a moving hand. writing is at last galloping fingers. writing is lining up words, lengthening sentences, blackening sheets. writing is every word a musical note on a score. writing is music, rhythm, tempo, movement, measure. writing is galloping horses in the mind, their typing hooves on the desk, their tails whipping the thoughts. writing is a shot of adrenaline, accelerating pulse, pending breath, apnea. writing is telling the others to leave you alone, to prepare their own dinner by ordering pizza. writing is now or never, or it will slip away, back to waiting, back to doubting. writing is a flash, a gap, a slap. writing is a trance, an ecstasy, an alkaloidal delirium. writing is reading and wondering where these words are from, from whose minds’ hinterland, which floor, which basement. writing is surprising. writing is regaining consciousness and conquering text and tempo again, and galloping, tatactatum, tatactatum, tatactatum. writing is a passing train. writing is being on board and looking through the window. writing is a passing landscape and eyes attempting to capture it. writing is painting. writing is being a pointillist. writing is enjoying. writing is coming. writing is orgasming. writing is silence. silence. writing is marks, spots, circles and colours before the eyes. writing is breathing, sighing, inspiring. writing is reading aloud already-delivered words, reading aloud new-born sentences, speaking. writing is daring to say. writing is speaking. writing is saying unsayable words, impalpable phrases, unpaintable spaces. writing is risking poetry. and living.",fr_XX,en_XX,0
@@ -625,7 +625,7 @@ daddy is for when he’s there, in front of you
 and you can touch him and you can tell him:
 look, daddy, i’ve got a ten out of ten in italian.
 daddy is to tell him: i love you daddy,
-to tell him: fuck off daddy.",fr_XX,en_XX,-1
+to tell him: fuck off daddy.",fr_XX,en_XX,1
 "4
 et puis il y a toutes les fois où il n’est pas là.
 pas là quand j’ai perdu ma première dent,
@@ -724,7 +724,7 @@ obscenity
 obscenity
 obscenity
 and turn away
-and not turn away?",fr_XX,en_XX,2
+and not turn away?",fr_XX,en_XX,0
 "0
 il paraît que, lorsqu’il est mort, certaines parties de mon corps sont devenues toutes blanches.
 il paraît que, lorsqu’il est mort, j’ai demandé à ma tante si elle pensait que le sien et le mien étaient ensemble assis sur un nuage.
@@ -747,7 +747,7 @@ they say that when he died, he had just returned from spain and all
 his trunks were still on the boat.
 they say that when he died, no one ever claimed the trunks.
 they say that when he died, he went to a cemetery and then a garden.
-they say that when he died, he became a lemon tree.",fr_XX,en_XX,0
+they say that when he died, he became a lemon tree.",fr_XX,en_XX,-1
 "il y a sur nos têtes une ombre verticale qui vibre
 une ombre qui claque sur nos têtes
 un sifflement clandestin
@@ -799,7 +799,7 @@ at the edge of a lung
 on the cement platform
 where the musics clash
 protection not guaranteed
-for a makeshift totem.",fr_XX,en_XX,-1
+for a makeshift totem.",fr_XX,en_XX,0
 "2
 il paraît que ça tient dans un vase.
 eux, ils appellent ça une urne.
@@ -864,7 +864,7 @@ or sometimes out loud,
 it becomes a ritual
 and it’s much less sad
 than going to the cemetery
-and speaking with stones.",fr_XX,en_XX,-1
+and speaking with stones.",fr_XX,en_XX,0
 "3
 je ne trouve pas un seul mot, un seul sourire, une seule image au fond de mon crâne.
 il a bien dû me parler.
@@ -1026,7 +1026,7 @@ solitude 57 die poesie der verzweiflung or the vociferations of an empty body
 . . . i can only bleat like tshela, the last goat of my grandma julienne mua mwanza, like tshela in a mezzo-soprano key: buum, buum, buum . . .
 solitude 64 or nausea precedes essence
 i’ve been pregnant for 17 years, 36 months and 2 days.
-i make love with the sky. i’m expecting a brat from the sky. the child who’ll come out of my belly or the river born from my guts, or the river-child spat out by my dastard body will return to fill my long, insomniac nights with its flesh... it’ll answer to the name of mzete ya mbila bazo kata ezo kola. then i’ll be able to boast (to any who care to listen) of being the father and mother of this muddled progeny, this centipede-progeny, this punctured-progeny – uselessly grotesque.",fr_XX,en_XX,-1
+i make love with the sky. i’m expecting a brat from the sky. the child who’ll come out of my belly or the river born from my guts, or the river-child spat out by my dastard body will return to fill my long, insomniac nights with its flesh... it’ll answer to the name of mzete ya mbila bazo kata ezo kola. then i’ll be able to boast (to any who care to listen) of being the father and mother of this muddled progeny, this centipede-progeny, this punctured-progeny – uselessly grotesque.",fr_XX,en_XX,0
 "je te mange. tu entres en moi dans le silence de la poésie, en même temps que tout ce que nous avons dit précédemment, avec le premier verre de vin, et aussi avec le deuxième, tu entres avec les questions posées et les réponses données, avec les phrases pour faire bonne figure et celles à double sens, avec ta main qui effleure mon bras tandis que tu prends du pain, avec les pieds sous la table et les instants de doute, tu entres avec le premier service, avec le deuxième et le troisième, avec un autre verre de vin, avec un dessert, un café et l’addition s’il vous plaît, tu entres avec une promenade en direction du phare, avec les éclats de rire et les blagues un peu stupides, avec un baiser et la saveur piquante de nos lèvres qui s’entrelacent et se taisent toute la nuit. je te mange.","i devour you
 i devour you. you enter me in the silence of poetry, at the same time as everything we’ve already said, with the first glass of wine, and with the second, you enter with questions asked and answers given, with manicured words and double meaning, with your hand grazing my arm as you reach for bread, with our feet touching perhaps on purpose, you enter with the first course, with the second and third, with another glass of wine, with dessert, coffee, and the check please, you enter strolling toward the lighthouse, with laughter and silly jokes, with a kiss and the spicy taste of our lips melting, silent all night. i devour you.",fr_XX,en_XX,0
 "desaparecido
@@ -1105,7 +1105,7 @@ of what we call life
 there are trees in my head
 around my bathtub
 because the universe is much too large
-far from my puddle of water.",fr_XX,en_XX,-1
+far from my puddle of water.",fr_XX,en_XX,0
 "r.
 de mes cousins du toubkal j’ai la langue précise et claquante une peau à toute épreuve et le regard de thanina aigle insaisissable. dans ma montagne retranchée me parvient le chant de la source rouge l’écho de l’atlantique des îles en bordure et les sabots vaincus fuyant les amandiers. de mes cousins du toubkal j’ai le silence attentif sur les places du folklore, les cracheurs de feu, les mariages scénarisés, les culs loués et les hrira à deux dirhams. chez mes cousins du toubkal le luxe des miséreux achève l’andalousie et le misérable fait sa pose jambe tendue vers le cireur de chaussures. et lorsque comble de bons sentiments monarques à la petite semaine d’une fête de façade une mère de passage sirotant l’orange pressée à bientôt minuit une mère trouve beau le sourire de l’enfant courageux le sourire de la petite fille qui sur la place à bientôt minuit vend des mouchoirs en papier à la mère dont les enfants dorment déjà rêvent déjà quand la mère aime ce sourire grenade est à jamais perdue.","r.
 i have my toubkal cousins’ precise and deadly way of talking impenetrable skin and the gaze of thanina elusive eagle. on my unattainable mountain the song of the red wellspring comes to me the echo of the atlantic the coastal islands and defeated hooves fleeing the almond trees. i have my toubkal cousins’ attentive silence about the folklore squares, the fire-eaters, the choreographed marriages, the rented arses and the two-dirham hriras. at my toubkal cousins’ home the luxury of the destitute puts an end to andalusia and the pauper poses, his leg extended toward the bootblack. and when at the height of virtuous feelings small-time monarchs of a cobbled-together celebration a mother on holiday sipping orange juice at nearly midnight a mother finds the smile of the plucky child beautiful the smile of the little girl who on the square at nearly midnight is selling a packet of tissues to the mother whose children are already asleep already dreaming when the mother admires that smile grenada is lost forever.",fr_XX,en_XX,1
@@ -1130,7 +1130,7 @@ we did her hair, which i had cut
 then the child left his cage and excused himself for forgetting something
 i walk no doubt in what he forgot
 i hear her voice when i look at her, by chance, on the side she’s on
-sometimes i laugh without knowing it",fr_XX,en_XX,1
+sometimes i laugh without knowing it",fr_XX,en_XX,0
 "les enfants actés se préparent familièrement à verser dans l’acte de violence
 par la vitrine des tasses brisées, l’attention ne faiblit pas
 manquée se présente comme une image juste, à l’intersection de celles, des images ou des actes, qui sont des enfants
@@ -1325,7 +1325,7 @@ celui qui ne dit rien, là-bas, ton visage parle pour lui. à chaque fois que je
 i’d like to write sentences nested like russian dolls. to dwell in their hollow wooden bellies, a secret can preserve
 a rose is in a rose, a bee in a bee
 i dreamed they put your head on backwards, and i had to hold you by the shoulders so you wouldn't fall, your head on backwards
-the one who isn’t saying anything, over there, your face speaks for him. every time i look at you, someone sprints over your haircut",fr_XX,en_XX,-1
+the one who isn’t saying anything, over there, your face speaks for him. every time i look at you, someone sprints over your haircut",fr_XX,en_XX,0
 "dernière phase
 je te tends mes poings
 chauffés à blanc
@@ -1442,7 +1442,7 @@ je forme avec la bouche le mot de quelque chose, je me déremémore, une trouée
 this face that was mine, rubbed hard with mustela, contains the sum of the stuck-on faces; and the cake of a moment returns with its containers full of holes
 i poured them out, i poured them out
 you improve yourself, i invent a joy for myself, if this courage is mine and you hold my hand tight, the colour approaches multiple flashes at once
-i form with my mouth the word for something, i un-remember, a hole is accentuated",fr_XX,en_XX,-1
+i form with my mouth the word for something, i un-remember, a hole is accentuated",fr_XX,en_XX,0
 "la bonne nouvelle
 bon nouvel
 depi mwen gade pye-w
@@ -1629,7 +1629,7 @@ there’s no point demonising walls the problem starts with t-brackets, amongst 
 who was it that called the t-bracket the mother of tools does a tool marked up to the millimetre know how to be a mother
 there is a new migration much stronger than the influx that moves blood in lines through all the hemispheres’ senses a fierce migration that massacres the heart’s free roaming with iron bars
 within the realms of immigration services, it’s permissible to identify visible wall agents, they’re real characters, with their barcodes of men sold at a good price on the market
-walls are material proof of the burden of our times",fr_XX,en_XX,-1
+walls are material proof of the burden of our times",fr_XX,en_XX,0
 "ulysse
 te donner un nom?
 te donner un nom quand tu danses dans le noir dans des rues désertes avec de grands chiens?
@@ -1830,7 +1830,7 @@ for a death-deserving glazier
 i’m covered in blood
 so
 i wash myself
-that’s my name that comes from there.",fr_XX,en_XX,-1
+that’s my name that comes from there.",fr_XX,en_XX,0
 "elle
 donne-moi un nom, ulysse
 donne-moi un nom que je puisse t’attendre
@@ -1850,7 +1850,7 @@ i’ll join her there, a little slant, on the edge of a chair, the way birds do
 the ache in my thigh keeps me from losing myself to that side of the mirror
 in the morning i’ll wear my earrings
 i may even wear them to bed should you surprise me in the night
-but if i have no name how will i know which of us, her or me, is waiting?",fr_XX,en_XX,0
+but if i have no name how will i know which of us, her or me, is waiting?",fr_XX,en_XX,-1
 "prologue
 elle
 tout ceci est de mémoire profane
@@ -2059,7 +2059,7 @@ il regarda le ciel et le ciel était bleu.","epilogue
 the sky is blue; a
 week; the sky is blue; a month; the sky is blue; a
 whole year:
-he looked at the sky and the sky was blue.",fr_XX,en_XX,2
+he looked at the sky and the sky was blue.",fr_XX,en_XX,0
 "le magasin acmé
 (lors de cette expérience john cage ou son équivalent s'assoira sur une chaise en bois et s'y tiendra immobile et silencieux tout au long de l'expérience un ou qu'une comparse en fera le commentaire)
 (l'expérience commence avec john cage ou son équivalent, c-à-d n'importe qui, homme ou femme, voire même enfant, s'asseyant sur une chaise simple en bois, le dos bien droit et pourquoi pas les mains à plat sur les cuisses)
@@ -2139,7 +2139,7 @@ i had to let myself be traversed
 by what was beyond me.
 even my voice no longer had the strength to rise or restrain itself.
 i whispered to make myself heard
-and i was immoderate with respect to my disqualification.",fr_XX,en_XX,-1
+and i was immoderate with respect to my disqualification.",fr_XX,en_XX,1
 "chapitre
 ho! ho! je te reconnais
 moins de deux années s'écouler (passé composé), depuis le
@@ -2233,7 +2233,7 @@ when his ghost passed through me
 at the moment of the tide’s turning
 which snatched the patient bodies in the ebb tide
 i was kneeled there on the ground
-i knew that soon my turn would come.",fr_XX,en_XX,-1
+i knew that soon my turn would come.",fr_XX,en_XX,0
 "de la route jusqu\'à västerås 14
 dans la mesure où j’observais que ma tête était sur sa nuque productique
 mais coupée du reste de mon corps,
@@ -2279,7 +2279,7 @@ it found itself hung in a struggle with their iron fist.
 i was afraid there would be no end to this,
 that this was only the beginning of an infinite accumulation
 as long as my heart agreed to be its wheel
-and my trunk the receptacle of its excrement.",fr_XX,en_XX,-1
+and my trunk the receptacle of its excrement.",fr_XX,en_XX,0
 "pain confiture
 le baromètre électronique prévoit un soleil rond
 ce matin que j’ai soulevé comme tous les matins
@@ -2310,7 +2310,7 @@ which impassively i wolfed down in three
 i woke the children one by one
 the seed of the day was scattered
 there was nothing left but to garner it
-beneath the great staring eye of a surprised sun.",fr_XX,en_XX,-1
+beneath the great staring eye of a surprised sun.",fr_XX,en_XX,0
 "de la route jusqu\'à västerås 17
 où roulais-je à présent ?
 par quelle main et de quelle façon étais-je désenchaînée de la journée?
@@ -2470,9 +2470,9 @@ a gust, to make it fall on its back, shell on smooth concrete, paws in the air, 
 the reverse has no place. it lives deep in the layers.
 [from present, the past / out of use]
 —––––––––––––––––––––––––––––––– wear always ends up affecting the body.
-––––––––––––––––––––––––––––––––––––",fr_XX,en_XX,-1
+––––––––––––––––––––––––––––––––––––",fr_XX,en_XX,0
 "avec flamme et incertitude, sans romantisme mais avec amour, avec amours, avec toutes amours possibles, sans amour je meurs, qui ne meurt sans amour ?, toutes solitudes bues à la lie, avec plaisir, mais qui ne meurt pas sans amour ?, avec tous rêves, tous désirs, c’est élan, mouvement, au présent pour, ne plus refuser au rêve à l’esprit à l’âme aucun amour, amour à satiété c’est accepter et prendre rêves et, les prendre en pleine face, en prendre son plein pouls, son poing fermé, son pouls bat, son poing levé face à face à, face à face joyeuse et ouverte ce point du rêve de l’esprit de l’âme où tout se noue, dénouant kaku, renouant hanhaba, cartes abattues révèle l’éventail de l’âge, regarde, regarde, quelque soit l’âge relève de l’inertie, l’inertie aux orties, de plein fouet, embruns et vagues, s’y offrir, s’insinue et s’ancre, s’ancre dans le sexe les doigts dans la langue les bras partout le désir vient les doigts deviennent fébriles, fébriles doigts cachés tus, contenus, cette habitude de contenir, cette habitude apprise, la bienséance au cul, la chier, je veux mes doigts trembler, autour se nouer ma voix, cette gêne, le plaisir de cette gêne c’est celui de se savoir lu, tout nue lue, toute honte tue, muée goulée d’air, prise d’air et trou même matière : que soit lisible que j’émoie, que je ne suis pas morte, qu’est fugace, qu’elle est dangereuse la bienséance, il est fugace, futile, furet, furète, forète, foret, creuse le désir, s’insinue et soumet, s’insinue et s’enroule, s’émet l’amour, toutes les nuances des amours, qu’affleurent, épiquent, rossissent, allègrent mouvantes et présentes amours quand je croise, quand je crois, quand je croise le fer et embrasse le bois, le serre, l’enlace, vivante forêt, entre les troncs glisse, furtive, forée lèche le plancher, c’est comme je jouis, comment jouir petit je ne sais, n’y peux rien, jouir c’est grand, est un nuancier le plaisir, irisation nuances, aussi prismatique que sentir, tout un panel, une palette, un étal, jouir est une couleur, avec flamme et incertitude, je ne sais, n’ose, ne sais mais ose, ose lentement, lentement je ne sais alors lentement est déconstruire, tout ensemble, touchée, caressée, caressant déjà là, c’est cesser d’avoir peur, cette peur-ci à la baille, baille, c’est glou-glou, c’est très flou, c’est nécessité de cesser de fuir, cesser de fuir ce qui se sent, se sait, s’essaime, c’est, c’est savoir oser dire si j’aime, si je sais si j’aime, c’est desseller, déboulonner les statues d’où je les aies mises, démises, remisées, fondues ces statues, coulent à nouveau dans les veines leurs laves, que le cœur soit , les socles sont vides, dans des jardins des socles vidés, les statues parties roucouler, les amours dans les coins, les mains, s’ébattent, s’éloignent, se carapatent, se séparent et se retrouvent dans les amours que je ne connais pas, quels amours connais-je ?","with flame and uncertainty,
-with flame and uncertainty, without romanticism but with love, with loves, with every possible love, i die without love, who doesn't die without love?, every solitude drunk to the dregs, with pleasure, but who doesn't die without love?, with every dream, every desire, it's momentum, movement, is no longer denying any love to the dream the spirit the soul, love until satisfaction is accepting and taking dreams and taking them straight at face value, taking its full pulse, its clenched fist, its pulse beating, its fist lifted face to face with, face to joyous and open face to the point of the mind the soul the dream where all is tied together, untying kaku, retying hanhaba, the cards played reveal the spread of the age, look, look, whatever the age is it reveals the inertia, inertia chucked out, at full whip, sea-sprays and waves, giving oneself to them, slipping in and anchoring, anchoring the fingers in the sex the arm in the tongue, everywhere desire comes the fingers become restless, restless fingers hidden, killed, contained, this habit of containing, this learned habit, the decorum of the asshole, shitting it out, i want my fingers to tremble, to tie around my voice, this discomfort, the pleasure of this discomfort, is the pleasure of knowing oneself read, everything naked, read, every shame killed, shed gulp of air, taken from air and hole, same material: let it be legible what i emote, that i'm not dead, that it's fleeting, that it's dangerous, this decorum, it's fleeting, futile, ferret, ferrety, fowrest, drill, draining of desire, slipping in and subduing, slipping in and spinning, emitting love, every shade of the loves, that surface, epic-ing, blushing, allegriating, moving and present loves when i cross, when i give credence, when i cross my heart and hope to die, crossing the sword and kissing the wood, clutching it, embracing it, living forest, between the trunks sliding, furtive, bore licking the plank, it's how i come, how to come only a little i don't know, i can't do anything, coming is grand, pleasure is a color chart, shades of iridescence, as prismatic as feeling, a whole panel, a palette, a stall, coming is a color, with flame and uncertainty, i don't know, don't dare, don't know but dare, dare slowly, slowly i don't know then slowly is deconstructing, everything together, touched, caressed, already caressing there, is ceasing to be afraid, this fear cast to the high water, high water, it's glug-glug, it's real vague, it the need to stop fleeing, stop fleeing what's felt, known, swarming, it's, it's being able to dare say if i love, if i say if i love, it's unsaddling, unbolting the statues from where i put them, removed them, put them back, melted these statues, their lava once again coursing through the veins, may the heart be, the pedestals are empty, in the gardens the emptied pedestals, the statues gone warbling, the loves in the corners, the hands, frolicking, moving away, scramming, breaking apart and finding each other again in the loves that i don't know, what loves do i know?",fr_XX,en_XX,-1
+with flame and uncertainty, without romanticism but with love, with loves, with every possible love, i die without love, who doesn't die without love?, every solitude drunk to the dregs, with pleasure, but who doesn't die without love?, with every dream, every desire, it's momentum, movement, is no longer denying any love to the dream the spirit the soul, love until satisfaction is accepting and taking dreams and taking them straight at face value, taking its full pulse, its clenched fist, its pulse beating, its fist lifted face to face with, face to joyous and open face to the point of the mind the soul the dream where all is tied together, untying kaku, retying hanhaba, the cards played reveal the spread of the age, look, look, whatever the age is it reveals the inertia, inertia chucked out, at full whip, sea-sprays and waves, giving oneself to them, slipping in and anchoring, anchoring the fingers in the sex the arm in the tongue, everywhere desire comes the fingers become restless, restless fingers hidden, killed, contained, this habit of containing, this learned habit, the decorum of the asshole, shitting it out, i want my fingers to tremble, to tie around my voice, this discomfort, the pleasure of this discomfort, is the pleasure of knowing oneself read, everything naked, read, every shame killed, shed gulp of air, taken from air and hole, same material: let it be legible what i emote, that i'm not dead, that it's fleeting, that it's dangerous, this decorum, it's fleeting, futile, ferret, ferrety, fowrest, drill, draining of desire, slipping in and subduing, slipping in and spinning, emitting love, every shade of the loves, that surface, epic-ing, blushing, allegriating, moving and present loves when i cross, when i give credence, when i cross my heart and hope to die, crossing the sword and kissing the wood, clutching it, embracing it, living forest, between the trunks sliding, furtive, bore licking the plank, it's how i come, how to come only a little i don't know, i can't do anything, coming is grand, pleasure is a color chart, shades of iridescence, as prismatic as feeling, a whole panel, a palette, a stall, coming is a color, with flame and uncertainty, i don't know, don't dare, don't know but dare, dare slowly, slowly i don't know then slowly is deconstructing, everything together, touched, caressed, already caressing there, is ceasing to be afraid, this fear cast to the high water, high water, it's glug-glug, it's real vague, it the need to stop fleeing, stop fleeing what's felt, known, swarming, it's, it's being able to dare say if i love, if i say if i love, it's unsaddling, unbolting the statues from where i put them, removed them, put them back, melted these statues, their lava once again coursing through the veins, may the heart be, the pedestals are empty, in the gardens the emptied pedestals, the statues gone warbling, the loves in the corners, the hands, frolicking, moving away, scramming, breaking apart and finding each other again in the loves that i don't know, what loves do i know?",fr_XX,en_XX,0
 "féerie
 sept femmes nues
 avec pour toute parure
@@ -3672,7 +3672,7 @@ coldly
 blames
 right then turns
 away from
-you",fr_XX,en_XX,-1
+you",fr_XX,en_XX,0
 "si l’âne et le bœuf favorisent la prière des bonnes soeurs, qui a ordonné les douleurs de l’enfantement, ce désordre, dans le sang abondant ?
 depuis toujours, une anxiété rattache les mères aux grandes figures du sacrifice (saintes, reines, vierges). les chèques, les espèces, les factures, le temps passé à préparer les repas (mon enfant sera-t-il assez gros ?). le linge qui sèche, les pas dans le couloir, le plaisir de voir le matin absorber naturellement le soir.
 les enfants qui croient que maman éteindra la lumière restent éveillés, commencent quelque chose et ne finissent pas. a contrario, l’enfant modèle deviendra une plaie, ses cahiers sont trop bien tenus, le rouge et le bleu, soulignés. si plus tard il aide les sans-papiers, cela prouve que tout n’était pas joué sur les bancs de la messe.","if the ass and the ox foster the good sisters’ prayers
@@ -3684,7 +3684,7 @@ qui se souviendra d’un col repassé, de la jupe bleu marine, du petit bermuda 
 la plus belle journée renvoie à la clarté d’un moment éternel, à travers lequel on imagine la rencontre d’un père et d’une mère avant la conception de l’enfant, dans un décor mélancolique. un tel événement provoque un écart, un accroc, car à quoi sert une promenade dont personne ne se souvient ?","the big concepts
 the big concepts of well-being, happiness, kindness, correspond to the catechisms’ virtue, the interminable sunday morning sermon.
 who will remember an ironed collar, the navy blue skirt, the little bermuda shorts at the age when girls were dressed as boys? in this get-up, you can guess the terrible boredom of gardens on a sunday afternoon, saying hello to the ducks, the squeaky round of children and old people, you can hear it.
-the most beautiful day sends us back to the clear light of an everlasting moment through which we imagine the meeting of a father and mother before the child was conceived, against a backdrop of melancholy. when this happens it causes us to sidestep or trip, for what use is a walk no one remembers?",fr_XX,en_XX,-1
+the most beautiful day sends us back to the clear light of an everlasting moment through which we imagine the meeting of a father and mother before the child was conceived, against a backdrop of melancholy. when this happens it causes us to sidestep or trip, for what use is a walk no one remembers?",fr_XX,en_XX,0
 "résumé
 le ruisseau arrose la prairie de ses eaux
 calmes et transparentes
@@ -3711,7 +3711,7 @@ il suffit de se reconnaître dans les souliers d’une communiante et sous l’a
 girls have been created in the corset of religions. as mothers they’ll look back on threadbare sermons, scraped-back hair, fast-elongating legs.
 the glint of crucifix has faded with the baby blanket, jesus has deserted boarders’ faces, the exaggerated dog’s-dinner hairdos of all the girls whose tongues are hanging out, who sleep with open mouths. if good god registers this pulling out of shape, their puberty will make the rubber bands explode.
 the cotton knickers will be thrown away, and with the other relics there will be less delicate destructions, the result of wars, of territorial occupations, of photos that didn’t come out.
-you only have to recognize yourself in those first communion shoes in the light of dawn, in the words of the priest’s address.",fr_XX,en_XX,-1
+you only have to recognize yourself in those first communion shoes in the light of dawn, in the words of the priest’s address.",fr_XX,en_XX,0
 "hiver 5
 l’incomparable sensation de ciel s’offre à l’esprit libre pour se lover dans le moindre repli des choses le réel se reconnaît à la dureté sans doute comme si la matière était le moyen de découvrir la densité du monde présence anonyme douce protection cette tension qui se fait oublier lorsqu’elle parvient à la constance cette vitalité qui s’immisce en sous-œuvre par cet approfondissement gagner en stature sentir en soi le sens du mariage se laisser traverser prolonger justifier amplifier en soi l’envie de vivre lui donner corps et ainsi toucher à son insu à un vivant secret","winter 5
 the singular sensation of sky visits any free spirit so that it can hide in the tiniest corners of things the real is recognizable in hardness as if matter were the way to the world’s density anonymous presence sweet protection this tension that tends to be forgotten when it reaches constancy this vitality that interferes slyly thanks to that thoroughness the ability to gain position to feel deeply marriage’s meaning to agree to prolong justify amplify the desire to live and give it substance and thus reach unknowingly a living secret",fr_XX,en_XX,-1
@@ -3719,7 +3719,7 @@ the singular sensation of sky visits any free spirit so that it can hide in the 
 c'est l'histoire d'une poule pas plus grosse qu'un oeuf. elle a grandi normalement jusqu'à posséder une petite taille semblable à celle d'un oeuf. cela n'est pas inquiétant, elle n'en éprouve ni plus de honte, ni plus de crainte, une poule pas plus grosse qu'un oeuf n'a pas plus de chance d'être croquée par un prédateur qu'une autre. la poule pas plus grosse qu'un oeuf ne craint rien, elle n'a pas peur, elle a tout pour elle, elle est belle. poussin, elle avait déjà la taille d'un oeuf. en grandissant, elle s'est développée et a changé et s'est transformée, elle a vu ses couleurs se métamorphoser. elle est devenue une petite poule jolie pas plus grosse qu'un oeuf. elle a gardé la taille qu'elle avait, elle pouvait entrer dans un oeuf, elle entre encore dans un oeuf, la petite poule jolie pas plus grosse qu'un oeuf. elle est séduisante avec sa petite taille et toutes ses couleurs et ses formes de grande poule pas plus grosse qu'un oeuf. elle pond un oeuf pas plus petit qu'un oeuf, de la taille d'un oeuf de poule. elle a tout pour plaire. ses petite poussins ne sont pas plus grands qu'elle. ils grandissent, ils se transforment, ils gardent la hauteur d'un oeuf. elle est belle la pondeuse et la souriante petite poule avec ses rouges oranges et dorés. elle était jaune, poussin, jaune clair quand elle était dans l'oeuf. elle a grandi, elle est devenue jolie avec ses couleurs rougeoyantes, elle a bien changé, assez jolie et assez petite pour tenir toujours dans un oeuf. un oeuf blanc crème, coquille. la poule pas plus grosse qu'un oeuf est rouge orange et ronde. quand elle dort, elle ressemble à un oeuf rouge.","the egg
 this is the story of a chicken that is no bigger than an egg. she grew normally until she was the size of an egg. no problem, she is not more embarrassed, she is not more afraid, a chicken that is no bigger than an egg runs no bigger risk of getting eaten by a predator than another.
 the chicken that is no bigger than an egg is not afraid of anything, she knows no fear, she has everything going for her, she is beautiful. as a chick she was already as big as an egg. as she grew up, she developed and changed, she saw her forms change form and her colours change colour. she grew into a beautiful little chicken that is no bigger than an egg. she stayed as big as she was, she fitted in an egg, she still fits in an egg, the beautiful little chicken that is no bigger than an egg. as small as she is, she is enchanting with the forms and colours of a big chicken that is no bigger than an egg. she lays an egg that is no smaller than an egg, as big as a chicken's egg. she has every charm going for her.
-her chicks are no bigger shan she is. they grow up, they change, they stay the size of an egg. she is beautiful, the laying-hen, the little smiling chicken with her orange-red and gold-red colours. as a chicken she had been yellow, pale yellow, while she was still in the egg. she grew up and she changed, she became so beautiful with those glowing red colours of hers, ever so beautiful and ever so small as to fit forever in an egg. a yellowish, off-white egg. the chicken that is no bigger than an egg is orange-red and round. when she sleeps she looks like a red egg.",fr_XX,en_XX,-1
+her chicks are no bigger shan she is. they grow up, they change, they stay the size of an egg. she is beautiful, the laying-hen, the little smiling chicken with her orange-red and gold-red colours. as a chicken she had been yellow, pale yellow, while she was still in the egg. she grew up and she changed, she became so beautiful with those glowing red colours of hers, ever so beautiful and ever so small as to fit forever in an egg. a yellowish, off-white egg. the chicken that is no bigger than an egg is orange-red and round. when she sleeps she looks like a red egg.",fr_XX,en_XX,0
 "fatras
 i.
 a première vue, ce ne sont que des jeux incohérents. des remplissages grotesques. un non-sens exhibé. voire une impression de platitude. des variations formelles pour le plaisir d’une élite. un élixir ! le lecteur d’aujourd’hui s’ennuie devant la complexité des techniques mises en œuvre. il n’entend rien à toutes ces expérimentations délurées du langage. les journaux lui parlent autrement. chaque jour une catastrophe nouvelle le plonge dans l’angoisse. du sang éclabousse les récits rapportés. une trame d’éléments imprévisibles où se discernent mal les fils d’or de la broderie.
@@ -3743,7 +3743,7 @@ y voir certains jours plus clair d'autres jours gris gris blanc gris foncé de l
 – must we be higher than things rise above them or be beneath them all the way down – there’s always the temptation to gain a little distance as if you could find a way out because you certainly can’t stay as is – therefore we’re here and there therefore the need to adjust is constant the sense of justice as natural as the necessary solitude that ultimately makes us what we are at the end it’s the best of what’s left for us – it’s a tiring life made largely of little things that require tremendous concentration unbelievable energy but everyone does what they can to give form and consistency to whatever comes along
 to simply arrive at living
 day after day
-to see more clearly on certain days on others grey grey white dark grey color again and again",fr_XX,en_XX,-1
+to see more clearly on certain days on others grey grey white dark grey color again and again",fr_XX,en_XX,2
 "dans le rituel de la fête des mères, les vêtements sont repassés, les visages, jolis, la famille unie, jamais épique. la vie domestique est reléguée aux repas, horaires, ourlets qui attendent. chacun survit entre quatre murs, c’est peu et beaucoup pour un petit nombre, l’enfant comme extension de la mère, bourgeon coupé du père. on en fera quelqu’un, malgré tout. la jeune fille voudra compenser les sacrifices de toutes les femmes. pendant que sa mère prépare le repas, elle observe sa fatigue, le soir, dans la cuisine. elle voudra ouvrir la plaie, observer l’aile du petit canard, le reposer sur le sol.
 si vous êtes le vilain, vous verrez votre famille de l’extérieur.","in the ritual of mother’s day
 in the ritual of mother’s day, clothes are ironed, faces made attractive, family united, nothing dramatic. home life is reduced to meals and times, a hem that’s waiting to be turned. everyone survives between four walls, it isn’t much, yet for a few it means a lot, the child as an extension of the mother, scion of the father. in spite of everything, they’ll make him into someone. the girl will want to compensate for every woman’s sacrifice. while her mother cooks the meal she sees her tiredness, by evening, in the kitchen. she’d like to open up the wound, observe the duckling’s wing and lay it gently on the ground.
@@ -3767,7 +3767,7 @@ where the body comes to be
 to get to the secret of our impulsion –
 exhaustion takes us away and brings us back to ourselves
 – to reach the self
-as it is required from us as never before",fr_XX,en_XX,2
+as it is required from us as never before",fr_XX,en_XX,0
 "en observant les mères, vous voyez que les reines sont moins belles que leurs filles. les queues de cheval engendrent des enfants qui débarrassent la table. la dette des petites filles est claire, nette, impeccable, le montant brut revient aux garçons.
 le sacrifice, le don de soi, l’abnégation, dépassent les limites : repassage, cuisine, supermarché ou petits détaillants. on peut préférer la division à l’union, la raie sur le côté aux mèches qui tombent.","if you look at mothers
 if you look at mothers, you can see that queens are not as beautiful as their daughters. pony-tails engender children who clear dirty dishes from the table. the debt of little girls is clear, clean, indisputable, the gross amount is income for the boys.
@@ -3795,14 +3795,14 @@ the tomb, without any thought but happiness,
 without any future
 except its dispersal in the blue of the world.
 ‘no, don’t touch me,’ he would say to her,
-but even to say no would shed light.",fr_XX,en_XX,-1
+but even to say no would shed light.",fr_XX,en_XX,0
 "dans certaines familles, la république des filles fut le catéchisme. la jeunesse des écoles arrivait bruyamment avec les uniformes, les chaussettes blanches.
 aujourd’hui, on néglige le vide des pensionnats, l’ivresse des cierges, des jardins enneigés. on a fait croire aux filles qu’elles pourraient accéder au mariage, avoir des enfants, que les hommes s’arrêteraient devant les cafés. est-ce sérieux ? comment se faire raccompagner, alors que les jupes n’ont pas encore gonflé ? comparer la longueur de mes jambes à celle des autres filles, était-ce nécessaire ?
 bientôt, on pourra sortir au bras d’un inconnu,
 l’embrasser, fumer une marlboro à deux. les princesses pauvres aux cheveux détachés vont se libérer plus vite que les riches qui croupissent. entre les deux, la masse des étudiantes manifestera dans la rue.","in certain families
 in certain families, the republic of girls was the catechism. schoolgirls arrived noisily in uniform, white socks.
 today the emptiness of boarding-schools, the intoxication of wax candles, the gardens under snow are neglected. girls have been led to believe they might gain access to marriage, have children, that men would stop at the café door. are they joking? how can you get a man to bring you home when your skirt hasn’t yet filled out? was it necessary to compare the length of my legs with the length of other girls’?
-soon, she’ll be able to go out on a stranger’s arm, and kiss him, share a marlboro. the poor princesses with their hair loose will break free faster than the rich ones who stagnate. between the two, the mass of female students will be demonstrating in the street.",fr_XX,en_XX,-1
+soon, she’ll be able to go out on a stranger’s arm, and kiss him, share a marlboro. the poor princesses with their hair loose will break free faster than the rich ones who stagnate. between the two, the mass of female students will be demonstrating in the street.",fr_XX,en_XX,0
 "la vierge de miséricorde
 tout, maintenant,
 bien au chaud
@@ -3821,7 +3821,7 @@ madonna of mercy of the snow.
 against your body
 beings and things
 sleep, naked, and your fingers
-shade those closed eyelids from their light.",fr_XX,en_XX,-1
+shade those closed eyelids from their light.",fr_XX,en_XX,0
 "césure – i.
 s’il vient interroger une trace à moitié calcinée, c’est poussé par
 un atavisme ou plutôt une technique jalousement gardée. dans le secret, il a
@@ -3837,7 +3837,7 @@ toute une mise en scène rhétorique pour évacuer le mutisme de la cendre.","ca
 if he comes to interrogate a half-burned trace, he does so impelled by an atavism or rather a jealously guarded technique. he has woven the poem in secrecy. months of retreat in the desert, at the mercy of the winds, so as to conform to the tradition. chaffing and the whip. the echo’s harshness initiates into tonal ruptures. remoteness dilutes the blood. that’s when the rhythm’s fragility is discovered together with a sudden fear of obscurity. he’ll say nothing about the shiver in the hearing or the strangeness of the visions. sound images jostle…
 he stands upright to evoke the dwelling.
 the circumstance is banal in contrast to the words that describe it.
-a complete rhetorical staging in order to evacuate the mutism of the ashes.",fr_XX,en_XX,-1
+a complete rhetorical staging in order to evacuate the mutism of the ashes.",fr_XX,en_XX,0
 "de natura rerum
 lucrèce le savait:
 ouvre le coffre,
@@ -3870,7 +3870,7 @@ the other only a dream?
 where do those two shadows come from
 going along smiling,
 and the one muffled up
-in red wool?",fr_XX,en_XX,3
+in red wool?",fr_XX,en_XX,2
 "la question de la beauté se posera. définitivement. le symptôme féminin va avec danger, attente, frustration, espérance vertigineuse.
 l’arrivée d’une fillette constituait pour les familles royales une catastrophe, ce n’était pas le divin enfant, on observait ses futures empreintes, ses cheveux, ses petits fossiles dentaires.
 la partie nocturne de la sorcière resterait intacte. aujourd’hui, par la procréation assistée, la mère prend ses distances, garçon ou fille, l’enfant est accepté, déclaré, un tampon le prouve. elle ne s’interroge plus dans le miroir de la salle de bain.
@@ -3931,7 +3931,7 @@ in the confusion of the pile of wood
 ricked under the window,
 the chipmunk, our simple neighbour,
 or is he already roaming in the crunchy cold?
-i see tiny marks in front of the door.",fr_XX,en_XX,3
+i see tiny marks in front of the door.",fr_XX,en_XX,2
 "l’été encore
 j’avance dans la neige, j’ai fermé
 les yeux, mais la lumière sait franchir
@@ -3962,7 +3962,7 @@ and we try to read, we don’t understand
 who is interested in us in memory,
 except that it’s summer again; and we see
 under the flakes the leaves, and the heat
-rise from the missing sun like a mist.",fr_XX,en_XX,3
+rise from the missing sun like a mist.",fr_XX,en_XX,2
 "les cheveux tirés en barrette empêchent le bien-être des adolescentes qui vieillissent sans sortir de l’enfance. rien n’entame l’expansion d’une chevelure, du désir de bal, d’une virée à l’horizon. si l’horizon approche, la vision retombe, avec une cigarette, il explose. une suze, un arrêt sur l’autoroute, encore une cigarette, un autre verre.
 la jeune fille ne souhaite pas redescendre après être montée. ayant peu de loisirs, elle conserve ses rêves de juke-box à une époque où les prothèses technos n’existent pas.","hair that’s pulled back and fastened
 hair that’s pulled back and fastened with a slide makes it impossible to thrive, for those adolescent girls who age while they’re still children. nothing makes a dent in their big hair, their longing for the dance, to take a spin out to the horizon. if the horizon comes too close, the vision fades, a cigarette and it explodes. a suze, a motorway café, another cigarette, another glass.
@@ -4254,7 +4254,7 @@ has the whole house to himself, from now on. he goes
 from one window to another. he presses
 his fingers against the glass. he sees
 drops form where he stops
-pushing the mist towards the falling sky.",fr_XX,en_XX,3
+pushing the mist towards the falling sky.",fr_XX,en_XX,2
 "césure – vi
 elle n’a jamais quitté cette trace qui se lit dans la roche quelquefois. chacun localise là où une nostalgie le presse. pour la décrire tu invoques les arbres et la faune à l’entour. tous les patelins d’arabie, et leurs fleurs précoces et leurs bourrasques y passent.
 une géographie idéale où les stations s’équivalent. les femmes de la tribu sont belles et inaccessibles. le désir violent moque ton ardeur. il dérive sans retenue dans la joute. il y a aussi le vin rouge et les algarades.
@@ -4298,7 +4298,7 @@ after the leaves had fallen,
 today they charm
 as their shoulders
 are modestly accented
-with an edging of snow.",fr_XX,en_XX,-1
+with an edging of snow.",fr_XX,en_XX,2
 "si le rêve de l’humanité est de s’affranchir, la jeune fille en fait partie.
 elle fait partie de ces grandes poussées vers l’avant, cette lente traversée.
 pour les jolies à la taille serrée, c’est plus facile : absolument indépendantes, elles sont favorisées. le sol n’est cependant pas stable pour une ardente jeunesse, les murs ne tiennent pas droits.
@@ -4339,7 +4339,7 @@ but corollas and leaves are embroidered there,
 and already the music can be heard
 in the neighbouring room, where the lights are.
 a mysterious ardour takes your hand.
-you go, your heart pounding, into the big snow.",fr_XX,en_XX,-1
+you go, your heart pounding, into the big snow.",fr_XX,en_XX,0
 "neige
 fugace sur l’écharpe, sur le gant
 comme cette illusion, le coquelicot,
@@ -4367,7 +4367,7 @@ has hardly any clouds to half open
 a brighter way under dark vaults.
 circé
 under her pergola of shadows, the visionary,
-had no redder fruit.",fr_XX,en_XX,3
+had no redder fruit.",fr_XX,en_XX,2
 "le peu d’eau
 à ce flocon
 qui sur ma main se pose, j’ai désir
@@ -4386,7 +4386,7 @@ my past, these present days,
 simply a moment, this very moment, limitless.
 but already it is only
 a little bit of water getting lost
-in the mist of the flakes going into the snow.",fr_XX,en_XX,3
+in the mist of the flakes going into the snow.",fr_XX,en_XX,2
 "le jardin
 il neige.
 sous les flocons la porte
@@ -4403,7 +4403,7 @@ of more than the world.
 i go forward. but my scarf
 gets caught on rusty
 iron and tears
-in me the fabric of the dream.",fr_XX,en_XX,3
+in me the fabric of the dream.",fr_XX,en_XX,2
 "on dirait beaucoup d’e muets dans une phrase.
 on sent qu’on ne leur doit
 que des ombres de métaphores.
@@ -4417,7 +4417,7 @@ only shadows of metaphors.
 it’s like,
 as soon as it is snowing more heavily,
 these hands that push away other hands
-but play with the fingers they have rejected.",fr_XX,en_XX,-1
+but play with the fingers they have rejected.",fr_XX,en_XX,2
 "il est trop tard. il est trop tôt.
 peut-être les deux:
 trop tard pour mourir,
@@ -4461,7 +4461,7 @@ of scraps of birds.
 and the place to die and to be born meet.
 (a little too soon, a little too late,
 always inopportune,
-if you have the nerve to specify which.)",fr_XX,en_XX,2
+if you have the nerve to specify which.)",fr_XX,en_XX,0
 "l’enfant prodigue
 l’enfant prodigue n’est pas revenu.
 ce sont les porcs avec lesquels
@@ -4482,7 +4482,7 @@ these are the girls and the pigs
 who have come to his father’s
 to receive the fatted calf
 – to give it to the ingrate
-sprawled down there in the depths.",fr_XX,en_XX,-1
+sprawled down there in the depths.",fr_XX,en_XX,0
 "comme si de rien n’était
 quatre thèmes donc
 le déjà-vu
@@ -4932,7 +4932,7 @@ the clouds were passing
 at the far dark end of the room.
 but just now the mirror is empty.
 snowing
-the untangling of the sky.",fr_XX,en_XX,-1
+the untangling of the sky.",fr_XX,en_XX,0
 "le vieux broyeur de mots
 et la boue qu’il a sur les paupières
 et le nuage qui bouge un peu dans son regard
@@ -4991,7 +4991,7 @@ one feels a new madness
 circulate in the blood.
 one talks to oneself in all sorts of languages.
 one understands nothing
-but is perhaps going to know everything.",fr_XX,en_XX,1
+but is perhaps going to know everything.",fr_XX,en_XX,0
 "toi brother pour gagner la ville des roses initiales
 à ton nom mets des lèvres à la belle meunière
 indication de toi simplement conditionnelle
@@ -5015,7 +5015,7 @@ improved saw the sun until stopped just in front
 spent red volume radical reform discussed
 thought a bit that all is residency instead
 of grass it’s a pursing of the lips individuals
-beautiful pointy dolphins going home.",fr_XX,en_XX,-1
+beautiful pointy dolphins going home.",fr_XX,en_XX,0
 "ici qu’est-ce qu’on voit ?
 on voit jules furthman au scénario, karl hajos à la musique, lee garmes à la photo. anne bauchens au montage, travis banton aux costumes, western recording au son (mono). on voit claudette colbert (cléopâtre) warren william (jules césar) henry wilcoxon (marc antoine) ian keith (octave) john carradine (un officier romain) david niven (un esclave) jeff mollie (un jeune patricien) gary cooper (le légionnaire tom brown) marlene dietrich (amy jolly) douglass dumbrille (mohammed khan) j. carrol naish (le grand vizir) mischa auer (un prisonnier) leonid kinskey (un charmeur de serpent) barbara stanwyck (mollie mohanan) joel mccrea (jeff « bucko » butler) russell hicks (le sergent) noble johnson (l'indien tirant sur le piano) ray mala (l'indien au cigare) nestor paiva (un conducteur de train) george regas (l'indien écoutant le télégraphe) anna may wong (lan ying lin) charles bickford (otto hartman) paulita arvizu (une danseuse, non créditée) carmen bailey (une danseuse, non créditée) agostino borgato (un gitan, non crédité) marie burton (une fille, non créditée) wong chung (un des serviteurs de quan lin, non crédité) chick collins (un marin au combat, non crédité) sheila darcy (une fille, non créditée) paula decardo (une fille, non créditée) james dime (un marin, non crédité) jimmie dundee (un marin au combat, non crédité) norah gale (une fille, non créditée) kit guard (un ivrogne, non crédité) harriette haddon (une fille, non créditée) john hart (un marin, non crédité) gwen kenyon (une opératrice téléphonique, non créditée) carmen laroux (une danseuse, non créditée) ching wah lee (quan lin, non crédité) maurice liu (ah fong, non crédité) joyce mathews (une fille, non créditée) tina menard (une danseuse, non créditée) helaine moler (une fille, non créditée) bill powell (le serveur, non crédité) alma ross (une fille, non créditée) natalie schafer (une danceuse blonde, non créditée) frank sully (jake kelly, non crédité) layne tom jr. (le dandy chinois, non crédité) sammee tong (un chinois dans l’avion, non crédité) blanca vischer (une danseuse, non créditée) pierre watkin (mr. yorkland, non crédité) ernest whitman (sam blike, non crédité) charles c. wilson (mr. schwartz, non crédité) alex woloshin (un gitan, non crédité) beal wong (un chinois dans l’avion, non crédité) bruce wong (un chinois, non crédité) michael wu (yung woo, non crédité).
 on voit moïse sauvé des eaux le futur ramsès ii la mer rouge coupée en deux la terre promise. on voit la chanteuse de cabaret le légionnaire tom brown s’enfonce dans le désert. on voit cléopâtre aimer d'abord césar puis marc antoine puis se suicide après la conquête d’octave. on voit deux anciens lanciers du bengale dans l’embuscade de mohammed khan. on voit l’union pacific railways tenter de rejoindre l.a. s’avouer leur amour dans les difficultés dick est tué. on voit josh malone à l’aventure fuire sa vie dorée l’aperçoit dans son numéro au fouet peuvent enfin s’aimer. on voit la jeune kitty prostituée en modèle de gainsborough séduit tout londres et la haute société.
@@ -5096,7 +5096,7 @@ no longer anyone – because of expropriation!
 and the woman has left as from a house
 where she would have left everything: goods and chattels,
 from where she would have withdrawn everything: dreams and souls.
-(and the gown squeaks with bark in autumn.)",fr_XX,en_XX,-1
+(and the gown squeaks with bark in autumn.)",fr_XX,en_XX,0
 "requiem
 les oiseaux sont éteints
 mais les lampes veillent.
@@ -5115,7 +5115,7 @@ your lodging won’t be a gas chamber.
 sleep requiem to you good night!
 from now on your guardians will be angels
 herod and the corporal are on leave.
-the birds somewhere love you.",fr_XX,en_XX,2
+the birds somewhere love you.",fr_XX,en_XX,0
 "on voit
 un bras qui se lève et c’est l éternité*
 une main
@@ -5141,7 +5141,7 @@ one kills
 and one loves for ever what can
 live for only one day
 a hand is raised and time goes down
-*ludovic janvier",fr_XX,en_XX,-1
+*ludovic janvier",fr_XX,en_XX,0
 "les chiens aboient. il n’y a pourtant pas de
 passants, dit l’homme. la femme qui comprend
 tout sans rien savoir pense que ce sont des
@@ -5179,7 +5179,7 @@ her olden days all silvery suspicious
 that park excludes that on the pass
 rarely meets them panorama dear friends
 a crowd of people your buttons dot embodies
-cartoon delivery bores her decorates lanes.",fr_XX,en_XX,-1
+cartoon delivery bores her decorates lanes.",fr_XX,en_XX,0
 "les cerfs–volants
 ce sont les âmes que l’on met en terre
 et ce sont les corps qui montent au ciel
@@ -5192,7 +5192,7 @@ and these are the bodies that rise to the sky
 shrouded in their suits of cheap wood.
 so you sometimes see coffins float
 on the air currents like big kites
-(at which astonished dogs bark at night).",fr_XX,en_XX,2
+(at which astonished dogs bark at night).",fr_XX,en_XX,-1
 "le sport favori de l’homme
 aucune preuve
 que nous avancions
@@ -5536,7 +5536,7 @@ with this renamed boat stripped of its big band
 that sank, sinks still in our minds and
 never sank. most often in the evening: evenings
 are so sentimental. i still have that card.
-you’ve earned it through the toil of your sleep.",fr_XX,en_XX,-1
+you’ve earned it through the toil of your sleep.",fr_XX,en_XX,1
 "ne coupez pas
 c’est beau
 de ne pas savoir d’où viennent les choses
@@ -5777,7 +5777,7 @@ then toward evening,
 the curse of the light comes to an end.
 shadows and dreams have the same weight.
 a little wind
-writes with the tip of its toe a word outside the world.",fr_XX,en_XX,3
+writes with the tip of its toe a word outside the world.",fr_XX,en_XX,2
 "j’affirme sur l’honneur
 que je n’ai rien à voir avec
 moi-même.
@@ -6641,7 +6641,7 @@ transfers
 of exchanges.
 children
 well replace
-trees.",fr_XX,en_XX,1
+trees.",fr_XX,en_XX,-1
 "monsieur néant en alpiniste miraculé
 au motel la destinée monsieur néant prépare soigneusement
 le dernier acte
@@ -6708,7 +6708,7 @@ and the answer: la fontaine.
 he slips the paper, folded in quarters, into an envelope he leaves prominently visible on the bolster
 then he stretches out and closes his eyes.
 the next day, he describes the scene in detail to his analyst, dr. friedel
-who shakes his hand effusively as if he were the sole survivor of a himalayan expedition.",fr_XX,en_XX,-1
+who shakes his hand effusively as if he were the sole survivor of a himalayan expedition.",fr_XX,en_XX,1
 "le temps en couleur
 vite ! des couleurs par la fenêtre
 des couleurs sur les champs et les forêts
@@ -6790,7 +6790,7 @@ the black of a village chimney silent as a closed mouth – quick!
 the black of a village church-bell never to be caught up in the savior’s arms –
 quick!
 white, black, green, pink, blue and gold –
-quick! quick! quick!",fr_XX,en_XX,-1
+quick! quick! quick!",fr_XX,en_XX,0
 "sang
 tu es belle. et je suis fou.
 corps de pierre. corps solaire. corps solitaire. lactescence estivale. echancrure sauvage. tu es ma chair d’ivoire. astre noir. mon obscène territoire. tu m’emmures sous le dôme des lamentations. ma succulence permise. ma maîtresse. ma connivence sensuelle. ma lunaire tyrannique. princesse endiablée. lacis de sueur. idole enrobée de soie. et d’épines.
@@ -7018,7 +7018,7 @@ for the last fishermen
 history speaks to us as much as nature does
 in rome it’s hotter than at home.
 tirelessly, distance plays
-its melancholy minuet.",fr_XX,en_XX,-1
+its melancholy minuet.",fr_XX,en_XX,0
 "je ne me souviens pas
 il n’y a pas grand-chose dont je me souvienne
 j’ai dû vivre à côté tout le long
@@ -7326,7 +7326,7 @@ the woman’s voice declared she had never
 liked wars, or the people who made her eat
 under the table when she was still a child.
 on the ceramic of the coffee cups
-a couple ambled towards a county fair.",fr_XX,en_XX,-1
+a couple ambled towards a county fair.",fr_XX,en_XX,1
 "les yeux des autres
 c’est une jeune femme qui vit dans un village dans un pays lointain,
 elle vient de se marier et elle est enceinte, elle aime bien son mari
@@ -7486,7 +7486,7 @@ teach you to respect us, to respect your masters, on your knees
 you filthy whore and while he slits her belly cuts her foetus up and empties
 petrol over her and lights it, in the eyes of this young woman – from a country
 distant yet not different from ours – still lingers, and will always linger
-the enchanted light-show of the sea, the trees, the stars.",fr_XX,en_XX,-1
+the enchanted light-show of the sea, the trees, the stars.",fr_XX,en_XX,1
 "boulevard saint-marcel
 porté comme une châsse par de graves
 jeunes gens, le portrait de marx
@@ -7559,7 +7559,7 @@ a book is not a property. whose property is a body?
 “my science can only be a science point by point.
 i have neither time nor means to trace a continuous
 line.” (marcel jousse.)
-the body is not a subject; that’s why . . .",fr_XX,en_XX,-1
+the body is not a subject; that’s why . . .",fr_XX,en_XX,0
 "vers buxtehude
 il marchait
 entre les peupliers et l’asphalte
@@ -7620,7 +7620,7 @@ then would depart again at dawn
 across the sleeping white-roofed villages
 having forgotten for quite a while
 the music that had set him
-on this road",fr_XX,en_XX,-1
+on this road",fr_XX,en_XX,0
 "la vérité
 un goût de pommes au miel, de petit
 acide accompagne les larmes lourdes
@@ -7649,7 +7649,7 @@ in front of the fireplace dozes
 a cat we must step over carefully
 to bring the sliced warm bread, the terrine
 of woodcock and foie gras
-with hand-ground pistachios.",fr_XX,en_XX,2
+with hand-ground pistachios.",fr_XX,en_XX,0
 "cher seul décor il faut qu’il soit petit
 s’adapte à l’opacité la modèle l’ombre
 avec des traits délai sens
@@ -7669,7 +7669,7 @@ bonus shrunk edifice the needle
 so now in the competition
 of wings at will it will flit about
 spit nails bang into the set
-is offered sharp in alfa precision.",fr_XX,en_XX,-1
+is offered sharp in alfa precision.",fr_XX,en_XX,0
 "vieilles conversations
 il s’était souvenu de vieilles conversations avec les uns
 et les autres,
@@ -7766,7 +7766,7 @@ he had gotten his fingers burnt –
 no one else here, between the hôpital st-louis and the institut curie
 had had the guts to do it –
 and no one would be saved without embarking on the same road,
-bitter, hard.",fr_XX,en_XX,-1
+bitter, hard.",fr_XX,en_XX,0
 "au restaurant
 le patron fait des omelettes aux cèpes,
 de la tarte flambée et la pâte
@@ -7857,7 +7857,7 @@ of the cycle of arrivals and departures
 and we fall in love with night
 because each night celebrates a dream’s wedding
 and we fall in love with day
-because life begins with each day",fr_XX,en_XX,-1
+because life begins with each day",fr_XX,en_XX,0
 "le vin nouveau
 le soleil allume en clair-obscur
 l’ombre du frêne dans l’ombre d’or
@@ -7886,7 +7886,7 @@ anybody anymore, she had told her lover
 over a carafe of new wine
 whose brilliance reheated the room.
 she walks on smiling, all the time allowing
-tears to glide down across her lips.",fr_XX,en_XX,-1
+tears to glide down across her lips.",fr_XX,en_XX,0
 "le docteur
 les arbres de la cour circulaire
 jaunissent, une délirante en contention
@@ -7955,7 +7955,7 @@ on the world’s lined page
 i traced letter after letter
 to remind myself
 of what i had to forget
-and of what in me was already dying",fr_XX,en_XX,2
+and of what in me was already dying",fr_XX,en_XX,0
 "je suis enfant et libre
 d’habiter d’éternels dimanches
 soleil posé sur l’horizon
@@ -8025,7 +8025,7 @@ how vast the sky is when the whole
 world is a poem
 it’s broad daylight on earth
 night has not yet been created
-i have a foothold in all of time",fr_XX,en_XX,-1
+i have a foothold in all of time",fr_XX,en_XX,1
 "les fileuses
 celle qui malgré l’hiver a gardé
 aux joues le souvenir des raisins
@@ -8054,7 +8054,7 @@ their heads still full of night, careless from having
 drunk mulled wine and spun
 the linen of their sheets between games, forfeits
 and lies, beneath the gaze
-of men waxing harnesses.",fr_XX,en_XX,3
+of men waxing harnesses.",fr_XX,en_XX,2
 "j’eus dix ans le ciel en tête
 j’empruntai ses ailes au soleil
 pour voler vers ce lieu entre deux rives
@@ -8152,7 +8152,7 @@ in space and time
 how to know if in this nowhere
 place where a voice sets itself free
 i came of my own free will
-or if it was imposed on me",fr_XX,en_XX,2
+or if it was imposed on me",fr_XX,en_XX,0
 "evolène
 frôlée soudain par l’ombre
 de ce qu’elle a dit « ça me fait
@@ -8181,7 +8181,7 @@ ingest love
 in the form of cold tripe
 she laughs adds nothing certainly doesn’t
 speak of what the glass is hiding
-that she holds level with her breasts.",fr_XX,en_XX,2
+that she holds level with her breasts.",fr_XX,en_XX,0
 "le salon de musique
 pour le plancher, c’est un point
 de hongrie : chaque carré fait de quatre
@@ -8239,7 +8239,7 @@ idle men dream, in this calm rumbling
 which keeps on fabricating energy
 in the time that’s left for matter
 when mankind has done shouting
-over the soft cloak of snow.",fr_XX,en_XX,3
+over the soft cloak of snow.",fr_XX,en_XX,2
 "tu te doutes de la patience
 de cette terre fauve
 quand ses yeux s’absentent
@@ -8313,7 +8313,7 @@ engorged with rust-red blood, the umbilical tied up
 in a neat sailor’s knot, to the fingers that have weighed
 the dung and the tresses of a mother still living,
 on her way on a journey in history
-and kept secret, in a forest of birch.",fr_XX,en_XX,-1
+and kept secret, in a forest of birch.",fr_XX,en_XX,1
 "inepuisable
 on commence avec aubier entre syntaxe et
 saules pleureurs, mais les mots savent le monde
@@ -8382,7 +8382,7 @@ it’s that way with certain dreams
 as with great happiness or great sorrow
 for your silence when there is no voice
 for the dream that you bear in your night
-the flame must be fed the lamp protected",fr_XX,en_XX,2
+the flame must be fed the lamp protected",fr_XX,en_XX,0
 "nous vivons dans un pays
 ivre de violence et de guerre
 medellin sombrera dans la tristesse
@@ -8458,7 +8458,7 @@ since then i’ve tried to understand
 libertad cries the crowd standing as one
 after a poem is read
 in the carlos-vieco auditorium
-libertad",fr_XX,en_XX,-1
+libertad",fr_XX,en_XX,1
 "dans le piège des narines
 l’aube est une femme
 qui brise tes fenêtres avec ses seins
@@ -8529,7 +8529,7 @@ shacks on the outskirts abandoned villages within
 women in flowered dresses waiting for the improbable
 curious little monkeys by the roadsides
 a stop beneath the heady marula the liquor tree
-all at once i speak of a voyage to the heart of another desert",fr_XX,en_XX,-1
+all at once i speak of a voyage to the heart of another desert",fr_XX,en_XX,1
 "le masque à gaz
 jusqu’à toi,
 les tailleurs de marches s’écroulent par endroits
@@ -8580,7 +8580,7 @@ the scalp of days past.
 and the machine-gun you lean on as you keep on firing.
 the bullets hum, and the caravan does not arrive.
 as far as you – the words spoken. the false move.
-you fire through the windows at yourself.",fr_XX,en_XX,-1
+you fire through the windows at yourself.",fr_XX,en_XX,0
 "quai des orfèvres
 le petit homme fermait parfois
 sa librairie, le temps de recopier
@@ -8615,7 +8615,7 @@ il faut que la lumière /
 étreigne la pavane / des ombres sur tes lèvres /","for the world’s beauty
 for the world’s beauty / to be complete /
 light must embrace /
-the pavane of shadows / passing across your lips /",fr_XX,en_XX,-1
+the pavane of shadows / passing across your lips /",fr_XX,en_XX,0
 "dinard
 on marche ensemble sur le promenoir
 au pied des maisons d’anglais
@@ -8644,7 +8644,7 @@ heart the unrecaptured time
 of images, when thought
 weeps with rage before the beautiful
 ellipsis of a slate-gray day
-held aloft on a kite-string.",fr_XX,en_XX,2
+held aloft on a kite-string.",fr_XX,en_XX,0
 "le tram de nantes
 les gens fument les gens absorbent du café
 les gens boivent les gens mangent beaucoup de viande
@@ -8703,7 +8703,7 @@ and they will re-speak the people will drink wine
 they will swallow coffee and after that they
 will catch the tram in order to go away
 to breathe the air of the birds that chant to nantes
-in full-throated triumph the immense existence",fr_XX,en_XX,-1
+in full-throated triumph the immense existence",fr_XX,en_XX,0
 "correspondance
 lettre 1
 je viens de recevoir ta dernière lettre et j’y réponds immédiatement. tu me demandes si j’ai bien reçu ta dernière lettre et si j’ai l’intention d’y répondre. je me permets de te faire remarquer que l’envoi de ta dernière lettre fait que la lettre que tu m’as envoyée précédemment n’est plus désormais ta dernière lettre et que si je réponds comme je suis en train de le faire à ta dernière lettre, je ne réponds pas à celle qui est maintenant ton avant-dernière lettre. je ne peux donc satisfaire à la demande que tu me fais dans ta dernière lettre. j’observerai par ailleurs que ta dernière lettre ne répond pas, contrairement à ce que tu affirmes (je te cite: « j’ai bien reçu ta dernière lettre et j’y réponds immédiatement ») à la lettre où je te demandais, si je m’abuse (mais je ne m’abuse pas, j’ai les doubles) si tu avais bien reçu ma dernière lettre et si tu avais l’intention d’y répondre. en l’absence d’éclaircissements et de réponses de ta part sur ces deux points auxquels j’attache (à bon droit je pense) une certaine importance, je me verrai, à mon regret, obligé d’interrompre notre correspondance.
@@ -8786,7 +8786,7 @@ and swearing and grumbling he went to marie
 to the kitchen to drink a cup of black coffee
 then he went out he started the car we heard
 the tyres on the gravel the fear had ended
-we resumed our games our fratricidal wars",fr_XX,en_XX,-1
+we resumed our games our fratricidal wars",fr_XX,en_XX,0
 "l’espèce humaine
 les hommes sont des mammifères
 (car c’est ainsi qu’ils se présentent)
@@ -9055,7 +9055,7 @@ is it someone or the key?
 tale is the infinite keyhole
 now.
 whence its upkeep.
-after ‘the golden key’",fr_XX,en_XX,-1
+after ‘the golden key’",fr_XX,en_XX,0
 "réversibilité
 en hiver, des flocons descendent
 comme des plumes
@@ -9297,7 +9297,7 @@ both of her husbands in the selfsame vault the same infinity
 grave is a tomb across the channel differently pronounced
 i’ve found my head again all in one piece it’s in the hanky
 giant’s hanky tea-towel of time past
-and it’s turning surely.",fr_XX,en_XX,-1
+and it’s turning surely.",fr_XX,en_XX,1
 "identité
 quelle identité serait tienne, de ta mort ?
 tu es, diraient certains, la tombe et son dedans,
@@ -9506,7 +9506,7 @@ they go on seas and they cry
 toot! toot! toot!
 toot! toot! toot!
 toot! toot! toot!
-and the moon does not reply",fr_XX,en_XX,1
+and the moon does not reply",fr_XX,en_XX,0
 "talavéra
 vanguélis se montrait dans la posture abjecte
 d’une bête abattue aux jambes grand-ouvertes
@@ -9684,7 +9684,7 @@ this poem,
 because what the poem was saying, i’ve forgotten
 that’s why what this poem is saying is no longer really
 what the poem was saying
-and that i’ve forgotten",fr_XX,en_XX,-1
+and that i’ve forgotten",fr_XX,en_XX,0
 "l’animal n’est pas un animal
 l’ibiscus n’est pas un animal
 le feuillard n’est pas un animal
@@ -10592,7 +10592,7 @@ they attach it to the sky.
 it lights the distant water.
 melancholy is preferred up above.
 so it comes down.
-after ‘the moon’",fr_XX,en_XX,-1
+after ‘the moon’",fr_XX,en_XX,0
 "que le monde était là
 m’endormant je voyais que le monde était là,
 le monde et tout ce qui s’ensuit ;
@@ -10631,7 +10631,7 @@ but what my memory did not know:
 entire years with truth,
 that is, if you insist, with death.
 i did and did not want to see, falling asleep,
-what i had seen too many times.",fr_XX,en_XX,2
+what i had seen too many times.",fr_XX,en_XX,0
 "sdf
 les vieux, les grands enfants de la ville, rampent à plat ventre,
 ils entrent dans leur maison de carton, sur les trottoirs,
@@ -10658,7 +10658,7 @@ the grown-up, aged children of the city, crawl on their stomachs
 and spit into the whitman of the street
 as if into a soup.
 the god of drainage systems envelops them
-carefully in a cloud, like angels.",fr_XX,en_XX,-1
+carefully in a cloud, like angels.",fr_XX,en_XX,0
 "histoires de jusqu’a 15
 histoire de jusqu’à 15 (version tronquée)
 1 (un), 2 (deux), 3 (trois), 4 (quatre), 5 (cinq), 6 (six), 7 (sept), 8 (huit), 9 (neuf), 10 (dix), 11 (onze), 12 (douze), 13 (treize), 14 (quatorze).
@@ -11147,7 +11147,7 @@ rather i let out a cry of love
 but with the strangeness of despair,
 and the poison ran throughout my body,
 ceres, mocked, broke the one who loved her.
-thus speaks the life walled up in life today.",fr_XX,en_XX,2
+thus speaks the life walled up in life today.",fr_XX,en_XX,0
 "la vie, alors ; et ce fut à nouveau
 une maison natale. autour de nous
 le grenier d’au-dessus l’église défaite,
@@ -11209,7 +11209,7 @@ and up ahead, there might well be death,
 but with that milky color you find at the end of beaches
 in the evening, when far off
 the children still touch bottom, and laugh in the peaceful water,
-and keep on playing.)",fr_XX,en_XX,-1
+and keep on playing.)",fr_XX,en_XX,0
 "je m’éveillai, mais c’était en voyage,
 le train avait roulé toute la nuit,
 il allait maintenant vers de grands nuages
@@ -11253,7 +11253,7 @@ in the compartment where people slept,
 their heads still nodding. i did not sleep,
 i was still at the age when one is full of hope,
 i dedicated my words to the low mountains
-that i could see coming through the windows.",fr_XX,en_XX,2
+that i could see coming through the windows.",fr_XX,en_XX,0
 "mon portrait en zèbre
 le zèbre est un animal peu commun.
 ne pas me confondre avec le zabre, qui est un parasite des céréales s’attaquant
@@ -11311,7 +11311,7 @@ this is because a continuous movement in a straight line would go on for ever, w
 much too far. wisely, the zebra moves only within its own limits.
 the community displays a taste for communication.
 however, as the animal does not have an utterly limited mind, it keeps an eye turned toward
-the horizon.",fr_XX,en_XX,-1
+the horizon.",fr_XX,en_XX,0
 "tourbillon
 tourbillon, passage de l’aurès. les bureaux de poste, fermés hier dans toute la france,
 rouvrent aujourd’hui. on distribue le courrier à la tronche, la pomme,
@@ -11390,7 +11390,7 @@ of the wind.",fr_XX,en_XX,-1
 – i know that you love me and i love knowing that you know that i know.
 – i love you.
 – i know.
-– i knew it.",fr_XX,en_XX,0
+– i knew it.",fr_XX,en_XX,-1
 "je m’éveillai, c’était la maison natale,
 l’écume s’abattait sur le rocher,
 pas un oiseau, le vent seul à ouvrir et fermer la vague,
@@ -11422,7 +11422,7 @@ so high had the water already risen in the room.
 i took the handle, it was hard to turn,
 i could almost hear the noises of the other shore,
 the laughter of the children playing in the tall grass,
-the games of the others, always the others, in their joy.",fr_XX,en_XX,2
+the games of the others, always the others, in their joy.",fr_XX,en_XX,0
 "ici la-bas
 1. le monde est tout ce qui est là-bas.
 2. la totalité du monde est la totalité des là-bas du monde moins un là-bas qui est ici.
@@ -11465,7 +11465,7 @@ the games of the others, always the others, in their joy.",fr_XX,en_XX,2
 18. each there is the there of all the other theres at once.
 19. the frontier between here and there is not very neat.
 20. the statement ‘i am there’ is a logical impossibility, similar for example to the statements ‘he is on his period. that noise feels funny. the first time i went to new york it was in california. we have three only sons. i weigh 1.81 metres. i count them on the fingers of my hip. my mother is still a virgin. open 24 hours until 10.30. i assassinated my sister’s only brother. 97% of the persons interrogated were alive. new timetables for the third half of the year. the andrews twins are ten months older than each other. i have given the go-ahead for the big swim across america. he won the tour de france of the bouches-du-rhône. the austrian navy, it claims that you are shit. in rotterdam, only the dutch poets are not international.’
-21. just one here for two there is a logical aberration. or it is the war.",fr_XX,en_XX,-1
+21. just one here for two there is a logical aberration. or it is the war.",fr_XX,en_XX,0
 "je m’éveillai, c’était la maison natale.
 il pleuvait doucement dans toutes les salles,
 j’allais d’une à une autre, regardant
@@ -11505,7 +11505,7 @@ then i listened as the laughter faded away
 in the halls of the empty house.
 here nothing but forever the gift of the dream,
 the outstretched hand that does not cross
-the fast flowing water where memories vanish.",fr_XX,en_XX,2
+the fast flowing water where memories vanish.",fr_XX,en_XX,0
 "une autre fois.
 il faisait nuit encore. de l’eau glissait
 silencieusement sur le sol noir,
@@ -11541,7 +11541,7 @@ of branches that were full of
 rough edges, stabbing pains, points, cries.
 and voices that cast shadows on the road,
 or called to me, and, my heart beating fast,
-i turned around to face the empty road.",fr_XX,en_XX,-1
+i turned around to face the empty road.",fr_XX,en_XX,0
 "la turgescence de l’autoroute a4
 ceux qui viennent et ceux qui s’en vont
 ne savent rien
@@ -11657,7 +11657,7 @@ behind the parents the room is dark.
 the man has just come home from work. weariness,
 the halo that surrounds all he does,
 the only one given his son to see,
-is already removing him from this shore.",fr_XX,en_XX,-1
+is already removing him from this shore.",fr_XX,en_XX,0
 "vague noyée sous le soleil dormant.
 je suis comme une âme délaissée.
 traversant les dûnes sauvages du temps, oû les vendanges de
@@ -12011,7 +12011,7 @@ are antonyms of yesterday, but only today is the antonym of tomorrow. yesterday
 is not the antonym of tomorrow, as the past is not the exact opposite of the future.
 form has many antonyms, including matter and subject, which for their part have no antonyms.
 the same goes for spirit, the antonyms of which include letter, whereas letter
-has no antonyms. at least in my dictionary.",fr_XX,en_XX,0
+has no antonyms. at least in my dictionary.",fr_XX,en_XX,-1
 "je me souviens, c’était un matin, l’été,
 la fenêtre était entrouverte, je m’approchais,
 j’apercevais mon père au fond du jardin.
@@ -12094,7 +12094,7 @@ sets in, avid, relentless.
 i have crossed out
 these words a hundred times, in verse, in prose,
 but i cannot
-stop them from coming back.)",fr_XX,en_XX,-1
+stop them from coming back.)",fr_XX,en_XX,0
 "or, dans le même rêve
 je suis couché au plus creux d’une barque,
 le front, les yeux contre ses planches courbes
@@ -12162,7 +12162,7 @@ by the whiteness that freezes language.
 look, this was your only book. the isis of the plaster
 on the wall of this room, which is pealing away,
 never had, nor ever will have anything other
-to open for you, to close on you.",fr_XX,en_XX,1
+to open for you, to close on you.",fr_XX,en_XX,-1
 "histoire des jeans-pierres
 – qu’est-ce que vous faites là jean-pierre bertrand, jean-pierre robert, jean-pierre balpe, jean-pierre mercier, qu’est-ce que vous faites là jean-pierre cassel, jean-pierre lemaire, jean-pierre pierre-bloch, jean-pierre danguillaume, jean-pierre gattegno, qu’est-ce que vous faites là jean-pierre foucault, jean-pierre criqui, jean-pierre léaud, jean-pierre pincemin, jean-pierre soisson, jean-pierre chaix, jean-pierre andrevon, jean-pierre papin, jean-pierre chevènement, qu’est-ce que vous faites là jean-pierre cometti, jean-pierre bobillot, jean-pierre fossatti, qu’est-ce que vous faites là jean-pierre rehm, jean-pierre dubost, jean-pierre darroussin, jean-pierre françois, jean-pierre elkabach, jean-pierre spilmont, jean-pierre stirbois, jean-pierre greff, qu’est-ce que vous faites là jean-pierre guérin, jean-pierre castaldi, jean-pierre timbaud, qu’est-ce que vous faites là jean-pierre vernant, jean-pierre vidal, jean-pierre aumont, jean-pierre raffarin, qu’est-ce que vous faites là jean-pierre taillandier, jean-pierre roux, jean-pierre siméon, jean-pierre boyer, jean-pierre gaillard, jean-pierre perrin, jean-pierre marielle, qu’est-ce que vous faites là jean-pierre salgas, jean-pierre sintive, jean-pierre pernaut, jean-pierre coffe, jean-pierre verheggen, jean-pierre rosnay, qu’est-ce que vous faites là jean-pierre riehl, jean-pierre duprey, jean-pierre khazem, jean-pierre richard, jean-pierre changeux, jean-pierre mocky, qu’est-ce que vous faites là jean-pierre brisset, jean-pierre paneda, jean-pierre terrail, jean-pierre farines, jean-pierre laborde, jean-pierre ostende, qu’est-ce que vous faites là jean-pierre stevens, jean-pierre coletta, jean-pierre dupuy, jean-pierre le dantec, qu’est-ce que vous faites là jean-pierre bacri, jean-pierre valentin, jean-pierre rioux, jean-pierre kalfon, qu’est-ce que vous faites là jean-pierre bemba, jean-pierre jeunet, jean-pierre vincent, jean-pierre faye, hein, qu’est-ce que vous faites là?
 – rien.","the history of peters
@@ -12270,7 +12270,7 @@ wind
 of the vagabonds.
 for you only,
 i licked my wounds and the injury of my invisible sighs .
-o, wise king! my life is an extended sunflower upon an island",fr_XX,en_XX,-1
+o, wise king! my life is an extended sunflower upon an island",fr_XX,en_XX,0
 "et alors un jour vint
 où j’entendis ce vers extraordinaire de keats,
 l’évocation de ruth « when sick for home,
@@ -12439,7 +12439,7 @@ i became disoriented like a lame lark.
 i pursued all roads to hell and to avatar.
 a foreboding invaded me , crushing my heart
 so long, the oppressive loneliness and hopelessness
-good morning, the folly of dizzy dreams.",fr_XX,en_XX,-1
+good morning, the folly of dizzy dreams.",fr_XX,en_XX,1
 "conte
 un soir où nous avions mis une seule ceinture
 tu me chuchotais un conte à l’oreille de neige
@@ -12452,7 +12452,7 @@ you whispered a tale in my ear of snow
 and said i’m moved
 and we had already stridden over several wide intervals
 made of arches of absence wider than those at avignon
-and came back to ourselves by rising fords",fr_XX,en_XX,3
+and came back to ourselves by rising fords",fr_XX,en_XX,2
 "dédale – vous êtes ici (8)
 on voudrait s’échapper, détacher
 observer en contre-jour, anonyme
@@ -12798,7 +12798,7 @@ unfasten fly and unroll
 a current deranged.
 the white butterflies,
 see them from under your book,
-flying on the snow.",fr_XX,en_XX,2
+flying on the snow.",fr_XX,en_XX,0
 "terre
 tu rentres. tu quittes le rivage. tu retournes en terre. les amers quittent la mer.
 soudain cette moitié du monde qui était en mer redevient terre – forêts, champs, campagne. a
@@ -12831,7 +12831,7 @@ assonate in the zeal of seasons.
 with this: repulsed, sensed, ulcerating, the funereal counter-current, the plot of destiny,
 affliction and disturbance, the conspiracy of loss, here are morition of relatives, contagion of
 ills, acerbic erosion, general calumny, abbreviation of life, encumbrance, earth past its date,
-extermination of the past, dying.",fr_XX,en_XX,-1
+extermination of the past, dying.",fr_XX,en_XX,1
 "dédale – vous êtes ici (5)
 selon la ligne d’un morcellement
 l’axe autour duquel à l’est l’ouest
@@ -12938,7 +12938,7 @@ in the night closer drawn the earth
 emerges into the sun that enlarged star
 at the heart of night day
 night of night knows
-a star more brilliant",fr_XX,en_XX,2
+a star more brilliant",fr_XX,en_XX,0
 "voir le mot nu inconnu
 ne vouloir plaisamment vos vers
 ânonnables : poésie malgré","see word naked unknown
@@ -13165,7 +13165,7 @@ to thank him for supplying the latter with the jettons which enable it to vote.
 *on the london train, g.h. lewes asks a travelling companion to lend him the times, and discovers
 a highly favourable review of scenes of clerical life ""by mr. george eliot, a name
 unknown to us"".
-…………………………………………………………………",fr_XX,en_XX,-1
+…………………………………………………………………",fr_XX,en_XX,1
 "dédale – vous êtes ici (2)
 où arrive d’un convoi en partance
 croisements laminaires étirés
@@ -13219,7 +13219,7 @@ ex-who dragged backwards between two waters
 now what
 mouth punished
 mouth punished heart pacing the orbit
-a question to all vainly opening up third party",fr_XX,en_XX,-1
+a question to all vainly opening up third party",fr_XX,en_XX,0
 "bord
 pourquoi revient cette formule aimée
 “au bord du monde encore une fois”
@@ -13234,7 +13234,7 @@ what is edge, what is ‘edge’, being on edge
 the edge in baudelaire and
 the princes’ terrace in rimbaud
 with a view of the world and all as if
-come and come again",fr_XX,en_XX,2
+come and come again",fr_XX,en_XX,0
 "janvier 2
 janvier – 1. empire romain, prétoriens assassinent les 2 consuls ordinaires & proclament pertinax,
 préfet de la ville, nouvel empereur, remplaçant empereur commode,
@@ -13287,7 +13287,7 @@ gift of 100 euros on savings account. — natanya, suicide bombing, 1 dead (the 
 & 19 injured. — in leipzig, a profane cantata by johann sebastian bach,
 die zeit, die tag und jahre macht, ""time which maketh day and year"",
 is sung for newyear\'s day.
-……………………………………………..",fr_XX,en_XX,-1
+……………………………………………..",fr_XX,en_XX,1
 "c’est entre nous
 l’air entre les mains salut
 et la main entre les saluts
@@ -13325,7 +13325,7 @@ an orion an actaeon you disdain
 for negligent court of homage
 chaste will yourself only light of day
 goddess of baths of dogs who
-treads on her dreams",fr_XX,en_XX,2
+treads on her dreams",fr_XX,en_XX,0
 "en syllabes de lettres qui faisaient des noms
 des r de soleil (ray) de roue lorraine (réda) de
 roche (m ou d) ou de roubaud de ristat presque
@@ -13413,7 +13413,7 @@ to be pushed by former game of hopscotch
 in all times with which are fortified
 homes which last against winds
 tides hail forgetfulness picks spittle
-the indestructible brick of a babylonian scribe",fr_XX,en_XX,-1
+the indestructible brick of a babylonian scribe",fr_XX,en_XX,0
 "le plaisir
 confinait à
 l’interdit
@@ -13500,7 +13500,7 @@ of fathers confounded by their sons, queens
 who dance in their frenzy and far,
 faraway upon a cliff edge
 a man who looks at the sea and murmurs,
-mountains of foam, restore it to me.",fr_XX,en_XX,-1
+mountains of foam, restore it to me.",fr_XX,en_XX,0
 "20 novembre 2001
 rien
 ne me
@@ -13558,7 +13558,7 @@ of her shadow
 the oxymoron
 finger
 anus
-so that all is possible",fr_XX,en_XX,0
+so that all is possible",fr_XX,en_XX,-1
 "ils vont tête baissée sur leur entente
 ils échangent leurs gestes
 en secret se pressent les pieds
@@ -13615,7 +13615,7 @@ je m’inclinerai jusqu’à terre.","there is the road
 there is the road with its pot-holes,
 everywhere there is this immense menace
 that they summon me, that they tell me of my flaw,
-i will bow down all the way to the earth.",fr_XX,en_XX,0
+i will bow down all the way to the earth.",fr_XX,en_XX,-1
 "pauvres humains roulant leur cycle d\'enfer : le petit
 jésus. les gels. le verglas. les suicides. les di-
 manches. les votes. les nuées. les crues. les
@@ -13749,7 +13749,7 @@ yellow-turban or red-eyebrows ˆ
 thus my dream at the last extremity
 i poet all-crazy
 inventor of de-lyricism
-prior to the cross of ignominy",fr_XX,en_XX,-1
+prior to the cross of ignominy",fr_XX,en_XX,0
 "soleil
 soleillot
 qui courait sur la vitre
@@ -13767,7 +13767,7 @@ he sang
 the heavenly body
 of the penis
 in virtue of the principle
-of non coincidence of self and self",fr_XX,en_XX,1
+of non coincidence of self and self",fr_XX,en_XX,-1
 "parmi beaucoup de poèmes
 parmi beaucoup de poèmes
 il y en avait un
@@ -13851,7 +13851,7 @@ the new-born day harries us
 even the wolves are envious
 of our wasted carcasses
 rise up, rise up, reflect no more,
-another suffers in our stead.",fr_XX,en_XX,-1
+another suffers in our stead.",fr_XX,en_XX,0
 "nous
 venions
 presque
@@ -14069,7 +14069,7 @@ who thought he knew everything and who lost
 everything, someone
 will say, that’s enough of sad tales,
 forget them,
-as the sun slowly sets.",fr_XX,en_XX,2
+as the sun slowly sets.",fr_XX,en_XX,0
 "peut-etre qu’il reviendra
 peut-être qu’il reviendra, le fou, qu’il
 me prendra par l’épaule
@@ -14109,7 +14109,7 @@ a long silence
 and it was as if in the evening
 gods were born
 but so small
-that the birds pecked them like grain.",fr_XX,en_XX,2
+that the birds pecked them like grain.",fr_XX,en_XX,0
 "si haute était la terre en ce temps-là
 les femmes suspendaient linge et nuages à la meme corde
 des anges s’accrochaient à leurs jupes pour les empecher de suivre les âmes égarées
@@ -14137,7 +14137,7 @@ but more softly than the wind which had taken over the indoors and the outdoors
 swelling the paltry fields
 pushing back the horizon of an acre as soon as the houses shrank to the size of cages
 the wise man tried not to cross its path
-it would break a man for you over its knee like a straw",fr_XX,en_XX,2
+it would break a man for you over its knee like a straw",fr_XX,en_XX,0
 "et peut-etre que…
 et peut-être que tout était écrit dans le livre
 mais le livre s’est perdu
@@ -14189,7 +14189,7 @@ forlorn, and the day for me will be night.
 i will watch neither the gold of the falling evening,
 nor the sails in the distance descending on harfleur,
 and when i get there, i will put on your grave
-a bunch of green holly and blooming heather.",fr_XX,en_XX,2
+a bunch of green holly and blooming heather.",fr_XX,en_XX,0
 "les sanglots longs
 des violons
 de l’automne
@@ -14224,7 +14224,7 @@ where the winds know,
 broken and brief,
 to and fro,
 as the winds blow
-a dead leaf.",fr_XX,en_XX,-1
+a dead leaf.",fr_XX,en_XX,0
 "je m’en allais, les poings dans mes poches crevées ;
 mon paletot aussi devenait idéal ;
 j’allais sous le ciel, muse ! et j’étais ton féal ;
@@ -14251,7 +14251,7 @@ when those balmy september evenings applied,
 feeling the dew on my brow like a wine strong and dark.
 where, rhyming in the midst of fantastic shade,
 i plucked from my laces, like lyres, a serenade
-from my battered shoes; a foot placed near to my heart!",fr_XX,en_XX,2
+from my battered shoes; a foot placed near to my heart!",fr_XX,en_XX,0
 "souvent, pour s’amuser, les hommes d’équipage
 prennent des albatros, vastes oiseaux des mers,
 qui suivent, indolents compagnons de voyage,
@@ -14541,7 +14541,7 @@ but life drives apart those who love
 ever so softly
 without a noise
 and the sea erases from the sand
-the steps of lovers gone their ways.",fr_XX,en_XX,-1
+the steps of lovers gone their ways.",fr_XX,en_XX,0
 "ainsi, toujours poussés vers de nouveaux rivages,
 dans la nuit éternelle emportés sans retour,
 ne pourrons-nous jamais sur l’océan des âges
@@ -14748,7 +14748,7 @@ by the myrtle shadows i will take my rest:
 you will be an old woman,
 regretting my love and your proud disdain.
 live, if you believe me, don’t wait for tomorrow:
-pick the roses of life today.",fr_XX,en_XX,-1
+pick the roses of life today.",fr_XX,en_XX,0
 "les amoureux fervents et les savants austères
 aiment également, dans leur mûre saison,
 les chats puissants et doux, orgueil de la maison,
@@ -14775,7 +14775,7 @@ of the mighty sphinxes stretched out in solitude,
 who seem to fall into a sleep of endless dreams;
 their fertile loins are full of magic sparks,
 and particles of gold, like fine grains of sand,
-spangle dimly their mystic eyes.",fr_XX,en_XX,2
+spangle dimly their mystic eyes.",fr_XX,en_XX,-1
 "la courbe de tes yeux fait le tour de mon cœur,
 un rond de danse et de douceur,
 auréole du temps, berceau nocturne et sûr,
@@ -14804,7 +14804,7 @@ perfumes bloomed from a brood of dawns
 that always lies on the straw of the stars,
 as the day depends on innocence
 the whole world depends on your pure eyes
-and all my blood flows in their looks.",fr_XX,en_XX,2
+and all my blood flows in their looks.",fr_XX,en_XX,0
 "sous le pont mirabeau coule la seine
 et nos amours
 faut-il qu’il m’en souvienne
@@ -14900,7 +14900,7 @@ of a gorgeous autumn or of a setting sun.
 short task! the tomb awaits; it is avid!
 ah! let me, with my head bowed on your knees,
 taste the sweet, yellow rays of the end of autumn,
-while i mourn for the white, torrid summer!",fr_XX,en_XX,1
+while i mourn for the white, torrid summer!",fr_XX,en_XX,-1
 "tes pas, enfants de mon silence,
 saintement, lentement placés,
 vers le lit de ma vigilance
@@ -14931,4 +14931,4 @@ the food of a kiss,
 do not hasten this tender act,
 sweetness of being and not being,
 because i lived to wait for you,
-and my heart was only your steps.",fr_XX,en_XX,-1
+and my heart was only your steps.",fr_XX,en_XX,0
