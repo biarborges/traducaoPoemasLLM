@@ -52,6 +52,14 @@ correcoes_lemas = {
     "falecerar": "falecer"
 }
 
+# Adicione este dicionário
+normalizacao_lemas = {
+    "neiger": "neige",  # Mapeia o verbo para o substantivo
+    "ensoleillé": "soleil", # Exemplo adicional: "ensolarado" -> "sol"
+    "pluvieux": "pluie"    # Exemplo adicional: "chuvoso" -> "chuva"
+    # Adicione outros mapeamentos que você encontrar
+}
+
 
 # ==============================================================================
 # 2. DEFINIÇÃO DAS FUNÇÕES
@@ -69,17 +77,32 @@ def carregar_modelo_spacy(idioma: str):
         raise ValueError(f"Idioma '{idioma}' não suportado pelo spaCy neste script.")
     return spacy.load(modelos[idioma])
 
+
 def preprocessar_texto(texto: str, nlp_model, stopwords_custom: set, usar_lematizacao=True):
     if usar_lematizacao:
         doc = nlp_model(texto)
-        tokens = [
-            correcoes_lemas.get(token.lemma_.lower(), token.lemma_.lower())  # aplica correção
-            for token in doc
-            if not token.is_stop and not token.is_punct and not token.like_num and len(token.text) > 2
-        ]
+        
+        # Vamos trocar a list comprehension por um loop para maior clareza
+        tokens_processados = []
+        for token in doc:
+            # A condição 'if' que estava na sua list comprehension vem para dentro do loop
+            if not token.is_stop and not token.is_punct and not token.like_num and len(token.text) > 2:
+                
+                # Passo 1: Pega o lema e aplica o dicionário de correções
+                lema_corrigido = correcoes_lemas.get(token.lemma_.lower(), token.lemma_.lower())
+                
+                # Passo 2: Aplica o NOVO dicionário de normalização
+                lema_final = normalizacao_lemas.get(lema_corrigido, lema_corrigido)
+                
+                tokens_processados.append(lema_final)
+        
+        # Atribui o resultado à variável 'tokens' que você já usava
+        tokens = tokens_processados
+        
     else:
         tokens = word_tokenize(texto.lower())
 
+    # Esta parte do seu código continua exatamente igual
     tokens_filtrados = [
         token for token in tokens
         if token.isalpha() and token not in stopwords_custom and len(token) > 2
