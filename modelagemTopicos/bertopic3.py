@@ -141,7 +141,7 @@ if __name__ == '__main__':
 
     # --- Parte 3: Geração de Embeddings ---
     print("🔗 Carregando modelo de embeddings (SentenceTransformer)...")
-    embedding_model = SentenceTransformer("distiluse-base-multilingual-cased-v2") # paraphrase-multilingual-MiniLM-L12-v2  distiluse-base-multilingual-cased-v2
+    embedding_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2") # paraphrase-multilingual-MiniLM-L12-v2  distiluse-base-multilingual-cased-v2
     print("🔗 Gerando embeddings para os poemas...")
     embeddings = embedding_model.encode(poemas_limpos, show_progress_bar=True)
 
