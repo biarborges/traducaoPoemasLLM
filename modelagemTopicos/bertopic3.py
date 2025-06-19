@@ -4,6 +4,8 @@ import spacy
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 from bertopic import BERTopic
+from bertopic.representation import KeyBERTInspired
+from sklearn.feature_extraction.text import CountVectorizer
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import plotly.io as pio
@@ -22,7 +24,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 SEED = 42
 
-TITLE = "reference"
+TITLE = "original"
 # original reference chatGPTPrompt1 googleTradutor maritacaPrompt1
 
 # Caminho para o arquivo de entrada
@@ -33,14 +35,14 @@ CAMINHO_CSV = "poemas_unificados.csv"
 PASTA_SAIDA = "results"
 
 # Coluna do DataFrame a ser utilizada
-COLUNA_POEMAS = "translated_poem"  # "original_poem", "translated_poem", "translated_by_TA"
+COLUNA_POEMAS = "original_poem"  # "original_poem", "translated_poem", "translated_by_TA"
 
 # Definição dos idiomas de origem e destino para filtrar o CSV
 IDIOMA_ORIGEM = "fr_XX"  #  "fr_XX", "pt_XX", "en_XX"
 IDIOMA_DESTINO = "en_XX" #  "fr_XX", "pt_XX", "en_XX"
 
 # Idioma para o pré-processamento (NLTK e spaCy)
-IDIOMA_PROC = "en_XX"
+IDIOMA_PROC = "fr_XX"
 
 
 
@@ -139,7 +141,7 @@ if __name__ == '__main__':
 
     # --- Parte 3: Geração de Embeddings ---
     print("🔗 Carregando modelo de embeddings (SentenceTransformer)...")
-    embedding_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
+    embedding_model = SentenceTransformer("distiluse-base-multilingual-cased-v2") # paraphrase-multilingual-MiniLM-L12-v2  distiluse-base-multilingual-cased-v2
     print("🔗 Gerando embeddings para os poemas...")
     embeddings = embedding_model.encode(poemas_limpos, show_progress_bar=True)
 
@@ -147,7 +149,9 @@ if __name__ == '__main__':
     print("📚 Criando e treinando o modelo BERTopic...")
     
     umap_model = UMAP(random_state=SEED)
-    topic_model = BERTopic(language="multilingual", nr_topics="auto", umap_model=umap_model)
+    vectorizer_model=CountVectorizer(ngram_range=(1, 2))
+
+    topic_model = BERTopic(language="multilingual", umap_model=umap_model, min_topic_size=20, vectorizer_model=vectorizer_model, representation_model=KeyBERTInspired())
     topics, _ = topic_model.fit_transform(poemas_limpos, embeddings)
 
     # --- Parte 5: Análise e Salvamento dos Resultados ---
