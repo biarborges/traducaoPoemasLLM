@@ -54,10 +54,11 @@ correcoes_lemas = {
 
 # Adicione este dicionário
 normalizacao_lemas = {
-    "neiger": "neige",  # Mapeia o verbo para o substantivo
-    "ensoleillé": "soleil", # Exemplo adicional: "ensolarado" -> "sol"
-    "pluvieux": "pluie"    # Exemplo adicional: "chuvoso" -> "chuva"
-    # Adicione outros mapeamentos que você encontrar
+    "neiger": "neige", 
+    "ensoleillé": "soleil", 
+    "pluvieux": "pluie",
+    "snowdrop": "snow",
+    "snowflake": "snow"
 }
 
 
