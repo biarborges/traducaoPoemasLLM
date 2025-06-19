@@ -141,7 +141,7 @@ if __name__ == '__main__':
 
     # --- Parte 3: Geração de Embeddings ---
     print("🔗 Carregando modelo de embeddings (SentenceTransformer)...")
-    embedding_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2") # paraphrase-multilingual-MiniLM-L12-v2  distiluse-base-multilingual-cased-v2
+    embedding_model = SentenceTransformer("distiluse-base-multilingual-cased-v2") # paraphrase-multilingual-MiniLM-L12-v2  distiluse-base-multilingual-cased-v2
     print("🔗 Gerando embeddings para os poemas...")
     embeddings = embedding_model.encode(poemas_limpos, show_progress_bar=True)
 
@@ -151,7 +151,7 @@ if __name__ == '__main__':
     umap_model = UMAP(random_state=SEED)
     vectorizer_model=CountVectorizer(ngram_range=(1, 2))
 
-    topic_model = BERTopic(language="multilingual", umap_model=umap_model, min_topic_size=20, vectorizer_model=vectorizer_model, representation_model=KeyBERTInspired())
+    topic_model = BERTopic(language="multilingual", umap_model=umap_model, min_topic_size=20, vectorizer_model=vectorizer_model, representation_model=KeyBERTInspired(), embedding_model=embedding_model)
     topics, _ = topic_model.fit_transform(poemas_limpos, embeddings)
 
     # --- Parte 5: Análise e Salvamento dos Resultados ---
