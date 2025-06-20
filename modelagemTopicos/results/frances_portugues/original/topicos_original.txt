@@ -1,6 +1,5 @@
-Tópico -1 (168 poemas): nuit, oiseau, soir, sombre, ciel, ombre, dormir, soleil, bruit, jour
-Tópico 0 (60 poemas): bruit, vaisseau, lune, pleur, mourir, serein, plonger, rien, mort, nuit
-Tópico 1 (27 poemas): nuit, soir, solitude, dormir, sommeil, triste, solitaire, ombre, pleur, isolement
-Tópico 2 (19 poemas): irréalisable, nuit, impondérable, mourir, vivre, irréel, pêcher, mélancolie, inhumain, chantant
-Tópico 3 (15 poemas): amour, aimer, cœur, coeur, pleurer, aimé, comprendre, bonheur, passion, ignorer
-Tópico 4 (11 poemas): adieu, mourir, mort, perdre, falloir, cri, bruit, crier, partir, oublier
+Tópico -1 (131 poemas): oiseau, adieu, mourir, mort, rien, prier, ciel, ami, vent, laisser
+Tópico 0 (95 poemas): bruit, sombre, ciel, poète, mourir, nuit, rien, mort, chose, soleil
+Tópico 1 (46 poemas): amour, coeur, baiser, bonheur, triste, solitude, heureux, malheureux, âme, vivre
+Tópico 2 (15 poemas): mourir, irréalisable, poisson, sirène, chantant, mortel, impondérable, peureux, vivre, mélancolie
+Tópico 3 (13 poemas): nuit, soir, dormir, sommeil, ombre, réveil, lit, noir, baiser, ombrage
