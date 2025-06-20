@@ -60,7 +60,6 @@ normalizacao_lemas = {
     "aimé": "amour",
     "aimer": "amour",
     "cœur": "coeur",
-    "mourir": "mort",
     "cri": "crier",
 }
 
