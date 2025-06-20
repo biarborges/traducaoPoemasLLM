@@ -54,11 +54,9 @@ correcoes_lemas = {
 
 # Adicione este dicionário
 normalizacao_lemas = {
-    # "neiger": "neige", 
-    # "ensoleillé": "soleil", 
-    # "pluvieux": "pluie",
-    # "snowdrop": "snow",
-    # "snowflake": "snow"
+    "neiger": "neige", 
+    "ensoleillé": "soleil", 
+    "pluvieux": "pluie"
 }
 
 
