@@ -56,7 +56,12 @@ correcoes_lemas = {
 normalizacao_lemas = {
     "neiger": "neige", 
     "ensoleillé": "soleil", 
-    "pluvieux": "pluie"
+    "pluvieux": "pluie",
+    "aimé": "amour",
+    "aimer": "amour",
+    "cœur": "coeur",
+    "mourrir": "mort",
+    "cri": "crier",
 }
 
 
