@@ -1,3 +1,3 @@
-Tópico -1 (26 poemas): mort, poète, pleurer, sang, soleil, reine, lettre, prière, empereur, parole
-Tópico 0 (234 poemas): poème, nuit, jour, bruit, matin, soleil, rien, silence, loin, lune
-Tópico 1 (40 poemas): neige, froid, nuit, fenêtre, vitre, novembre, arbre, soir, ombre, clair
+Tópico -1 (48 poemas): mort, mourir, poète, soleil, sang, parole, larme, rien, nuit, ombre
+Tópico 0 (215 poemas): poème, jour, animal, rien, matin, loin, vite, soleil, bien, petit
+Tópico 1 (37 poemas): neige, froid, nuit, fenêtre, vitre, novembre, arbre, soir, ombre, clair
