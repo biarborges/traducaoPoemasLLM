@@ -23,7 +23,7 @@ and if in the evening, at the magic hour, i can glimpse your eyes reading galici
 even on the trains digging a tunnel through the air, if i see you, sulamith — i «darken — «and i darken
 as the evening darkens me in the smaller hours, as
 lines darken on faces, poems darken
-as darkens the black milk we drink and drink.",pt_XX,en_XX,0
+as darkens the black milk we drink and drink.",pt_XX,en_XX,-1
 "cabeça, tronco e membros
 a camisa branca estendida na corda
 do quintal é uma nuvem. há pouco,
@@ -44,7 +44,7 @@ underneath. but if i stretch my arms
 toward it, all i find is emptiness. distressed,
 i try to tell myself it’s only a
 shirt; but, without meaning to, i go
-back inside with the cloud in my head.",pt_XX,en_XX,0
+back inside with the cloud in my head.",pt_XX,en_XX,-1
 "carta ao pai
 agora que o senhor
 mais assemelha pedaço
@@ -286,7 +286,7 @@ hospital
 bed
 i once again
 choose
-silence",pt_XX,en_XX,0
+silence",pt_XX,en_XX,1
 "mediterrâneo i
 não há lugares, nunca houve, nem mesmo antigos.
 há o que olhamos neles, a sua marca de pó de tijolo que os faz sumir.
@@ -311,7 +311,7 @@ the dust traces bruise us with a faint drop
 we can wile between our fingers and still it doesn’t solidify.
 nothing has changed since the first lament; the eyes
 taking us along the mediterranean horizon are our eyes,
-and the olive trees its day-long boundary.",pt_XX,en_XX,0
+and the olive trees its day-long boundary.",pt_XX,en_XX,-1
 "1.
 esta perturbação inicial, garfo
 que não encaixa na boca
@@ -387,7 +387,7 @@ the floor is a recurrent,
 constant invitation;
 something in us awaits
 reunion. till wind scatter
-us to the four corners.",pt_XX,en_XX,0
+us to the four corners.",pt_XX,en_XX,-1
 "a viagem de alexandre à índia
 andaste de um ao outro lado da terra na vida interminável,
 tiveste degredos, piedosos cíumes, a fé desvanescida,
@@ -472,7 +472,7 @@ the pleasure that brings a peak of torment, inflicted
 by lips that only women know
 in the turmoil of varanasi´s death waters,
 tests the flame of the merit, endurance and song of
-the beginning and the end of your power on earth.",pt_XX,en_XX,0
+the beginning and the end of your power on earth.",pt_XX,en_XX,-1
 "da menina e moça
 pensando-vos estou filha
 vossa mãe me está lembrando
@@ -579,7 +579,7 @@ no harm is ever believed;
 we always expect the good.
 in hoping and believing
 lies an element of change,
-an element of concern.",pt_XX,en_XX,0
+an element of concern.",pt_XX,en_XX,-1
 "antre mi mesmo em mim
 não sei que se alevantou
 que tão meu inimigo sou
@@ -613,7 +613,7 @@ in sorrow after sorrow,
 cruelly sent my way.
 fresh pain, fresh fear
 have taken ahold of me.
-here i am, trapped.",pt_XX,en_XX,0
+here i am, trapped.",pt_XX,en_XX,-1
 "indústria cultural
 as distrações
 para as famílias do interior
@@ -744,7 +744,7 @@ the intelligentsia drop their tears
 — the people! the people! —
 while mold and moss
 gradually encroach upon
-our non-mouth, our non-soul.",pt_XX,en_XX,0
+our non-mouth, our non-soul.",pt_XX,en_XX,-1
 "branco e vermelho
 a dor, forte e imprevista,
 ferindo-me, imprevista,
@@ -1062,7 +1062,7 @@ smoothing with our hands the oak trees on whose bark we inscribe,
 like others before us, our sinuous names, our loves,
 we constantly return to the point where all is repeated and begun,
 of which we grasp a mere minute — an instant,
-the blade mediating between this year and the next.",pt_XX,en_XX,0
+the blade mediating between this year and the next.",pt_XX,en_XX,-1
 "antre tamanhas mudanças
 que cousa terei segura
 duvidosas esperanças
@@ -1185,7 +1185,7 @@ we were going on a boat ride, that we’d spend
 the day on a beach and that, while my mother and i
 swam in the sea until we were breathless, he
 could simply lie face down in the sand,
-as he loved to do so much. my father never lied to us.",pt_XX,en_XX,0
+as he loved to do so much. my father never lied to us.",pt_XX,en_XX,3
 "a morte em parcelas
 a francisco bley
 a primeira vez que eu morri,
@@ -1271,7 +1271,7 @@ rise from the rubble of love,
 the rubble of war.
 even if seaquakes brine the land.
 observe and respect the daring.
-the stubbornness of the lungs. of the heart.",pt_XX,en_XX,0
+the stubbornness of the lungs. of the heart.",pt_XX,en_XX,-1
 "tempo e memória
 em qualquer momento, no começo e no fim,
 na medida de toda a vida, prostrados de toda a pena,
@@ -1310,7 +1310,7 @@ which exposes each breath of time as its own hoax
 and denies us the slightest parting from forsakenness
 since we exist for nothing, we only wave, and we wave
 if not only to admit that which we believe didn’t happen
-except to understand the fair acceptance of our living.",pt_XX,en_XX,0
+except to understand the fair acceptance of our living.",pt_XX,en_XX,-1
 "tornozelos
 foi na verdade a sede que me tirou
 da estrada. num café de província,
@@ -1347,7 +1347,7 @@ my ice water so as not to disturb
 her crying; and, before leaving, found
 myself thinking that i wouldn’t
 even mind being cheated on, if
-i could be that age again.",pt_XX,en_XX,0
+i could be that age again.",pt_XX,en_XX,-1
 "mediterrâneo i
 não há lugares, nunca houve, nem mesmo antigos.
 há o que olhamos neles, a sua marca de pó de tijolo que os faz sumir.
@@ -1380,7 +1380,7 @@ they languish in the heat of the terraces,
 listening in silence to kavafis’ poems.
 at the close of night,
 women fall utterly in love with them
-and offer their souls in exchange for shelter.",pt_XX,en_XX,0
+and offer their souls in exchange for shelter.",pt_XX,en_XX,-1
 "terra no corpo
 uma história da terra
 no próprio corpo.
@@ -1498,7 +1498,7 @@ desires and fears
 the final toró
 to come and take
 clothing and clothesline,
-yard and home.",pt_XX,en_XX,0
+yard and home.",pt_XX,en_XX,1
 "tempo circular
 na sombra das folhas de nossos passos
 sob um manto de nuvens o dia escureceu; o outono
@@ -1547,7 +1547,7 @@ its roots dipped in water, and the turn of the year
 went yet fortuitously round the heath,
 through spring, and summer; another breath of its spirit like
 a geranium whose petals drew an incessant, invisible path, and fell
-into the crater of innocence of those who live, of those who die.",pt_XX,en_XX,0
+into the crater of innocence of those who live, of those who die.",pt_XX,en_XX,-1
 "morticínio ancestral
 quando minha avó torcia o pescoço
 dos frangos, não raras vezes
@@ -1625,7 +1625,7 @@ even than our household dogs,
 our big, fat dogs
 with sharp — but useless — teeth,
 also waiting for that age-old mammal
-to drench her hands in blood.",pt_XX,en_XX,0
+to drench her hands in blood.",pt_XX,en_XX,1
 "écloga segunda
 dizem que havia um pastor
 antre tejo e odiana,
@@ -2706,7 +2706,7 @@ notes of jonquil — a golden
 bugle sounding the reveille…
 silence. the cornets’ gentle music
 falters, masked and soaked with dew.
-spring. morning. a rush of violets!",pt_XX,en_XX,0
+spring. morning. a rush of violets!",pt_XX,en_XX,-1
 "[neil young]
 na hora em que eu mais ruía
 o sol aplainava o relvado, palmeiras
@@ -2841,7 +2841,7 @@ walked into ambushes
 so many figure eights still visible on the ground
 forcefully hoed up from repeatedly going round in the same place
 i had dared to go past the gate of the infinite
-always ending up bent over dinner",pt_XX,en_XX,0
+always ending up bent over dinner",pt_XX,en_XX,-1
 "a minha dor
 a minha dor é um convento ideal
 cheio de claustros, sombras, arcarias,
@@ -2870,7 +2870,7 @@ whose violet hue is steeped in suffering,
 their beauty such as no eyes have seen.
 in that sad convent where i dwell,
 night and day i pray and weep!
-and no one sees or hears me… no one…",pt_XX,en_XX,0
+and no one sees or hears me… no one…",pt_XX,en_XX,3
 "renúncia
 a minha mocidade outrora eu pus
 no tranqüilo convento da tristeza;
@@ -2899,7 +2899,7 @@ turn yet paler! and, resigned,
 throw your arms around a greater cross!
 make the shroud that wraps you colder!
 fill your mouth with earth and ashes,
-o my youth in your full flower!",pt_XX,en_XX,0
+o my youth in your full flower!",pt_XX,en_XX,3
 "deixai entrar a morte
 deixai entrar a morte, a iluminada,
 a que vem para mim, pra me levar.
@@ -2957,7 +2957,7 @@ when it flowers, it must be sung.
 the voice god gave us is for singing!
 if i must come to ashes, dust,
 nothing, then let my night be a dawn
-and let me be lost... to find myself...",pt_XX,en_XX,1
+and let me be lost... to find myself...",pt_XX,en_XX,-1
 "rui costa, cabeçudo, por tudo
 começou com um sinal ao lado dos teus óculos escuros, não,
 o princípio foi um rebordo à noite onde quiseste ensinar-me
@@ -3016,7 +3016,7 @@ you freshen up like it was nothing and flee because your handicap
 is smaller and your paws are bigger and you want to see other beasts full
 of questions, if it was me i’d put on my spanish dress and we’d whirl
 away like successful couples among the bien-pensants excuse
-me i’m going to go and write obscenities all over your books.",pt_XX,en_XX,0
+me i’m going to go and write obscenities all over your books.",pt_XX,en_XX,4
 "mulher ao mar
 mayday lanço, porque a guerra dura
 e está vazio o vaso em que parti
@@ -3092,7 +3092,7 @@ but it’s still not said (or is) if i insist
 on my small scale in this myself
 it’s because i don’t disconnect and touch and fail
 at what’s in plain sight, raw
-language clear in brute sky",pt_XX,en_XX,0
+language clear in brute sky",pt_XX,en_XX,-1
 "a queda
 resta, de agosto, esta fotografia
 iluminada
@@ -3119,7 +3119,7 @@ of those legs
 the heated estrus of our sun, above
 below – some sandals
 at the first hints of autumn
-the esplanades disappeared",pt_XX,en_XX,0
+the esplanades disappeared",pt_XX,en_XX,-1
 "intercidades
 galopamos pelas costas dos montes no interior
 da terra a comer eucaliptos a comer os entulhos de feno
@@ -3253,7 +3253,7 @@ it was the real thing – only the placebo
 with some excess accelerates the libido.
 and i betrayed, unjust . . . long-winded,
 that zeal that nothing should be said,
-and how i wanted to go down liquid.",pt_XX,en_XX,0
+and how i wanted to go down liquid.",pt_XX,en_XX,-1
 "[annemarie schwarzenbach]
 olho-a:
 doce o vértice no ângulo da maxila
@@ -3362,7 +3362,7 @@ opening compasses
 jotting quick notes about the way
 and the error
 more goat than us more mountainous: life
-this leather hard to tan",pt_XX,en_XX,0
+this leather hard to tan",pt_XX,en_XX,-1
 "nem tanta coisa depende
 preferes o canto, o lugar oculto
 a folhagem, a sombra, o quarto, este
@@ -3427,7 +3427,7 @@ its silently triumphant petals coating
 the ground, in the acropolis of ice.
 it swaddles your face like a veil!
 who on high is sprinkling all these flowers
-on our hair, on the two of us?",pt_XX,en_XX,0
+on our hair, on the two of us?",pt_XX,en_XX,-1
 "texto de apresentação
 1.
 é-me indiferente: poeta, poetisa
@@ -3492,7 +3492,7 @@ model artist prey, i’m like everyone:
 the lives i don’t touch interest me
 in uneven parts of avarice and voracity.
 before they know me, period,
-they know me periodically.",pt_XX,en_XX,0
+they know me periodically.",pt_XX,en_XX,-1
 "sou eu!
 pelos campos em fora, pelos combros,
 pelos montes que embalam a manhã,
@@ -3521,7 +3521,7 @@ echoes of a world… of a distant beyond,
 from where i brought my verses’ magic!
 it’s me! it’s me! the one who, like no one,
 plucked from life with anxious hands
-the hurtful thorns and none of the roses!",pt_XX,en_XX,0
+the hurtful thorns and none of the roses!",pt_XX,en_XX,-1
 "antimundo
 plágio manhoso do big-bang
 a matéria do poema expande, arrefece
@@ -3588,7 +3588,7 @@ at first the child was astonished, then sad
 and later remembered: you have to write a poem about the balloon
 which flew out of the rubbish and how we didn’t grab it
 a poem is the saddest thing there is
-and i wrote",pt_XX,en_XX,0
+and i wrote",pt_XX,en_XX,-1
 "medeia
 diz-se que matou o próprio irmão,
 que descende do sol e solo bárbaro,
@@ -3649,7 +3649,7 @@ to conclude the act the genius
 solemnly declares that there, on stage,
 people love and kill. no more
 speeches. he leans back and sets down
-his pen with its poisonous nib.",pt_XX,en_XX,0
+his pen with its poisonous nib.",pt_XX,en_XX,-1
 "da minha janela
 mar alto! ondas quebradas e vencidas
 num soluçar aflito e murmurado...
@@ -3678,7 +3678,7 @@ not yet daylight, already you’re moonlight,
 like a white lilac whose flowers wither!
 love! i carry your heart in my breast…
 it pounds within me like this sea
-in an endless, never withering kiss!...",pt_XX,en_XX,0
+in an endless, never withering kiss!...",pt_XX,en_XX,-1
 "texto em que o poeta celebra
 o amante de vinte e cinco anos
 houve
@@ -3776,14 +3776,14 @@ i wonder, exhausted in sweat, if lovers,
 eyelashes
 at last united, count sheep
 before
-sleep, euphoric and pregnant.",pt_XX,en_XX,0
+sleep, euphoric and pregnant.",pt_XX,en_XX,-1
 "palco
 o poema é antes de tudo
 um palco para gestos simples
 eu rego as flores de junho","stage
 the poem is above all else
 a stage for simple gestures
-i water the june flowers",pt_XX,en_XX,0
+i water the june flowers",pt_XX,en_XX,-1
 "exaltação
 viver!... beber o vento e o sol!... erguer
 ao céu os corações a palpitar!
@@ -3812,7 +3812,7 @@ dwell in the lake of my eyes like violets
 and in my ecstatic, pagan kisses!...
 the heart of carnations fills my mouth!
 o bohemians, tramps and poets,
-how truly, brothers, i’m your sister!",pt_XX,en_XX,0
+how truly, brothers, i’m your sister!",pt_XX,en_XX,-1
 "mcmlxxxvi
 metade solar outra metade
 adentrada na noite que divide e reparte irmãmente os dois
@@ -3923,7 +3923,7 @@ fade
 and the adagio that demolished the light
 erupted in the heavy breath of alveoli
 as a fragile star lit up in the blue
-for a percival with closed eyes",pt_XX,en_XX,0
+for a percival with closed eyes",pt_XX,en_XX,3
 "o banho de susana
 entre ela e a água, um fio de
 ouro. depois, fecha a luz, e
@@ -3997,7 +3997,7 @@ and what white spots it has:
 on its face, speckles of milk
 which the girls splatter there
 on its hips, the sparkling sky
-painted by the rising sun.",pt_XX,en_XX,0
+painted by the rising sun.",pt_XX,en_XX,-1
 "a europa em roterdão
 dói-me o coração da europa, com as suas veias inchadas
 pelo vento do ocidente, e as mãos gretadas pelo gelo
@@ -4052,7 +4052,7 @@ she doesn’t know what period she lives in, as though
 it had to be me that had shown her the path.
 i take her hand; she comes undone in the improbable
 lines of the poem, where a shadow is
-projected, which i lose, in the rotterdam night.",pt_XX,en_XX,0
+projected, which i lose, in the rotterdam night.",pt_XX,en_XX,-1
 "este é um templo
 como é templo o colar de dentes
 desta que agora é minha amante
@@ -4082,7 +4082,7 @@ a temple can only be understood
 from its inside
 it’s in the temple that
 this unconditional love is kept
-we are each other’s temple",pt_XX,en_XX,0
+we are each other’s temple",pt_XX,en_XX,-1
 "sinal
 naquele ano a chuva foi excessiva e cresceram tortulhos
 nos olhos dos cães. os vitelos, ao espreitar a luz pelos sexos
@@ -4153,7 +4153,7 @@ finally stopped, huge black birds flew from them and disappeared into the distan
 the fossils to stone and the branches to humus.
 and footsteps gradually polished the forms.
 that year the rain rained so much
-that memory was rendered meaningless.",pt_XX,en_XX,0
+that memory was rendered meaningless.",pt_XX,en_XX,1
 "sem braҫos
 sem braços para carregar rebentos.
 filho levou-se pelo vento
@@ -4282,7 +4282,7 @@ the blankness of the wall where a clock insisted on
 telling the time. and i continue to see her,
 brushing her hair from her face, with that gesture of one
 who imagines that someone is about to arrive, without knowing
-that the one she was waiting for had left her all alone, with me.",pt_XX,en_XX,0
+that the one she was waiting for had left her all alone, with me.",pt_XX,en_XX,4
 "fala de musurukutu
 rei me fizeram para governar a guerra
 e do sangue da raça
@@ -4380,7 +4380,7 @@ pull it into my house, so that
 the outside was left sundayless; and
 go out into the street on any day
 whatsoever, asking passersby
-if they saw which way sunday went.",pt_XX,en_XX,0
+if they saw which way sunday went.",pt_XX,en_XX,3
 "os pés alheios nos próprios glúteos
 ninguém
 espera de medeia
@@ -4526,7 +4526,7 @@ third contraband
 platypus
 in a distracted noah's
 ark.
-this is indeed one art.",pt_XX,en_XX,0
+this is indeed one art.",pt_XX,en_XX,4
 "faca dentro da água
 fatiando água
 casa d água
@@ -4578,7 +4578,7 @@ life is ridden by the frustration of each meeting
 we are only strong when we are serious
 [the poem doesn’t inform life
 but neither does life inform the poem]
-and we are only serious when we feel solitude",pt_XX,en_XX,0
+and we are only serious when we feel solitude",pt_XX,en_XX,-1
 "roteiro
 fui a delft, à procura de cerâmica.
 fui à cerâmica, à procura de delft.
@@ -4639,7 +4639,7 @@ to be alive and to assail the clarity implies a vocation
 for adapting the body to the imposition of the town square.
 there’s only one way to face the cold.
 it’s to bring it, the cold itself, inside you. the decision doesn’t wound,
-not more than the decisions of others.",pt_XX,en_XX,0
+not more than the decisions of others.",pt_XX,en_XX,-1
 "comida
 filho
 foi engolido por sua vaidade.
@@ -4684,7 +4684,7 @@ never worked the earth.
 the girl sent him away
 with the next gust of the wind.
 ***
-the west winds promise rain to the birds.",pt_XX,en_XX,0
+the west winds promise rain to the birds.",pt_XX,en_XX,-1
 "a terra do nunca
 se eu fosse para a terra do nunca,
 teria tudo o que quisesse numa cama de nada:
@@ -4733,7 +4733,7 @@ with a bed of vivid flowers.
 and the drunks will fill their glasses
 with the water that tastes of wine.
 in the land of never, with the sun rising
-when the day is born.",pt_XX,en_XX,0
+when the day is born.",pt_XX,en_XX,-1
 "chagas de salitre
 olha-me este país a esboroar-se
 em chagas de salitre
@@ -4792,7 +4792,7 @@ and a people condemned to kneading your bread.
 look, love, if you’re attentive, you’ll see
 a history of stone building itself
 on top of a history of death reducing itself to dust,
-to saltpeter sores.",pt_XX,en_XX,0
+to saltpeter sores.",pt_XX,en_XX,1
 "as crianças
 carregadas de destino
 batráquios prisioneiros do pó e da vidraça
@@ -4844,7 +4844,7 @@ they tear the children of other races to pieces –
 they wear their disdain in their rancorous features
 and ask
 innocently
-if the niggers have names.",pt_XX,en_XX,0
+if the niggers have names.",pt_XX,en_XX,1
 "poema
 as coisas mais simples, ouço-as no intervalo
 do vento, quando um simples bater de chuva nos
@@ -4881,7 +4881,7 @@ the sun emerges from a brief tear in the clouds.
 these are the things that happen, when the wind
 remains; and it is these we try to recall, as though
 we had heard them, and the noise of the rain
-on the windowpanes had not snuffed out their voice.",pt_XX,en_XX,0
+on the windowpanes had not snuffed out their voice.",pt_XX,en_XX,-1
 "corpo
 cor.po
 subst m corpo ['korpu]. pl. corpos. de nem
@@ -4975,7 +4975,7 @@ give it water,
 make it celestial.
 7. comfortable furniture that requires maintenance. a collection or quantity, as of material or information: proof of its inflation.
 on a map,
-you are here.",pt_XX,en_XX,0
+you are here.",pt_XX,en_XX,1
 "os figos de d.h. lawrence
 lawrence aconselhou a que se partisse um figo
 em quatro pedaços, para o comer, depois de deitar fora
@@ -5066,7 +5066,7 @@ and turned the living trees to planks and stakes.
 the other side is just like this, in this divided land.
 but we cross the bridge, and the shadow of someone
 follows us, someone similar to us, who wanted to unite
-what the water separates, flowing amongst its stones.",pt_XX,en_XX,0
+what the water separates, flowing amongst its stones.",pt_XX,en_XX,-1
 "o meu poema teve um esgotamento nervoso.
 já não suporta mais as palavras.
 diz às palavras: palavras
@@ -5102,7 +5102,7 @@ like a chlorotic poem.
 i ask: can i do anything for thee?
 but it just stares at me;
 it sits there looking empty-eyed
-dry mouthed.",pt_XX,en_XX,0
+dry mouthed.",pt_XX,en_XX,-1
 ": sua voz através do mar é o próprio mar em travessia
 chamamento remoto
 de mulher equilibrada nos rochedos
@@ -5124,7 +5124,7 @@ more through the tides’ memory than through the limits of fate
 : the sea is between us and therefore unites us :
 the same word that fits my mouth
 fits hers
-: all the oceans fit into her mouth :",pt_XX,en_XX,0
+: all the oceans fit into her mouth :",pt_XX,en_XX,-1
 "o desfibrilador é antes uma relíquia verbal
 que um aparato do esqueleto
 o tempo na palavra
@@ -5160,7 +5160,7 @@ as if chewing a heart
 from the valve to the auricles
 each word is a shrine
 a destiny
-a design",pt_XX,en_XX,0
+a design",pt_XX,en_XX,-1
 "aqui do estômago desta baleia
 a cidade é um cardume cintilante
 e
@@ -5190,7 +5190,7 @@ dreaming of the saddest sunday in the world in the suburbia of the other side
 one day we are middle-aged and we drink because there’s no other option
 and the crane on the quay will be crushed like a dead insect
 facing the thousand strips of the water’s throat
-the sea is in the photograph of men not in the dream of statues",pt_XX,en_XX,0
+the sea is in the photograph of men not in the dream of statues",pt_XX,en_XX,-1
 "promontório
 sempre busquei a profusão das chuvas
 e celebrei o excesso.
@@ -5227,7 +5227,7 @@ cradle of tanajura ants, land threatened by thunder,
 sleep-walking dunes that only walk at night,
 sea that moistens the cracked lips of the sand,
 wind that tears at the promontory,
-far from you i’ll be in banishment.",pt_XX,en_XX,0
+far from you i’ll be in banishment.",pt_XX,en_XX,-1
 "o sonho dos peixes
 não posso admitir que os sonhos
 sejam um privilégio das criaturas humanas.
@@ -5262,7 +5262,7 @@ beside the pond i ordered to be hollowed out,
 making a troublesome dream of childhood come true,
 i question the dark water. the tilapias hide
 from my suspicious owner’s gaze
-and refuse to teach me how i ought to dream.",pt_XX,en_XX,0
+and refuse to teach me how i ought to dream.",pt_XX,en_XX,-1
 "na semente-labirinto
 a água invade as canaletas de plástico
 para rompê-las com sua energia de bomba atômica :
@@ -5308,7 +5308,7 @@ pet flower is cut like mirrors shattered
 always as gem die
 solid random chance
 so its own becomes enamel born unique
-double-sided fault shedding edge crowning another face",pt_XX,en_XX,-1
+double-sided fault shedding edge crowning another face",pt_XX,en_XX,0
 "grotto
 não quero nada claro ou helénico.
 prefiro turbinas de aviões comerciais, a sua fuligem
@@ -5375,7 +5375,7 @@ and weighs less freed from its meanings
 and poetry only writes what punctuation allows
 fractured fruit in the wind’s design
 when everybody wakes up the city dreams
-aloof from itself and from time –",pt_XX,en_XX,0
+aloof from itself and from time –",pt_XX,en_XX,-1
 "o barulho do mar
 na tarde de domingo, volto ao cemitério velho de maceió
 onde os meus mortos jamais terminam de morrer
@@ -5420,7 +5420,7 @@ that seem suspended by the wind
 in the bluish air,
 the silence of the dead tells me they won’t come back.
 no use calling them. from the place where they are now, there’s no return.
-just names carved in stone. just names. and the sound of the sea.",pt_XX,en_XX,0
+just names carved in stone. just names. and the sound of the sea.",pt_XX,en_XX,-1
 "de todo o jardim escolho
 a córnea rajada de sua flor
 ou a flor rajada entre as pernas
@@ -5456,7 +5456,7 @@ rosaceous-iris on the aged boundaries of a face
 as if measured out with earth’s extreme age
 the memory of the leaves’ inventiveness
 the rust-colouring of all the plants
-planted on all the faces",pt_XX,en_XX,0
+planted on all the faces",pt_XX,en_XX,-1
 "minha pátria
 minha pátria não é a língua portuguesa.
 nenhuma língua é a pátria.
@@ -5504,7 +5504,7 @@ the language i use is not and never was my home.
 no deceitful language is a home.
 it merely serves for me to celebrate my great impoverished silent land,
 my dysentery-ridden toothless home, devoid of grammar books and dictionaries,
-this land, my home, without language, without words.",pt_XX,en_XX,0
+this land, my home, without language, without words.",pt_XX,en_XX,-1
 "o dia surge com a fúria do ouro
 e ante ele
 antenas conspiram a revolução
@@ -5538,7 +5538,7 @@ and grows old without having ever been young
 even if the antennae sustain insect elegance
 against the afternoon
 metallic cluster
-on filthy slabs",pt_XX,en_XX,0
+on filthy slabs",pt_XX,en_XX,-1
 "lua-lâmina-omoplata
 o cão de porcelana desfeito na porcelana da constelação
 ou esta água pesada nos coágulos da luz
@@ -5578,7 +5578,7 @@ in which everybody comes ready for machine fitting
 systems can be subverted –
 let’s then subvert the stars which we do not own
 [language:
-the astrolabe of the mouth’s sky-dome]",pt_XX,en_XX,0
+the astrolabe of the mouth’s sky-dome]",pt_XX,en_XX,-1
 "passado
 ah velha sebenta
 em que escrevia as minhas composições de francês
@@ -5708,7 +5708,7 @@ to write just a word
 just one moonlit word
 to request concordance like a caress
 elles sont parties,
-les mouettes",pt_XX,en_XX,0
+les mouettes",pt_XX,en_XX,-1
 "a carga
 uma rua me conduzia até o porto.
 e eu era a rua com as suas janelas dilaceradas
@@ -5735,7 +5735,7 @@ it was a day of offerings. nothing was lost.
 the waves celebrated the beauty of the world.
 the earth put on parade its promises of life.
 and i lay down my own light load
-in the cargo-holds of those rusting ships.",pt_XX,en_XX,0
+in the cargo-holds of those rusting ships.",pt_XX,en_XX,-1
 "a escavadeira
 todo silêncio me incomoda.
 ele sempre omite alguma coisa:
@@ -5765,7 +5765,7 @@ in the sunny morning, the beatle comes to a stop in the motel alley.
 once again penis and vagina will try to understand each other
 in this world so filled with failed encounters.
 the steam shovel shovels and the caterpillar treads advance in the crater open like a flower.
-seen by the conductor’s sleepy eyes as the bus goes down the avenue, the world as spectacle.",pt_XX,en_XX,0
+seen by the conductor’s sleepy eyes as the bus goes down the avenue, the world as spectacle.",pt_XX,en_XX,-1
 "a necessidade
 uma porta fechada não é suficiente para que o homem
 esconda o seu amor. ele também necessita de uma porta aberta
@@ -5790,7 +5790,7 @@ and within reach of his hand still afraid
 to advance in the dark as the rain falls on the silence of the world open like a fruit
 between two thunderclaps.
 in the night that falls, in the day that breaks,
-man needs it all: love and the lightning bolt.",pt_XX,en_XX,0
+man needs it all: love and the lightning bolt.",pt_XX,en_XX,-1
 "por um animal
 todo-feito de tetra-pak
 que se devora enquanto se move
@@ -5822,7 +5822,7 @@ a power plant generating opposite powers
 or yet more
 that ordinariness that lives off complexity:
 the day-to-day softly swapping of
-empty plots ordered lines of houses train wagons",pt_XX,en_XX,0
+empty plots ordered lines of houses train wagons",pt_XX,en_XX,-1
 "a neve e o amor
 neste dia de calor ardente, estou esperando a neve.
 sempre estive à sua espera.
@@ -5885,7 +5885,7 @@ and our tormented hearts.
 faithful to my childhood, i prefer to see snow
 that unites heaven and earth, night and day,
 rather than be a helpless prey to love,
-love that is neither white nor pure nor cold as snow.",pt_XX,en_XX,0
+love that is neither white nor pure nor cold as snow.",pt_XX,en_XX,-1
 "o silêncio incompleto
 que silêncio incompleto entre tantos rumores!
 agora, e só agora, eles tentam dizer-nos
@@ -5941,7 +5941,7 @@ hurled against
 the stupidity of my hearing,
 of my reason.
 a yes which as it bursts says no to me,
-with civil sensitivity.",pt_XX,en_XX,0
+with civil sensitivity.",pt_XX,en_XX,-1
 "dois rios
 o corpo dividido em duas partes
 fechadas
@@ -5977,7 +5977,7 @@ you used to drink with),
 but no child will be able to spoil
 the pessimism of this poem,
 or arrive in time to avert its conclusion
-– laughing, for instance, on the playground at school.",pt_XX,en_XX,0
+– laughing, for instance, on the playground at school.",pt_XX,en_XX,1
 "provavelmente noutro tempo, noutras circunstâncias
 chegaríamos a iguais resultados
 pelo que de nada adianta imaginar um almagesto
@@ -6060,7 +6060,7 @@ vacations set, relatives already gone.
 we had taken the children away,
 made our phone calls, chosen our words.
 the room was now in order, the bed remade
-with freshly laundered sheets. nothing missing, but your death.",pt_XX,en_XX,0
+with freshly laundered sheets. nothing missing, but your death.",pt_XX,en_XX,-1
 "as trevas
 começam-nos as trevas a romper
 a carne, comparáveis
@@ -6113,7 +6113,7 @@ in an indifferent sky,
 darkness already wrapping
 our bones, with death itself
 seeming to serve as our skin,
-like on a bat.",pt_XX,en_XX,0
+like on a bat.",pt_XX,en_XX,-1
 "dos descampados
 cresceram-me entre os ossos já as primeiras ervas.
 talvez dos descampados que me vêm
@@ -6131,7 +6131,7 @@ those who dig as if pursuing
 a more authentic life will finally appear.
 they’ll hold time in their hands like a hoe.
 breathing chunks of my body
-will gleam in their shovels.",pt_XX,en_XX,0
+will gleam in their shovels.",pt_XX,en_XX,-1
 "os campos estão desertos
 os campos estão desertos
 onde outrora floresciam aldeias,
@@ -6194,7 +6194,7 @@ the sharpened cold.
 in the light of the lamp they talked
 the whole night through.
 the old man, youthful.
-the young man, sad.",pt_XX,en_XX,0
+the young man, sad.",pt_XX,en_XX,3
 "jovem mulher numa capela de aldeia
 num banco junto à parede,
 fértil e escura como terra lavrada,
@@ -6339,7 +6339,7 @@ i am a roman.
 what i promise, i never do.
 but to give myself to americans, russians,
 and chinese, arghh!, not that, the portuguese
-are bad enough!",pt_XX,en_XX,0
+are bad enough!",pt_XX,en_XX,1
 "o sentimento dum ocidental
 i
 ave-marias
@@ -6708,7 +6708,7 @@ smoke and cough at the balcony windows.
 and looming out of that jagged mass
 of tomblike buildings tall as hills,
 human pain, like a baleful sea,
-seeks vast horizons for its bitter tides!",pt_XX,en_XX,0
+seeks vast horizons for its bitter tides!",pt_XX,en_XX,-1
 "o que diz o vento
 estás deitado na morgue,
 passam por ti como se jamais tivesses
@@ -6737,7 +6737,7 @@ bending the trees,
 making the laundry wave on the balcony
 and the plastic bag flit down the street:
 a voice that says nothing
-but speaks of all things in all places.",pt_XX,en_XX,0
+but speaks of all things in all places.",pt_XX,en_XX,-1
 "atropelamento e fuga
 era preciso mais do que silêncio,
 era preciso pelo menos uma grande gritaria,
@@ -6766,7 +6766,7 @@ a day that had begun badly, i had left
 the keys in the lock on the inside of the door,
 and now there you were, dead (dead and even
 looking dead!), gazing up at me in silence stretched out on the road,
-and no one asked a thing and no one spoke aloud.",pt_XX,en_XX,0
+and no one asked a thing and no one spoke aloud.",pt_XX,en_XX,-1
 "borrasca
 estalara-lhe de tal forma o eu que o próprio nome era uma ferida, através da qual a carne supurava. das perdidas manhãs de sol da sua infância, de que lhe restavam agora escassos farrapos presos às raízes, libertava-se por vezes um clarão, desesperado apelo em direcção à realidade, rasgando-o dos olhos aos ouvidos.
 quem quer que lhe tivesse concebido os ossos, era então visível o objectivo de os fazer florir. deles brotaria a pele, o céu, a encenação da glória. tudo isso mais não eram, entretanto, do que imagens em apuros, imagens atacadas por memórias em conflito com o presente, ou mesmo com o passado onde pareciam radicar, e que, esbeiçando-se nos bordos, davam lugar a que o esquecimento sobre elas actuasse como uma espécie de ácido sulfúrico.
@@ -6775,7 +6775,7 @@ com entranhas donde só a alma parecia não se ter desalojado ainda, como que as
 conservando à tona entre a gordura e o tumulto das lembranças.","squall
 his i had burst to where his very name was a wound through which his flesh oozed pus. the lost sunny mornings of his childhood, now but a few tatters clinging to the roots, still produced an occasional flash, a hopeless appeal to reality, searing him from his eyes to his ears.
 it now became clear that whoever conceived his bones wanted them to flower. from them would sprout the skin, the sky, the pageant of glory. but all this was no more than a bunch of desperate images bound together by memories at odds with the present and even with the past where they seemed to dwell, images that leaked at their edges, allowing forgetfulness to act on them like a species of sulfuric acid.
-each time it rushed in on him, the torrent of memories rose to such a height of consciousness that his very bones ceased being fixed and stable points he could hold on to. dismantled, they ended up floating on the surface of the stormy waters, mixed up among his innards, with only his heart still apparently in place, as if inflating and keeping his other parts afloat among the grease and tumult of remembrances.",pt_XX,en_XX,0
+each time it rushed in on him, the torrent of memories rose to such a height of consciousness that his very bones ceased being fixed and stable points he could hold on to. dismantled, they ended up floating on the surface of the stormy waters, mixed up among his innards, with only his heart still apparently in place, as if inflating and keeping his other parts afloat among the grease and tumult of remembrances.",pt_XX,en_XX,-1
 "o rei
 o mar está-nos no corpo; enquanto alguém
 a quem o coração serve de rei
@@ -6921,7 +6921,7 @@ by tossing joyful hats into the air.
 all this and more is said about gypsies. i don’t know.
 i see them coming from the direction of grijó
 and there they all are, right in front of me,
-and they look to me like people, just people.",pt_XX,en_XX,0
+and they look to me like people, just people.",pt_XX,en_XX,-1
 "as luzes eléctricas, pode ser que as luzes eléctricas
 impeçam o outono de cair e a ave
 de à janela surgir
@@ -6973,7 +6973,7 @@ it may well be that the shops will stay
 and the stone slabs will go
 and it may well not be
 that the rain will insist
-in such an iniquitous way.",pt_XX,en_XX,0
+in such an iniquitous way.",pt_XX,en_XX,-1
 "o destino das roupas
 no cesto da roupa suja
 de qualquer quarto do mundo
@@ -6998,7 +6998,7 @@ stains from fruit,
 the rose’s thorns,
 the rose of love,
 the bitter vomit of saturday night,
-the blood of a friend in the totalled car.",pt_XX,en_XX,0
+the blood of a friend in the totalled car.",pt_XX,en_XX,-1
 "linha de rumo
 quem não me deu amor, não me deu nada.
 encontro-me parado. . .
@@ -7082,7 +7082,7 @@ i pour these colors over the corolla, and watch them descend
 to the leaves, like sap which runs through
 the invisible veins of the soul. i can then pick the flower,
 and what i have in my hand is this poem
-that you gave me.",pt_XX,en_XX,0
+that you gave me.",pt_XX,en_XX,-1
 "heiliger tod
 não é uma fotografia artística.
 se fosse, não falaria dela.
@@ -7131,7 +7131,7 @@ they’re surely more effective:
 they kill instead of wanting to kill.
 and we’ve always known that this arsenal
 of dung called humanity is beautiful.
-no one in the photograph has survived.",pt_XX,en_XX,0
+no one in the photograph has survived.",pt_XX,en_XX,-1
 "amigos perdidos
 os amigos levados pela vida
 são os mais difíceis de aplacar, os mais
@@ -7219,7 +7219,7 @@ he wants to dress us inside out,
 to line our coat collars
 with the north wind, to have us say:
 “the autumn leaves are burning bright,
-what am i doing at home?”",pt_XX,en_XX,0
+what am i doing at home?”",pt_XX,en_XX,-1
 "a manhã
 é assim a manhã, um nome
 para o mundo, abrir os olhos como
@@ -7256,7 +7256,7 @@ not like a vast shadow to clothe the body’s
 voice
 but to cover it with
 the light
-of the words that are not there",pt_XX,en_XX,0
+of the words that are not there",pt_XX,en_XX,-1
 "ladrões de bicicletas - vittorio de sica (1948)
 mil quilómetros por dia pedalava meu pai, desde
 a cama junto ao douro até à próspera cerâmica
@@ -7293,7 +7293,7 @@ a solitary cyclist climbing the slope at avintes. he doesn’t
 work in a slaughterhouse. and with that solace
 he rides past the quinta dos frades, reaches freixieiro,
 and hears the rumble of the smoky trucks on the highway,
-where the ride, at last, will be much smoother.",pt_XX,en_XX,0
+where the ride, at last, will be much smoother.",pt_XX,en_XX,-1
 "fado menor
 habituou-se a caminhar
 sob os plátanos, diluindo
@@ -7342,7 +7342,7 @@ hand in hand through the garden
 or along the streets near the bar.
 until the day she stopped coming.
 heart on fire, ashes everywhere
-— there’s no return from a red like that.",pt_XX,en_XX,0
+— there’s no return from a red like that.",pt_XX,en_XX,-1
 "para agradar a uma sombra
 agora que já chorei o meu papel de solitário
 posso virar a folha e declarar que, na verdade,
@@ -7411,7 +7411,7 @@ and my shadow. enough of an interval for a ray of light.
 we’re not really any worse off than before.
 but it disgusts me to see the pink clover
 they sow in the backyard, happy as two little
-movie stars. what can i say? they’re like children.",pt_XX,en_XX,0
+movie stars. what can i say? they’re like children.",pt_XX,en_XX,-1
 "muro
 a transparência espessa
 do ar que devagar
@@ -7488,7 +7488,7 @@ what happiness, years later, to have ceased being
 a coward, to be the hand that slaps and wields the stick,
 and to laugh among equals in the row of the anointed:
 the first cigarette, the testicle examination. what luck
-to see tears fall and those tears not be mine.",pt_XX,en_XX,0
+to see tears fall and those tears not be mine.",pt_XX,en_XX,-1
 "café schiller
 foi tudo em vão, novamente.
 estava a muitos quilómetros de amsterdão,
@@ -7523,7 +7523,7 @@ i’ll ask her for my change in forgetfulness,
 the short-lasting memory of the blouse that squeezed
 her breasts and conferred on her back
 the unrepeatable impression of a prelude.
-i, who am going to die, desired you.",pt_XX,en_XX,0
+i, who am going to die, desired you.",pt_XX,en_XX,-1
 "vista para um pátio/dez
 a infância gosta de filmes de época.
 sobe a trote a escadaria do cinema, alado o coração,
@@ -7548,7 +7548,7 @@ and, with only two bullets left, is bound to lose.
 the dim light in the theater fosters the illusion,
 which dissolves amid the laughs that surround him
 at the exit, where his schoolmate all agree:
-you’re the villain, you can be the water boy.",pt_XX,en_XX,0
+you’re the villain, you can be the water boy.",pt_XX,en_XX,-1
 "na feira do livro - ii
 – “tem livros sobre o prazer?”
 sussurra o desarmado
@@ -7585,7 +7585,7 @@ in the school of misfortune,
 and no one forgives him
 the suffering that throbs
 in that utterly indecent
-question.",pt_XX,en_XX,0
+question.",pt_XX,en_XX,-1
 "ecce homo
 nunca amanhecera assim, num inimaginável
 barracão perto da cidade gótica.
@@ -7664,7 +7664,7 @@ and junk that made his solitude less solitary.
 i didn’t recognize the city: dingy, dull, shoddy.
 i shivered with cold and sleepiness while boarding the first
 bus and almost believed – for a few hours –
-that there was someone, after all, even sadder than me.",pt_XX,en_XX,0
+that there was someone, after all, even sadder than me.",pt_XX,en_XX,-1
 "becherovka
 norueguesa, alta, de um moreno
 duvidoso que sorria muito.
@@ -7703,7 +7703,7 @@ to tell her that night, hopelessly lost.
 nearly every poem is this: an inexcusable
 way of saying we didn’t touch
 the body that for once in our life was so close
-and that didn’t even leave us a fleeting name.",pt_XX,en_XX,0
+and that didn’t even leave us a fleeting name.",pt_XX,en_XX,-1
 "chuva de pedras - ken loach (1993)
 os desempregados, por definição, não têm
 cara. deve ser embaraçoso não ter cara. daí
@@ -7720,7 +7720,7 @@ they hide in the streets, on park benches,
 at bus stops. they hide in your bread,
 in your purse, in badly written
 poems or in realist british films.
-where they know no one will bother them.",pt_XX,en_XX,0
+where they know no one will bother them.",pt_XX,en_XX,-1
 "cidade dos desaparecidos
 muitas vezes não amei lisboa,
 não soube amá-la ao anoitecer
@@ -7764,7 +7764,7 @@ did i fail to find the place and the serenity
 to forget and sleep? even so,
 i didn’t do you justice, lisbon, when
 i complained of you: i wasn’t a good example,
-i had always felt a bit uneasy in the bed of life.",pt_XX,en_XX,0
+i had always felt a bit uneasy in the bed of life.",pt_XX,en_XX,-1
 "o corvo de hyde park (1989)
 com o bico levanta as folhas de setembro
 nos intervalos ouve a música dos pássaros
@@ -7924,7 +7924,7 @@ to be with her doesn’t in fact
 make me happy, just a little
 more solitary.
 but without her, see how
-sad, how forlorn, how.",pt_XX,en_XX,0
+sad, how forlorn, how.",pt_XX,en_XX,4
 "pompe inutili
 ninguém nasce; seria descabido
 chamar alguém aos resíduos
@@ -8009,7 +8009,7 @@ call a penchant for horror.
 for that’s what it all comes down to.
 the dead know.
 knowledge is useless.
-poetry too.",pt_XX,en_XX,0
+poetry too.",pt_XX,en_XX,-1
 "a nossa vez
 é o frio que nos tolhe ao domingo
 no inverno, quando mais rareia
@@ -8044,7 +8044,7 @@ at newscast time and the clinking of
 neighborhood cutlery. it’s the nighttime
 aimlessness of memory: it’s the fear
 of having lost, quite casually,
-our turn.",pt_XX,en_XX,0
+our turn.",pt_XX,en_XX,3
 "pedaços de vinil com lama
 devia ser o disco mais ouvido:
 a quinta sinfonia, numa gravação
@@ -8115,7 +8115,7 @@ later, is to realize i did to that record
 the same thing i do over and over
 to the bodies i think i love:
 i shatter them, very slowly, so that
-they’ll keep on hurting a little more.",pt_XX,en_XX,0
+they’ll keep on hurting a little more.",pt_XX,en_XX,-1
 "all stripped down
 cavalheiro idoso, calvo e sem jeito
 para foder procura quem o ature
@@ -8126,7 +8126,7 @@ older man, bald and ungainly,
 seeks someone to screw who can put up with him
 and believes (occasionally) in the resurrection.
 has never read books, spits a lot
-and snores. serious matter: not to die alone.",pt_XX,en_XX,0
+and snores. serious matter: not to die alone.",pt_XX,en_XX,-1
 "como quando do mar tempestuoso
 o marinheiro, lasso e trabalhado,
 d’um naufrágio cruel já salvo a nado,
@@ -8182,7 +8182,7 @@ i’ve given you everything i have within me,
 and you promised love, but now, there’s only disdain.
 lost and hopeless, i don’t know what to do,
 yet i know the day will come when this memory
-will crush you down with terrifying pain.",pt_XX,en_XX,1
+will crush you down with terrifying pain.",pt_XX,en_XX,-1
 "alma minha gentil, que te partiste
 tão cedo desta vida descontente,
 repousa lá no céu eternamente,
@@ -8210,7 +8210,7 @@ however small, in this pain that stays,
 grieving with nothing to repair it,
 petition god, who cut short your days,
 to take me to you, in that reckless spirit
-he used to summon you from my gaze.",pt_XX,en_XX,1
+he used to summon you from my gaze.",pt_XX,en_XX,-1
 "sete anos de pastor jacob servia
 labão, pai de raquel, serrana bela;
 mas não servia ao pai, servia a ela,
@@ -8266,7 +8266,7 @@ who with my soul is in accord
 like an accident with its subject,
 exists in my mind as a mere idea;
 the pure and living love i’m made of
-seeks, like simple matter, form.",pt_XX,en_XX,1
+seeks, like simple matter, form.",pt_XX,en_XX,-1
 "erros meus, má fortuna, amor ardente
 em minha perdição se conjuraram;
 os erros e a fortuna sobejaram,
@@ -8294,7 +8294,7 @@ giving fortune cause to punish
 my poorly founded hopes.
 in love i’ve known just brief illusions.
 oh! if only my ruthless genius
-would have its fill of wreaking vengeance!",pt_XX,en_XX,1
+would have its fill of wreaking vengeance!",pt_XX,en_XX,-1
 "menos para ti
 o que se diz do inverno pode dizer-se da juventude
 é uma estação abstracta
@@ -8320,7 +8320,7 @@ you don’t even know for how many years
 you’ll keep going back to the woods
 to the details you ignored
 to the remnants of that first love
-we all think we’ve gotten over",pt_XX,en_XX,0
+we all think we’ve gotten over",pt_XX,en_XX,-1
 "sobre o desconcerto do mundo (excerpt)
 quem tão baixa tivesse a fantasia
 que nunca em mores cousas a metesse
@@ -8433,7 +8433,7 @@ or if nature’s order suddenly changed?
 now dear life is a heavy burden,
 for i know what toil and sadness are.
 restore me to that state of bliss;
-the only sane condition is madness.”",pt_XX,en_XX,0
+the only sane condition is madness.”",pt_XX,en_XX,-1
 "chopin: um inventário
 quase sessenta mazurcas; cerca de trinta estudos;
 duas dúzias de prelúdios; uma vintena de nocturnos;
@@ -8512,7 +8512,7 @@ to create a self. so able in the kitchen, that he can be served
 lukewarm, in hours of longing and sorrow,
 hot, at those great occasions of triumphant life,
 or cold, when music alone expresses the empty despair of being
-nothing more in the world than a piano.",pt_XX,en_XX,0
+nothing more in the world than a piano.",pt_XX,en_XX,-1
 "busque amor novas artes, novo engenho,
 para matar-me, e novas esquivanças;
 que não pode tirar-me as esperanças,
@@ -8540,7 +8540,7 @@ where hope is gone, still love has hidden there
 for me an ill, that kills and can’t be seen;
 how long ago did love place in my soul
 i don’t know what, born i don’t know where,
-come i don’t know how, nor why it aches so keen.",pt_XX,en_XX,1
+come i don’t know how, nor why it aches so keen.",pt_XX,en_XX,-1
 "a presenca mais pura
 nada do mundo mais próximo
 mas aqueles a quem negamos a palavra
@@ -8591,7 +8591,7 @@ their very names
 hear what the woman dressed in sunlight says
 when she walks on top of the trees
 “how far away from common speech did you leave
-your heart?”",pt_XX,en_XX,0
+your heart?”",pt_XX,en_XX,-1
 "cara minha inimiga, em cuja mão
 pôs meus contentamentos a ventura,
 faltou-te a ti na terra sepultura,
@@ -8647,7 +8647,7 @@ and as much as i have is all yours,
 and the proof of this i alone know.
 for such good fortune is beyond scope
 giving you all that is in my power
-as the more i pay you, the more i owe.",pt_XX,en_XX,1
+as the more i pay you, the more i owe.",pt_XX,en_XX,-1
 "amor é um fogo que arde sem se ver,
 é ferida que doi, e não se sente;
 é um contentamento descontente,
@@ -8720,7 +8720,7 @@ the clarity we swear
 we’ll preserve
 but it takes us years
 to forget someone
-who merely looked at us",pt_XX,en_XX,0
+who merely looked at us",pt_XX,en_XX,-1
 "sextina
 foge-me pouco a pouco a curta vida
 (se por caso é verdade que inda vivo);
@@ -8805,7 +8805,7 @@ in death i live;
 i see without eyes;
 tongue-less i speak;
 they march in goose step,
-glory and pain.",pt_XX,en_XX,1
+glory and pain.",pt_XX,en_XX,-1
 "oh! como se me alonga, de ano em ano,
 a peregrinação cansada minha!
 como se encurta, e como ao fim caminha
@@ -8884,7 +8884,7 @@ for whom no certainties existed
 she never grasped the nature of domestic life
 she’d tell her most beautiful discoveries
 without a second thought
-to someone she didn’t know",pt_XX,en_XX,0
+to someone she didn’t know",pt_XX,en_XX,-1
 "ensaiao
 que dizem os exploradores,
 os viajantes, os peregrinos que há muito julgávamos perdidos,
@@ -8915,7 +8915,7 @@ can say:
 the photons generated by the stars’ clashing
 how the antelope wends its way through the orthography
 the yellow that returns to the rugged slopes
-after the heavy snows",pt_XX,en_XX,0
+after the heavy snows",pt_XX,en_XX,-1
 "enquanto febo os montes acendia
 do céu com luminosa claridade,
 por evitar do ócio a castidade
@@ -8943,7 +8943,7 @@ to ensnare the fast-running deer,
 but my own nets capture the mind.”
 “better”, the chaste goddess replied,
 “to take the nimble deer in my snare
-than be caught in one by your husband.”",pt_XX,en_XX,0
+than be caught in one by your husband.”",pt_XX,en_XX,4
 "restaurante polaco
 a noite é sustentada pelos seus enfeites
 como um homem morto ligado às máquinas.
@@ -8971,7 +8971,7 @@ that we are still alive and that, after all,
 we have never known any other condition.
 this is the hour that reveals us.
 and what we call reality
-heads off with us in the same direction.",pt_XX,en_XX,0
+heads off with us in the same direction.",pt_XX,en_XX,4
 "no mundo poucos anos, e cansados,
 vivi, cheios de vil miséria dura;
 foi-me tão cedo a luz do dia escura,
@@ -8999,7 +8999,7 @@ green alenquer, my home, but rotten
 air in my earthen vessel changed me
 into food for your fish, o vicious
 sea that rages by abyssinia,
-so bleak and far from my happy homeland!",pt_XX,en_XX,0
+so bleak and far from my happy homeland!",pt_XX,en_XX,-1
 "num jardim adornado de verdura
 a que esmaltam por cima várias flores,
 entrou um dia a deusa dos amores,
@@ -9093,7 +9093,7 @@ i leave you for an instant (just an instant)
 to close my eyes that burn so much
 or i toss leaves from the riverbank into the water
 to measure the time of a life
-that’s drowning",pt_XX,en_XX,0
+that’s drowning",pt_XX,en_XX,-1
 "ah a frescura na face de não cumprir um dever!
 faltar é positivamente estar no campo!
 que refúgio o não se poder ter confiança em nós!
@@ -9123,7 +9123,7 @@ deliberately at the same time...
 no matter, i’ll stay here dreaming verses and smiling in italics.
 this spectator aspect of life is so amusing!
 i can’t even light the next cigarette... if it’s an action,
-it can wait for me, along with the others, in the non-meeting called life.",pt_XX,en_XX,0
+it can wait for me, along with the others, in the non-meeting called life.",pt_XX,en_XX,-1
 "pois que nada que dure, ou que, durando,
 valha, neste confuso mundo obramos,
 e o mesmo útil para nós perdemos
@@ -9176,7 +9176,7 @@ and my useless coat of mail
 i left on the cold stone steps.
 i took off royalty, body and soul,
 and returned to the night so calm, so old,
-like the landscape when the sun sets.",pt_XX,en_XX,0
+like the landscape when the sun sets.",pt_XX,en_XX,-1
 "o fio de um cabelo
 abandono a casa o horto o lugar à mesa
 o casaco de que gostava, sobre o leito dobrado
@@ -9231,7 +9231,7 @@ you set fire to cities
 you drowned armies
 in the red sea of your rage
 you mortgaged precious lands
-to be at my side",pt_XX,en_XX,0
+to be at my side",pt_XX,en_XX,-1
 "não queiras, lídia, edificar no ‘spaço
 que figuras futuro, ou prometer-te
 amanhã. cumpre-te hoje, não ‘sperando.
@@ -9286,7 +9286,7 @@ where the light records its every aspect
 your impatient and inconceivable eyes
 here with me now
 as i dance alone
-in the empty city",pt_XX,en_XX,0
+in the empty city",pt_XX,en_XX,-1
 "símbolos? estou farto de símbolos…
 uns dizem-me que tudo é símbolo.
 todos me dizem nada.
@@ -9341,7 +9341,7 @@ gilds the head of the seamstress who hesitates at the corner
 where she used to linger (she lives nearby) with the boyfriend who left her?
 symbols? i don’t want symbols.
 all i want – poor frail and forlorn creature! –
-is for the boyfriend to go back to the seamstress.",pt_XX,en_XX,0
+is for the boyfriend to go back to the seamstress.",pt_XX,en_XX,-1
 "vivem em nós inúmeros;
 se penso ou sinto, ignoro
 quem é que pensa ou sente.
@@ -9371,7 +9371,7 @@ the crossing urges of what
 i feel or do not feel
 struggle in who i am, but i
 ignore them. they dictate nothing
-to the i i know: i write.",pt_XX,en_XX,1
+to the i i know: i write.",pt_XX,en_XX,-1
 "a infancia da herberto helder
 no princípio era a ilha
 embora se diga
@@ -9454,7 +9454,7 @@ above the stub in my ashtray.
 i smoked my life. how uncertain
 all i saw or read! all
 the world is a great open book
-that smiles at me in an unknown tongue.",pt_XX,en_XX,0
+that smiles at me in an unknown tongue.",pt_XX,en_XX,-1
 "a estrada branca
 atravessei contigo a minuciosa tarde
 deste-me a tua mão, a vida parecia
@@ -9516,7 +9516,7 @@ until that emptiness bursts
 into flame inside them
 st. paul explains it in the first letter to the corinthians,
 “we are the rubbish of the world to this very day”,
-a citation that flannery kept at her bedside.",pt_XX,en_XX,0
+a citation that flannery kept at her bedside.",pt_XX,en_XX,-1
 "não sei quantas almas tenho.
 cada momento mudei.
 continuamente me estranho.
@@ -9564,7 +9564,7 @@ and forgetting what has passed,
 i note in the margin of my reading
 what i thought i felt.
 rereading, i wonder: “was that me?”
-god knows, because he wrote it.",pt_XX,en_XX,1
+god knows, because he wrote it.",pt_XX,en_XX,-1
 "oxfordshire
 quero o bem, e quero o mal, e afinal não quero nada.
 estou mal deitado sobre a direita, e mal deitado sobre a esquerda
@@ -9599,7 +9599,7 @@ from the road i associated that steeple with spirituality,
 the faith of all ages, and practical charity.
 when i arrived at the village, the steeple was a steeple
 and, what’s more, there it was.
-you can be happy in australia, as long as you don’t go there.",pt_XX,en_XX,0
+you can be happy in australia, as long as you don’t go there.",pt_XX,en_XX,-1
 "não tenho ninguém que me ame.
 ’spera lá, tenho; mas é
 difícil ter-se a certeza
@@ -9731,7 +9731,7 @@ the great staircase stretches out, carpeted with stars.
 a shard gleams, shiny side up, among the heavenly bodies.
 my work? my primary soul? my life?
 a shard.
-and the gods stare at it, intrigued, not knowing why it’s there.",pt_XX,en_XX,0
+and the gods stare at it, intrigued, not knowing why it’s there.",pt_XX,en_XX,-1
 "a lavadeira no tanque
 bate roupa em pedra bem.
 canta porque canta, e é triste
@@ -9858,7 +9858,7 @@ it’s him! it’s him!
 like joshua he’ll order the sun to stop, and i’ll wake up,
 and it will be day.
 smile, my soul, in your slumber!
-smile, my soul: it will be day!",pt_XX,en_XX,0
+smile, my soul: it will be day!",pt_XX,en_XX,2
 "nem a demanda conseguirás
 que se acabe – mesmo que a ti a fortuna se confie,
 nem o estudo será para teu gáudio – ainda que dos sábios inspirado,
@@ -9898,7 +9898,7 @@ far from imagining ourselves under an ill-omened star,
 what’s going to happen we’ll soon know:
 – we often had to wait the longest time for beauty,
 but only she lets us take fleeting advantage of the world
-and pass, with that blind regret, beyond it.",pt_XX,en_XX,0
+and pass, with that blind regret, beyond it.",pt_XX,en_XX,3
 "que exíguo impulso se move e não esquecemos?
 em que dádiva de chão dançamos com as mães cantantes,
 onde estão as verdadeiras lágrimas, que as não vemos?
@@ -9942,7 +9942,7 @@ gradually compressing life to that ultimate size,
 that portion of our ever more accurate biography
 in which a simple withdrawal, like climbing a set of stairs,
 is the essence of what we did in our own favor,
-the happiness emerging in the wake of our captivity.",pt_XX,en_XX,0
+the happiness emerging in the wake of our captivity.",pt_XX,en_XX,-1
 "uma inocência
 aves devoram o lixo.
 debatem-se sob o peso da gula
@@ -9997,7 +9997,7 @@ what does poetry do?
 it redeems certain types of things
 through a certain type of words a certain
 type of wings flap flap flap a certain type
-of desperate reasons.",pt_XX,en_XX,0
+of desperate reasons.",pt_XX,en_XX,-1
 "medo
 estratos assentam uns sobre outros.
 são o vestígio submerso da tua vida.
@@ -10018,7 +10018,7 @@ the imminent collapse.
 give what’s left of your future
 to that house’s reinforcement.
 give it your attention and your affliction.
-give it the intelligence of your fear.",pt_XX,en_XX,0
+give it the intelligence of your fear.",pt_XX,en_XX,-1
 "amanhã vou comprar umas calças vermelhas
 porque não tenho rigorosamente nada a perder:
 contei, um a um, todos os degraus
@@ -10044,7 +10044,7 @@ i’ll set up the farming schedule
 i’ll sharpen the knives
 i’ll rehearse an act
 i’ll open the book to the same page
-i’ll discover a clue.",pt_XX,en_XX,0
+i’ll discover a clue.",pt_XX,en_XX,4
 "o mapa e o território
 o tédio era o espaço em que arriscávamos
 a batalha das nossas vidas. o professor
@@ -10087,7 +10087,7 @@ only a dream of metrics.
 the heavy shadow covers the little truth
 we manage to salvage and, moving,
 destroys its legacy.
-you know nothing because you remember nothing.",pt_XX,en_XX,0
+you know nothing because you remember nothing.",pt_XX,en_XX,-1
 "olho à volta
 em flecha sobre as coisas
 à procura desse ladrão excepcional
@@ -10125,7 +10125,7 @@ to the place of the tree
 next to the river where i’ll bathe three times
 until the cock crows
 and i remember my father
-waiting for his supper and clean laundry",pt_XX,en_XX,0
+waiting for his supper and clean laundry",pt_XX,en_XX,1
 "flores e outras espécies sem nome
 nada na natureza tem nome.
 como se de um jardim botânico
@@ -10162,7 +10162,7 @@ of self-ignorance? – has a name. it’s all organic essence
 not found in herbariums, all disproportion,
 all a dream of indecipherables slowly rotting
 before this virtuous classificatory ignorance
-bursting with life inside me.",pt_XX,en_XX,0
+bursting with life inside me.",pt_XX,en_XX,-1
 "queria que me acompanhasses
 vida fora
 como uma vela
@@ -10184,7 +10184,7 @@ and i can only teach you
 the names of trees
 whose fruit will be plucked in another season
 where the trains scatter
-anguished whistles",pt_XX,en_XX,0
+anguished whistles",pt_XX,en_XX,-1
 "for animals
 for animals eternal treblinka
 está repleta de martírio a memória que me deram.
@@ -10208,7 +10208,7 @@ hanging from large metal hooks. soaked feathers littered the ground. a decapitat
 chicken embraced the world. narrow furrows inside the perimeter carried off the blood
 to a place i imagined to be far away, as far as a faraway country.
 the guttural agony subsided. people were drawing their drapes for the peaceful
-midday meal.",pt_XX,en_XX,0
+midday meal.",pt_XX,en_XX,-1
 "não é difícil um homem apaixonar-se.
 ferir a sua paisagem,
 cinzas de um passado caído, fluente.
@@ -10359,7 +10359,7 @@ we grow with changes occurring in our soul, securing
 the line we’ve allowed our life to trace.
 and in the end, perhaps in this hour when you call me, or in the
 vast cold of another year approaching, another hour on top of the hill,
-we’ll have – for all we’ve given – our recompense in memory.",pt_XX,en_XX,0
+we’ll have – for all we’ve given – our recompense in memory.",pt_XX,en_XX,4
 "o sonho da linguagem
 escreverás sobre a sujeição dos animais.
 mas não hoje. lembra-te de como se move
@@ -10402,7 +10402,7 @@ meaning, with no possibility of a beginning
 asserting itself, no possibility of an end.
 you too will have to wake up
 to the vigil of metaphors,
-to the dream of language.",pt_XX,en_XX,0
+to the dream of language.",pt_XX,en_XX,-1
 "o guardador de rebanhos ii
 o meu olhar é nítido como um girassol.
 tenho o costume de andar pelas estradas
@@ -10453,7 +10453,7 @@ but because i love it, and for that very reason,
 because those who love never know what they love
 or why they love, or what love is.
 to love is eternal innocence,
-and the only innocence is not to think…",pt_XX,en_XX,1
+and the only innocence is not to think…",pt_XX,en_XX,-1
 "se quiseres que eu me perca
 buscarei outra ilha.
 esperarei a sombra diante dos olhos,
@@ -10575,7 +10575,7 @@ this is perhaps the mystery they speak of.
 this is what, without thinking or pausing,
 i realized must be the truth
 that everyone tries to find but doesn\'t find
-and that i alone found, because i didn\'t try to find it.",pt_XX,en_XX,0
+and that i alone found, because i didn\'t try to find it.",pt_XX,en_XX,-1
 "leram-me hoje s. francisco de assis.
 leram-me e pasmei.
 como é que um homem que gostava tanto das cousas
@@ -10650,7 +10650,7 @@ and i remembered how time teaches us,
 from early youth to old age,
 to allow a pause in our eyes whenever beauty overwhelms,
 a pause in our hands and eyes which are what tell us
-the small part of us that always remains.",pt_XX,en_XX,0
+the small part of us that always remains.",pt_XX,en_XX,-1
 "os milagres acontecem
 a horas incertas
 e nunca estou em casa
@@ -10666,7 +10666,7 @@ when the postman comes by.
 today the first flower blossomed
 and i said it’s a sign.
 i look around: i’m alone
-i carry this shadow.",pt_XX,en_XX,0
+i carry this shadow.",pt_XX,en_XX,-1
 "o suporte da música
 o suporte da música pode ser a relação
 entre um homem e uma mulher, a pauta
@@ -10699,7 +10699,7 @@ a part of the cosmos passing close by
 for a few fragile moments, concentrated
 in a minuscule, intensely luminous point
 that music, breaking forth, enlarges
-between familiarity and its ally, harmony.",pt_XX,en_XX,0
+between familiarity and its ally, harmony.",pt_XX,en_XX,-1
 "o caminho de ohrid*
 do alto das muralhas de ohrid onde
 acorrera aos gritos desvairados dos vigias,
@@ -10748,7 +10748,7 @@ the saints, whose faces resembled fayumic portraits,
 remained silent in their frescos amid the flickering
 flames, and the voices of the young monks,
 in their austere and unyielding chant,
-were lifting up a grave spring in the shadows.",pt_XX,en_XX,0
+were lifting up a grave spring in the shadows.",pt_XX,en_XX,-1
 "deixa o tempo fazer o resto
 fechar janelas
 aplacar os barcos
@@ -10874,7 +10874,7 @@ and i would never again say such obscure words.
 who it was doesn’t matter. the winds and seas
 have billowed and rolled, slowly eroding truths, circumstances.
 there was a woman in intensive care
-who in a fog heard the sounds she didn’t hear.",pt_XX,en_XX,0
+who in a fog heard the sounds she didn’t hear.",pt_XX,en_XX,2
 "da transparência
 senhor libertai-nos do jogo perigoso da transparência
 no fundo do mar da nossa alma não há corais nem búzios
@@ -10889,7 +10889,7 @@ just a smothered dream
 and we don’t really know what dreams are
 silent conductors faint songs
 which one day suddenly appear
-on the broad flat patio of disasters",pt_XX,en_XX,0
+on the broad flat patio of disasters",pt_XX,en_XX,-1
 "meio-dia
 meio-dia. um canto da praia sem ninguém.
 o sol no alto, fundo, enorme, aberto,
@@ -10985,7 +10985,7 @@ like rain the tatters of a beggar woman.
 in a great wind i went; i went and saw:
 i saw god’s shadow. and in that shadow
 i lay down, ravished, and felt within me
-the earth in bloom and the sky aglitter.",pt_XX,en_XX,0
+the earth in bloom and the sky aglitter.",pt_XX,en_XX,-1
 "acrobacias
 sentados em trafalgar square
 no intervalo de amigos
@@ -11037,7 +11037,7 @@ and ask you: walk, show me the world
 and when we get tired
 you can hug me with your legs
 and with my arms
-i’ll walk.",pt_XX,en_XX,0
+i’ll walk.",pt_XX,en_XX,4
 "o rei de ítaca
 a civilização em que estamos é tão errada que
 nela o pensamento se desligou da mão
@@ -11114,7 +11114,7 @@ and haskill would like. music is always autobiographical
 for the listener, an accelerated anguish exacerbating what
 we dared to know. and an intimate pact with light
 and the ineffable part of experience make
-for the sublime in these marginalia of life.",pt_XX,en_XX,0
+for the sublime in these marginalia of life.",pt_XX,en_XX,1
 "o moinho de café
 o moinho de café figura nalguns
 quadros dos cubistas, com o jornal, a
@@ -11163,7 +11163,7 @@ of another nature, another kind of life.
 the coffee-mill became a barrel-organ.
 the world speeded up,
 people’s lives became less linear,
-and the clear waters turned cloudy.",pt_XX,en_XX,0
+and the clear waters turned cloudy.",pt_XX,en_XX,-1
 "uma palavra no coração
 . . . mit einer hoffnung auf ein kommendes wort im herzen
 paul celan
@@ -11243,7 +11243,7 @@ we are, aimlessly wandering. . .
 that’s it, yes, our apparition, us,
 made of stars, shadows, raging winds
 and countless centuries, finally emerging
-out here, on earth, in the light of the sun.",pt_XX,en_XX,0
+out here, on earth, in the light of the sun.",pt_XX,en_XX,-1
 "canto indecisco xxii
 cousas fraternas, cósmica lembrança
 divina esperança,
@@ -11276,7 +11276,7 @@ so too hope, endlessly burning,
 following its ethereal course,
 leaves in space the forms of the universe,
 smoky vestiges,
-mortal recollections of its divine being.",pt_XX,en_XX,0
+mortal recollections of its divine being.",pt_XX,en_XX,-1
 "retrato de uma princesa desconhecida
 para que ela tivesse um pescoço tão fino
 para que os seus pulsos tivessem um quebrar de caule
@@ -11485,7 +11485,7 @@ myself as an indefinite being. . . the vast night,
 spreading over me its black wings,
 cannot hide me. my face,
 risen above the darkness,
-contemplates the divine moon.",pt_XX,en_XX,0
+contemplates the divine moon.",pt_XX,en_XX,-1
 "um cão para pompeia
 aos amantes enlaçados contraponho
 um cão de pompeia, decerto ele andaria
@@ -11542,7 +11542,7 @@ perhaps screaming, a few days later.
 “you’re so cerebral,” said vexed and golden-haired chloe.
 “yes,” i replied cautiously, “but so are a lot of other people.
 and love and death have always been ponderable.”
-“besides,” i added, “what harm does it do the dog?”",pt_XX,en_XX,0
+“besides,” i added, “what harm does it do the dog?”",pt_XX,en_XX,-1
 "os navegadores
 o múltiplo nos enebria
 o espanto nos guia
@@ -11559,7 +11559,7 @@ we’ve broken the limits –
 but the one god
 keeps us from straying
 which is why at each port we cover with gold
-the sombre insides of our churches",pt_XX,en_XX,0
+the sombre insides of our churches",pt_XX,en_XX,-1
 "poeta
 quando a primeira lágrima aflorou
 nos meus olhos, divina claridade
@@ -11588,7 +11588,7 @@ mist, a figment in the morning,
 the earthen image of a soul.
 i’m man fleeing from himself,
 a raving phantom, a living mystery,
-god’s delirium, dreams, nothingness.",pt_XX,en_XX,0
+god’s delirium, dreams, nothingness.",pt_XX,en_XX,2
 "para a educação sentimental
 tantas vezes se vive de uma arrebatada
 noção dos contrastes mais fortes entre o bem e o
@@ -11637,7 +11637,7 @@ and someone is saved, and maybe someone writes down
 the story, and someone else adds music
 for the emotions to be more oppressive and perhaps more consuming
 and facile, and someone desires this, it makes someone feel a shiver
-of tingling banality, a voracious and unconfessed thrill.",pt_XX,en_XX,0
+of tingling banality, a voracious and unconfessed thrill.",pt_XX,en_XX,-1
 "idílio
 conforme vai crescendo
 a noite sobre mim,
@@ -11731,7 +11731,7 @@ days of a faithful fog cover our steps,
 veiling these hands that long to climb
 to heaven like stairs. if i knew the simple
 language of tribute, i’d sing the foreseeable fall
-in time for the poem to end as an elegy.",pt_XX,en_XX,0
+in time for the poem to end as an elegy.",pt_XX,en_XX,1
 "rosário
 soluça ao longe a tua voz, na minha boca,
 a medalha que trago ao peito, não a esquece
@@ -11780,7 +11780,7 @@ when the wind blows in tsarskoie selo.
 in my eyelids sinks the world,
 a tear. to the flesh streaked by light
 in the morgue i recite the beads of my poem.
-memory is the house you left me, in siberia.",pt_XX,en_XX,0
+memory is the house you left me, in siberia.",pt_XX,en_XX,2
 "missa de aniversário
 há um ano que os teus gestos andam
 ausentes da nossa freguesia
@@ -11840,7 +11840,7 @@ thinking profound things
 it’s summer again. you have ever less place
 in this corner of us where every year
 we will piously unearth you
-until the death of your death",pt_XX,en_XX,0
+until the death of your death",pt_XX,en_XX,-1
 "deus absconditus
 deus é para vós um sonho incompreensível,
 atrás da janela simulada
@@ -11922,7 +11922,7 @@ here summer’s insanity doesn’t arrive
 and i quit loathing my ancestors
 and i rise as the last light flickers
 for a moment i am i and here no one died
-o my life that process i left behind",pt_XX,en_XX,0
+o my life that process i left behind",pt_XX,en_XX,-1
 "laudator temporis acti
 entregue a verbenas e banhos, a europa,
 agastada porque respira um ar nocivo,
@@ -11959,7 +11959,7 @@ with its vow of poverty dotting the landscape
 and, other there, a cathedral where angels
 trapped in stone, perfectly still,
 cast their frozen gaze to what, below,
-perishes or shrinks in fatality and impenitence.",pt_XX,en_XX,0
+perishes or shrinks in fatality and impenitence.",pt_XX,en_XX,-1
 "fúrias
 escorraçadas do pecado e do sagrado
 habitam agora a mais íntima humildade
@@ -12014,7 +12014,7 @@ its fragrance of flowers
 its high-sea passion
 and time is transformed
 into toil and the rush
-against time",pt_XX,en_XX,0
+against time",pt_XX,en_XX,-1
 "adão
 estás sentado na soleira dos dias
 só com a cortesia dos teus gestos.
@@ -12065,7 +12065,7 @@ why write your name there? no one
 will miss you in the certainty of a world
 you cannot come back to – you, the guest
 of honour at the grand finale of everything,
-waiting to join with the rest your ashes in the fire.",pt_XX,en_XX,0
+waiting to join with the rest your ashes in the fire.",pt_XX,en_XX,-1
 "uma forma de me despedir
 há o mar há a mulher
 quer um quer o outro me chegam em acessíveis baías
@@ -12189,7 +12189,7 @@ then almost as just a vague notion
 ocean woman
 i don’t know but maybe it will be
 more than anything else
-my way of saying farewell",pt_XX,en_XX,0
+my way of saying farewell",pt_XX,en_XX,-1
 "o último poeta romano
 enquanto rebentam as ondas junto às praias,
 e há troar de canhões além dos muros da cidade,
@@ -12240,7 +12240,7 @@ or a shot fired straight into his brain.
 aware that all his work will now suffer
 dispersion,
 he wants to save, consoling and sufficient,
-a word on the face of a future stele.",pt_XX,en_XX,0
+a word on the face of a future stele.",pt_XX,en_XX,-1
 "de temporum fine comoedia
 1
 assomas no arco da porta com teu rosto de cera
@@ -12325,7 +12325,7 @@ and the resignation of roman existence.
 all you have today is your face’s imitation
 in the mirror. and that’s all you'll have to defend
 in the hour when god's creation rebels (and beyond
-your gaze – look! – there's still the whole world . . .).",pt_XX,en_XX,0
+your gaze – look! – there's still the whole world . . .).",pt_XX,en_XX,1
 "oh as casas as casas as casas
 oh as casas as casas as casas
 as casas nascem vivem e morrem
@@ -12396,7 +12396,7 @@ in a house i was born and i’ll die
 in a house i suffered i lived with others i loved
 in a house i went through the seasons
 i breathed – o life simple problem of respiration
-oh houses houses houses",pt_XX,en_XX,0
+oh houses houses houses",pt_XX,en_XX,-1
 "a mão no arado
 feliz aquele que administra sabiamente
 a tristeza e aprende a reparti-la pelos dias
@@ -12463,7 +12463,7 @@ and behind you a life with no childhood
 looking back at all of this some time later
 day by day the afternoon dies
 it is very sad to walk among god and be absent
-but manage, poet, your sadness wisely",pt_XX,en_XX,0
+but manage, poet, your sadness wisely",pt_XX,en_XX,-1
 "e tudo era possível
 na minha juventude antes de ter saído
 da casa de meus pais disposto a viajar
@@ -12492,7 +12492,7 @@ and there was always a way out when needed
 when was all this? not even i can say
 i know only that i had a child’s power
 all things were close to me and everything
-was possible i only had to want it",pt_XX,en_XX,0
+was possible i only had to want it",pt_XX,en_XX,3
 "os gregos
 aos deuses supúnhamos uma existência cintilante
 consubstancial ao mar à nuvem ao arvoredo à luz
@@ -12542,7 +12542,7 @@ and from the toll of bells in the high tower.
 alone, they’re old like the hours of a clock dial.
 with their voice they disclose another power,
 invisible but suggested by shadows and fear,
-the city at night hanging in their arms.",pt_XX,en_XX,0
+the city at night hanging in their arms.",pt_XX,en_XX,3
 "fulget crucis mysterium
 estas são as cartas de casa. soltas as velas
 que partem sobre o grande escudo das águas
@@ -12672,7 +12672,7 @@ things i saw things i perhaps saw
 scarcely more than a gesture
 scarcely more than a moment in this month of august
 i’m no longer sure if i saw them if i didn’t seem them
-it seems there were some children more or less here",pt_XX,en_XX,0
+it seems there were some children more or less here",pt_XX,en_XX,-1
 "a flor da solidão
 vivemos convivemos resistimos
 cruzámo-nos nas ruas sob as árvores
@@ -12719,7 +12719,7 @@ relentless as a river?
 it is born it swells it will empty
 and in all of this it’s finally a sea
 we lived we conversed we resisted
-without realizing that in everything we die a little",pt_XX,en_XX,0
+without realizing that in everything we die a little",pt_XX,en_XX,-1
 "algumas proposições com pássaros e árvores que
 o poeta remata com uma referência ao coração
 os pássaros nascem na ponta das árvores
@@ -12851,7 +12851,7 @@ is what i lost. i’m a grown-up now.
 meanwhile night has engulfed everything the game is over
 and across the sky of time there was a man who passed
 or a certain quoit that by chance was hurled into life
-and that lives in the precarious trajectory before the fall",pt_XX,en_XX,0
+and that lives in the precarious trajectory before the fall",pt_XX,en_XX,-1
 "sibilas
 sibilas no interior dos antros hirtos
 totalmente sem amor e cegas.
@@ -12876,7 +12876,7 @@ of powers tied to themselves
 when words strike the walls
 in blind swoops of trapped birds
 and the horror of having wings
-screeches like a clock in the void.",pt_XX,en_XX,0
+screeches like a clock in the void.",pt_XX,en_XX,-1
 "descobrimento
 um oceano de músculos verdes
 um ídolo de muitos braços como um polvo
@@ -12903,7 +12903,7 @@ the sea turned suddenly very young and very old
 revealing beaches
 and a people
 of just-created men still the colour of clay
-still naked still in awe",pt_XX,en_XX,0
+still naked still in awe",pt_XX,en_XX,-1
 "zona biográfica
 agora que o mundo deslizou como uma bola
 das mãos de deus e cruza a noite vazia
@@ -13053,7 +13053,7 @@ and in any case
 there are public squares where a lily can be sculpted
 subtle regions where blueness flows
 gestures belonging to no one boats underneath flowers
-a song by which to hear you arrive",pt_XX,en_XX,0
+a song by which to hear you arrive",pt_XX,en_XX,-1
 "poema
 faz-se luz pelo processo de eliminação de sombras
 ora as sombras existem as sombras têm exaustiva vida própria
@@ -13135,7 +13135,7 @@ my english friend remembered only
 simple beginning gestures
 and he drew the curtains and created
 beyond the feeble kiss we can kiss
-the endless voyage of no return",pt_XX,en_XX,0
+the endless voyage of no return",pt_XX,en_XX,-1
 "o navio de espelhos
 não navega, cavalga
 seu mar é a floresta
@@ -13302,7 +13302,7 @@ multiplies the full moon across the lakeside pilings;
 the boats navigate a white night
 rising like a hill lit up
 by monstrous, odd-shaped flowers:
-crosses and spirals waiting for you.",pt_XX,en_XX,0
+crosses and spirals waiting for you.",pt_XX,en_XX,-1
 "aprende a falar – diz
 a rosa: escreve de noite
 e que o meu múltiplo sol
@@ -13337,7 +13337,7 @@ into the heart
 and sails
 in the blood’s shadow
 past one and another
-wonder.",pt_XX,en_XX,0
+wonder.",pt_XX,en_XX,2
 "a um rato morto encontrado num parque
 este findou aqui sua vasta carreira
 de rato vivo e escuro ante as constelações
@@ -13394,7 +13394,7 @@ what sort of conclusion does this poem,
 without exaggeration, merit?
 romantic? classical? regionalist?
 what end belongs to a brave and humble body
-killed at the height of its lyrical powers?",pt_XX,en_XX,0
+killed at the height of its lyrical powers?",pt_XX,en_XX,-1
 "“sim, fui um profeta”
 experimento um contacto de sombras,
 o mal estar de uma efervescência de ruínas, das folhas
@@ -13443,7 +13443,7 @@ who still remember: the drunk storyteller, the blind musician
 of fairs, the mad fortuneteller. the children stone them
 at the village gates. one of them appeared,one morning, floating
 in the canal
-and his eyes saw everything.",pt_XX,en_XX,0
+and his eyes saw everything.",pt_XX,en_XX,2
 "voz numa pedra
 não adoro o passado
 não sou três vezes mestre
@@ -13504,7 +13504,7 @@ because there’s a lot we need to start pruning
 pass it don’t look at me as if i were a wizard
 entrusted with the miracle of truth
 “the swinging of an ax and the goal of not being sacrificed won’t build anything under the sun”
-nothing is written after all",pt_XX,en_XX,0
+nothing is written after all",pt_XX,en_XX,2
 "meditação sobre ruínas
 desembarcou numa sala sem dourados nem cadeiras:
 madeiras velhas, jarras com flores de plástico, janelas
@@ -13545,7 +13545,7 @@ in winter, hidden from the universe. but someone was here
 very recently. and a pile of wood still smokes as
 the sun ascends from the horizon, where dawn’s cold colours
 do not dissipate, and no bird greets
-the new day.",pt_XX,en_XX,0
+the new day.",pt_XX,en_XX,-1
 "nenhuma outra flor
 tem a dura beleza
 desta rocha vermelha
@@ -13606,7 +13606,7 @@ the two colours will look so alike
 that you cannot distinguish one from the other.
 this was how i did it – i, abraham ben judah ibn haim,
 illuminator from the town of loulé. and i left the recipe
-for whoever, one day, would imitate the sky.",pt_XX,en_XX,0
+for whoever, one day, would imitate the sky.",pt_XX,en_XX,-1
 "é isto: a noite de manhã
 tu levantas-te
 manhã e noite não se vêem ao espelho
@@ -13632,7 +13632,7 @@ and the vastness of your nocturnal body
 you hand me the morning
 slowly
 like a phosphorescent map
-where we would surely die",pt_XX,en_XX,0
+where we would surely die",pt_XX,en_XX,-1
 "ética
 chego em frente do mar, das suas ondas,
 das marés que setembro enfurece, dos cinzentos
@@ -13673,7 +13673,7 @@ the boundary of eternity, donned nocturnal
 words, and allowed death to contaminate it.
 from the shore i don’t perceive this; and i recite it
 slowly, repeating in a low voice
-all of its contradictions.",pt_XX,en_XX,0
+all of its contradictions.",pt_XX,en_XX,-1
 "de profundis amamus
 ontem às onze
 fumaste
@@ -13760,7 +13760,7 @@ pirates with the
 wonder-struck wondrous unique
 eyes of an impassible cat
 our strange verb
-has no past or future",pt_XX,en_XX,-1
+has no past or future",pt_XX,en_XX,4
 "epitáfio
 morreram da epidemia, os melhores: a uns,
 levou-os a peste; a outros, a gripe a que
@@ -13817,7 +13817,7 @@ of the stormy weather. what
 is happening, right now, beneath
 those rooftops? what subtler
 epidemic has grounded those
-who so recently dreamed of flying?",pt_XX,en_XX,0
+who so recently dreamed of flying?",pt_XX,en_XX,-1
 "homenagem a s. joão da cruz
 quando colhi os frutos daqueles ramos
 que nunca deram sombra, a noite desceu
@@ -13864,7 +13864,7 @@ of the sides i occupy. a night that fell, therefore,
 where it had always been: a beloved, desired,
 rejected repetition of what i describe
 whenever i write – the fire i call
-but do not see in that dark desire.",pt_XX,en_XX,0
+but do not see in that dark desire.",pt_XX,en_XX,2
 "discurso ao príncipe de epaminondas,
 mancebo de grande futuro poema
 despe-te de verdades
@@ -13919,7 +13919,7 @@ my hands full with a white beard
 there, there will be no delay no shelter no arrival
 just a square of fire above our heads
 a street of stone to the end of the lights
-and the silence of death as we pass",pt_XX,en_XX,0
+and the silence of death as we pass",pt_XX,en_XX,-1
 "you are welcome to elsinore
 entre nós e as palavras há metal fundente
 entre nós e as palavras há hélices que andam
@@ -13980,7 +13980,7 @@ far beyond the blue where they rust and die
 maternal words just shadow just sobbing
 just spasms just love just solitude’s dissolution
 between us and words those who are walled in,
-and between us and words our duty to speak",pt_XX,en_XX,0
+and between us and words our duty to speak",pt_XX,en_XX,1
 "viático
 de noite, conhecem-se pela voz, pela
 respiração, por um negro afecto de braços;
@@ -14023,7 +14023,7 @@ in the indecision of roads,
 in the wound of a silence where
 a smile you once loved and
 your ageless face flow
-like images in a dream.",pt_XX,en_XX,0
+like images in a dream.",pt_XX,en_XX,2
 "biografia
 incorreu no desejo, no pecado melancólico
 do amor, no gozo do instante que o tempo
@@ -14070,7 +14070,7 @@ in the end he was left with a residue of
 song: the revelation of a voice’s echo without
 the substance of lips, abrupt like
 a few strands of old hair
-in the emptiness of the poem.",pt_XX,en_XX,0
+in the emptiness of the poem.",pt_XX,en_XX,2
 "arqueologia
 aqui, o molde dos que se limitaram a
 um contorno do divino – desfaz-se com os
@@ -14107,7 +14107,7 @@ the luster of the original, this image offers
 a taste of dead things: the light of dawn, the gold
 of an ocean horizon, the foggy breath of early
 morning. i linger with them, content
-to feel their slow corruption in the soul’s roots.",pt_XX,en_XX,0
+to feel their slow corruption in the soul’s roots.",pt_XX,en_XX,-1
 "morreremos repetidamente sobre esta praia, nas margens da luz.
 a rosa declina a sua autobiografia, obliquamente caindo
 sobre quilómetros e quilómetros de florestas insistentes,
@@ -14146,7 +14146,7 @@ that it is brief and ambiguous,
 the giver of death and life.
 and a place only ends
 because the man is mortal
-in whom the place lived.",pt_XX,en_XX,0
+in whom the place lived.",pt_XX,en_XX,-1
 "lisboa sob névoa
 na névoa, a cidade, ébria
 oscila, tomba.
@@ -14163,7 +14163,7 @@ lose their place and day.
 attached to nothing,
 the walls are menhirs,
 ancient and hazy stones
-with no beginning, no end.",pt_XX,en_XX,0
+with no beginning, no end.",pt_XX,en_XX,-1
 "a magnólia
 a exaltação do mínimo,
 e o magnífico relâmpago
@@ -14285,7 +14285,7 @@ with her spirit of the beloved.
 then the world transforms into this harsh noise
 of love.while overhead
 the silence of the lover and the beloved feed
-the surprising silence of the world and of love.",pt_XX,en_XX,0
+the surprising silence of the world and of love.",pt_XX,en_XX,-1
 "as casas
 i
 as casas vieram de noite
@@ -14358,7 +14358,7 @@ she was falling all apart and
 just think of it invited whores
 rats storks nests train whistles
 drunks and pianos
-as well as all the voices of wild animals",pt_XX,en_XX,0
+as well as all the voices of wild animals",pt_XX,en_XX,-1
 "frutos
 pêssegos, peras, laranjas,
 morangos, cerejas, figos,
@@ -14379,7 +14379,7 @@ let me speak now
 of fruit that fascinate,
 with the flavour, with the hues,
 with the fragrance of their syllables:
-oh tangerine, oh tangerine.",pt_XX,en_XX,-1
+oh tangerine, oh tangerine.",pt_XX,en_XX,2
 "a água
 no café trazem-me um copo com água
 como se ele resolvesse todos os meus problemas.
@@ -14448,7 +14448,7 @@ among the magic projectiles adrift
 – now chrysalises now arks in the flood –
 they ask in their calm bodies for peace
 with the earth, its furrows, its grass.
-are these our ships returning to the soil?",pt_XX,en_XX,0
+are these our ships returning to the soil?",pt_XX,en_XX,-1
 "da voz das coisas
 só a rajada de vento
 dá o som lírico
@@ -14496,7 +14496,7 @@ sticking out from my body until death
 i’d give them away today if i could
 but what weapon can separate them from me?
 while i’m thinking
-the debt keeps growing",pt_XX,en_XX,0
+the debt keeps growing",pt_XX,en_XX,-1
 "a cabeça em ambulância
 há feridas cíclicas há violentos voos
 dentro de câmaras de ar curvas
@@ -14535,7 +14535,7 @@ in a syncope or naked exposure
 or in a more spacious error
 or in a quieter letter
 or in the torture chamber
-in the dark chamber, of childhood.",pt_XX,en_XX,0
+in the dark chamber, of childhood.",pt_XX,en_XX,-1
 "acordar na rua do mundo
 madrugada. passos soltos de gente que saiu
 com destino certo e sem destino aos tombos
@@ -14625,7 +14625,7 @@ they recall green paradise.
 who hears them? who
 gathers them, thus,
 cruel, shapeless,
-in their pure shells?",pt_XX,en_XX,0
+in their pure shells?",pt_XX,en_XX,-1
 "das coisas
 nem todas as coisas marcam para nós
 o tempo com tenacidade, nos seus halos.
@@ -14682,7 +14682,7 @@ steadily gushing, it leaves by the channel
 at ground level, spreading over the fields.
 and time is spent like water,
 which never holds the same mirror
-for the images that come and go.",pt_XX,en_XX,0
+for the images that come and go.",pt_XX,en_XX,-1
 "quero um erro de gramática que refaça
 na metade luminosa o poema do mundo,
 e que deus mantenha oculto na metade nocturna

@@ -49,7 +49,8 @@ IDIOMA_PROC = "pt_XX"
 correcoes_lemas = {
     "conheçar": "conhecer",
     "escrevar": "escrever",
-    "falecerar": "falecer"
+    "falecerar": "falecer",
+    "pensaríar": "pensar",
 }
 
 # Adicione este dicionário
@@ -61,6 +62,12 @@ normalizacao_lemas = {
     "aimer": "amour",
     "cœur": "coeur",
     "cri": "crier",
+
+    "morto:": "morte",
+    "ressurgiremos": "ressurgir",
+    "falhou": "falhar",
+    "nocturna": "noturno",
+    "podias": "poder",
 }
 
 
