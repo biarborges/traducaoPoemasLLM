@@ -67,6 +67,7 @@ normalizacao_lemas = {
     "falhou": "falhar",
     "podias": "poder",
     "amo": "amar",
+    "amado": "amar",
 }
 
 
