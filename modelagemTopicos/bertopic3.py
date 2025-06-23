@@ -66,6 +66,7 @@ normalizacao_lemas = {
     "ressurgiremos": "ressurgir",
     "falhou": "falhar",
     "podias": "poder",
+    "amo": "amar",
 }
 
 
