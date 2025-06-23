@@ -117,7 +117,7 @@ o meu cúmplice acelerou sua cançao.
 entre carinhos e beijos,com sensualidade e volúpcia,
 nossas entranhas proclamaram o prazer frêmito …
 la fora a chuva caía, como se para arrozar,
-a beleza destes momentos.",fr_XX,pt_XX,0
+a beleza destes momentos.",fr_XX,pt_XX,-1
 "que veux-tu quand tu seras grand ?
 trouver l’amour …
 que veux tu faire avec l’amour ?
@@ -439,7 +439,7 @@ que tanto me impressionou,
 ai … si voce soubesse,
 quanto o meu arrependimento,
 ter partido sem lhe dizer o quanto,
-o quanto eu lhe queria …",fr_XX,pt_XX,0
+o quanto eu lhe queria …",fr_XX,pt_XX,-1
 "prélude …
 donnons nous l’envie,
 l’ envie de nous découvrir,
@@ -873,7 +873,7 @@ eles se perguntam se a felicidade existe.
 melhor viver na certeza
 que um grande homem,
 que uma grande mulher,
-lhes esperam no seio de deus.",fr_XX,pt_XX,-1
+lhes esperam no seio de deus.",fr_XX,pt_XX,0
 "la rose jaune
 un parfum doux, délicieux,
 une couleur jaune, éblouissante,
@@ -1702,7 +1702,7 @@ o pensamento fosse em ti uma constância
 e que o sangue cristão te fluísse na cadência
 das velhas sílabas de uníssona frequência,
 quando reinavam febo, o criador das cantigas,
-e o grande pã, senhor do campo e das espigas.",fr_XX,pt_XX,-1
+e o grande pã, senhor do campo e das espigas.",fr_XX,pt_XX,0
 "o muse de mon cœur, amante des palais,
 auras-tu, quand janvier lâchera ses borées,
 durant les noirs ennuis des neigeuses soirées,
@@ -2786,7 +2786,7 @@ da grande nau pela onda e remos em vaivém.
 são alforjes de peso; e dos prantos a trilha.
 ver-se-ia ao sondar o mar que os engalana,
 moverem-se em seus flancos tal qual forma humana…
-serena paira a lua e nas ondas rebrilha.",fr_XX,pt_XX,-1
+serena paira a lua e nas ondas rebrilha.",fr_XX,pt_XX,0
 "oh! laissez-moi! c’est l’heure où l’horizon qui fume
 cache un front inégal sous un cercle de brume,
 l’heure où l’astre géant rougit et disparaît.
@@ -3192,7 +3192,7 @@ com um bom riso que aceitava…
 – quase despida estava ela
 e de um grande ramo indiscreto
 folhas saltavam na janela
-em malícia, perto, perto.",fr_XX,pt_XX,0
+em malícia, perto, perto.",fr_XX,pt_XX,-1
 "je me suis enfin détaché
 de toutes choses naturelles
 je peux enfin mourir mais non pêcher
@@ -3328,7 +3328,7 @@ olhar único olhar-estrela amo você
 mãos adoro os seus movimentos amo vocês
 nariz singularmente aristocrático amo você
 caminhar ondulante e dançante amo você
-ó meu lobinho amo amo amo você",fr_XX,pt_XX,0
+ó meu lobinho amo amo amo você",fr_XX,pt_XX,-1
 "sous le pont mirabeau coule la seine
 et nos amours
 faut-il qu’il m’em souvienne
@@ -3381,7 +3381,7 @@ passado amor
 nenhuma volta acena
 na ponte mirabeau se vai o sena
 a noite venha sem demora
-eu fico e o tempo vai embora",fr_XX,pt_XX,-1
+eu fico e o tempo vai embora",fr_XX,pt_XX,0
 "dans vos viviers, dans vos étangs,
 carpes, que vous vivez longtemps!
 est-ce que la mort vous oublie,
@@ -3479,14 +3479,14 @@ nem tempo volta
 nem nosso amor nossa pena
 sob esta ponte passa o rio sena
 chega a noite a hora soa
-vão-se os dias vivo à toa",fr_XX,pt_XX,-1
+vão-se os dias vivo à toa",fr_XX,pt_XX,0
 "mes durs rêves formels sauront te chevaucher,
 mon destin au char d’or sera ton beau cocher
 qui pour rênes tiendra tendus à frénésie,
 mes vers, les parangons de toute poésie.","os meus sonhos formais serão teu cavaleiro,
 meu destino luzindo teu belo cocheiro
 por rédeas terás tensos levando à agonia,
-meus versos, o modelo de toda poesia.",fr_XX,pt_XX,-1
+meus versos, o modelo de toda poesia.",fr_XX,pt_XX,1
 "tu t’acharnes sur la beauté.
 et quelles femmes ont été
 victimes de ta cruauté !
@@ -4210,7 +4210,7 @@ escalar a vertente dos joelhos enormes
 e, quando os sóis do estio, à complacência alheios,
 estendem-na, cansada, ao longo da campina,
 dormir descontraído à sombra dos seus seios,
-como abrigo tranqüilo ao pé de uma colina.",fr_XX,pt_XX,0
+como abrigo tranqüilo ao pé de uma colina.",fr_XX,pt_XX,-1
 "bizarre déité, brune comme les nuits,
 au parfum mélangé de musc et de havane,
 oeuvre de quelque obi, le faust de la savane,
@@ -4303,7 +4303,7 @@ que ficam lamentando-se obstinadamente.
 – e féretros sem fim, sem tambor ou pavana,
 lentos desfilam dentro mim; e a esperança,
 vencida, chora, a angústia, feroz e tirana,
-a negra flâmula em meu curvo crânio lança.",fr_XX,pt_XX,-1
+a negra flâmula em meu curvo crânio lança.",fr_XX,pt_XX,0
 "la rue assourdissante autour de moi hurlait.
 longue, mince, en grand deuil, douleur majestueuse,
 une femme passa, d’une main fastueuse
@@ -4540,7 +4540,7 @@ do céu, em que reinaste, e nas escuridões
 do inferno, em que, vencido, sonhas com prudência!
 deixa que eu, junto a ti, sob a árvore da ciência,
 repouse, na hora em que, sobre a fronte, hás de ver
-seus ramos como um templo novo a se estender!",fr_XX,pt_XX,-1
+seus ramos como um templo novo a se estender!",fr_XX,pt_XX,0
 "la mort des amants
 nous aurons des lits pleins d’odeurs légères,
 des divans profonds comme des tombeaux,
@@ -4882,7 +4882,7 @@ teus cabelos contêm um sonho inteiro cheio de mastros e de velames; contêm os 
 no oceano de tua cabeleira, entrevejo um porto formigando em cantos melancólicos, homens vigorosos de todas as nações e navios de todas as formas desenhando suas arquiteturas delgadas e complicadas sobre um vasto céu onde se emproa o calor eterno.
 nas carícias de tua cabeleira, reencontro os langores das longas horas passadas sobre um divã, no camarote de um belo navio, embalados pelo balanço imperceptível do porto, entre os vasos de flores e as bilhas refrescantes.
 no foco ardente de tua cabeleira, respiro o odor do tabaco misturado com o ópio e o açúcar; na noite de tua cabeleira, vejo resplandecer o infinito do azul tropical; sobre as bordas de penugem de tua cabeleira, embriago-me com os aromas do alcatrão, do almíscar e do óleo de coco.
-deixa-me morder longamente tuas tranças espessas e negras. quando mordisco teus cabelos elásticos e rebeldes, parece-me que devoro lembranças.",fr_XX,pt_XX,0
+deixa-me morder longamente tuas tranças espessas e negras. quando mordisco teus cabelos elásticos e rebeldes, parece-me que devoro lembranças.",fr_XX,pt_XX,-1
 "il faut être toujours ivre. tout est là: c’est l’unique question. pour ne pas sentir l’horrible fardeau du temps qui brise vos épaules et vous penche vers la terre, il faut vous enivrer sans trêve.
 mais de quoi? de vin, de poésie ou de vertu, à votre guise. mais enivrez-vous.
 et si quelquefois, sur les marches d’un palais, sur l’herbe verte d’un fossé, dans la solitude morne de votre chambre, vous vous réveillez, l’ivresse déjà diminuée ou disparue, demandez au vent, à la vague, à l’étoile, à l’oiseau, à l’horloge, à tout ce qui fuit, à tout ce qui gémit, à tout ce qui roule, à tout ce qui chante, à tout ce qui parle, demandez quelle heure il est et le vent, la vague, l’étoile, l’oiseau, l’horloge, vous répondront: “il est l’heure de s’enivrer! pour n’être pas les esclaves martyrisés du temps, enivrez-vous; enivrez-vous sans cesse! de vin, de poésie ou de vertu, à votre guise.”","deve-se estar sempre bêbado. está tudo aí: é a única questão. a fim de não se sentir o fardo horrível do tempo que parte tuas espáduas e te dobra sobre a terra, é preciso te embriagares sem trégua.
@@ -4967,7 +4967,7 @@ o tempo de uma palavra nua
 entre duas viradas
 o que me canta
 …….dobra-se
-aos calibres das cores",fr_XX,pt_XX,0
+aos calibres das cores",fr_XX,pt_XX,-1
 "l’amour est plus fort que la mort disiez-vous
 mais la vie est plus forte que l’amour et
 l’indifférente plus forte que la vie – la vie
@@ -5051,7 +5051,7 @@ des restes de la rencontre precedente","sorriso
 quando cruzo com ela no seu rosto
 no seu rosto assim como nos nossos
 nos rostos deles há
-restos daquele encontro precedente",fr_XX,pt_XX,1
+restos daquele encontro precedente",fr_XX,pt_XX,-1
 "si notre vie est moins qu’une journée
 en l’éternel, si l’an qui fait le tour
 chasse nos jours sans espoir de retour,
@@ -5724,7 +5724,7 @@ e quando o pirilampo refulge ao luar,
 a ave, no sombrio lago aonde se reflete
 o fulgor de uma noite láctea e violeta,
 como um jarro de prata em meio a diamantes,
-dorme, a cabeça entre asas e dois céus brilhantes",fr_XX,pt_XX,0
+dorme, a cabeça entre asas e dois céus brilhantes",fr_XX,pt_XX,-1
 "sans bruit, sous le miroir des lacs profonds et calmes,
 le cygne chasse l’onde avec ses larges palmes,
 et glisse. le duvet de ses flancs est pareil
@@ -5791,7 +5791,7 @@ o cisne, sob o olhar dessa noite de opala,
 em seu lago sombrio, enfim, descansa; e, acaso
 visto de alguém, assim, lembra de prata um vaso…
 põe sob a asa a cabeça, os olhos sonolentos
-fecha, e dorme, feliz, entre dois firmamentos.",fr_XX,pt_XX,0
+fecha, e dorme, feliz, entre dois firmamentos.",fr_XX,pt_XX,-1
 "j’ai voulu tout aimer, et je suis malheureux,
 car j’ai de mes tourments multiplié les causes;
 d’innombrables liens frêles et douloureux
@@ -5861,7 +5861,7 @@ para não perturbar o teu labor divino,
 .
 porque de tua boca eu espero o segredo
 que desejo saber e de que tenho medo:
-– minha origem qual é e qual é meu destino?",fr_XX,pt_XX,-1
+– minha origem qual é e qual é meu destino?",fr_XX,pt_XX,0
 "je me dis bien souvent: de quelle race es-tu?
 ton coeur ne trouve rien qui l’enchaine ou ravisse,
 ta pensée et tes sens, rien qui les assouvisse:
@@ -5954,7 +5954,7 @@ fez o ponto qual senhorita.
 diziam: quais são seus talentos?
 – nenhum. – estúpida ficava,
 alheia ao vazio que soava
-só olhava passar o vento…",fr_XX,pt_XX,0
+só olhava passar o vento…",fr_XX,pt_XX,-1
 "je voudrais que la rose, — dondaine!
 fut encore au rosier, — dondé!
 poète — après?… il faut la chose:
@@ -6389,7 +6389,7 @@ masmorra onde se acaba de por uma trava.
 esquecendo a palavra, ambos compreensivos,
 não me dirás nada: eu não farei objeção…
 e nada poderá desdourar tal relação.
-o silêncio é de ouro",fr_XX,pt_XX,0
+o silêncio é de ouro",fr_XX,pt_XX,-1
 "vous qui ronflez au coin d’une épouse endormie,
 ruminant! savez-vous ce soupir: l’insomnie?
 — avez-vous vu la nuit, et le sommeil ailé,
@@ -7296,7 +7296,7 @@ chorosa a ventania virá com sua dor…
 a musa funesta aqui se assentará
 e em tua boca negra ainda achará
 rimas que arrepiam o pálido pudor…
-dorme de amor, ó maldoso caçador!",fr_XX,pt_XX,0
+dorme de amor, ó maldoso caçador!",fr_XX,pt_XX,-1
 "va vite, léger peigneur de comètes!
 les herbes au vent seront tes cheveux;
 de ton œil béant jailliront les feux
@@ -7383,7 +7383,7 @@ onde o beijo ardente uma marca rubra esquece…
 a hora está só — ouça: … nenhum sonho se mexe
 — é a vida: ouça: canta a fonte viçosa
 sua eterna canção, na cabeça viscosa de um deus marinho, os membros nus e esverdeados
-no leito da morgue… de olhos arregalados!",fr_XX,pt_XX,-1
+no leito da morgue… de olhos arregalados!",fr_XX,pt_XX,0
 "je vous envoie un bouquet que ma main
 vient de trier de ces fleurs épanies;
 qui ne les eût à ce vêpre cueillies
@@ -7562,7 +7562,7 @@ sobre as vagas de suas asas.
 meu pensamento sustido pela vida e pela morte.",fr_XX,pt_XX,0
 "caresse l’horizon de la nuit, cherche le coeur de jais que l’aube recouvre de chair. il mettrait dans tes yeux des pensées innocentes, des flammes, des ailes et des verdures que le soleil n’inventa pas.
 ce n’est pas la nuit qui te manque, mais sa puissance.","acaricia o horizonte da noite, busca o coração de azeviche que a aurora recobre de carne. ele te porá nos olhos pensamentos inocentes, chamas, asas e verduras que o sol ainda não inventou.
-não é a noite que te falta, mas o seu poder.",fr_XX,pt_XX,-1
+não é a noite que te falta, mas o seu poder.",fr_XX,pt_XX,0
 "ici l’action se simplifie
 j’ai renversé le paysage inexplicable du mensonge
 j’ai renversé les gestes sans lumière et les jours impuissants
@@ -7793,7 +7793,7 @@ o que a mão tomou desdenha tomar a forma da mão,
 o que foi compreendido já não existe,
 a ave confundiu-se com o vento,
 o céu com a sua verdade,
-o homem com a sua realidade.",fr_XX,pt_XX,0
+o homem com a sua realidade.",fr_XX,pt_XX,-1
 "la courbe de tes yeux fait le tour de mon cœur,
 un rond de danse et de douceur,
 auréole du temps, berceau nocturne et sûr,
@@ -8840,7 +8840,7 @@ da grande nau pela onda e remos em vaivém.
 são alforjes de peso; e dos prantos a trilha.
 ver-se-ia ao sondar o mar que os engalana,
 moverem-se em seus flancos tal qual forma humana…
-serena paira a lua e nas ondas rebrilha.",fr_XX,pt_XX,-1
+serena paira a lua e nas ondas rebrilha.",fr_XX,pt_XX,0
 "oh! laissez-moi! c’est l’heure où l’horizon qui fume
 cache un front inégal sous un cercle de brume,
 l’heure où l’astre géant rougit et disparaît.
@@ -9481,7 +9481,7 @@ a trocar frases de amor.
 e, sem pensar, vai falando,
 de novo as que já falou.
 e então continua amando
-só porque já começou.",fr_XX,pt_XX,0
+só porque já começou.",fr_XX,pt_XX,-1
 "ah! je vous aime! je vous aime!
 vous entendez? je suis fou de vous. je suis fou…
 je dis des moi, toujours lês mêmes…
@@ -9546,7 +9546,7 @@ mas eu amo tão mal porque eu amo demais.
 e atormento você, e persigo…
 você havia de ser melhor amada e mais feliz também,
 se não fosse você a minha única alegria,
-e se este amor não fosse o meu único bem.",fr_XX,pt_XX,0
+e se este amor não fosse o meu único bem.",fr_XX,pt_XX,-1
 "tu m’as dit: “je pense à toi
 tout lê jour.”
 mais tu penses moins à moi
@@ -9998,7 +9998,7 @@ imagina um porvir solitário e fatal
 é triste! – e tu, não é?, ficas emocionada
 ante o quadro dolente, embora olhando à toa
 a borboleta de oiro e púrpura que voa
-sobre os destroços de que a aléa está juncada.",fr_XX,pt_XX,0
+sobre os destroços de que a aléa está juncada.",fr_XX,pt_XX,-1
 "calmes dans le demi-jour
 que les branches hautes font,
 pénétrons bien notre amour
@@ -10037,7 +10037,7 @@ a relva crestada frisa.
 e quando a noite sombria
 dos carvalhos for baixando,
 o rouxinol a agonia
-da nossa alma irá cantando.",fr_XX,pt_XX,0
+da nossa alma irá cantando.",fr_XX,pt_XX,-1
 "calmes dans le demi-jour
 que les branches hautes font,
 pénétrons bien notre amour
@@ -10076,7 +10076,7 @@ as ondas da relva em flor.
 a noite solene, então,
 dos robles negros cairá,
 e, voz da nossa aflição,
-o rouxinol cantará.",fr_XX,pt_XX,0
+o rouxinol cantará.",fr_XX,pt_XX,-1
 "dans le vieux parc solitaire et glacé
 deux formes ont tout à l’heure passé.
 leurs yeux sont morts et leurs lèvres sont molles,
@@ -10138,7 +10138,7 @@ em que as bocas se uniam! – é possível.
 – como era azul o céu, e grande, o sonho!
 – esse sonho sumiu no céu tristonho.
 assim por entre as moitas eles iam,
-e só a noite escutou o que diziam.",fr_XX,pt_XX,-1
+e só a noite escutou o que diziam.",fr_XX,pt_XX,0
 "le foyer, la lueur étroite de la lampe;
 la rêverie avec le doigt contre la tempe
 et les yeux se perdant parmi les yeux aimés;
@@ -10195,7 +10195,7 @@ os operários a caminho das tavernas,
 com os cachimbos à boca a afrontarem os guardas;
 paredes a ruir; telhados de mansardas;
 sarjetas pelo chão resvaladiço e imundo, –
-tal meu caminho, – mas com o paraíso ao fundo.",fr_XX,pt_XX,0
+tal meu caminho, – mas com o paraíso ao fundo.",fr_XX,pt_XX,-1
 "le bruit des cabarets, la fange des trottoirs,
 les platanes déchus s’effeuillant dans l’air noir,
 l’omnibus, ouragan de ferraille et de boues,
@@ -10396,7 +10396,7 @@ resfolegante
 mostra os dentes
 e a cárie dentária de seu raciocínio pacificante
 deixa exposto o nervo da guerra
-a delicada questão do montante.",fr_XX,pt_XX,0
+a delicada questão do montante.",fr_XX,pt_XX,-1
 "nous avons tout mélangé
 c’est un fait
 nous avons profité du jour de la pentecôte pour accrocher les oeufs de pâques de la saint-barthélemy
@@ -10567,7 +10567,7 @@ que quebra imperceptivelmente sob sua mão que
 des-cobrir um nome sobre a pedra,
 nossos nomes ausentes desemaranham suas inquietações,
 e para você que se afasta, pensativamente,
-aqui se torna lá longe sem deixar de ser.",fr_XX,pt_XX,0
+aqui se torna lá longe sem deixar de ser.",fr_XX,pt_XX,-1
 "pâle comme l’aube
 dans les cercles de la nuit lourde
 le donjon sort de son gant de taupe
@@ -10767,7 +10767,7 @@ que sabiamente busca o aveludado assento,
 os duros olhos pisca, algozes e espúrios;
 e na purpúrea alcova onde o silêncio impera
 ouvem-se com vagar desta gata megera,
-ninon, quando se lambe, os constantes murmúrios.",fr_XX,pt_XX,0
+ninon, quando se lambe, os constantes murmúrios.",fr_XX,pt_XX,-1
 "il est d’étranges soirs où les fleurs ont une âme.
 il est des soirs d’automne où je te sens très proche,
 où je sens que ta chair a frissonné en moi,
@@ -10822,7 +10822,7 @@ gelado.
 e cri me embriagar de uma intensa alegria
 ao respirar o amor da falsa criatura.
 ai! deixou-me a volúpia a sua dura agrura
-e às noites desde então a calma é fugidia.",fr_XX,pt_XX,0
+e às noites desde então a calma é fugidia.",fr_XX,pt_XX,-1
 "j’ai le goût de la mort qui m’effleure la bouche,
 j’appelle le malheur sur tout ce que je touche.
 je sais ma route ignoble, et cependant, farouche,
@@ -10916,7 +10916,7 @@ o que faz aqui, bela mulher,
 com essas flores que murcham?
 o que faz aqui, decrépita mulher,
 com essas flores que morrem?
-estou à espera pela triunfante.",fr_XX,pt_XX,0
+estou à espera pela triunfante.",fr_XX,pt_XX,-1
 "un homme entre chez une fleuriste
 et choisit des fleurs
 la fleuriste enveloppe les fleurs

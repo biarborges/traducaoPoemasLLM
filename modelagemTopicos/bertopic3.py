@@ -63,10 +63,10 @@ normalizacao_lemas = {
     "cœur": "coeur",
     "cri": "crier",
 
-    "ressurgiremos": "ressurgir",
-    "falhou": "falhar",
-    "podias": "poder",
-    "amo": "amar",
+    #"ressurgiremos": "ressurgir",
+    #"falhou": "falhar",
+    #"podias": "poder",
+    #"amo": "amar",
 }
 
 
