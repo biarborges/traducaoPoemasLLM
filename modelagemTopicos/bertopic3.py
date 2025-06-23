@@ -68,6 +68,7 @@ normalizacao_lemas = {
     "podias": "poder",
     "amo": "amar",
     "amado": "amar",
+    "perdoo": "perdoar",
 }
 
 
