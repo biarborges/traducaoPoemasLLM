@@ -39,10 +39,10 @@ COLUNA_POEMAS = "translated_poem"  # "original_poem", "translated_poem", "transl
 
 # Definição dos idiomas de origem e destino para filtrar o CSV
 IDIOMA_ORIGEM = "pt_XX"  #  "fr_XX", "pt_XX", "en_XX"
-IDIOMA_DESTINO = "fr_XX" #  "fr_XX", "pt_XX", "en_XX"
+IDIOMA_DESTINO = "en_XX" #  "fr_XX", "pt_XX", "en_XX"
 
 # Idioma para o pré-processamento (NLTK e spaCy)
-IDIOMA_PROC = "fr_XX"
+IDIOMA_PROC = "en_XX"
 
 
 
