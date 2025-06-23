@@ -196,7 +196,7 @@ et mille fois grand merci !
 si quelque dessein vous tenait à cœur,
 je l’accomplirais bien volontiers –
 à présent, christ vous garde des peines cruelles,
-car enfin je prends congé.",en_XX,fr_XX,-1
+car enfin je prends congé.",en_XX,fr_XX,0
 "now lords and ladies blithe and bold,
 to bless you here now am i bound:
 i thank you all a thousand-fold,
@@ -259,7 +259,7 @@ mille mercis pour tant d’ardeur !
 mais qu’un dessein vous tienne à cœur,
 je reviendrai sans déroger –
 christ vous préserve du malheur,
-car à présent, je prends congé.",en_XX,fr_XX,-1
+car à présent, je prends congé.",en_XX,fr_XX,0
 "i dwell in a lonely house i know
 that vanished many a summer ago,
 and left no trace but the cellar walls,
@@ -318,7 +318,7 @@ ce sont gens inlassables, mais lents et tristes —
 deux pourtant, enlacés, sont jouvenceaux, —
 dont jamais aucun ne chante,
 mais qui, en pareilles circonstances,
-me sont la plus douce des compagnies.",en_XX,fr_XX,0
+me sont la plus douce des compagnies.",en_XX,fr_XX,-1
 "1.
 the road was long and the road was hard
 and the sky was cold and grey:
@@ -463,7 +463,7 @@ durant bien des années éreintantes :
 ohé ! aux amis vaillants que je me fis —
 esclave, escrimeur et servante gracile ! —
 je ne me repens d’aucune aventure sur ma route —
-la route qui s’achève… ici.",en_XX,fr_XX,0
+la route qui s’achève… ici.",en_XX,fr_XX,-1
 "some say the world will end in fire,
 some say in ice.
 from what i’ve tasted of desire
@@ -684,7 +684,7 @@ soutenu par la poitrine ferme de ma bien-aimée,
 à la sentir pour toujours tomber doucement et remonter,
 pour toujours dans l’éveil d’un trouble délicat,
 sans cesse, sans cesse à l’écoute de sa tendre inspiration,
-et vivre ainsi toujours — ou bien choir dans la mort.",en_XX,fr_XX,-1
+et vivre ainsi toujours — ou bien choir dans la mort.",en_XX,fr_XX,0
 "bright star, would i were steadfast as thou art—
 not in lone splendour hung aloft the night
 and watching, with eternal lids apart,
@@ -864,7 +864,7 @@ sous des nuées, des vents et des fantômes qu’effarouche le soleil,
 combien faudra-t-il de morts pour enfin briser
 cet héritage qui m’enveloppe dans l’habit
 gris des spectres ? je sonde mon cœur et trouve
-cimmérie, terre des ténèbres et de la nuit.",en_XX,fr_XX,0
+cimmérie, terre des ténèbres et de la nuit.",en_XX,fr_XX,-1
 "i had a dove and the sweet dove died;
 and i have thought it died of grieving:
 o, what could it grieve for? its feet were tied,
@@ -963,7 +963,7 @@ la terre diligente, la terre levée en marée de vive-eau, exaltée par le sang 
 par les jours heureux défaits pour le bien de son jour de bonheur à elle,
 par l’amour des femmes de jadis, et la splendeur de la jeunesse consumée,
 par la douceur dépouillée des vies précipitées dans les remous de la guerre,
-par l’espérance du cœur endurci qui s’épuise au loin, pour toujours.",en_XX,fr_XX,0
+par l’espérance du cœur endurci qui s’épuise au loin, pour toujours.",en_XX,fr_XX,-1
 "o earth, earth, look on thy lovers, who knew all thy gifts and thy gain,
 but cast them aside for thy sake, and caught up barren pain!
 indeed of some art thou mindful, and ne’er shalt forget their tale,
@@ -1199,7 +1199,7 @@ c’est un gourou
 tu es un rouage microscopique
 dans son plan catastrophique
 conçu et dirigé
-par sa main droite écarlate",en_XX,fr_XX,1
+par sa main droite écarlate",en_XX,fr_XX,-1
 "the bugler sent a call of high romance—
 lights out! lights out!—to the deserted square:
 on the thin brazen notes he threw a prayer.
@@ -1424,7 +1424,7 @@ d’un flûtiau fendu dans un étau bestial
 d’où coulait au hasard l’amas de flots sans but
 qui donne à tout cosmos son dogme immémorial.
 « je suis son messager », affirma le daimôn,
-frappant la tête de son maître avec affront.",en_XX,fr_XX,-1
+frappant la tête de son maître avec affront.",en_XX,fr_XX,1
 "from far, from eve and morning
 and yon twelve-winded sky,
 the stuff of life to knit me
@@ -1740,7 +1740,7 @@ qui causerait à sa sœur une plainte :
 et le soleil étreint la terre,
 le rayon de lune embrasse les flots : —
 à quoi bon toutes ces tâches légères,
-si ton baiser ne m’ôte pas les mots ?",en_XX,fr_XX,0
+si ton baiser ne m’ôte pas les mots ?",en_XX,fr_XX,-1
 "the fountains mingle with the river,
 and the rivers with the ocean;
 the winds of heaven mix for ever,
@@ -1771,7 +1771,7 @@ pour avoir dédaigné son frère :
 et la lumière du soleil embrasse la terre,
 et le rayon de lune baise la mer :
 — que vaut donc tout ce tendre labeur,
-si tu ne m’embrasses pas ?",en_XX,fr_XX,0
+si tu ne m’embrasses pas ?",en_XX,fr_XX,-1
 "a man came slowly from the setting sun,
 to emer, raddling raiment in her dun,
 and said, ‘i am that swineherd whom you bid
@@ -1918,7 +1918,7 @@ et la vieille lame fracassant la garde de la nouvelle lame
 transperça l’homme.
 « parle, avant de rendre souffle.
 — moi, cuchulain, du puissant cuchulain le fils.
-— j’abrège tes souffrances. je ne peux rien de plus. »",en_XX,fr_XX,1
+— j’abrège tes souffrances. je ne peux rien de plus. »",en_XX,fr_XX,-1
 "while day its burden on to evening bore,
 with head bowed on his knees cuchulain stayed;
 then conchubar sent that sweet-throated maid,
@@ -1953,7 +1953,7 @@ et incantèrent trois jours durant.
 cuchulain s’ébroua,
 contempla les cavales de la mer, écouta
 les chars de bataille, son propre nom clamé,
-et se lança contre le flot invulnérable.",en_XX,fr_XX,0
+et se lança contre le flot invulnérable.",en_XX,fr_XX,-1
 "had i the heavens’ embroidered cloths,
 enwrought with golden and silver light,
 the blue and the dim and the dark cloths
@@ -2155,7 +2155,7 @@ mais quand bien même il arrive que la démocratie soit ralentie,
 jamais elle ne peut être défaite irrémédiablement.
 en cette vérité, en cette certitude, nous plaçons notre foi,
 car alors que nos yeux sont tournés vers l’avenir, l’histoire nous regarde.
-voici l’ère de la juste rédemption.",en_XX,fr_XX,1
+voici l’ère de la juste rédemption.",en_XX,fr_XX,-1
 "we feared it at its inception.
 we did not feel prepared to be the heirs of such a terrifying hour,
 but within it, we found the power to author a new chapter, to offer hope and laughter to ourselves.
@@ -2173,7 +2173,7 @@ un pays meurtri, mais entier, bienveillant mais hardi, farouche et libre.
 nous ne nous serons pas subvertis ni interrompus par l’intimidation parce que nous savons que notre inaction et notre inertie seront le legs de la prochaine génération.
 nos fautes deviennent leurs fardeaux.
 mais une chose est certaine :
-si nous joignons la clémence à la puissance, et la puissance au juste, alors l’amour devient notre héritage et le changement, le droit de nos enfants échu à la naissance.",en_XX,fr_XX,1
+si nous joignons la clémence à la puissance, et la puissance au juste, alors l’amour devient notre héritage et le changement, le droit de nos enfants échu à la naissance.",en_XX,fr_XX,-1
 "so let us leave behind a country better than the one we were left.
 with every breath from my bronze-pounded chest, we will raise this wounded world into a wondrous one.
 we will rise from the golden hills of the west.
@@ -2200,7 +2200,7 @@ le jour venu, nous sortons de l’ombre, ardents et sans peur.
 la nouvelle aube s’épanouit alors que nous la libérons.
 car il y a toujours de la lumière,
 si seulement nous sommes assez braves pour la voir.
-si seulement nous sommes assez braves pour en être.",en_XX,fr_XX,1
+si seulement nous sommes assez braves pour en être.",en_XX,fr_XX,-1
 "do not go gentle into that good night,
 old age should burn and rave at close of day;
 rage, rage against the dying of the light.
@@ -2475,7 +2475,7 @@ que l’éclat doré apportait alors ;
 à présent je fuis la noirceur pailletée
 que j’aimais et guettais auparavant ;
 mais l’horreur, prévue et prédite,
-hante mon âme pour l’éternité !",en_XX,fr_XX,0
+hante mon âme pour l’éternité !",en_XX,fr_XX,-1
 "i met a traveller from an antique land
 who said: two vast and trunkless legs of stone
 stand in the desert… near them, on the sand,
@@ -2580,7 +2580,7 @@ certes on ne vit jamais plus admirable site
 parmi tous ceux qui charmèrent les yeux romantiques;
 l'île semblait une émeraude scintillant dans l'argent
 des eaux éblouissantes; de même au plus haut de l'éther,
-transperçant les nuées d'un blanc floconneux, rit le ciel céruléen.",en_XX,fr_XX,0
+transperçant les nuées d'un blanc floconneux, rit le ciel céruléen.",en_XX,fr_XX,-1
 "and all around it dipp'd luxuriously
 slopings of verdure through the glossy tide,
 which, as it were in gentle amity,
@@ -2778,7 +2778,7 @@ pourtant, l'aimable causerie avec un esprit naïf,
 dont les propos sont des images de pensées délicates
 est la joie de mon âme; et, sûrement ce doit être
 a peu près la plus haute félicité de la race humaine,
-lorsque dans tes retraites se réfugient deux âmes sœurs.",en_XX,fr_XX,0
+lorsque dans tes retraites se réfugient deux âmes sœurs.",en_XX,fr_XX,-1
 "the church bells toll a melancholy round,
 calling the people to some other prayers,
 some other gloominess, more dreadful cares,
@@ -2944,7 +2944,7 @@ sur le seuil de l'âge qui vient;
 ceux-là, ceux-là donneront au monde un autre cœur
 et d'autres pulsations. n'entends-tu pas le ahan
 de puissants travaux dans les humaines entreprises?
-ecoutez un instant, nations, et soyez muettes!",en_XX,fr_XX,-1
+ecoutez un instant, nations, et soyez muettes!",en_XX,fr_XX,0
 "the poetry of earth is never dead:
 when all the birds are faint with the hot sun,
 and hide in cooling trees, a voice will run
@@ -3079,7 +3079,7 @@ je pensais qu'elle surpassait de beaucoup la rose des jardins:
 mais quand, o wells! tes roses me parvinrent
 mes sens furent délicieusement charmés:
 elles avaient de douces voix, qui plaidaient tendrement
-murmurant les mots de paix, de sincérité et d'amitié indomptable.",en_XX,fr_XX,0
+murmurant les mots de paix, de sincérité et d'amitié indomptable.",en_XX,fr_XX,-1
 "my spirit is too weak—mortality
 weighs heavily on me like unwilling sleep,
 and each imagined pinnacle and steep
@@ -3135,7 +3135,7 @@ régalez-les devant l'immensité de la mer;
 o vous! dont les oreilles sont rassasiées de rudes vacarmes
 ou repues jusqu'à indigestion de fades mélodies,
 asseyez-vous à l'entrée de quelque vieille caverne, et méditez
-jusqu'à ce que vous tressailliez, comme si les nymphes de la mer chantaient!",en_XX,fr_XX,0
+jusqu'à ce que vous tressailliez, comme si les nymphes de la mer chantaient!",en_XX,fr_XX,-1
 "i stood tip-toe upon a little hill,
 the air was cooling, and so very still,
 that the sweet buds which with a modest pride
@@ -3330,7 +3330,7 @@ et du soyeux capiton des nuages suspendus
 là où l'on contemple les étoiles.
 oh! sûrement il a brisé nos barrières humaines;
 dans quelque merveilleuse région il a pénétré,
-pour te rechercher, toi, divin endymion!",en_XX,fr_XX,-1
+pour te rechercher, toi, divin endymion!",en_XX,fr_XX,0
 "he was a poet, sure a lover too,
 who stood on latmus’ top, what time there blew
 soft breezes from the myrtle vale below;
@@ -3353,7 +3353,7 @@ bien qu'au-dessus de l'autel elle sourît au sacrifice,
 le poète pleurait sur sa douloureuse destinée,
 pleurait de ce qu'une telle beauté fût condamnée à la désespérance:
 c'est ainsi que son sublime courroux lui inspira des harmonies dorées,
-et qu'il donna la tendre cynthie à son endymion.",en_XX,fr_XX,-1
+et qu'il donna la tendre cynthie à son endymion.",en_XX,fr_XX,0
 "queen of the wide air; thou most lovely queen
 of all the brightness that mine eyes have seen!
 as thou exceedest all things in thy shine,
@@ -3427,7 +3427,7 @@ nouèrent des liens de soie qui ne pussent jamais être brisés.
 cynthia! je ne peux énumérer les félicités plus grandes
 qui suivirent la tienne, ni les baisers de ton cher berger:
 un poète est-il né alors?—n'ajoutons rien pour l'instant—
-mon esprit vagabond ne doit plus errer davantage.",en_XX,fr_XX,0
+mon esprit vagabond ne doit plus errer davantage.",en_XX,fr_XX,-1
 "o golden-tongued romance with serene lute!
 fair plumed syren! queen of far away!
 leave melodizing on this wintry day,
@@ -3508,7 +3508,7 @@ c'est l'ignorance qui fait une étendue stérile
 de tout ce qui est au delà d'elle. tu arroses
 de verts roseaux, comme nos rivières; et tu goûtes
 le plaisant lever du soleil. de vertes îles tu as aussi,
-et vers la mer tu te hâtes aussi joyeusement.",en_XX,fr_XX,-1
+et vers la mer tu te hâtes aussi joyeusement.",en_XX,fr_XX,1
 "where's the poet? show him! show him,
 muses nine! that i may know him.
 'tis the man who with a man
@@ -3656,7 +3656,7 @@ s'endormant sous la feuillée!
 honneur à sa fiancée marian!
 et à tout le clan de sherwood!
 quoique leurs jours se soient enfuis,
-tous deux entonnons un refrain.",en_XX,fr_XX,-1
+tous deux entonnons un refrain.",en_XX,fr_XX,0
 "souls of poets dead and gone,
 what elysium have ye known,
 happy field or mossy cavern,
@@ -3679,7 +3679,7 @@ plus savoureux que ces friands pâtés
 de venaison? o nourriture généreuse!
 préparée comme si le hardi robin hood
 voulait avec sa fiancée marian,
-festoyer et se griser en vidant corne et canette.",en_XX,fr_XX,0
+festoyer et se griser en vidant corne et canette.",en_XX,fr_XX,-1
 "i have heard that on a day
 mine host's sign-board flew away,
 nobody knew whither, till
@@ -3706,7 +3706,7 @@ la sirène dans le zodiac.
 ames de poètes morts et disparus,
 quel elysée avez-vous connu,
 riante campagne ou caverne moussue,
-plus raffiné que la taverne de la sirène?",en_XX,fr_XX,0
+plus raffiné que la taverne de la sirène?",en_XX,fr_XX,-1
 "four seasons fill the measure of the year;
 there are four seasons in the mind of man:
 he has his lusty spring, when fancy clear
@@ -3760,7 +3760,7 @@ que la paisible primerose, et l'espace
 du ciel et quelques oreilles!
 murmuré par toi, mon chant se mourrait
 heureux comme les leurs,
-riche d'avoir glorifié un seul jour.",en_XX,fr_XX,0
+riche d'avoir glorifié un seul jour.",en_XX,fr_XX,-1
 "the town, the churchyard, and the setting sun,
 the clouds, the trees, the rounded hills all seem,
 though beautiful, cold- strange- as in a dream
@@ -3971,7 +3971,7 @@ aussi pour toujours fuirai-je
 ce lieu ainsi souillé, et bientôt
 je le dépouillerai de son enchantement.
 ce disant, avec la rapidité de l'éclair
-l'esprit plongea!",en_XX,fr_XX,0
+l'esprit plongea!",en_XX,fr_XX,-1
 "time's sea hath been five years at its slow ebb,
 long hours have to and fro let creep the sand,
 since i was tangled in thy beauty's web,
@@ -4227,7 +4227,7 @@ vers les chants du soir et la prière de vêpres.
 chaque porche cintré, chaque porte basse
 etait plein d'une lente et patiente foule,
 chuchotant à mi-voix, traînant les pieds,
-tandis que résonnait l'orgue bruyant et doux.",en_XX,fr_XX,-1
+tandis que résonnait l'orgue bruyant et doux.",en_XX,fr_XX,0
 "the bells had ceas'd, the prayers begun,
 and bertha had not yet half done
 a curious volume, patch'd and torn,
@@ -4258,7 +4258,7 @@ candélabres que jean vit dans le ciel,
 le lion ailé de saint-marc,
 et l'arche d'alliance,
 avec ses nombreux mystères,
-le chérubin et la souris d'or.",en_XX,fr_XX,-1
+le chérubin et la souris d'or.",en_XX,fr_XX,0
 "bertha was a maiden fair,
 dwelling in the old minster-square,
 from her fire-side she could see,
@@ -4293,7 +4293,7 @@ sur la légende de saint-marc.
 hors de sa colerette de linon, plissée, délicate et légère,
 elle souleva son menton doux et chaud,
 le cou endolori, les yeux noyés,
-eblouie par les saintes images.",en_XX,fr_XX,0
+eblouie par les saintes images.",en_XX,fr_XX,-1
 "all was gloom, and silent all,
 save now and then the still foot-fall
 of one returning homewards late,
@@ -4312,7 +4312,7 @@ croassent du sommet des arbres et des tours,
 par couples étaient revenues à leur nid,
 ayant toutes élu domicile dans l'ancien beffroi
 où elles s'endormaient parfois
-au son des musiques et des carillons berceurs.",en_XX,fr_XX,-1
+au son des musiques et des carillons berceurs.",en_XX,fr_XX,0
 "all was silent, all was gloom,
 abroad and in the homely room:
 down she sat, poor cheated soul!
@@ -4446,7 +4446,7 @@ un sourire si délicieux,
 aussi brillant, aussi éblouissant,
 que lorsque avec des yeux ravis, douloureux, asservis,
 perdu dans une douce extase
-j'admire, j'admire!",en_XX,fr_XX,0
+j'admire, j'admire!",en_XX,fr_XX,-1
 "who now, with greedy looks, eats up my feast?
 what stare outfaces now my silver moon!
 ah! keep that hand unravished at the least;
@@ -4742,7 +4742,7 @@ quand je suis occupée.
 mais les bagatelles semblent si dérisoires
 dès que tu es là,
 et le blâme vaut autant que l'éloge
-et l'éloge aussi peu que le blâme.",en_XX,fr_XX,1
+et l'éloge aussi peu que le blâme.",en_XX,fr_XX,-1
 "sleep is supposed to be,
 by souls of sanity,
 the shutting of the eye.
@@ -4901,7 +4901,7 @@ une si curieuse terre.
 je suis contente qu'ils l'ait cru
 ceux que je n'ai jamais trouvés
 depuis ce sacré après-midi d'automne
-où je les ai laissés sous terre.",en_XX,fr_XX,-1
+où je les ai laissés sous terre.",en_XX,fr_XX,1
 "because i would not stop for death --
 he kindly stopped for me --
 the carriage held but just ourselves --
@@ -4940,27 +4940,27 @@ la corniche n'était qu'un monticule.
 depuis des siècles ont passé mais chacun
 semble plus court que le jour
 où j'ai supposé la première fois que la tête des chevaux
-étaient tournées vers l'éternité.",en_XX,fr_XX,-1
-"since there’s no help, come let us kiss and part; nay, i have done, you get no more of me, and i am glad, yea glad with all my heart that thus so cleanly i myself can free; shake hands forever, cancel all our vows, and when we meet at any time again, be it not seen in either of our brows that we one jot of former love retain. now at the last gasp of love’s latest breath, when, his pulse failing, passion speechless lies, when faith is kneeling by his bed of death, and innocence is closing up his eyes, now if thou wouldst, when all have given him over, from death to life thou mightst him yet recover.","puisqu’il n’y a pas d’aide, viens, embrassons-nous et séparons-nous ; non, j’ai fait, vous n’aurez plus rien de moi, et je suis heureux, oui, heureux de tout mon coeur. de pouvoir ainsi, si proprement, me libérer ; se serrer la main pour toujours, annuler tous nos voeux, et quand nous nous rencontrerons à nouveau, que l’on ne voie sur aucun de nos fronts que nous ayons gardé une trace de notre ancien amour. maintenant, au dernier souffle de l’amour, lorsque, son pouls s’affaiblissant, la passion est muette, quand la foi est agenouillée sur son lit de mort, et que l’innocence ferme les yeux, maintenant si tu le veux, quand tous l’ont abandonné, de la mort à la vie, tu pourrais encore le récupérer.",en_XX,fr_XX,0
+étaient tournées vers l'éternité.",en_XX,fr_XX,1
+"since there’s no help, come let us kiss and part; nay, i have done, you get no more of me, and i am glad, yea glad with all my heart that thus so cleanly i myself can free; shake hands forever, cancel all our vows, and when we meet at any time again, be it not seen in either of our brows that we one jot of former love retain. now at the last gasp of love’s latest breath, when, his pulse failing, passion speechless lies, when faith is kneeling by his bed of death, and innocence is closing up his eyes, now if thou wouldst, when all have given him over, from death to life thou mightst him yet recover.","puisqu’il n’y a pas d’aide, viens, embrassons-nous et séparons-nous ; non, j’ai fait, vous n’aurez plus rien de moi, et je suis heureux, oui, heureux de tout mon coeur. de pouvoir ainsi, si proprement, me libérer ; se serrer la main pour toujours, annuler tous nos voeux, et quand nous nous rencontrerons à nouveau, que l’on ne voie sur aucun de nos fronts que nous ayons gardé une trace de notre ancien amour. maintenant, au dernier souffle de l’amour, lorsque, son pouls s’affaiblissant, la passion est muette, quand la foi est agenouillée sur son lit de mort, et que l’innocence ferme les yeux, maintenant si tu le veux, quand tous l’ont abandonné, de la mort à la vie, tu pourrais encore le récupérer.",en_XX,fr_XX,-1
 "how do i love thee? let me count the ways. i love thee to the depth and breadth and height my soul can reach, when feeling out of sight for the ends of being and ideal grace. i love thee to the level of every day’s most quiet need, by sun and candle-light. i love thee freely, as men strive for right. i love thee purely, as they turn from praise. i love thee with the passion put to use in my old griefs, and with my childhood’s faith. i love thee with a love i seemed to lose with my lost saints. i love thee with the breath, smiles, tears, of all my life; and, if god choose, i shall but love thee better after death.","comment je t’aime ? laisse-moi compter les façons. je t’aime jusqu’à la profondeur, la largeur et la hauteur. que mon âme peut atteindre, quand elle se sent hors de vue pour les fins de l’être et la grâce idéale. je t’aime jusqu’au niveau de chaque jour le besoin le plus tranquille de chaque jour, au soleil et à la lumière des bougies. je t’aime librement, alors que les hommes luttent pour le droit. je t’aime purement, comme ils se détournent de la louange. je t’aime avec la passion mise en œuvre dans mes vieux chagrins, et avec la foi de mon enfance. je t’aime d’un amour que je semblais avoir perdu avec mes saints perdus. je t’aime avec le souffle, les sourires, les larmes, de toute ma vie ; et, si dieu le veut, je ne t’aimerai que davantage après la mort.",en_XX,fr_XX,-1
 "when great trees fall, rocks on distant hills shudder, lions hunker down in tall grasses, and even elephants lumber after safety. when great trees fall in forests, small things recoil into silence, their senses eroded beyond fear. when great souls die, the air around us becomes light, rare, sterile. we breathe, briefly. our eyes, briefly, see with a hurtful clarity. our memory, suddenly sharpened, examines, gnaws on kind words unsaid, promised walks never taken. great souls die and our reality, bound to them, takes leave of us. our souls, dependent upon their nurture, now shrink, wizened. our minds, formed and informed by their radiance, fall away. we are not so much maddened as reduced to the unutterable ignorance of dark, cold caves. and when great souls die, after a period peace blooms, slowly and always irregularly. spaces fill with a kind of soothing electric vibration. our senses, restored, never to be the same, whisper to us. they existed. they existed. we can be. be and be better. for they existed.","quand de grands arbres tombent, les rochers des collines lointaines tremblent, les lions se terrent dans les hautes herbes, et même les éléphants se mettent en sécurité. quand de grands arbres tombent dans les forêts, les petites choses reculent dans le silence, leurs sens érodés au-delà de la peur. quand les grandes âmes meurent, l’air autour de nous devient léger, rare, stérile. nous respirons, brièvement. nos yeux, brièvement, voient avec une clarté blessante. notre mémoire, soudainement aiguisée, examine, ronge les mots gentils non dites, les promenades promises jamais faites. les grandes âmes meurent et notre réalité, liée à elles à elles, prend congé de nous. nos âmes, dépendantes de leur nourrice, se rétrécissent, s’étiolent. nos esprits, formés et informés par leur rayonnement, s’effacent. nous ne sommes pas tant fous que réduits à l’indicible ignorance de sombres et froides des cavernes sombres et froides. et quand les grandes âmes meurent, après une période, la paix fleurit, lentement et toujours irrégulièrement. les espaces se remplissent avec une sorte de vibration électrique apaisante. nos sens, restaurés, qui ne seront jamais jamais les mêmes, nous chuchotent. ils ont existé. ils ont existé. nous pouvons être. être et être meilleurs. car ils ont existé.",en_XX,fr_XX,0
 "death is nothing at all. it does not count. i have only slipped away into the next room. nothing has happened. everything remains exactly as it was. i am i, and you are you, and the old life that we lived so fondly together is untouched, unchanged. whatever we were to each other, that we are still. call me by the old familiar name. speak of me in the easy way which you always used. put no difference into your tone. wear no forced air of solemnity or sorrow. laugh as we always laughed at the little jokes that we enjoyed together. play, smile, think of me, pray for me. let my name be ever the household word that it always was. let it be spoken without an effort, without the ghost of a shadow upon it. life means all that it ever meant. it is the same as it ever was. there is absolute and unbroken continuity. what is this death but a negligible accident? why should i be out of mind because i am out of sight? i am but waiting for you, for an interval, somewhere very near, just round the corner. all is well. nothing is hurt; nothing is lost. one brief moment and all will be as it was before. how we shall laugh at the trouble of parting when we meet again!","la mort n’est rien du tout. elle ne compte pas. je me suis seulement éclipsé dans la pièce d’à côté. il ne s’est rien passé. tout reste exactement comme avant. je suis moi, et vous êtes vous, et l’ancienne vie que nous avons vécue si tendrement ensemble est intacte, inchangée. ce que nous étions l’un pour l’autre, nous le sommes toujours. appelle-moi par le vieux nom familier. parlez de moi avec la simplicité que vous avez toujours utilisée. ne faites aucune différence dans votre ton. ne portez pas d’air forcé de solennité ou de tristesse. riez comme nous avons toujours ri des petites blagues que nous aimions faire ensemble. joue, souris, pense à moi, prie pour moi. que mon nom soit toujours le mot familier qu’il a toujours été. qu’il soit prononcé sans effort, sans l’ombre d’une ombre sur lui. la vie signifie tout ce qu’elle a toujours signifié. elle est la même qu’elle a toujours été. il y a une continuité absolue et ininterrompue. qu’est-ce que cette mort, sinon un accident négligeable ? pourquoi devrais-je disparaître de ma tête parce que je ne suis plus visible ? je ne fais que t’attendre, pendant un intervalle, quelque part tout près, juste au coin de la rue. tout va bien. rien n’est blessé, rien n’est perdu. un bref instant et tout sera comme avant. comme nous rirons de la peine de la séparation quand nous nous retrouverons !",en_XX,fr_XX,-1
 "two roads diverged in a yellow wood, and sorry i could not travel both and be one traveler, long i stood and looked down one as far as i could to where it bent in the undergrowth; then took the other, as just as fair, and having perhaps the better claim, because it was grassy and wanted wear; though as for that the passing there had worn them really about the same, and both that morning equally lay in leaves no step had trodden black. oh, i kept the first for another day! yet knowing how way leads on to way, i doubted if i should ever come back. i shall be telling this with a sigh somewhere ages and ages hence: two roads diverged in a wood, and i— i took the one less traveled by, and that has made all the difference.","deux routes divergeaient dans un bois jaune, et désolé de ne pas pouvoir voyager sur les deux et être un seul voyageur, je suis resté longtemps et j’ai regardé l’une d’elles aussi loin que je pouvais jusqu’à ce qu’elle se courbe dans le sous-bois ; puis j’ai pris l’autre, qui était tout aussi juste, et ayant peut-être les meilleures prétentions, parce qu’elle était herbeuse et qu’elle n’avait pas besoin d’être usée ; bien que pour cela le passage là-bas les avait usées à peu près de la même façon, et les deux, ce matin-là, reposaient également dans des feuilles qu’aucun pas n’avait foulées. oh, j’ai gardé la première pour un autre jour ! mais sachant comment le chemin mène au chemin, je me demandais si je reviendrais un jour. je raconterai cela avec un soupir quelque part dans des siècles et des siècles : deux routes divergent dans un bois, et je… j’ai pris celle qui était la moins fréquentée, et cela a fait toute la différence.",en_XX,fr_XX,-1
 "did you hear about the rose that grew from a crack in the concrete? proving nature’s law is wrong it learned to walk with out having feet. funny it seems, but by keeping its dreams, it learned to breathe fresh air. long live the rose that grew from concrete when no one else ever cared.","as-tu entendu parler de la rose qui a poussé à partir d’une fissure dans le béton ? prouvant que la loi de la nature est fausse, elle a appris à marcher sans avoir de pieds. cela peut paraître drôle, mais en gardant ses rêves, elle a appris à respirer de l’air frais. longue vie à la rose qui a poussé dans le béton quand personne d’autre ne s’en souciait.",en_XX,fr_XX,-1
-"devouring time, blunt thou the lion’s paws, and make the earth devour her own sweet brood; pluck the keen teeth from the fierce tiger’s jaws, and burn the long-lived phoenix in her blood; make glad and sorry seasons as thou fleet’st, and do whate’er thou wilt, swift-footed time, to the wide world and all her fading sweets; but i forbid thee one most heinous crime: o! carve not with thy hours my love’s fair brow, nor draw no lines there with thine antique pen; him in thy course untainted do allow for beauty’s pattern to succeeding men. yet, do thy worst old time: despite thy wrong, my love shall in my verse ever live young.","temps dévorant, émousse les pattes du lion, et fais en sorte que la terre dévore sa douce progéniture ; arrache les dents acérées des mâchoires du tigre féroce, et brûle dans son sang le phénix à la longue vie ; fais des saisons joyeuses et tristes comme tu le souhaites, et fais tout ce que tu veux, le temps aux pieds rapides, au monde entier et à toutes ses douceurs fugitives ; mais je t’interdis un crime des plus odieux : o ! ne sculpte pas avec tes heures le beau front de mon amour, et ne trace pas de lignes avec ta plume antique ; laisse-le intact dans ton parcours comme modèle de beauté pour les hommes qui se succèdent. pourtant, fais ce que tu as à faire, vieux temps, malgré ton erreur, mon amour vivra toujours jeune dans mes vers.",en_XX,fr_XX,0
+"devouring time, blunt thou the lion’s paws, and make the earth devour her own sweet brood; pluck the keen teeth from the fierce tiger’s jaws, and burn the long-lived phoenix in her blood; make glad and sorry seasons as thou fleet’st, and do whate’er thou wilt, swift-footed time, to the wide world and all her fading sweets; but i forbid thee one most heinous crime: o! carve not with thy hours my love’s fair brow, nor draw no lines there with thine antique pen; him in thy course untainted do allow for beauty’s pattern to succeeding men. yet, do thy worst old time: despite thy wrong, my love shall in my verse ever live young.","temps dévorant, émousse les pattes du lion, et fais en sorte que la terre dévore sa douce progéniture ; arrache les dents acérées des mâchoires du tigre féroce, et brûle dans son sang le phénix à la longue vie ; fais des saisons joyeuses et tristes comme tu le souhaites, et fais tout ce que tu veux, le temps aux pieds rapides, au monde entier et à toutes ses douceurs fugitives ; mais je t’interdis un crime des plus odieux : o ! ne sculpte pas avec tes heures le beau front de mon amour, et ne trace pas de lignes avec ta plume antique ; laisse-le intact dans ton parcours comme modèle de beauté pour les hommes qui se succèdent. pourtant, fais ce que tu as à faire, vieux temps, malgré ton erreur, mon amour vivra toujours jeune dans mes vers.",en_XX,fr_XX,1
 "a clock stopped — not the mantel’s geneva’s farthest skill can’t put the puppet bowing that just now dangled still. an awe came on the trinket! the figures hunched with pain, then quivered out of decimals into degreeless noon. it will not stir for doctors, this pendulum of snow; the shopman importunes it, while cool, concernless no nods from the gilded pointers, nods from seconds slim, decades of arrogance between the dial life and him.","une horloge s’est arrêtée, pas celle de la cheminée. la compétence la plus lointaine de genève ne peut faire plier la marionnette qui, à l’instant, se balançait encore. une crainte s’est emparée du bibelot ! les figures se courbèrent de douleur, puis s’éloignèrent des décimales dans un midi sans lumière. il ne bougera pas pour les médecins, ce pendule de neige ; le commerçant l’importune, alors que le froid, l’insouciant non hoche la tête des pointeurs dorés, les hochements de tête des secondes minces, des décennies d’arrogance entre la vie du cadran et lui.",en_XX,fr_XX,-1
 "men, if you love us, play no more the fools or tyrants with your friends, to make us still sing o’er and o’er our own false praises, for your ends: we have both wits and fancies too, and, if we must, let’s sing of you. nor do we doubt but that we can, if we would search with care and pain, find some one good in some one man; so going thorough all your strain, we shall, at last, of parcels make one good enough for a song’s sake. and as a cunning painter takes, in any curious piece you see, more pleasure while the thing he makes, than when ’tis made – why so will we. and having pleased our art, we’ll try to make a new, and hang that by.","hommes, si vous nous aimez, ne jouez plus les fous ou les tyrans avec vos amis, pour nous faire chanter encore et encore nos propres fausses louanges, à vos fins : nous avons aussi bien de l’esprit que des fantaisies, et, s’il le faut, chantons de vous. et nous ne doutons pas que nous le puissions, si nous cherchons avec soin et avec peine, trouver quelque chose de bon dans quelque homme ; ainsi, en allant jusqu’au bout de votre effort, nous ferons enfin des parcelles de terrain un seul assez bon pour l’amour d’une chanson. et comme un peintre rusé prend, dans n’importe quelle pièce curieuse que vous voyez, plus de plaisir pendant qu’il fait la chose, qu’au moment où elle est faite, il en sera de même pour nous. et après avoir satisfait notre art, nous allons essayer d’en faire un nouveau, et de le suspendre à côté.",en_XX,fr_XX,-1
-"overnight, very whitely, discreetly, very quietly our toes, our noses take hold on the loam, acquire the air. nobody sees us, stops us, betrays us; the small grains make room. soft fists insist on heaving the needles, the leafy bedding, even the paving. our hammers, our rams, earless and eyeless, perfectly voiceless, widen the crannies, shoulder through holes. we diet on water, on crumbs of shadow, bland-mannered, asking little or nothing. so many of us! so many of us! we are shelves, we are tables, we are meek, we are edible, nudgers and shovers in spite of ourselves. our kind multiplies: we shall by morning inherit the earth. our foot’s in the door.","du jour au lendemain, très silencieusement, discrètement, très discrètement nos orteils, nos nez s’accrochent à la terre, acquièrent l’air. personne ne nous voit, ne nous arrête, ne nous trahit ; les petits grains font de la place. les poings doux insistent soulever les aiguilles, la litière de feuilles, même le pavage. nos marteaux, nos béliers, sans oreilles et sans yeux, parfaitement aphones, élargissent les fentes, épaule les trous. nous nous nous nourrissons d’eau, sur des miettes d’ombre, sans manières, demandant peu ou rien. nous sommes si nombreux ! nous sommes si nombreux ! nous sommes des étagères, nous sommes des tables, nous sommes humbles, nous sommes comestibles, poussant et poussant en dépit de nous-mêmes. notre espèce se multiplie : nous allons au matin nous hériterons de la terre. notre pied est dans la porte.",en_XX,fr_XX,0
+"overnight, very whitely, discreetly, very quietly our toes, our noses take hold on the loam, acquire the air. nobody sees us, stops us, betrays us; the small grains make room. soft fists insist on heaving the needles, the leafy bedding, even the paving. our hammers, our rams, earless and eyeless, perfectly voiceless, widen the crannies, shoulder through holes. we diet on water, on crumbs of shadow, bland-mannered, asking little or nothing. so many of us! so many of us! we are shelves, we are tables, we are meek, we are edible, nudgers and shovers in spite of ourselves. our kind multiplies: we shall by morning inherit the earth. our foot’s in the door.","du jour au lendemain, très silencieusement, discrètement, très discrètement nos orteils, nos nez s’accrochent à la terre, acquièrent l’air. personne ne nous voit, ne nous arrête, ne nous trahit ; les petits grains font de la place. les poings doux insistent soulever les aiguilles, la litière de feuilles, même le pavage. nos marteaux, nos béliers, sans oreilles et sans yeux, parfaitement aphones, élargissent les fentes, épaule les trous. nous nous nous nourrissons d’eau, sur des miettes d’ombre, sans manières, demandant peu ou rien. nous sommes si nombreux ! nous sommes si nombreux ! nous sommes des étagères, nous sommes des tables, nous sommes humbles, nous sommes comestibles, poussant et poussant en dépit de nous-mêmes. notre espèce se multiplie : nous allons au matin nous hériterons de la terre. notre pied est dans la porte.",en_XX,fr_XX,-1
 "dear love, for nothing less than thee would i have broke this happy dream; it was a theme for reason, much too strong for fantasy, therefore thou wak’d’st me wisely; yet my dream thou brok’st not, but continued’st it. thou art so true that thoughts of thee suffice to make dreams truths, and fables histories; enter these arms, for since thou thought’st it best, not to dream all my dream, let’s act the rest. as lightning, or a taper’s light, thine eyes, and not thy noise wak’d me; yet i thought thee (for thou lovest truth) an angel, at first sight; but when i saw thou sawest my heart, and knew’st my thoughts, beyond an angel’s art, when thou knew’st what i dreamt, when thou knew’st when excess of joy would wake me, and cam’st then, i must confess, it could not choose but be profane, to think thee any thing but thee. coming and staying show’d thee, thee, but rising makes me doubt, that now thou art not thou. that love is weak where fear’s as strong as he; ‘tis not all spirit, pure and brave, if mixture it of fear, shame, honour have; perchance as torches, which must ready be, men light and put out, so thou deal’st with me; thou cam’st to kindle, goest to come; then i will dream that hope again, but else would die.","cher amour, pour rien de moins que toi j’aurais brisé ce rêve heureux ; c’était un thème pour la raison, bien trop fort pour la fantaisie, c’est pourquoi tu m’as réveillé sagement ; cependant. mon rêve, tu ne l’as pas brisé, mais tu l’as poursuivi. tu es si vrai qu’il suffit de penser à toi pour faire des rêves des vérités, et des fables des histoires ; prends ces armes, puisque tu as jugé bon de le faire, de ne pas rêver tout mon rêve, jouons le reste. comme un éclair, ou la lumière d’une torche, tes yeux, et non ton bruit, m’ont réveillé ; et pourtant je t’ai cru (car tu aimes la vérité) un ange, à première vue ; mais quand je t’ai vu, tu as vu mon coeur, et tu connaissais mes pensées, au-delà de l’art d’un ange, quand tu as su ce dont je rêvais, quand tu as su quand… l’excès de joie me réveillerait, et c’est alors que tu es venu, je dois avouer qu’il ne pourrait être que profane profane, de penser que tu es autre chose que toi. en venant et en restant, tu as montré que tu étais toi, toi, mais le lever me fait douter que maintenant tu n’es pas toi. l’amour est faible là où la peur est aussi forte que lui ; ce n’est pas tout l’esprit, pur et brave, si la peur se mêle à la honte et à l’honneur ; peut-être comme des torches, qui doivent bientôt s’éteindre, les hommes les allument et les éteignent, ainsi tu t’y prends avec moi ; tu es venu pour allumer, tu vas venir ; alors je… je rêverai encore de cet espoir, sinon je mourrais.",en_XX,fr_XX,-1
 "once a dream did weave a shade o’er my angel-guarded bed, that an emmet lost its way where on grass methought i lay. troubled, wildered, and forlorn, dark, benighted, travel-worn, over many a tangle spray, all heart-broke, i heard her say: ‘oh my children! do they cry, do they hear their father sigh? now they look abroad to see, now return and weep for me.’ pitying, i dropped a tear: but i saw a glow-worm near, who replied, ‘what wailing wight calls the watchman of the night? ‘i am set to light the ground, while the beetle goes his round: follow now the beetle’s hum; little wanderer, hie thee home!’","une fois, un rêve a tissé une ombre sur mon lit gardé par un ange, qu’un emmet s’est perdu en chemin là où je gisais sur l’herbe. troublée, sauvage, et désespérée, sombre, aveugle, usé par le voyage, sur bien des embrouilles, le coeur brisé, je l’ai entendue dire : « oh mes enfants ! pleurent-ils, entendent-ils leur père soupirer ? maintenant, ils regardent à l’étranger pour voir, maintenant, revenez et pleurez pour moi. prenant pitié, j’ai versé une larme : mais j’ai vu un ver luisant à proximité, qui me répondit : « quel est ce pleurnichard appelle le veilleur de la nuit ? « je suis prêt à éclairer le sol, pendant que le scarabée fait sa ronde : suivez maintenant le bourdonnement du scarabée ; petit vagabond, rentre à la maison !",en_XX,fr_XX,-1
 "two roads diverged in a yellow wood, and sorry i could not travel both and be one traveler, long i stood and looked down one as far as i could to where it bent in the undergrowth; then took the other, as just as fair, and having perhaps the better claim, because it was grassy and wanted wear; though as for that the passing there had worn them really about the same, and both that morning equally lay in leaves no step had trodden black. oh, i kept the first for another day! yet knowing how way leads on to way, i doubted if i should ever come back. i shall be telling this with a sigh somewhere ages and ages hence: two roads diverged in a wood, and i— i took the one less traveled by","deux routes divergeaient dans un bois jaune, et désolé de ne pas pouvoir voyager sur les deux et être un seul voyageur, je suis resté longtemps et j’ai regardé l’une d’elles aussi loin que je pouvais jusqu’à ce qu’elle se courbe dans le sous-bois ; puis j’ai pris l’autre, qui était tout aussi juste, et ayant peut-être les meilleures prétentions, parce qu’elle était herbeuse et qu’elle n’avait pas besoin d’être usée ; bien que pour cela le passage là-bas les avait usées à peu près de la même façon, et les deux, ce matin-là, reposaient également dans des feuilles qu’aucun pas n’avait foulées. oh, j’ai gardé la première pour un autre jour ! mais sachant comment le chemin mène au chemin, je me demandais si je reviendrais un jour. je raconterai cela avec un soupir quelque part dans des siècles et des siècles : deux routes divergent dans un bois, et je… j’ai pris celui qui était le moins fréquenté",en_XX,fr_XX,-1
-"do not go gentle into that good night, old age should burn and rave at close of day; rage, rage against the dying of the light. though wise men at their end know dark is right, because their words had forked no lightning they do not go gentle into that good night. good men, the last wave by, crying how bright their frail deeds might have danced in a green bay, rage, rage against the dying of the light. wild men who caught and sang the sun in flight, and learn, too late, they grieved it on its way, do not go gentle into that good night. grave men, near death, who see with blinding sight blind eyes could blaze like meteors and be gay, rage, rage against the dying of the light. and you, my father, there on the sad height, curse, bless, me now with your fierce tears, i pray. do not go gentle into that good night. rage, rage against the dying of the light.","ne va pas doucement dans cette bonne nuit, la vieillesse devrait brûler et délirer à la fin du jour ; rage, rage contre la mort de la lumière. bien que les hommes sages, à la fin de leur vie, sachent que le noir est juste, parce que leurs mots n’ont pas bifurqué, ils n’ont pas été éclairés. ne vont pas doucement dans cette bonne nuit. hommes bons, la dernière vague passe, pleurant combien brillant leurs frêles actions auraient pu danser dans une baie verte, rage, rage contre la mort de la lumière. des hommes sauvages qui ont attrapé et chanté le soleil en vol, et apprennent, trop tard, qu’ils l’ont pleuré sur son chemin, ne vont pas doucement dans cette bonne nuit. les hommes graves, proches de la mort, qui voient avec une vue aveuglante. des yeux aveugles pourraient briller comme des météores et être gais, rage, rage contre la mort de la lumière. et toi, mon père, là sur cette triste hauteur, maudissez, bénissez-moi maintenant avec vos larmes féroces, je vous en prie. ne va pas doucement dans cette bonne nuit. rage, rage contre la mort de la lumière.",en_XX,fr_XX,-1
-"a nasty surprise in a sandwich, a drawing-pin caught in your sock, the limpest of shakes from a hand which you’d thought would be firm as a rock, a serious mistake in a nightie, a grave disappointment all round is all that you’ll get from th’ almighty, is all that you’ll get underground. oh he said: ‘if you lay off the crumpet i’ll see you alright in the end. just hang on until the last trumpet. have faith in me, chum – i’m your friend.’ but if you remind him, he’ll tell you: ‘i’m sorry, i must have been pissed – though your name rings a sort of a bell. you should have guessed that i do not exist. ‘i didn’t exist at creation, i didn’t exist at the flood, and i won’t be around for salvation to sort out the sheep from the cud – ‘or whatever the phrase is. the fact is in soteriological terms i’m a crude existential malpractice and you are a diet of worms. ‘you’re a nasty surprise in a sandwich. you’re a drawing-pin caught in my sock. you’re the limpest of shakes from a hand which i’d have thought would be firm as a rock, ‘you’re a serious mistake in a nightie, you’re a grave disappointment all round- that’s all you are’, says th’ almighty, ‘and that’s all that you’ll be underground.’","une mauvaise surprise dans un sandwich, une punaise coincée dans votre chaussette, la plus molle des secousses d’une main qui que vous pensiez être ferme comme un roc, une grave erreur dans une nuisette, une grande déception tout autour c’est tout ce que vous obtiendrez du tout-puissant, c’est tout ce que vous obtiendrez sous terre. oh, il a dit : « si tu arrêtes les crumpets. je te verrai bien à la fin. tiens bon jusqu’à la dernière trompette. « aie confiance en moi, mon pote – je suis ton ami. mais si tu le lui rappelles, il te dira : « je suis désolé, j’ai dû m’énerver – bien que votre nom me dise quelque chose. vous vous auriez dû deviner que je n’existe pas. je n’existais pas à la création, je n’existais pas au déluge, et je ne serai pas là pour le salut. pour séparer les moutons des bouses – « ou quelle que soit la phrase. le fait est que en termes sotériologiques je suis une grossière erreur existentielle. et vous êtes un régime de vers. tu es une mauvaise surprise dans un sandwich. tu es une punaise prise dans ma chaussette. tu es la plus molle des poignées de main d’une main que que j’aurais cru ferme comme un roc, « vous êtes une grave erreur dans une nuisette, tu es une grande déception tout court… c’est tout ce que vous êtes », dit le tout-puissant, « et c’est tout ce que tu seras sous terre.",en_XX,fr_XX,-1
+"do not go gentle into that good night, old age should burn and rave at close of day; rage, rage against the dying of the light. though wise men at their end know dark is right, because their words had forked no lightning they do not go gentle into that good night. good men, the last wave by, crying how bright their frail deeds might have danced in a green bay, rage, rage against the dying of the light. wild men who caught and sang the sun in flight, and learn, too late, they grieved it on its way, do not go gentle into that good night. grave men, near death, who see with blinding sight blind eyes could blaze like meteors and be gay, rage, rage against the dying of the light. and you, my father, there on the sad height, curse, bless, me now with your fierce tears, i pray. do not go gentle into that good night. rage, rage against the dying of the light.","ne va pas doucement dans cette bonne nuit, la vieillesse devrait brûler et délirer à la fin du jour ; rage, rage contre la mort de la lumière. bien que les hommes sages, à la fin de leur vie, sachent que le noir est juste, parce que leurs mots n’ont pas bifurqué, ils n’ont pas été éclairés. ne vont pas doucement dans cette bonne nuit. hommes bons, la dernière vague passe, pleurant combien brillant leurs frêles actions auraient pu danser dans une baie verte, rage, rage contre la mort de la lumière. des hommes sauvages qui ont attrapé et chanté le soleil en vol, et apprennent, trop tard, qu’ils l’ont pleuré sur son chemin, ne vont pas doucement dans cette bonne nuit. les hommes graves, proches de la mort, qui voient avec une vue aveuglante. des yeux aveugles pourraient briller comme des météores et être gais, rage, rage contre la mort de la lumière. et toi, mon père, là sur cette triste hauteur, maudissez, bénissez-moi maintenant avec vos larmes féroces, je vous en prie. ne va pas doucement dans cette bonne nuit. rage, rage contre la mort de la lumière.",en_XX,fr_XX,0
+"a nasty surprise in a sandwich, a drawing-pin caught in your sock, the limpest of shakes from a hand which you’d thought would be firm as a rock, a serious mistake in a nightie, a grave disappointment all round is all that you’ll get from th’ almighty, is all that you’ll get underground. oh he said: ‘if you lay off the crumpet i’ll see you alright in the end. just hang on until the last trumpet. have faith in me, chum – i’m your friend.’ but if you remind him, he’ll tell you: ‘i’m sorry, i must have been pissed – though your name rings a sort of a bell. you should have guessed that i do not exist. ‘i didn’t exist at creation, i didn’t exist at the flood, and i won’t be around for salvation to sort out the sheep from the cud – ‘or whatever the phrase is. the fact is in soteriological terms i’m a crude existential malpractice and you are a diet of worms. ‘you’re a nasty surprise in a sandwich. you’re a drawing-pin caught in my sock. you’re the limpest of shakes from a hand which i’d have thought would be firm as a rock, ‘you’re a serious mistake in a nightie, you’re a grave disappointment all round- that’s all you are’, says th’ almighty, ‘and that’s all that you’ll be underground.’","une mauvaise surprise dans un sandwich, une punaise coincée dans votre chaussette, la plus molle des secousses d’une main qui que vous pensiez être ferme comme un roc, une grave erreur dans une nuisette, une grande déception tout autour c’est tout ce que vous obtiendrez du tout-puissant, c’est tout ce que vous obtiendrez sous terre. oh, il a dit : « si tu arrêtes les crumpets. je te verrai bien à la fin. tiens bon jusqu’à la dernière trompette. « aie confiance en moi, mon pote – je suis ton ami. mais si tu le lui rappelles, il te dira : « je suis désolé, j’ai dû m’énerver – bien que votre nom me dise quelque chose. vous vous auriez dû deviner que je n’existe pas. je n’existais pas à la création, je n’existais pas au déluge, et je ne serai pas là pour le salut. pour séparer les moutons des bouses – « ou quelle que soit la phrase. le fait est que en termes sotériologiques je suis une grossière erreur existentielle. et vous êtes un régime de vers. tu es une mauvaise surprise dans un sandwich. tu es une punaise prise dans ma chaussette. tu es la plus molle des poignées de main d’une main que que j’aurais cru ferme comme un roc, « vous êtes une grave erreur dans une nuisette, tu es une grande déception tout court… c’est tout ce que vous êtes », dit le tout-puissant, « et c’est tout ce que tu seras sous terre.",en_XX,fr_XX,1
 "dark house, by which once more i stand here in the long unlovely street, doors, where my heart was used to beat so quickly, waiting for a hand, a hand that can be clasp’d no more— behold me, for i cannot sleep, and like a guilty thing i creep at earliest morning to the door. he is not here; but far away the noise of life begins again, and ghastly thro’ the drizzling rain on the bald street breaks the blank day. o days and hours, your work is this, to hold me from my proper place, a little while from his embrace, for fuller gain of after bliss: that out of distance might ensue desire of nearness doubly sweet; and unto meeting when we meet, delight a hundredfold accrue, for every grain of sand that runs, and every span of shade that steals, and every kiss of toothèd wheels, and all the courses of the suns.","maison sombre, près de laquelle je me trouve une fois de plus. ici, dans la longue rue sans amour, les portes, où mon coeur avait l’habitude de battre si rapidement, attendant une main, une main qui ne peut plus être serrée- regardez-moi, car je ne peux pas dormir, et comme une chose coupable je me glisse au petit matin vers la porte. il n’est pas là, mais au loin le bruit de la vie recommence, et à travers la pluie qui tombe en gouttes sur la rue chauve se brise le jour vide. o jours et heures, votre travail est le suivant, me retenir de la place qui m’est due, un petit moment de son étreinte, pour un gain plus complet de la félicité après : pour que de la distance puisse naître le désir d’une proximité doublement douce ; et pour que, lorsque nous nous rencontrons, le plaisir s’accroît au centuple, pour chaque grain de sable qui coule, et pour chaque parcelle d’ombre qui s’envole, et chaque baiser des roues dentées, et toutes les courses des soleils.",en_XX,fr_XX,-1
-"no, no, go not to lethe, neither twist wolf’s-bane, tight-rooted, for its poisonous wine; nor suffer thy pale forehead to be kiss’d by nightshade, ruby grape of proserpine; make not your rosary of yew-berries, nor let the beetle, nor the death-moth be your mournful psyche, nor the downy owl a partner in your sorrow’s mysteries; for shade to shade will come too drowsily, and drown the wakeful anguish of the soul. but when the melancholy fit shall fall sudden from heaven like a weeping cloud, that fosters the droop-headed flowers all, and hides the green hill in an april shroud; then glut thy sorrow on a morning rose, or on the rainbow of the salt sand-wave, or on the wealth of globed peonies; or if thy mistress some rich anger shows, emprison her soft hand, and let her rave, and feed deep, deep upon her peerless eyes. she dwells with beauty – beauty that must die; and joy, whose hand is ever at his lips bidding adieu; and aching pleasure nigh, turning to poison while the bee-mouth sips: ay, in the very temple of delight veil’d melancholy has her sovran shrine, though seen of none save him whose strenuous tongue can burst joy’s grape against his palate fine; his soul shalt taste the sadness of her might, and be among her cloudy trophies hung.","non, non, n’allez pas au léthé, ne tordez pas non plus l’aconit, aux racines serrées, pour son vin empoisonné ; ne souffre pas que ton front pâle soit embrassé par la morelle noire, raisin rubis de proserpine ; ne fais pas ton chapelet de baies d’if, ne laisse pas le scarabée, ni la pyrale être ta psyché triste, ni la chouette duveteuse. un partenaire dans les mystères de votre douleur ; car de l’ombre à l’ombre viendront trop de somnolence, et noyer l’angoisse de l’âme. mais quand la crise de mélancolie tombe tombe soudainement du ciel comme un nuage larmoyant, qui nourrit toutes les fleurs à la tête tombante, et cache la colline verte dans un linceul d’avril ; alors nourris ta peine d’une rose du matin, ou sur l’arc-en-ciel de la vague de sable salé, ou sur la richesse des pivoines globuleuses ; ou si ta maîtresse montre quelque riche colère, emprisonne sa douce main, et laisse-la se déchaîner, et nourris-toi profondément, profondément de ses yeux incomparables. elle habite avec la beauté, la beauté qui doit mourir ; et la joie, dont la main est toujours à ses lèvres. qui lui dit adieu, et le plaisir douloureux qui l’attend, se transformant en poison pendant que la bouche de l’abeille sirote : oui, dans le temple même du plaisir la mélancolie voilée a son sanctuaire solitaire, bien qu’elle ne soit vue de personne, sauf de celui dont la langue énergique peut faire éclater le raisin de la joie sur son palais fin ; son âme goûtera la tristesse de sa puissance, et sera suspendue parmi ses trophées nuageux.",en_XX,fr_XX,0
-"perfection, of a kind, was what he was after, and the poetry he invented was easy to understand; he knew human folly like the back of his hand, and was greatly interested in armies and fleets; when he laughed, respectable senators burst with laughter, and when he cried the little children died in the streets.","la perfection, en quelque sorte, était ce qu’il recherchait, et la poésie qu’il a inventée était facile à comprendre ; il connaissait la folie humaine comme le fond de sa poche, et s’intéressait beaucoup aux armées et aux flottes ; quand il riait, les sénateurs respectables éclataient de rire, et quand il pleurait, les petits enfants mouraient dans les rues.",en_XX,fr_XX,-1
-living in the earth-deposits of our history today a backhoe divulged out of a crumbling flank of earth one bottle amber perfect a hundred-year-old cure for fever or melancholy a tonic for living on this earth in the winters of this climate. today i was reading about marie curie: she must have known she suffered from radiation sickness her body bombarded for years by the element she had purified it seems she denied to the end the source of the cataracts on her eyes the cracked and suppurating skin of her finger-ends till she could no longer hold a test-tube or a pencil she died a famous woman denying her wounds denying her wounds came from the same source as her power.,"vivre dans les dépôts de terre de notre histoire aujourd’hui, une pelleteuse a divulgué d’un flanc de terre croulant une bouteille d’ambre parfait un remède centenaire un remède contre la fièvre ou la mélancolie un tonique pour vivre sur cette terre pendant les hivers de ce climat. aujourd’hui, je lisais un article sur marie curie : elle devait savoir qu’elle souffrait de la maladie des rayons. son corps bombardé pendant des années par l’élément qu’elle avait purifié. il semble qu’elle ait nié jusqu’à la fin l’origine de la cataracte de ses yeux la peau craquelée et suppurante de l’extrémité de ses doigts jusqu’à ce qu’elle ne puisse plus tenir une éprouvette ou un crayon. elle est morte en femme célèbre en niant ses blessures niant que ses blessures venaient de la même source que son pouvoir.",en_XX,fr_XX,-1
-"dearest creature in creation studying english pronunciation, i will teach you in my verse sounds like corpse, corps, horse and worse. i will keep you, susy, busy, make your head with heat grow dizzy; tear in eye, your dress you’ll tear; queer, fair seer, hear my prayer. pray, console your loving poet, make my coat look new, dear, sew it! just compare heart, hear and heard, dies and diet, lord and word. sword and sward, retain and britain (mind the latter how it’s written). made has not the sound of bade, say—said, pay—paid, laid but plaid. now i surely will not plague you with such words as vague and ague, but be careful how you speak, say: gush, bush, steak, streak, break, bleak, previous, precious, fuchsia, via, recipe, pipe, studding-sail, choir; woven, oven, how and low, script, receipt, shoe, poem, toe. say, expecting fraud and trickery: daughter, laughter and terpsichore, branch, ranch, measles, topsails, aisles, missiles, similes, reviles. wholly, holly, signal, signing, same, examining, but mining, scholar, vicar, and cigar, solar, mica, war and far. from ‘desire’: desirable—admirable from ‘admire’, lumber, plumber, bier, but brier, topsham, brougham, renown, but known, knowledge, done, lone, gone, none, tone, one, anemone, balmoral, kitchen, lichen, laundry, laurel. gertrude, german, wind and wind, beau, kind, kindred, queue, mankind, tortoise, turquoise, chamois-leather, reading, reading, heathen, heather. this phonetic labyrinth gives moss, gross, brook, brooch, ninth, plinth. have you ever yet endeavoured to pronounce revered and severed, demon, lemon, ghoul, foul, soul, peter, petrol and patrol? billet does not end like ballet; bouquet, wallet, mallet, chalet. blood and ﬂood are not like food, nor is mould like should and would. banquet is not nearly parquet, which exactly rhymes with khaki. discount, viscount, load and broad, toward, to forward, to reward, ricocheted and crocheting, croquet? right! your pronunciation’s ok. rounded, wounded, grieve and sieve, friend and ﬁend, alive and live. is your r correct in higher? keats asserts it rhymes thalia. hugh, but hug, and hood, but hoot, buoyant, minute, but minute. say abscission with precision, now: position and transition; would it tally with my rhyme if i mentioned paradigm? twopence, threepence, tease are easy, but cease, crease, grease and greasy? cornice, nice, valise, revise, rabies, but lullabies. of such puzzling words as nauseous, rhyming well with cautious, tortious, you’ll envelop lists, i hope, in a linen envelope. would you like some more? you’ll have it! aﬃdavit, david, davit. to abjure, to perjure. sheik does not sound like czech but ache. liberty, library, heave and heaven, rachel, loch, moustache, eleven. we say hallowed, but allowed, people, leopard, towed but vowed. mark the diﬀerence, moreover, between mover, plover, dover. leeches, breeches, wise, precise, chalice, but police and lice, camel, constable, unstable, principle, disciple, label. petal, penal, and canal, wait, surmise, plait, promise, pal, suit, suite, ruin. circuit, conduit rhyme with ‘shirk it’ and ‘beyond it’, but it is not hard to tell why it’s pall, mall, but pall mall. muscle, muscular, gaol, iron, timber, climber, bullion, lion, worm and storm, chaise, chaos, chair, senator, spectator, mayor, ivy, privy, famous; clamour has the a of drachm and hammer. pussy, hussy and possess, desert, but desert, address. golf, wolf, countenance, lieutenants hoist in lieu of ﬂags left pennants. courier, courtier, tomb, bomb, comb, cow, but cowper, some and home. ‘solder, soldier! blood is thicker’, quoth he, ‘than liqueur or liquor’, making, it is sad but true, in bravado, much ado. stranger does not rhyme with anger, neither does devour with clangour. pilot, pivot, gaunt, but aunt, font, front, wont, want, grand and grant. arsenic, speciﬁc, scenic, relic, rhetoric, hygienic. gooseberry, goose, and close, but close, paradise, rise, rose, and dose. say inveigh, neigh, but inveigle, make the latter rhyme with eagle. mind! meandering but mean, valentine and magazine. and i bet you, dear, a penny, you say mani-(fold) like many, which is wrong. say rapier, pier, tier (one who ties), but tier. arch, archangel; pray, does erring rhyme with herring or with stirring? prison, bison, treasure trove, treason, hover, cover, cove, perseverance, severance. ribald rhymes (but piebald doesn’t) with nibbled. phaeton, paean, gnat, ghat, gnaw, lien, psychic, shone, bone, pshaw. don’t be down, my own, but rough it, and distinguish buﬀet, buﬀet; brood, stood, roof, rook, school, wool, boon, worcester, boleyn, to impugn. say in sounds correct and sterling hearse, hear, hearken, year and yearling. evil, devil, mezzotint, mind the z! (a gentle hint.) now you need not pay attention to such sounds as i don’t mention, sounds like pores, pause, pours and paws, rhyming with the pronoun yours; nor are proper names included, though i often heard, as you did, funny rhymes to unicorn, yes, you know them, vaughan and strachan. no, my maiden, coy and comely, i don’t want to speak of cholmondeley. no. yet froude compared with proud is no better than mcleod. but mind trivial and vial, tripod, menial, denial, troll and trolley, realm and ream, schedule, mischief, schism, and scheme. argil, gill, argyll, gill. surely may be made to rhyme with raleigh, but you’re not supposed to say piquet rhymes with sobriquet. had this invalid invalid worthless documents? how pallid, how uncouth he, couchant, looked, when for portsmouth i had booked! zeus, thebes, thales, aphrodite, paramour, enamoured, ﬂighty, episodes, antipodes, acquiesce, and obsequies. please don’t monkey with the geyser, don’t peel ’taters with my razor, rather say in accents pure: nature, stature and mature. pious, impious, limb, climb, glumly, worsted, worsted, crumbly, dumbly, conquer, conquest, vase, phase, fan, wan, sedan and artisan. the th will surely trouble you more than r, ch or w. say then these phonetic gems: thomas, thyme, theresa, thames. thompson, chatham, waltham, streatham, there are more but i forget ’em— wait! i’ve got it: anthony, lighten your anxiety. the archaic word albeit does not rhyme with eight—you see it; with and forthwith, one has voice, one has not, you make your choice. shoes, goes, does. now ﬁrst say: ﬁnger; then say: singer, ginger, linger. real, zeal, mauve, gauze and gauge, marriage, foliage, mirage, age, hero, heron, query, very, parry, tarry, fury, bury, dost, lost, post, and doth, cloth, loth, job, job, blossom, bosom, oath. faugh, oppugnant, keen oppugners, bowing, bowing, banjo-tuners holm you know, but noes, canoes, puisne, truism, use, to use? though the diﬀerence seems little, we say actual, but victual, seat, sweat, chaste, caste, leigh, eight, height, put, nut, granite, and unite. reefer does not rhyme with deafer, feoﬀer does, and zephyr, heifer. dull, bull, geoﬀrey, george, ate, late, hint, pint, senate, but sedate. gaelic, arabic, paciﬁc, science, conscience, scientiﬁc; tour, but our, dour, succour, four, gas, alas, and arkansas. say manoeuvre, yacht and vomit, next omit, which diﬀers from it bona ﬁde, alibi gyrate, dowry and awry. sea, idea, guinea, area, psalm, maria, but malaria. youth, south, southern, cleanse and clean, doctrine, turpentine, marine. compare alien with italian, dandelion with battalion, rally with ally; yea, ye, eye, i, ay, aye, whey, key, quay! say aver, but ever, fever, neither, leisure, skein, receiver. never guess—it is not safe, we say calves, valves, half, but ralf. starry, granary, canary, crevice, but device, and eyrie, face, but preface, then grimace, phlegm, phlegmatic, ass, glass, bass. bass, large, target, gin, give, verging, ought, oust, joust, and scour, but scourging; ear, but earn; and ere and tear do not rhyme with here but heir. mind the o of oﬀ and often which may be pronounced as orphan, with the sound of saw and sauce; also soft, lost, cloth and cross. pudding, puddle, putting. putting? yes: at golf it rhymes with shutting. respite, spite, consent, resent. liable, but parliament. seven is right, but so is even, hyphen, roughen, nephew, stephen, monkey, donkey, clerk and jerk, asp, grasp, wasp, demesne, cork, work. a of valour, vapid vapour, s of news (compare newspaper), g of gibbet, gibbon, gist, i of antichrist and grist, diﬀer like diverse and divers, rivers, strivers, shivers, ﬁvers. once, but nonce, toll, doll, but roll, polish, polish, poll and poll. pronunciation—think of psyche!— is a paling, stout and spiky. won’t it make you lose your wits writing groats and saying ‘grits’? it’s a dark abyss or tunnel strewn with stones like rowlock, gunwale, islington, and isle of wight, housewife, verdict and indict. don’t you think so, reader, rather, saying lather, bather, father? finally, which rhymes with enough, though, through, bough, cough, hough, sough, tough? hiccough has the sound of sup. my advice is: give it up!","la plus chère créature de la création étudier la prononciation anglaise, je t’apprendrai dans mes vers les sons comme cadavre, corps, cheval et pire. je vais te tenir occupée, susy, faire que ta tête soit étourdie par la chaleur ; une déchirure à l’oeil, votre robe se déchirera ; queer, belle voyante, écoute ma prière. priez, consolez votre cher poète, rends mon manteau neuf, chéri, couds-le ! comparez les cœurs, écoutez et entendez, la mort et le régime, le seigneur et la parole. l’épée et le gazon, la retenue et l’angleterre (attention à la façon dont ce dernier s’écrit). made n’a pas le son de bade, say-said, pay-paid, laid but plaid. maintenant, je ne vais sûrement pas vous tourmenter avec des mots comme vague et ague, mais faites attention à votre façon de parler, dites : jaillir, buisson, steak, strie, briser, morne, précédent, précieux, fuchsia, via, recette, pipe, clou de girofle, chœur ; tissé, four, comment et bas, script, reçu, chaussure, poème, orteil. dis, s’attendre à la fraude et à la ruse : fille, rire et terpsichore, branche, ranch, rougeole, topsails, allées, missiles, similes, reviles. wholly, holly, signal, signature, idem, examiner, mais miner, scholar, vicar, et cigar, solaire, mica, guerre et loin. de « désirer » : souhaitable-admirable de « admirer », lumber, plumber, bier, mais brier, topsham, brougham, renommée, mais connu, connaissance, fait, solitaire, parti, aucun, ton, un, anémone, balmoral, cuisine, lichen, linge, laurier. gertrude, allemand, vent et vent, beau, kind, kindred, queue, mankind, tortue, turquoise, peau de chamois, reading, reading, païen, bruyère. ce labyrinthe phonétique donne mousse, brute, ruisseau, broche, neuvième, plinthe. vous êtes-vous déjà efforcé de prononcer revered et severed, demon, lemon, ghoul, foul, soul, pierre, essence et patrouille ? billet ne se termine pas comme le ballet ; bouquet, porte-monnaie, maillet, chalet. blood et ﬂood ne sont pas comme la nourriture, la moisissure n’est pas non plus comme « should » et « would ». banquet n’est pas près de parquet, qui rime exactement avec kaki. escompte, vicomte, charge et large, toward, to forward, to reward, ricochet et crochet, croquet ? exact ! ta prononciation est bonne. arrondi, blessé, chagrin et tamis, ami et ﬁend, vivant et vivre. votre r est-il correct en plus haut ? keats affirme qu’il rime avec thalia. hugh, mais câlin, et hotte, mais houlette, buoyant, minute, mais minute. dites abscission avec précision, maintenant : position et transition ; cela correspondrait-il à ma rime si je mentionnais le paradigme ? twopence, threepence, tease sont faciles, mais cesser, froisser, graisser et graisser ? corniche, gentil, valise, réviser, rage, mais berceuse. de mots aussi déroutants que nauséeux, rimant bien avec prudent, tordu, vous envelopperez les listes, j’espère, dans une enveloppe en lin. vous en voulez encore ? vous en aurez ! aﬃdavit, david, davit. abjurer, parjurer. sheik ne ressemble pas à du tchèque mais à du mal. liberty, library, heave et heaven, rachel, loch, moustache, onze. on dit sanctifié, mais autorisé, peuple, léopard, remorqué mais juré. marquez la diﬀérence, en outre, entre mover, plover, dover. sangsues, culottes, sages, précises, calice, mais police et poux, chameau, gendarme, instable, principe, disciple, étiquette. pétale, pénal, et canal, attendre, supposer, plaire, promettre, pal, suit, suite, ruine. circuit, conduit rime avec « shirk it » et « beyond it », mais il n’est pas difficile de dire pourquoi c’est pall, mall, mais pall mall. muscle, musculaire, geôle, fer, bois, grimpeur, lingot, lion, ver et tempête, chaise, chaos, fauteuil, sénateur, spectateur, maire, lierre, privé, célèbre, clameur. a le a de drachme et de marteau. chatte, chatte et posséder, désert, mais désert, adresse. golf, loup, countenance, lieutenants. hissent à la place des ﬂags laissés des fanions. courier, courtier, tombe, bombe, peigne, vache, mais cowper, certains et la maison. « soudure, soldat ! le sang est plus épais’, quoth il, « que la liqueur ou l’alcool », faire, c’est triste mais vrai, par bravade, beaucoup de bruit. étranger ne rime pas avec colère, pas plus que dévorer ne rime avec fracas. pilote, pivot, décharné, mais tante, font, front, wont, want, grand et grant. arsenic, spéciﬁc, scénique, relique, rhétorique, hygiénique. groseille, oie, et proche, mais proche, paradis, rise, rose, et dose. dites inveigh, neigh, mais inveigle, faites rimer ce dernier avec aigle. esprit ! méandreux mais méchant, valentine et magazine. et je vous parie, ma chère, un penny, que vous dites mani-(pli) comme beaucoup, ce qui est faux. dis rapière, pier, tier (celui qui attache), mais tier. arch, archange ; priez, est-ce que errant rime-t-il avec hareng ou avec remuer ? prison, bison, trésor, trahison, planer, couvrir, anse, persévérance, séparation. ribald rime (mais pas piebald) avec grignoté. phaeton, paean, gnat, ghat, gnaw, lien, psychic, shone, bone, pshaw. ne soyez pas abattus, les miens, mais rudes, et distingue le buﬀet, buﬀet ; brood, stood, roof, rook, school, wool, boon, worcester, boleyn, imputer. dites en sons corrects et sterling hearse, hear, hearken, year et yearling. evil, devil, mezzotint, attention au z ! (une légère allusion.) maintenant, vous n’avez pas besoin de prêter attention aux sons que je ne mentionne pas, des sons comme pores, pause, pours et paws, qui riment avec le pronom « vôtre » ; les noms propres ne sont pas non plus inclus, bien que j’ai souvent entendu, comme vous, des rimes amusantes sur la licorne, oui, vous les connaissez, vaughan et strachan. non, ma jeune fille, timide et avenante, je ne veux pas parler de cholmondeley. non. pourtant froude, comparé à l’orgueilleux n’est pas meilleur que mcleod. mais esprit trivial et vial, tripod, menial, denial, troll et chariot, royaume et rame, programme, malice, schisme, et projet. argil, gill, argyll, gill. sûrement peut être fait pour rimer avec raleigh, mais vous n’êtes pas censé dire piquet rime avec sobriquet. est-ce que ces invalides des documents sans valeur ? comme il est pâle, comme il avait l’air grossier, couchant, quand j’avais réservé pour portsmouth ! zeus, thèbes, thalès, aphrodite, paramour, énamouré, puissant, épisodes, antipodes, acquiescement, et obsèques. s’il vous plaît, ne jouez pas avec le geyser, n’épluche pas les patates avec mon rasoir, dis plutôt en accents purs : nature, stature et maturité. pieux, impie, membre, grimpe, morne, worsted, worsted, crumbly, dumbly, conquérir, conquérir, vase, phase, éventail, wan, sedan et artisan. le th vous troublera sûrement plus que r, ch ou w. dites alors ces joyaux phonétiques : thomas, thym, theresa, thames. thompson, chatham, waltham, streatham, il y en a plus mais je les ai oubliés- attends ! je l’ai : anthony, allégez votre anxiété. le mot archaïque quoique ne rime pas avec huit, vous le voyez ; avec et sans délai, on a la voix, l’autre non, vous faites votre choix. chaussures, va, fait. maintenant, ﬁrst dites : ﬁnger ; puis dites : chanteur, gingembre, s’attarder. réel, zèle, mauve, gaze et jauge, mariage, feuillage, mirage, âge, héro, héron, interrogation, très, parry, tarry, fury, bury, dost, lost, post, and doth, cloth, loth, job, job, fleur, sein, serment. faugh, oppugnant, oppugners keen, bowing, bowing, banjo-tuners. holm, vous savez, mais noes, canoes, puisne, truisme, utiliser, utiliser ? bien que la diﬀérence semble peu, nous disons actuel, mais victual, seat, sweat, chaste, caste, leigh, eight, height, put, nut, granite, et unite. reefer ne rime pas avec deafer, feoﬀer oui, et zephyr, génisse. dull, bull, geoﬀrey, george, ate, late, hint, pint, senate, mais sedate. gaélique, arabe, paciﬁc, science, conscience, scientiﬁc ; tour, mais notre, dour, succour, quatre, gaz, hélas, et arkansas. dites manœuvre, yacht et vomi, ensuite, omettez, ce qui en diﬀers. bona ﬁde, alibi gyrate, dowry et awry. mer, idée, guinée, zone, psaume, maria, mais paludisme. jeunesse, sud, méridional, purifier et nettoyer, doctrine, térébenthine, marine. comparer alien avec italien, pissenlit avec bataillon, rallye avec allié ; oui, oui, œil, je, aïe, aïe, petit-lait, clé, quai ! dites aver, mais toujours, fièvre, ni, loisir, écheveau, récepteur. ne jamais deviner, ce n’est pas sûr, nous disons veaux, valves, moitié, mais ralf. étoile, grenier, canari, crevasse, mais dispositif, et eyrie, visage, mais préface, puis grimace, flegme, flegmatique, cul, verre, basse. bass, large, cible, gin, donner, verging, ought, oust, joust, and scour, but scourging ; ear, mais earn ; et ere et tear ne rime pas avec here mais heir. attention au o de oﬀ et de souvent qui peuvent être prononcés comme orphelin, avec le son de saw et sauce ; ainsi que soft, lost, cloth et cross. pudding, puddle, putting. putting ? oui : au golf, ça rime avec shutting. répit, dépit, consentement, ressentiment. responsable, mais parlement. sept est juste, mais pair aussi, trait d’union, rugueux, neveu, stephen, singe, âne, clerc et abruti, asp, grasp, wasp, demesne, cork, work. a de vaillance, de vapeur, s de nouvelles (comparer journal), g de gibbet, gibbon, gist, i de l’antéchrist et du grain, diﬀer comme divers et variés, de fleuves, de grévistes, de frissons, de ﬁvers. une fois, mais nonce, toll, doll, mais roll, polonais, polonais, poll et poll. prononciation – pensez à psyché!- est un paling, robuste et hérissé. ne vous fera-t-elle pas perdre la tête d’écrire groats et de dire ‘grits’ ? c’est un abîme ou un tunnel sombre parsemé de pierres comme la ronce, le plat-bord, islington, et l’île de wight, housewife, verdict et inculpation. ne le pensez-vous pas, lecteur, plutôt, en disant mousse, baigneur, père ? enfin, ce qui rime avec assez, though, through, bough, cough, hough, sough, tough ? hiccough a le son de sup. mon conseil est le suivant : lâchez l’affaire !",en_XX,fr_XX,-1
+"no, no, go not to lethe, neither twist wolf’s-bane, tight-rooted, for its poisonous wine; nor suffer thy pale forehead to be kiss’d by nightshade, ruby grape of proserpine; make not your rosary of yew-berries, nor let the beetle, nor the death-moth be your mournful psyche, nor the downy owl a partner in your sorrow’s mysteries; for shade to shade will come too drowsily, and drown the wakeful anguish of the soul. but when the melancholy fit shall fall sudden from heaven like a weeping cloud, that fosters the droop-headed flowers all, and hides the green hill in an april shroud; then glut thy sorrow on a morning rose, or on the rainbow of the salt sand-wave, or on the wealth of globed peonies; or if thy mistress some rich anger shows, emprison her soft hand, and let her rave, and feed deep, deep upon her peerless eyes. she dwells with beauty – beauty that must die; and joy, whose hand is ever at his lips bidding adieu; and aching pleasure nigh, turning to poison while the bee-mouth sips: ay, in the very temple of delight veil’d melancholy has her sovran shrine, though seen of none save him whose strenuous tongue can burst joy’s grape against his palate fine; his soul shalt taste the sadness of her might, and be among her cloudy trophies hung.","non, non, n’allez pas au léthé, ne tordez pas non plus l’aconit, aux racines serrées, pour son vin empoisonné ; ne souffre pas que ton front pâle soit embrassé par la morelle noire, raisin rubis de proserpine ; ne fais pas ton chapelet de baies d’if, ne laisse pas le scarabée, ni la pyrale être ta psyché triste, ni la chouette duveteuse. un partenaire dans les mystères de votre douleur ; car de l’ombre à l’ombre viendront trop de somnolence, et noyer l’angoisse de l’âme. mais quand la crise de mélancolie tombe tombe soudainement du ciel comme un nuage larmoyant, qui nourrit toutes les fleurs à la tête tombante, et cache la colline verte dans un linceul d’avril ; alors nourris ta peine d’une rose du matin, ou sur l’arc-en-ciel de la vague de sable salé, ou sur la richesse des pivoines globuleuses ; ou si ta maîtresse montre quelque riche colère, emprisonne sa douce main, et laisse-la se déchaîner, et nourris-toi profondément, profondément de ses yeux incomparables. elle habite avec la beauté, la beauté qui doit mourir ; et la joie, dont la main est toujours à ses lèvres. qui lui dit adieu, et le plaisir douloureux qui l’attend, se transformant en poison pendant que la bouche de l’abeille sirote : oui, dans le temple même du plaisir la mélancolie voilée a son sanctuaire solitaire, bien qu’elle ne soit vue de personne, sauf de celui dont la langue énergique peut faire éclater le raisin de la joie sur son palais fin ; son âme goûtera la tristesse de sa puissance, et sera suspendue parmi ses trophées nuageux.",en_XX,fr_XX,-1
+"perfection, of a kind, was what he was after, and the poetry he invented was easy to understand; he knew human folly like the back of his hand, and was greatly interested in armies and fleets; when he laughed, respectable senators burst with laughter, and when he cried the little children died in the streets.","la perfection, en quelque sorte, était ce qu’il recherchait, et la poésie qu’il a inventée était facile à comprendre ; il connaissait la folie humaine comme le fond de sa poche, et s’intéressait beaucoup aux armées et aux flottes ; quand il riait, les sénateurs respectables éclataient de rire, et quand il pleurait, les petits enfants mouraient dans les rues.",en_XX,fr_XX,1
+living in the earth-deposits of our history today a backhoe divulged out of a crumbling flank of earth one bottle amber perfect a hundred-year-old cure for fever or melancholy a tonic for living on this earth in the winters of this climate. today i was reading about marie curie: she must have known she suffered from radiation sickness her body bombarded for years by the element she had purified it seems she denied to the end the source of the cataracts on her eyes the cracked and suppurating skin of her finger-ends till she could no longer hold a test-tube or a pencil she died a famous woman denying her wounds denying her wounds came from the same source as her power.,"vivre dans les dépôts de terre de notre histoire aujourd’hui, une pelleteuse a divulgué d’un flanc de terre croulant une bouteille d’ambre parfait un remède centenaire un remède contre la fièvre ou la mélancolie un tonique pour vivre sur cette terre pendant les hivers de ce climat. aujourd’hui, je lisais un article sur marie curie : elle devait savoir qu’elle souffrait de la maladie des rayons. son corps bombardé pendant des années par l’élément qu’elle avait purifié. il semble qu’elle ait nié jusqu’à la fin l’origine de la cataracte de ses yeux la peau craquelée et suppurante de l’extrémité de ses doigts jusqu’à ce qu’elle ne puisse plus tenir une éprouvette ou un crayon. elle est morte en femme célèbre en niant ses blessures niant que ses blessures venaient de la même source que son pouvoir.",en_XX,fr_XX,0
+"dearest creature in creation studying english pronunciation, i will teach you in my verse sounds like corpse, corps, horse and worse. i will keep you, susy, busy, make your head with heat grow dizzy; tear in eye, your dress you’ll tear; queer, fair seer, hear my prayer. pray, console your loving poet, make my coat look new, dear, sew it! just compare heart, hear and heard, dies and diet, lord and word. sword and sward, retain and britain (mind the latter how it’s written). made has not the sound of bade, say—said, pay—paid, laid but plaid. now i surely will not plague you with such words as vague and ague, but be careful how you speak, say: gush, bush, steak, streak, break, bleak, previous, precious, fuchsia, via, recipe, pipe, studding-sail, choir; woven, oven, how and low, script, receipt, shoe, poem, toe. say, expecting fraud and trickery: daughter, laughter and terpsichore, branch, ranch, measles, topsails, aisles, missiles, similes, reviles. wholly, holly, signal, signing, same, examining, but mining, scholar, vicar, and cigar, solar, mica, war and far. from ‘desire’: desirable—admirable from ‘admire’, lumber, plumber, bier, but brier, topsham, brougham, renown, but known, knowledge, done, lone, gone, none, tone, one, anemone, balmoral, kitchen, lichen, laundry, laurel. gertrude, german, wind and wind, beau, kind, kindred, queue, mankind, tortoise, turquoise, chamois-leather, reading, reading, heathen, heather. this phonetic labyrinth gives moss, gross, brook, brooch, ninth, plinth. have you ever yet endeavoured to pronounce revered and severed, demon, lemon, ghoul, foul, soul, peter, petrol and patrol? billet does not end like ballet; bouquet, wallet, mallet, chalet. blood and ﬂood are not like food, nor is mould like should and would. banquet is not nearly parquet, which exactly rhymes with khaki. discount, viscount, load and broad, toward, to forward, to reward, ricocheted and crocheting, croquet? right! your pronunciation’s ok. rounded, wounded, grieve and sieve, friend and ﬁend, alive and live. is your r correct in higher? keats asserts it rhymes thalia. hugh, but hug, and hood, but hoot, buoyant, minute, but minute. say abscission with precision, now: position and transition; would it tally with my rhyme if i mentioned paradigm? twopence, threepence, tease are easy, but cease, crease, grease and greasy? cornice, nice, valise, revise, rabies, but lullabies. of such puzzling words as nauseous, rhyming well with cautious, tortious, you’ll envelop lists, i hope, in a linen envelope. would you like some more? you’ll have it! aﬃdavit, david, davit. to abjure, to perjure. sheik does not sound like czech but ache. liberty, library, heave and heaven, rachel, loch, moustache, eleven. we say hallowed, but allowed, people, leopard, towed but vowed. mark the diﬀerence, moreover, between mover, plover, dover. leeches, breeches, wise, precise, chalice, but police and lice, camel, constable, unstable, principle, disciple, label. petal, penal, and canal, wait, surmise, plait, promise, pal, suit, suite, ruin. circuit, conduit rhyme with ‘shirk it’ and ‘beyond it’, but it is not hard to tell why it’s pall, mall, but pall mall. muscle, muscular, gaol, iron, timber, climber, bullion, lion, worm and storm, chaise, chaos, chair, senator, spectator, mayor, ivy, privy, famous; clamour has the a of drachm and hammer. pussy, hussy and possess, desert, but desert, address. golf, wolf, countenance, lieutenants hoist in lieu of ﬂags left pennants. courier, courtier, tomb, bomb, comb, cow, but cowper, some and home. ‘solder, soldier! blood is thicker’, quoth he, ‘than liqueur or liquor’, making, it is sad but true, in bravado, much ado. stranger does not rhyme with anger, neither does devour with clangour. pilot, pivot, gaunt, but aunt, font, front, wont, want, grand and grant. arsenic, speciﬁc, scenic, relic, rhetoric, hygienic. gooseberry, goose, and close, but close, paradise, rise, rose, and dose. say inveigh, neigh, but inveigle, make the latter rhyme with eagle. mind! meandering but mean, valentine and magazine. and i bet you, dear, a penny, you say mani-(fold) like many, which is wrong. say rapier, pier, tier (one who ties), but tier. arch, archangel; pray, does erring rhyme with herring or with stirring? prison, bison, treasure trove, treason, hover, cover, cove, perseverance, severance. ribald rhymes (but piebald doesn’t) with nibbled. phaeton, paean, gnat, ghat, gnaw, lien, psychic, shone, bone, pshaw. don’t be down, my own, but rough it, and distinguish buﬀet, buﬀet; brood, stood, roof, rook, school, wool, boon, worcester, boleyn, to impugn. say in sounds correct and sterling hearse, hear, hearken, year and yearling. evil, devil, mezzotint, mind the z! (a gentle hint.) now you need not pay attention to such sounds as i don’t mention, sounds like pores, pause, pours and paws, rhyming with the pronoun yours; nor are proper names included, though i often heard, as you did, funny rhymes to unicorn, yes, you know them, vaughan and strachan. no, my maiden, coy and comely, i don’t want to speak of cholmondeley. no. yet froude compared with proud is no better than mcleod. but mind trivial and vial, tripod, menial, denial, troll and trolley, realm and ream, schedule, mischief, schism, and scheme. argil, gill, argyll, gill. surely may be made to rhyme with raleigh, but you’re not supposed to say piquet rhymes with sobriquet. had this invalid invalid worthless documents? how pallid, how uncouth he, couchant, looked, when for portsmouth i had booked! zeus, thebes, thales, aphrodite, paramour, enamoured, ﬂighty, episodes, antipodes, acquiesce, and obsequies. please don’t monkey with the geyser, don’t peel ’taters with my razor, rather say in accents pure: nature, stature and mature. pious, impious, limb, climb, glumly, worsted, worsted, crumbly, dumbly, conquer, conquest, vase, phase, fan, wan, sedan and artisan. the th will surely trouble you more than r, ch or w. say then these phonetic gems: thomas, thyme, theresa, thames. thompson, chatham, waltham, streatham, there are more but i forget ’em— wait! i’ve got it: anthony, lighten your anxiety. the archaic word albeit does not rhyme with eight—you see it; with and forthwith, one has voice, one has not, you make your choice. shoes, goes, does. now ﬁrst say: ﬁnger; then say: singer, ginger, linger. real, zeal, mauve, gauze and gauge, marriage, foliage, mirage, age, hero, heron, query, very, parry, tarry, fury, bury, dost, lost, post, and doth, cloth, loth, job, job, blossom, bosom, oath. faugh, oppugnant, keen oppugners, bowing, bowing, banjo-tuners holm you know, but noes, canoes, puisne, truism, use, to use? though the diﬀerence seems little, we say actual, but victual, seat, sweat, chaste, caste, leigh, eight, height, put, nut, granite, and unite. reefer does not rhyme with deafer, feoﬀer does, and zephyr, heifer. dull, bull, geoﬀrey, george, ate, late, hint, pint, senate, but sedate. gaelic, arabic, paciﬁc, science, conscience, scientiﬁc; tour, but our, dour, succour, four, gas, alas, and arkansas. say manoeuvre, yacht and vomit, next omit, which diﬀers from it bona ﬁde, alibi gyrate, dowry and awry. sea, idea, guinea, area, psalm, maria, but malaria. youth, south, southern, cleanse and clean, doctrine, turpentine, marine. compare alien with italian, dandelion with battalion, rally with ally; yea, ye, eye, i, ay, aye, whey, key, quay! say aver, but ever, fever, neither, leisure, skein, receiver. never guess—it is not safe, we say calves, valves, half, but ralf. starry, granary, canary, crevice, but device, and eyrie, face, but preface, then grimace, phlegm, phlegmatic, ass, glass, bass. bass, large, target, gin, give, verging, ought, oust, joust, and scour, but scourging; ear, but earn; and ere and tear do not rhyme with here but heir. mind the o of oﬀ and often which may be pronounced as orphan, with the sound of saw and sauce; also soft, lost, cloth and cross. pudding, puddle, putting. putting? yes: at golf it rhymes with shutting. respite, spite, consent, resent. liable, but parliament. seven is right, but so is even, hyphen, roughen, nephew, stephen, monkey, donkey, clerk and jerk, asp, grasp, wasp, demesne, cork, work. a of valour, vapid vapour, s of news (compare newspaper), g of gibbet, gibbon, gist, i of antichrist and grist, diﬀer like diverse and divers, rivers, strivers, shivers, ﬁvers. once, but nonce, toll, doll, but roll, polish, polish, poll and poll. pronunciation—think of psyche!— is a paling, stout and spiky. won’t it make you lose your wits writing groats and saying ‘grits’? it’s a dark abyss or tunnel strewn with stones like rowlock, gunwale, islington, and isle of wight, housewife, verdict and indict. don’t you think so, reader, rather, saying lather, bather, father? finally, which rhymes with enough, though, through, bough, cough, hough, sough, tough? hiccough has the sound of sup. my advice is: give it up!","la plus chère créature de la création étudier la prononciation anglaise, je t’apprendrai dans mes vers les sons comme cadavre, corps, cheval et pire. je vais te tenir occupée, susy, faire que ta tête soit étourdie par la chaleur ; une déchirure à l’oeil, votre robe se déchirera ; queer, belle voyante, écoute ma prière. priez, consolez votre cher poète, rends mon manteau neuf, chéri, couds-le ! comparez les cœurs, écoutez et entendez, la mort et le régime, le seigneur et la parole. l’épée et le gazon, la retenue et l’angleterre (attention à la façon dont ce dernier s’écrit). made n’a pas le son de bade, say-said, pay-paid, laid but plaid. maintenant, je ne vais sûrement pas vous tourmenter avec des mots comme vague et ague, mais faites attention à votre façon de parler, dites : jaillir, buisson, steak, strie, briser, morne, précédent, précieux, fuchsia, via, recette, pipe, clou de girofle, chœur ; tissé, four, comment et bas, script, reçu, chaussure, poème, orteil. dis, s’attendre à la fraude et à la ruse : fille, rire et terpsichore, branche, ranch, rougeole, topsails, allées, missiles, similes, reviles. wholly, holly, signal, signature, idem, examiner, mais miner, scholar, vicar, et cigar, solaire, mica, guerre et loin. de « désirer » : souhaitable-admirable de « admirer », lumber, plumber, bier, mais brier, topsham, brougham, renommée, mais connu, connaissance, fait, solitaire, parti, aucun, ton, un, anémone, balmoral, cuisine, lichen, linge, laurier. gertrude, allemand, vent et vent, beau, kind, kindred, queue, mankind, tortue, turquoise, peau de chamois, reading, reading, païen, bruyère. ce labyrinthe phonétique donne mousse, brute, ruisseau, broche, neuvième, plinthe. vous êtes-vous déjà efforcé de prononcer revered et severed, demon, lemon, ghoul, foul, soul, pierre, essence et patrouille ? billet ne se termine pas comme le ballet ; bouquet, porte-monnaie, maillet, chalet. blood et ﬂood ne sont pas comme la nourriture, la moisissure n’est pas non plus comme « should » et « would ». banquet n’est pas près de parquet, qui rime exactement avec kaki. escompte, vicomte, charge et large, toward, to forward, to reward, ricochet et crochet, croquet ? exact ! ta prononciation est bonne. arrondi, blessé, chagrin et tamis, ami et ﬁend, vivant et vivre. votre r est-il correct en plus haut ? keats affirme qu’il rime avec thalia. hugh, mais câlin, et hotte, mais houlette, buoyant, minute, mais minute. dites abscission avec précision, maintenant : position et transition ; cela correspondrait-il à ma rime si je mentionnais le paradigme ? twopence, threepence, tease sont faciles, mais cesser, froisser, graisser et graisser ? corniche, gentil, valise, réviser, rage, mais berceuse. de mots aussi déroutants que nauséeux, rimant bien avec prudent, tordu, vous envelopperez les listes, j’espère, dans une enveloppe en lin. vous en voulez encore ? vous en aurez ! aﬃdavit, david, davit. abjurer, parjurer. sheik ne ressemble pas à du tchèque mais à du mal. liberty, library, heave et heaven, rachel, loch, moustache, onze. on dit sanctifié, mais autorisé, peuple, léopard, remorqué mais juré. marquez la diﬀérence, en outre, entre mover, plover, dover. sangsues, culottes, sages, précises, calice, mais police et poux, chameau, gendarme, instable, principe, disciple, étiquette. pétale, pénal, et canal, attendre, supposer, plaire, promettre, pal, suit, suite, ruine. circuit, conduit rime avec « shirk it » et « beyond it », mais il n’est pas difficile de dire pourquoi c’est pall, mall, mais pall mall. muscle, musculaire, geôle, fer, bois, grimpeur, lingot, lion, ver et tempête, chaise, chaos, fauteuil, sénateur, spectateur, maire, lierre, privé, célèbre, clameur. a le a de drachme et de marteau. chatte, chatte et posséder, désert, mais désert, adresse. golf, loup, countenance, lieutenants. hissent à la place des ﬂags laissés des fanions. courier, courtier, tombe, bombe, peigne, vache, mais cowper, certains et la maison. « soudure, soldat ! le sang est plus épais’, quoth il, « que la liqueur ou l’alcool », faire, c’est triste mais vrai, par bravade, beaucoup de bruit. étranger ne rime pas avec colère, pas plus que dévorer ne rime avec fracas. pilote, pivot, décharné, mais tante, font, front, wont, want, grand et grant. arsenic, spéciﬁc, scénique, relique, rhétorique, hygiénique. groseille, oie, et proche, mais proche, paradis, rise, rose, et dose. dites inveigh, neigh, mais inveigle, faites rimer ce dernier avec aigle. esprit ! méandreux mais méchant, valentine et magazine. et je vous parie, ma chère, un penny, que vous dites mani-(pli) comme beaucoup, ce qui est faux. dis rapière, pier, tier (celui qui attache), mais tier. arch, archange ; priez, est-ce que errant rime-t-il avec hareng ou avec remuer ? prison, bison, trésor, trahison, planer, couvrir, anse, persévérance, séparation. ribald rime (mais pas piebald) avec grignoté. phaeton, paean, gnat, ghat, gnaw, lien, psychic, shone, bone, pshaw. ne soyez pas abattus, les miens, mais rudes, et distingue le buﬀet, buﬀet ; brood, stood, roof, rook, school, wool, boon, worcester, boleyn, imputer. dites en sons corrects et sterling hearse, hear, hearken, year et yearling. evil, devil, mezzotint, attention au z ! (une légère allusion.) maintenant, vous n’avez pas besoin de prêter attention aux sons que je ne mentionne pas, des sons comme pores, pause, pours et paws, qui riment avec le pronom « vôtre » ; les noms propres ne sont pas non plus inclus, bien que j’ai souvent entendu, comme vous, des rimes amusantes sur la licorne, oui, vous les connaissez, vaughan et strachan. non, ma jeune fille, timide et avenante, je ne veux pas parler de cholmondeley. non. pourtant froude, comparé à l’orgueilleux n’est pas meilleur que mcleod. mais esprit trivial et vial, tripod, menial, denial, troll et chariot, royaume et rame, programme, malice, schisme, et projet. argil, gill, argyll, gill. sûrement peut être fait pour rimer avec raleigh, mais vous n’êtes pas censé dire piquet rime avec sobriquet. est-ce que ces invalides des documents sans valeur ? comme il est pâle, comme il avait l’air grossier, couchant, quand j’avais réservé pour portsmouth ! zeus, thèbes, thalès, aphrodite, paramour, énamouré, puissant, épisodes, antipodes, acquiescement, et obsèques. s’il vous plaît, ne jouez pas avec le geyser, n’épluche pas les patates avec mon rasoir, dis plutôt en accents purs : nature, stature et maturité. pieux, impie, membre, grimpe, morne, worsted, worsted, crumbly, dumbly, conquérir, conquérir, vase, phase, éventail, wan, sedan et artisan. le th vous troublera sûrement plus que r, ch ou w. dites alors ces joyaux phonétiques : thomas, thym, theresa, thames. thompson, chatham, waltham, streatham, il y en a plus mais je les ai oubliés- attends ! je l’ai : anthony, allégez votre anxiété. le mot archaïque quoique ne rime pas avec huit, vous le voyez ; avec et sans délai, on a la voix, l’autre non, vous faites votre choix. chaussures, va, fait. maintenant, ﬁrst dites : ﬁnger ; puis dites : chanteur, gingembre, s’attarder. réel, zèle, mauve, gaze et jauge, mariage, feuillage, mirage, âge, héro, héron, interrogation, très, parry, tarry, fury, bury, dost, lost, post, and doth, cloth, loth, job, job, fleur, sein, serment. faugh, oppugnant, oppugners keen, bowing, bowing, banjo-tuners. holm, vous savez, mais noes, canoes, puisne, truisme, utiliser, utiliser ? bien que la diﬀérence semble peu, nous disons actuel, mais victual, seat, sweat, chaste, caste, leigh, eight, height, put, nut, granite, et unite. reefer ne rime pas avec deafer, feoﬀer oui, et zephyr, génisse. dull, bull, geoﬀrey, george, ate, late, hint, pint, senate, mais sedate. gaélique, arabe, paciﬁc, science, conscience, scientiﬁc ; tour, mais notre, dour, succour, quatre, gaz, hélas, et arkansas. dites manœuvre, yacht et vomi, ensuite, omettez, ce qui en diﬀers. bona ﬁde, alibi gyrate, dowry et awry. mer, idée, guinée, zone, psaume, maria, mais paludisme. jeunesse, sud, méridional, purifier et nettoyer, doctrine, térébenthine, marine. comparer alien avec italien, pissenlit avec bataillon, rallye avec allié ; oui, oui, œil, je, aïe, aïe, petit-lait, clé, quai ! dites aver, mais toujours, fièvre, ni, loisir, écheveau, récepteur. ne jamais deviner, ce n’est pas sûr, nous disons veaux, valves, moitié, mais ralf. étoile, grenier, canari, crevasse, mais dispositif, et eyrie, visage, mais préface, puis grimace, flegme, flegmatique, cul, verre, basse. bass, large, cible, gin, donner, verging, ought, oust, joust, and scour, but scourging ; ear, mais earn ; et ere et tear ne rime pas avec here mais heir. attention au o de oﬀ et de souvent qui peuvent être prononcés comme orphelin, avec le son de saw et sauce ; ainsi que soft, lost, cloth et cross. pudding, puddle, putting. putting ? oui : au golf, ça rime avec shutting. répit, dépit, consentement, ressentiment. responsable, mais parlement. sept est juste, mais pair aussi, trait d’union, rugueux, neveu, stephen, singe, âne, clerc et abruti, asp, grasp, wasp, demesne, cork, work. a de vaillance, de vapeur, s de nouvelles (comparer journal), g de gibbet, gibbon, gist, i de l’antéchrist et du grain, diﬀer comme divers et variés, de fleuves, de grévistes, de frissons, de ﬁvers. une fois, mais nonce, toll, doll, mais roll, polonais, polonais, poll et poll. prononciation – pensez à psyché!- est un paling, robuste et hérissé. ne vous fera-t-elle pas perdre la tête d’écrire groats et de dire ‘grits’ ? c’est un abîme ou un tunnel sombre parsemé de pierres comme la ronce, le plat-bord, islington, et l’île de wight, housewife, verdict et inculpation. ne le pensez-vous pas, lecteur, plutôt, en disant mousse, baigneur, père ? enfin, ce qui rime avec assez, though, through, bough, cough, hough, sough, tough ? hiccough a le son de sup. mon conseil est le suivant : lâchez l’affaire !",en_XX,fr_XX,1
 "my heart aches, and a drowsy numbness pains
 my sense, as though of hemlock i had drunk,
 or emptied some dull opiate to the drains
@@ -5055,7 +5055,7 @@ la blanche aubépine et l'églantine des champs;
 la violette qui se fane si vite recouverte par les feuilles;
 et la fille aînée de la mi-mai,
 la rose musquée en bouton, trempée de rosée vineuse,
-où ronronnent les mouches par les soirs d'été.",en_XX,fr_XX,0
+où ronronnent les mouches par les soirs d'été.",en_XX,fr_XX,-1
 "darkling i listen; and, for many a time
 i have been half in love with easeful death,
 call'd him soft names in many a mused rhyme,
@@ -5169,7 +5169,7 @@ que l'on peut goûter sans cesse, à jamais chaud,
 a jamais haletant, à jamais jeune;
 soupirant bien au-dessus de toute passion humaine,
 qui laisse le cœur repu et plein d'amertume,
-le front brûlant et la langue desséchée.",en_XX,fr_XX,0
+le front brûlant et la langue desséchée.",en_XX,fr_XX,-1
 "who are these coming to the sacrifice?
 to what green altar, o mysterious priest,
 lead'st thou that heifer lowing at the skies,
@@ -5466,7 +5466,7 @@ ou redescendant, suivant que la brise légère s'élève ou meurt;
 et les agneaux déjà grands bêlent haut parqués sur le coteau,
 les grillons des haies chantent; à son tour en trilles mélodieux
 le rouge-gorge siffle d'un jardin enclos;
-et les hirondelles se rassemblant gazouillent dans les cieux.",en_XX,fr_XX,-1
+et les hirondelles se rassemblant gazouillent dans les cieux.",en_XX,fr_XX,0
 "i cry your mercy—pity—love! aye, love!
 merciful love that tantalizes not,
 one-thoughted, never-wandering, guileless love,
@@ -5610,7 +5610,7 @@ le courage de parler; mais toujours son sang se figeait,
 etouffait sa voix, et chassait sa résolution—
 exaltait l'idée qu'il se faisait d'une telle fiancée,
 lui donnait même la douce humilité d'un enfant:
-hélas! la passion au contraire est à la fois douce et sauvage!",en_XX,fr_XX,-1
+hélas! la passion au contraire est à la fois douce et sauvage!",en_XX,fr_XX,1
 "so once more he had wak’d and anguished
 a dreary night of love and misery,
 if isabel’s quick eye had not been wed
@@ -5655,7 +5655,7 @@ dans la chaude maturité de ce gracieux matin.»
 il dit, et ses lèvres timides tout à l'heure, s'enhardirent,
 un baiser chanta poétiquement, humide de rosée:
 une grande béatitude, une extase s'éleva en eux,
-telle une fleur de volupté sous la caresse de juin.",en_XX,fr_XX,0
+telle une fleur de volupté sous la caresse de juin.",en_XX,fr_XX,-1
 "parting they seem’d to tread upon the air,
 twin roses by the zephyr blown apart
 only to meet again more close, and share
@@ -5760,7 +5760,7 @@ etaient d'une ascension plus facile qu'un escalier de lépreux?
 pourquoi étaient-ils fiers? parce que leurs livres de comptes à raies rouges
 etaient plus luxueux que les chants de l'antiquité grecque?
 pourquoi étaient-ils fiers? nous le demandons encore bien haut,
-pourquoi, au nom de la gloire, étaient-ils fiers?",en_XX,fr_XX,0
+pourquoi, au nom de la gloire, étaient-ils fiers?",en_XX,fr_XX,-1
 "yet were these florentines as self-retired
 in hungry pride and gainful cowardice, 130
 as two close hebrews in that land inspired,
@@ -5775,7 +5775,7 @@ barricadés comme dans un enclos contre les regards épieurs des mendiants;
 oiseaux de proie des forêts fournisseuses de mâts—mules infatigables
 et bâtées, colportant ducats et vieux mensonges—
 aux griffes agiles, s'abattant sur les passants sans défiance,—
-on les admirait en espagne, en toscane, en malaisie.",en_XX,fr_XX,0
+on les admirait en espagne, en toscane, en malaisie.",en_XX,fr_XX,-1
 "how was it these same ledger-men could spy
 fair isabella in her downy nest?
 how could they find out in lorenzo’s eye
@@ -5805,7 +5805,7 @@ des levers de lune chers aux amants,
 et des lis, qui croissent plus pâles
 maintenant qu'ils n'entendent plus les sons de ta lyre;
 pardonne nous de risquer des mots qui conviennent mal
-a cette triste pause dans une aventure si digne de pitié.",en_XX,fr_XX,0
+a cette triste pause dans une aventure si digne de pitié.",en_XX,fr_XX,-1
 "grant thou a pardon here, and then the tale
 shall move on soberly, as it is meet;
 there is no other crime, no mad assail
@@ -6195,7 +6195,7 @@ pour voir un crâne, des os dans le cercueil et la robe funéraire;
 prenant en pitié chaque forme qu'a souillée la voracité de la mort,
 et lui insufflant encore une fois une âme humaine?
 ah! ceci est une fête en comparaison de ce qu'éprouvait
-isabelle s'agenouillant devant lorenzo.",en_XX,fr_XX,0
+isabelle s'agenouillant devant lorenzo.",en_XX,fr_XX,-1
 "she gaz’d into the fresh-thrown mould, as though
 one glance did fully all its secrets tell;
 clearly she saw, as other eyes would know
@@ -6285,7 +6285,7 @@ autour de chaque œil plus creusé encore par la mort
 elle fixa des boucles comme des cils; et la glaise gluante,
 avec des larmes aussi glacées que le suintement d'une source
 elle l'enleva; puis de nouveau elle peigna et
-soupira tout le jour—puis de nouveau elle embrassa et pleura.",en_XX,fr_XX,0
+soupira tout le jour—puis de nouveau elle embrassa et pleura.",en_XX,fr_XX,-1
 "then in a silken scarf, - sweet with the dews
 of precious flowers pluck’d in araby,
 and divine liquids come with odorous ooze
@@ -6315,7 +6315,7 @@ elle oublia la brise glaciale de l'automne;
 elle n'avait aucune notion de la fin des journées
 et ne discernait pas leur recommencement; mais en paix
 se penchait sur son basilic en fleur immuablement,
-et le trempait de ses larmes jusqu'à la racine.",en_XX,fr_XX,0
+et le trempait de ses larmes jusqu'à la racine.",en_XX,fr_XX,-1
 "and so she ever fed it with thin tears,
 whence thick, and green, and beautiful it grew,
 so that it smelt more balmy than its peers
@@ -6646,7 +6646,7 @@ se fondit et disparut soudainement.
 alors, dans l'air, sa voix nouvelle résonnant avec tendresse,
 cria «lycius! charmant lycius!» suspendues
 dans les brumes diaphanes enveloppant les antiques montagnes
-ces paroles s'évaporèrent: les forêts de crète ne les entendirent jamais plus.",en_XX,fr_XX,0
+ces paroles s'évaporèrent: les forêts de crète ne les entendirent jamais plus.",en_XX,fr_XX,-1
 "whither fled lamia, now a lady bright,
 a full-born beauty new and exquisite?
 she fled into that valley they pass o'er
@@ -6725,7 +6725,7 @@ lorsque soudain, défaillant de surprise,
 j'aperçus deux belles créatures, étendues côte à côte
 dans l'herbe la plus touffue, sous le dais bruissant
 des feuilles et des tremblantes floraisons, là où court
-un ruisselet, à peine visible.",en_XX,fr_XX,0
+un ruisselet, à peine visible.",en_XX,fr_XX,-1
 "mid hush'd, cool-rooted flowers, fragrant-eyed,
 blue, silver-white, and budded tyrian,
 they lay calm-breathing, on the bedded grass;
@@ -6746,7 +6746,7 @@ elles étaient prêtes encore à dépasser le nombre des baisers échangés
 lorsque tendrement l'amour ouvre les yeux du matin:
 l'enfant ailé je le reconnus.
 mais qui étais-tu, o heureuse, heureuse colombe?
-sa psyché! elle-même!",en_XX,fr_XX,0
+sa psyché! elle-même!",en_XX,fr_XX,-1
 "o latest born and loveliest vision far
 of all olympus' faded hierarchy!
 fairer than phoebe's sapphire-region'd star,
@@ -6769,7 +6769,7 @@ aux heures de minuit;
 ni voix, ni luth, ni pipeau, ni suave encens
 fumant d'un brûle-parfum balancé avec des chaînes;
 ni châsse, ni bocage, ni oracle, ni fiévreuse
-incantation psalmodiée par un prophète aux pâles lèvres.",en_XX,fr_XX,-1
+incantation psalmodiée par un prophète aux pâles lèvres.",en_XX,fr_XX,0
 "o brightest! though too late for antique vows,
 too, too late for the fond believing lyre,
 when holy were the haunted forest boughs,
@@ -6907,7 +6907,7 @@ lorsqu'elles la contournent pourvoir l'autre côté.
 elles revinrent, comme si, une fois de plus, l'urne
 avait été tournée; les premières ombres vertes réapparurent,
 et elles étaient étranges pour moi, comme il peut advenir
-avec les vases, pour quiconque ayant approfondi l'art de phidias.",en_XX,fr_XX,0
+avec les vases, pour quiconque ayant approfondi l'art de phidias.",en_XX,fr_XX,-1
 "how is it, shadows! that i knew ye not?
 how came ye muffled in so hush a mask?
 was it a silent deep-disguisèd plot
@@ -6926,7 +6926,7 @@ la bienheureuse nuée de l'estivale indolence
 engourdissait mes yeux; mon pouls diminuait de plus en plus;
 la douleur n'avait plus d'aiguillon, et la guirlande de plaisir plus de fleurs,
 oh! pourquoi ne pas vous être dissoutes et ne pas avoir laissé mes sens
-sans hantise aucune, si ce n'est celle—du néant?",en_XX,fr_XX,0
+sans hantise aucune, si ce n'est celle—du néant?",en_XX,fr_XX,-1
 "a third time pass’d they by, and, passing, turn’d
 each one the face a moment whiles to me;
 then faded, and to follow them i burn’d
@@ -7029,7 +7029,7 @@ belle-sœur de la jalouse putiphar;
 vous, bardes ivres d'amour! rendez-lui mépris pour mépris;
 vous, artistes éperdus d'amour! fous que vous êtes!
 tirez-lui votre meilleure révérence et dites lui adieu,
-alors, si cela lui convient, elle vous suivra.",en_XX,fr_XX,0
+alors, si cela lui convient, elle vous suivra.",en_XX,fr_XX,-1
 "in a drear-nighted december,
 too happy, happy tree,
 thy branches ne'er remember
@@ -7091,7 +7091,7 @@ engourdis étaient les doigts de l'intercesseur, pendant qu'il récitait
 son rosaire, et pendant que son haleine gelée,
 comme de l'encens sacré fumant d'un vieil encensoir,
 semblait s'envoler vers le ciel, sans pour cela qu'il y eût mort,
-devant le portrait de la douce vierge, tandis qu'il disait sa prière.",en_XX,fr_XX,-1
+devant le portrait de la douce vierge, tandis qu'il disait sa prière.",en_XX,fr_XX,0
 "his prayer he saith, this patient, holy man;
 then takes his lamp, and riseth from his knees,
 and back returneth, meagre, barefoot, wan,
@@ -7108,7 +7108,7 @@ les morts sculptés de chaque côté semblent grelotter,
 emprisonnés dans l'obscurité, derrière des grilles de purgatoire:
 comtes, dames, priant dans ce silencieux oratoire,
 il passe devant; et son faible esprit défaille
-en pensant combien ils doivent souffrir sous leurs capuchons et leurs cottes de mailles glacés.",en_XX,fr_XX,-1
+en pensant combien ils doivent souffrir sous leurs capuchons et leurs cottes de mailles glacés.",en_XX,fr_XX,0
 "northward he turneth through a little door,
 and scarce three steps, ere music's golden tongue
 flatter'd to tears this aged man and poor;
@@ -7142,7 +7142,7 @@ les salles du bas, préparées avec splendeur,
 brillaient pour recevoir un millier d'hôtes:
 les anges sculptés, les yeux éternellement flamboyants,
 avaient le regard fixé là où sur leurs têtes repose la corniche,
-les cheveux rejetés en arrière, les ailes en croix sur la poitrine.",en_XX,fr_XX,-1
+les cheveux rejetés en arrière, les ailes en croix sur la poitrine.",en_XX,fr_XX,0
 "at length burst in the argent revelry,
 with plume, tiara, and all rich array,
 numerous as shadows haunting faerily
@@ -7159,7 +7159,7 @@ d'antiques romances. pour ceux là souhaitons leur disparition,
 et tournons notre pensée exclusivement vers une dame,
 dont le cœur avait été plein, tout ce jour d'hiver,
 de l'amour et du culte sacré de sainte agnès ailée,
-ainsi qu'elle l'avait maintes fois entendu déclarer par de vieilles femmes.",en_XX,fr_XX,0
+ainsi qu'elle l'avait maintes fois entendu déclarer par de vieilles femmes.",en_XX,fr_XX,-1
 "they told her how, upon st. agnes' eve,
 young virgins might have visions of delight,
 and soft adorings from their loves receive
@@ -7193,7 +7193,7 @@ rapidement devant elle—elle n'y faisait pas attention: en vain
 se présenta, sur la pointe du pied, plus d'un amoureux cavalier,
 et se retira. ce n'était pas le froid du mépris hautain,
 mais elle ne voyait pas, son cœur était ailleurs:
-elle aspirait aux rêves de sainte-agnès, les plus enchanteurs de l'année.",en_XX,fr_XX,0
+elle aspirait aux rêves de sainte-agnès, les plus enchanteurs de l'année.",en_XX,fr_XX,-1
 "she danc'd along with vague, regardless eyes,
 anxious her lips, her breathing quick and short:
 the hallow'd hour was near at hand: she sighs
@@ -7227,7 +7227,7 @@ arc-boutant éclairé par la lune, debout, il implore
 tous les saints de lui accorder de voir madeline,
 ne fût-ce qu'une seconde, pendant ces pénibles heures,
 qu'il puisse la contempler et l'adorer, invisible pour tous;
-par aventure parler, s'agenouiller, toucher, baiser—en vérité que de telles joies surviennent.",en_XX,fr_XX,0
+par aventure parler, s'agenouiller, toucher, baiser—en vérité que de telles joies surviennent.",en_XX,fr_XX,-1
 "he ventures in: let no buzz'd whisper tell:
 all eyes be muffled, or a hundred swords
 will storm his heart, love's fev'rous citadel:
@@ -7244,4 +7244,4 @@ d'ennemis sanguinaires, de lords au sang bouillant,
 dont les chiens hurleraient des exécrations
 contre sa race: pas un cœur qui lui accorde
 merci, dans cette demeure hostile,
-sauf une vieille douairière, faible de corps et d'esprit.",en_XX,fr_XX,1
+sauf une vieille douairière, faible de corps et d'esprit.",en_XX,fr_XX,-1
