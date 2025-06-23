@@ -38,11 +38,11 @@ PASTA_SAIDA = "results"
 COLUNA_POEMAS = "translated_poem"  # "original_poem", "translated_poem", "translated_by_TA"
 
 # Definição dos idiomas de origem e destino para filtrar o CSV
-IDIOMA_ORIGEM = "fr_XX"  #  "fr_XX", "pt_XX", "en_XX"
-IDIOMA_DESTINO = "pt_XX" #  "fr_XX", "pt_XX", "en_XX"
+IDIOMA_ORIGEM = "en_XX"  #  "fr_XX", "pt_XX", "en_XX"
+IDIOMA_DESTINO = "fr_XX" #  "fr_XX", "pt_XX", "en_XX"
 
 # Idioma para o pré-processamento (NLTK e spaCy)
-IDIOMA_PROC = "pt_XX"
+IDIOMA_PROC = "fr_XX"
 
 
 
@@ -63,10 +63,10 @@ normalizacao_lemas = {
     "cœur": "coeur",
     "cri": "crier",
 
-    #"ressurgiremos": "ressurgir",
-    #"falhou": "falhar",
-    #"podias": "poder",
-    #"amo": "amar",
+    "ressurgiremos": "ressurgir",
+    "falhou": "falhar",
+    "podias": "poder",
+    "amo": "amar",
 }
 
 
