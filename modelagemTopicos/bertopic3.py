@@ -78,6 +78,7 @@ normalizacao_lemas = {
     "perdoo": "perdoar",
     "inteligente": "inteligência",
     "odio": "odiar",
+    "morto": "morte",
 
     "daddy": "dad",
     "hidden": "hide",
