@@ -82,6 +82,7 @@ normalizacao_lemas = {
 
     "daddy": "dad",
     "hidden": "hide",
+    "vaguely": "vague",
 }
 
 
