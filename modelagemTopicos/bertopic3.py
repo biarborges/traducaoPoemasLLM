@@ -73,6 +73,7 @@ normalizacao_lemas = {
     "amo": "amar",
     "amado": "amar",
     "perdoo": "perdoar",
+    "inteligente": "inteligência",
 
     "daddy": "dad",
 }
