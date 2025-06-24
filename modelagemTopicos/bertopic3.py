@@ -22,7 +22,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # 1. CONFIGURAÇÕES E CONSTANTES
 # ==============================================================================
 
-SEED = 30
+SEED = 58
 
 TITLE = "chatGPTPrompt2"
 # original reference chatGPTPrompt1 googleTradutor maritacaPrompt1
