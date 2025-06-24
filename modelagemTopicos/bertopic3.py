@@ -79,6 +79,7 @@ normalizacao_lemas = {
     "odio": "odiar",
 
     "daddy": "dad",
+    "hidden": "hide",
 }
 
 
