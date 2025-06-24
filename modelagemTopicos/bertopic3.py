@@ -64,6 +64,8 @@ normalizacao_lemas = {
     "cœur": "coeur",
     "cri": "crier",
     "glorieux": "gloire",
+    "tromperie": "tromper",
+    "chrétiens": "chrétien",
 
     "ressurgiremos": "ressurgir",
     "falhou": "falhar",
