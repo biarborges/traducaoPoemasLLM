@@ -176,7 +176,7 @@ if __name__ == '__main__':
     if IDIOMA_PROC == "fr_XX":
         stopwords_personalizadas.update(["le", "la", "les", "un", "une", "jean", "john", "kaku", "lorsqu", "jusqu", "sai", "congnois", "mme", "williams", "non", "tatactatoum", "aucun", "rien", "worsted", "sandwich", "prononciation", "sûrement", "oui"])
     elif IDIOMA_PROC == "pt_XX":
-        stopwords_personalizadas.update(["o", "a", "os", "as", "um", "uma", "eu", "tu", "ele", "ela", "nós", "vós", "eles", "elas", "voce", "nao", "algum"])
+        stopwords_personalizadas.update(["o", "a", "os", "as", "um", "uma", "eu", "tu", "ele", "ela", "nós", "vós", "eles", "elas", "voce", "nao", "algum", "bedlam", "quão", "quao"])
     elif IDIOMA_PROC == "en_XX":
         stopwords_personalizadas.update(["the", "a", "an", "and", "but", "or", "so", "to", "of", "in", "for", "on", "at", "peter", "john", "mary", "jane", "kaku"])
     
