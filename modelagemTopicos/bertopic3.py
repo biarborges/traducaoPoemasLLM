@@ -22,13 +22,13 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # 1. CONFIGURAÇÕES E CONSTANTES
 # ==============================================================================
 
-SEED = 1
+SEED = 42
 
-TITLE = "maritacaPrompt1"
+TITLE = "maritacaPrompt2"
 # original reference chatGPTPrompt1 googleTradutor maritacaPrompt1
 
 # Caminho para o arquivo de entrada
-CAMINHO_CSV = "poemas_unificados_maritacaPrompt1.csv"
+CAMINHO_CSV = "poemas_unificados_maritacaPrompt2.csv"
 # chatGPTPrompt1 googleTradutor maritacaPrompt1
 
 # Pasta para salvar os resultados
