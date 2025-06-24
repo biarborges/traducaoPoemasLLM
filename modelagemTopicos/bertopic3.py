@@ -60,6 +60,7 @@ normalizacao_lemas = {
     "pluvieux": "pluie",
     "aimé": "amour",
     "aimer": "amour",
+    "amoureux": "amour",
     "cœur": "coeur",
     "cri": "crier",
     "glorieux": "gloire",
