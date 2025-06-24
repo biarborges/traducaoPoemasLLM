@@ -51,6 +51,8 @@ correcoes_lemas = {
     "escrevar": "escrever",
     "falecerar": "falecer",
     "pensaríar": "pensar",
+    "odeiar": "odiar",
+    "deuse": "deuses",
 }
 
 # Adicione este dicionário
@@ -74,6 +76,7 @@ normalizacao_lemas = {
     "amado": "amar",
     "perdoo": "perdoar",
     "inteligente": "inteligência",
+    "odio": "odiar",
 
     "daddy": "dad",
 }
