@@ -2,8 +2,9 @@ import pandas as pd
 import os
 
 # Caminho do arquivo CSV com os tópicos
-CAMINHO_CSV = "modelagemTopicos/results/portugues_ingles_original/googleTradutor/poemas_com_topicos.csv"
-DIRETORIO_SAIDA = "modelagemTopicos/results/portugues_ingles_original/googleTradutor"
+CAMINHO_CSV = "results/portugues_ingles/reference/poemas_com_topicos_reference.csv"
+DIRETORIO_SAIDA = "results/portugues_ingles/reference"
+
 COLUNA_TOPICO = "topic"
 
 # Lê o CSV

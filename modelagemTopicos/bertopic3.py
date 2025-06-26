@@ -27,21 +27,16 @@ SEED = 42
 TITLE = "maritacaPrompt2"
 # original reference chatGPTPrompt1 googleTradutor maritacaPrompt1
 
-# Caminho para o arquivo de entrada
 CAMINHO_CSV = "poemas_unificados_maritacaPrompt2.csv"
 # chatGPTPrompt1 googleTradutor maritacaPrompt1
 
-# Pasta para salvar os resultados
 PASTA_SAIDA = "results"
 
-# Coluna do DataFrame a ser utilizada
 COLUNA_POEMAS = "translated_by_TA"  # "original_poem", "translated_poem", "translated_by_TA"
 
-# Definição dos idiomas de origem e destino para filtrar o CSV
 IDIOMA_ORIGEM = "pt_XX"  #  "fr_XX", "pt_XX", "en_XX"
 IDIOMA_DESTINO = "en_XX" #  "fr_XX", "pt_XX", "en_XX"
 
-# Idioma para o pré-processamento (NLTK e spaCy)
 IDIOMA_PROC = "en_XX"
 
 
@@ -153,8 +148,6 @@ def salvar_topicos_legiveis(topic_model: BERTopic, caminho_arquivo: str):
 # 3. BLOCO DE EXECUÇÃO PRINCIPAL
 # ==============================================================================
 
-# Este bloco protege o código de ser re-executado em processos filhos,
-# resolvendo o erro 'RuntimeError' no Windows/macOS.
 if __name__ == '__main__':
 
     # Garante que a pasta de saída exista
@@ -170,11 +163,9 @@ if __name__ == '__main__':
     # --- Parte 2: Pré-processamento ---
     print("🧹 Iniciando pré-processamento dos textos...")
     
-    # Mapeia o código de idioma para o NLTK
     mapa_idioma_nltk = {"pt_XX": "portuguese", "en_XX": "english", "fr_XX": "french"}
     idioma_nltk = mapa_idioma_nltk[IDIOMA_PROC]
 
-    # Carrega stopwords e adiciona termos personalizados
     stopwords_personalizadas = set(stopwords.words(idioma_nltk))
     if IDIOMA_PROC == "fr_XX":
         stopwords_personalizadas.update(["le", "la", "les", "un", "une", "jean", "john", "kaku", "lorsqu", "jusqu", "sai", "congnois", "mme", "williams", "non", "tatactatoum", "aucun", "rien", "worsted", "sandwich", "prononciation", "sûrement", "oui", "nao", "not", "não", "this", "that", "lover", "lorenzo", "oliver", "tão", "translation", "english", "weep", "poetic", "vanished"])
@@ -183,10 +174,8 @@ if __name__ == '__main__':
     elif IDIOMA_PROC == "en_XX":
         stopwords_personalizadas.update(["the", "a", "an", "and", "but", "or", "so", "to", "of", "in", "for", "on", "at", "peter", "john", "mary", "jane", "kaku"])
     
-    # Carrega o modelo spaCy UMA ÚNICA VEZ para eficiência
     nlp = carregar_modelo_spacy(IDIOMA_PROC)
 
-    # Aplica o pré-processamento a todos os poemas
     poemas_limpos = [preprocessar_texto(p, nlp, stopwords_personalizadas) for p in tqdm(poemas, desc="Processando poemas")]
 
     # --- Parte 3: Geração de Embeddings ---
@@ -243,15 +232,12 @@ if __name__ == '__main__':
     # --- Parte 7: Cálculo de Coerência dos Tópicos ---
     print("🧮 Preparando dados para o cálculo de coerência...")
 
-    # Adicionamos uma barra de progresso para a tokenização
     documentos_tokenizados = [doc.split() for doc in tqdm(poemas_limpos, desc="   Tokenizando documentos")]
 
     dicionario = Dictionary(documentos_tokenizados)
 
-    # Adicionamos uma barra de progresso para a criação do corpus Bag-of-Words
     corpus = [dicionario.doc2bow(doc) for doc in tqdm(documentos_tokenizados, desc="   Criando corpus BoW   ")]
 
-    # Esta parte é rápida, não precisa de barra de progresso
     topicos_palavras = []
     for topic_num in sorted(topic_model.get_topics().keys()):
         if topic_num == -1:
@@ -259,8 +245,7 @@ if __name__ == '__main__':
         palavras = [palavra for palavra, _ in topic_model.get_topic(topic_num)]
         topicos_palavras.append(palavras)
 
-    # Inicia o cálculo de coerência (a parte mais demorada)
-    print("⏳ Calculando a coerência do modelo... Isso pode levar alguns minutos.")
+    print("⏳ Calculando a coerência do modelo")
 
     coherence_model = CoherenceModel(
         topics=topicos_palavras,

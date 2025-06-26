@@ -7,7 +7,7 @@ from tqdm import tqdm
 
 transformers.utils.logging.set_verbosity_error()
 
-input_file = os.path.abspath("modelagemTopicos/results/portugues_ingles_original/googleTradutor/topico_5.csv")
+input_file = os.path.abspath("results/frances_ingles/chatGPTPrompt1/topico_0.csv")
 # chatGPTPrompt1 maritacaPrompt1 googleTradutor 
 lang = "en" # en pt fr
 
