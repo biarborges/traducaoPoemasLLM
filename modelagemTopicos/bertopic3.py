@@ -22,9 +22,9 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # 1. CONFIGURAÇÕES E CONSTANTES
 # ==============================================================================
 
-SEED = 40
+SEED = 42
 
-TITLE = "reference"
+TITLE = "original"
 # original reference chatGPTPrompt1 googleTradutor maritacaPrompt1
 
 CAMINHO_CSV = "poemas_unificados.csv"
