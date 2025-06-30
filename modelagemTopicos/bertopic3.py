@@ -103,11 +103,9 @@ def carregar_modelo_spacy(idioma: str):
 def preprocessar_texto(texto: str, nlp_model, stopwords_custom: set, usar_lematizacao=True):
     if usar_lematizacao:
         doc = nlp_model(texto)
-        
-        # Vamos trocar a list comprehension por um loop para maior clareza
+
         tokens_processados = []
         for token in doc:
-            # A condição 'if' que estava na sua list comprehension vem para dentro do loop
             if not token.is_stop and not token.is_punct and not token.like_num and len(token.text) > 2:
                 
                 # Passo 1: Pega o lema e aplica o dicionário de correções
@@ -117,14 +115,12 @@ def preprocessar_texto(texto: str, nlp_model, stopwords_custom: set, usar_lemati
                 lema_final = normalizacao_lemas.get(lema_corrigido, lema_corrigido)
                 
                 tokens_processados.append(lema_final)
-        
-        # Atribui o resultado à variável 'tokens' que você já usava
+
         tokens = tokens_processados
         
     else:
         tokens = word_tokenize(texto.lower())
 
-    # Esta parte do seu código continua exatamente igual
     tokens_filtrados = [
         token for token in tokens
         if token.isalpha() and token not in stopwords_custom and len(token) > 2
@@ -172,7 +168,7 @@ if __name__ == '__main__':
     elif IDIOMA_PROC == "pt_XX":
         stopwords_personalizadas.update(["o", "a", "os", "as", "um", "uma", "eu", "tu", "ele", "ela", "nós", "vós", "eles", "elas", "voce", "nao", "algum", "bedlam", "quão", "quao"])
     elif IDIOMA_PROC == "en_XX":
-        stopwords_personalizadas.update(["the", "a", "an", "and", "but", "or", "so", "to", "of", "in", "for", "on", "at", "peter", "john", "mary", "jane", "kaku"])
+        stopwords_personalizadas.update(["the", "a", "an", "and", "but", "or", "so", "to", "of", "in", "for", "on", "at", "peter", "john", "mary", "jane", "kaku", "thee", "thy"])
     
     nlp = carregar_modelo_spacy(IDIOMA_PROC)
 
