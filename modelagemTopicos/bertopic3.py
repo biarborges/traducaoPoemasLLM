@@ -27,7 +27,7 @@ SEED = 42
 TITLE = "reference"
 # original reference chatGPTPrompt1 googleTradutor maritacaPrompt1
 
-CAMINHO_CSV = "poemas_unificados_reference.csv"
+CAMINHO_CSV = "poemas_unificados.csv"
 # chatGPTPrompt1 googleTradutor maritacaPrompt1
 
 PASTA_SAIDA = "results"
