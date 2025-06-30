@@ -24,15 +24,15 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 SEED = 42
 
-TITLE = "chatGPTPrompt1"
+TITLE = "reference"
 # original reference chatGPTPrompt1 googleTradutor maritacaPrompt1
 
-CAMINHO_CSV = "poemas_unificados_chatGPTPrompt1.csv"
+CAMINHO_CSV = "poemas_unificados_reference.csv"
 # chatGPTPrompt1 googleTradutor maritacaPrompt1
 
 PASTA_SAIDA = "results"
 
-COLUNA_POEMAS = "translated_by_TA"  # "original_poem", "translated_poem", "translated_by_TA"
+COLUNA_POEMAS = "translated_poem"  # "original_poem", "translated_poem", "translated_by_TA"
 
 IDIOMA_ORIGEM = "en_XX"  #  "fr_XX", "pt_XX", "en_XX"
 IDIOMA_DESTINO = "fr_XX" #  "fr_XX", "pt_XX", "en_XX"
