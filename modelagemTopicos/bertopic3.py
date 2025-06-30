@@ -24,10 +24,10 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 SEED = 42
 
-TITLE = "chatGPTPrompt2"
+TITLE = "chatGPTPrompt1"
 # original reference chatGPTPrompt1 googleTradutor maritacaPrompt1
 
-CAMINHO_CSV = "poemas_unificados_chatGPTPrompt2.csv"
+CAMINHO_CSV = "poemas_unificados_chatGPTPrompt1.csv"
 # chatGPTPrompt1 googleTradutor maritacaPrompt1
 
 PASTA_SAIDA = "results"
