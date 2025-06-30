@@ -32,12 +32,12 @@ CAMINHO_CSV = "poemas_unificados.csv"
 
 PASTA_SAIDA = "results"
 
-COLUNA_POEMAS = "translated_poem"  # "original_poem", "translated_poem", "translated_by_TA"
+COLUNA_POEMAS = "original_poem"  # "original_poem", "translated_poem", "translated_by_TA"
 
 IDIOMA_ORIGEM = "en_XX"  #  "fr_XX", "pt_XX", "en_XX"
 IDIOMA_DESTINO = "fr_XX" #  "fr_XX", "pt_XX", "en_XX"
 
-IDIOMA_PROC = "fr_XX"
+IDIOMA_PROC = "en_XX"
 
 
 
