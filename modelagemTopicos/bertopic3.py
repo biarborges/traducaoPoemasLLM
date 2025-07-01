@@ -24,7 +24,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 SEED = 42
 
-min_topic_size = 8
+min_topic_size = 9
 
 TITLE = "original"
 # original reference chatGPTPrompt1 googleTradutor maritacaPrompt1
