@@ -188,7 +188,7 @@ if __name__ == '__main__':
     umap_model = UMAP(random_state=SEED)
     vectorizer_model=CountVectorizer(ngram_range=(1, 1))
 
-    topic_model = BERTopic(language="multilingual", umap_model=umap_model, vectorizer_model=vectorizer_model, representation_model=KeyBERTInspired(), embedding_model=embedding_model, min_topic_size=7)
+    topic_model = BERTopic(language="multilingual", umap_model=umap_model, vectorizer_model=vectorizer_model, representation_model=KeyBERTInspired(), embedding_model=embedding_model, min_topic_size=8)
     topics, _ = topic_model.fit_transform(poemas_limpos, embeddings)
 
     # --- Parte 5: Análise e Salvamento dos Resultados ---
