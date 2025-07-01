@@ -37,7 +37,7 @@ PASTA_SAIDA = "results"
 COLUNA_POEMAS = "original_poem"  # "original_poem", "translated_poem", "translated_by_TA"
 
 IDIOMA_ORIGEM = "fr_XX"  #  "fr_XX", "pt_XX", "en_XX"
-IDIOMA_DESTINO = "pt_XX" #  "fr_XX", "pt_XX", "en_XX"
+IDIOMA_DESTINO = "en_XX" #  "fr_XX", "pt_XX", "en_XX"
 
 IDIOMA_PROC = "fr_XX"
 
