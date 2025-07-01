@@ -24,6 +24,8 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 SEED = 42
 
+min_topic_size = 6
+
 TITLE = "original"
 # original reference chatGPTPrompt1 googleTradutor maritacaPrompt1
 
@@ -35,7 +37,7 @@ PASTA_SAIDA = "results"
 COLUNA_POEMAS = "original_poem"  # "original_poem", "translated_poem", "translated_by_TA"
 
 IDIOMA_ORIGEM = "fr_XX"  #  "fr_XX", "pt_XX", "en_XX"
-IDIOMA_DESTINO = "en_XX" #  "fr_XX", "pt_XX", "en_XX"
+IDIOMA_DESTINO = "pt_XX" #  "fr_XX", "pt_XX", "en_XX"
 
 IDIOMA_PROC = "fr_XX"
 
@@ -188,7 +190,7 @@ if __name__ == '__main__':
     umap_model = UMAP(random_state=SEED)
     vectorizer_model=CountVectorizer(ngram_range=(1, 1))
 
-    topic_model = BERTopic(language="multilingual", umap_model=umap_model, vectorizer_model=vectorizer_model, representation_model=KeyBERTInspired(), embedding_model=embedding_model, min_topic_size=9)
+    topic_model = BERTopic(language="multilingual", umap_model=umap_model, vectorizer_model=vectorizer_model, representation_model=KeyBERTInspired(), embedding_model=embedding_model, min_topic_size=min_topic_size)
     topics, _ = topic_model.fit_transform(poemas_limpos, embeddings)
 
     # --- Parte 5: Análise e Salvamento dos Resultados ---
