@@ -24,7 +24,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 SEED = 42
 
-min_topic_size = 7
+min_topic_size = 5
 
 TITLE = "original"
 # original reference chatGPTPrompt1 googleTradutor maritacaPrompt1
@@ -257,4 +257,5 @@ if __name__ == '__main__':
     coherence_score = coherence_model.get_coherence()
     print(f"✅ Coerência do Modelo c_v: {coherence_score:.4f}")
     print(f"Quantidade de Tópicos: {len(topicos_palavras)}")
+    print(f"min_topic_size: {min_topic_size}")
     print("\n🎉 Processo concluído com sucesso!")
