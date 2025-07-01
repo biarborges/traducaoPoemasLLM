@@ -49,6 +49,8 @@ correcoes_lemas = {
     "odeiar": "odiar",
     "deuse": "deuses",
     "vivir": "viver",
+
+    "écrir": "écrire",
 }
 
 # Adicione este dicionário
