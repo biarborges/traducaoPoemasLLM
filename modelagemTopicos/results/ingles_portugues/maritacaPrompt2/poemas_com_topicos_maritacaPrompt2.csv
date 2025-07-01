@@ -77,7 +77,7 @@ Perfis investigam o mar, onde há terra.
 É compulsório, ou os países escolhem as suas cores?
 — As mais condizentes com a nação ou as águas nacionais.
 Topografia é imparcial; norte e oeste são iguais.
-Mais sutis que as do historiador são as cores do cartógrafo.",0
+Mais sutis que as do historiador são as cores do cartógrafo.",0.0
 "we’d rather have the iceberg than the ship,
 although it meant the end of travel.
 although it stood stock-still like cloudy rock
@@ -108,7 +108,7 @@ mesmo que as velas do navio estivessem sobre o mar
 como a neve não derretida sobre a água.
 ó solene, flutuante campo,
 você está ciente de que um iceberg descansa
-contigo, e ao despertar pode pastar sobre tuas neves?",-1
+contigo, e ao despertar pode pastar sobre tuas neves?",-1.0
 "this is a scene a sailor’d give his eyes for
 the ship’s ignored. the iceberg rises
 and sinks again; its glassy pinnacles
@@ -139,7 +139,7 @@ essa é uma cena onde quem pisa no tablado
 que torções aéreas de neve proporcionam.
 as sutilezas desses picos brancos
 disputam com o sol. o iceberg ousa
-em um palco cambiante e se mantém e encara.",-1
+em um palco cambiante e se mantém e encara.",-1.0
 "this iceberg cuts its facets from within.
 like jewelry from a grave
 it saves itself perpetually and adorns
@@ -170,7 +170,7 @@ para onde ondas se rendem às ondas alheias
 e nuvens correm num céu mais quente.
 icebergs convêm à alma
 (tanto sendo autoformados de elementos menos visíveis)
-vê-los assim: substanciados, belos, eretos, indivisíveis.",-1
+vê-los assim: substanciados, belos, eretos, indivisíveis.",-1.0
 "alone on the railroad track
 i walked with pounding heart.
 the ties were too close together
@@ -227,7 +227,7 @@ a galinha de estimação cocoricou.
 ""o amor deve ser posto em ação!""
 gritou o velho eremita.
 sobre o lago um eco
-tentava e tentava confirmar.",0
+tentava e tentava confirmar.",0.0
 "which eye’s his eye?
 which limb lies
 next the mirror?
@@ -270,7 +270,7 @@ para sua mente
 é a indicação
 de uma reflexão espelhada
 em algum ponto da linha
-do que chamamos coluna.",-1
+do que chamamos coluna.",-1.0
 "he felt in modesty
 his person was
 half looking-glass,
@@ -313,7 +313,7 @@ Do espelho.
 Há pouco espaço para erro,
 Mas não há prova, também.
 E se metade de sua cabeça é refletida,
-Pensa, ele pensa, a mente pode ser afetada.",-1
+Pensa, ele pensa, a mente pode ser afetada.",1.0
 "but he’s resigned
 to such economical design.
 if the glass slips
@@ -353,7 +353,7 @@ ele diz que
 encontra estimulante. ele ama
 esse sentido de reajuste constante.
 ele deseja ser citado dizendo atualmente:
-""meio é o bastante.""",1
+""meio é o bastante.""",-1.0
 "remembering the strait of belle isle or
 some northerly harbor of labrador,
 before he became a schoolteacher
@@ -399,7 +399,7 @@ ocultas por ondas perfeitas.
 no meio daquele chão silencioso
 está uma frota de pequenos barcos negros,
 de velas enfunadas, imóveis,
-seus mastros como palitos de fósforo queimados.",0
+seus mastros como palitos de fósforo queimados.",0.0
 "and high above them, over the tall cliffs’
 semi-translucent ranks,
 are scribbled hundreds of fine black birds
@@ -445,7 +445,7 @@ em pôr do sol perpétuo, abrangente, consolador,
 enquanto os navios o consideram.
 aparentemente, chegaram ao destino.
 seria difícil dizer o que os trouxe até aqui,
-comércio ou contemplação.",0
+comércio ou contemplação.",-1.0
 "here, above,
 cracks in the buildings are filled with battered moonlight.
 the whole shadow of man is only as big as his hat.
@@ -467,7 +467,7 @@ jaz a seus pés como um círculo para uma boneca ficar em pé,
 e ele faz um alfinete invertido, a ponta magnetizada à lua.
 ele não vê a lua; observa apenas suas vastas propriedades,
 sentindo a luz estranha em suas mãos, nem quente nem fria,
-de uma temperatura impossível de registrar em termômetros.",-1
+de uma temperatura impossível de registrar em termômetros.",-1.0
 "but when the man-moth
 pays his rare, although occasional, visits to the surface,
 the moon looks rather different to him. he emerges
@@ -489,7 +489,7 @@ de uma abertura sob a borda de um dos passeios
 e nervosamente começa a escalar as faces dos edifícios.
 ele pensa que a lua é um pequeno buraco no topo do céu,
 provando que o céu é inútil para proteção.
-ele treme, mas deve investigar até onde possa subir.",-1
+ele treme, mas deve investigar até onde possa subir.",-1.0
 "up the façades,
 his shadow dragging like a photographer’s cloth behind him,
 he climbs fearfully, thinking that this time he will manage
@@ -511,7 +511,7 @@ empurrar sua pequena cabeça por aquela redonda abertura limpa
 e ser expelido, como de um tubo, em negros rolos sobre a luz.
 (o homem, embaixo, não tem tais ilusões.)
 mas o que o homem-traça mais teme, ele deve fazer, embora
-fracasse, claro, e caia de volta assustado mas sem um arranhão.",-1
+fracasse, claro, e caia de volta assustado mas sem um arranhão.",-1.0
 "then he returns
 to the pale subways of cement he calls his home. he flits,
 he flutters, and cannot get aboard the silent trains
@@ -533,7 +533,7 @@ rápido o bastante para seu gosto. as portas se fecham rapidamente.
 o homem-borboleta sempre se senta voltado para o lado errado
 e o trem parte imediatamente em sua velocidade máxima,
 sem uma mudança de marcha ou gradação alguma.
-ele não consegue perceber a velocidade com que viaja para trás.",0
+ele não consegue perceber a velocidade com que viaja para trás.",0.0
 "each night he must
 be carried through artificial tunnels and dream recurrent dreams.
 just as the ties recur beneath his train, these underlie
@@ -555,7 +555,7 @@ seu cérebro em fuga. ele não ousa olhar pela janela,
 pois o terceiro trilho, o sopro ininterrupto de veneno,
 corre ali ao lado. ele o considera uma doença
 que herdou a suscetibilidade para. ele precisa manter
-suas mãos nos bolsos, assim como outros usam cachecóis.",-1
+suas mãos nos bolsos, assim como outros usam cachecóis.",0.0
 "if you catch him,
 hold up a flashlight to his eye. it’s all dark pupil,
 an entire night itself, whose haired horizon tightens
@@ -577,7 +577,7 @@ enquanto ele encara, e fecha o olho. Daí das pálpebras
 uma lágrima, sua única posse, como a picada da abelha, escapa.
 Astuto, ele a palma, e se não estiver atento
 ele a engole. Entretanto, se observar, ele a entregará,
-tão fria quanto das nascentes subterrâneas e pura o suficiente para beber.",-1
+tão fria quanto das nascentes subterrâneas e pura o suficiente para beber.",-1.0
 "earliest morning, switching all the tracks
 that cross the sky from cinder star to star,
 coupling the ends of streets
@@ -646,7 +646,7 @@ em céus de vidro de água
 de pequenas contas de ferro e cristais de cobre fundidos,
 o pequeno jardim químico em um frasco
 treme e se levanta novamente,
-pálido azul, azul-esverdeado, e tijolo.)",-1
+pálido azul, azul-esverdeado, e tijolo.)",-1.0
 "the sparrows hurriedly begin their play.
 then, in the west, “boom!” and a cloud of smoke.
 “boom!” and the exploding ball
@@ -752,7 +752,7 @@ que a imagem da cidade
 surge em seus olhos abertos inversa
 e distorcida. Não. Melhor dizendo:
 distorcida e revelada,
-se é que ele a vê de fato.",0
+se é que ele a vê de fato.",0.0
 "at six o’clock we were waiting for coffee,
 waiting for coffee and the charitable crumb
 that was going to be served from a certain balcony,
@@ -903,7 +903,7 @@ pela manhã, instalo-me na sacada,
 pés para o alto, e bebo litros de café.
 Engolimos a migalha e a gota de café.
 Além do rio, uma janela refletia o sol
-como se o milagre estivesse em outra sacada.",0
+como se o milagre estivesse em outra sacada.",0.0
 "i dreamed that dead, and meditating,
 i lay upon a grave, or bed,
 (at least, some cold and close-built bower).
@@ -1069,7 +1069,7 @@ neste coração partido?
 Ela ergueu a cabeça molhada
 (com meus próprios pensamentos?)
 e disse: Cresço, para partir
-teu coração outra vez.",1
+teu coração outra vez.",-1.0
 "he sleeps on the top of a mast
 with his eyes fast closed.
 the sails fall away below him
@@ -1148,7 +1148,7 @@ com os olhos bem apertados.
 A gaivota investigou seu sonho,
 que era assim: ""Não posso cair.
 O mar cintilante quer me ver cair.
-É duro como diamante; ele nos quer destruir.""",0
+É duro como diamante; ele nos quer destruir.""",0.0
 "now can you see the monument? it is of wood
 built somewhat like a box. no. built
 like several boxes in descending sizes
@@ -1248,7 +1248,7 @@ cacos de sol, nuvens de longas fibras.
 ""Por que não faz barulho esse oceano estranho?
 É porque estamos longe?
 Onde é que estamos? Na Ásia Menor,
-ou na Mongólia?""",-1
+ou na Mongólia?""",-1.0
 "an ancient promontory,
 an ancient principality whose artist-prince
 might have wanted to build a monument
@@ -1385,7 +1385,7 @@ o que está dentro (e que, afinal,
 certamente não era mesmo para ser visto).
 é o princípio de uma pintura,
 uma escultura, ou poema, ou monumento,
-e é todo de madeira. observe-o com atenção.",-1
+e é todo de madeira. observe-o com atenção.",-1.0
 "i make a trip to each clock in the apartment:
 some hands point histrionically one way
 and some point others, from the ignorant faces.
@@ -1410,7 +1410,7 @@ tanto que os dias são jornadas ao redor dos subúrbios,
 círculos ao redor das estrelas, círculos se sobrepondo.
 a curta, meio-tom escala dos climas de inverno
 é uma asa de pombo espalhada.
-o inverno vive sob a asa de um pombo, uma asa morta com penas molhadas.",-1
+o inverno vive sob a asa de um pombo, uma asa morta com penas molhadas.",0.0
 "look down into the courtyard. all the houses
 are built that way, with ornamental urns
 set on the mansard roof-tops where the pigeons
@@ -1450,7 +1450,7 @@ De quatro ou cinco andares, resistindo à primavera
 Como um forte de areia resiste à maré,
 Muralhas que em vez de dissolver-se
 Formassem uma corrente sólida de pedra,
-Agora amarelada, como estas.",0
+Agora amarelada, como estas.",0.0
 "where is the ammunition, the piled-up balls
 with the star-splintered hearts of ice?
 this sky is no carrier-warrior-pigeon
@@ -1478,7 +1478,7 @@ as urnas capturaram suas cinzas ou suas penas.
 quando a estrela se dissolveu, ou foi capturada
 pela sequência de quadrados e círculos, círculos?
 os relógios podem dizer; está lá embaixo,
-prestes a cair na neve?",-1
+prestes a cair na neve?",0.0
 "each barge on the river easily tows
 a mighty wake,
 a giant oak-leaf of gray lights
@@ -1548,7 +1548,7 @@ seu encontro.
 ""se o que vemos pudesse nos esquecer com tanta facilidade,""
 quero lhe dizer,
 ""como se esquece a si mesmo — mas da vida não nos livraremos
-dos fósseis das folhas.""",0
+dos fósseis das folhas.""",-1.0
 "it is so peaceful on the ceiling!
 it is the place de la concorde.
 the little crystal chandelier
@@ -1591,7 +1591,7 @@ devemos ir sob o papel de parede
 para encontrar o gladiador-inseto,
 para batalhar com rede e tridente,
 e deixar a fonte e a praça.
-mas oh, que poderíamos dormir lá...",0
+mas oh, que poderíamos dormir lá...",0.0
 "across the floor flits the mechanical toy,
 fit for a king of several centuries back.
 a little circus horse with real white hair.
@@ -1664,7 +1664,7 @@ A dançarina, nesta pose, está de costas.
 O cavalo é o mais arguto dos dois.
 Entreolhamo-nos, com certo desespero,
 e dizemos depois:
-""É, até aqui chegamos nós dois.""",-1
+""É, até aqui chegamos nós dois.""",-1.0
 "the state with the prettiest name,
 the state that floats in brackish water,
 held together by mangrove roots
@@ -1749,7 +1749,7 @@ pectinas iridescentes e orelhas-de-moças,
 dispostas como num trapo de chita podre,
 a saia da princesa índia enterrada;
 com elas a linha da costa, monótona, infinita, curvada,
-é delicadamente ornada.",0
+é delicadamente ornada.",0.0
 "thirty or more buzzards are drifting down, down, down,
 over something they have spotted in the swamp,
 in circles like stirred-up flakes of sediment
@@ -1804,7 +1804,7 @@ após o crepúsculo, as poças parecem ter escorregado.
 o jacaré, que tem cinco chamados distintos:
 amizade, amor, acasalamento, guerra, e um aviso —
 geme e fala na garganta
-da princesa índia.",0
+da princesa índia.",0.0
 "at four o’clock
 in the gun-metal blue dark
 we hear the first crow of the first cock
@@ -1865,7 +1865,7 @@ suas esposas agitadas admiram,
 os galos firmam seus pés cruéis e encaram
 com olhos estúpidos
 enquanto de seus bicos sobem
-os gritos tradicionais, descontrolados.",0
+os gritos tradicionais, descontrolados.",0.0
 "deep from protruding chests
 in green-gold medals dressed,
 planned to command and terrorize the rest,
@@ -1935,7 +1935,7 @@ ouro de petróleo e verdes de cobre,
 azuis antracitos, alizarinas,
 cada um um deslocamento ativo
 na perspectiva;
-cada um gritando, ""aqui é onde eu vivo!""",0
+cada um gritando, ""aqui é onde eu vivo!""",0.0
 "each screaming
 “get up! stop dreaming!”
 roosters, what are you projecting?
@@ -2005,7 +2005,7 @@ aos pares eles lutam entre si.
 cai uma primeira pena-chama,
 e um está voando,
 com heroísmo furioso desafiando
-até a sensação de morrer.",-1
+até a sensação de morrer.",0.0
 "and one has fallen,
 but still above the town
 his torn-out, bloodied feathers drift down;
@@ -2066,7 +2066,7 @@ poderia unir tudo
 num pequeno quadro, passado e futuro:
 cristo está espantado,
 pedro, dois dedos erguidos
-a lábios surpresos, ambos como que atônitos.",-1
+a lábios surpresos, ambos como que atônitos.",-1.0
 "but in between
 a little cock is seen
 carved on a dim column in the travertine
@@ -2143,7 +2143,7 @@ que até o príncipe dos apóstolos já fora
 perdoadopara convencer
 toda a assembleia
 que ""negue negue negue""
-não é tudo o que os galos gritam.",-1
+não é tudo o que os galos gritam.",0.0
 "in the morning
 a low light is floating
 in the backyard, and gilding
@@ -2186,7 +2186,7 @@ como linhas errantes no mármore.
 os galos agora quase inaudíveis.
 o sol penetra,
 seguindo ""para ver o fim"",
-fiel como inimigo, ou amigo.",0
+fiel como inimigo, ou amigo.",0.0
 "think of the storm roaming the sky uneasily
 like a dog looking for a place to sleep in,
 listen to it growling.
@@ -2247,7 +2247,7 @@ de pequenas, mal iluminadas cenas de batalha,
 cada uma em ""outra parte do campo"".
 pense em alguém dormindo no fundo de um barco
 amarrado a uma raiz de mangue ou a um pilar de ponte;
-pense nele como ilesos, pouco perturbado.",0
+pense nele como ilesos, pouco perturbado.",0.0
 "i caught a tremendous fish
 and held him beside the boat
 half out of water, with my hook
@@ -2308,7 +2308,7 @@ finas rosetas de limo,
 e infestado
 de pequenos crustáceos brancos,
 e embaixo, pendiam dois ou três
-tiras de alga verde.",0
+tiras de alga verde.",-1.0
 "while his gills were breathing in
 the terrible oxygen
 — the frightening gills,
@@ -2375,7 +2375,7 @@ de antigos vidros arranhados.
 eles se moveram um pouco, mas não
 para retribuir meu olhar.
 — era mais como o inclinar
-de um objeto em direção à luz.",0
+de um objeto em direção à luz.",-1.0
 "i admired his sullen face,
 the mechanism of his jaw,
 and then i saw
@@ -2469,7 +2469,7 @@ os assentos rachados pelo sol,
 os suportes de remo em suas cordas,
 os costados — até tudo
 ser arco-íris, arco-íris, arco-íris!
-e eu deixei o peixe ir.",0
+e eu deixei o peixe ir.",-1.0
 "from a magician’s midnight sleeve
 the radio-singers
 distribute all their love-songs
@@ -2503,7 +2503,7 @@ melhores testemunhas
 para o amor nas noites de verão.
 cinco luzes vermelhas distantes
 guardam seus ninhos; fênix
-queimando silenciosamente, onde o orvalho não pode subir.",0
+queimando silenciosamente, onde o orvalho não pode subir.",0.0
 "cootchie, miss lula’s servant, lies in marl,
 black into white she went
 below the surface of the coral-reef.
@@ -2555,7 +2555,7 @@ Mas quem há de gritar para que ela ouça?
 Varrendo terra e mar em busca de outro alguém,
 O farol vai dar com Cootchie em sua cova funda
 E ignorá-la, por trivial; desesperado, o mar
-Há de ofertar onda após onda.",0
+Há de ofertar onda após onda.",0.0
 "a washing hangs upon the line,
 but it’s not mine.
 none of the things that i can see
@@ -2630,7 +2630,7 @@ Le Roy responde com um franzir:
 ""Querida, quanto ganho, tanto gasto.
 O mundo é vasto; ainda se expande...
 Vou arrumar um trabalho na próxima cidade.""
-Le Roy, você ganha demais agora.",0
+Le Roy, você ganha demais agora.",0.0
 "the time has come to call a halt;
 and so it ends.
 he’s gone off with his other friends.
@@ -2712,7 +2712,7 @@ Agora não dá mais; ah, tenha dó.
 Peguei emprestado o dinheiro da passagem
 E vou embarcar numa longa viagem.
 Pois dessa vez a culpa é dele só.
-Agora não dá mais, ah, tenha dó!",0
+Agora não dá mais, ah, tenha dó!",-1.0
 "lullaby.
 adult and child
 sink to their rest.
@@ -2790,7 +2790,7 @@ canção de ninar.
 adulto e criança
 descem ao repouso.
 no mar o grande navio afunda e morre,
-chumbo no seu peito.",0
+chumbo no seu peito.",0.0
 "what’s that shining in the leaves,
 the shadowy leaves,
 like tears when somebody grieves,
@@ -2884,7 +2884,7 @@ cada semente vira um rosto.
 Como um exército num sonho
 estranho e medonho,
 rostos negros, como num sonho.
-É real demais para ser sonho.",0
+É real demais para ser sonho.",-1.0
 "each day with so much ceremony
 begins, with birds, with bells,
 with whistles from a factory;
@@ -2924,7 +2924,7 @@ aparece e assume sua natureza terrena
 instantaneamente, instantaneamente cai
 vítima de longa intriga,
 assumindo memória e mortal
-mortal fadiga.",-1
+mortal fadiga.",0.0
 "more slowly falling into sight
 and showering into stippled faces,
 darkening, condensing all his light;
@@ -2964,7 +2964,7 @@ que, cansado, sem lâmpada ou livro
 prepara estupendos estudos:
 o evento ígneo
 de cada dia em interminável
-interminável assentimento.",0
+interminável assentimento.",-1.0
 "a cold spring:
 the violet was flawed on the lawn.
 for two weeks or more the trees hesitated;
@@ -3025,7 +3025,7 @@ a dogwood esverdeada infiltrou-se na mata,
 cada pétala queimada, aparentemente, por um bituca;
 e o redbud embaçado ficou
 ao lado, imóvel, mas quase mais
-como movimento do que qualquer cor identificável.",0
+como movimento do que qualquer cor identificável.",0.0
 "four deer practised leaping over your fences.
 the infant oak-leaves swung through the sober oak.
 song-sparrows were wound up for the summer,
@@ -3105,7 +3105,7 @@ Pairando todos na mesma altura,
 — Mais tarde sobem bem mais alto.
 E teus pastos sombrios poderão oferecer
 Esses exatos tributos luminosos
-A cada entardecer, por todo o verão.",0
+A cada entardecer, por todo o verão.",0.0
 "thus should have been our travels:
 serious, engravable.
 the seven wonders of the world are tired
@@ -3196,7 +3196,7 @@ Traçadas a buril, linhas que se separam
 Como círculos na água sobre areia,
 Dispersando tormentas, a impressão digital de Deus,
 E laboriosamente, ao fim, se incendeiam
-Em azul-e-branco aguado, iridescente.",-1
+Em azul-e-branco aguado, iridescente.",0.0
 "entering the narrows at st. johns
 the touching bleat of goats reached to the ship.
 we glimpsed them, reddish, leaping up the cliffs
@@ -3293,7 +3293,7 @@ coberta de relevos admonitórios,
 amarelados e esparsos, como dentes de boi;
 cheio até a metade de pó, mas não o pó
 do pobre profeta maometano original.
-Elegante, de albornoz, Khadour sorria, irônico.",0
+Elegante, de albornoz, Khadour sorria, irônico.",0.0
 "everything only connected by “and” and “and.”
 open the book. (the gilt rubs off the edges
 of the pages and pollinates the fingertips.)
@@ -3321,7 +3321,7 @@ esta antiga natividade enquanto estávamos a isso?
 uma chama imóvel, inalada,
 incolor, sem faíscas, livremente nutrida de palha,
 e, embalada dentro, uma família com animais,
-— e olhamos e olhamos nossa visão infantil se desfazer.",0
+— e olhamos e olhamos nossa visão infantil se desfazer.",0.0
 "at low tide like this how sheer the water is.
 white, crumbling ribs of marl protrude and glare
 and the boats are dry, the pilings dry as matches.
@@ -3455,7 +3455,7 @@ Um contra o outro, ou de lado esmagados, aguardam conserto,
 Como cartas não respondidas, envelopes abertos desde a tormenta.
 A baía, de correspondência antiga, está coberta.
 Taque, taque, a draga traz marga a respingar à tona.
-A atividade confusa prossegue, medonha, mas animada.",0
+A atividade confusa prossegue, medonha, mas animada.",0.0
 "to the sagging wharf
 few ships could come.
 the population numbered
@@ -3561,7 +3561,7 @@ e o colchão de penas, estreito.
 no escuro, a gente acordava
 com o riacho sonâmbulo
 que, desaguando no mar,
-em voz alta, ainda sonhava.",0
+em voz alta, ainda sonhava.",0.0
 "although it is a cold evening,
 down by one of the fishhouses
 an old man sits netting,
@@ -3634,7 +3634,7 @@ Os grandes tanques para peixes estão completamente revestidos
 com camadas de lindas escamas de arenque
 e os carrinhos de mão estão igualmente cobertos
 com cremosas e iridescentes couraças,
-com pequenas moscas iridescentes rastejando sobre eles.",0
+com pequenas moscas iridescentes rastejando sobre eles.",-1.0
 "up on the little slope behind the houses,
 set in the sparse bright sprinkle of grass,
 is an ancient wooden capstan,
@@ -3677,7 +3677,7 @@ enquanto espera o retorno de uma traineira de arenque.
 Há lantejoulas em seu colete e no dedo polegar.
 Ele raspou as escamas, a principal beleza,
 de incontáveis peixes com essa velha faca negra,
-cuja lâmina está quase gasta.",0
+cuja lâmina está quase gasta.",-1.0
 "down at the water’s edge, at the place
 where they haul up the boats, up the long ramp
 descending into the water, thin silver
@@ -3692,7 +3692,7 @@ com intervalos de um metro e meio.",en_XX,pt_XX,"À beira d'água, onde se arras
 pela rampa longa que ao rio se entrega,
 troncos finos de prata, horizontalmente,
 sobre pedras cinzentas, descem, descem,
-com intervalos de quatro ou cinco pés.",0
+com intervalos de quatro ou cinco pés.",-1.0
 "cold dark deep and absolutely clear,
 element bearable to no mortal,
 to fish and to seals... one seal particularly
@@ -3804,7 +3804,7 @@ escura, salgada, límpida, fluindo, totalmente livre,
 colhida na boca fria e dura
 do mundo, emanada dos seios rochosos
 para sempre, fluindo e colhida, e como
-nosso saber é histórico, fluido e fugaz.",0
+nosso saber é histórico, fluido e fugaz.",0.0
 "out on the high “bird islands,” ciboux and hertford,
 the razorbill auks and the silly-looking puffins all stand
 with their backs to the mainland
@@ -3841,7 +3841,7 @@ desaparecendo sob a névoa em todas as direções igualmente,
 levantada e penetrada de vez em quando
 por um pescoço de cobra pingando de um shag,
 e em algum lugar a névoa incorpora o pulso,
-rápido, mas não urgente, de uma lancha.",0
+rápido, mas não urgente, de uma lancha.",-1.0
 "the same mist hangs in thin layers
 among the valleys and gorges of the mainland
 like rotting snow-ice sucked away
@@ -3866,7 +3866,7 @@ entre dobras e dobras de abeto: abeto e hackmataque—
 cores de pavão opacas, mortas, profundas,
 cada elevação distinguida da próxima
 por uma borda irregular nervosa de serra,
-iguais, mas certas como uma visão estereoscópica.",0
+iguais, mas certas como uma visão estereoscópica.",-1.0
 "the wild road clambers along the brink of the coast.
 on it stand occasional small yellow bulldozers,
 but without their drivers, because today is sunday.
@@ -3916,7 +3916,7 @@ como admiráveis escrituras gravadas em pedras por pedras —
 e essas regiões agora têm pouco a dizer por si mesmas
 exceto em milhares de canções de pássaros-ruivos flutuando livremente,
 desapaixonadamente, através da névoa, e entrelaçando-se
-em redes de pesca marrom-molhadas, finas e rompidas.",0
+em redes de pesca marrom-molhadas, finas e rompidas.",0.0
 "a small bus comes along, in up-and-down rushes,
 packed with people, even to its step.
 (on weekdays with groceries, spare automobile parts, and pump parts,
@@ -3950,7 +3950,7 @@ do poste rústico coroado com maçaneta de louça branca.
 ele para e um homem com um bebê desce,
 escalando um portão, segue por um pequeno prado íngreme,
 que estabelece sua pobreza numa nevasca de margaridas,
-até sua casa invisível à beira da água.",-1
+até sua casa invisível à beira da água.",0.0
 "the birds keep on singing, a calf bawls, the bus starts.
 the thin mist follows
 the white mutations of its dream;
@@ -3960,7 +3960,7 @@ as alvas mutações de seu sonho;
 um frio antigo faz tremer os riachos escuros.",en_XX,pt_XX,"Os pássaros continuam cantando, um bezerro berra, o ônibus parte.
 A fina névoa segue
 as brancas mutações de seu sonho;
-um antigo frio se espalha pelos córregos sombrios.",-1
+um antigo frio se espalha pelos córregos sombrios.",-1.0
 "the moon in the bureau mirror
 looks out a million miles
 (and perhaps with pride, at herself,
@@ -4012,7 +4012,7 @@ onde esquerda é sempre direita,
 onde as sombras são o corpo de verdade,
 onde ficamos acordados a noite toda,
 onde os céus são rasos como o mar
-agora é fundo, e você me ama.",-1
+agora é fundo, e você me ama.",-1.0
 "the brown enormous odor he lived by
 was too close, with its breathing and thick hair,
 for him to judge. the floor was rotten; the sty
@@ -4052,7 +4052,7 @@ mas às vezes, manhãs após bebedeiras
 o nascer do sol dourava a lama do curral de vermelho;
 as poças em chamas pareciam confortar.
 e então ele pensava que talvez pudesse suportar
-seu exílio mais um ano ou mais.",0
+seu exílio mais um ano ou mais.",0.0
 "but evenings the first star came to warn.
 the farmer whom he worked for came at dark
 to shut the cows and horses in the barn
@@ -4092,7 +4092,7 @@ levando um balde ao longo de uma prancha viscosa,
 sentia o voo incerto e vacilante dos morcegos,
 suas percepções arrepiantes, fora de controle,
 tocando-o. mas levou um longo tempo
-finalmente para decidir voltar para casa.",-1
+finalmente para decidir voltar para casa.",0.0
 "at night the factories
 struggle awake,
 wretched uneasy buildings
@@ -4189,7 +4189,7 @@ recua da fuligem
 e os odores infelizes
 nos aproximam.
 E eu te vendo, te vendo,
-te vendo, claro, meu bem, e tu me vendes.",-1
+te vendo, claro, meu bem, e tu me vendes.",-1.0
 "i / conversation
 the tumult in the heart
 keeps asking questions.
@@ -4226,7 +4226,7 @@ meio sem querer.
 e então não há escolha,
 e então não há sentido;
 até que um nome
-e todas as suas conotações sejam iguais.",-1
+e todas as suas conotações sejam iguais.",-1.0
 "ii / rain towards morning
 the great light cage has broken up in the air,
 freeing, i think, about a million birds
@@ -4254,7 +4254,7 @@ sem gaiola, sem aves assustadoras; a chuva
 agora se ilumina. o rosto está pálido
 que tentou o enigma de sua prisão
 e o resolveu com um beijo inesperado,
-cujas manchadas mãos inesperadas pousaram.",0
+cujas manchadas mãos inesperadas pousaram.",0.0
 "iii / while someone telephones
 wasted, wasted minutes that couldn’t be worse,
 minutes of a barbaric condescension.
@@ -4297,7 +4297,7 @@ emerge, algum estranho relaxado, sem condescendência,
 a libertação do coração.
 e enquanto as vaga-lumes
 falham em iluminar essas árvores de pesadelo
-não poderiam ser seus olhos verdes e alegres?",0
+não poderiam ser seus olhos verdes e alegres?",0.0
 "iv / o breath
 beneath that loved and celebrated breast;
 silent, bored really blindly veined,
@@ -4344,7 +4344,7 @@ equívoco, mas o que temos em comum deve estar lá,
 seja o que for que devamos possuir como equivalentes,
 algo com que talvez eu possa negociar
 e fazer uma paz separada sob,
-dentro se nunca com.",1
+dentro se nunca com.",1.0
 "from brooklyn, over the brooklyn bridge, on this fine morning,
 please come flying.
 in a cloud of fiery pale chemicals,
@@ -4411,7 +4411,7 @@ Uma trilha cor de safira,
 A capa cheia de asas de borboleta e blagues,
 E só Deus sabe quantos anjos encarapitados
 Na aba negra e larga do chapéu,
-Vem voando.",0
+Vem voando.",0.0
 "bearing a musical inaudible abacus,
 a slight censorious frown, and blue ribbons,
 please come flying.
@@ -4514,7 +4514,7 @@ venha como uma luz no alvo céu de ovelhas,
 como um cometa à luz do dia
 com uma cauda longa de palavras nem um pouco nebulosas,
 do brooklyn, por sobre a ponte do brooklyn, nesta manhã tão bela,
-venha vindo, vindo, voando.",0
+venha vindo, vindo, voando.",0.0
 "the still explosions on the rocks,
 the lichens, grow
 by spreading, gray, concentric shocks.
@@ -4566,7 +4566,7 @@ em brilhante formação
 estão afluindo para onde,
 tão retas, tão cedo?
 — vem, deixa-me lavá-las nesta grande bacia de lata,
-amassada e brilhante como a lua.",0
+amassada e brilhante como a lua.",-1.0
 "here is a coast; here is a harbor;
 here, after a meager diet of horizon, is some scenery:
 impractically shaped and — who knows? — self-pitying mountains,
@@ -4633,7 +4633,7 @@ Tal como cédulas e moedas — claro que sim.
 E agora, cautelosas, descemos de costas a escada,
 Eu e uma outra passageira, Miss Breen,
 Num cais onde vinte e seis cargueiros aguardam
-Um carregamento de café que não tem mais fim.",0
+Um carregamento de café que não tem mais fim.",0.0
 "please, boy, do be more careful with that boat hook!
 watch out! oh! it has caught miss breen’s
 skirt! there! miss breen is about seventy,
@@ -4685,7 +4685,7 @@ De nossos cartões-postais antes que possam lê-los
 Nossos destinatários, ou porque a cola daqui
 É muito ordinária, ou então por causa do calor.
 Partimos de Santos imediatamente;
-Vamos de carro para o interior.",0
+Vamos de carro para o interior.",0.0
 "januaries, nature greets our eyes
 exactly as she must have greeted theirs:
 every square inch filling in with foliage —
@@ -4728,7 +4728,7 @@ ali no ar — mais acima, nas folhas —
 roxo, amarelo, dois amarelos, rosa,
 vermelho enferrujado e branco esverdeado;
 sólidas, mas leves; frescas como acabadas de fazer
-e retiradas do quadro.",0
+e retiradas do quadro.",0.0
 "a blue-white sky, a simple web,
 backing for feathery detail:
 brief arcs, a pale-green broken wheel,
@@ -4790,7 +4790,7 @@ por trepadeiras escada-de-ladder, oblíquas e precisas,
 os lagartos mal respiram; todos os olhos
 estão na menor, fêmea, de costas,
 seu rabo perverso reto e sobre,
-vermelho como um fio quente.",0
+vermelho como um fio quente.",0.0
 "just so the christians, hard as nails,
 tiny as nails, and glinting,
 in creaking armor, came and found it all,
@@ -4838,7 +4838,7 @@ enlouquecidos, rasgaram a tapeçaria
 e cada um foi atrás de uma índia —
 aquelas mulherezinhas irritantes
 gritando uma para outra (ou foram as aves que acordaram?)
-e se embrenhando, se embrenhando no desenho.",-1
+e se embrenhando, se embrenhando no desenho.",0.0
 "there are too many waterfalls here; the crowded streams
 hurry too rapidly down to the sea,
 and the pressure of so many clouds on the mountaintops
@@ -4872,7 +4872,7 @@ em uma rápida era, como as aqui,
 provavelmente serão.
 mas se os rios e nuvens continuam viajando, viajando,
 as montanhas parecem cascos de navios virados,
-revestidos de limo e cracas.",0
+revestidos de limo e cracas.",-1.0
 "think of the long trip home.
 should we have stayed at home and thought of here?
 where should we be today?
@@ -4921,7 +4921,7 @@ instantaneamente vista e sempre, sempre deliciosa?
 oh, devemos sonhar nossos sonhos
 e tê-los, também?
 e teremos espaço
-para mais um pôr do sol dobrado, ainda quente?",1
+para mais um pôr do sol dobrado, ainda quente?",0.0
 "but surely it would have been a pity
 not to have seen the trees along this road,
 really exaggerated in their beauty,
@@ -5033,7 +5033,7 @@ que é em nosso quarto que devíamos ficar?
 continente, cidade, país: não é tão ampla
 a escolha, a liberdade, quanto se deseja.
 aqui, ali... não. teria sido melhor ficar em casa,
-onde quer que isso seja?""",0
+onde quer que isso seja?""",0.0
 "on the unbreathing sides of hills
 they play, a specklike girl and boy,
 alone, but near a specklike house.
@@ -5127,7 +5127,7 @@ as mansões que podem escolher
 fora de uma casa maior que a de vocês,
 cuja legitimidade perdura.
 seus documentos encharcados mantêm
-seus direitos em salas de chuva.",0
+seus direitos em salas de chuva.",0.0
 "[brazil. a friend of the writer is speaking.]
 half squatter, half tenant (no rent) —
 a sort of inheritance; white,
@@ -5189,7 +5189,7 @@ e compro mais libras de sementes para você,
 importadas, garantidas,
 e eventualmente você me traz
 uma mística cenoura de três pernas,
-ou uma abóbora ""maior que o bebê"".",0
+ou uma abóbora ""maior que o bebê"".",0.0
 "i watch you through the rain,
 trotting, light, on bare feet,
 up the steep paths you have made —
@@ -5273,7 +5273,7 @@ como se fosse um jardineiro
 em conto de fadas todo esse tempo
 e ao ouvir ""batatas""
 tivesse desaparecido para retomar
-seu trabalho de príncipe encantado em algum lugar.",0
+seu trabalho de príncipe encantado em algum lugar.",0.0
 "the strangest things happen, to you.
 your cow eats a “poison grass”
 and drops dead on the spot.
@@ -5406,7 +5406,7 @@ as cifras chegam a milhões.
 contas? que contas? são sonhos.
 na cozinha sonhamos juntos
 que os mansos possuirão a terra —
-ou vários hectares dos meus.",0
+ou vários hectares dos meus.",0.0
 "with blue sugar bags on their heads,
 carrying your lunch,
 your children scuttle by me
@@ -5556,7 +5556,7 @@ amo tanto quanto posso,
 acho que sim. ou não?
 tiro meu chapéu, sem pintura
 e figurativo, para vocês.
-mais uma vez prometo tentar.",0
+mais uma vez prometo tentar.",0.0
 "hidden, oh hidden
 in the high fog
 the house we live in,
@@ -5644,7 +5644,7 @@ cinco vezes — sempre cinco —
 ele carimba e decola
 após os sapos gordos que,
 gritando por amor,
-escalando e montando.",0
+escalando e montando.",0.0
 "house, open house
 to the white dew
 and the milk-white sunrise
@@ -5732,7 +5732,7 @@ e a alta névoa se vão;
 os corujas partirão
 e as várias
 cachoeiras murcham
-no sol constante.",0
+no sol constante.",0.0
 "this is the time of year
 when almost every night
 the frail, illegal fire balloons appear.
@@ -5790,7 +5790,7 @@ os espetos das pipas do cruzeiro do sul,
 recedendo, diminuindo, solenemente
 e firmemente nos abandonando,
 ou, na corrente descendente de um pico,
-repentinamente se tornando perigosos.",-1
+repentinamente se tornando perigosos.",0.0
 "last night another big one fell.
 it splattered like an egg of fire
 against the cliff behind the house.
@@ -5848,7 +5848,7 @@ com olhos fixos e incendiados.
 tão lindo, mimetismo onírico!
 ó queda de fogo e grito penetrante
 e pânico, e um frágil punho encouraçado
-cerrado ignorante contra o céu!",0
+cerrado ignorante contra o céu!",0.0
 "[a man in a remote amazonian village decides to become a sacaca, a witch
 doctor who works with water spirits. the river dolphin is believed to have
 supernatural powers; luandinha is a river spirit associated with the moon;
@@ -5867,7 +5867,7 @@ Luandinha, divindade lunar, nos rios vagueia serena.
 O pirarucú, peixe colossal, quatrocentos libras pesa,
 Nas águas amazônicas, lendas e mistérios se entrelaçam.
 Este feiticeiro, com sabedoria ancestral, se enlaça,
-Às águas e espíritos, seu destino agora se entrega.",0
+Às águas e espíritos, seu destino agora se entrega.",0.0
 "i got up in the night
 for the dolphin spoke to me.
 he grunted beneath my window;
@@ -5958,7 +5958,7 @@ Olhei para trás, na direção da casa,
 branca como uma peça de roupa
 esquecida na margem,
 e pensei por um instante na esposa,
-mas sabia o que estava fazendo.",0
+mas sabia o que estava fazendo.",-1.0
 "they gave me a shell of cachaça
 and decorated cigars.
 the smoke rose like mist
@@ -6001,7 +6001,7 @@ em elegante cetim branco,
 com seus grandes olhos verdes e dourados
 como as luzes dos vapores do rio —
 sim, Luandinha, nenhuma outra —
-entrou e me saudou.",0
+entrou e me saudou.",0.0
 "she complimented me
 in a language i didn’t know;
 but when she blew cigar smoke
@@ -6032,7 +6032,7 @@ mostraram-me sala após sala
 e me levaram daqui a belém
 e de volta num instante.
 na verdade, não sei onde fui,
-mas milhas, sob o rio.",-1
+mas milhas, sob o rio.",0.0
 "three times now i’ve been there.
 i don’t eat fish any more.
 there is fine mud on my scalp
@@ -6081,7 +6081,7 @@ mas levará anos de estudo,
 tudo é tão difícil.
 Me deram um chocalho manchado
 e um galho de coral pálido-esverdeado
-e algumas ervas especiais como fumaça.",-1
+e algumas ervas especiais como fumaça.",-1.0
 "(they´re under my canoe.)
 when the moon shines on the river,
 oh, faster than you can think it
@@ -6121,7 +6121,7 @@ três vezes já fui convidado.
 seus aposentos cintilam
 como prata sob a luz,
 um feixe constante de claridade
-como no cinema.",-1
+como no cinema.",-1.0
 "i need a virgin mirror
 no one’s ever looked at,
 that’s never looked back at anyone,
@@ -6158,7 +6158,7 @@ Um vizinho olhava por cima do meu ombro
 E então aquele estava estragado —
 Estragado, isto é, para tudo
 Menos para as meninas olharem suas bocas,
-Para examinarem seus dentes e sorrisos.",-1
+Para examinarem seus dentes e sorrisos.",1.0
 "why shouldn’t i be ambitious?
 i sincerely desire to be
 a serious sacaca
@@ -6246,7 +6246,7 @@ ligando e desligando e ligando.
 O rio respira em sal
 e respira de novo,
 e tudo é doçura lá
-no profundo e encantado limo.",0
+no profundo e encantado limo.",0.0
 "when the moon burns white
 and the river makes that sound
 like a primus pumped up high —
@@ -6325,7 +6325,7 @@ e a suga como uma criança,
 então eu irei trabalhar
 para trazer saúde e dinheiro.
 o golfinho me escolheu;
-luandinha corroborou.",0
+luandinha corroborou.",-1.0
 "on the fair green hills of rio
 there grows a fearful stain:
 the poor who come to rio
@@ -6389,7 +6389,7 @@ e a colina do esqueleto,
 a colina do espanto,
 e a colina de babilônia.
 micuçú era ladrão e assassino,
-inimigo da sociedade.",0
+inimigo da sociedade.",0.0
 "he had escaped three times
 from the worst penitentiary.
 they don’t know how many he murdered
@@ -6459,7 +6459,7 @@ eu vou correr enquanto puder.
 você foi boa comigo, e eu te amo,
 mas sou um homem condenado.""
 saindo, ele encontrou uma mulata
-carregando água na cabeça.",-1
+carregando água na cabeça.",-1.0
 "“if you say you saw me, daughter,
 you’re just as good as dead.”
 there are caves up there, and hideouts,
@@ -6529,7 +6529,7 @@ que ele via seu pescoço nu.
 Ele agitava os braços e gritava:
 ""ainda não, meu filho, ainda não!""
 Um helicóptero do exército
-veio farejando e entrando.",0
+veio farejando e entrando.",-1.0
 "he could see two men inside it,
 but they never spotted him.
 the soldiers were all over,
@@ -6605,7 +6605,7 @@ e seus filhos ao governador.
 eles correram e pegaram um padre,
 e ele morreu na esperança do céu
 — um homem de pernambuco,
-o mais jovem de onze.",-1
+o mais jovem de onze.",-1.0
 "they wanted to stop the search,
 but the army said, “no, go on,’’
 so the soldiers swarmed again
@@ -6675,7 +6675,7 @@ pois sabia que ele selava seu destino.
 ele viu as longas praias brancas
 e as pessoas indo nadar,
 com toalhas e sombrinhas,
-mas os soldados estavam atrás dele.",-1
+mas os soldados estavam atrás dele.",-1.0
 "far, far below, the people
 were little colored spots,
 and the heads of those in swimming
@@ -6733,7 +6733,7 @@ entre antenas de tv.
 era cedo, oito ou oito e meia.
 ele viu um soldado subir,
 olhando bem para ele. ele atirou,
-e errou pela última vez.",0
+e errou pela última vez.",0.0
 "he could hear the soldier panting,
 though he never got very near.
 micuçú dashed for shelter.
@@ -6809,7 +6809,7 @@ sua irmã tem um emprego.
 ambas lhe demos dinheiro.
 por que teve que roubar?""
 ""o criei para ser honesto,
-até aqui, no bairro de babilônia.""",-1
+até aqui, no bairro de babilônia.""",-1.0
 "the customers had another,
 looking serious and glum.
 but one of them said to another,
@@ -6873,7 +6873,7 @@ e não podem voltar mais.
 há o morro do querosene,
 e o morro do esqueleto,
 o morro da admiração,
-e o morro da babilônia.",0
+e o morro da babilônia.",-1.0
 "september rain falls on the house.
 in the failing light, the old grandmother
 sits in the kitchen with the child
@@ -6988,7 +6988,7 @@ para a canteiro de flores que a criança
 cuidadosamente colocou na frente da casa.
 Tempo de plantar lágrimas, diz o almanaque.
 A avó canta para o maravilhoso fogão
-e a criança desenha outra casa indecifrável.",0
+e a criança desenha outra casa indecifrável.",-1.0
 "in the cold, cold parlor
 my mother laid out arthur
 beneath the chromographs:
@@ -7075,7 +7075,7 @@ para pôr na mão de arthur.
 o caixão de arthur era
 um bolo levemente congelado,
 e o corvo de olhos vermelhos o encarava
-de seu lago de mármore congelado.",0
+de seu lago de mármore congelado.",-1.0
 "arthur was very small.
 he was all white, like a doll
 that hadn’t been painted yet.
@@ -7133,7 +7133,7 @@ o menor pajem da corte.
 Mas como Arthur iria,
 segurando sua pequena lírio,
 com seus olhos fechados tão forte
-e as estradas cobertas de neve?",0
+e as estradas cobertas de neve?",-1.0
 "oh, but it is dirty!
 — this little filling station,
 oil-soaked, oil-permeated
@@ -7190,7 +7190,7 @@ tem uma varanda de cimento
 atrás das bombas, e nela
 um conjunto de cadeiras esmagadas e gordurosas;
 sobre o móvel de vime
-um cachorro sujo, bem à vontade.",0
+um cachorro sujo, bem à vontade.",0.0
 "some comic books provide
 the only note of color —
 of certain color. they lie
@@ -7251,7 +7251,7 @@ arranja as fileiras de latas
 para que suavemente digam:
 esso—so—so—so
 aos automóveis nervosos.
-alguém nos ama a todos.",0
+alguém nos ama a todos.",0.0
 "the roaring alongside he takes for granted,
 and that every so often the world is bound to shake.
 he runs, he runs to the south, finical, awkward,
@@ -7309,7 +7309,7 @@ seu bico é focado; está ocupado,
 procurando algo, algo, algo.
 pobre ave, ele está obcecado!
 os milhões de grãos são negros, brancos, castanhos e cinzentos,
-misturados com grãos de quartzo, rosa e ametista.",0
+misturados com grãos de quartzo, rosa e ametista.",0.0
 "this is the house of bedlam.
 this is the man
 that lies in the house of bedlam.
@@ -7370,7 +7370,7 @@ alcançada pelo marinheiro
 usando o relógio
 que marca o tempo
 do velho, valente homem
-que jaz na casa de bedlam.",0
+que jaz na casa de bedlam.",-1.0
 "these are the years and the walls of the ward,
 the winds and clouds of the sea of board
 sailed by the sailor
@@ -7440,7 +7440,7 @@ do lunático marinheiro
 que ajusta seu relógio
 que marca o tempo
 do homem ocupado
-que jaz na casa de Bedlam.",0
+que jaz na casa de Bedlam.",-1.0
 "this is a boy that pats the floor
 to see if the world is there, is flat,
 for the widowed jew in the newspaper hat
@@ -7537,7 +7537,7 @@ com o marinheiro maluco
 que mostra seu relógio
 que conta o tempo
 do homem miserável
-que jaz na casa de Bedlam.",0
+que jaz na casa de Bedlam.",-1.0
 "instead of gazing at the sea
 the way she does on other nights,
 the moon looks down the avenida
@@ -7594,7 +7594,7 @@ nossa eletricidade racionada,
 os bolos redondos parecem prestes a desmaiar —
 cada um vira um olho branco e vidrado.
 as tortas pegajosas estão vermelhas e machucadas.
-compro, compro, o que devo comprar?",-1
+compro, compro, o que devo comprar?",-1.0
 "now flour is adulterated
 with cornmeal, the loaves of bread
 lie like yellow-fever victims
@@ -7664,7 +7664,7 @@ a atadura brilha, branca e fresca.
 dou-lhe sete centavos na minha
 terrível moeda, digo ""boa noite""
 por força do hábito. oh, maldito hábito!
-nenhuma palavra mais apropriada ou brilhante?",0
+nenhuma palavra mais apropriada ou brilhante?",0.0
 "the conversations are simple: about food,
 or, “when my mother combs my hair it hurts.’’
 “women.” “women!” women in red dresses
@@ -7701,7 +7701,7 @@ uma fonte, aqui onde o mundo ainda se detém.
 a água costumava jorrardas bocas
 de três faces de sabão verde de pedra. (uma face ria
 e uma face chorava; a do meio apenas olhava.
-reparadas com gesso, estão no museu.)",0
+reparadas com gesso, estão no museu.)",0.0
 "it runs now from a single iron pipe,
 a strong and ropy stream. “cold.” “cold as ice,”
 all have agreed for several centuries.
@@ -7817,7 +7817,7 @@ e sujas e sedentas.
 nas bordas da vala de água parada
 e cintila ou olha quebradamente,
 como pedaços de espelho — não, mais azul que isso:
-como retalhos da borboleta morfo.",-1
+como retalhos da borboleta morfo.",0.0
 "in worcester, massachusetts,
 i went with aunt consuelo
 to keep her dentist’s appointment
@@ -7890,7 +7890,7 @@ osa e martin johnson
 vestidos de calças de montaria,
 botas amarradas, e capacetes de pith.
 um morto pendurado em uma estaca
-— ""long pig"", dizia a legenda.",0
+— ""long pig"", dizia a legenda.",-1.0
 "babies with pointed heads
 wound round and round with string;
 black, naked women with necks
@@ -7972,7 +7972,7 @@ eu era minha tia tola,
 eu — nós — estávamos caindo, caindo,
 nossos olhos grudados na capa
 da national geographic,
-fevereiro, mil novecentos e dezoito.",-1
+fevereiro, mil novecentos e dezoito.",-1.0
 "i said to myself: three days
 and you’ll be seven years old.
 i was saying it to stop
@@ -8078,7 +8078,7 @@ palavra para isso — como ""improvável""...
 como vim parar aqui,
 como eles, e ouvir
 um grito de dor que poderia ter
-ficado alto e pior mas não ficou?",-1
+ficado alto e pior mas não ficou?",-1.0
 "the waiting room was bright
 and too hot. it was sliding
 beneath a big black wave,
@@ -8106,7 +8106,7 @@ a guerra estava em curso. fora,
 em worcester, massachusetts,
 era noite e lama e frio,
 e ainda era o dia cinco
-de fevereiro de mil novecentos e dezoito.",-1
+de fevereiro de mil novecentos e dezoito.",-1.0
 "a new volcano has erupted,
 the papers say, and last week i was reading
 where some ship saw an island being born:
@@ -8134,7 +8134,7 @@ surgiu nos binóculos do imediato
 e pousou no horizonte como uma mosca.
 deram-lhe nome. mas minha pobre ilha ainda jaz
 inexplorada, sem renome.
-nenhum livro jamais a acertou.",0
+nenhum livro jamais a acertou.",-1.0
 "well, i had fifty-two
 miserable, small volcanoes i could climb
 with a few slithery strides —
@@ -8186,7 +8186,7 @@ Ou dos gaivotas, ou das ondas sobrepostas
 — Um hexágono cintilante de ondas
 Se fechando e se fechando, mas nunca de todo,
 Cintilando e cintilando, embora o céu
-Estivesse majoritariamente nublado.",0
+Estivesse majoritariamente nublado.",-1.0
 "my island seemed to be
 a sort of cloud-dump. all the hemisphere’s
 left-over clouds arrived and hung
@@ -8262,7 +8262,7 @@ de branco revolvido.
 chaminés de vidro, flexíveis, alongadas,
 seres sacerdotais de vidro... eu observava
 a água girar em espiral nelas como fumaça.
-belas, sim, mas não muito companheiras.",0
+belas, sim, mas não muito companheiras.",-1.0
 "i often gave way to self-pity.
 “do i deserve this? i suppose i must.
 i wouldn’t be here otherwise. was there
@@ -8365,7 +8365,7 @@ Caseiro, caseiro! Mas não somos todos?
 Sentia uma profunda afeição por
 a menor de minhas indústrias da ilha.
 Não, não exatamente, já que a menor era
-uma filosofia miserável.",0
+uma filosofia miserável.",0.0
 "because i didn’t know enough.
 why didn’t i know enough of something?
 greek drama or astronomy? the books
@@ -8393,7 +8393,7 @@ recitar para as minhas canteiras de íris,
 ""eles relampejam sobre aquele olho interior,
 que é a bem-aventurança..."" a bem-aventurança de quê?
 uma das primeiras coisas que fiz
-quando retornei foi procurar saber.",-1
+quando retornei foi procurar saber.",-1.0
 "the island smelled of goat and guano.
 the goats were white, so were the gulls,
 and both too tame, or else they thought
@@ -8424,7 +8424,7 @@ de meus ouvidos; estão me machucando.
 os gritos inquiridores, as respostas ambíguas
 sobre um chão de chuva sibilante
 e sibilantes tartarugas ambulantes
-irritaram-me.",0
+irritaram-me.",0.0
 "when all the gulls flew up at once, they sounded
 like a big tree in a strong wind, its leaves.
 i’d shut my eyes and think about a tree,
@@ -8476,7 +8476,7 @@ fiquei tão cansado das cores mesmo!
 um dia eu tingi um cabritinho de vermelho vivo
 com minhas bagas vermelhas, só pra ver
 algo um pouco diferente.
-e então sua mãe não o reconheceu mais.",0
+e então sua mãe não o reconheceu mais.",-1.0
 "dreams were the worst. of course i dreamed of food
 and love, but they were pleasant rather
 than otherwise. but then i’d dream of things
@@ -8513,7 +8513,7 @@ como ovos de rã virando girinos
 de ilhas, sabendo que precisava viver
 em cada uma delas, eventualmente,
 por eras, registrando sua flora,
-sua fauna, sua geografia.",0
+sua fauna, sua geografia.",0.0
 "just when i thought i couldn’t stand it
 another minute longer, friday came.
 (accounts of that have everything all wrong.)
@@ -8568,7 +8568,7 @@ meu sangue estava cheio deles; meu cérebro
 criava ilhas. mas esse arquipélago
 se extinguiu. estou velho.
 estou entediado também, bebendo meu chá de verdade,
-cercado por madeiras sem graça.",0
+cercado por madeiras sem graça.",-1.0
 "the knife there on the shelf —
 it reeked of meaning, like a crucifix.
 it lived. how many years did i
@@ -8632,7 +8632,7 @@ ainda funciona, mas, dobrado,
 parece um frango depenado e magro.
 como alguém pode querer tais coisas?
 — e sexta-feira, minha querida sexta-feira, morreu de sarampo
-dezessete anos atrás em março.",-1
+dezessete anos atrás em março.",-1.0
 "[from the plane]
 no foot could endure it,
 shoes are too thin.
@@ -8752,7 +8752,7 @@ o céu está morto.
 (ainda há criaturas,
 cuidadosas, lá em cima.
 eles firmam seus pés, andam
-verdes, vermelhos; verdes, vermelhos.)",0
+verdes, vermelhos; verdes, vermelhos.)",0.0
 "from narrow provinces
 of fish and bread and tea,
 home of the long tides
@@ -8861,7 +8861,7 @@ e espera, paciente, enquanto
 um viajante solitário dá
 beijos e abraços
 a sete parentes
-e um collie supervisiona.",0
+e um collie supervisiona.",0.0
 "goodbye to the elms,
 to the farm, to the dog.
 the bus starts. the light
@@ -8968,7 +8968,7 @@ nada através da escuridão:
 lanterna de bombordo de um navio.
 duas botas de borracha aparecem,
 iluminadas, solenes.
-um cão dá um latido.",-1
+um cão dá um latido.",0.0
 "a woman climbs in
 with two market bags,
 brisk, freckled, elderly.
@@ -9020,7 +9020,7 @@ roncos. alguns longos suspiros.
 uma divagação onírica
 começa na noite,
 uma suave, auditiva,
-lenta alucinação...",-1
+lenta alucinação...",0.0
 "in the creakings and noises,
 an old conversation
 — not concerning us,
@@ -9108,7 +9108,7 @@ afirmativo. ""sim...""
 uma respiração aguda, ofegante,
 meio gemido, meio aceitação,
 isso significa ""vida é assim.
-nós sabemos (também a morte).""",-1
+nós sabemos (também a morte).""",-1.0
 "talking the way they talked
 in the old featherbed,
 peacefully, on and on,
@@ -9160,7 +9160,7 @@ sombras impenetráveis
 e lá fica, imponente,
 no meio da estrada.
 ele avança; cheira o
-capô quente do ônibus.",-1
+capô quente do ônibus.",-1.0
 "towering, antlerless,
 high as a church,
 homely as a house
@@ -9248,7 +9248,7 @@ a alce pode ser vista
 na estrada iluminada pela lua;
 depois há um leve
 cheiro de alce, um acre
-cheiro de gasolina.",-1
+cheiro de gasolina.",0.0
 "about the size of an old-style dollar bill,
 american or canadian,
 mostly the same whites, gray greens, and steel grays
@@ -9273,7 +9273,7 @@ nunca ganhou um centavo em sua vida.
 inútil e livre, passou setenta anos
 como um pequeno relicário familiar
 transmitida colateralmente aos proprietários
-que a olhavam às vezes, ou não se incomodavam.",0
+que a olhavam às vezes, ou não se incomodavam.",0.0
 "it must be nova scotia; only there
 does one see gabled wooden houses
 painted that awful shade of brown.
@@ -9316,7 +9316,7 @@ mais perto, uma íris selvagem, branca e amarela,
 fresquíssima do tubo.
 o ar é fresco e frio; frio início de primavera
 claro como vidro cinzento; meio centímetro de céu azul
-abaixo das nuvens de tempestade cinza- aço.",0
+abaixo das nuvens de tempestade cinza- aço.",0.0
 "(they were the artist’s specialty.)
 a specklike bird is flying to the left.
 or is it a flyspeck looking like a bird?
@@ -9349,7 +9349,7 @@ fios de cerdas de pincel, quase invisíveis,
 deve ser a igreja presbiteriana.
 Seria a casa da senhorita Gillespie?
 Aqueles gansos e vacas específicos
-naturalmente são anteriores ao meu tempo.",0
+naturalmente são anteriores ao meu tempo.",-1.0
 "a sketch done in an hour, “in one breath,”
 once taken from a trunk and handed over.
 would you like this? i’ll probably never
@@ -9431,7 +9431,7 @@ do tamanho da nossa permanência
 junto com a deles: as vacas mastigando,
 a íris, nítida e tremendo, a água
 ainda parada das cheias da primavera,
-os ainda não desmontados olmos, os gansos.",1
+os ainda não desmontados olmos, os gansos.",-1.0
 "the art of losing isn’t hard to master;
 so many things seem filled with the intent
 to be lost that their loss is no disaster.
@@ -9486,7 +9486,7 @@ Sinto falta, mas não foi desastre.
 — Mesmo perdendo você (a voz brincalhona, um gesto
 Que amo) não menti. É evidente
 A arte de perder não é difícil de dominar
-Embora possa parecer (escreva!) como desastre.",1
+Embora possa parecer (escreva!) como desastre.",-1.0
 "it was cold and windy, scarcely the day
 to take a walk on that long beach.
 everything was withdrawn as far as possible,
@@ -9517,7 +9517,7 @@ anestesiava nossos rostos de um lado;
 desordenava a formação
 de um solitário voo de gansos canadenses;
 e soprava de volta as baixas, inaudíveis ondas
-em eriçada, aérea névoa.",0
+em eriçada, aérea névoa.",-1.0
 "the sky was darker than the water
 — it was the color of mutton-fat jade.
 along the wet sand, in rubber boots, we followed
@@ -9551,7 +9551,7 @@ sobre e sobre. finalmente, elas terminaram:
 um emaranhado branco grosso, à deriva,
 subindo com cada onda, um fantasma encharcado,
 descendo, encharcado, desistindo do fantasma...
-uma linha de pipa? — mas sem pipa.",-1
+uma linha de pipa? — mas sem pipa.",0.0
 "i wanted to get as far as my proto-dream-house,
 my crypto-dream-house, that crooked box
 set up on pilings, shingled green,
@@ -9633,7 +9633,7 @@ a algo lá atrás das dunas.
 Uma luz para ler — perfeito! mas — impossível.
 E aquele dia o vento estava frio demais
 para sequer chegar até lá,
-e claro, a casa estava lacrada.",0
+e claro, a casa estava lacrada.",0.0
 "on the way back our faces froze on the other side.
 the sun came out for just a minute.
 for just a minute, set in their bezels of sand,
@@ -9667,7 +9667,7 @@ poderiam estar provocando o leão-sol,
 exceto que agora ele estava atrás delas
 — um sol que caminhou na praia na última maré baixa,
 fazendo grandes pegadas majestosas,
-que talvez tivesse batido um papagaio no céu para brincar.",0
+que talvez tivesse batido um papagaio no céu para brincar.",0.0
 "still dark.
 the unknown bird sits on his usual branch.
 the little dog next door barks in his sleep
@@ -9743,7 +9743,7 @@ ele e o pássaro sabem que tudo está respondido,
 tudo resolvido,
 não há necessidade de perguntar novamente.
 — o ontem trouxe ao hoje tão levemente!
-(um ontem que acho quase impossível levantar.)",0
+(um ontem que acho quase impossível levantar.)",0.0
 "of course i may be remembering it all wrong
 after, after — how many years?
 that golden evening i really wanted to go no farther;
@@ -9801,7 +9801,7 @@ e se encontrando. mesmo que se fosse tentado
 a interpretações literárias
 como: vida/morte, certo/errado, masculino/feminino
 — tais noções se resolveriam, dissolveriam, imediatamente
-nessa dialética aquática, deslumbrante.",0
+nessa dialética aquática, deslumbrante.",-1.0
 "in front of the church, the cathedral, rather,
 there was a modest promenade and a belvedere
 about to fall into the river,
@@ -9847,7 +9847,7 @@ Os cascos das zebras, os pés das pessoas
 avançavam na areia dourada,
 amortecidos pela areia dourada,
 de modo que quase os únicos sons
-eram rangidos e sussurros, sussurros, sussurros.",-1
+eram rangidos e sussurros, sussurros, sussurros.",0.0
 "two rivers full of crazy shipping — people
 all apparently changing their minds, embarking,
 disembarking, rowing clumsy dories.
@@ -9911,7 +9911,7 @@ tombando, oscilando, para algum lugar, para se casar.
 uma escuna de rio com mastros inclinados
 e velas de cor violeta abicou tão perto
 que seu mastro de proa parecia tocar a igreja
-(catedral, na verdade!).",0
+(catedral, na verdade!).",-1.0
 "a week or so before
 there’d been a thunderstorm and the cathedral’d
 been struck by lightning. one tower had
@@ -9931,7 +9931,7 @@ veio um temporal e a catedral foi atingida por um raio. Uma torre
 mostrava uma rachadura em ziguezague que descia até o chão.
 Um milagre. A casa do padre ao lado
 também foi atingida, e sua cama de bronze
-(a única da cidade) ficou enegrecida. Graças a deus — ele estava em Belém.",0
+(a única da cidade) ficou enegrecida. Graças a deus — ele estava em Belém.",0.0
 "in the blue pharmacy the pharmacist
 had hung an empty wasps’ nest from a shelf:
 small, exquisite, clean matte white,
@@ -9961,7 +9961,7 @@ de volta a bordo, um companheiro de viagem, sr. swan,
 holandês, o diretor aposentado da philips electric,
 realmente um homem muito gentil,
 que queria ver o amazôns antes de morrer,
-perguntou: ""o que é essa coisa feia?""",0
+perguntou: ""o que é essa coisa feia?""",0.0
 "i can make out the rigging of a schooner
 a mile off; i can count
 the new cones on the spruce. it is so still
@@ -10004,7 +10004,7 @@ este mês, o nosso favorito está cheio de flores:
 maravilhas, trevo vermelho, ervilhaca roxa,
 ainda queimando hawkweed, margaridas manchadas, eyebright,
 as estrelas incandescentes da fragrante bedstraw,
-e mais, retornadas, para pintar os campos com deleite.",0
+e mais, retornadas, para pintar os campos com deleite.",0.0
 "the goldfinches are back, or others like them,
 and the white-throated sparrow’s five-note song,
 pleading and pleading, brings tears to the eyes.
@@ -10047,7 +10047,7 @@ você partiu de north haven, ancorado em sua rocha,
 flutuando no místico azul... e agora — você partiu
 para sempre. não pode desarranjar, ou rearanjar,
 seus poemas novamente. (mas os pardais podem seu canto.)
-as palavras não mudarão mais. triste amigo, você não pode mudar.",1
+as palavras não mudarão mais. triste amigo, você não pode mudar.",0.0
 "the sun is blazing and the sky is blue.
 umbrellas clothe the beach in every hue.
 naked, you trot across the avenue.
@@ -10099,7 +10099,7 @@ para resolver o caso, como tratam mendigos?
 eles pegam e jogam nos rios, nas marés.
 sim, idiotas, paraplégicos, parasitas
 boiam na vazante, no esgoto, nas noites frias.
-nos subúrbios, onde não há luzes, jamais.",0
+nos subúrbios, onde não há luzes, jamais.",0.0
 "if they do this to anyone who begs,
 drugged, drunk, or sober, with or without legs,
 what would they do to sick, four-leggèd dogs?
@@ -10159,7 +10159,7 @@ dizem que o carnaval está se degenerando
 o estragaram completamente. estão apenas falando.
 o carnaval sempre é maravilhoso!
 um cão depilado não ficaria bem.
-vista-se! vista-se e dance no carnaval!",-1
+vista-se! vista-se e dance no carnaval!",0.0
 "caught — the bubble
 in the spirit-level,
 a creature divided;
@@ -10199,7 +10199,7 @@ e o pássaro arco-íris
 do estreito ângulo
 do espelho vazio,
 voando para onde
-quer, feliz!",0
+quer, feliz!",0.0
 "unfunny uncles who insist
 in trying on a lady’s hat,
 — oh, even if the joke falls flat,
@@ -10293,7 +10293,7 @@ dentro de sua fedora preta?
 Tia exemplar e esbelta,
 com olhos de primavera, nos perguntamos
 que lentas mudanças ela vê sob
-seu vasto e sombreado abas viradas.",0
+seu vasto e sombreado abas viradas.",-1.0
 "from fairest creatures we desire increase,
 that thereby beauty’s rose might never die,
 but as the riper should by time decease,
@@ -10333,7 +10333,7 @@ e único arauto da viva primavera,
 dentro do próprio botão sepultas o teu contento
 e, avarento gentil, desperdiças na mesquinhez.
 compadece-te do mundo, ou então sê este glutão,
-para comer o que ao mundo pertence, pela tumba e por ti.",-1
+para comer o que ao mundo pertence, pela tumba e por ti.",1.0
 "when forty winters shall besiege thy brow,
 and dig deep trenches in thy beauty’s field,
 thy youth’s proud livery, so gaz’d on now,
@@ -10373,7 +10373,7 @@ se pudesses responder, 'este belo filho meu
 sintetizará minha conta, e fará minha velha desculpa',
 provando tua beleza pela sua sucessão!
 isso seria renascer quando tu estiveres velho,
-e ver teu sangue quente quando tu sentires frio.",1
+e ver teu sangue quente quando tu sentires frio.",1.0
 "when i do count the clock that tells the time,
 and see the brave day sunk in hideous night;
 when i behold the violet past prime,
@@ -10413,7 +10413,7 @@ pois entre os despojos do tempo tu deves ir,
 pois doces e belezas abandonam a si mesmas
 e morrem tão rápido quanto veem outras crescer;
 e nada contra a foice do tempo pode defender-se
-salvo prole, para enfrentá-lo quando ele te levar.",0
+salvo prole, para enfrentá-lo quando ele te levar.",1.0
 "not from the stars do i my judgment pluck;
 and yet methinks i have astronomy,
 but not to tell of good or evil luck,
@@ -10453,7 +10453,7 @@ e, estrelas constantes, neles leio tal arte
 que 'a verdade e a beleza juntas prosperarão,
 se de ti mesma para o tesouro converteres;'
 ou então de ti isto eu prognostico:
-'o teu fim será o destino da verdade e da beleza.'",1
+'o teu fim será o destino da verdade e da beleza.'",-1.0
 "when i consider every thing that grows
 holds in perfection but a little moment,
 that this huge stage presenteth nought but shows
@@ -10493,7 +10493,7 @@ Te coloca, oh jovem, diante de meu olhar,
 Onde o tempo devasso discute com a decadência,
 Para mudar teu dia de juventude em noite manchada;
 E, em guerra com o tempo por teu amor,
-Assim como ele te tira, eu te renovo com fervor.",-1
+Assim como ele te tira, eu te renovo com fervor.",1.0
 "who will believe my verse in time to come,
 if it were fill’d with your most high deserts?
 though yet, heaven knows, it is but as a tomb
@@ -10533,7 +10533,7 @@ seriam desprezados, como velhos de menos verdade que língua,
 e seus verdadeiros direitos seriam chamados de fúria de poeta
 e estiramento métrico de uma antiga canção:
 mas se algum filho seu estivesse vivo naquele tempo,
-você viveria duas vezes, — nele e na minha rima.",-1
+você viveria duas vezes, — nele e na minha rima.",1.0
 "shall i compare thee to a summer’s day?
 thou art more lovely and more temperate:
 rough winds do shake the darling buds of may,
@@ -10573,7 +10573,7 @@ Nem perderás o encanto que possuis,
 Nem a morte se orgulhará que em sua sombra tu te percas,
 Quando em linhas eternas ao tempo tu te engrandeces;
 Enquanto houver quem respire, ou olhos que vejam,
-Enquanto houver vida, isto viverá, e te dará vida.",-1
+Enquanto houver vida, isto viverá, e te dará vida.",1.0
 "devouring time, blunt thou the lion’s paws,
 and make the earth devour her own sweet brood;
 pluck the keen teeth from the fierce tiger’s jaws,
@@ -10613,7 +10613,7 @@ nem trace linhas lá com tua antiga pena;
 permita que ele em tua trajetória permaneça intocado
 como padrão de beleza para os homens que virão.
 contudo, faça o seu pior, velho tempo: apesar de teu mal,
-meu amor viverá sempre jovem em minha poesia.",-1
+meu amor viverá sempre jovem em minha poesia.",1.0
 "my glass shall not persuade me i am old,
 so long as youth and thou are of one date;
 but when in thee time’s furrows i behold,
@@ -10653,7 +10653,7 @@ como eu, não por mim, mas por ti o farei;
 carregando teu coração, que com tanto zelo guardarei
 como ama dedicada protege seu bebê do mal.
 não presumas sobre teu coração quando o meu for perdido;
-tu me deste o teu, não para devolver novamente.",-1
+tu me deste o teu, não para devolver novamente.",1.0
 "as an unperfect actor on the stage,
 who with his fear is put besides his part,
 or some fierce thing replete with too much rage,
@@ -10693,7 +10693,7 @@ e mudos presságios do meu peito falante,
 que pleiteiam pelo amor, e esperam recompensa,
 mais do que aquela língua que mais expressou.
 oh! aprenda a ler o que o amor silencioso escreveu:
-ouvir com olhos pertence ao fino engenho do amor.",1
+ouvir com olhos pertence ao fino engenho do amor.",1.0
 "mine eye hath play’d the painter and hath stell’d
 thy beauty’s form in table of my heart;
 my body is the frame wherein ‘tis held,
@@ -10733,7 +10733,7 @@ meus olhos desenharam tua forma, e os teus para mim
 são janelas para meu peito por onde o sol
 gosta de espiar, para olhar dentro de ti;
 mas olhos essa astúcia têm para embelezar sua arte,
-eles desenham apenas o que veem, não conhecem o coração.",1
+eles desenham apenas o que veem, não conhecem o coração.",-1.0
 "weary with toil, i haste me to my bed,
 the dear repose for limbs with travel tired;
 but then begins a journey in my head
@@ -10773,7 +10773,7 @@ apresenta teu vulto à minha vista cega,
 que, como uma joia suspensa na noite sinistra,
 torna a negra noite bela e renova seu rosto velho.
 Eis! assim, de dia meus membros, de noite minha mente,
-por ti, e por mim mesmo, não encontro repouso.",-1
+por ti, e por mim mesmo, não encontro repouso.",-1.0
 "how can i then return in happy plight,
 that am debarr’d the benefit of rest?
 when day’s oppression is not eas’d by night,
@@ -10813,7 +10813,7 @@ e lhe fazes graça quando nuvens embaçam o céu:
 assim também minto à noite de tez escura;
 quando estrelas cintilantes não brilham, douras o poente.
 Mas o dia estende diariamente minhas mágoas,
-e a noite torna noturna a força do pesar mais forte.",1
+e a noite torna noturna a força do pesar mais forte.",-1.0
 "when in disgrace with fortune and men’s eyes
 i all alone beweep my outcast state,
 and trouble deaf heaven with my bootless cries,
@@ -10853,7 +10853,7 @@ por acaso penso em ti, — e então meu estado,
 semelhante ao rouxinol ao raiar do dia surgindo
 da soturna terra, canta hinos à porta do céu;
 pois teu amor doce lembrado traz tal riqueza
-que então desprezo trocar meu estado com reis.",1
+que então desprezo trocar meu estado com reis.",1.0
 "when to the sessions of sweet silent thought
 i summon up remembrance of things past,
 i sigh the lack of many a thing i sought,
@@ -10893,7 +10893,7 @@ E pesarosamente de tristeza em tristeza contar
 O triste relato de lamentos já pranteados,
 Que eu pago novamente como se nunca pago antes.
 Mas se no ínterim penso em ti, caro amigo,
-Todas as perdas são restauradas e as tristezas findam.",1
+Todas as perdas são restauradas e as tristezas findam.",1.0
 "why didst thou promise such a beauteous day,
 and make me travel forth without my cloak,
 to let base clouds o’ertake me in my way,
@@ -10933,7 +10933,7 @@ ainda que te arrependas, a perda é minha:
 o pesar do ofensor traz fraca aliviar
 àquele que suporta a cruz da ofensa forte.
 ah! mas essas lágrimas são pérolas que teu amor derrama,
-e são ricas e redimem todas as más ações.",0
+e são ricas e redimem todas as más ações.",1.0
 "no more be griev’d at that which thou hast done:
 roses have thorns, and silver fountains mud;
 clouds and eclipses stain both moon and sun,
@@ -10973,7 +10973,7 @@ Teu contrário se torna teu advogado,—
 E contra mim mesmo um pleito justo inicio:
 Tal guerra civil em meu amor e ódio há,
 Que eu, necessariamente, devo ser
-Cúmplice desse doce ladrão que amargamente me rouba.",1
+Cúmplice desse doce ladrão que amargamente me rouba.",1.0
 "as a decrepit father takes delight
 to see his active child do deeds of youth,
 so i, made lame by fortune’s dearest spite,
@@ -11013,7 +11013,7 @@ enquanto esta sombra dá substância tão real
 que na tua abundância estou satisfeito
 e por parte de toda tua glória eu vivo.
 veja o que é melhor, que o melhor desejo em ti:
-este desejo eu tenho; então dez vezes feliz sou eu!",1
+este desejo eu tenho; então dez vezes feliz sou eu!",1.0
 "take all my loves, my love, yea, take them all;
 what hast thou then more than thou hadst before?
 no love, my love, that thou mayst true love call;
@@ -11053,7 +11053,7 @@ embora tu roubes tudo a minha pobreza;
 e ainda assim, o amor sabe que é maior a mágoa
 sofrer a injustiça do amor do que a lesão conhecida do ódio.
 gracejo lascivo, em quem todo mal bem se mostra,
-matem-me com desprezos; mas não podemos ser inimigos.",1
+matem-me com desprezos; mas não podemos ser inimigos.",-1.0
 "that thou hast her, it is not all my grief,
 and yet it may be said i lov’d her dearly;
 that she hath thee, is of my wailing chief,
@@ -11093,7 +11093,7 @@ e perdendo-a, minha amiga achou essa perda;
 ambos se acham, e eu perco os dois seres,
 e ambos por minha causa me impõem essa cruz:
 mas eis a alegria; minha amiga e eu somos um;
-doce flautear! então ela só a mim ama.",1
+doce flautear! então ela só a mim ama.",-1.0
 "if the dull substance of my flesh were thought,
 injurious distance should not stop my way;
 for then, despite of space, i would be brought,
@@ -11133,7 +11133,7 @@ para saltar grandes distâncias de léguas quando tu te vais,
 mas que, sendo tanto de terra e água formado,
 devo aguardar o lazer do tempo com meu lamento;
 recebendo nada pelos elementos tão lentos
-senão pesadas lágrimas, insígnias de ambos os pesares.",0
+senão pesadas lágrimas, insígnias de ambos os pesares.",-1.0
 "mine eye and heart are at a mortal war,
 how to divide the conquest of thy sight;
 mine eye my heart thy picture’s sight would bar,
@@ -11173,7 +11173,7 @@ Uma corte de pensamentos, todos do coração;
 E por seu veredicto é determinado
 A porção do olho claro e a parte do caro coração:
 Assim; a parte do meu olho é tua forma externa,
-E a parte do meu coração teu amor interno de coração.",1
+E a parte do meu coração teu amor interno de coração.",-1.0
 "so am i as the rich, whose blessed key
 can bring him to his sweet up-locked treasure,
 the which he will not every hour survey,
@@ -11213,7 +11213,7 @@ ou como o guarda-roupa que esconde o manto precioso,
 para fazer algum momento especial e abençoado,
 ao revelar seu orgulho que estava preso.
 Bendita és tu, cuja virtude dá espaço,
-sendo possuída, para triunfar; sendo ausente, para esperar.",1
+sendo possuída, para triunfar; sendo ausente, para esperar.",-1.0
 "not marble, nor the gilded monuments
 of princes, shall outlive this powerful rime;
 but you shall shine more bright in these contents
@@ -11253,7 +11253,7 @@ avançarás; teu louvor ainda encontrará espaço
 mesmo nos olhos de toda posteridade
 que desgastarão este mundo até o fim dos tempos.
 Assim, até o julgamento em que tu mesmo ressurjas,
-viverás nesta rima, e habitarás nos olhos dos amantes.",2
+viverás nesta rima, e habitarás nos olhos dos amantes.",1.0
 "like as the waves make towards the pebbled shore,
 so do our minutes hasten to their end;
 each changing place with that which goes before,
@@ -11293,7 +11293,7 @@ e escava paralelas na testa da beleza,
 alimenta-se das raridades da verdade da natureza,
 e nada permanece a não ser para sua foice ceifar:
 e ainda assim para os tempos na esperança minha poesia ficará,
-enaltecendo tua virtude, apesar de sua mão cruel.",-1
+enaltecendo tua virtude, apesar de sua mão cruel.",-1.0
 "when i have seen by time’s fell hand defac’d
 the rich-proud cost of outworn buried age;
 when sometime lofty towers i see down-raz’d,
@@ -11333,7 +11333,7 @@ confundido à ruína e ao desvanecer;
 a ruína me ensinou assim a meditar —
 que o tempo virá e levará meu amor embora.
 esse pensamento é como uma morte, que não pode evitar
-senão chorar por ter o que teme perder.",2
+senão chorar por ter o que teme perder.",-1.0
 "since brass, nor stone, nor earth, nor boundless sea,
 but sad mortality o’ersways their power,
 how with this rage shall beauty hold a plea,
@@ -11373,7 +11373,7 @@ ficará a joia mais valiosa do tempo escondida?
 ou que mão forte pode deter seu rápido passo?
 ou quem pode proibir seu saque de beleza?
 oh! ninguém, a menos que este milagre tenha força,
-que em tinta preta meu amor ainda brilhe forte.",-1
+que em tinta preta meu amor ainda brilhe forte.",-1.0
 "tir’d with all these, for restful death i cry
 as to behold desert a beggar born,
 and needy nothing trimm’d in jollity,
@@ -11413,7 +11413,7 @@ e a tolice — médico como — dominando a habilidade,
 e a verdade simples mal chamada de simplicidade,
 e o bem cativo atendendo ao mal capitão:
 cansado de tudo isso, disso eu partiria,
-não fosse que, ao morrer, meu amor eu deixaria.",-1
+não fosse que, ao morrer, meu amor eu deixaria.",1.0
 "no longer mourn for me when i am dead
 than you shall hear the surly sullen bell
 give warning to the world that i am fled
@@ -11453,7 +11453,7 @@ quando eu talvez com a terra estiver mesclado,
 nem sequer o meu pobre nome repitas,
 mas deixa que teu amor com a minha vida se acabe;
 teme que o mundo avisado em teu pranto olhe,
-e te zombe comigo após eu estar ausente.",-1
+e te zombe comigo após eu estar ausente.",1.0
 "that time of year thou mayst in me behold
 when yellow leaves, or none, or few, do hang
 upon those boughs which shake against the cold,
@@ -11493,7 +11493,7 @@ Que sobre as cinzas de sua juventude jaz,
 Como a morte do leito onde há de expirar,
 Consumido pelo que nutriu seu ser.
 Isto percebes, que torna teu amor mais forte,
-Para amar bem o que deves deixar antes que longo tempo passe.",-1
+Para amar bem o que deves deixar antes que longo tempo passe.",1.0
 "why is my verse so barren of new pride,
 so far from variation or quick change?
 why with the time do i not glance aside
@@ -11533,7 +11533,7 @@ e tu e o amor são ainda meu argumento;
 assim tudo o que tenho de melhor é renovar velhas palavras,
 gastando novamente o que já foi gasto:
 pois assim como o sol é diariamente novo e velho,
-assim meu amor conta o que já foi contado.",1
+assim meu amor conta o que já foi contado.",1.0
 "whilst i alone did call upon thy aid,
 my verse alone had all thy gentle grace;
 but now my gracious numbers are decay’d,
@@ -11573,7 +11573,7 @@ de teu comportamento; beleza ele te dá,
 e a encontrou em tua face; ele pode conceder
 nenhuma honra a ti que não esteja em ti mesma.
 Então não lhe agradeça pelo que ele diz,
-pois o que ele te deve tu mesma pagas.",1
+pois o que ele te deve tu mesma pagas.",1.0
 "or i shall live your epitaph to make,
 or you survive when i in earth am rotten;
 from hence your memory death cannot take,
@@ -11613,7 +11613,7 @@ que olhos ainda não criados irão ler;
 e línguas futuras teu ser irão recitar,
 quando todos os viventes deste mundo estiverem mortos;
 tu ainda viverás, — tal virtude tem minha pena,—
-onde o fôlego mais respira, — mesmo nos lábios dos homens.",-1
+onde o fôlego mais respira, — mesmo nos lábios dos homens.",1.0
 "some glory in their birth, some in their skill,
 some in their wealth, some in their body’s force;
 some in their garments, though new-fangled ill;
@@ -11654,7 +11654,7 @@ mais rico que a riqueza, mais pomposo que o custo das roupas,
 mais deleitável que falcões ou cavalos são;
 e tendo-te, de todo orgulho dos homens me ufano:
 miserável apenas nisto, que tu podes
-tudo isso tirar e a mim mais miserável fazer.",-1
+tudo isso tirar e a mim mais miserável fazer.",-1.0
 "from you have i been absent in the spring,
 when proud-pied april, dress’d in all his trim,
 hath put a spirit of youth in every thing,
@@ -11694,7 +11694,7 @@ Nem louvei o rubro intenso na rosa;
 Eram belas, meras formas de deleite,
 Desenhadas após ti, padrão de todas.
 E ainda parecia inverno, e sem ti,
-Como com tua sombra, brinquei com elas.",-1
+Como com tua sombra, brinquei com elas.",0.0
 "where art thou, muse, that thou forget’st so long
 to speak of that which gives thee all thy might?
 spend’st thou thy fury on some worthless song,
@@ -11734,7 +11734,7 @@ se o tempo ali gravou algum sulco;
 se algum, seja uma sátira ao declínio,
 e despreze por toda parte os despojos do tempo.
 dá fama ao meu amor mais rápido do que o tempo consome a vida;
-assim, tu prevines sua foice e seu cutelo torto.",-1
+assim, tu prevines sua foice e seu cutelo torto.",1.0
 "when in the chronicle of wasted time
 i see descriptions of the fairest wights,
 and beauty making beautiful old rime,
@@ -11774,7 +11774,7 @@ deste nosso tempo, tudo prenunciando em ti;
 e, pois olhavam com olhos adivinhadores,
 não tinham arte bastante para cantar tua virtude:
 pois nós, que agora contemplamos estes dias presentes,
-temos olhos para admirar, mas faltam-nos línguas para louvar.",1
+temos olhos para admirar, mas faltam-nos línguas para louvar.",1.0
 "alas! ‘tis true i have gone here and there,
 and made myself a motley to the view,
 gor’d mine own thoughts, sold cheap what is most dear,
@@ -11814,7 +11814,7 @@ minha ânsia jamais moerá novamente
 em novas provas, para testar um velho amigo,
 um deus do amor, a quem estou destinado.
 então me dê as boas-vindas, abaixo apenas do céu,
-até teu puro e mais, mais amante seio.",-1
+até teu puro e mais, mais amante seio.",1.0
 "since i left you, mine eye is in my mind;
 and that which governs me to go about
 doth part his function and is partly blind,
@@ -11854,7 +11854,7 @@ o mais doce favor ou criatura disforme,
 a montanha ou o mar, o dia ou noite,
 o corvo ou pomba, molda-os à tua feição:
 incapaz de mais conter, repleto de ti,
-minha mente mais verdadeira assim faz minha falsa.",-1
+minha mente mais verdadeira assim faz minha falsa.",-1.0
 "let me not to the marriage of true minds
 admit impediments. love is not love
 which alters when it alteration finds,
@@ -11894,7 +11894,7 @@ entrem no cortejo de sua foice curva;
 o amor não muda com suas breves horas e semanas,
 mas o suporta até o limite do fim.
 Se isso for erro, e em mim for provado,
-nunca escrevi, nem homem algum jamais amou.",1
+nunca escrevi, nem homem algum jamais amou.",1.0
 "‘tis better to be vile than vile esteem’d,
 when not to be receives reproach of being;
 and the just pleasure lost, which is so deem’d
@@ -11934,7 +11934,7 @@ meus abusos contam seus próprios defeitos:
 posso ser reto, embora eles próprios sejam tortos;
 por seus pensamentos vãos, minhas ações não devem ser mostradas;
 a menos que essa maldade geral eles sustentem,
-todos os homens são maus e em sua maldade reinam.",1
+todos os homens são maus e em sua maldade reinam.",-1.0
 "in the old age black was not counted fair,
 or if it were, it bore not beauty’s name;
 but now is black beauty’s successive heir,
@@ -11974,7 +11974,7 @@ seus olhos tão apropriados, e parecem enlutados
 por aqueles que, não nascidos belos, não carecem de beleza,
 difamando a criação com uma estima falsa:
 no entanto, eles lamentam, adequados à sua dor,
-que toda língua diz que a beleza deveria parecer assim.",1
+que toda língua diz que a beleza deveria parecer assim.",1.0
 "my mistress’ eyes are nothing like the sun;
 coral is far more red than her lips’ red:
 if snow be white, why then her breasts are dun;
@@ -12014,7 +12014,7 @@ que a música tem som mais agradável ao ouvido:
 concedo que nunca vi uma deusa passar, —
 minha amante, quando caminha, pisa no chão:
 e ainda, por céus, acho meu amor tão raro
-quanto qualquer um que com falsos encômios a louve.",0
+quanto qualquer um que com falsos encômios a louve.",-1.0
 "when my love swears that she is made of truth,
 i do believe her, though i know she lies,
 that she might think me some untutor’d youth,
@@ -12054,7 +12054,7 @@ e por que eu não digo que estou velho?
 oh! o melhor hábito do amor é confiar aparentemente,
 e a idade, no amor, não gosta de ter anos contados:
 assim, eu minto com ela, e ela comigo,
-e em nossos erros, com mentiras, nos adulamos.",1
+e em nossos erros, com mentiras, nos adulamos.",1.0
 "lo, as a careful housewife runs to catch
 one of her feather’d creatures broke away,
 sets down her babe, and makes all quick dispatch
@@ -12094,7 +12094,7 @@ enquanto eu, teu bebê, te persigo de longe;
 mas se tu alcançares tua esperança, volta para mim,
 e desempenha o papel de mãe, beija-me, seja gentil;
 assim eu rogarei que tenhas teu desejo,
-se tu voltares e meu alto clamor cessar.",0
+se tu voltares e meu alto clamor cessar.",0.0
 "two loves i have of comfort and despair,
 which like two spirits do suggest me still:
 the better angel is a man right fair,
@@ -12134,7 +12134,7 @@ suspeito eu posso, mas não direi ao certo;
 mas estando ambos longe de mim, a cada amigo são um tormento,
 suponho um anjo em outro inferno.
 e isso jamais saberei, mas na dúvida viverei,
-até que meu anjo ruim expulse o bom de mim.",1
+até que meu anjo ruim expulse o bom de mim.",-1.0
 "those lips that love’s own hand did make,
 breath’d forth the sound that said ‘i hate’,
 to me that languish’d for her sake:
@@ -12174,7 +12174,7 @@ Que seguiu como o suave dia
 Segue a noite, que como um demônio
 Do céu ao inferno voou embora.
 ""Eu odeio"" do ódio lançou fora,
-E salvou minha vida, dizendo — ""não és tu"".",1
+E salvou minha vida, dizendo — ""não és tu"".",-1.0
 "my love is as a fever, longing still
 for that which longer nurseth the disease;
 feeding on that which doth preserve the ill,
@@ -12214,7 +12214,7 @@ e enlouquecido com eterno desassossego;
 meus pensamentos e discursos são como os dos loucos,
 ao acaso da verdade vãmente expressa;
 pois jurei-te bela, e te considerei radiante,
-sendo tu tão negra quanto o inferno, tão escura quanto a noite.",-1
+sendo tu tão negra quanto o inferno, tão escura quanto a noite.",1.0
 "canst thou, o cruel! say i love thee not,
 when i against myself with thee partake?
 do i not think on thee, when i forgot
@@ -12254,7 +12254,7 @@ que é tão orgulhoso de tua servidão desprezar,
 quando o meu melhor adora tua falha,
 comandado pelo olhar que tu me lanças?
 mas, amor, odeia, pois agora sei teu pensamento;
-aqueles que vêem, tu amas, e eu sou cego.",1
+aqueles que vêem, tu amas, e eu sou cego.",-1.0
 "in loving thee thou know’st i am forsworn,
 but thou art twice forsworn, to me love swearing;
 in act thy bed-vow broke, and new faith torn,
@@ -12294,7 +12294,7 @@ jurei por teu amor, tua verdade, tua constância;
 e, para te iluminar, dei cegueira aos olhos,
 ou fiz que jurassem contra o que veem;
 pois jurei que eras bela; mais perjuro sou eu,
-a jurar contra a verdade uma mentira tão vil!",1
+a jurar contra a verdade uma mentira tão vil!",-1.0
 "let not my love be called idolatry,
 nor my beloved as an idol show,
 since all alike my songs and praises be
@@ -12334,7 +12334,7 @@ belo, gentil e verdadeiro, em outras palavras mudando;
 e nesta mudança está gasta minha invenção,
 três temas em um, que maravilhosa amplitude oferece.
 ...... belo, gentil e verdadeiro, muitas vezes viveram sozinhos,
-...... os três, até agora, nunca ocuparam lugar em um só.",-1
+...... os três, até agora, nunca ocuparam lugar em um só.",1.0
 "set ope all shutters, that the day come in
 like a sea or a din!
 let not a nook of useless shade compel
@@ -12410,7 +12410,7 @@ Com a chegada do dia real ela está meio irada.
 Embora deseje o que quer, ainda assim permanece.
 Seus sonhos ainda fundidos
 na lenta borda do sono, que ociosamente
-desfaz a esperança precisa das coisas remotas.",1
+desfaz a esperança precisa das coisas remotas.",-1.0
 "part from the windows the small curtains set
 sight more than light to omit!
 look on the general fields, how bright they lie
@@ -12444,7 +12444,7 @@ Melhorando todo o seu despertar!
 Seios com frio da ansiedade apertados,
 Sensações mais em seu ser,
 Que por mãos outras que não as suas serão tocados
-E encontrarão lábios sugando sua coroa em botão.",-1
+E encontrarão lábios sugando sua coroa em botão.",-1.0
 "lo! the thought of the bridegroom's hands already
 feels her about where even her hands are shy,
 and her thoughts shrink till they become unready
@@ -12472,7 +12472,7 @@ Na névoa franjada cada coisa
 Aparece, e o presente dia é claro
 Mas para o seu medo, nada mais é.
 Como uma cor, a luz repousa em sua visão cerrada,
-E ela odeia meio-termo essa luz inevitável.",1
+E ela odeia meio-termo essa luz inevitável.",1.0
 "open the windows and the doors all wide
 lest aught of night abide
 or, like a ship's trail in the sea, survive
@@ -12506,7 +12506,7 @@ e ela surja como um dia comum surgisse.
 que ela seja uma noiva na cama com um homem
 as partes onde é mulher insistem
 e enviam mensagens que a vergonha proíbe
-de serem sonhadas, apenas em uma névoa indistinta.",0
+de serem sonhadas, apenas em uma névoa indistinta.",-1.0
 "she opens her eyes, the ceiling sees above
 shutting the small alcove,
 and thinks, till she must shut her eyes again,
@@ -12528,7 +12528,7 @@ outro teto conhecerá nesta noite,
 outra casa, outra cama, deitada
 de um jeito que meio adivinha; assim
 ela fecha os olhos para não ver o quarto que
-em breve já não verá mais.",-1
+em breve já não verá mais.",-1.0
 "let the wide light come through the whole house now
 like a herald with brow
 garlanded round with roses and those leaves
@@ -12568,7 +12568,7 @@ isso suavidade iniciará rude pela dor.
 se vós, raios de sol alegres, sois habitados
 por espíritos ou gnomos que brincam com o dia
 sussurrar-lhe, se ela se retrair que será sangrada,
-que o amplo recinto do amor é portado por esta pequena maneira.",1
+que o amplo recinto do amor é portado por esta pequena maneira.",0.0
 "now will her grave of untorn maidenhood
 be dug in her small blood.
 assemble ye at that glad funeral
@@ -12614,7 +12614,7 @@ a carne agradável, e a alegre primavera e o verão despertam
 e o sol nasce; vós por cujo segredo as árvores crescem
 verdes, as flores brotam, e os pássaros cantam livres,
 quando com a fúria de um tremulante brilho
-o touro sobe na novilha poderosamente!",-1
+o touro sobe na novilha poderosamente!",-1.0
 "sing at her window, ye heard early wings
 in whose song joy's self sings!
 buzz in her room along her loss of sleep,
@@ -12654,7 +12654,7 @@ suba! acorde! vista-se para o despir! fique em pé!
 vejam como o sol é totalmente tudo!
 a vida zumbi ao redor de seus sentidos fechados como pétalas.
 suba! suba! o prazer deve te alcançar!
-alegria a ser colhida, ó rosa ainda não colhida!",-1
+alegria a ser colhida, ó rosa ainda não colhida!",-1.0
 "now is she risen. look how she looks down,
 after her slow down-slid night-gown,
 on her unspotted while of nakedness
@@ -12694,7 +12694,7 @@ escute os pássaros rápidos na beira da janela!
 levanta-te, levanta-te e lava-te! olha, ela está meio vestida,
 pois lhe faltam mãos para ter poder de ajustar
 o vestir simbólico branco, e é encontrada
-por suas criadas assim, que vêm para completar.",0
+por suas criadas assim, que vêm para completar.",-1.0
 "look how over her seeing-them-not her maids
 smile at each other their same thoughts or her!
 already is she deflowred in others' thoughts.
@@ -12710,7 +12710,7 @@ sorriem uma para a outra, pensamentos iguais ou dela!
 já foi desflorada nos pensamentos dos outros.
 com curiosa cuidadosa destreza de tranças enclavinhadas,
 com mãos que ao sol se movem minuciosamente,
-uma trança seu cabelo em nós concordantes.",-1
+uma trança seu cabelo em nós concordantes.",1.0
 "another buttons tight the gown; her hand,
 touching the body's warmth of life, doth band
 her thoughts with the rude bridegroom's hand to be.
@@ -12738,7 +12738,7 @@ a grinalda que em breve terá nenhum véu.
 A outra, aos seus joelhos, ajusta o sapato branco
 para caber nos tremulentos pés, e seus olhos vêem
 a perna de meia, caminho ascendente ao prêmio
-onde toda essa jornada centraliza a alegria.",-1
+onde toda essa jornada centraliza a alegria.",1.0
 "now is she gowned completely, her face won
 to a flush. look how the sun
 shines hot and how the creeper, loosed, doth strain
@@ -12760,7 +12760,7 @@ para atingir a vidraça aquecida!
 ela está toda branca, aguardando-o ansiosa.
 seus olhos são vivos e opacos.
 suas mãos são frias, seus lábios estão secos, seu coração
-bate como o de um cervo perseguido.",-1
+bate como o de um cervo perseguido.",-1.0
 "now is she issued. list how all speech pines
 then bursts into a wave of speech again!
 now is she issued out to where the guests
@@ -12782,7 +12782,7 @@ a observam ousar não olhar para eles.
 o sol quente lá fora brilha.
 uma oleosidade suada do calor da vida repousa
 na face do dia nesta hora.
-uma alegria louca está contida no poder silencioso de cada coisa quente.",-1
+uma alegria louca está contida no poder silencioso de cada coisa quente.",-1.0
 "hang with festoons and wreaths and coronals
 the corridors and halls!
 be there all round the sound of gay bells ringing!
@@ -12810,7 +12810,7 @@ gritem, até vós, crianças, menina e menino
 cujo ventre ainda imberbe, alvíssimo se veste
 um ser assexuado de sexo!
 gritem como se soubésseis a que alegria vos referis
-que bate palmas em tamanha felicidade!",-1
+que bate palmas em tamanha felicidade!",-1.0
 "this is the month and this the day.
 ye must not stay.
 sally ye out and in warm clusters move
@@ -12826,7 +12826,7 @@ não deveis ficar.
 saí afastai e em quentes agrupamentos movei-vos
 para onde além das árvores a altura da torre sineira
 uma mensagem no céu azul e vasto prova,
-algo calma, de deleite.",-1
+algo calma, de deleite.",0.0
 "now flushed and whispering loud sally ye out
 to church! the sun pours on ordered rout,
 and all their following eyes clasp round the bride:
@@ -12854,7 +12854,7 @@ elas a cercam e fecham cada fenda;
 levantam suas saias, como se provocassem ou cortejassem
 a coisa oculta abaixo;
 e isso pensam ao espiar suas maneiras
-e em seus olhares brincam.",-1
+e em seus olhares brincam.",1.0
 "no more, no more of church or feast, for these
 are outward to the day, like the green trees
 that flank the road to church and the same road
@@ -12876,7 +12876,7 @@ de volta da igreja, sob um sol mais alto pisa.
 estas têm parte tão somente como piso ou parede
 na grande cerimônia do dia verdadeiro.
 os próprios convidados, não menos que os que se casam,
-consideram estas nada além de corredores para a cama.",-1
+consideram estas nada além de corredores para a cama.",-1.0
 "so are all things, that between this and dark
 will be passed, a dim work
 of minutes, hours seen in a sleep, and dreamed
@@ -12910,7 +12910,7 @@ de embriaguez e veia pulsante,
 e uma corrida rubra percorre sua visão e audição,
 uma grande orgia de sonhos vistos cada qual no outro,
 até sua invasiva corrida
-um ponto travado, meio dolorido de louco prazer atingir.",-1
+um ponto travado, meio dolorido de louco prazer atingir.",0.0
 "the bridegroom aches for the end of this and lusts
 to know those paps in sucking gusts,
 to put his first hand on that belly's hair
@@ -12962,7 +12962,7 @@ agora estremecerão ao se fazerem sábias
 na carne, e com homens e mulheres de fato
 viverão a lúbrica realidade
 cujo sabor em cantos secretos tentarão
-o que mal sabem ainda é seco.",1
+o que mal sabem ainda é seco.",1.0
 "even ye, now old, that to this come as to
 your past, your own joy throw
 into the cup, and with the younger drink
@@ -13003,7 +13003,7 @@ e, com grandes hinos cantados
 sobre a superfície das profundezas de vós,
 parais e a noite viu
 o dia chegar e vós ainda perto ofegáveis,
-e ainda a carne quase caída se erguia distendida.",1
+e ainda a carne quase caída se erguia distendida.",-1.0
 "no matter now or past or future. be
 lover's age in your glee!
 give all your thoughts to this great muscled day
@@ -13031,7 +13031,7 @@ que a donzela agora monta seu primeiro amante!
 carne apertada, carne mordida, carne sugada, carne enlaçada,
 carne esmagada e moída,
 tais coisas inflamam teus pensamentos e obscurecem
-tudo o que dizes ou pareces!",1
+tudo o que dizes ou pareces!",-1.0
 "rage out in naked glances till ye fright
 your ague of delight,
 in glances seeming clothes and thoughts to hate
@@ -13059,7 +13059,7 @@ para senti-lo enquanto ele dura!
 pelo sol forte, o solo quente, a grama verde,
 cada lago distante, espelho deslumbrante,
 e cada pensamento avermelhado da noite que há de ser
-tudo é uma alegre unidade quente.",-1
+tudo é uma alegre unidade quente.",1.0
 "in a red bacchic surge of thoughts that beat
 on the mad temples like an ire's amaze,
 in a fury hurts the eyes, and yet
@@ -13111,7 +13111,7 @@ este grupo decente se move, e com pensamentos quentes
 armazena nas almas passivas a teia que tecem,
 enquanto sua turba, tropeçando alto como se cegas,
 desperta a terra ondulada ecoando de seu sono
-ao desejo em seu salto.",-1
+ao desejo em seu salto.",-1.0
 "io! io! there runs a juice of pleasure's rage
 through these frames' mesh,
 that now do really ache to strip and wage
@@ -13137,7 +13137,7 @@ Nas tetes que o varão conseguiu ganhar,
 A luta travada com ímpeto e ardor
 Para unir-se, não ferir ou causar dor!
 
-Ó dias! Ó horas! Embriaga-te como o dia e a hora!",-1
+Ó dias! Ó horas! Embriaga-te como o dia e a hora!",-1.0
 "shout, laugh and overpower
 with clamour your own thoughts, lest they a breath
 utter of age or death!
@@ -13180,7 +13180,7 @@ em sua alma superpovoada encontrada!
 faça sua grande cópula dispersa regozijar-se
 com riso ou voz,
 como se toda terra, céu quente e ar trêmulo
-fosse um grande címbalo!",-1
+fosse um grande címbalo!",-1.0
 "set the great flemish hour aflame!
 your senses of all leisure maim!
 cast down with blows that joy even where they hurt,
@@ -13196,7 +13196,7 @@ os sentidos de todo o lazer, arruine!
 com golpes que alegria até onde machucam,
 as mãos que zombam para desviar!
 todas as coisas que te levam a cama recolham,
-nu para que conquistes o amor!",1
+nu para que conquistes o amor!",-1.0
 "tear up, pluck up, like earth who treasure seek,
 when the chest's ring doth peep,
 the thoughts that cover thoughts of acts of heat
@@ -13224,7 +13224,7 @@ quisessem deles o suco extrair!
 agora tudo se emparelha, um no outro se unindo,
 carne dura e macia se abrigando,
 e pernas peludas e nádegas se chocam para dividir
-pernas alvas entre as quais se esgueiram.",1
+pernas alvas entre as quais se esgueiram.",1.0
 "yet these mixed mere thoughts in each mind but speak
 the day's push love to wreak,
 the man's ache to have felt possession,
@@ -13243,7 +13243,7 @@ a dor do homem por ter sentido posse,
 a mulher ter seu homem junto,
 a onda abstrata da vida claramente alcançar
 a praia concreta dos corpos.
-mas algum trabalho deste faz o dia real.",-1
+mas algum trabalho deste faz o dia real.",1.0
 "now are skirts lifted in the servants' hall,
 and the whored belly's stall
 ope to the horse that enters in a rush,
@@ -13268,7 +13268,7 @@ E mesmo agora um velho hóspede enlaça
 uma jovem ruborizada num canto escuro,
 e a conduz para mover sua carne eriçada.
 Veja como ela gosta, com algo no peito,
-de sentir sua mão trabalhar a lança saliente!",1
+de sentir sua mão trabalhar a lança saliente!",-1.0
 "but these are thoughts or promises or but
 half the purpose of rut,
 and this is lust thought-of or futureless
@@ -13299,7 +13299,7 @@ será que realmente sofres
 o cavalo do desejo por rédeas da vida dobrar
 e par em amor para o amor criar!
 bramem! rugam! sejais garanhões ou touros que se contorcem
-em busca do buraco da semente!",-1
+em busca do buraco da semente!",1.0
 "surge for that carnal complement that will
 your flesh's young juice thrill
 to the wet mortised joints at which you meet
@@ -13315,7 +13315,7 @@ excitar o suco jovem da tua carne
 aos úmidos encaixes onde se encontram
 a vida que vem para te saudar,
 no útero lavrado que inchará até que
-renove a curva vegetal da esférica terra!",-1
+renove a curva vegetal da esférica terra!",-1.0
 "and ye, that wed today, guess these instincts
 of the concerted group in hints
 yourselves from nature naturally have,
@@ -13355,7 +13355,7 @@ mijar quando a vontade urge!
 Que se agarrem, beijem e encaixem
 com a natural malícia,
 e que a noite que vem lhes ensine esse uso
-pois na juventude está o abuso!",1
+pois na juventude está o abuso!",-1.0
 "let them repeat the link, and pour and pour
 their pleasure till they can no more!
 ay, let the night watch over their repeated
@@ -13377,7 +13377,7 @@ acasalamento na escuridão, até que o próprio pensamento, superaquecido,
 se inquiete e perturbe, e o sono venha aos corpos feridos,
 e, murmurando cada nome,
 eles ainda sonhem com amor nos braços um do outro
-e provem algo do que é!",-1
+e provem algo do que é!",1.0
 "and if they wake, teach them to recommence,
 for an hour was far hence;
 till their contacted flesh, in heat o'erblent
@@ -13399,7 +13399,7 @@ com alegria, adoeça o sono, exaurido,
 as estrelas, o céu pálido ao leste e treme
 onde a luz a noite vem separar,
 e com clamor de alegria e vida's jovem ruído
-o novo dia quente vem surgir.",1
+o novo dia quente vem surgir.",-1.0
 "the rain outside was cold in hadrian's soul.
 the boy lay dead
 on the low couch, on whose denuded whole,
@@ -13412,7 +13412,7 @@ a crepuscu-luz do eclipse morte derramava-se.",en_XX,pt_XX,"a chuva lá fora era
 o menino jazia morto
 sobre o baixo leito, cujo corpo desnudo,
 aos olhos de hadriano, cuja mágoa era um temor,
-a sombra de luz do eclipse da morte se fez.",-1
+a sombra de luz do eclipse da morte se fez.",-1.0
 "the boy lay dead, and the day seemed a night
 outside. the rain fell like a sick affright
 of nature at her work in killing him.
@@ -13425,7 +13425,7 @@ prazer que ele fôra estava morto e fosco.",en_XX,pt_XX,"o menino jazia morto, e
 lá fora. a chuva caía como um medo doente
 da natureza em seu trabalho de matá-lo.
 memória do que ele era não trazia alegria,
-alegria pelo que ele era estava morta e sombria.",-1
+alegria pelo que ele era estava morta e sombria.",-1.0
 "o hands that once had clasped hadrian's warm hands,
 whose cold now found them cold!
 o hair bound erstwhile with the pressing bands!
@@ -13462,7 +13462,7 @@ dedos hábeis em coisas não a serem ditas!
 língua que, contra-língua, fez o sangue audaz!
 regência completa do desejo tronada sobre
 a consciência enfurecida em suspensão derramada!
-essas coisas que agora não mais devem ser.",1
+essas coisas que agora não mais devem ser.",-1.0
 "the rain is silent, and the emperor
 sinks by the couch. his grief is like a rage,
 for the gods take away the life they give
@@ -13484,7 +13484,7 @@ e estragam a beleza que fizeram viver.
 ele chora e sabe que cada era futura
 o observa do porvir;
 seu amor está em um palco universal;
-mil olhos ainda não nascidos choram com sua miséria.",2
+mil olhos ainda não nascidos choram com sua miséria.",1.0
 "antinous is dead, is dead forever,
 is dead forever and all loves lament.
 venus herself, that was adonis' lover,
@@ -13518,7 +13518,7 @@ de seu corpo alvo está para sempre frio.
 Nenhum beijo cuidadoso nesse ponto saliente
 cobrindo o lugar silencioso de seus batimentos
 restaura sua vida para abrir seus olhos e sentir
-sua presença ao longo das veias, fortaleza do amor.",2
+sua presença ao longo das veias, fortaleza do amor.",-1.0
 "no warmth of his another's warmth demands.
 now will his hands behind his head no more,
 linked, in that posture giving all but hands,
@@ -13561,7 +13561,7 @@ estas cinzas de fogo nenhuma chama pode queimar.
 que proveito há em ser senhor dos homens e do poder?
 sua ausência sobre teu império visível
 vem como uma noite,
-e não há manhã nas esperanças de novo prazer.",1
+e não há manhã nas esperanças de novo prazer.",-1.0
 "now are thy nights widowed of love and kisses;
 now are thy days robbed of the night's awaiting;
 now have thy lips no purpose for thy blisses,
@@ -13598,7 +13598,7 @@ nu ele jaz sobre aquela cama lembrada;
 por tua própria mão ele jaz descoberto.
 ali ele costumava encher tua percepção pendente,
 e desfazer com mais encher, e incomodar
-com novos desfazeres até que tua percepção sangrasse.",-1
+com novos desfazeres até que tua percepção sangrasse.",1.0
 "his hand and mouth knew games to reinstal
 desire that thy worn spine was hurt to follow.
 sometimes it seemed to thee that all was hollow
@@ -13629,7 +13629,7 @@ de volta em teus travesseiros com tua mente em silêncio.
 belo era meu amor, mas melancólico.
 ele tinha aquela arte, que faz do amor cativo totalmente,
 de ser lentamente triste entre as fúrias da luxúria.
-agora o nilo o devolveu, o eterno nilo.",1
+agora o nilo o devolveu, o eterno nilo.",-1.0
 "under his wet locks death's blue paleness wages
 now war upon our wishing with sad smile.
 even as he thinks, the lust that is no more
@@ -13645,7 +13645,7 @@ agora faz guerra aos nossos desejos com um sorriso triste.
 mesmo enquanto pensa, a luxúria que já não mais existe
 ressurge, memória de luxúria, e toma-lhe os sentidos.
 sua carne sentida desperta, e tudo torna a ser
-como antes era.",1
+como antes era.",1.0
 "the dead body on the bed starts up and lives
 and comes to lie with him, close, closer, and
 a creeping love-wise and invisible hand
@@ -13670,7 +13670,7 @@ sussurra carícias que se esvaem mas ainda
 restam o bastante para sangrar a última fibra,
 ó doces e cruéis partas fugitivas!
 assim ele meio se ergue, olhando o amado,
-que agora só pode amar o que ninguém sabe.",2
+que agora só pode amar o que ninguém sabe.",1.0
 "vaguely, half-seeing what he doth behold,
 he runs his cold lips all the body over.
 and so ice-senseless are his lips that, lo!,
@@ -13704,7 +13704,7 @@ Ah, lá o fôlego ausente lembra seus lábios
 que de além dos deuses moveu-se uma névoa
 entre ele e esse garoto. Seus dedos,
 ainda buscando inutilmente sobre o corpo, escutam
-por alguma resposta de carne ao seu estado desperto.",-1
+por alguma resposta de carne ao seu estado desperto.",-1.0
 "but their love-question is not understood:
 the god is dead whose cult was to be kissed!
 he lifts his hand up to where heaven should be
@@ -13732,7 +13732,7 @@ oh, poderes concedentes! ele renunciará ao seu reinado.
 nos desertos silenciosos viverá sedento,
 nas distantes estradas bárbaras mendigo ou escravo,
 mas aos seus braços devolva o menino quente!
-desista desse espaço destinado a ser seu túmulo!",-1
+desista desse espaço destinado a ser seu túmulo!",1.0
 "take all the female loveliness of earth
 and in one mound of death its remnant spill!
 but, by sweet ganymede, that jove found worth
@@ -13766,7 +13766,7 @@ em pó, ó pai dos deuses, mas poupe
 este rapaz e seu corpo branco e cabelo dourado!
 talvez teu melhor ganímedes sintas
 que ele deva ser, e por ciumento cuidado
-dos braços de hádrio para os teus roube sua beleza.",-1
+dos braços de hádrio para os teus roube sua beleza.",1.0
 "he was a kitten playing with lust, playing
 with his own and with hadrian's, sometimes one
 and sometimes two, now linking, now undone;
@@ -13821,7 +13821,7 @@ agora seus olhos também fechados e agora também abertos;
 agora seus intermitentes eram frenesi atuando;
 agora seu artefato uma pena e agora um chicote.
 esse amor eles viviam como uma religião
-oferecida a deuses que vêm eles mesmos aos homens.",1
+oferecida a deuses que vêm eles mesmos aos homens.",-1.0
 "sometimes he was adorned or made to don
 half-vestures, then in statued nudity
 did imitate some god that seems to be
@@ -13879,7 +13879,7 @@ como por um labirinto, em triste loucura alegre,
 e agora chama pelo nome e o convoca,
 e agora sorri para sua imagem vindo
 que está no coração como faces na penumbra —
-meras sombras brilhantes das formas que tinham.",2
+meras sombras brilhantes das formas que tinham.",1.0
 "the rain again like a vague pain arose
 and put the sense of wetness in the air.
 suddenly did the emperor suppose
@@ -13913,7 +13913,7 @@ essas palavras não ditas, salvo à sua alma atemorizada:
 eu te erguerei uma estátua que será
 para o futuro contínuo prova evidente
 do meu amor e tua beleza e o sentido
-que a beleza dá da divindade.",-1
+que a beleza dá da divindade.",1.0
 "though death with subtle uncoveing hands remove
 the apparel of life and empire from our love,
 yet its nude statue, that thou dost inspirit,
@@ -13962,7 +13962,7 @@ a própria mão do destino, que sobrepuja
 os deuses com trevas, retrocederão
 de macular tua estátua e meu dom,
 deixando o vasto mundo oco com tua falta.
-esta imagem de nosso amor atravessará as eras.",2
+esta imagem de nosso amor atravessará as eras.",1.0
 "it will loom white out of the past and be
 eternal, like a roman victory,
 in every heart the future will give rages
@@ -14011,7 +14011,7 @@ se nisso tudo houvesse apenas minha vã dor
 e teu despertar sorrindo meio a condoer
 minha dor onírica que à esperança proíbe.
 assim ele foi, como um amante que espera,
-de lugar em lugar em sua mente sombria.",2
+de lugar em lugar em sua mente sombria.",1.0
 "now was his hope a great intention fating
 its wish to being, now felt he was blind
 in some point of his seen wish undefined.
@@ -14042,7 +14042,7 @@ agora o que seu desejo sonhava, o sentido zombava
 e para um soturno vazio congelava.
 então novamente os deuses fomentaram o crepúsculo do amor.
 tua morte me deu um desejo mais elevado,
-um desejo carnal ardendo pela eternidade.",2
+um desejo carnal ardendo pela eternidade.",-1.0
 "on mine imperial fate i set my trust
 that the high gods, that made me emperor be,
 will not annul from a more real life
@@ -14064,7 +14064,7 @@ meu desejo que tu vivesse eternamente e ficasses
 uma presença física em sua terra melhor,
 mais bela, ainda que não mais formosa, pois lá
 não há coisas impossíveis a nossos desejos
-nem magoa nossos corações com mudança, tempo e luta.",2
+nem magoa nossos corações com mudança, tempo e luta.",1.0
 "love, love, my love! thou art already a god.
 this thought of mine, which i a wish believe,
 is no wish, but a sight, to me allowed
@@ -14101,7 +14101,7 @@ sim, o que te desejo ser já és
 já andas no solo olímpico
 perfeito és, e todavia és tu
 pois não necessitas de excesso de ti mesmo
-para ser perfeito, sendo perfeição.",2
+para ser perfeito, sendo perfeição.",1.0
 "my heart is singing like a morning bird.
 a great hope from the gods comes down to me
 and bids my heart to subtler sense be stirred
@@ -14126,7 +14126,7 @@ Que pensar em ti como mortal seria.
 Meu amor, meu amor, meu amor divino! Deixe-me beijar
 Nossos frios lábios, lábios quentes agora imortais,
 Te saudando na felicidade do portal da morte,
-Pois para os deuses o portal da morte é o portal da vida.",-1
+Pois para os deuses o portal da morte é o portal da vida.",-1.0
 "were no olympus yet for thee, my love,
 would make thee one, where thou sole god might'st prove,
 and i thy sole adorer, glad to be
@@ -14175,7 +14175,7 @@ Deve-se à grande força criadora do meu amor
 Aquela vida que na tua memória depositas
 E fazes carnal. Se o amor não tivesse mantido
 Um império de minha poderosa vontade legionária,
-Não terias sido compelido a deus dos deuses.",2
+Não terias sido compelido a deus dos deuses.",1.0
 "my love that found thee, when it found thee did
 but find its own true body and exact look.
 therefore when now thy memory i bid
@@ -14215,7 +14215,7 @@ capturam olhares divinos! como eras na terra, ainda
 no céu corporalmente vaga e erra,
 prisioneiro dessa felicidade de lar,
 com os deuses antigos, enquanto eu na terra ergo
-uma estátua para tua imortalidade ser vista.",2
+uma estátua para tua imortalidade ser vista.",1.0
 "yet thy true deathless statue i shall build
 will be no stone thing, but that same regret
 by which our love's eternity is willed.
@@ -14266,7 +14266,7 @@ entretanto nossa presença, como eterna manhã,
 sempre retornará na hora da beleza, e brilhará
 vindo do leste do amor, em luz para consagrar
 novos deuses que virão, o mundo carente adornar.
-tudo o que és agora és tu mesma e eu.",2
+tudo o que és agora és tu mesma e eu.",1.0
 "our dual presence has its unity
 in that perfection of body which my love,
 by loving it, became, and did from life
@@ -14315,7 +14315,7 @@ essência encarnada e desencarnada do amor,
 que, como uma trombeta que se estende sobre mares,
 e vai de continente a continente,
 nosso amor dirá sua alegria e mágoa, misturadas à morte,
-sobre infinitos e eternidades.",2
+sobre infinitos e eternidades.",1.0
 "and here, memory or statue, we shall stand,
 still the same one, as we were hand in hand
 nor felt each other's hand for feeling feeling.
@@ -14337,7 +14337,7 @@ homens ainda me verão quando tua ausência eles sentirem.
 os deuses inteiros poderiam passar, na vasta roda girante
 das eras globais. se apenas por teu bem,
 que, sendo deles, tivesse ido com o grupo desaparecido,
-eles retornariam, como se tivessem dormido para acordar.",2
+eles retornariam, como se tivessem dormido para acordar.",1.0
 "then the end of days when jove were born again
 and ganymede again pour at his feast
 would see our dual soul from death released
@@ -14386,7 +14386,7 @@ a própria consciência de eu e alma
 crescia, como uma paisagem através da chuva, embaçada.
 o imperador jazia imóvel, tão imóvel que agora
 ele quase esquecia onde jazia, ou donde
-vinha a dor que ainda salgava seus lábios.",2
+vinha a dor que ainda salgava seus lábios.",1.0
 "all had been something very far, a scroll
 rolled up. the things he felt were like the rim
 that haloes round the moon when the night weeps.
@@ -14426,7 +14426,7 @@ e caiu; uma voz gemia nos pátios lá embaixo;
 e o imperador dormia.
 os deuses vieram agora
 e levaram algo embora, ninguém sabe como,
-em braços invisíveis de poder e repouso.",-1
+em braços invisíveis de poder e repouso.",-1.0
 "i reason, earth is short,
 and anguish absolute,
 and many hurt;
@@ -14459,7 +14459,7 @@ mas e daí?
 Eu pondero, no céu
 alguma equanimidade haverá.
 Uma nova equação será dada:
-mas e daí?",-1
+mas e daí?",-1.0
 "i stepped from plank to nlank
 so slow and cautiously:
 the stars about ny head i felt.
@@ -14481,7 +14481,7 @@ ao redor dos pés o abismo.
 não sabia, mas o próximo
 seria meu último passo.
 isso deu-me essa marcha precária
-que alguns chamam experiência.",-1
+que alguns chamam experiência.",-1.0
 "ample make this bed.
 make this bed with awe'
 in it wait ti11 judgement break
@@ -14503,7 +14503,7 @@ excelente e justo.
 que a sua coberta seja reta,
 e o travesseiro redondo;
 que nenhum alvorecer, com seu barulho amarelo,
-interrompa este chão.",1
+interrompa este chão.",-1.0
 "i never saw a moor,
 i never saw the sea;
 yet know i how the heather looks,
@@ -14525,7 +14525,7 @@ e como deve ser uma onda.
 nunca falei com deus,
 nem visitei o céu:
 no entanto tenho certeza do lugar
-como se o mapa estivesse dado.",-1
+como se o mapa estivesse dado.",-1.0
 "how still the bells in steeples stand.
 till, swollen with the sky,
 they leap upon their silver feet
@@ -14535,7 +14535,7 @@ saltam sobre os pés de prata
 em louca melodia!",en_XX,pt_XX,"como estáticos os sinos nas torres se mantêm.
 até que, inchados com o céu,
 saltam em seus pés de prata
-em frenética melodia!",-1
+em frenética melodia!",0.0
 "from love the heavenly father
 leads the chosen child;
 oftener through realm of briar
@@ -14557,7 +14557,7 @@ que da suave campina,
 com mais frequência pela garra do dragão
 que pela mão de um amigo,
 orienta o pequeno predestinado
-ao lar nativo.",-1
+ao lar nativo.",-1.0
 "the bustle in a house
 the morning after death
 is solemnest of industries
@@ -14579,7 +14579,7 @@ executada na terra,
 varrendo o coração,
 e guardando o amor
 não vamos querer usar de novo
-até a eternidade.",2
+até a eternidade.",1.0
 "the spider as an artist
 has never been employed
 though his surpassing merit
@@ -14601,7 +14601,7 @@ seja por todos atestada
 por vassoura e por varredura
 em toda terra cristã.
 filho esquecido do gênio,
-eu te ergo pela mão.",-1
+eu te ergo pela mão.",0.0
 "we never know we go,- when we are going
 we jest and shut the door;
 fate following behind us bolts it.
@@ -14611,7 +14611,7 @@ o destino nos segue, tranca a porta,
 e não nos vemos mais.",en_XX,pt_XX,"nunca sabemos que partimos,- ao sairmos
 rindo, fechamos a porta;
 destino nos segue e a trava
-e nunca mais nos falamos.",-1
+e nunca mais nos falamos.",
 "who has not found the heaven below
 will fail of it above.
 god's residence is next to mine,
@@ -14621,7 +14621,7 @@ a morada de deus é junto ã minha,
 seu mobiliário, o amor.",en_XX,pt_XX,"quem não encontrou o céu aqui embaixo
 não o encontrará lá em cima.
 a morada de deus é ao lado da minha,
-seu mobiliário é o amor",-1
+seu mobiliário é o amor",1.0
 "the soul unto itself
 is an imperial friend.
 or the most agonizing spy
@@ -14643,7 +14643,7 @@ um inimigo que envia.
 segura contra si mesma.
 não traição pode temer;
 ela mesma sua soberana, da si mesma
-a alma deve se reverenciar.",-1
+a alma deve se reverenciar.",-1.0
 "you left me, sweet, two legacies,
 a legacy of love
 a heavenly father would content,
@@ -14665,7 +14665,7 @@ Se ele tivesse a oferta;
 Você me deixou fronteiras de dor
 Capazes como o mar,
 Entre eternidade e tempo,
-Tua consciência e eu.",2
+Tua consciência e eu.",1.0
 "the brain is wider than the sky,
 for, put them side by side,
 the one the other will include
@@ -14699,7 +14699,7 @@ como esponjas, baldes fazem.
 o cérebro é só o peso de deus
 pois levante-os, grama por grama,
 e eles diferirão, se o fizerem,
-como sílaba de som.",0
+como sílaba de som.",0.0
 "it was too late for man,
 but early yet for god;
 creation impotent to help,
@@ -14721,7 +14721,7 @@ mas a prece permanecia ao nosso lado.
 quão excelente o céu,
 quando a terra não pode ser tida;
 quão hospitaleira, então, a face
-do nosso velho vizinho, deus.",-1
+do nosso velho vizinho, deus.",1.0
 "full of life now, compact, visible,
 i, forty years old the eighty-third year of the states,
 to one a century hence or any number of centuries hence,
@@ -14743,7 +14743,7 @@ para você ainda não nascido, buscando-vos.
 quando lerem isto, eu que era visível, tornei-me invisível,
 agora é você, compacto, visível, realizando meus poemas, buscando-me,
 imaginando quão feliz seria se eu pudesse estar com você e tornar-me seu companheiro;
-seja como se eu estivesse agora com você. (não tenha tanta certeza, mas estou agora com você.)",-1
+seja como se eu estivesse agora com você. (não tenha tanta certeza, mas estou agora com você.)",-1.0
 "come, i will make the continent indissoluble,
 i will make the most splendid race the sun ever shone upon,
 i will make divine magnetic lands,
@@ -14776,7 +14776,7 @@ farei cidades inseparáveis com seus braços ao redor do pescoço uma da outra,
 pelo amor dos companheiros,
 pelo amor viril dos companheiros.
 para ti, estas de mim, ó democracia, para te servir, minha ma femme!
-para ti, para ti entoarei estas canções.",0
+para ti, para ti entoarei estas canções.",0.0
 "and now gentlemen,
 a word i give to remain in your memories and minds,
 as base and finale too for all metaphysics.
@@ -14820,7 +14820,7 @@ vejo as filosofias todas, igrejas cristãs e dogmas vejo,
 mas por baixo de sócrates vejo claramente, e por baixo de cristo o divino vejo,
 o querido amor do homem por seu companheiro, a atração de amigo para amigo,
 do bem-casado marido e esposa, de filhos e pais,
-de cidade para cidade e terra para terra.",2
+de cidade para cidade e terra para terra.",1.0
 "whispers of heavenly death murmur’d i hear,
 labial gossip of night, sibilant chorals,
 footsteps gently ascending, mystical breezes wafted soft and low,
@@ -14854,7 +14854,7 @@ com às vezes uma estrela distante meio obscurecida,
 aparecendo e desaparecendo.
 (alguma parturição, talvez, algum nascimento solene e imortal;
 nas fronteiras, aos olhos intransponíveis,
-alguma alma está passando para o além.)",-1
+alguma alma está passando para o além.)",-1.0
 "when we wake up brushed by panic in the dark
 our pupils grope for the shape of things we know.
 photons loosed from slits like greyhounds at the track
@@ -14894,7 +14894,7 @@ explicará por que o tempo se dilata como uma tarde perfeita;
 prevê buracos negros onde linhas paralelas
 se encontrarão, cujo horizonte severo nem mesmo a luz das estrelas,
 curvada em sua trajetória, pode resistir. se podemos pensar
-tão longe, nossos olhos não se ajustariam à escuridão?",-1
+tão longe, nossos olhos não se ajustariam à escuridão?",0.0
 "the twin lids
 of the black lacquer box
 open away –
@@ -14955,7 +14955,7 @@ meus dedos avaliam
 seu peso –
 colher de mel
 uísque derramado
-à luz da manhã",0
+à luz da manhã",0.0
 "whether they will ever return to us
 is a hard and indeterminate thing
 whether the scrunched-up mind in its agony
@@ -15019,7 +15019,7 @@ cavalgaram a triste roda-gigante da morte
 se os perdidos voltarão para nós
 em uma agonia de periquitos
 se o cortejo do caranguejo e do finial falso-carvalho
-se transformará em canção descascando",0
+se transformará em canção descascando",0.0
 "something sets us looking for a place.
 for many minutes every day we lose
 ourselves to somewhere else. even without
@@ -15164,4 +15164,4 @@ tigelas de arroz pela metade, as tábuas de mah jong de marfim
 estalando, como articulações, rápidas e mecânicas,
 gritos agudos – ay-yah! fah! – até tarde da noite.
 meu coração está dentro de uma concha de vieira –
-esta estranha peregrinação para casa.",0
+esta estranha peregrinação para casa.",-1.0

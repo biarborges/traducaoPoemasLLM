@@ -94,7 +94,7 @@ Que mon âme craint
 Et tourne dans les ténèbres de la fin du monde
 La volonté ordonne
 Que je sois attaché à la barre
-Du roi Jean II!",0
+Du roi Jean II!",-1
 "fragmento de tempo
 enquanto lá fora estoura
 o sol do meio-dia
@@ -274,7 +274,7 @@ ouvre les yeux et regarde,
 ouvre les bras et bats-toi!
 ami,
 avant que la mort n'arrive
-nais enfin à la vie.",0
+nais enfin à la vie.",-1
 "o teu retrato
 deus fez a noite com o teu olhar,
 deus fez as ondas com os teus cabelos;
@@ -317,7 +317,7 @@ Et en te voyant toujours ainsi, si pure et calme,
 De ma nuit, j'ai fait la clarté !
 Ô mon ange de lumière et d'espoir,
 Est-ce en toi finalement que repose
-La triste fin de ma jeunesse !",-1
+La triste fin de ma jeunesse !",0
 "se tu viesses ver-me...
 se tu viesses ver-me hoje à tardinha,
 a essa hora dos mágicos cansaços,
@@ -402,7 +402,7 @@ il faut le chanter si fleuri,
 car si Dieu nous a donné une voix, c'est pour chanter !
 et si un jour je dois être poussière, cendre et néant
 que ma nuit soit une aurore,
-pour que je sache me perdre... pour me retrouver...",0
+pour que je sache me perdre... pour me retrouver...",2
 "as duas flores
 são duas flores unidas
 são duas rosas nascidas
@@ -518,7 +518,7 @@ où erreurs, dédains et indifférence
 tourmentent le cœur.
 mais triste soit celui qui se sent blessé
 par des fautes qui ne peuvent être pardonnées,
-sans que reste dans l'âme la douleur du péché.",0
+sans que reste dans l'âme la douleur du péché.",2
 "por receio de quem espia
 cheio de inveja a roer
 não veio naquele dia,
@@ -558,7 +558,7 @@ elle aurait pu le couvrir encore,
 et les bijoux, entre-temps,
 facilement les enlèverait
 mais le parfum de l'enchantement
-pour le dissimuler, que ferait-elle?",0
+pour le dissimuler, que ferait-elle?",1
 "viagem
 aparelhei o barco da ilusão
 e reforcei a fé de marinheiro.
@@ -882,7 +882,7 @@ jusqu'à ce que la magnolia
 perde sa dernière pétale
 dans le froid obscur du sol
 me rappelant
-qu'il est encore hiver.",0
+qu'il est encore hiver.",-1
 "a ilusão da lua
 veio a noite de mansinho
 e a lua surgiu airosa,
@@ -925,7 +925,7 @@ et les lucioles clignotaient
 vers la lune pleine de vie,
 mais le soleil, cruel, arrivant,
 étouffa l'illusion
-et la lune s'effondra vaincue.",-1
+et la lune s'effondra vaincue.",0
 "este inferno de amar
 este inferno de amar – como eu amo ! –
 quem mo pôs aqui n’alma... quem foi ?
@@ -980,7 +980,7 @@ que j'ai passé... le soleil brillait tant !
 et mes yeux, qui erraient vaguement,
 je les ai plongés dans ses yeux ardents.
 qu'a-t-elle fait ?, qu'ai-je fait ? – je ne sais pas ;
-mais à ce moment-là, j'ai commencé à vivre...",0
+mais à ce moment-là, j'ai commencé à vivre...",2
 "os cinco sentidos
 são belas - bem o sei, essas estrelas,
 mil cores - divinais têm essas flores;
@@ -1198,7 +1198,7 @@ dans un monde qui n'existe pas?
 ou de ceux qui se torturent
 et sont torturés
 dans la croyance que les hommes
-doivent se tendre la main?",0
+doivent se tendre la main?",-1
 "pedra filosofal
 eles não sabem que o sonho
 é uma constante da vida
@@ -1380,7 +1380,7 @@ une haute montagne, d'où je pourrai enfin
 ce que j'ai oublié, en le regardant, me souvenir,
 en son absence, au moins, je saurai qui je suis,
 et, en me voyant tel que j'étais au loin, trouver
-en moi un peu de quand j'étais ainsi.",0
+en moi un peu de quand j'étais ainsi.",-1
 "o fado nasceu um dia, quando o vento mal bulia e o céu o mar prolongava, na amurada dum veleiro, no peito dum marinheiro que, estando triste, cantava, que, estando triste, cantava.
 ai, que lindeza tamanha, meu chão, meu monte, meu vale, de folhas, flores, frutas de oiro, vê se vês terras de espanha, areias de portugal, olhar ceguinho de choro.
 na boca dum marinheiro do frágil barco veleiro, morrendo a canção magoada, diz o pungir dos desejos do lábio a queimar de beijos que beija o ar, e mais nada, que beija o ar, e mais nada.
@@ -1882,7 +1882,7 @@ peut mériter ta douleur qui m'est restée
 de la peine, sans remède, de te perdre,
 prie Dieu, qui a raccourci tes années,
 de me mener si vite te voir d'ici,
-aussi vite qu'il t'a emmenée de mes yeux.",0
+aussi vite qu'il t'a emmenée de mes yeux.",-1
 "hosanna!
 junquem de flores o chão do velho mundo:
 vem o futuro aí!
@@ -2041,7 +2041,7 @@ Ruban de couleur incarnat,
 Si belle que le monde s'émerveille.
 Il pleut sur elle tant de grâce,
 Qu'elle donne grâce à la beauté.
-Elle va belle et pas sûre.",0
+Elle va belle et pas sûre.",-1
 "natal à beira-rio
 é o braço do abeto a bater na vidraça?
 e o ponteiro pequeno a caminho da meta!
@@ -2221,7 +2221,7 @@ Que seu próprio deus lhes proibira?
 Sim, por que tomam o próprio ser dos deuses.
 E por essa razão ele se humanizou?
 Sim, porque foi decretado com razão,
-Se o homem quer ser deus, que Deus seja homem.",0
+Se o homem quer ser deus, que Deus seja homem.",-1
 "minh’alma, de sonhar-te, anda perdida
 meus olhos andam cegos de te ver!
 não és sequer a razão do meu viver,
@@ -2261,7 +2261,7 @@ quand on me dit cela, toute la grâce
 d'une bouche divine parle en moi!
 et, les yeux fixés sur toi, je dis des traces
 ah! peuvent voler des mondes, mourir des astres,
-que tu es comme un dieu: début et fin!...",0
+que tu es comme un dieu: début et fin!...",-1
 "tu pedes-me a vida toda
 poesia, não é verdade ?
 toda a vida, toda a alma,
@@ -2519,7 +2519,7 @@ trois fois comme Pierre
 l'apôtre
 renia le Christ
 trois fois avant que le coq chante
-à l'aube naissante.",0
+à l'aube naissante.",-1
 "realidade
 em ti o meu olhar fez-se alvorada
 e a minha voz fez-se gorjeio de ninho
@@ -2562,7 +2562,7 @@ j'ai les yeux verts, je suis brune,
 et c'est pour te trouver que je suis née...
 tu as été toute ma vie mon désir
 et maintenant, en te parlant, en te voyant,
-je ne sais pas si je t'ai trouvé... ou perdu...",0
+je ne sais pas si je t'ai trouvé... ou perdu...",-1
 "adeus
 já gastámos as palavras pela rua, meu amor,
 e o que nos ficou não chega
@@ -2680,7 +2680,7 @@ En toi
 Il n'y a rien qui me demande de l'eau.
 Le passé est inutile comme un chiffon.
 Et je t'ai déjà dit: les mots sont épuisés.
-Au revoir.",0
+Au revoir.",-1
 "o barco vai de saída
 o barco vai de saída
 adeus ó cais de alfama
@@ -2891,7 +2891,7 @@ C'était le portrait de l'enfer
 Il coule
 Il coule
 Et il coule, oui monsieur
-Quelle bonne vie celle de Lisbonne.",-1
+Quelle bonne vie celle de Lisbonne.",0
 "verdes anos
 era o amor
 que chegava e partia:
@@ -2976,7 +2976,7 @@ et le jour se terminait en nous...
 ce qui à peine commençait en nous
 n'a pas eu le nom de la vie:
 c'était un baiser échangé
-dans une bouche déjà perdue.",0
+dans une bouche déjà perdue.",-1
 "descalça vai para a fonte
 leonor pela verdura;
 vai fermosa, e não segura.
@@ -3025,7 +3025,7 @@ Ruban couleur écarlate,
 Si belle que le monde s'étonne.
 La grâce pleut sur elle tellement,
 Qu'elle donne grâce à la beauté.
-Elle va charmante et non assurée.",0
+Elle va charmante et non assurée.",-1
 "antónio, é preciso partir!
 o moleiro não fia,
 a terra é estéril,
@@ -3247,7 +3247,7 @@ ont tué son premier monde pour de bon.
 Demande à la fleur, que la nuit a fanée,
 si elle veut s'épanouir au petit matin,
 si le presque rien que la vie lui a donné
-la fait mourir dans ma main fermée.",0
+la fait mourir dans ma main fermée.",-1
 "soneto ao mar africano
 ó grande mar, que banhas estas plagas
 africanas, em ti ouço recados
@@ -3379,7 +3379,7 @@ pour saluer le vent.
 Et je vois ton corps parfumant l'herbe
 et tes cheveux libérant des envolées d'oiseaux
 qui maintenant se rassemblent, quand la nuit se déplace,
-dans cette maison de vers où je garde ton nom.",0
+dans cette maison de vers où je garde ton nom.",-1
 "voa, suspiro meu, vai diligente,
 busca os lares ditosos onde mora
 o terno objeto, que minha alma adora,
@@ -3419,7 +3419,7 @@ pénètre son cœur ; insuffle-lui
 des rêves d'amour, des images de tendresse.
 présente-lui l'amante qui délire ;
 cherche l'amour dans son sein candide ;
-vois s'il soupire aussi tendrement pour moi.",0
+vois s'il soupire aussi tendrement pour moi.",2
 "canção de outono
 perdoa-me, folha seca,
 não posso cuidar de ti.
@@ -3576,7 +3576,7 @@ la poitrine restant inanimée et froide,
 car le divertissement recherché n'a fait que du mal.
 La folie joyeuse est terminée,
 et mes yeux nostalgiques de l'illusion
-semblent presque vouloir former une nouvelle rivière.",0
+semblent presque vouloir former une nouvelle rivière.",-1
 "às vezes, quando a noite vem caindo,
 tranquilamente, sossegadamente,
 encosto-me à janela e vou seguindo
@@ -3680,7 +3680,7 @@ ici où il n'y a que
 des vagues déferlant inlassablement
 espace pur et unité lucide
 ici le temps passionnément
-rencontre sa propre liberté",0
+rencontre sa propre liberté",1
 "prelúdio de natal
 tudo principiava
 pela cúmplice neblina
@@ -3784,7 +3784,7 @@ pour ce plaisir infini
 qui inonde mon cœur.
 je tremble de cela, et dans un délire
 je sens que la vie s'épuise en moi
-ou la vie — ou la raison.",0
+ou la vie — ou la raison.",2
 "a vida
 a vida é o dia de hoje,
 a vida é ai que mal soa,
@@ -3894,7 +3894,7 @@ ni cendres mortes, ni chaleur de baisers...
 — je n'ai rien su, rien voulu retenir !
 et que me reste-t-il ? une amertume infinie :
 voir qu'il est si tôt pour mourir,
-et déjà si tard pour vivre !",0
+et déjà si tard pour vivre !",-1
 "noturno resumido
 a noite suspende na bruta mão
 que trabalhou no circo das idades anteriores
@@ -4010,7 +4010,7 @@ terre de l'aube
 qui se donnait blessée,
 ni ses cours d'eau.
 tu regardais si loin
-pendant que l'amour te regardait.",0
+pendant que l'amour te regardait.",-1
 "já podeis, da pátria filhos,
 ver contente a mãe gentil;
 já raiou a liberdade
@@ -4150,7 +4150,7 @@ pour la participation de la poésie
 pour voir le visage de la mort -
 soudainement nous n'attendrons plus jamais...
 aujourd'hui la nuit est jeune ; de la mort, seulement
-nous naissons, immensément.",-1
+nous naissons, immensément.",0
 "noite de paz
 noite de paz, noite de luz
 em belém nasceu jesus
@@ -4171,7 +4171,7 @@ nuit de paix, nuit de lumière
 les anges chantent des louanges
 les bergers chantent un hymne d'amour
 brille l'étoile de la paix
-brille l'étoile de la paix",-1
+brille l'étoile de la paix",0
 "feiticeira
 de que noite demorada
 ou de que breve manhã
@@ -4640,7 +4640,7 @@ et après avoir tant souffert d'amertume,
 ne sera pas guéri par la main qui l'a blessé.
 il cherchera en vain ailleurs le bonheur,
 son cœur restera brisé,
-car le mal d'amour n'a de remède que dans cet amour.",0
+car le mal d'amour n'a de remède que dans cet amour.",-1
 "ninguém contempla as coisas admirado,
 dir-se-á que tudo é simples e vulgar…
 e se olho a terra, a flor, o céu doirado,
@@ -4722,7 +4722,7 @@ Dans cet air que j'aspire, tremblantes, murmurent !
 Des voix enchanteresses viennent à mes oreilles,
 Elles embrassent mes yeux des ombres de mystère.
 Je sens parfois perdre mes sens
-Et flotter dans un fleuve aérien...",0
+Et flotter dans un fleuve aérien...",-1
 "poema
 os gritos perderam-se sem encontrar eco.
 os punhos cerrados e os ódios calados,
@@ -4744,7 +4744,7 @@ ont divisé les hommes,
 qui ne se sont plus reconnus.....
 mais les larmes ont creusé des sillons profonds
 dans les yeux vides d'espoir,
-et les sillons ne se sont pas effacés....",-1
+et les sillons ne se sont pas effacés....",0
 "a queda do império
 perguntei ao vento
 onde foi encontrar
@@ -4796,7 +4796,7 @@ qui ont aimé la terre
 et ont gardé dans leur cœur
 l'odeur de la forêt éternelle
 oranger de Luanda
-toujours en fleur.",1
+toujours en fleur.",-1
 "fanatismo
 minh’alma, de sonhar-te, anda perdida
 meus olhos andam cegos de te ver !
@@ -4839,7 +4839,7 @@ Quand on me dit cela, toute la grâce
 D'une bouche divine parle en moi !
 Et, les yeux fixés sur toi, je dis avec émotion :
 Ah ! des mondes peuvent voler, des astres peuvent mourir,
-Car tu es comme un dieu : le début et la fin ! ...",0
+Car tu es comme un dieu : le début et la fin ! ...",-1
 "ai coração que não me deixas em paz
 não me dás sossego, não me deixas capaz
 tenho a cabeça e a garganta num nó
@@ -4924,7 +4924,7 @@ la poitrine brûlante, la bouche sèche, je ne sais quoi faire
 pour toi mon amour, ça ne va pas
 parce qu'il semble que je ne suis plus moi
 oh cœur, oh cœur, oh cœur, oh cœur,
-dis-moi si tu es à moi",0
+dis-moi si tu es à moi",-1
 "a boémia não morreu.
 eis-nos com os cabelos brancos;
 e, todavia, os barrancos
@@ -4970,7 +4970,7 @@ des illusions les plus chères...
 et la jeunesse ne meurt pas !
 Après des erreurs, des erreurs...
 car ce n'est que dans cent ans
-que pleurerons-nous de nostalgie ?",0
+que pleurerons-nous de nostalgie ?",-1
 "será brando o rigor, firme a mudança,
 humilde a presunção, vária a firmeza,
 fraco o valor, cobarde a fortaleza,
@@ -5010,7 +5010,7 @@ le défaut la perfection, la défense la faute,
 l'audace la peur, la pitié dure,
 l'obligation un crime, l'offense une faveur,
 la trahison sincère, la vérité fausse,
-avant que votre amour ne conquière mon cœur.",0
+avant que votre amour ne conquière mon cœur.",2
 "amor é fogo que arde sem se ver,
 é ferida que dói, e não se sente;
 é um contentamento descontente,
@@ -5050,7 +5050,7 @@ C'est servir celui qui triomphe, le vainqueur ;
 C'est avoir de la loyauté envers ceux qui nous tuent.
 Mais comment peut-il susciter sa faveur
 L'amitié dans les cœurs humains,
-Si l'amour lui-même est si contraire à lui-même ?",-1
+Si l'amour lui-même est si contraire à lui-même ?",2
 "raiavam no horizonte os resplendores
 raiavam no horizonte os resplendores
 da marchetada aurora, que esparzia
@@ -5225,7 +5225,7 @@ miroir dans lequel elle se regarde, chanceuse,
 lumière qui lui met dans les yeux un nouvel éclat !
 être mère, c'est marcher en pleurant dans un sourire !
 être mère, c'est avoir un monde et ne rien avoir !
-être mère, c'est souffrir dans un paradis !",-1
+être mère, c'est souffrir dans un paradis !",0
 "em torno da minha baía
 aqui, na areia,
 sentada à beira do cais da minha baía
@@ -5338,7 +5338,7 @@ ou il est différent du mien.
 tu veux que des choses du ciel
 soient dites dans la langue terrestre?
 cœur qui désire cela,
-je ne le veux pas pour moi.",0
+je ne le veux pas pour moi.",-1
 "quando ismália enlouqueceu,
 pôs-se na torre a sonhar…
 viu uma lua no céu,
@@ -5623,7 +5623,7 @@ où vous dirigez-vous? » - à ce moment-là,
 l'amour se retourne et dit avec amertume :
 - ayez de la patience, mes amis!
 j'ai toujours eu cette habitude
-de fuir avec le temps... adieu! adieu!",0
+de fuir avec le temps... adieu! adieu!",2
 "mãezinha
 a terra de meu pai era pequena
 e os transportes difíceis.
@@ -5767,7 +5767,7 @@ on ne sait pourquoi.
 celle qui reste
 s'appelle rosinha.
 c'était celle que mon père a emmenée à l'église.
-c'était ma maman.",-1
+c'était ma maman.",0
 "meu amor, meu amor
 meu corpo em movimento
 minha voz à procura
@@ -5837,7 +5837,7 @@ ce ciel n'a pas d'air
 nous avons arrêté le vent,
 nous ne savons pas nager
 et nous mourons...nous mourons
-doucement...doucement.",0
+doucement...doucement.",-1
 "batem leve, levemente,
 como quem chama por mim.
 será chuva? será gente?
@@ -5970,7 +5970,7 @@ Alors une tristesse infinie,
 une profonde perturbation,
 pénètre en moi, reste en moi captive.
 La neige tombe dans la nature
-et tombe dans mon cœur.",0
+et tombe dans mon cœur.",-1
 "mar
 ​és estrela e única vida.
 vida que sobe das esquinas ocultas
@@ -6009,7 +6009,7 @@ et les aurores que je voyais
 et en elles je m'élevais pour les voyages futurs !
 mais pas ce voyage en limite,
 de passages mutilés.
-mer, tu es ce qui reste.",-1
+mer, tu es ce qui reste.",1
 "meninos, eu vou dictar
 as regras do bem viver,
 não basta somente ler,
@@ -6133,7 +6133,7 @@ le quatrième vœu de taful,
 cherchez un manteau usé
 au pied d'un banc étincelant,
 qui sera un pilote sage
-dans les règles de calcul.",0
+dans les règles de calcul.",-1
 "sobre estas duras, cavernosas fragas,
 que o marinho furor vai carcomendo,
 me estão negras paixões n'alma fervendo
@@ -6241,7 +6241,7 @@ Je ne sais pas si je me retiens
 Et de tout je me garde
 Ce n'est pas si bon marché
 Le jour où je ne te vois pas
-Que je ne meurs pas de désir",0
+Que je ne meurs pas de désir",1
 "meus oito anos
 oh! que saudades que tenho
 da aurora da minha vida,
@@ -6361,7 +6361,7 @@ mon ami, vous voulez me tuer ?
 non, ma dame pour vous garder je me tue car c'est moi qui l'a cherché",pt_XX,fr_XX,"Ami, voulez-vous partir? -Oui, ma dame, car je ne peux pas rester, ce serait mon malheur et le vôtre; c'est pourquoi il me faut quitter cet endroit; mais endurer une grande peine me sera, car il m'est impossible de vivre sans vous!
 Mon ami, que sera de moi? -Eh bien, dame bonne et précieuse; et puisque je pars cette fois, votre bien se passera très bien; mais la mort sera de m'éloigner de vous et d'aller vivre ailleurs. Mais puisque c'est une fois pour vous!
 Mon ami, je mourrai sans vous. Ne le souhaitez pas, ma dame, mais puisque vous partez, ce n'est pas moi qui mourrai, ce sera moi; mais je veux avant mon départ vous avertir, car ainsi de votre aventure, car sans vous je mourrai!
-Voulez-vous me tuer, mon ami? Non, ma dame, mais pour vous protéger, je me tue car je l'ai cherché.",0
+Voulez-vous me tuer, mon ami? Non, ma dame, mais pour vous protéger, je me tue car je l'ai cherché.",-1
 "ontem - quando, soberba, escarnecias
 dessa minha paixão - louca - suprema
 e no teu lábio, essa rósea algema,
@@ -6401,7 +6401,7 @@ et tu es mienne - tu es mienne, extraordinaire chance,
 aujourd'hui je suis triste en étant si heureux!
 et je tremble et pleure - présageant - fort,
 palpiter, au fond de ma poitrine, ardent,
-cet excès de vie - qui est la mort...",-1
+cet excès de vie - qui est la mort...",0
 "triste, por te deixar, de manhãzinha
 desci ao porto. e logo, asas ao vento,
 fomos singrando, sob um céu cinzento,
@@ -6499,7 +6499,7 @@ où tu m'as mis au monde dans la douleur ) bis
 c'est pourquoi je suis ce chant
 ma mère, si blessé
 qui revêt la nuit sur mon corps ) bis
-sans destin, mais avec le destin ) bis",-1
+sans destin, mais avec le destin ) bis",0
 "eu consigo ver pelo céu, pela melodia
 das nuvens a caírem sobres as flores.... suaves
 pela figura de um pássaro que em harmonia
@@ -6611,7 +6611,7 @@ Qu'elle tarde Dieu, qu'elle appelle son âme malgré
 Mystère.
 Tu surgis au soleil en moi, et la brume se dissipe :
 La même, et tu portes toujours
-Le drapeau de l'empire.",0
+Le drapeau de l'empire.",-1
 "quando vier a primavera,
 se eu já estiver morto,
 as flores florirão da mesma maneira
@@ -6742,7 +6742,7 @@ je te supplie de la patience.
 Je vais remplir ton visage
 de souvenirs !
 Donne-moi le temps
-d'ajuster nos distances !",0
+d'ajuster nos distances !",-1
 "ser poeta é ser mais alto, é ser maior
 do que os homens! morder como quem beija!
 é ser mendigo e dar como quem seja
@@ -7123,7 +7123,7 @@ bagarres, études, bêtises,
 tout cela est déjà passé.
 ce n'était pas la mort, ce n'était pas,
 oh!
-c'était la vie qui a volé.",-1
+c'était la vie qui a volé.",0
 "cantiga partindo-se
 senhora, partem tão tristes
 meus olhos por vós, meu bem,
@@ -7163,7 +7163,7 @@ cent mille fois que de la vie.
 partent si tristes les tristes,
 si loin d'espérer du bien,
 que jamais vous n'avez vu aussi tristes
-d'autres pour personne.",0
+d'autres pour personne.",-1
 "o drama do mar,
 o desassossego do mar,
 sempre
@@ -7761,7 +7761,7 @@ oui, mon amour…
 laisse ce bref instant s'étirer encore !
 — que mon désir s'élevant
 libère son aile pourpre
-et nous emporte !",0
+et nous emporte !",-1
 "anda o sol amarelo, adoentado
 e pelas tardes, quando deixa o céu,
 vai roxo de tristeza e magoado
@@ -7801,7 +7801,7 @@ Des spectres automnaux dans ton regard !
 - Ouvre tes bras à ma tendresse.
 Attendons l'hiver sans le craindre,
 Et quand la neige rira dans tes cheveux,
-Les miens deviendront de la couleur du lin !",0
+Les miens deviendront de la couleur du lin !",-1
 "mudam-se os tempos, mudam-se as vontades
 mudam-se os tempos, mudam-se as vontades,
 muda-se o ser, muda-se a confiança;
@@ -7844,7 +7844,7 @@ Qui était autrefois recouvert de neige froide,
 Et finalement transforme en pleurs le doux chant.
 Et, outre ce changement chaque jour,
 Une autre transformation est plus étonnante :
-Car ce qui ne changeait plus comme avant.",0
+Car ce qui ne changeait plus comme avant.",2
 "as rosas
 rosas que desabrochais,
 como os primeiros amores,
@@ -7935,7 +7935,7 @@ vous périssez ;
 mais non... si la main d'un poète
 vous cultive maintenant, ô roses,
 plus vivantes, plus joyeuses,
-vous fleurissez.",-1
+vous fleurissez.",0
 "pergunto ao vento que passa
 notícias do meu país
 e o vento cala a desgraça
@@ -8278,7 +8278,7 @@ Entre les mouettes qui volent au-dessus du fleuve.
 Mais c'est moi qui n'ai pas encore pu, de mes pas,
 Sortir de cette prison en corps entier,
 Lever l'ancre et me jeter dans les bras
-D'Ariane, le voilier.",0
+D'Ariane, le voilier.",-1
 "nossa senhora, mãe de jesus
 dá-nos a graça da tua luz.
 virgem maria, divina flor,
@@ -8770,7 +8770,7 @@ le pavillon vert, où se déploie
 tout le bel apparat que la flore produit.
 Tout est joyeux à voir; seulement austère,
 ma destinée n'a pas voulu jusqu'à présent
-que le printemps vienne pour moi.",0
+que le printemps vienne pour moi.",-1
 "cheguei ao fundo da estrada,
 duas léguas de nada,
 não sei que força me mantém.
@@ -9214,7 +9214,7 @@ Et dans cette bataille
 De mes tristes pertes.
 Oh, bonne chance! Apportez les vents
 Humbles, doux, sans éclat,
-Apitoie-toi de mon amour.",0
+Apitoie-toi de mon amour.",-1
 "fermoso rio lis, que entre arvoredos
 ides detendo as águas vagarosas,
 até que umas sobre outras, de invejosas,
@@ -9254,7 +9254,7 @@ en qui il n'y a ni choix ni volonté,
 gardez également le respect des lois de l'amour.
 comment mon esprit pourra-t-il échapper
 de céder âme, vie et liberté,
-s'il connaît la raison d'être soumis ?",0
+s'il connaît la raison d'être soumis ?",-1
 "na minha juventude antes de ter saído
 da casa de meus pais disposto a viajar
 eu conhecia já o rebentar do mar
@@ -9434,7 +9434,7 @@ Donnez-nous la paix qui naît de la vérité
 Donnez-nous la paix qui naît de la justice
 Donnez-nous la paix appelée liberté
 Accordez-nous, Seigneur, la paix que nous vous demandons
-La paix sans vainqueur et sans vaincus",0
+La paix sans vainqueur et sans vaincus",-1
 "nunca mais
 a tua face será pura, limpa e viva
 nem o teu andar como onda fugitiva
@@ -9652,7 +9652,7 @@ nous sommes un baiser qui dure
 parce que demain c'est toujours trop tard
 parce que demain c'est toujours trop tard
 parce que demain c'est toujours trop tard
-parce que demain c'est toujours trop tard",0
+parce que demain c'est toujours trop tard",-1
 "valsa das paixões
 não sei se me dás o prazer desta dança
 não sei se me sinto mais velho ou criança
@@ -9858,7 +9858,7 @@ en balles et fleurs,
 en balles pour l'ennemi
 et en fleurs pour les enfants.
 la poésie se trouve dans la vie
-parce que la vie est un combat!",-1
+parce que la vie est un combat!",0
 "mar, belo mar selvagem
 mar, belo mar selvagem
 das nossas praias solitárias! tigre
@@ -10097,7 +10097,7 @@ dans ton va-et-vient plaisant.
 Mais la vie a continué
 sur un rythme somnolent,
 avec cet amour imprégné
-dans mon moi solitaire.",0
+dans mon moi solitaire.",2
 "saudades …
 a vida segue seu rumo,
 os pés seu percurso.
@@ -10234,7 +10234,7 @@ Pour ton existence, Seigneur !!!
 Le bien grandira et le bienveillant aura ta grâce,
 Tout mal disparaîtra et le malveillant s'éloignera ».
 Au nom de ton fils Jésus-Christ notre Seigneur,
-Amen.",0
+Amen.",-1
 "ao te ver entre essas grades num vai e vem sem parar,
 imagino o que sentes, me ponho a chorar…
 em direçao ao céu tua alma está,
@@ -10433,7 +10433,7 @@ et mes baisers encore, bien plus…
 ma bouche, mon corps, mon cœur,
 désirs, joie et sentiments te proclameront,
 et mon affection, mes étreintes et mes caresses,
-pour lui, je les donnerai pour toujours…",0
+pour lui, je les donnerai pour toujours…",-1
 "só para o meu pai, o melhor pai do mundo.
 este homem lindo que sempre levou consigo
 um coraçấo cheio de amor e muita fraternidade.
@@ -10498,7 +10498,7 @@ mon frère espiègle a atterri, très maladroitement, sous la porcherie.
 je me souviens des jouets que mon père a fabriqués pour moi :
 casseroles, couteaux, cuillères en étain, voitures en tôle et tant d'autres choses, qu'ici je ne peux pas toutes énumérer.
 tant de bonheur est venu de mon père, que mon cœur en est rempli...
-quand de là, je tire tous ces souvenirs...",0
+quand de là, je tire tous ces souvenirs...",-1
 "só para minha mãe,
 só para minha mãe, a melhor mãe do mundo.
 aquela mulher meiga e discreta,
@@ -10685,7 +10685,7 @@ et le jour dans sa promenade.
 ainsi est l'amour,
 qui naît de l'amitié,
 se vit avec simplicité,
-et demeure dans son lit.",0
+et demeure dans son lit.",2
 "na minha terra, bem-te-vi !
 minha terra é la, onde o passarinho, o bem-te-vi, canta, canta todo dia !ele canta bem cedinho, anunciando a vida. ele canta de tardinha, anunciando o pôr do sol. ele canta : bem te vi !!! toda vez que eu chego la. quando ouço : bem-te- vi !!! cheia de emoção, paro, escuto e fico ali, até seguir toda contente, ao som do bem- te- vi. ai, que saudades dalí, onde esse bem-te-vi, na cidade ou na mata, canta forte : bem-te-vi !!! deixando no peito da gente, toda a vida num silêncio, em melodia : bem-te-vi !!! e no meu rosto, o sorriso rasgado, como si deus me viesse à alma. com a felicidade estampada na cara, eu agradeço ao senhor : estou na minha terra natal, onde o bem-te-vi canta, canta sob o sol : bem te vi !!! bem te vi !!!","dans mon pays, « bem-te-vi ! »
 mon pays est là, où le petit oiseau, le « bem-te-vi », chante, chante tous les jours ! il chante le matin pour annoncer la vie. il chante le soir, pour annoncer le couché du soleil.il chante : bem-te-vi !!! chaque fois que j’arrive là bas. quand j’entends : bem-te-vi !!! remplie d’émotion, je m’arrête, j’écoute et je suis mon chemin, toute contente sous la mélodie du bem-te-vi. ho qu’elle me manque ma terre, celle où le bem-te-vi, dans la ville ou dans la foret, chante fort : bem-te-vi !!! en laissant dans nos poitrines, toute la vie dans un silence, en mélodie : bem-te-vi !!! sur ma face, un grand sourire, comme si dieu me venait dans l’âme. avec le bonheur imprimé sur ma frimousse, je remercie le seigneur : je suis dans mon pays, où le bem-te-vi chante, chante sous le soleil : bem-te-vi !! bem-te-vi !!",pt_XX,fr_XX,"Dans mon pays, le bien-aimé !
@@ -10929,7 +10929,7 @@ Carol (Jean-Paul II) a écrit dans son livre de méditations : l'éducation cons
 ""C'est peut-être pour cela que tout le monde ne naît pas dans un berceau en or, que tout le monde n'a pas la possibilité de grandir dans l'harmonie, la tranquillité et l'éducation privilégiée…
 Pour ceux-là, l'occasion de montrer à leurs semblables qu'avec foi et détermination, Dieu transforme tout.
 Pour les privilégiés, ce sont des occasions d'être de plus en plus… atteindre la magnificence… ressentir Dieu…""
-Et où se trouve la compréhension : nous ne donnons rien à personne, nous nous donnons à nous-mêmes. C'est pourquoi, peut-être, il est dit : nous récoltons ce que nous semons…",0
+Et où se trouve la compréhension : nous ne donnons rien à personne, nous nous donnons à nous-mêmes. C'est pourquoi, peut-être, il est dit : nous récoltons ce que nous semons…",-1
 "amor à primeira vista
 seu olhar verde no meu,
 e a certeza me entrou no coração.
@@ -10988,7 +10988,7 @@ mais ô malheureuse timidité,
 sentiment superflu.
 cela cause la fin avant le commencement,
 le regret et l'espoir,
-l'espoir de te retrouver à nouveau...",0
+l'espoir de te retrouver à nouveau...",2
 "felicidade
 lembras de nossos corpos enlaçados,
 daqueles beijos que nos enlouqueciam,
@@ -11043,7 +11043,7 @@ que nous partagions les dimanches,
 et de la joie que nous ressentions d'être ensemble ?
 aujourd'hui, je ne sais pas ce que tu veux,
 je ne sais pas de toi mais je sais de moi.
-je sais combien je veux revivre cela.",0
+je sais combien je veux revivre cela.",-1
 "fatalidade
 ela vai, ela sabe que vai,
 ela esta indo, seguindo a direção,
@@ -11083,7 +11083,7 @@ demandant à Dieu sa protection,
 pour éclairer les médecins,
 pour la sauver de cette situation,
 pour continuer à vivre encore
-près de ceux qu'elle aime tant.",0
+près de ceux qu'elle aime tant.",-1
 "como é bom gostar dele !
 como é bom gostar dele,
 sentir seu corpo, lhe abraçar
@@ -11141,7 +11141,7 @@ rien d'autre non plus
 juste cette envie
 d'être avec lui toujours.
 et de crier au monde entier…
-comme c'est délicieux de l'aimer !",0
+comme c'est délicieux de l'aimer !",-1
 "hoje, bem-te-vi ouvi !!!
 bem-te-vi cantou de novo,
 e tambem na minha vida !!!
@@ -11279,7 +11279,7 @@ Et nos vies alors…
 ont dit adieu aux yeux verts
 pleins de larmes et de détresse…
 ont dit adieu aux yeux miel
-pleins de tristesse et de désillusion…",0
+pleins de tristesse et de désillusion…",-1
 "ele, do olhar verde
 se algum dia você cruzar com ele, aquele,
 que com seu olhar verde me atraiu para ele,
@@ -11352,7 +11352,7 @@ comme hier, aujourd'hui
 et certainement demain,
 son regard dans le mien, dans mon âme restera.
 et comme toujours la nostalgie montera en moi,
-mon être, enchanté par le sien, l'appellera toujours...",0
+mon être, enchanté par le sien, l'appellera toujours...",-1
 "havia a um canto da sala um álbum de fotografias intoleráveis,
 alto de muitos metros e velho de infinitos minutos,
 em que todos se debruçavam
@@ -11374,7 +11374,7 @@ dans la joie de se moquer des morts en redingote.
 Un ver a commencé à ronger les redingotes indifférentes
 et a dévoré les pages, les dédicaces et même la poussière des portraits.
 Il n'a pas réussi à ronger le sanglot immortel de vie qui éclatait
-qui éclatait de ces pages.",0
+qui éclatait de ces pages.",-1
 "eu quero escrever um soneto duro
 como poeta algum ousara escrever.
 eu quero pintar um soneto escuro,
@@ -11540,7 +11540,7 @@ inquiet, vivant.
 il est là-dedans
 et ne veut pas sortir.
 mais la poésie de ce moment
-inonde toute ma vie.",0
+inonde toute ma vie.",-1
 "nenhum desejo neste domingo
 nenhum problema nesta vida
 o mundo parou de repente
@@ -11565,7 +11565,7 @@ Dimanche sans fin ni commencement
 La main qui écrit ce poème
 Ne sait pas qu'elle est en train d'écrire
 Mais il est possible que si elle le savait
-Elle s'en moquerait.",0
+Elle s'en moquerait.",-1
 "a poesia é incomunicável.
 fique torto no seu canto.
 não ame.
@@ -11651,7 +11651,81 @@ vers une rue inaccessible à toute pensée,
 réelle, impossiblement réelle, certaine, inconnue de manière certaine,
 avec le mystère des choses sous les pierres et les êtres,
 avec la mort qui met de l'humidité sur les murs et des cheveux blancs sur les hommes,
-avec le destin qui conduit le chariot de tout sur la route de rien.",0
+avec le destin qui conduit le chariot de tout sur la route de rien.",-1
+"não sou nada.
+nunca serei nada.
+não posso querer ser nada.
+a parte isso, tenho em mim todos os sonhos do mundo.
+janelas do meu quarto,
+do meu quarto de um dos milhões do mundo que ninguém sabe quem é
+(e se soubessem quem é, o que saberiam ?),
+dais para o mistério de uma rua cruzada constantemente por gente,
+para uma rua inacessível a todos os pensamentos,
+real, impossívelmente real, certa, desconhecidamente certa,
+com o mistério das coisas por baixo das pedras e dos seres,
+com a morte a pôr umidade nas paredes e cabelos brancos nos homens,
+com o destino a conduzir a carroça de tudo pela estrada de nada.","je ne suis rien.
+jamais je ne serai rien.
+je ne puis vouloir être rien.
+ceci dit, je porte en moi tous les rêves du monde.
+fenêtre de ma chambre,
+de ma chambre dans la fourmilière humaine unité ignorée
+(et si l’on savait ce qu’elle est, que saurait-on de plus ?),
+vous donnez sur le mystère d’une rue au va-et-vient continuel,
+sur une rue inaccessible à toutes les pensées,
+réelle, impossiblement réelle, précise, inconnaissablement précise,
+avec le mystère des choses enfoui sous les pierres et les êtres,
+avec la mort qui parsème les murs de moisissure et de cheveux blancs les humains,
+avec le destin qui conduit la guimbarde de tout sur la route de rien.",pt_XX,fr_XX,"Je ne suis rien.
+Je ne serai jamais rien.
+Je ne peux pas vouloir être rien.
+Mis à part cela, j'ai en moi tous les rêves du monde.
+Les fenêtres de ma chambre,
+de ma chambre parmi des millions dans le monde que personne ne sait qui est
+(et s'ils savaient qui est, que sauraient-ils ?),
+regardent le mystère d'une rue constamment traversée par des gens,
+vers une rue inaccessible à toute pensée,
+réelle, impossiblement réelle, certaine, inconnue de manière certaine,
+avec le mystère des choses sous les pierres et les êtres,
+avec la mort qui met de l'humidité sur les murs et des cheveux blancs sur les hommes,
+avec le destin qui conduit le chariot de tout sur la route de rien.",-1
+"não sou nada.
+nunca serei nada.
+não posso querer ser nada.
+a parte isso, tenho em mim todos os sonhos do mundo.
+janelas do meu quarto,
+do meu quarto de um dos milhões do mundo que ninguém sabe quem é
+(e se soubessem quem é, o que saberiam ?),
+dais para o mistério de uma rua cruzada constantemente por gente,
+para uma rua inacessível a todos os pensamentos,
+real, impossívelmente real, certa, desconhecidamente certa,
+com o mistério das coisas por baixo das pedras e dos seres,
+com a morte a pôr umidade nas paredes e cabelos brancos nos homens,
+com o destino a conduzir a carroça de tudo pela estrada de nada.","je ne suis rien.
+jamais je ne serai rien.
+je ne puis vouloir être rien.
+ceci dit, je porte en moi tous les rêves du monde.
+fenêtre de ma chambre,
+de ma chambre dans la fourmilière humaine unité ignorée
+(et si l’on savait ce qu’elle est, que saurait-on de plus ?),
+vous donnez sur le mystère d’une rue au va-et-vient continuel,
+sur une rue inaccessible à toutes les pensées,
+réelle, impossiblement réelle, précise, inconnaissablement précise,
+avec le mystère des choses enfoui sous les pierres et les êtres,
+avec la mort qui parsème les murs de moisissure et de cheveux blancs les humains,
+avec le destin qui conduit la guimbarde de tout sur la route de rien.",pt_XX,fr_XX,"Je ne suis rien.
+Je ne serai jamais rien.
+Je ne peux pas vouloir être rien.
+Mis à part cela, j'ai en moi tous les rêves du monde.
+Les fenêtres de ma chambre,
+de ma chambre parmi des millions dans le monde que personne ne sait qui est
+(et s'ils savaient qui est, que sauraient-ils ?),
+regardent le mystère d'une rue constamment traversée par des gens,
+vers une rue inaccessible à toute pensée,
+réelle, impossiblement réelle, certaine, inconnue de manière certaine,
+avec le mystère des choses sous les pierres et les êtres,
+avec la mort qui met de l'humidité sur les murs et des cheveux blancs sur les hommes,
+avec le destin qui conduit le chariot de tout sur la route de rien.",-1
 "não sou nada.
 nunca serei nada.
 não posso querer ser nada.
@@ -11688,7 +11762,81 @@ sur une rue inaccessible à tous les pensées,
 réelle, impossiblement réelle, certaine, inconnue de manière certaine,
 avec le mystère des choses sous les pierres et les êtres,
 avec la mort qui met de l'humidité sur les murs et des cheveux blancs sur les hommes,
-avec le destin menant la charrette de tout sur la route de rien.",0
+avec le destin menant la charrette de tout sur la route de rien.",-1
+"não sou nada.
+nunca serei nada.
+não posso querer ser nada.
+a parte isso, tenho em mim todos os sonhos do mundo.
+janelas do meu quarto,
+do meu quarto de um dos milhões do mundo que ninguém sabe quem é
+(e se soubessem quem é, o que saberiam ?),
+dais para o mistério de uma rua cruzada constantemente por gente,
+para uma rua inacessível a todos os pensamentos,
+real, impossívelmente real, certa, desconhecidamente certa,
+com o mistério das coisas por baixo das pedras e dos seres,
+com a morte a pôr umidade nas paredes e cabelos brancos nos homens,
+com o destino a conduzir a carroça de tudo pela estrada de nada.","je ne suis rien.
+je ne serai jamais rien.
+je ne peux vouloir être rien.
+à part ça je porte en moi tous les rêves du monde.
+fenêtres de ma chambre,
+ma chambre où vit l’un des millions d’êtres au monde dont personne ne sait qui il est
+(et si on le savait, que saurait-on ?),
+vous donnez sur le mystère d’une rue au va-et-vient continuel,
+une rue inaccessible à toutes pensées,
+réelle au-delà du possible, certaine au-delà du secret,
+avec le mystère des choses par-dessus les pierres et les êtres,
+avec la mort qui moisit les murs et blanchit les cheveux des hommes,
+avec le destin qui mène la carriole de tout par la route de rien.",pt_XX,fr_XX,"Je ne suis rien.
+Je ne serai jamais rien.
+Je ne peux pas vouloir être rien.
+Mis à part cela, j'ai en moi tous les rêves du monde.
+Les fenêtres de ma chambre,
+de ma chambre parmi des millions dans le monde que personne ne sait qui est
+(et s'ils savaient qui c'est, que sauraient-ils ?),
+donnent sur le mystère d'une rue constamment traversée par des gens,
+sur une rue inaccessible à tous les pensées,
+réelle, impossiblement réelle, certaine, inconnue de manière certaine,
+avec le mystère des choses sous les pierres et les êtres,
+avec la mort qui met de l'humidité sur les murs et des cheveux blancs sur les hommes,
+avec le destin menant la charrette de tout sur la route de rien.",-1
+"não sou nada.
+nunca serei nada.
+não posso querer ser nada.
+a parte isso, tenho em mim todos os sonhos do mundo.
+janelas do meu quarto,
+do meu quarto de um dos milhões do mundo que ninguém sabe quem é
+(e se soubessem quem é, o que saberiam ?),
+dais para o mistério de uma rua cruzada constantemente por gente,
+para uma rua inacessível a todos os pensamentos,
+real, impossívelmente real, certa, desconhecidamente certa,
+com o mistério das coisas por baixo das pedras e dos seres,
+com a morte a pôr umidade nas paredes e cabelos brancos nos homens,
+com o destino a conduzir a carroça de tudo pela estrada de nada.","je ne suis rien.
+je ne serai jamais rien.
+je ne peux vouloir être rien.
+à part ça je porte en moi tous les rêves du monde.
+fenêtres de ma chambre,
+ma chambre où vit l’un des millions d’êtres au monde dont personne ne sait qui il est
+(et si on le savait, que saurait-on ?),
+vous donnez sur le mystère d’une rue au va-et-vient continuel,
+une rue inaccessible à toutes pensées,
+réelle au-delà du possible, certaine au-delà du secret,
+avec le mystère des choses par-dessus les pierres et les êtres,
+avec la mort qui moisit les murs et blanchit les cheveux des hommes,
+avec le destin qui mène la carriole de tout par la route de rien.",pt_XX,fr_XX,"Je ne suis rien.
+Je ne serai jamais rien.
+Je ne peux pas vouloir être rien.
+Mis à part cela, j'ai en moi tous les rêves du monde.
+Les fenêtres de ma chambre,
+de ma chambre parmi des millions dans le monde que personne ne sait qui est
+(et s'ils savaient qui c'est, que sauraient-ils ?),
+donnent sur le mystère d'une rue constamment traversée par des gens,
+sur une rue inaccessible à tous les pensées,
+réelle, impossiblement réelle, certaine, inconnue de manière certaine,
+avec le mystère des choses sous les pierres et les êtres,
+avec la mort qui met de l'humidité sur les murs et des cheveux blancs sur les hommes,
+avec le destin menant la charrette de tout sur la route de rien.",-1
 "não sou nada.
 nunca serei nada.
 não posso querer ser nada.
@@ -11725,7 +11873,81 @@ sur une rue inaccessible à toutes les pensées,
 réelle, impossiblement réelle, certaine, inconnue de manière certaine,
 avec le mystère des choses sous les pierres et les êtres,
 avec la mort qui humidifie les murs et blanchit les cheveux des hommes,
-avec le destin menant la charrette de tout sur la route de rien.",0
+avec le destin menant la charrette de tout sur la route de rien.",-1
+"não sou nada.
+nunca serei nada.
+não posso querer ser nada.
+a parte isso, tenho em mim todos os sonhos do mundo.
+janelas do meu quarto,
+do meu quarto de um dos milhões do mundo que ninguém sabe quem é
+(e se soubessem quem é, o que saberiam ?),
+dais para o mistério de uma rua cruzada constantemente por gente,
+para uma rua inacessível a todos os pensamentos,
+real, impossívelmente real, certa, desconhecidamente certa,
+com o mistério das coisas por baixo das pedras e dos seres,
+com a morte a pôr umidade nas paredes e cabelos brancos nos homens,
+com o destino a conduzir a carroça de tudo pela estrada de nada.","je ne suis rien.
+je ne serai jamais rien.
+je ne peux vouloir être rien.
+à part ça, j’ai en moi tous les rêves du monde.
+fenêtres de ma chambre,
+de ma chambre abritant l’un de ces millions au monde dont nul ne sait qui il est.
+(et si on le savait, que saurait-on ?),
+vous donnez sur le mystère d’une rue constamment remplie de gens qui se croisent,
+sur une rue inaccessible à la moindre pensée,
+réelle, impossiblement réelle, exacte, inconnaissablement exacte,
+avec le mystère des choses par-dessous les pierres et les êtres,
+avec la mort qui met du moisi sur les murs et des cheveux blancs sur les hommes,
+avec le destin conduisant la charrette de tout sur la route de rien.",pt_XX,fr_XX,"Je ne suis rien.
+Je ne serai jamais rien.
+Je ne peux pas vouloir être rien.
+Mis à part cela, j'ai en moi tous les rêves du monde.
+Les fenêtres de ma chambre,
+de ma chambre parmi des millions dans le monde que personne ne sait qui est
+(et s'ils savaient qui est, que sauraient-ils ?),
+donnent sur le mystère d'une rue constamment traversée par des gens,
+sur une rue inaccessible à toutes les pensées,
+réelle, impossiblement réelle, certaine, inconnue de manière certaine,
+avec le mystère des choses sous les pierres et les êtres,
+avec la mort qui humidifie les murs et blanchit les cheveux des hommes,
+avec le destin menant la charrette de tout sur la route de rien.",-1
+"não sou nada.
+nunca serei nada.
+não posso querer ser nada.
+a parte isso, tenho em mim todos os sonhos do mundo.
+janelas do meu quarto,
+do meu quarto de um dos milhões do mundo que ninguém sabe quem é
+(e se soubessem quem é, o que saberiam ?),
+dais para o mistério de uma rua cruzada constantemente por gente,
+para uma rua inacessível a todos os pensamentos,
+real, impossívelmente real, certa, desconhecidamente certa,
+com o mistério das coisas por baixo das pedras e dos seres,
+com a morte a pôr umidade nas paredes e cabelos brancos nos homens,
+com o destino a conduzir a carroça de tudo pela estrada de nada.","je ne suis rien.
+je ne serai jamais rien.
+je ne peux vouloir être rien.
+à part ça, j’ai en moi tous les rêves du monde.
+fenêtres de ma chambre,
+de ma chambre abritant l’un de ces millions au monde dont nul ne sait qui il est.
+(et si on le savait, que saurait-on ?),
+vous donnez sur le mystère d’une rue constamment remplie de gens qui se croisent,
+sur une rue inaccessible à la moindre pensée,
+réelle, impossiblement réelle, exacte, inconnaissablement exacte,
+avec le mystère des choses par-dessous les pierres et les êtres,
+avec la mort qui met du moisi sur les murs et des cheveux blancs sur les hommes,
+avec le destin conduisant la charrette de tout sur la route de rien.",pt_XX,fr_XX,"Je ne suis rien.
+Je ne serai jamais rien.
+Je ne peux pas vouloir être rien.
+Mis à part cela, j'ai en moi tous les rêves du monde.
+Les fenêtres de ma chambre,
+de ma chambre parmi des millions dans le monde que personne ne sait qui est
+(et s'ils savaient qui est, que sauraient-ils ?),
+donnent sur le mystère d'une rue constamment traversée par des gens,
+sur une rue inaccessible à toutes les pensées,
+réelle, impossiblement réelle, certaine, inconnue de manière certaine,
+avec le mystère des choses sous les pierres et les êtres,
+avec la mort qui humidifie les murs et blanchit les cheveux des hommes,
+avec le destin menant la charrette de tout sur la route de rien.",-1
 "as armas e os barões assinalados
 que, da ocidental praia lusitana,
 por mares nunca de antes navegados
@@ -11838,7 +12060,7 @@ qui allume le cœur et change la couleur du geste ;
 donne-moi un chant égal aux exploits
 de votre célèbre peuple, qui tant aide Mars ;
 qu'il se répande et se chante dans l'univers,
-si un si sublime prix peut tenir en vers.",-1
+si un si sublime prix peut tenir en vers.",1
 "e vós, ó bem nascida segurança
 da lusitana antiga liberdade,
 e não menos certíssima esperança
@@ -11860,7 +12082,7 @@ d'agrandissement de la petite chrétienté;
 toi, ô nouvelle crainte de la lance maure,
 merveille fatale de notre époque,
 donnée au monde par Dieu, qui tout gouverne,
-pour du monde à Dieu donner une grande part.",1
+pour du monde à Dieu donner une grande part.",-1
 "vós, tenro e novo ramo florescente
 de uma árvore, de cristo mais amada
 que nenhuma nascida no ocidente,
@@ -11926,7 +12148,7 @@ quand vous monterez au temple éternel;
 les yeux de la royale bienveillance
 posez-les sur le sol: vous verrez un nouvel exemple
 d'amour des faits valeureux de la patrie,
-divulgué en nombreux vers.",1
+divulgué en nombreux vers.",-1
 "vereis amor da pátria, não movido
 de prémio vil, mas alto e quase eterno;
 que não é prémio vil ser conhecido
@@ -11948,7 +12170,7 @@ par une louange de mon berceau ancestral.
 écoutez : vous verrez le nom magnifié
 de ceux dont vous êtes le seigneur suprême,
 et vous jugerez lequel est plus excellent,
-être roi du monde, ou de tels gens.",1
+être roi du monde, ou de tels gens.",-1
 "ouvi: que não vereis com vãs façanhas,
 fantásticas, fingidas, mentirosas,
 louvar os vossos, como nas estranhas
@@ -11970,7 +12192,7 @@ muses, désireuses de s'agrandir :
 les vôtres sont si vraies
 qu'elles dépassent les rêves, les fables,
 elles dépassent Rodomonte et la vaine fureur
-et Roland, même si cela était vrai.",0
+et Roland, même si cela était vrai.",1
 "por estes vos darei um nuno fero,
 que fez ao rei o ao reino tal serviço,
 um egas, e um d. fuas, que de homero
@@ -12038,7 +12260,7 @@ votre bannière toujours victorieuse :
 un pacheco très fort, et les redoutés
 almeidas, pour qui le Tage pleure toujours,
 albuquerque redoutable, castro fort,
-et d'autres sur qui la mort n'a pas eu de pouvoir.",-1
+et d'autres sur qui la mort n'a pas eu de pouvoir.",1
 "e enquanto eu estes canto e a vós não posso,
 sublime rei, que não me atrevo a tanto,
 tomai as rédeas vós do reino vosso,
@@ -12159,7 +12381,7 @@ Sur les choses à venir de l'orient.
 Marchant dans le ciel cristallin et beau,
 Ils viennent ensemble par la Voie lactée,
 Convoqués par le tonnant,
-Par le gentil petit-fils du vieux Atlante.",-1
+Par le gentil petit-fils du vieux Atlante.",1
 "deixam dos sete céus o regimento,
 que do poder mais alto lhe foi dado,
 alto poder, que só co'o pensamento
@@ -12359,7 +12581,7 @@ tant de fureur de vents ennemis,
 qu'ils soient, je le décide, accueillis
 sur cette côte africaine, en amis.
 Et, après avoir réparé la flotte épuisée,
-ils reprendront leur longue route.",-1
+ils reprendront leur longue route.",1
 "estas palavras júpiter dizia,
 quando os deuses por ordem respondendo,
 na sentença um do outro diferia,
@@ -12469,7 +12691,7 @@ Où s'étend la guerrière population.
 Ainsi, l'un, par la honte qu'il redoute,
 Et l'autre, par les honneurs qu'il désire,
 Se disputent et restent dans la compétition ;
-Chacun favorisant ses amis.",-1
+Chacun favorisant ses amis.",1
 "qual austro fero ou bóreas na espessura
 de silvestre arvoredo abastecida,
 rompendo os ramos vão da mata escura,
@@ -12889,7 +13111,7 @@ la nature sans loi ni raison.
 nous avons la loi certaine qui a été enseignée
 par le clair descendant d'Abraham
 qui possède maintenant la souveraineté du monde,
-la mère hébraïque et le père païen.",1
+la mère hébraïque et le père païen.",0
 "esta ilha pequena, que habitamos,
 em toda esta terra certa escala
 de todos os que as ondas navegamos
@@ -13089,7 +13311,7 @@ Et la langue si barbare et embrouillée.
 Aussi le maure rusé est confus,
 Regardant la couleur, l'attirail et la puissante flotte ;
 Et demandant tout, il leur disait
-S'ils venaient par hasard de Turquie ?",-1
+S'ils venaient par hasard de Turquie ?",1
 "e mais lhe diz também, que ver deseja
 os livros de sua lei, preceito eu fé,
 para ver se conforme à sua seja,
@@ -13111,7 +13333,7 @@ ou s'ils sont ceux du Christ, comme il croit.
 Et parce qu'il veuille tout noter et tout voir,
 il demandait au capitaine de lui montrer
 les puissantes armes qu'ils utilisaient
-quand ils combattaient les ennemis.",1
+quand ils combattaient les ennemis.",-1
 "responde o valeroso capitão
 por um, que a língua escura bem sabia:
 dar-te-ei, senhor ilustre, relação
@@ -13223,7 +13445,7 @@ de mettre le feu aux terribles bombes;
 car l'âme généreuse et vaillante,
 parmi des gens si peu nombreux et craintifs,
 ne montre pas tout son pouvoir, à juste titre,
-car c'est de la faiblesse d'être un lion parmi les brebis.",1
+car c'est de la faiblesse d'être un lion parmi les brebis.",-1
 "porém disto, que o mouro aqui notou,
 e de tudo o que viu com olho atento
 um ódio certo na alma lhe ficou,
@@ -13245,7 +13467,7 @@ une mauvaise intention.
 Il ne l'a pas montré dans ses manières et ses gestes;
 mais avec une feinte joyeuse et souriante
 il décide de les traiter doucement,
-jusqu'à ce qu'il puisse montrer ce qu'il imagine.",0
+jusqu'à ce qu'il puisse montrer ce qu'il imagine.",-1
 "pilotos lhe pedia o capitão,
 por quem pudesse à índia ser levado;
 diz-lhe que o largo prémio levarão
@@ -13357,7 +13579,7 @@ sur les peuples guerriers des Indes.
 et moi seul, fils du prêtre élevé,
 avec tant de qualités généreuses,
 je devrai supporter que le destin favorise
-un autre, par qui mon nom s'obscurcira ?",1
+un autre, par qui mon nom s'obscurcira ?",-1
 "já quiseram os deuses que tivesse
 o filho de filipo nesta parte
 tanto poder, que tudo submetesse
@@ -13425,7 +13647,7 @@ Il se déplaça selon le savoir convenu.
 Et pour mieux tisser l'astucieux mensonge,
 Il se transforma en geste naturel
 D'un Maure, connu à Mozambique
-Vieux, sage et très apprécié par le cheikh.",-1
+Vieux, sage et très apprécié par le cheikh.",1
 "e entrando assi a falar-lhe a tempo e horas
 a sua falsidade acomodadas,
 lhe diz como eram gentes roubadoras,
@@ -13447,7 +13669,7 @@ ceux qui sont maintenant arrivés;
 que des nations de la côte résidents
 la rumeur est venue qu'elles ont été volées
 par ces hommes qui passaient,
-qui toujours accostaient avec des pactes de paix.",-1
+qui toujours accostaient avec des pactes de paix.",1
 "e sabe mais, lhe diz, como entendido
 tenho destes cristãos sanguinolentos,
 que quase todo o mar têm destruído
@@ -13469,7 +13691,7 @@ par des vols, par des incendies violents ;
 et ils apportent déjà de loin un piège
 contre nous ; et que tous leurs desseins
 sont de nous tuer et nous voler,
-et capturer femmes et enfants.",1
+et capturer femmes et enfants.",-1
 "e também sei que tem determinado
 de vir por água a terra muito cedo
 o capitão dos seus acompanhado,
@@ -13535,7 +13757,7 @@ remerciant beaucoup ce conseil ;
 et à cet instant même, il a arrangé
 l'attirail belliqueux pour la guerre,
 afin que pour le Portugais il devienne
-en sang pourpre l'eau qu'il chercherait.",1
+en sang pourpre l'eau qu'il chercherait.",-1
 "e busca mais, para o cuidado engano,
 mouro, que por piloto à nau lhe mande,
 sagaz, astuto, e sábio em todo o dano,
@@ -13693,7 +13915,7 @@ le vent blessé résonne et siffle:
 le cœur des Maures se brise,
 la grande peur leur glace le sang.
 déjà le peureux fuit caché,
-et le téméraire découvert meurt.",-1
+et le téméraire découvert meurt.",0
 "não se contenta a gente portuguesa,
 mas seguindo a vitória estrui e mata;
 a povoação, sem muro e sem defesa,
@@ -13715,7 +13937,7 @@ Est bombardée, incendiée et détruite.
 De la chevauchée contre les Maures, elle est fatiguée,
 Croyant bien l'acheter à moindre coût ;
 Elle blasphème déjà la guerre et maudit,
-Le vieil inerte et la mère qui élève son fils.",1
+Le vieil inerte et la mère qui élève son fils.",-1
 "fugindo, a seta o mouro vai tirando
 sem força, de covarde e de apressado,
 a pedra, o pau, e o canto arremessando;
@@ -13803,7 +14025,7 @@ Qui, sous prétexte de paix, leur envoie la guerre ;
 Car le pilote faux promis,
 Qui cache toute mauvaise intention dans son cœur,
 Les guidait vers la mort,
-Comme signe de la paix qu'il prétendait négocier.",-1
+Comme signe de la paix qu'il prétendait négocier.",1
 "o capitão, que já lhe então convinha
 tornar a seu caminho acostumado,
 que tempo concertado e ventos tinha
@@ -13847,7 +14069,7 @@ fidèle, joyeuse et douce compagnie.
 Le capitaine, qui ne tombait en rien
 dans le piège trompeur que le Maure tissait,
 il s'informait abondamment de lui
-de toute l'Inde et des côtes qu'il traversait.",1
+de toute l'Inde et des côtes qu'il traversait.",-1
 "mas o mouro, instruído nos enganos
 que o malévolo baco lhe ensinara,
 de morte ou cativeiro novos danos,
@@ -13869,7 +14091,7 @@ avant d'arriver en Inde, il prépare :
 fournissant des informations sur les ports indiens,
 il lui dévoile également tout ce qu'il demande,
 car, croyant en la vérité de ce qu'il disait,
-la forte population ne craignait rien.",1
+la forte population ne craignait rien.",-1
 "e diz-lhe mais, com o falso pensamento
 com que sinon os frígios enganou:
 que perto está uma ilha, cujo assento
@@ -13891,7 +14113,7 @@ un ancien peuple chrétien a toujours habité.
 le capitaine, qui était attentif à tout,
 se réjouit tellement de ces nouvelles,
 qu'il le suppliait avec de grands cadeaux
-de le conduire sur la terre où se trouvaient ces gens.",1
+de le conduire sur la terre où se trouvaient ces gens.",-1
 "o mesmo o falso mouro determina,
 que o seguro cristão lhe manda e pede;
 que a ilha é possuída da malina
@@ -13915,7 +14137,7 @@ gens qui suivent le vil Mahomet.
 ici la tromperie et la mort lui sont imaginées,
 parce qu'en pouvoir et en force elle surpasse de beaucoup
 l'île de Mozambique, qui s'appelle
-Kilwa, très connue pour sa renommée.",1
+Kilwa, très connue pour sa renommée.",-1
 "para lá se inclinava a leda frota;
 mas a deusa em citere celebrada,
 vendo como deixava a certa rota
@@ -13959,7 +14181,7 @@ toujours résolu dans son dessein,
 lui dit que puisque les eaux coulant
 les ont forcés d'avancer,
 qu'une autre île proche a des habitants
-qui étaient chrétiens et Maures ensemble.",1
+qui étaient chrétiens et Maures ensemble.",-1
 "também nestas palavras lhe mentia,
 como por regimento enfim levava,
 que aqui gente de cristo não havia,
@@ -13981,7 +14203,7 @@ mais ceux qui célébraient Mahomet.
 Le capitaine, qui croyait tout au Maure,
 tournant les voiles, se dirigeait vers l'île;
 mais, ne voulant pas de la déesse protectrice,
-il ne rentre pas dans le port, et jette l'ancre dehors.",1
+il ne rentre pas dans le port, et jette l'ancre dehors.",-1
 "estava a ilha à terra tão chegada,
 que um estreito pequeno a dividia;
 uma cidade nela situada,
@@ -14025,7 +14247,7 @@ comme le faux pilote lui avait dit,
 voici venir des bateaux de la terre avec un message
 du roi, qui déjà savait qui étaient ces gens :
 que Bacchus l'avait averti longtemps à l'avance,
-sous les traits d'un autre Maure qu'il avait capturé.",-1
+sous les traits d'un autre Maure qu'il avait capturé.",1
 "o recado que trazem é de amigos,
 mas debaixo o veneno vem coberto;
 que os pensamentos eram de inimigos,
@@ -14047,7 +14269,7 @@ Comme l'erreur a été découverte.
 Oh grands et graves dangers!
 Oh chemin de vie jamais certain:
 Là où l'on place son espoir,
-La vie a si peu de sécurité!",0
+La vie a si peu de sécurité!",-1
 "no mar tanta tormenta, e tanto dano,
 tantas vezes a morte apercebida!
 na terra tanta guerra, tanto engano,
@@ -14109,7 +14331,7 @@ Il faut le chanter ainsi fleuri,
 Car si Dieu nous a donné une voix, c'est pour chanter !
 Et si un jour je dois être poussière, cendre et rien
 Que ma nuit soit une aurore,
-Que je sache me perdre… pour me retrouver…",0
+Que je sache me perdre… pour me retrouver…",2
 "todas as cartas de amor são
 ridículas.
 não seriam cartas de amor se não fossem
@@ -14190,7 +14412,7 @@ ridicules.
 (tous les mots bizarres,
 comme les sentiments bizarres,
 sont naturellement
-ridicules.)",-1
+ridicules.)",2
 "amor é um fogo que arde sem se ver;
 é ferida que dói, e não se sente;
 é um contentamento descontente;
@@ -14230,7 +14452,7 @@ C'est servir celui qui vainc, le vainqueur ;
 C'est avoir de la loyauté envers celui qui nous tue.
 Mais comment peut-il causer sa faveur
 dans les cœurs humains l'amitié,
-si l'amour est si contraire à lui-même ?",-1
+si l'amour est si contraire à lui-même ?",2
 "já neste tempo o lúcido planeta
 que as horas vai do dia distinguindo,
 chegava à desejada e lenta meta,
@@ -14252,7 +14474,7 @@ La lumière céleste couvrant les gens ;
 Et de la maison maritime secrète,
 Le dieu nocturne lui ouvrait la porte,
 Quand les gens infidèles s'approchèrent
-Des navires, qui n'avaient pas encore jeté l'ancre.",-1
+Des navires, qui n'avaient pas encore jeté l'ancre.",1
 "dantre eles um, que traz encomendado
 o mortífero engano, assi dizia: – capitão valeroso, que cortado
 tens de neptuno o reino e salsa via,
@@ -14360,7 +14582,7 @@ lui dit que la plupart des gens croient en Christ.
 De cette manière, il déracine de son coeur
 tout soupçon et prudence fantasque;
 par où le capitaine en toute sécurité
-se fie aux infidèles et aux faux gens.",1
+se fie aux infidèles et aux faux gens.",-1
 "e de alguns que trazia, condenados
 por culpas e por feitos vergonhosos,
 por que pudessem ser aventurados
@@ -14382,7 +14604,7 @@ dans des cas de cette nature douteuse,
 il envoie deux plus astucieux, expérimentés,
 pour qu'ils remarquent les ruses des Maures
 la ville et le pouvoir, et pour qu'ils voient
-les chrétiens, qui ne désirent que voir autant.",1
+les chrétiens, qui ne désirent que voir autant.",-1
 "e por estes ao rei presentes manda,
 por que a boa vontade que mostrava
 tenha firme, segura, limpa e branda,
@@ -14470,7 +14692,7 @@ Sur la seule phénix, vierge pure ;
 La sainte compagnie est représentée,
 Des douze, si sombres dans la figure
 Comme ceux qui, seulement des langues qui sont tombées
-Du feu, ont rapporté diverses langues.",-1
+Du feu, ont rapporté diverses langues.",0
 "aqui os dous companheiros, conduzidos
 onde com este engano baco estava,
 põem em terra os giolhos, e os sentidos
@@ -14538,7 +14760,7 @@ Les deux que le capitaine avait envoyés,
 Et le Portugais étant informé
 Qu'il n'y avait pas de crainte de danger
 Et qu'il y avait des gens de Christ sur la terre,
-Il voulait entrer dans le fleuve salé.",0
+Il voulait entrer dans le fleuve salé.",-1
 "dizem-lhe os que mandou que em terra viram
 sacras aras e sacerdote santo;
 que ali se agasalharam e dormiram
@@ -14562,7 +14784,7 @@ pendant que la lumière couvrait le sombre manteau ;
 et qu'ils n'ont ressenti ni dans le roi ni dans les gens
 autre chose que contentement et grande joie
 à tel point qu'il ne pouvait y avoir aucun soupçon
-dans une démonstration si claire et si parfaite.",-1
+dans une démonstration si claire et si parfaite.",1
 "co isto o nobre gama recebia
 alegremente os mouros que subiam,
 que levemente um ânimo se fia
