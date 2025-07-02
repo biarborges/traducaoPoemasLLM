@@ -10,9 +10,9 @@ import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 # --- Configurações ---
-CAMINHO_CSV = "results/ingles_portugues/reference/poemas_com_topicos_reference.csv"
-COLUNA_POEMAS = "translated_poem"  # coluna com texto original (não processado)
-IDIOMA_PROC = "pt_XX"
+CAMINHO_CSV = "results/ingles_portugues/original/poemas_com_topicos_original.csv"
+COLUNA_POEMAS = "original_poem" 
+IDIOMA_PROC = "en_XX"
 
 # Correções e normalizações de lemas (se quiser pode incluir mais)
 correcoes_lemas = {
@@ -121,7 +121,7 @@ if __name__ == "__main__":
           #  ["love", "shall", "time", "beauty", "god", "truth", "art", "true", "live", "doth"],
            # ["thought", "hand", "day", "feel", "night", "like", "head", "look", "sense", "eye"],
         #],
-        "Reference": [
+        "original": [
             ["casa", "rio", "branco", "céu", "lua", "água", "fazer", "sol", "olhar", "mar"],
             ["amor", "deus", "beleza", "dor", "vida", "amar", "verso", "morte", "dia", "futuro"],
             ["dia", "mão", "noite", "olho", "olhar", "cabeça", "coração", "corpo", "mente", "sono"],
