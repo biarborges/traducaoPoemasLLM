@@ -10,9 +10,9 @@ import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 # --- Configurações ---
-CAMINHO_CSV = "results/ingles_portugues/googleTradutor/poemas_com_topicos_googleTradutor.csv"
-COLUNA_POEMAS = "translated_by_TA" 
-IDIOMA_PROC = "pt_XX"
+CAMINHO_CSV = "results/ingles_portugues/original/poemas_com_topicos_original.csv"
+COLUNA_POEMAS = "original_poem"  # coluna com texto original (não processado)
+IDIOMA_PROC = "en_XX"
 
 # Correções e normalizações de lemas (se quiser pode incluir mais)
 correcoes_lemas = {
@@ -116,16 +116,16 @@ if __name__ == "__main__":
 
     # Defina seus grupos e tópicos (exemplo para 3 grupos só, adapte conforme seu caso)
     topic_groups = {
-        #"googleTradutor": [
-         #   ["like", "come", "white", "house", "blue", "water", "river", "eye", "look", "light"],
-          #  ["love", "shall", "time", "beauty", "god", "truth", "art", "true", "live", "doth"],
-           # ["thought", "hand", "day", "feel", "night", "like", "head", "look", "sense", "eye"],
-        #],
-        "googleTradutor": [
-            ["casa", "rio", "branco", "céu", "lua", "água", "fazer", "sol", "olhar", "mar"],
-            ["amor", "deus", "beleza", "dor", "vida", "amar", "verso", "morte", "dia", "futuro"],
-            ["dia", "mão", "noite", "olho", "olhar", "cabeça", "coração", "corpo", "mente", "sono"],
+        "Original": [
+            ["like", "come", "white", "house", "blue", "water", "river", "eye", "look", "light"],
+            ["love", "shall", "time", "beauty", "god", "truth", "art", "true", "live", "doth"],
+            ["thought", "hand", "day", "feel", "night", "like", "head", "look", "sense", "eye"],
         ],
+        #"Reference": [
+         #   ["casa", "rio", "branco", "céu", "lua", "água", "fazer", "sol", "olhar", "mar"],
+          #  ["amor", "deus", "beleza", "dor", "vida", "amar", "verso", "morte", "dia", "futuro"],
+           # ["dia", "mão", "noite", "olho", "olhar", "cabeça", "coração", "corpo", "mente", "sono"],
+       # ],
       #  "ChatGPT Prompt 1": [
        #     ["casa", "branco", "pequeno", "azul", "rio", "água", "olho", "luz", "ilha", "poder"],
         #    ["amor", "beleza", "verdade", "deus", "morte", "mundo", "dor", "olho", "vida", "verdadeiro"],
