@@ -10,7 +10,7 @@ import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 # --- Configurações ---
-CAMINHO_CSV = "results/ingles_portugues/googleTradutor/poemas_com_topicos_googleTradutor.csv"
+CAMINHO_CSV = "results/ingles_portugues/maritacaPrompt1/poemas_com_topicos_maritacaPrompt1.csv"
 COLUNA_POEMAS = "translated_by_TA"  # coluna com texto original (não processado)
 IDIOMA_PROC = "pt_XX"
 
@@ -116,10 +116,10 @@ if __name__ == "__main__":
 
     # Defina seus grupos e tópicos (exemplo para 3 grupos só, adapte conforme seu caso)
     topic_groups = {
-        "Google Translator": [
-            ["casa", "branco", "pequeno", "rio", "azul", "água", "olho", "ilha", "pássaro", "sol"],
-            ["amor", "beleza", "deus", "verdade", "vida", "ter", "morte", "mundo", "olho", "homem"],
-            ["pensamento", "mão", "dia", "olhar", "noite", "cabeça", "sentido", "olho", "cama", "alegria"],
+       "Maritaca Prompt 1": [
+           ["casa", "pequeno", "rio", "branco", "luz", "água", "olho", "azul", "céu", "descer"],
+           ["amor", "beleza", "verdade", "deus", "vida", "morte", "bom", "mundo", "desejo", "olho"],
+            ["pensamento", "mão", "noite", "dia", "cabeça", "espelho", "olhar", "sentido", "jaz", "sol"],
         ],
     }
 
