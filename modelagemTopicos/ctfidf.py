@@ -188,13 +188,46 @@ if __name__ == '__main__':
     plt.close()
 
     # Gráfico de barras
-    plt.figure(figsize=(10,6))
-    topic_freq.plot(kind='bar')
-    plt.xlabel('Tópicos')
-    plt.ylabel('Número de Poemas')
-    plt.title('Distribuição de Poemas por Tópico (sem outliers)')
-    plt.savefig(f"{PASTA_SAIDA}/grafico_barras_topicos_{TITLE}.png")
-    plt.close()
+    def plot_top_words_todos_topicos(tfidf_matrix, feature_names, docs_por_topico, top_n=10, max_topicos=5):
+        num_topicos = min(len(docs_por_topico), max_topicos)
+        largura_barra = 0.8
+        espacamento = top_n + 2  # espaço entre os grupos de tópicos
+
+        plt.figure(figsize=(20, 8))
+
+        positions = []
+        labels = []
+
+        for i in range(num_topicos):
+            tfidf_vec = tfidf_matrix[i].toarray().flatten()
+            sorted_indices = np.argsort(tfidf_vec)[::-1][:top_n]
+            top_words = feature_names[sorted_indices]
+            top_scores = tfidf_vec[sorted_indices]
+
+            pos = np.arange(top_n) + i * espacamento
+            plt.bar(pos, top_scores, width=largura_barra, label=f'Tópico {docs_por_topico.loc[i, "topic"]}')
+            
+            positions.extend(pos)
+            labels.extend([f"{docs_por_topico.loc[i, 'topic']}_{w}" for w in top_words])
+
+        plt.xticks(positions, labels, rotation=90)
+        plt.ylabel('Peso TF-IDF')
+        plt.title(f'Top {top_n} palavras por tópico (até {max_topicos} tópicos)')
+        plt.legend()
+        plt.tight_layout()
+        plt.savefig(f"{PASTA_SAIDA}/top_palavras_todos_topicos_{TITLE}.png")
+        plt.close()
+
+# --- Chamada da função para gerar gráfico de top palavras por tópico ---
+plot_top_words_todos_topicos(
+    tfidf_matrix=tfidf_matrix,
+    feature_names=feature_names,
+    docs_por_topico=docs_por_topico,
+    top_n=10,            # número de palavras por tópico
+    max_topicos=10       # número de tópicos a mostrar
+)
+
+
 
     # Nuvem de palavras geral (todos poemas limpos juntos)
     texto_total = " ".join(poemas_limpos)
