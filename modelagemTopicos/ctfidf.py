@@ -218,16 +218,14 @@ if __name__ == '__main__':
         plt.savefig(f"{PASTA_SAIDA}/top_palavras_todos_topicos_{TITLE}.png")
         plt.close()
 
-# --- Chamada da função para gerar gráfico de top palavras por tópico ---
-plot_top_words_todos_topicos(
-    tfidf_matrix=tfidf_matrix,
-    feature_names=feature_names,
-    docs_por_topico=docs_por_topico,
-    top_n=10,            # número de palavras por tópico
-    max_topicos=10       # número de tópicos a mostrar
-)
-
-
+    # --- Chamada da função para gerar gráfico de top palavras por tópico ---
+    plot_top_words_todos_topicos(
+        tfidf_matrix=tfidf_matrix,
+        feature_names=feature_names,
+        docs_por_topico=docs_por_topico,
+        top_n=10,            # número de palavras por tópico
+        max_topicos=10       # número de tópicos a mostrar
+    )
 
     # Nuvem de palavras geral (todos poemas limpos juntos)
     texto_total = " ".join(poemas_limpos)
