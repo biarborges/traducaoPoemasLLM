@@ -11,18 +11,18 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
+
 # =======================================================================
 # 1. CONFIGURAÇÕES E CONSTANTES
 # =======================================================================
 
-TITLE = "reference"
-CAMINHO_CSV = "results/ingles_portugues/reference/poemas_com_topicos_reference.csv"
+TITLE = "original"
+CAMINHO_CSV = "poemas_unificados.csv"
 PASTA_SAIDA = "results"
-COLUNA_POEMAS = "translated_poem"  # "original_poem", "translated_poem", "translated_by_TA"
-
-IDIOMA_ORIGEM = "en_XX"  # "fr_XX", "pt_XX", "en_XX"
-IDIOMA_DESTINO = "pt_XX"  # "fr_XX", "pt_XX", "en_XX"
-IDIOMA_PROC = "pt_XX"
+COLUNA_POEMAS = "original_poem"
+IDIOMA_ORIGEM = "fr_XX"
+IDIOMA_DESTINO = "en_XX"
+IDIOMA_PROC = "fr_XX"
 
 correcoes_lemas = {
     "conheçar": "conhecer",
@@ -64,7 +64,7 @@ normalizacao_lemas = {
 }
 
 # =======================================================================
-# 2. DEFINIÇÃO DAS FUNÇÕES
+# 2. FUNÇÕES
 # =======================================================================
 
 def carregar_modelo_spacy(idioma: str):
@@ -77,7 +77,6 @@ def carregar_modelo_spacy(idioma: str):
     if idioma not in modelos:
         raise ValueError(f"Idioma '{idioma}' não suportado pelo spaCy neste script.")
     return spacy.load(modelos[idioma])
-
 
 def preprocessar_texto(texto: str, nlp_model, stopwords_custom: set, usar_lematizacao=True):
     if usar_lematizacao:
@@ -98,8 +97,14 @@ def preprocessar_texto(texto: str, nlp_model, stopwords_custom: set, usar_lemati
     ]
     return " ".join(tokens_filtrados)
 
+def top_palavras_com_pesos(tfidf_vec, feature_names, top_n=10):
+    arr = tfidf_vec.toarray().flatten()
+    sorted_indices = arr.argsort()[::-1][:top_n]
+    return [(feature_names[i], arr[i]) for i in sorted_indices]
+
+
 # =======================================================================
-# 3. BLOCO PRINCIPAL
+# 3. EXECUÇÃO PRINCIPAL
 # =======================================================================
 
 if __name__ == '__main__':
@@ -113,72 +118,76 @@ if __name__ == '__main__':
     print(f"Encontrados {len(poemas)} poemas para análise.")
 
     print("🧹 Iniciando pré-processamento dos textos...")
+
     mapa_idioma_nltk = {"pt_XX": "portuguese", "en_XX": "english", "fr_XX": "french"}
     idioma_nltk = mapa_idioma_nltk[IDIOMA_PROC]
 
     stopwords_personalizadas = set(stopwords.words(idioma_nltk))
     if IDIOMA_PROC == "fr_XX":
         stopwords_personalizadas.update([
-            "le", "la", "les", "un", "une", "jean", "john", "kaku", "lorsqu", "jusqu", "sai", "congnois",
-            "mme", "williams", "non", "tatactatoum", "aucun", "rien", "worsted", "sandwich", "prononciation",
-            "sûrement", "oui", "nao", "not", "não", "this", "that", "lover", "lorenzo", "oliver", "tão",
-            "translation", "english", "weep", "poetic", "vanished"
+            "le", "la", "les", "un", "une", "jean", "john", "kaku", "lorsqu", "jusqu", "sai",
+            "congnois", "mme", "williams", "non", "tatactatoum", "aucun", "rien", "worsted",
+            "sandwich", "prononciation", "sûrement", "oui", "nao", "not", "não", "this", "that",
+            "lover", "lorenzo", "oliver", "tão", "translation", "english", "weep", "poetic", "vanished"
         ])
     elif IDIOMA_PROC == "pt_XX":
-        stopwords_personalizadas.update([
-            "o", "a", "os", "as", "um", "uma", "eu", "tu", "ele", "ela", "nós", "vós",
-            "eles", "elas", "voce", "nao", "algum", "bedlam", "quão", "quao"
-        ])
+        stopwords_personalizadas.update(["o", "a", "os", "as", "um", "uma", "eu", "tu", "ele", "ela",
+            "nós", "vós", "eles", "elas", "voce", "nao", "algum", "bedlam", "quão", "quao"])
     elif IDIOMA_PROC == "en_XX":
-        stopwords_personalizadas.update([
-            "the", "a", "an", "and", "but", "or", "so", "to", "of", "in", "for", "on",
-            "at", "peter", "john", "mary", "jane", "kaku", "thee", "thy"
-        ])
+        stopwords_personalizadas.update(["the", "a", "an", "and", "but", "or", "so", "to", "of",
+            "in", "for", "on", "at", "peter", "john", "mary", "jane", "kaku", "thee", "thy"])
 
     nlp = carregar_modelo_spacy(IDIOMA_PROC)
+
     poemas_limpos = [preprocessar_texto(p, nlp, stopwords_personalizadas) for p in tqdm(poemas, desc="Processando poemas")]
 
+    # adiciona coluna com poemas preprocessados
     df['preprocessed'] = poemas_limpos
 
+    # --------------------------------------
+    # Verifica se a coluna 'topic' existe no df
     if 'topic' not in df.columns:
-        raise ValueError("Coluna 'topic' não encontrada no DataFrame. Execute clustering para gerar tópicos antes.")
+        raise ValueError("A coluna 'topic' não foi encontrada no DataFrame. Ela é necessária para esta análise.")
 
-    # Remove tópicos outliers (-1) se existirem
-    df_filtrado = df[df['topic'] != -1]
+    # Agrupa poemas por tópico concatenando os textos
+    docs_por_topico = df.groupby('topic')['preprocessed'].apply(lambda textos: " ".join(textos)).reset_index()
 
-    docs_por_topico = df_filtrado.groupby('topic')['preprocessed'].apply(lambda textos: " ".join(textos)).reset_index()
+    # Conta a quantidade de poemas por tópico (incluindo outliers -1)
+    contagem_por_topico = df['topic'].value_counts().to_dict()
 
+    # Cria TF-IDF para os documentos (cada documento é um tópico)
     vectorizer = TfidfVectorizer(max_features=5000, ngram_range=(1,1))
     tfidf_matrix = vectorizer.fit_transform(docs_por_topico['preprocessed'])
     feature_names = np.array(vectorizer.get_feature_names_out())
 
-    def top_palavras_por_topico(tfidf_vec, feature_names, top_n=10):
-        arr = tfidf_vec.toarray().flatten()
-        sorted_indices = np.argsort(arr)[::-1]
-        top_indices = sorted_indices[:top_n]
-        return feature_names[top_indices], arr[top_indices]
-
-    with open(f"{PASTA_SAIDA}/topicos_{TITLE}.txt", "w", encoding="utf-8") as f:
+    # Salva as palavras por tópico com pesos e quantidade de poemas
+    with open(f"{PASTA_SAIDA}/topicos_cTFIDF_{TITLE}.txt", "w", encoding="utf-8") as f:
         for i, row in docs_por_topico.iterrows():
-            top_words, top_scores = top_palavras_por_topico(tfidf_matrix[i], feature_names)
-            f.write(f"Tópico {row['topic']}:\n")
-            for w, s in zip(top_words, top_scores):
-                f.write(f"  {w}: {s:.4f}\n")
+            top_words_pesos = top_palavras_com_pesos(tfidf_matrix[i], feature_names)
+            qtd_poemas = contagem_por_topico.get(row['topic'], 0)
+            f.write(f"Tópico {row['topic']} (Quantidade de poemas: {qtd_poemas}):\n")
+            for palavra, peso in top_words_pesos:
+                f.write(f"  {palavra}: {peso:.4f}\n")
             f.write("\n")
 
     print("✅ Palavras-chave por tópico salvas.")
 
-    # Frequência dos tópicos (sem outliers)
-    topic_freq = df_filtrado['topic'].value_counts().sort_index()
+    # --- Visualizações ---
 
-    # Gráfico pizza
+    # Remove outliers (tópico -1) para gráficos
+    df_sem_outliers = df[df['topic'] != -1]
+
+    # Frequência de tópicos para gráfico pizza e barra (sem outliers)
+    topic_freq = df_sem_outliers['topic'].value_counts().sort_index()
+
+    # Gráfico de pizza
     plt.figure(figsize=(8,8))
     plt.pie(topic_freq, labels=[f"Topic {i}" for i in topic_freq.index], autopct='%1.1f%%', startangle=140)
     plt.title("Distribuição Percentual dos Tópicos (sem outliers)")
     plt.savefig(f"{PASTA_SAIDA}/grafico_pizza_{TITLE}.png")
     plt.close()
 
-    # Gráfico barras
+    # Gráfico de barras
     plt.figure(figsize=(10,6))
     topic_freq.plot(kind='bar')
     plt.xlabel('Tópicos')
@@ -188,7 +197,7 @@ if __name__ == '__main__':
     plt.close()
 
     # Nuvem de palavras geral (todos poemas limpos juntos)
-    texto_total = " ".join(df_filtrado['preprocessed'])
+    texto_total = " ".join(poemas_limpos)
     wc = WordCloud(width=1200, height=600, background_color='white', colormap='viridis').generate(texto_total)
     wc.to_file(f"{PASTA_SAIDA}/nuvem_palavras_geral_{TITLE}.png")
 
