@@ -10,9 +10,9 @@ import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 # --- Configurações ---
-CAMINHO_CSV = "results/ingles_portugues/original/poemas_com_topicos_original.csv"
-COLUNA_POEMAS = "original_poem" 
-IDIOMA_PROC = "en_XX"
+CAMINHO_CSV = "results/ingles_portugues/chatGPTPrompt1/poemas_com_topicos_chatGPTPrompt1.csv"
+COLUNA_POEMAS = "translated_by_TA" 
+IDIOMA_PROC = "pt_XX"
 
 # Correções e normalizações de lemas (se quiser pode incluir mais)
 correcoes_lemas = {
@@ -116,12 +116,12 @@ if __name__ == "__main__":
 
     # Defina seus grupos e tópicos (exemplo para 3 grupos só, adapte conforme seu caso)
     topic_groups = {
-        #"Original": [
+        #"chatGPTPrompt1": [
          #   ["like", "come", "white", "house", "blue", "water", "river", "eye", "look", "light"],
           #  ["love", "shall", "time", "beauty", "god", "truth", "art", "true", "live", "doth"],
            # ["thought", "hand", "day", "feel", "night", "like", "head", "look", "sense", "eye"],
         #],
-        "original": [
+        "chatGPTPrompt1": [
             ["casa", "rio", "branco", "céu", "lua", "água", "fazer", "sol", "olhar", "mar"],
             ["amor", "deus", "beleza", "dor", "vida", "amar", "verso", "morte", "dia", "futuro"],
             ["dia", "mão", "noite", "olho", "olhar", "cabeça", "coração", "corpo", "mente", "sono"],
