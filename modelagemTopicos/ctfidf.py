@@ -17,12 +17,12 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # =======================================================================
 
 TITLE = "original"
-CAMINHO_CSV = "poemas_unificados.csv"
+CAMINHO_CSV = "results/ingles_portugues/original/poemas_com_topicos_original.csv"
 PASTA_SAIDA = "results"
 COLUNA_POEMAS = "original_poem"
-IDIOMA_ORIGEM = "fr_XX"
-IDIOMA_DESTINO = "en_XX"
-IDIOMA_PROC = "fr_XX"
+IDIOMA_ORIGEM = "en_XX"
+IDIOMA_DESTINO = "pt_XX"
+IDIOMA_PROC = "en_XX"
 
 correcoes_lemas = {
     "conheçar": "conhecer",
