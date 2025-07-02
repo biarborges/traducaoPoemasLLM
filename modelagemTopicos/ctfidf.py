@@ -211,7 +211,7 @@ if __name__ == '__main__':
             plt.bar(pos, top_scores, width=largura_barra, label=f'Topic {docs_por_topico.loc[i, "topic"]}')
             
             positions.extend(pos)
-            labels.extend([f"{docs_por_topico.loc[i, 'topic']}_{w}" for w in top_words])
+            labels.extend(top_words)
 
         plt.xticks(positions, labels, rotation=90)
         plt.ylabel('Weight')
