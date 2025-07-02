@@ -16,10 +16,10 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # 1. CONFIGURAÇÕES E CONSTANTES
 # =======================================================================
 
-TITLE = "reference"
-CAMINHO_CSV = "results/ingles_portugues/reference/poemas_com_topicos_reference.csv" # chatGPTPrompt1 googleTradutor maritacaPrompt1
+TITLE = "chatGPTPrompt1"
+CAMINHO_CSV = "results/ingles_portugues/chatGPTPrompt1/poemas_com_topicos_chatGPTPrompt1.csv" # chatGPTPrompt1 googleTradutor maritacaPrompt1
 PASTA_SAIDA = "results"
-COLUNA_POEMAS = "translated_poem" # "original_poem", "translated_poem", "translated_by_TA"
+COLUNA_POEMAS = "translated_by_TA" # "original_poem", "translated_poem", "translated_by_TA"
 IDIOMA_ORIGEM = "en_XX"
 IDIOMA_DESTINO = "pt_XX"
 IDIOMA_PROC = "pt_XX"
