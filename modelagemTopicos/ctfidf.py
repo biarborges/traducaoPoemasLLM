@@ -16,8 +16,8 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # 1. CONFIGURAÇÕES E CONSTANTES
 # =======================================================================
 
-TITLE = "maritacaPrompt1"
-CAMINHO_CSV = "results/ingles_portugues/maritacaPrompt1/poemas_com_topicos_maritacaPrompt1.csv" 
+TITLE = "maritacaPrompt2"
+CAMINHO_CSV = "results/ingles_portugues/maritacaPrompt2/poemas_com_topicos_maritacaPrompt2.csv" 
 PASTA_SAIDA = "results"
 COLUNA_POEMAS = "translated_by_TA" # "original_poem", "translated_poem", "translated_by_TA"
 IDIOMA_ORIGEM = "en_XX"
