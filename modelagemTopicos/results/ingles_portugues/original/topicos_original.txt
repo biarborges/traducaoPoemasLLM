@@ -1,4 +1,48 @@
-Tópico -1 (86 poemas): year, death, love, old, heaven, dead, soul, long, god, hath
-Tópico 0 (134 poemas): morning, bird, little, fly, hear, cloud, cry, like, rain, rock
-Tópico 1 (52 poemas): love, eternity, eternal, god, heaven, lover, heart, soul, death, angel
-Tópico 2 (28 poemas): night, fear, think, sleep, wake, thought, awake, sad, soul, heart
+Topic -1 (Quantity of poems: 86):
+  like: 0.2486
+  love: 0.2436
+  eye: 0.2038
+  look: 0.1641
+  man: 0.1392
+  hand: 0.1342
+  know: 0.1293
+  day: 0.1293
+  house: 0.1202
+  sea: 0.1143
+
+Topic 0 (Quantity of poems: 134):
+  like: 0.3299
+  come: 0.1924
+  white: 0.1567
+  house: 0.1537
+  blue: 0.1446
+  water: 0.1244
+  river: 0.1177
+  eye: 0.1072
+  look: 0.1045
+  light: 0.1045
+
+Topic 1 (Quantity of poems: 52):
+  love: 0.5296
+  shall: 0.2724
+  time: 0.2106
+  beauty: 0.1840
+  god: 0.1444
+  truth: 0.1384
+  art: 0.1325
+  true: 0.1091
+  live: 0.1023
+  doth: 0.1023
+
+Topic 2 (Quantity of poems: 28):
+  thought: 0.2683
+  hand: 0.2071
+  day: 0.1949
+  feel: 0.1937
+  night: 0.1828
+  like: 0.1828
+  head: 0.1639
+  look: 0.1584
+  sense: 0.1340
+  eye: 0.1340
+
