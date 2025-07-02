@@ -16,8 +16,8 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # 1. CONFIGURAÇÕES E CONSTANTES
 # =======================================================================
 
-TITLE = "googleTradutor"
-CAMINHO_CSV = "results/ingles_portugues/googleTradutor/poemas_com_topicos_googleTradutor.csv" # googleTradutor googleTradutor maritacaPrompt1
+TITLE = "maritacaPrompt1"
+CAMINHO_CSV = "results/ingles_portugues/maritacaPrompt1/poemas_com_topicos_maritacaPrompt1.csv" 
 PASTA_SAIDA = "results"
 COLUNA_POEMAS = "translated_by_TA" # "original_poem", "translated_poem", "translated_by_TA"
 IDIOMA_ORIGEM = "en_XX"
