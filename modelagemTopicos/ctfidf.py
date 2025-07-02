@@ -193,10 +193,12 @@ if __name__ == '__main__':
     # Gráfico de barras
     def plot_top_words_todos_topicos(tfidf_matrix, feature_names, docs_por_topico, top_n=10, max_topicos=5):
         num_topicos = min(len(docs_por_topico), max_topicos)
-        largura_barra = 0.8
-        espacamento = top_n + 2  # espaço entre os grupos de tópicos
+        largura_barra = 0.6
+        espacamento = top_n+1  # espaço entre os grupos de tópicos
 
-        plt.figure(figsize=(20, 8))
+        plt.figure(figsize=(12, 5))  # imagem menor
+
+        plt.rcParams.update({'font.size': 14})  # fonte maior
 
         positions = []
         labels = []
