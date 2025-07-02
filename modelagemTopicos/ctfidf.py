@@ -132,7 +132,7 @@ if __name__ == '__main__':
         ])
     elif IDIOMA_PROC == "pt_XX":
         stopwords_personalizadas.update(["o", "a", "os", "as", "um", "uma", "eu", "tu", "ele", "ela",
-            "nós", "vós", "eles", "elas", "voce", "nao", "algum", "bedlam", "quão", "quao", "pra")
+            "nós", "vós", "eles", "elas", "voce", "nao", "algum", "bedlam", "quão", "quao", "pra"])
     elif IDIOMA_PROC == "en_XX":
         stopwords_personalizadas.update(["the", "a", "an", "and", "but", "or", "so", "to", "of",
             "in", "for", "on", "at", "peter", "john", "mary", "jane", "kaku", "thee", "thy","thou"])
