@@ -194,7 +194,7 @@ if __name__ == '__main__':
     def plot_top_words_todos_topicos(tfidf_matrix, feature_names, docs_por_topico, top_n=10, max_topicos=5):
         num_topicos = min(len(docs_por_topico), max_topicos)
         largura_barra = 0.6
-        espacamento = 12  # espaço entre os grupos de tópicos
+        espacamento = 10  # espaço entre os grupos de tópicos
 
         plt.figure(figsize=(12, 5))  # imagem menor
 
