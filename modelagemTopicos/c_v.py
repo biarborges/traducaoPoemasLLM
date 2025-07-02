@@ -120,6 +120,7 @@ if __name__ == "__main__":
             ["casa", "branco", "pequeno", "azul", "rio", "água", "olho", "luz", "ilha", "poder"],
             ["amor", "beleza", "verdade", "deus", "morte", "mundo", "dor", "olho", "vida", "verdadeiro"],
             ["pensamento", "mão", "dia", "noite", "cabeça", "sentido", "olhar", "olho", "sol", "alegria"],
+                ]
     }
 
     # Calcular coerência para cada grupo
