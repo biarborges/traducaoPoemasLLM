@@ -15,7 +15,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # 1. CONFIGURAÇÕES E CONSTANTES
 # =======================================================================
 
-TITLE = "original"
+TITLE = "reference"
 CAMINHO_CSV = "results/ingles_portugues/reference/poemas_com_topicos_reference.csv"
 PASTA_SAIDA = "results"
 COLUNA_POEMAS = "translated_poem"  # "original_poem", "translated_poem", "translated_by_TA"
@@ -32,7 +32,6 @@ correcoes_lemas = {
     "odeiar": "odiar",
     "deuse": "deuses",
     "vivir": "viver",
-
     "écrir": "écrire",
 }
 
@@ -49,7 +48,6 @@ normalizacao_lemas = {
     "tromperie": "tromper",
     "chrétiens": "chrétien",
     "sauraient": "savoir",
-
     "ressurgiremos": "ressurgir",
     "falhou": "falhar",
     "podias": "poder",
@@ -59,7 +57,6 @@ normalizacao_lemas = {
     "inteligente": "inteligência",
     "odio": "odiar",
     "morto": "morte",
-
     "daddy": "dad",
     "hidden": "hide",
     "vaguely": "vague",
@@ -101,24 +98,20 @@ def preprocessar_texto(texto: str, nlp_model, stopwords_custom: set, usar_lemati
     ]
     return " ".join(tokens_filtrados)
 
-
 # =======================================================================
 # 3. BLOCO PRINCIPAL
 # =======================================================================
 
 if __name__ == '__main__':
 
-    # Garante que a pasta de saída exista
     os.makedirs(PASTA_SAIDA, exist_ok=True)
 
-    # --- Carregamento e filtragem ---
     print(f"📖 Carregando dados de '{CAMINHO_CSV}'...")
     df = pd.read_csv(CAMINHO_CSV)
     df = df[(df["src_lang"] == IDIOMA_ORIGEM) & (df["tgt_lang"] == IDIOMA_DESTINO)].reset_index(drop=True)
     poemas = df[COLUNA_POEMAS].astype(str).tolist()
     print(f"Encontrados {len(poemas)} poemas para análise.")
 
-    # --- Pré-processamento ---
     print("🧹 Iniciando pré-processamento dos textos...")
     mapa_idioma_nltk = {"pt_XX": "portuguese", "en_XX": "english", "fr_XX": "french"}
     idioma_nltk = mapa_idioma_nltk[IDIOMA_PROC]
@@ -143,66 +136,59 @@ if __name__ == '__main__':
         ])
 
     nlp = carregar_modelo_spacy(IDIOMA_PROC)
-
     poemas_limpos = [preprocessar_texto(p, nlp, stopwords_personalizadas) for p in tqdm(poemas, desc="Processando poemas")]
 
-    # Adiciona os poemas limpos no DataFrame
     df['preprocessed'] = poemas_limpos
 
-    # ---------------------------
-    # ATENÇÃO: a coluna 'topic' deve existir no DataFrame antes de rodar o agrupamento abaixo.
-    # Se não existir, faça a clusterização antes para gerar os tópicos!
-    # ---------------------------
-
     if 'topic' not in df.columns:
-        raise ValueError("Coluna 'topic' não encontrada no DataFrame. Rode clustering para gerar os tópicos antes.")
+        raise ValueError("Coluna 'topic' não encontrada no DataFrame. Execute clustering para gerar tópicos antes.")
 
-    # Agrupa poemas por tópico concatenando os textos
-    docs_por_topico = df.groupby('topic')['preprocessed'].apply(lambda textos: " ".join(textos)).reset_index()
+    # Remove tópicos outliers (-1) se existirem
+    df_filtrado = df[df['topic'] != -1]
 
-    # Cria TF-IDF para os documentos (cada documento é um tópico)
+    docs_por_topico = df_filtrado.groupby('topic')['preprocessed'].apply(lambda textos: " ".join(textos)).reset_index()
+
     vectorizer = TfidfVectorizer(max_features=5000, ngram_range=(1,1))
     tfidf_matrix = vectorizer.fit_transform(docs_por_topico['preprocessed'])
-
     feature_names = np.array(vectorizer.get_feature_names_out())
 
-    # Função para pegar as top 10 palavras por tópico
     def top_palavras_por_topico(tfidf_vec, feature_names, top_n=10):
         arr = tfidf_vec.toarray().flatten()
         sorted_indices = np.argsort(arr)[::-1]
         top_indices = sorted_indices[:top_n]
-        return feature_names[top_indices]
+        return feature_names[top_indices], arr[top_indices]
 
-    # Salva as palavras por tópico em arquivo txt
-    with open(f"{PASTA_SAIDA}/topicos_cTFIDF_{TITLE}.txt", "w", encoding="utf-8") as f:
+    with open(f"{PASTA_SAIDA}/topicos_{TITLE}.txt", "w", encoding="utf-8") as f:
         for i, row in docs_por_topico.iterrows():
-            top_words = top_palavras_por_topico(tfidf_matrix[i], feature_names)
-            f.write(f"Tópico {row['topic']}: {', '.join(top_words)}\n")
+            top_words, top_scores = top_palavras_por_topico(tfidf_matrix[i], feature_names)
+            f.write(f"Tópico {row['topic']}:\n")
+            for w, s in zip(top_words, top_scores):
+                f.write(f"  {w}: {s:.4f}\n")
+            f.write("\n")
 
     print("✅ Palavras-chave por tópico salvas.")
 
-    # --- Visualizações ---
+    # Frequência dos tópicos (sem outliers)
+    topic_freq = df_filtrado['topic'].value_counts().sort_index()
 
-    topic_freq = df['topic'].value_counts().sort_index()
-
-    # Gráfico de pizza
+    # Gráfico pizza
     plt.figure(figsize=(8,8))
     plt.pie(topic_freq, labels=[f"Topic {i}" for i in topic_freq.index], autopct='%1.1f%%', startangle=140)
-    plt.title("Distribuição Percentual dos Tópicos")
+    plt.title("Distribuição Percentual dos Tópicos (sem outliers)")
     plt.savefig(f"{PASTA_SAIDA}/grafico_pizza_{TITLE}.png")
     plt.close()
 
-    # Gráfico de barras
+    # Gráfico barras
     plt.figure(figsize=(10,6))
     topic_freq.plot(kind='bar')
     plt.xlabel('Tópicos')
     plt.ylabel('Número de Poemas')
-    plt.title('Distribuição de Poemas por Tópico')
+    plt.title('Distribuição de Poemas por Tópico (sem outliers)')
     plt.savefig(f"{PASTA_SAIDA}/grafico_barras_topicos_{TITLE}.png")
     plt.close()
 
     # Nuvem de palavras geral (todos poemas limpos juntos)
-    texto_total = " ".join(poemas_limpos)
+    texto_total = " ".join(df_filtrado['preprocessed'])
     wc = WordCloud(width=1200, height=600, background_color='white', colormap='viridis').generate(texto_total)
     wc.to_file(f"{PASTA_SAIDA}/nuvem_palavras_geral_{TITLE}.png")
 
