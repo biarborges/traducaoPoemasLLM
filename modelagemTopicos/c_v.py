@@ -10,7 +10,7 @@ import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 # --- Configurações ---
-CAMINHO_CSV = "results/ingles_portugues/chatGPTPrompt2/poemas_com_topicos_chatGPTPrompt2.csv"
+CAMINHO_CSV = "results/ingles_portugues/googleTradutor/poemas_com_topicos_googleTradutor.csv"
 COLUNA_POEMAS = "translated_by_TA"  # coluna com texto original (não processado)
 IDIOMA_PROC = "pt_XX"
 
@@ -116,10 +116,10 @@ if __name__ == "__main__":
 
     # Defina seus grupos e tópicos (exemplo para 3 grupos só, adapte conforme seu caso)
     topic_groups = {
-        "ChatGPT Prompt 2": [
-            ["casa", "pequeno", "branco", "azul", "rio", "lua", "olho", "água", "céu", "longo"],
-            ["amor", "beleza", "deus", "verdade", "olho", "vida", "terra", "morte", "mundo", "pensamento"],
-            ["pensamento", "dia", "mão", "noite", "sentido", "olho", "olhar", "cabeça", "sol", "mente"],
+        "Google Translator": [
+            ["casa", "branco", "pequeno", "rio", "azul", "água", "olho", "ilha", "pássaro", "sol"],
+            ["amor", "beleza", "deus", "verdade", "vida", "ter", "morte", "mundo", "olho", "homem"],
+            ["pensamento", "mão", "dia", "olhar", "noite", "cabeça", "sentido", "olho", "cama", "alegria"],
         ],
     }
 
