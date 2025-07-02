@@ -10,9 +10,9 @@ import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 # --- Configurações ---
-CAMINHO_CSV = "results/ingles_portugues/chatGPTPrompt1/poemas_com_topicos_chatGPTPrompt1.csv"
-COLUNA_POEMAS = "translated_by_TA"  # coluna com texto original (não processado)
-IDIOMA_PROC = "en_XX"
+CAMINHO_CSV = "results/ingles_portugues/reference/poemas_com_topicos_reference.csv"
+COLUNA_POEMAS = "translated_poem"  # coluna com texto original (não processado)
+IDIOMA_PROC = "pt_XX"
 
 # Correções e normalizações de lemas (se quiser pode incluir mais)
 correcoes_lemas = {
@@ -116,11 +116,41 @@ if __name__ == "__main__":
 
     # Defina seus grupos e tópicos (exemplo para 3 grupos só, adapte conforme seu caso)
     topic_groups = {
-                "ChatGPT Prompt 1": [
+        "Original": [
+            ["like", "come", "white", "house", "blue", "water", "river", "eye", "look", "light"],
+            ["love", "shall", "time", "beauty", "god", "truth", "art", "true", "live", "doth"],
+            ["thought", "hand", "day", "feel", "night", "like", "head", "look", "sense", "eye"],
+        ],
+        "Reference": [
+            ["casa", "rio", "branco", "céu", "lua", "água", "fazer", "sol", "olhar", "mar"],
+            ["amor", "deus", "beleza", "dor", "vida", "amar", "verso", "morte", "dia", "futuro"],
+            ["dia", "mão", "noite", "olho", "olhar", "cabeça", "coração", "corpo", "mente", "sono"],
+        ],
+        "ChatGPT Prompt 1": [
             ["casa", "branco", "pequeno", "azul", "rio", "água", "olho", "luz", "ilha", "poder"],
             ["amor", "beleza", "verdade", "deus", "morte", "mundo", "dor", "olho", "vida", "verdadeiro"],
             ["pensamento", "mão", "dia", "noite", "cabeça", "sentido", "olhar", "olho", "sol", "alegria"],
-                ]
+        ],
+        "ChatGPT Prompt 2": [
+            ["casa", "pequeno", "branco", "azul", "rio", "lua", "olho", "água", "céu", "longo"],
+            ["amor", "beleza", "deus", "verdade", "olho", "vida", "terra", "morte", "mundo", "pensamento"],
+            ["pensamento", "dia", "mão", "noite", "sentido", "olho", "olhar", "cabeça", "sol", "mente"],
+        ],
+        "Google Translator": [
+            ["casa", "branco", "pequeno", "rio", "azul", "água", "olho", "ilha", "pássaro", "sol"],
+            ["amor", "beleza", "deus", "verdade", "vida", "ter", "morte", "mundo", "olho", "homem"],
+            ["pensamento", "mão", "dia", "olhar", "noite", "cabeça", "sentido", "olho", "cama", "alegria"],
+        ],
+       "Maritaca Prompt 1": [
+           ["casa", "pequeno", "rio", "branco", "luz", "água", "olho", "azul", "céu", "descer"],
+           ["amor", "beleza", "verdade", "deus", "vida", "morte", "bom", "mundo", "desejo", "olho"],
+            ["pensamento", "mão", "noite", "dia", "cabeça", "espelho", "olhar", "sentido", "jaz", "sol"],
+        ],
+       "Maritaca Prompt 2": [
+           ["casa", "rio", "branco", "sol", "pequeno", "lua", "céu", "olho", "água", "café"],
+           ["amor", "beleza", "vida", "verdade", "deus", "mundo", "morte", "estátua", "olho", "fazer"],
+            ["pensamento", "mão", "noite", "dia", "olhar", "espelho", "olho", "cabeça", "sentir", "coração"],
+        ],
     }
 
     # Calcular coerência para cada grupo
