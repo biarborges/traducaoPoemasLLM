@@ -7,9 +7,9 @@ from tqdm import tqdm
 
 transformers.utils.logging.set_verbosity_error()
 
-input_file = os.path.abspath("results/ingles_frances/googleTradutor/topico_2.csv")
+input_file = os.path.abspath("results/ingles_portugues/chatGPTPrompt1/topico_0.csv")
 # chatGPTPrompt1  googleTradutor  maritacaPrompt1  
-lang = "fr" # en pt fr
+lang = "pt" # en pt fr
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Usando dispositivo: {device}")

@@ -1,4 +1,4 @@
-original_poem,translated_poem,src_lang,tgt_lang,topic
+original_poem,translated_poem,src_lang,tgt_lang,translated_by_TA,topic
 "iv / o breath
 beneath that loved and celebrated breast;
 silent, bored really blindly veined,
@@ -29,7 +29,22 @@ ambíguo, mas o que temos em comum tem que estar lá,
 seja lá o que havemos de ter de equivalente,
 algo com que eu talvez possa entrar num acordo
 um tratado de paz debaixo
-dentro dele já que jamais com ele.",en_XX,pt_XX,1
+dentro dele já que jamais com ele.",en_XX,pt_XX,"iv / o sopro
+sob aquele seio amado e celebrado;
+silencioso, entediado realmente cegamente veiado,
+entristece, talvez vive e deixa
+viver, passa apostas,
+algo se movendo mas invisivelmente,
+e com que clamor por que contido
+não consigo entender nem mesmo uma ondulação.
+(veja a leve flutuação de nove fios negros
+quatro em volta de um cinco no outro mamilo,
+flutuando quase intoleravelmente em seu próprio sopro.)
+equívoco, mas o que temos em comum certamente está lá,
+seja o que devemos possuir equivalentes para,
+algo que talvez eu pudesse negociar com
+e fazer uma paz separada sob
+dentro se nunca com.",1.0
 "from fairest creatures we desire increase,
 that thereby beauty’s rose might never die,
 but as the riper should by time decease,
@@ -56,7 +71,20 @@ arauto da festiva natureza,
 matas o teu prazer inda em botão
 e, sovina, esperdiças na avareza.
 piedade, senão ides, tu e o fundo
-do chão, comer o que é devido ao mundo.",en_XX,pt_XX,1
+do chão, comer o que é devido ao mundo.",en_XX,pt_XX,"Das criaturas mais belas desejamos a prole,
+para que assim a rosa da beleza nunca morra,
+mas conforme o maduro deveria falecer com o tempo,
+seu herdeiro terno pode carregar sua memória:
+mas tu, preso aos teus próprios olhos brilhantes,
+alimentas a chama da tua luz com combustível próprio,
+criando uma fome onde a abundância reside,
+tu mesmo teu inimigo, cruel demais contigo mesmo.
+tu que és agora o fresco ornamento do mundo
+e único arauto da primavera vistosa,
+dentro do teu próprio botão enterras teu conteúdo
+e, avarento terno, desperdiças em mesquinhez.
+tem piedade do mundo, ou então este glutão serás,
+para consumir o que é devido ao mundo, pela sepultura e por ti.",1.0
 "when forty winters shall besiege thy brow,
 and dig deep trenches in thy beauty’s field,
 thy youth’s proud livery, so gaz’d on now,
@@ -83,7 +111,20 @@ se pudesses dizer: “meu filho há-de
 saldar-me a dívida, exculpar-me a idade”,
 provando que a beleza é tua herança.
 fora tornar em novo as coisas velhas
-e ver o sangue quente enquanto engelhas.",en_XX,pt_XX,1
+e ver o sangue quente enquanto engelhas.",en_XX,pt_XX,"Quando quarenta invernos atacarem tua fronte,
+e cavarem trincheiras profundas no campo de tua beleza,
+a vistosa libré de tua juventude, agora tão admirada,
+será um trapo roto, de pouco valor tido:
+então, ao ser perguntado onde reside toda tua beleza,
+onde todo o tesouro de teus dias vigorosos,
+dizer, nos teus próprios olhos profundos e afundados,
+seria uma vergonha devoradora e um louvor inútil.
+Quanto mais louvor mereceria o uso de tua beleza,
+se pudesses responder, 'este belo filho meu
+resumirá minha conta, e justificará minha velhice,'
+provando sua beleza pela sucessão à tua!
+Isso seria ser renovado quando fores velho,
+e sentir teu sangue aquecido quando o sentires frio.",1.0
 "when i do count the clock that tells the time,
 and see the brave day sunk in hideous night;
 when i behold the violet past prime,
@@ -110,7 +151,20 @@ que há de sofrer do tempo a dura prova,
 pois as graças do mundo em abandono
 morrem ao ver nascendo a graça nova.
 contra a foice do tempo é vão combate,
-salvo a prole, que o enfrenta se te abate.",en_XX,pt_XX,1
+salvo a prole, que o enfrenta se te abate.",en_XX,pt_XX,"Quando eu conto as horas no relógio que marca o tempo,
+e vejo o dia corajoso afundado na noite horrenda;
+quando contemplo a violeta passada do seu auge,
+e os cachos negros, todos prateados de branco;
+quando vejo árvores altas despidas de folhas,
+que outrora do calor protegiam o rebanho,
+e o verde do verão todo amarrado em feixes,
+levado no esquife com barba branca e espinhosa,
+então questiono sobre a tua beleza,
+que entre os resíduos do tempo deves seguir,
+pois os doces e as belezas a si mesmos abandonam
+e morrem tão rapidamente quanto veem outros crescerem;
+e nada contra a foice do tempo pode se defender
+exceto gerar, para desafiá-lo quando te levar daqui.",1.0
 "not from the stars do i my judgment pluck;
 and yet methinks i have astronomy,
 but not to tell of good or evil luck,
@@ -137,7 +191,20 @@ e, astros constantes, leio ali tal arte:
 “que a verdade e a beleza darão frutos
 se em ti deixas de tanto reservar-te”;
 ou um vaticínio sobre ti revelo:
-“teu fim põe termo ao verdadeiro e ao belo.”",en_XX,pt_XX,1
+“teu fim põe termo ao verdadeiro e ao belo.”",en_XX,pt_XX,"Não nos astros venho buscar juízo;
+e, contudo, me sinto astrônomo,
+mas não para falar de sorte ou prejuízo,
+de pragas, fomes, ou qualidade do outono;
+nem posso à sorte minutos resumir,
+apontando a cada um seu trovão, chuva e vento,
+ou dizer com príncipes se irá bem prosseguir,
+ao prever frequentemente o que no céu encontro:
+mas dos teus olhos minha sabedoria extraio,
+e, estrelas constantes, neles leio tal arte
+que 'verdade e beleza juntas florescerão,
+se de ti mesmo ao universo converterias parte;'
+ou então de ti faço esta previsão:
+'teu fim é a verdade e o fado da beleza.'",1.0
 "who will believe my verse in time to come,
 if it were fill’d with your most high deserts?
 though yet, heaven knows, it is but as a tomb
@@ -164,7 +231,20 @@ qual de velhos loquazes, e a teu ente
 chamem de pura exaltação da mente
 e a meu verso exageros do passado.
 mas se chegar a tua estirpe a tanto,
-em dobro hás-de viver: nela e em meu canto.",en_XX,pt_XX,1
+em dobro hás-de viver: nela e em meu canto.",en_XX,pt_XX,"Quem acreditará no meu verso no porvir,
+se ele transborda de seus méritos mais sublimes?
+Embora, céus sabem, seja apenas um sepulcro a cobrir
+sua vida e não revelar metade de seus brilhantes cimos.
+Se eu pudesse descrever a beleza de seus olhos
+e, em versos frescos, enumerar todas as suas graças,
+a posteridade diria, 'este poeta mente à toa;
+tais toques celestiais nunca tocaram faces terrenas.'
+Assim, meus papéis, amarelados pelo tempo,
+seriam desprezados, como velhos de pouca verdade e muita língua,
+e seus direitos reais seriam considerados mera fúria poética
+e métrica esticada de uma canção antiga;
+mas se algum filho seu ainda estivesse vivo nesse tempo,
+você viveria duas vezes, — nele e em meu rimo.",1.0
 "shall i compare thee to a summer’s day?
 thou art more lovely and more temperate:
 rough winds do shake the darling buds of may,
@@ -191,7 +271,20 @@ nem a posse de tua formosura;
 de impor-te a sombra a morte não se gaba
 pois que esta estrofe eterna ao tempo dura.
 enquanto houver viventes nesta lida,
-há-de viver meu verso e te dar vida.",en_XX,pt_XX,1
+há-de viver meu verso e te dar vida.",en_XX,pt_XX,"Comparar-te a um dia de verão, como farei?
+Tu és mais encantadora e mais temperada:
+Ventos fortes agitam os amados botões de maio,
+E o verão tem uma duração demasiado curta:
+Às vezes o olho do céu brilha demasiado quente,
+E frequentemente sua tez dourada se ofusca:
+E toda beleza de bela, por vezes declina,
+Por acaso, ou da natureza a mudança inalterada;
+Mas teu verão eterno não desvanecerá,
+Nem perderá posse da beleza que tens,
+Nem a morte se gabará que vagas em sua sombra,
+Quando em linhas eternas ao tempo cresceres;
+Enquanto homens puderem respirar, ou olhos puderem ver,
+Viverá este poema, e isso dará vida a ti.",1.0
 "devouring time, blunt thou the lion’s paws,
 and make the earth devour her own sweet brood;
 pluck the keen teeth from the fierce tiger’s jaws,
@@ -218,7 +311,20 @@ nem nele imprimas o teu traço duro.
 oh! permite que intacto siga avante
 como padrão do belo no futuro.
 ou antes, velho tempo, sê perverso:
-pois jovem sempre há-de o manter meu verso.",en_XX,pt_XX,1
+pois jovem sempre há-de o manter meu verso.",en_XX,pt_XX,"devorador tempo, embotai as garras do leão,
+e faz a terra devorar sua própria criação doce;
+arranca os dentes afiados das mandíbulas do tigre feroz,
+e queima a fênix longeva em seu sangue;
+faz as estações alegres e tristes à medida que passas,
+e fazes o que bem quiseres, tempo de pés ligeiros,
+para o mundo vasto e todas as suas doçuras desvanecentes;
+mas proíbo-te um crime mais hediondo:
+ó! não esculpas com tuas horas a bela fronte de meu amor,
+nem desenhes linhas ali com tua pena antiga;
+deixa-o imaculado em teu curso
+como modelo de beleza para as gerações futuras.
+no entanto, faz o teu pior, velho tempo: apesar de teus erros,
+meu amor em meu verso sempre viverá jovem.",1.0
 "my glass shall not persuade me i am old,
 so long as youth and thou are of one date;
 but when in thee time’s furrows i behold,
@@ -245,7 +351,20 @@ que eu, não por mim, antes por ti, terei;
 levar teu coração, tão desvelado
 qual ama guarda o doce infante, eu hei.
 e nem penses em volta, morto o meu,
-pois para sempre é que me deste o teu.",en_XX,pt_XX,1
+pois para sempre é que me deste o teu.",en_XX,pt_XX,"Meu espelho não há de me convencer de estar velho,
+enquanto juventude e tu estiverdes em sintonia;
+mas quando em ti as rugas do tempo vejo,
+então encaro a morte a expiar meus dias.
+Pois toda a beleza que te cobre
+é apenas a traje aprazível do meu coração,
+que em teu peito vive, assim como o teu em mim:
+como então poderia ser mais velho do que és?
+Oh! Por isso, amor, cuida de ti mesmo
+como eu, não por mim, mas por ti farei;
+guardando teu coração, que zelarei tão amoroso
+como uma terna mãe protege seu filho de sofrer mal.
+Não presumas de teu coração quando o meu estiver desfeito;
+tu me deste o teu, não para devolveres.",1.0
 "as an unperfect actor on the stage,
 who with his fear is put besides his part,
 or some fierce thing replete with too much rage,
@@ -272,7 +391,20 @@ oh! sejam pois meus livros a eloquência,
 que amor implorem, peçam recompensa,
 mais do que a voz que muito mais tem feito.
 saibas ler o que o mudo amor escreve,
-que o fino amor ouvir com os olhos deve.",en_XX,pt_XX,1
+que o fino amor ouvir com os olhos deve.",en_XX,pt_XX,"como um ator imperfeito no palco,
+que com seu medo é posto além de seu papel,
+ou algo feroz repleto de muita raiva,
+cuja abundância de força enfraquece seu próprio coração;
+assim eu, por medo de confiar, esqueço de dizer
+a cerimônia perfeita do rito do amor,
+e na força do meu próprio amor pareço definhar,
+sobrecarregado pelo peso do próprio poder do meu amor.
+ó! que meus livros sejam então a eloquência
+e prenúncios mudos do meu peito falante,
+que pleiteiam por amor, e esperam recompensa,
+mais do que aquela língua que mais expressou.
+ó! aprenda a ler o que o amor silencioso escreveu:
+ouvir com os olhos pertence ao engenho fino do amor.",1.0
 "when to the sessions of sweet silent thought
 i summon up remembrance of things past,
 i sigh the lack of many a thing i sought,
@@ -299,7 +431,20 @@ de pesar em pesar repeso agora
 o balanço da dor adormecida
 como se o saldo não saldado fora.
 mas se então penso em ti nesse ínterim,
-restauro toda a pena e a dor tem fim.",en_XX,pt_XX,1
+restauro toda a pena e a dor tem fim.",en_XX,pt_XX,"Quando em sessões de doce pensamento
+Eu evoco a lembrança de tempos idos,
+Sinto a falta do que busquei, lamento,
+E com velhas mágoas choro os meus amores perdidos:
+Então posso afogar um olho, não acostumado a chorar,
+Pelos preciosos amigos escondidos na noite sem data da morte,
+E chorar de novo a antiga mágoa de um amor cancelado faz tempo,
+E gemer o custo de tantas visões desaparecidas:
+Então posso lamentar as desgraças passadas,
+E pesadamente de tristeza em tristeza repetir
+A triste conta de lamentos já antecipados,
+Que eu pago de novo como se jamais tivesse pago antes.
+Mas se, enquanto penso em ti, querido amigo,
+Todas as perdas são restauradas e os pesares têm fim.",1.0
 "why didst thou promise such a beauteous day,
 and make me travel forth without my cloak,
 to let base clouds o’ertake me in my way,
@@ -326,7 +471,20 @@ pois te arrependes, mas o mal se adensa.
 o pesar do culpado é fraco unguento
 àquele que suporta a forte ofensa.
 mas se de amor as lágrimas desatam,
-— pérolas ricas — todo o mal resgatam.",en_XX,pt_XX,1
+— pérolas ricas — todo o mal resgatam.",en_XX,pt_XX,"Por que prometeste um dia tão belo,
+e me fizeste sair sem meu manto,
+deixando nuvens vis me cobrirem no caminho,
+escondendo tua bravura em sua fumaça podre?
+Não basta que através da nuvem tu irrompas,
+para secar a chuva em meu rosto castigado pela tempestade,
+pois nenhum homem pode bem falar
+de um bálsamo que cura a ferida, mas não a desonra:
+nem tua vergonha pode curar minha tristeza;
+mesmo que te arrependas, ainda tenho a perda:
+a dor do ofensor oferece apenas fraco alívio
+àquele que suporta a cruz do forte delito.
+Ah! Mas essas lágrimas são pérolas que teu amor derrama,
+e são ricas e resgatam todas as más ações.",1.0
 "as a decrepit father takes delight
 to see his active child do deeds of youth,
 so i, made lame by fortune’s dearest spite,
@@ -353,7 +511,20 @@ estando à tua sombra nutritiva,
 pois em tua abundância o meu legado
 parte é de tua glória que me aviva.
 busca o melhor que não terás revezes;
-que ao desejá-lo sou feliz dez vezes.",en_XX,pt_XX,1
+que ao desejá-lo sou feliz dez vezes.",en_XX,pt_XX,"Assim como um pai decrépito se deleita
+Ao ver seu filho ativo em feitos de juventude,
+Assim eu, coxo pela mais dura espetada da sorte,
+Acho meu conforto em tua valia e verdade;
+Seja beleza, linhagem, riqueza ou engenho,
+Ou qualquer destes todos, ou todos, ou mais,
+Em teus atributos coroados, eu enxergo
+Meu amor enraizado nesta riqueza;
+Então, não sou coxo, pobre, nem desprezado,
+Enquanto esta sombra tal substância dá
+Que em tua abundância me satisfaço
+E por uma parte de toda tua glória vivo.
+Desejo-te o melhor, o melhor desejo em ti:
+Este é meu desejo; então, dez vezes feliz eu!",1.0
 "take all my loves, my love, yea, take them all;
 what hast thou then more than thou hadst before?
 no love, my love, that thou mayst true love call;
@@ -380,7 +551,20 @@ pois roubaste de ti minha penúria,
 que sempre soube o amor ser dor mais densa
 sofrer seus erros que do ódio a injúria.
 lasciva graça, que faz bem do mal;
-morro de teu desdém, não teu rival.",en_XX,pt_XX,1
+morro de teu desdém, não teu rival.",en_XX,pt_XX,"Leva todos os meus amores, meu amor, leva-os todos;
+o que então tens mais do que tinhas antes?
+Nenhum amor, meu amor, que possas chamar de verdadeiro amor;
+todo o meu era teu antes de teres este mais
+então, se recebes meu amor por meu amor,
+não posso culpar-te por usares meu amor;
+mas, contudo, serás culpado se a ti mesmo enganares
+ao provar deliberadamente o que a ti mesmo recusas.
+Eu perdoo teu roubo, gentil ladrão,
+embora tires de mim toda a minha pobreza;
+e ainda assim, o amor sabe que é uma dor maior
+suportar a injustiça do amor do que o dano conhecido do ódio.
+graça lasciva, em quem todo mal se mostra bem,
+mata-me com despeitos; ainda assim não devemos ser inimigos.",1.0
 "so am i as the rich, whose blessed key
 can bring him to his sweet up-locked treasure,
 the which he will not every hour survey,
@@ -407,7 +591,20 @@ como a veste no guarda-roupa à espera
 de fazer de um instante instante de ouro
 ao revelar a pompa que encarcera.
 louve-se quem um tal valor alcança:
-presente, és triunfo; ausente, és esperança.",en_XX,pt_XX,1
+presente, és triunfo; ausente, és esperança.",en_XX,pt_XX,"Assim sou eu como o rico, cuja chave abençoada
+pode levá-lo ao seu doce tesouro fechado,
+o qual ele não irá a cada hora observar,
+para não embotar a fina ponta do prazer raro.
+Por isso são os banquetes tão solenes e raros,
+pois, raramente vindo, no longo ano dispostos,
+como pedras valiosas, são escassamente colocados,
+ou joias de capitão no colar.
+Assim é o tempo que te guarda como meu peito,
+ou como o guarda-roupa que a roupa esconde,
+para tornar um momento especial ainda mais abençoado
+pela nova revelação de seu orgulho aprisionado.
+Benditos sejam você, cuja dignidade dá espaço,
+tendo, para triunfar; faltando, para esperança.",1.0
 "not marble, nor the gilded monuments
 of princes, shall outlive this powerful rime;
 but you shall shine more bright in these contents
@@ -434,7 +631,20 @@ vencendo a morte e as legiões do olvido,
 e os pósteros, no juízo derradeiro,
 hão de a este louvor prestar ouvido.
 pois até a sentença que levantes,
-vives aqui e no lábio dos amantes.",en_XX,pt_XX,1
+vives aqui e no lábio dos amantes.",en_XX,pt_XX,"Nem mármore, nem monumentos dourados
+de príncipes, resistirão a este poderoso poema;
+mas tu brilharás mais intensamente nestes versos
+do que pedra não varrida, manchada pelo tempo desleixado.
+quando a guerra devastadora derrubar estátuas,
+e conflitos arrancarem o trabalho de alvenaria,
+nem Marte com sua espada, nem o fogo rápido da guerra queimará
+o registro vivo da tua memória.
+Contra a morte e a inimizade esquecedora
+tu avançarás; teu louvor sempre encontrará espaço
+até nos olhos de toda a posteridade
+que desgastarão este mundo até o fim do destino.
+Assim, até o julgamento em que te levantes,
+viverás nisto, e habitarás nos olhos dos amantes.",1.0
 "like as the waves make towards the pebbled shore,
 so do our minutes hasten to their end;
 each changing place with that which goes before,
@@ -461,7 +671,20 @@ enruga a face da beleza opima;
 nutre-se do que é raro em plenitude,
 nada lhe escapa à foice que dizima.
 mas meus versos esperam no papel,
-louvando-te, vencer a mão cruel.",en_XX,pt_XX,1
+louvando-te, vencer a mão cruel.",en_XX,pt_XX,"Assim como as ondas rumam para a praia de seixos,
+nossos minutos apressam-se para o fim;
+cada lugar trocando com o que vai antes,
+em sequente esforço todos seguem adiante.
+A natividade, outrora no âmago da luz,
+rasteja até a maturidade, com coroa ostentada,
+e eclipses tortos lutam contra sua glória,
+e o tempo que dava agora sua dádiva confunde.
+O tempo atravessa o florescer da juventude
+e escava paralelos na fronte da beleza,
+alimenta-se das raridades da verdade da natureza,
+e nada permanece exceto para sua foice ceifar:
+e ainda assim para os tempos, em esperança, minha poesia permanecerá,
+enaltecendo teu valor, apesar de sua mão cruel.",1.0
 "when i have seen by time’s fell hand defac’d
 the rich-proud cost of outworn buried age;
 when sometime lofty towers i see down-raz’d,
@@ -488,7 +711,20 @@ e o próprio estado vir-se a descompor,
 a ruína me leva a ruminar
 que o tempo há de levar o meu amor.
 morte é pensar que só posso escolher
-chorar por ter a quem temo perder.",en_XX,pt_XX,1
+chorar por ter a quem temo perder.",en_XX,pt_XX,"Quando eu vi, pelas mãos cruéis do tempo,
+a rica altivez da idade já enterrada;
+quando torres altaneiras vi caídas por terra,
+e o bronze eterno servil à ira mortal;
+quando eu vi o oceano faminto ganhar
+vantagem sobre o reino da costa,
+e a firme terra ganhar do mar aquoso,
+aumentando o tesouro com perda, e a perda com tesouro;
+quando eu vi tal troca de estado,
+ou o próprio estado confundido na decadência;
+a ruína me ensinou a refletir assim —
+que o tempo virá e levará meu amor.
+Este pensamento é como uma morte, que não pode escolher
+senão chorar por ter o que teme perder.",1.0
 "since brass, nor stone, nor earth, nor boundless sea,
 but sad mortality o’ersways their power,
 how with this rage shall beauty hold a plea,
@@ -515,7 +751,20 @@ da arca do tempo a joia preferida?
 que mão lhe pode os ágeis pés deter?
 quem não lhe sofre o espólio nesta vida?
 nada! a não ser que a graça se consinta
-de que viva este amor na negra tinta.",en_XX,pt_XX,1
+de que viva este amor na negra tinta.",en_XX,pt_XX,"Desde o bronze, nem pedra, nem terra, nem vasto mar,
+Porém a triste mortalidade domina seu poder,
+Como com esta fúria a beleza poderá pleitear,
+Cuja ação não é mais forte do que uma flor a florescer?
+Oh! Como o doce hálito do verão resistirá
+Contra o assédio destrutivo dos dias a bater,
+Quando rochas impregnáveis não são tão firmes,
+Nem portões de aço tão resistentes, mas o tempo desfaz?
+Oh meditação temerosa! Onde, ai de mim,
+O melhor tesouro do tempo se esconderá?
+Ou que mão forte pode deter seu passo veloz?
+Ou quem pode proibir o saque de sua beleza?
+Oh! Ninguém, a menos que este milagre tenha poder,
+Que em tinta negra meu amor ainda possa brilhar.",1.0
 "tir’d with all these, for restful death i cry
 as to behold desert a beggar born,
 and needy nothing trimm’d in jollity,
@@ -542,7 +791,20 @@ e impondo regra o tolo doutoral,
 e a verdade singela posta à parte,
 e o bem cativo estar do ativo mal:
 farto de tudo, a morte é o bom caminho,
-mas, morto, deixo o meu amor sozinho.",en_XX,pt_XX,1
+mas, morto, deixo o meu amor sozinho.",en_XX,pt_XX,"Cansado de tudo isso, por morte serena clamo,
+ao ver o deserto como lar de um mendigo,
+e a necessidade sem enfeites de alegria,
+e a fé mais pura infelizmente renegada,
+e a honra dourada vergonhosamente deslocada,
+e a virtude donzela brutalmente prostituída,
+e a perfeição certa injustamente desonrada,
+e a força enfraquecida pelo domínio coxo,
+e a arte silenciada pela autoridade,
+e a tolice — como um médico — controlando a habilidade,
+e a verdade simples chamada de simplicidade,
+e o bem cativo servindo ao mal comandante:
+cansado de tudo isso, destes eu gostaria de partir,
+exceto que, para morrer, deixo meu amor sozinho.",1.0
 "no longer mourn for me when i am dead
 than you shall hear the surly sullen bell
 give warning to the world that i am fled
@@ -569,7 +831,20 @@ quando for minha carne consumida,
 não te refiras ao meu nome e deixa
 que morra o teu amor com minha vida.
 não veja o mundo e zombe desta dor
-por minha causa, quando morto eu for.",en_XX,pt_XX,1
+por minha causa, quando morto eu for.",en_XX,pt_XX,"Não mais me lamentes quando eu morrer,
+do sino sombrio que ecoa sem parar,
+anunciando ao mundo que parti sem querer,
+para habitar com vermes no vil lar:
+não recordes a mão que escreveu esta rima,
+pois tanto te amo que prefiro assim,
+que eu, em teus pensamentos, me animes e me anima,
+se lembrar de mim te causar dor sem fim.
+Ah! Caso leias estas palavras na terra,
+quando eu, possivelmente, ao barro retorne,
+nem mesmo meu humilde nome verra,
+deixa teu amor com minha vida que se torne;
+para que o mundo sábio não venha a zombar,
+e te faça de chacota, após eu partir sem parar.",1.0
 "whilst i alone did call upon thy aid,
 my verse alone had all thy gentle grace;
 but now my gracious numbers are decay’d,
@@ -596,7 +871,20 @@ em teu caráter; se te dá beleza,
 ela estava em teu rosto: o que ele entoa
 não é louvor, que o tens por natureza.
 não lhe agradeças por menção tão leve,
-pois pagas a ti mesmo o que ele deve.",en_XX,pt_XX,1
+pois pagas a ti mesmo o que ele deve.",en_XX,pt_XX,"Enquanto sozinho eu clamava por tua ajuda,
+minha poesia sozinha possuía toda a tua gentil graça;
+mas agora meus números generosos estão em decadência,
+e minha musa doente cede lugar a outra.
+Eu concedo, doce amor, que teu argumento encantador
+merece o esforço de uma pena mais digna;
+mas o que o poeta inventa de ti
+ele te rouba e te retribui.
+Ele te empresta virtude, e rouba essa palavra
+do teu comportamento; beleza ele te concede,
+e a encontra em tua face; ele pode proporcionar
+nenhum louvor a ti além do que em ti reside.
+Então não lhe agradeça pelo que ele diz,
+pois o que ele te deve, tu mesma pagas.",1.0
 "or i shall live your epitaph to make,
 or you survive when i in earth am rotten;
 from hence your memory death cannot take,
@@ -623,7 +911,20 @@ servindo aos olhos do porvir leitura
 e às línguas do futuro de instrumento
 quando os de hoje tiverem sepultura.
 hás de viver — na pena em que te ufano
-enquanto hálito houver no peito humano.",en_XX,pt_XX,1
+enquanto hálito houver no peito humano.",en_XX,pt_XX,"Ou eu farei de tua epígrafe o meu viver,
+Ou sobreviverás quando eu na terra apodrecer;
+Daqui, a memória tua a morte não irá levar,
+Ainda que em mim cada parte venha a desaparecer.
+Teu nome daqui imortal vida terá,
+Embora eu, uma vez ido, ao mundo todo devo morrer:
+A terra só me dará uma sepultura comum,
+Enquanto em olhos humanos teu túmulo jaz.
+Teu monumento será o meu verso gentil,
+Que olhos ainda não criados hão de ler;
+E línguas hão de ensaiar tua existência,
+Quando todos os seres deste mundo perecerem;
+Tu ainda viverás, - tal virtude tem minha pena -
+Onde o sopro mais sopra, - até mesmo nas bocas dos homens.",1.0
 "where art thou, muse, that thou forget’st so long
 to speak of that which gives thee all thy might?
 spend’st thou thy fury on some worthless song,
@@ -650,7 +951,20 @@ vê se o tempo imprimiu à face amada;
 se houver, torna com sátira a rapina
 do tempo em toda parte desprezada.
 dá fama ao meu amor e bem depressa,
-que a ação do tempo e sua foice impeça.",en_XX,pt_XX,1
+que a ação do tempo e sua foice impeça.",en_XX,pt_XX,"Onde estás, musa, que tanto esqueces
+de falar do que te dá todo o teu poder?
+Gastas tua fúria em canções vazias,
+escurecendo teu dom de iluminar assuntos baixos?
+Retorna, musa esquecida, e logo redime
+em números gentis o tempo tão ocioso gasto;
+canta ao ouvido que aprecia teus versos
+e dá à tua pena tanto habilidade quanto argumento.
+Levanta-te, musa descansada, observa o doce rosto do meu amor,
+se o tempo deixou alguma ruga gravada ali;
+se houver alguma, seja uma sátira à decadência,
+e faça dos despojos do tempo desprezados por toda parte.
+Dê fama ao meu amor mais rápido do que o tempo gasta a vida;
+assim prevines sua foice e faca torta.",1.0
 "alas! ‘tis true i have gone here and there,
 and made myself a motley to the view,
 gor’d mine own thoughts, sold cheap what is most dear,
@@ -677,7 +991,20 @@ meus apetites nunca mais degrado
 a novas provas contra um velho amigo,
 um deus no amor, a quem estou ligado.
 recebe-me, que ao céu terei direito
-estando junto de teu puro peito.",en_XX,pt_XX,1
+estando junto de teu puro peito.",en_XX,pt_XX,"Ai de mim! Verdade é que andei para cá e para lá,
+e me tornei um mosaico aos olhos de todos,
+mutilando meus próprios pensamentos, vendendo barato o que é mais caro,
+transformando antigas ofensas em novos afetos;
+é muito verdade que olhei para a verdade
+de soslaio e estranhamente; mas, por tudo acima,
+esses desvios deram ao meu coração uma nova juventude,
+e piores tentativas provaram que és o melhor do meu amor.
+agora tudo está feito, exceto o que não terá fim:
+nunca mais irei saciar meu apetite
+com provas novas, para testar um amigo mais antigo,
+um deus no amor, a quem estou confinado.
+então, dá-me as boas-vindas, após o meu céu o melhor,
+até mesmo ao teu peito puro e mais amoroso.",1.0
 "let me not to the marriage of true minds
 admit impediments. love is not love
 which alters when it alteration finds,
@@ -704,7 +1031,20 @@ em seu declínio os lábios nos entorte.
 o amor não muda com o dia e a hora,
 mas persevera ao limiar da morte.
 e, se se prova que num erro estou,
-nunca fiz versos nem jamais se amou.",en_XX,pt_XX,1
+nunca fiz versos nem jamais se amou.",en_XX,pt_XX,"Que não me cerque o casamento de mentes puras
+Com obstáculos. Amor não é amor
+Que se altera ao encontrar alteração,
+Ou se curva ao que remove para remover:
+Oh, não! É um marco sempre firme,
+Que encara tempestades e não se abala;
+É a estrela para cada barca errante,
+Cujo valor é desconhecido, embora sua altura seja medida.
+O amor não é bobo do tempo, mesmo que lábios e bochechas rosadas
+Venham dentro da foice curva dele;
+O amor não se altera com suas horas e semanas breves,
+Mas o suporta até à beira do destino.
+Se isso for erro e for provado contra mim,
+Nunca escrevi, e nenhum homem jamais amou.",1.0
 "when my love swears that she is made of truth,
 i do believe her, though i know she lies,
 that she might think me some untutor’d youth,
@@ -731,7 +1071,20 @@ por que razão também escondo a idade?
 oh, lei do amor fingir sinceridade
 e amante idoso os anos não revela.
 por isso eu minto, e ela em falso jura,
-e sentimos lisonja na impostura.",en_XX,pt_XX,1
+e sentimos lisonja na impostura.",en_XX,pt_XX,"Quando meu amor jura que é feito de verdade,
+Eu acredito, embora saiba que mente,
+Pensando talvez que sou jovem sem bondade,
+Inexperiente nas falsidades latentes.
+Assim, vão pensando que me julgam novo,
+Embora saibam que meus dias são passados,
+Simplesmente creio em sua língua de engodo:
+Ambos ocultamos a verdade ao nosso lado.
+Mas por que não diz ela que é injusta?
+E por que não digo que sou velho?
+Ah, o melhor hábito do amor é confiar sem custa,
+E a idade no amor não quer ter a idade revelada:
+Por isso, eu minto com ela, e ela comigo,
+E em nossos erros, pelas mentiras, nos iludimos.",1.0
 "two loves i have of comfort and despair,
 which like two spirits do suggest me still:
 the better angel is a man right fair,
@@ -758,7 +1111,20 @@ suspeito apenas, sem dizer que seja;
 mas longe ambos de mim, e amigos, temo
 que o anjo no fogo já do outro esteja.
 nunca sabê-lo, embora desconfie,
-até que o mau meu anjo contagie.",en_XX,pt_XX,1
+até que o mau meu anjo contagie.",en_XX,pt_XX,"Tenho dois amores, um de conforto e um de desespero,
+que como dois espíritos ainda me instigam:
+o anjo melhor é um homem belo,
+o pior espírito, uma mulher, mal colorida.
+Para me levar logo ao inferno, minha maldade feminina
+tenta meu anjo melhor do meu lado,
+e corromperia meu santo para se tornar um diabo,
+seduzindo sua pureza com seu orgulho sujo.
+E se meu anjo virou demônio,
+suspeitar posso, mas diretamente não dizer;
+sendo ambos de mim, amigos um do outro,
+suponho um anjo no inferno do outro:
+mas isso nunca saberei, viverei em dúvida,
+até que meu anjo mal elimine meu bom.",1.0
 "my love is as a fever, longing still
 for that which longer nurseth the disease;
 feeding on that which doth preserve the ill,
@@ -785,7 +1151,20 @@ se vai, e um louco frenesi me invade;
 penso e falo qual louco que declara
 coisas ao léu, ausentes da verdade:
 jurei que eras brilhante e achei-te pura
-e és negra como o inferno e a noite escura.",en_XX,pt_XX,1
+e és negra como o inferno e a noite escura.",en_XX,pt_XX,"Meu amor é como uma febre, sempre a desejar
+por aquilo que alimenta mais a doença;
+nutrindo-se do que preserva o mal,
+o incerto apetite doente a satisfazer.
+Minha razão, o médico do meu amor,
+irado por suas prescrições não serem seguidas,
+me abandonou, e agora desesperado aprovo
+que o desejo é a morte, que a medicina recusou.
+Irremediável estou, agora a razão é desconsiderada,
+e louco-frenético com inquietação eterna;
+meus pensamentos e meu discurso são como de loucos,
+aleatoriamente expressos em vão da verdade;
+pois jurei que eras bela, que eras brilhante,
+quando és tão negra como o inferno, tão escura como a noite.",1.0
 "in loving thee thou know’st i am forsworn,
 but thou art twice forsworn, to me love swearing;
 in act thy bed-vow broke, and new faith torn,
@@ -812,7 +1191,20 @@ jurei por teu amor, leal, constante;
 clareando-te, dei olhos à cegueira:
 fi-los jurar contra o que era patente.
 jurei que eras honesta: falsa mira;
-jurar contra a verdade tal mentira.",en_XX,pt_XX,1
+jurar contra a verdade tal mentira.",en_XX,pt_XX,"Ao te amar, sabes que sou perjuro,
+mas tu és o dobro em falso juramento;
+quebras o voto ao leito, o amor mais puro,
+e juras ódio após jurar contentamento.
+Mas por que acusar-te, quebrando dois juramentos,
+quando eu, em vinte, sou perjuro, sem lamento?
+Pois todas as promessas são desalentos,
+e a fé sincera em ti é um tormento:
+Jurei por tua bondade profunda,
+pelo teu amor, tua verdade, tua constância;
+e, para iluminar-te, fiz a vista fecunda,
+ou fiz cegos crerem naquilo que a ânsia.
+Jurei-te bela; mais perjuro sou eu,
+jurar contra a verdade, tão falso adeus!",1.0
 "let not my love be called idolatry,
 nor my beloved as an idol show,
 since all alike my songs and praises be
@@ -839,7 +1231,23 @@ belo, bom, verdadeiro, em palavras sortidas;
 revezando esses três, meu engenho consumo,
 três conceitos em um, de extensões desmedidas.
 …… belo, bom, verdadeiro, os três eram distantes,
-…… sem poderem se unir num ser único antes.",en_XX,pt_XX,1
+…… sem poderem se unir num ser único antes.",en_XX,pt_XX,"Não chames de idolatria meu amor,
+nem de ídolo a quem tanto adoro assim,
+pois igualmente a um só dedico a flor
+de meus cantos, de meu louvor sem fim.
+
+Amável hoje, amável amanhã será,
+constante em sua excelência singular;
+portanto, em versos há de sempre estar,
+um só expressando, sem nada mudar.
+
+Belas, amáveis, verdadeiras, meu tema,
+em outras palavras, sempre a falar,
+e nessa mudança, minha invenção esquema,
+três temas em um, sem igual encontrar.
+
+... Belas, amáveis, verdadeiras, vivem sós,
+... até agora, juntas nunca estiveram tão próximas.",1.0
 "even ye, now old, that to this come as to
 your past, your own joy throw
 into the cup, and with the younger drink
@@ -866,7 +1274,20 @@ e, com altas odes entoadas
 ao longo da face do profundo em vós
 vos casastes e a noite viu
 o dia entrar e vós inda arfáveis juntos
-e ainda o desfalecente falo tendendo acima.",en_XX,pt_XX,1
+e ainda o desfalecente falo tendendo acima.",en_XX,pt_XX,"mesmo vós, já velhos, que agora aqui estais
+como outrora, vossa alegria lançai
+no cálice, e com os jovens bebei
+o que agora vos faz refletir
+sobre o que era o amor quando amor era. (pois agora
+não permitem vossos pensamentos de inverno).
+bebei com o dia quente, a triste alegria da noiva e
+a pressa contida do noivo.
+a memória daquele dia quando éreis jovens
+e, com grandes hinos cantados
+na superfície das profundezas de vós,
+vós vos unistes e a noite viu
+o dia chegar e vós ainda suspiráveis próximos,
+e ainda a carne meio caída se esticava.",1.0
 "no matter now or past or future. be
 lover's age in your glee!
 give all your thoughts to this great muscled day
@@ -885,7 +1306,16 @@ que a virgem sela já leva seu primeiro ginete!
 carne apertada, mordida; carne sugada, cingida,
 carne esmagada, oprimida,
 tais coisas inflamam vossa mente e tornam turvas
-vossa fala e face!",en_XX,pt_XX,1
+vossa fala e face!",en_XX,pt_XX,"Não importa agora ou passado ou futuro. Vem,
+idade de amante em teu contentamento!
+Dá todos os teus pensamentos a este grande dia musculoso
+que como um corcel rasga
+o freio do tempo, para fazer a noite chegar e dizer
+que a donzela monta agora seu primeiro cavaleiro!
+Carne beliscada, carne mordida, carne sugada, carne cingida,
+carne esmagada e triturada,
+estas coisas inflamam teus pensamentos e obscurecem
+em tudo o que dizes ou pareces!",1.0
 "but these are thoughts or promises or but
 half the purpose of rut,
 and this is lust thought-of or futureless
@@ -906,7 +1336,17 @@ batalhai por realmente
 dobrar às rédeas da vida o corcel do desejo
 e em amor vos unir pelo amor do fecundo amor!
 berrai! urrai! sêde garanhões e touros, no atrito
-pra por no oco o seu sêmem!",en_XX,pt_XX,1
+pra por no oco o seu sêmem!",en_XX,pt_XX,"Mas estes são pensamentos ou promessas ou mas
+metade do propósito de um anseio fugaz,
+e isto é luxúria pensada ou sem futuro
+ou usada apenas para aliviar o apuro.
+Fazeis vós a verdadeira roda do amor fingir,
+e, o que a natureza, pretender!
+Senteis vós realmente a dor
+do cavalo da luxúria pelas rédeas da vida curvar
+e unir em amor pelo bem de criar amor!
+Brade! Ruge! Cavalos ou touros que se agitam
+para o seu sêmen no buraco se encaixarem!",1.0
 "the rain is silent, and the emperor
 sinks by the couch. his grief is like a rage,
 for the gods take away the life they give
@@ -921,7 +1361,14 @@ e arruinam a beleza que viva fizeram.
 soluça e sabe que as eras futuras
 olham pra ele de dentro do a-ser;
 seu amor está num palco universal;
-mil olhos não nascidos choram-lhe a miséria.",en_XX,pt_XX,1
+mil olhos não nascidos choram-lhe a miséria.",en_XX,pt_XX,"A chuva é silenciosa, e o imperador
+afunda junto ao sofá. Sua tristeza é como uma fúria,
+pois os deuses retiram a vida que deram
+e estragam a beleza que fizeram viver.
+Ele chora e sabe que cada era futura
+o observa do porvir;
+seu amor está em um palco universal;
+mil olhos não nascidos choram com sua desventura.",1.0
 "but their love-question is not understood:
 the god is dead whose cult was to be kissed!
 he lifts his hand up to where heaven should be
@@ -940,7 +1387,16 @@ oh agraciantes poderes! ele cederá seu reino.
 em desertos silentes será ressecado,
 servo ou pedinte, longe em trilhas bárbaras,
 mas cálido aos seus braços o rapaz volvei!
-renunciai ao espaço destinado à sua tumba!",en_XX,pt_XX,1
+renunciai ao espaço destinado à sua tumba!",en_XX,pt_XX,"Mas sua pergunta de amor não é entendida:
+o deus está morto, cujo culto deveria ser beijado!
+Ele ergue a mão para onde o céu deveria estar
+e clama aos deuses mudos para conhecer sua dor.
+Que seus rostos calmos se voltem para a súplica dele,
+ó poderes concedentes! Ele renunciará ao seu reinado.
+Nos desertos silenciosos ele viverá ressequido,
+nas longínquas estradas bárbaras, mendigo ou escravo,
+mas aos seus braços dará de novo o menino caloroso!
+Renunciem ao espaço que destinaram a ser sua sepultura!",1.0
 "take all the female loveliness of earth
 and in one mound of death its remnant spill!
 but, by sweet ganymede, that jove found worth
@@ -963,7 +1419,18 @@ ao pó, ó pai dos deuses, mas poupai
 o jovem, seu corpo alvo e dourado cabelo!
 talvez melhor ganymedes sentistes
 que ele vos seria, e com ciumento carinho
-dos braços de adriano aos vossos tomastes sua beleza.",en_XX,pt_XX,1
+dos braços de adriano aos vossos tomastes sua beleza.",en_XX,pt_XX,"Toma toda a beleza feminina da terra
+e num monte de morte sua sobra derrama!
+Mas, por doce Ganímedes, que Júpiter achou valer a pena
+E acima de Hebe elegeu para encher
+Sua taça em seus festins celestiais, e infundir
+O amor mais amigável que preenche a carência do outro,
+O torrão de abraços femininos se resolve
+A pó, ó pai dos deuses, mas poupa
+Este garoto e seu corpo branco e cabelos dourados!
+Talvez sintas que teu melhor Ganímedes
+Deveria ser, e por ciúme
+Deixas que sua beleza de Adriano para a tua se desloque.",1.0
 "sometimes he was adorned or made to don
 half-vestures, then in statued nudity
 did imitate some god that seems to be
@@ -1002,7 +1469,26 @@ através de um labirinto, em triste insana alegria,
 e ora clama seu nome pedindo que venha,
 e ora está sorrindo à sua vinda-imagem
 que está no coração: faces na penumbra
-meras luzentes sombras das formas que tinham.",en_XX,pt_XX,1
+meras luzentes sombras das formas que tinham.",en_XX,pt_XX,"Às vezes adornado ou feito vestir
+meias-roupagens, em nudez esculpida
+imitava um deus, que parece ser
+pela virtude exata do mármore, reavivada.
+Agora era Vênus, branca dos mares;
+e agora era Apolo, jovem e dourado;
+Agora como Júpiter, sentava-se em falso julgamento sobre
+a presença aos seus pés de seu escravizado amante;
+Agora era um rito encenado, por um obrigado,
+em mistérios sempre reposicionados.
+Agora ele é algo que qualquer um pode ser.
+A negação pura daquilo que é!
+A beleza loira-lunar fria!
+Tão fria! Tão fria! E o amor tão frio quanto ele!
+O amor através das memórias de seu amor vagueia
+como por um labirinto, em triste loucura alegre,
+e agora chama seu nome e pede que ele venha,
+e agora sorri para sua vinda imaginada
+que está no coração como rostos no crepúsculo —
+meras sombras brilhantes das formas que tiveram.",1.0
 "the rain again like a vague pain arose
 and put the sense of wetness in the air.
 suddenly did the emperor suppose
@@ -1025,7 +1511,18 @@ mudas palavras tais, só pro seu temor d'alma:
 como estátua te erguerei, que será
 para o contínuo futuro evidência
 do meu amor, da tua beleza e do senso
-de divino que do belo emana.",en_XX,pt_XX,1
+de divino que do belo emana.",en_XX,pt_XX,"A chuva, novamente, como dor vaga surgiu
+e trouxe a sensação de umidade no ar.
+De repente, o imperador pressentiu
+que via este quarto e tudo nele de longe olhar.
+Ele viu o sofá, o menino, seu próprio ser
+caído contra o sofá, e se tornou a ver
+uma presença mais clara de si mesmo, e disse
+estas palavras não pronunciadas, exceto à sua alma em deslize:
+Eu erguerei para ti uma estátua que será
+para o futuro contínuo evidência
+do meu amor e da tua beleza e da ciência
+que a beleza oferece de divindade a inspirar.",1.0
 "though death with subtle uncoveing hands remove
 the apparel of life and empire from our love,
 yet its nude statue, that thou dost inspirit,
@@ -1058,7 +1555,24 @@ alteram, a própria mão do fado que mesmo
 os próprios deuses toma em trevas, recuarão
 de estragar assim tua estátua e meu dom,
 deixando oco o amplo mundo com tua falta.
-esta imagem de nosso amor transporá eras.",en_XX,pt_XX,1
+esta imagem de nosso amor transporá eras.",en_XX,pt_XX,"Embora a morte, com mãos sutis e sorrateiras,
+Remova o manto da vida e do império de nosso amor,
+A nudez de sua estátua, que tu inspiras,
+Todos os tempos futuros, quer queiram ou não,
+Irão, como um presente que um deus implacável trouxe,
+Inevitavelmente herdar.
+
+Ah, esta tua estátua eu erguerei e colocarei
+No pináculo de ser teu, de modo que o tempo
+Por seu crime sutil e sombrio
+Tema devorá-la da vida, ou corroê-la
+Com a fúria da guerra ou da inveja, de massa e pedra.
+O destino não pode permitir isso! Os próprios deuses, que fazem
+As coisas mudarem, a própria mão do destino, que alcança
+Os próprios deuses com escuridão, recuarão
+De desfigurar assim tua estátua e minha dádiva,
+Deixando o amplo mundo oco com tua ausência.
+Esta imagem de nosso amor irá atravessar as eras.",1.0
 "it will loom white out of the past and be
 eternal, like a roman victory,
 in every heart the future will give rages
@@ -1091,7 +1605,23 @@ houvera nisso nada além de futil mágoa
 e teu sorriso ao despertar se condoesse
 do que a sonhada dor me proíbe esperar.
 ia ele assim, como amante que espera,
-de lado a lado da mente velada e dúbia.",en_XX,pt_XX,1
+de lado a lado da mente velada e dúbia.",en_XX,pt_XX,"Surgirá alvo do passado e será
+eterno, como uma vitória romana,
+no coração, o futuro trará
+fúrias de não ser do nosso amor a contemporânea.
+Mas ah, se isso não fosse necessário, e tu
+fosse a flor vermelha perfumando minha vida,
+a grinalda na fronte do meu deleite,
+a chama viva nos altares da minha alma!
+Quem dera tudo isso fosse algo que agora
+pudesses sorrir de sob teus olhos que zombam da morte
+e admirar que eu colocasse tamanha luta
+entre mim e deuses por tua presença brilhante perdida;
+Se não houvesse nisso senão minha dor vazia
+e teu sorriso despertado a meio consolar
+o que minha dor sonhadora à esperança proíbe.
+Assim ele seguiu, como um amante que espera,
+de lugar em lugar em sua mente duvidosa.",1.0
 "on mine imperial fate i set my trust
 that the high gods, that made me emperor be,
 will not annul from a more real life
@@ -1106,7 +1636,14 @@ de que eterno poderias viver e estar
 em carnal presença no melhor dos reinos,
 amável mais, mas não mais-amorável, pois lá
 nada de impossível mancha nosso anseio
-nem nos fere o coração com transe, tempo e luta.",en_XX,pt_XX,1
+nem nos fere o coração com transe, tempo e luta.",en_XX,pt_XX,"Em meu destino imperial deposito fé,
+que os deuses supremos, que me fizeram imperador,
+não anularão de uma vida mais real
+meu desejo de que tu vivas para sempre e permaneças
+uma presença carnal em sua terra superior,
+mais bela, ainda que não mais bela, pois lá
+nossos desejos não se deparam com coisas impossíveis
+nem dilaceram nossos corações com mudança, tempo e luta.",1.0
 "love, love, my love! thou art already a god.
 this thought of mine, which i a wish believe,
 is no wish, but a sight, to me allowed
@@ -1131,7 +1668,19 @@ ai, o que almejo que sejas tu já és
 agora. agora no olímpico plano
 tu caminhas e, perfeito, inda és tu,
 pois mais que a ti não precisas ostentar
-pra ser perfeito, sendo perfeição.",en_XX,pt_XX,1
+pra ser perfeito, sendo perfeição.",en_XX,pt_XX,"Amor, amor, meu amor! Tu já és um deus,
+Este pensamento meu, que desejo acreditar,
+Não é desejo, mas sim uma visão, permitida a mim
+Pelos grandes deuses, que amam o amor e podem dar
+Aos corações mortais, sob a forma de desejos,
+De desejos com alcances não descobertos —
+Uma visão das coisas reais além
+Da nossa vida aprisionada, dos nossos sentidos limitados.
+Ah, o que eu desejo que sejas, tu já és agora
+Já estás em solo olímpico
+Tu caminhas e és perfeito, mas és tu,
+Pois não precisas de excesso de ti para vestir
+A perfeição para ser, sendo perfeição.",1.0
 "were no olympus yet for thee, my love,
 would make thee one, where thou sole god might'st prove,
 and i thy sole adorer, glad to be
@@ -1164,7 +1713,23 @@ isto ao criador poder do meu amor
 deves que vida conceda à tua memória
 e a faça carnal. se o amor não mantivera
 legionado meu império da vontade poderosa,
-a par dos deuses não serias compelido.",en_XX,pt_XX,1
+a par dos deuses não serias compelido.",en_XX,pt_XX,"Se ainda não houvesse Olimpo para ti, meu amor,
+eu te faria um, onde serias o único deus a provar,
+e eu tua única adoradora, feliz por ser
+tua única adoradora pela eternidade.
+Isso seria um universo divino o bastante
+para o amor e eu e o que és para mim.
+Ter-te é uma coisa feita da essência dos deuses
+e contemplar-te a melhor parte da eternidade.
+Mas isso é verdade e minha própria arte: o deus
+que és agora é um corpo feito por mim,
+pois, se agora és carne e realidade
+além onde os homens envelhecem e a noite ainda vem,
+é ao poder criativo do meu grande amor que deves
+a vida que em tua memória depositas
+e a tornas carnal. Se meu amor não tivesse mantido
+um império de minha vontade poderosa,
+não terias sido compelida a ser consorte dos deuses.",1.0
 "yet thy true deathless statue i shall build
 will be no stone thing, but that same regret
 by which our love's eternity is willed.
@@ -1199,7 +1764,24 @@ contudo irá nossa presença, como eterna aurora,
 sempre retornar à hora da beleza, e brilhar
 do oriente do amor, e em luz ensagrará
 novos deuses a vir, que o falho mundo adornem.
-tudo que tu és agora é ti mesmo e eu.",en_XX,pt_XX,1
+tudo que tu és agora é ti mesmo e eu.",en_XX,pt_XX,"Ainda assim, tua estátua imortal erguerei,
+não em pedra, mas no lamento que já trago,
+em que se molda a eternidade do nosso amor.
+Num lado tu, como os deuses te vêem,
+e no outro, aqui, tua lembrança.
+Minha tristeza fará de ti um deus entre homens,
+e colocará tua memória nua no parapeito
+que contempla os mares dos tempos vindouros.
+Alguns dirão que todo nosso amor foi crime;
+outros, contra nossos nomes, afiarão facas
+em seu alegre ódio pela beleza, para fazer
+de nossos nomes uma base onde possam lançar
+os nomes de todos nossos irmãos com escárnio rápido.
+No entanto, nossa presença, como eterna aurora,
+sempre retornará na hora da beleza, e brilhará
+do leste do amor, em luz para consagrar
+novos deuses por vir, para adornar o mundo carente.
+Tudo o que és agora és tu e eu.",1.0
 "our dual presence has its unity
 in that perfection of body which my love,
 by loving it, became, and did from life
@@ -1232,7 +1814,23 @@ encarnada-desencarnada essência do nosso amor,
 que, qual trompa ressoando além-mar
 e indo de continente a continente,
 nosso amor dirá sua alegre dor, morte-mesclando,
-sobre infinidades e eternidades.",en_XX,pt_XX,1
+sobre infinidades e eternidades.",en_XX,pt_XX,"Nossa dual presença tem sua unidade
+na perfeição do corpo, que meu amor,
+amando-o, tornou-se, e da vida
+elevou-se à divindade, acima da lida
+dos tempos, e paixões mutáveis acima.
+Mas como os homens veem mais com os olhos que com a alma,
+ainda em pedra proferirei esta grande dor;
+ainda, ansioso para que os homens ansiem por tua presença,
+levarei ao mármore este pesar
+que em meu coração como uma grande estrela está fixado.
+Assim, mesmo em pedra, nosso amor será tão grandioso
+na estátua de nós, como o destino de um deus,
+a essência encarnada e desencarnada do nosso amor,
+que, como uma trombeta alcançando mares
+e indo de continente a continente,
+nosso amor proclamará sua alegria e dor, misturadas com a morte,
+sobre infinitudes e eternidades.",1.0
 "then the end of days when jove were born again
 and ganymede again pour at his feast
 would see our dual soul from death released
@@ -1265,7 +1863,23 @@ até a consciência de ser em si
 ficou, qual paisagem gris de chuva, gris.
 o imperador jaz imóvel, tão quieto, que já
 quase esqueceu onde jaz, ou donde vem
-a dor que lhe é inda sal sobre os lábios.",en_XX,pt_XX,1
+a dor que lhe é inda sal sobre os lábios.",en_XX,pt_XX,"Então o fim dos dias, quando Jove renascer
+e Ganímedes novamente servir em seu banquete,
+veria nossa alma dual da morte libertar,
+e recriada em alegria, medo, dor —
+tudo o que o amor contém;
+vida — toda a beleza que faz um desejo
+do verdadeiro amor do próprio amor, atônito ao encanto;
+e, se nossa memória se desfizesse em pó,
+por alguma raça divina do fim dos tempos
+nossa unidade dual outra vez se ergueria.
+Chovia ainda. Mas a noite lenta chegou,
+fechando os fatigados olhos de cada sentido.
+A própria consciência do eu e da alma
+crescia, como uma paisagem através da chuva difusa, opaca.
+O imperador jazia imóvel, tão imóvel que agora
+quase esquecia onde jazia, ou de onde
+vinha a tristeza que ainda salgava seus lábios.",1.0
 "i reason, earth is short,
 and anguish absolute,
 and many hurt;
@@ -1288,7 +1902,18 @@ mas, e daí?
 no céu de algum modo as contas
 se acertarão
 em nova eouação
-mas, e daí?",en_XX,pt_XX,1
+mas, e daí?",en_XX,pt_XX,"Eu penso, a terra é breve,
+e a angústia absoluta,
+e muitos se machucam;
+mas e daí?
+Eu penso, poderíamos morrer:
+a melhor vitalidade
+não pode superar a decadência;
+mas e daí?
+Eu penso que no céu
+de alguma forma, será igual.
+alguma nova equação dada:
+mas e daí?",1.0
 "from love the heavenly father
 leads the chosen child;
 oftener through realm of briar
@@ -1303,7 +1928,14 @@ que por campo florido.
 mais com garra de monstro
 oue com mão desvelada.
 guia o predestinado
-para a pátria sonhada.",en_XX,pt_XX,1
+para a pátria sonhada.",en_XX,pt_XX,"Do amor o pai divino conduz
+a criança escolhida;
+mais vezes pelo reino de espinhos
+do que pelo prado suave,
+mais vezes pela garra do dragão
+do que pela mão de um amigo,
+guia o pequeno predestinado
+para a terra natal.",1.0
 "you left me, sweet, two legacies,
 a legacy of love
 a heavenly father would content,
@@ -1318,7 +1950,14 @@ se a ele legada for;
 outra, de dor infinita
 vasta como o mar,
 entre o tempo e a eternidade,
-o teu e o meu meditar.",en_XX,pt_XX,1
+o teu e o meu meditar.",en_XX,pt_XX,"Deixaste-me, doce, dois legados,
+um legado de amor
+que a um pai celestial contentaria,
+se lhe fosse oferecido;
+Deixaste-me fronteiras de dor
+tão vastas como o mar,
+entre a eternidade e o tempo,
+a tua consciência e eu.",1.0
 "it was too late for man,
 but early yet for god;
 creation impotent to help,
@@ -1333,7 +1972,14 @@ mas a prece ao nosso lado.
 que excelente o céu,
 quando a terra nos foge;
 que hospitaleira, então, a face
-desse velho vizinho. deus",en_XX,pt_XX,1
+desse velho vizinho. deus",en_XX,pt_XX,"Era tarde demais para o homem,
+mas cedo ainda para Deus;
+a criação impotente para ajudar,
+mas a oração permaneceu ao nosso lado.
+Como é excelente o céu,
+quando a terra não pode ser alcançada;
+quão hospitaleiro, então, o rosto
+do nosso antigo vizinho, Deus.",1.0
 "and now gentlemen,
 a word i give to remain in your memories and minds,
 as base and finale too for all metaphysics.
@@ -1363,4 +2009,18 @@ vejo os filósofos todos, igrejas cristãs e cédulas de dez dólares vejo,
 no entanto sob sócrates claramente vejo, e sob cristo o divino vejo,
 o caro amor do homem pelo seu camarada, a atração de amigo por amigo,
 dos bem casados marido e mulher, de crianças e pais,
-de cidade por cidade e de terra por terra.",en_XX,pt_XX,1
+de cidade por cidade e de terra por terra.",en_XX,pt_XX,"E agora senhores,
+uma palavra deixo para permanecer em suas memórias e mentes,
+como base e final também para toda a metafísica.
+(assim aos estudantes o velho professor,
+ao final de seu curso concorrido.)
+tendo estudado o novo antigo, os sistemas grego e germânico,
+kant tendo estudado e afirmado, fichte e schelling e hegel,
+afirmado a sabedoria de platão, e socrates maior que platão,
+e maior que socrates buscado e afirmado, cristo divino tendo estudado profundamente,
+vejo hoje reminiscente esses sistemas grego e germânico,
+vejo todas as filosofias, igrejas cristãs e dogmas vejo,
+ainda sob socrates claramente vejo, e sob cristo o divino vejo,
+o querido amor do homem por seu companheiro, a atração de amigo para amigo,
+do bem-casado marido e esposa, de filhos e pais,
+da cidade para cidade e terra para terra.",1.0
