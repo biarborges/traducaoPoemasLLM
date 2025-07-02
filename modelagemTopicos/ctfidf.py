@@ -165,7 +165,7 @@ if __name__ == '__main__':
         for i, row in docs_por_topico.iterrows():
             top_words_pesos = top_palavras_com_pesos(tfidf_matrix[i], feature_names)
             qtd_poemas = contagem_por_topico.get(row['topic'], 0)
-            f.write(f"Tópico {row['topic']} (Quantidade de poemas: {qtd_poemas}):\n")
+            f.write(f"Topic {row['topic']} (Quantity of poems: {qtd_poemas}):\n")
             for palavra, peso in top_words_pesos:
                 f.write(f"  {palavra}: {peso:.4f}\n")
             f.write("\n")
@@ -176,6 +176,9 @@ if __name__ == '__main__':
 
     # Remove outliers (tópico -1) para gráficos
     df_sem_outliers = df[df['topic'] != -1]
+    docs_por_topico_sem_outliers = docs_por_topico[docs_por_topico["topic"] != -1].reset_index(drop=True)
+    tfidf_matrix_sem_outliers = tfidf_matrix[docs_por_topico["topic"] != -1]
+
 
     # Frequência de tópicos para gráfico pizza e barra (sem outliers)
     topic_freq = df_sem_outliers['topic'].value_counts().sort_index()
@@ -183,7 +186,7 @@ if __name__ == '__main__':
     # Gráfico de pizza
     plt.figure(figsize=(8,8))
     plt.pie(topic_freq, labels=[f"Topic {i}" for i in topic_freq.index], autopct='%1.1f%%', startangle=140)
-    plt.title("Distribuição Percentual dos Tópicos (sem outliers)")
+    plt.title("Percentage Distribution of Topics")
     plt.savefig(f"{PASTA_SAIDA}/grafico_pizza_{TITLE}.png")
     plt.close()
 
@@ -205,14 +208,14 @@ if __name__ == '__main__':
             top_scores = tfidf_vec[sorted_indices]
 
             pos = np.arange(top_n) + i * espacamento
-            plt.bar(pos, top_scores, width=largura_barra, label=f'Tópico {docs_por_topico.loc[i, "topic"]}')
+            plt.bar(pos, top_scores, width=largura_barra, label=f'Topic {docs_por_topico.loc[i, "topic"]}')
             
             positions.extend(pos)
             labels.extend([f"{docs_por_topico.loc[i, 'topic']}_{w}" for w in top_words])
 
         plt.xticks(positions, labels, rotation=90)
-        plt.ylabel('Peso TF-IDF')
-        plt.title(f'Top {top_n} palavras por tópico (até {max_topicos} tópicos)')
+        plt.ylabel('Weight')
+        plt.title(f'Top {top_n} words by topic')
         plt.legend()
         plt.tight_layout()
         plt.savefig(f"{PASTA_SAIDA}/top_palavras_todos_topicos_{TITLE}.png")
@@ -220,12 +223,13 @@ if __name__ == '__main__':
 
     # --- Chamada da função para gerar gráfico de top palavras por tópico ---
     plot_top_words_todos_topicos(
-        tfidf_matrix=tfidf_matrix,
-        feature_names=feature_names,
-        docs_por_topico=docs_por_topico,
-        top_n=10,            # número de palavras por tópico
-        max_topicos=10       # número de tópicos a mostrar
+    tfidf_matrix=tfidf_matrix_sem_outliers,
+    feature_names=feature_names,
+    docs_por_topico=docs_por_topico_sem_outliers,
+    top_n=10,
+    max_topicos=10
     )
+
 
     # Nuvem de palavras geral (todos poemas limpos juntos)
     texto_total = " ".join(poemas_limpos)
