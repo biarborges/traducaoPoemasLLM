@@ -161,7 +161,7 @@ if __name__ == '__main__':
     feature_names = np.array(vectorizer.get_feature_names_out())
 
     # Salva as palavras por tópico com pesos e quantidade de poemas
-    with open(f"{PASTA_SAIDA}/topicos_cTFIDF_{TITLE}.txt", "w", encoding="utf-8") as f:
+    with open(f"{PASTA_SAIDA}/topicos_{TITLE}.txt", "w", encoding="utf-8") as f:
         for i, row in docs_por_topico.iterrows():
             top_words_pesos = top_palavras_com_pesos(tfidf_matrix[i], feature_names)
             qtd_poemas = contagem_por_topico.get(row['topic'], 0)
