@@ -135,7 +135,7 @@ if __name__ == '__main__':
             "nós", "vós", "eles", "elas", "voce", "nao", "algum", "bedlam", "quão", "quao"])
     elif IDIOMA_PROC == "en_XX":
         stopwords_personalizadas.update(["the", "a", "an", "and", "but", "or", "so", "to", "of",
-            "in", "for", "on", "at", "peter", "john", "mary", "jane", "kaku", "thee", "thy"])
+            "in", "for", "on", "at", "peter", "john", "mary", "jane", "kaku", "thee", "thy","thou"])
 
     nlp = carregar_modelo_spacy(IDIOMA_PROC)
 
