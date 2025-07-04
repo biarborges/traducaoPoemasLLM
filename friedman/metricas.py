@@ -30,7 +30,7 @@ print(f"Usando dispositivo: {device}")
 
 input_file = os.path.abspath("../poemas/chatgpt/frances_portugues_poems_chatgpt_prompt1.csv")
 output_csv = os.path.abspath("../friedman/frances_portugues_metricas_chatgpt_prompt1.csv")
-lang = "en"  # idioma da tradução
+lang = "pt"  # idioma da tradução
 
 print(f"Arquivo de entrada: {input_file}")
 
