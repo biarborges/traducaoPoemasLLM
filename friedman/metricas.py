@@ -7,8 +7,10 @@ import time
 from tqdm import tqdm
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from nltk.translate.meteor_score import meteor_score
-from bert_score import score
+import transformers
 from transformers import BartTokenizer, BartForConditionalGeneration
+transformers.logging.set_verbosity_error()
+from bert_score import score
 from sklearn.metrics.pairwise import cosine_similarity
 from concurrent.futures import ThreadPoolExecutor
 
@@ -19,12 +21,12 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Verificar se o recurso nltk está disponível
-try:
-    nltk.data.find('tokenizers/punkt')
-    nltk.data.find('corpora/wordnet')
-except LookupError:
-    nltk.download('punkt')
-    nltk.download('wordnet')
+#try:
+ #   nltk.data.find('tokenizers/punkt')
+  #  nltk.data.find('corpora/wordnet')
+#except LookupError:
+ #   nltk.download('punkt')
+  #  nltk.download('wordnet')
 
 input_file = os.path.abspath("../poemas/chatgpt/frances_ingles_poems_chatgpt_prompt1.csv")
 output_csv = input_file.replace(".csv", "frances_ingles_metricas_chatgpt_prompt1.csv")
