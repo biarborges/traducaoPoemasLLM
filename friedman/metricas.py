@@ -28,8 +28,8 @@ print(f"Usando dispositivo: {device}")
  #   nltk.download('punkt')
   #  nltk.download('wordnet')
 
-input_file = os.path.abspath("../poemas/chatgpt/frances_ingles_poems_chatgpt_prompt1.csv")
-output_csv = input_file.replace(".csv", "frances_ingles_metricas_chatgpt_prompt1.csv")
+input_file = os.path.abspath("../poemas/chatgpt/frances_portugues_poems_chatgpt_prompt1.csv")
+output_csv = os.path.abspath("../friedman/frances_portugues_metricas_chatgpt_prompt1.csv")
 lang = "en"  # idioma da tradução
 
 print(f"Arquivo de entrada: {input_file}")
