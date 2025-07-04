@@ -1,6 +1,0 @@
-Topic 0: amour, aimer, doux, mort, jamais, cœur, esprit, musique, passer, pouvoir
-Topic 1: terre, colline, sombre, vent, pente, bois, chemin, éternel, nuage, regarder
-Topic 2: homme, contre, rage, bien, nuit, vent, être, mort, déclin, trembler
-Topic 3: bien, jamais, lorenzo, grand, amour, esprit, vieux, il, avide, voir
-Topic 4: adieu, larme, fleur, verser, chant, jamais, être, chaleur, élever, arbre
-Topic 5: fleur, rose, heureux, vert, tendre, pleine, bourgeonner, lèvre, psyché, flore
