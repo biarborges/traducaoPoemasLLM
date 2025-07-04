@@ -23,8 +23,8 @@ except LookupError:
     nltk.download('punkt_tab')
     nltk.download('wordnet')
 
-input_file = os.path.abspath("poemas/chatgpt/frances_ingles_poems_chatgpt_prompt1.csv")
-output_csv = input_file.replace(".csv", "friedman/frances_ingles_chatGPTPrompt1.csv")
+input_file = os.path.abspath("traducaoPoemasLLM/poemas/chatgpt/frances_ingles_poems_chatgpt_prompt1.csv")
+output_csv = input_file.replace(".csv", "traducaoPoemasLLM/friedman/frances_ingles_chatGPTPrompt1.csv")
 lang = "en"  # tradução
 
 print(f"Arquivo de entrada: {input_file}")
