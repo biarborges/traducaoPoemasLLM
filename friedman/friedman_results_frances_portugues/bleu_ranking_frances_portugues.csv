@@ -1,0 +1,9 @@
+model,average_rank
+bleu_maritaca_p2,2.5516666666666667
+bleu_chatgpt_p1,2.743333333333333
+bleu_maritaca_p1,2.8533333333333335
+bleu_chatgpt_p2,2.973333333333333
+bleu_google,4.665
+bleu_marianmt_pt,5.323333333333333
+bleu_mbart_pt,7.1066666666666665
+bleu_openrnn_opus,7.783333333333333

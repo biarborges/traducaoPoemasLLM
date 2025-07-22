@@ -1,0 +1,9 @@
+model,average_rank
+bartscore_google,2.8533333333333335
+bartscore_chatgpt_p1,3.01
+bartscore_chatgpt_p2,3.3833333333333333
+bartscore_maritaca_p1,3.39
+bartscore_maritaca_p2,3.93
+bartscore_marianmt_pt,4.7
+bartscore_mbart_pt,7.133333333333334
+bartscore_openrnn_opus,7.6

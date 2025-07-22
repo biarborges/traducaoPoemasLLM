@@ -1,4 +1,4 @@
-original_poem,translated_poem,src_lang,tgt_lang,translated_by_TA
+original_poem,translated_poem,src_lang,tgt_lang,translated_by_TA,bleu_score,meteor_score,bertscore,bartscore
 "o sonho da linguagem
 escreverás sobre a sujeição dos animais.
 mas não hoje. lembra-te de como se move
@@ -62,7 +62,7 @@ It &apos;s not the chance of a principle principle .
 <unk> without the chance of a ending .
 <unk> of <unk> .
 <unk> of <unk> .
-The dream of <unk> ."
+The dream of <unk> .",0.054002776148160236,0.25239125578820154,0.8011025190353394,0.80771637
 "a máscara
 esta luz animada e desprendida
 duma longínqua estrela misteriosa
@@ -111,7 +111,7 @@ The tragic <unk> <unk> .
 It &apos;s <unk> to our <unk> .
 <unk> <unk> <unk> <unk> .
 and centuries .
-Here &apos;s the <unk> of <unk> ."
+Here &apos;s the <unk> of <unk> .",0.025286066169474906,0.2527464370546318,0.8090106248855591,0.808673
 "antre mi mesmo em mim
 não sei que se alevantou
 que tão meu inimigo sou
@@ -161,7 +161,7 @@ It &apos;s a bad <unk> .
 I &apos;m going to tell you for my bad restrictions .
 new pain <unk> new pain .
 This is what caught me .
-I &apos;m that my enemy is so my enemy ."
+I &apos;m that my enemy is so my enemy .",0.029407682027850997,0.2624362657091562,0.7948319315910339,0.8375751
 "a terra do nunca
 se eu fosse para a terra do nunca,
 teria tudo o que quisesse numa cama de nada:
@@ -234,7 +234,7 @@ and the girl who took me out of the land .
 and <unk> <unk> .
 And with water that knew <unk> .
 The sun <unk> with the sun .
-When the <unk> rises ."
+When the <unk> rises .",0.10982185073374319,0.30772126969416125,0.816708505153656,0.8340319
 "exaltação
 viver!... beber o vento e o sol!... erguer
 ao céu os corações a palpitar!
@@ -277,7 +277,7 @@ On my eyes of <unk> .
 I <unk> <unk> <unk> .
 I started in your mouth .
 <unk> <unk> and <unk> <unk> .
-I &apos;m your <unk> <unk> ."
+I &apos;m your <unk> <unk> .",0.03152687420853068,0.14920351283987646,0.7938120365142822,0.82744145
 "as palavras
 são como um cristal,
 as palavras.
@@ -338,7 +338,7 @@ OK .
 who <unk> who <unk> who <unk> who <unk> who <unk> who
 <unk> <unk> <unk> .
 <unk> <unk> <unk> .
-In their <unk> ."
+In their <unk> .",0.019857584108430703,0.20131995776135164,0.7876461148262024,0.7623539
 "[neil young]
 na hora em que eu mais ruía
 o sol aplainava o relvado, palmeiras
@@ -540,13 +540,13 @@ As I <unk> more <unk> .
 so much about the ground on the ground .
 <unk> the force of <unk> in the same place .
 <unk> <unk> &apos;s <unk> .
-It &apos;s always <unk> about dinner ."
+It &apos;s always <unk> about dinner .",0.032834840554894135,0.21409156333038087,0.7797850966453552,0.88462204
 "o corpo espacejado
 perdia-se-lhe o corpo no deserto, que dentro dele aos poucos conquistava um espaço cada vez maior, novos contornos, novas posições, e lhe envolvia os órgãos que, isolados nas areias, adquiriam uma reverberação particular. ia-se de dia para dia espacejando. as várias partes de que só por abstracção se chegava à noção de um todo começavam a afastar-se umas das outras, de forma que entre elas não tardou que espumejassem as marés e a própria via-láctea principiasse a abrir caminho. a sua carne exercia aliás uma enigmática atracção sobre as estrelas, que em breve conseguiu assimilar, exibindo-as, aos olhos de quem o não soubesse, como luminosas cicatrizes cujo brilho, transmutado em sangue, lentamente se esvaía. ele mais não era, nessas ocasiões, do que um morrão, nas cinzas do qual, quase imperceptível, se podia no entanto detectar ainda a palpitação das vísceras, que a mais pequena alteração na direcção do vento era capaz de pôr de novo a funcionar. resolveu então plastificar-se. principiou pelas extremidades, pelos dedos das mãos e pelos pés, mas passado pouco tempo eram já os pulmões, os intestinos e o coração o que minuciosamente ele embrulhava em celofane, contra o qual as ondas produziam um ruído
 aterrador.","the strewn body
 his body was getting lost in the desert, which kept gaining more ground and redefining its borders inside him, causing his organs, isolated by the surrounding sands, to reverberate in a strange new way. day by day he was getting more strewn out. the various parts of what could only abstractly be conceived as a whole were beginning to spread apart, such that the ocean tides were soon foaming between them, and the milky way itself started cutting through. his flesh, in fact, exerted an enigmatic attraction on the stars, which in due course it managed to assimilate, exhibiting them (to the unknowing) as so many luminous scars whose glow, transformed into blood, slowly dwindled. on these occasions he was no more than an ember among the ashes, though one could still make out the faint throbbing of his guts, apt to be quickened by the slightest change in the wind’s direction. so he decided on a plastic-coated self. he began with his extremities, his fingers and feet, but soon he was meticulously wrapping his lungs, intestines and heart in cellophane, against which the waves made a frightful sound.",pt_XX,en_XX,"<unk> bodies .
 <unk> the body in the <unk> , in the <unk> , a <unk> space and <unk> new new <unk> , and he helped her isolated <unk> in <unk> , and he helped her <unk> <unk> in <unk> to the <unk> of the hands , and he was very little time .
-<unk> <unk> ."
+<unk> <unk> .",0.00520275421967512,0.0840732817015896,0.773451030254364,0.6524207
 "meio-dia
 meio-dia. um canto da praia sem ninguém.
 o sol no alto, fundo, enorme, aberto,
@@ -568,7 +568,7 @@ It became the sky everywhere .
 <unk> <unk> like a <unk> <unk> .
 There &apos;s no <unk> or <unk> .
 and the very <unk> and <unk> sea .
-It seems <unk> <unk> ."
+It seems <unk> <unk> .",0.039200862249860455,0.24701701323251418,0.8109090924263,0.66454655
 "o silêncio incompleto
 que silêncio incompleto entre tantos rumores!
 agora, e só agora, eles tentam dizer-nos
@@ -617,7 +617,7 @@ Let &apos;s say our name to <unk> .
 It &apos;s our <unk> bodies .
 But where the souls were in that <unk> .
 <unk> and <unk> were hidden .
-<unk> <unk> like <unk> <unk> like <unk> <unk> ."
+<unk> <unk> like <unk> <unk> like <unk> <unk> .",0.051783501503999525,0.2607826222533136,0.8063697218894958,0.80705655
 "para a educação sentimental
 tantas vezes se vive de uma arrebatada
 noção dos contrastes mais fortes entre o bem e o
@@ -690,7 +690,7 @@ and somebody <unk> and <unk> somebody .
 The story and someone <unk> the music .
 It &apos;s more <unk> and maybe more <unk> .
 and more <unk> and somebody has <unk> a <unk> .
-<unk> and <unk> ."
+<unk> and <unk> .",0.011430507861531275,0.16331946001541112,0.7785539031028748,0.812989
 "oxfordshire
 quero o bem, e quero o mal, e afinal não quero nada.
 estou mal deitado sobre a direita, e mal deitado sobre a esquerda
@@ -742,7 +742,7 @@ The <unk> of the <unk> <unk> .
 It was the faith of all <unk> and effective <unk> .
 <unk> when <unk> the church was the wheel of <unk> .
 <unk> still was <unk> .
-I &apos;m happy in <unk> since there &apos;s no <unk> ."
+I &apos;m happy in <unk> since there &apos;s no <unk> .",0.05302998459076368,0.21377211229435628,0.7906579971313477,0.7891414
 "num jardim adornado de verdura
 a que esmaltam por cima várias flores,
 entrou um dia a deusa dos amores,
@@ -783,7 +783,7 @@ Those three <unk> flowers .
 <unk> and more <unk> and more <unk> .
 <unk> the <unk> .
 But I wanted all <unk> .
-<unk> that <unk> or <unk> ."
+<unk> that <unk> or <unk> .",0.02202743265856387,0.1634674696511337,0.787649393081665,0.7601125
 "branco e vermelho
 a dor, forte e imprevista,
 ferindo-me, imprevista,
@@ -1023,7 +1023,7 @@ On a <unk> .
 The <unk> <unk> <unk> .
 It &apos;s <unk> .
 The <unk> dream .
-All red in <unk> ."
+All red in <unk> .",0.007782223153384283,0.1253673757934776,0.76506507396698,0.8421866
 "deus absconditus
 deus é para vós um sonho incompreensível,
 atrás da janela simulada
@@ -1078,7 +1078,7 @@ In a <unk> trying to <unk> a <unk> .
 and the stars take in the <unk> to <unk> .
 <unk> for <unk> .
 <unk> open to <unk> &apos;s anger .
-and the smoke record of <unk> ."
+and the smoke record of <unk> .",0.012557024836898245,0.17658827931084828,0.7872211337089539,0.80046046
 "os milagres acontecem
 a horas incertas
 e nunca estou em casa
@@ -1101,7 +1101,7 @@ When <unk> <unk> <unk> .
 <unk> opened the first flower .
 And I said it &apos;s a <unk> .
 I see <unk> .
-I brought this <unk> <unk> ."
+I brought this <unk> <unk> .",0.07432998184513635,0.33777123174875623,0.8236589431762695,0.78540766
 "a viagem de alexandre à índia
 andaste de um ao outro lado da terra na vida interminável,
 tiveste degredos, piedosos cíumes, a fé desvanescida,
@@ -1228,7 +1228,7 @@ It &apos;s a few years ago , and it &apos;s said or said or said .
 <unk> that only women know themselves .
 In <unk> of death in <unk> .
 It &apos;s called the <unk> <unk> and <unk> .
-And the end and the end of your power in <unk> ."
+And the end and the end of your power in <unk> .",0.06189949421445264,0.21270607969215083,0.78346848487854,0.850509
 "queria que me acompanhasses
 vida fora
 como uma vela
@@ -1260,7 +1260,7 @@ And I can only teach you .
 names of trees of trees .
 And whose mouth <unk> a next season .
 It &apos;s where the trains <unk> .
-<unk> <unk> <unk> ."
+<unk> <unk> <unk> .",0.11858955630415291,0.4133986928104575,0.8438800573348999,0.89297247
 "o espanto
 o que se passa em mim é um prodígio.
 um sim que se dilata
@@ -1294,7 +1294,7 @@ even losing the sense .
 <unk> of <unk> .
 <unk> of <unk> .
 It &apos;s a yes .
-<unk> with <unk> ."
+<unk> with <unk> .",0.01829389687607314,0.20717250663774728,0.8038293719291687,0.7881611
 "poeta
 quando a primeira lágrima aflorou
 nos meus olhos, divina claridade
@@ -1337,7 +1337,7 @@ I &apos;m <unk> <unk> .
 It &apos;s a <unk> .
 I &apos;m a man .
 phantom <unk> mystery .
-<unk> of <unk> the dream and <unk> ."
+<unk> of <unk> the dream and <unk> .",0.03537284560469571,0.186992570853135,0.7971078157424927,0.83771676
 "roteiro
 fui a delft, à procura de cerâmica.
 fui à cerâmica, à procura de delft.
@@ -1374,7 +1374,7 @@ And they had everything .
 <unk> the <unk> .
 I put the maps in <unk> .
 I also put <unk> in <unk> .
-And I got a <unk> ."
+And I got a <unk> .",0.10217098278500848,0.24394138284220818,0.7925949096679688,0.7438562
 "autopsicografia
 o poeta é um fingidor.
 finge tão completamente
@@ -1411,7 +1411,7 @@ But only they don &apos;t <unk> .
 And so on the wheel .
 <unk> the <unk> .
 That <unk> train train .
-It &apos;s called the <unk> <unk> ."
+It &apos;s called the <unk> <unk> .",0.060153492633971406,0.254810413882811,0.7953081727027893,0.81334174
 "elegia final
 trabalhei quanto pude a minha dor
 – negro bloco marmóreo que me pesa
@@ -1451,7 +1451,7 @@ On a <unk> statue to the <unk> .
 <unk> in <unk> and <unk> .
 I &apos;m in this <unk> book .
 The pain so alive in my being <unk> .
-It &apos;s like dead dead in this <unk> ."
+It &apos;s like dead dead in this <unk> .",0.015728466878975257,0.1666666666666667,0.8072282075881958,0.7761378
 "amanhã vou comprar umas calças vermelhas
 porque não tenho rigorosamente nada a perder:
 contei, um a um, todos os degraus
@@ -1489,7 +1489,7 @@ OK .
 <unk> the <unk> .
 <unk> a number .
 <unk> the book in the same page .
-<unk> some <unk> ."
+<unk> some <unk> .",0.04385976236894654,0.18595222441376286,0.8173775672912598,0.7804105
 "da minha janela
 mar alto! ondas quebradas e vencidas
 num soluçar aflito e murmurado...
@@ -1532,7 +1532,7 @@ They &apos;re not <unk> .
 It &apos;s like white <unk> .
 <unk> your heart <unk> .
 <unk> in me like this sea .
-<unk> <unk> never <unk> ."
+<unk> <unk> never <unk> .",0.027410588505962917,0.16857358057458482,0.78755784034729,0.7968449
 "extrema-unção
 uma breve, amável mágoa à
 flor dos olhos, um distante desapontamento,
@@ -1581,7 +1581,7 @@ With <unk> <unk> .
 We had taken kids in <unk> .
 They did the <unk> .
 The fourth room <unk> the bed .
-<unk> with <unk> clothes ."
+<unk> with <unk> clothes .",0.0273828363550603,0.15796711555122683,0.7892298102378845,0.7582072
 "o rei de ítaca
 a civilização em que estamos é tão errada que
 nela o pensamento se desligou da mão
@@ -1597,7 +1597,7 @@ Now , civilization where we are so wrong that we are so wrong that we &apos;re
 And the thought came from the hand .
 <unk> King <unk> his boat .
 And we also know how to drive driving .
-On a field the <unk> ."
+On a field the <unk> .",0.04771138965342157,0.2876247844039095,0.8256946802139282,0.8698298
 "a cabeça em ambulância
 há feridas cíclicas há violentos voos
 dentro de câmaras de ar curvas
@@ -1655,7 +1655,7 @@ When she <unk> in the <unk> .
 or a deeper mistake .
 or a letter .
 Or in the <unk> room .
-<unk> in <unk> &apos;s room ."
+<unk> in <unk> &apos;s room .",0.031713857986424926,0.25267318199928734,0.8149255514144897,0.84811354
 "a infancia da herberto helder
 no princípio era a ilha
 embora se diga
@@ -1743,7 +1743,7 @@ It was still possible .
 I find God .
 <unk> .
 This was before this .
-To learn how to educate education ."
+To learn how to educate education .",0.09628033177186356,0.3939567444816468,0.810737669467926,0.8830606
 "tornozelos
 foi na verdade a sede que me tirou
 da estrada. num café de província,
@@ -1798,4 +1798,4 @@ That <unk> <unk> .
 <unk> <unk> <unk> .
 I found myself thinking I didn &apos;t think I didn &apos;t .
 I &apos;m very sure to be <unk> .
-I could have another time ."
+I could have another time .",0.02013144847278155,0.21012819869403504,0.7703109979629517,0.772028

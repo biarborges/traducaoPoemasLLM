@@ -1,0 +1,4 @@
+Friedman test for METEOR:
+Statistic = 1512.8339
+P-value = 0.0000000000e+00
+Significant difference found.

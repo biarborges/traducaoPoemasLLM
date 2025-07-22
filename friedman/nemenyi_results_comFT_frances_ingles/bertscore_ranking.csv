@@ -1,0 +1,9 @@
+model,average_rank
+chatgpt_p1,2.5433333333333334
+google,3.296666666666667
+chatgpt_p2,3.36
+maritaca_p1,3.526666666666667
+maritaca_p2,3.8966666666666665
+marianmt_pt,5.43
+mbart_pt,5.973333333333334
+openrnn_opus,7.973333333333334

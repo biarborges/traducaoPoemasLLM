@@ -1,0 +1,12 @@
+model,average_rank
+bertscore_chatgpt_p1,2.533333333333333
+bertscore_chatgpt_p2,2.933333333333333
+bertscore_maritaca_p1,3.2333333333333334
+bertscore_maritaca_p2,3.3
+bertscore_google,4.266666666666667
+bertscore_marianmt_pt,6.033333333333333
+bertscore_mbart_ft,6.733333333333333
+bertscore_marianmt_ft,7.933333333333334
+bertscore_mbart_pt,8.2
+bertscore_openrnn_opus,10.233333333333333
+bertscore_openrnn_ft,10.6

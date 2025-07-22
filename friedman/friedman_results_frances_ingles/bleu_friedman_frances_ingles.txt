@@ -1,0 +1,4 @@
+Friedman test for BLEU:
+Statistic = 1080.1271
+P-value = 5.8199926150e-229
+Significant difference found.

@@ -1,0 +1,1656 @@
+original_poem,translated_poem,src_lang,tgt_lang,translated_by_TA,bleu_score,meteor_score,bertscore,bartscore
+"caresse l’horizon de la nuit, cherche le coeur de jais que l’aube recouvre de chair. il mettrait dans tes yeux des pensées innocentes, des flammes, des ailes et des verdures que le soleil n’inventa pas.
+ce n’est pas la nuit qui te manque, mais sa puissance.","acaricia o horizonte da noite, busca o coração de azeviche que a aurora recobre de carne. ele te porá nos olhos pensamentos inocentes, chamas, asas e verduras que o sol ainda não inventou.
+não é a noite que te falta, mas o seu poder.",fr_XX,pt_XX,"<unk> <unk> da <unk> , <unk> o coração de <unk> , que <unk> de <unk> , em <unk> , e <unk> que o sol <unk> <unk> <unk> em <unk> dos nossos olhos .
+<unk> a noite que estão a <unk> , mas a sua <unk> .",0.04924193175306597,0.27773289009957375,0.6214250922203064,0.7133225
+"j’avais devant les yeux les ténèbres. l’abîme
+qui n’a pas de rivage et qui n’a pas de cime,
+était là, morne, immense ; et rien n’y remuait.
+je me sentais perdu dans l’infini muet.
+au fond, à travers l’ombre, impénétrable voile,
+on apercevait dieu comme une sombre étoile.
+je m’écriai : — mon âme, ô mon âme ! il faudrait,
+pour traverser ce gouffre où nul bord n’apparaît,
+et pour qu’en cette nuit jusqu’à ton dieu tu marches,
+bâtir un pont géant sur des millions d’arches.
+qui le pourra jamais ! personne ! ô deuil ! effroi !
+pleure ! — un fantôme blanc se dressa devant moi
+pendant que je jetai sur l’ombre un œil d’alarme,
+et ce fantôme avait la forme d’une larme ;
+c’était un front de vierge avec des mains d’enfant ;
+il ressemblait au lys que la blancheur défend ;
+ses mains en se joignant faisaient de la lumière.
+il me montra l’abîme où va toute poussière,
+si profond, que jamais un écho n’y répond;
+et me dit : — si tu veux je bâtirai le pont.
+vers ce pâle inconnu je levai ma paupière.
+— quel est ton nom ? lui dis-je. il me dit: — la prière.","diante de mim, a escuridão. a voragem
+que não tem cimo e que nem sequer tem margem
+lá estava, sombria, imensa; nada nela mexia.
+perdido no mundo infinito eu me sentia.
+ao longe, através da sombra, impenetrável véu,
+entrevia-se deus, pálida estrela no céu.
+clamei: – ó alma, alma minha! eu precisava,
+para atravessar o abismo cujo fim não vislumbrava,
+e para durante a noite até deus eu ascender,
+de construir uma ponte e em mil arcos a estender.
+quem o conseguirá? ninguém!ó dor! tormento!
+chora! – um fantasma branco ergueu-se no momento
+em que à sombra um olhar de temor eu deitava.
+a forma de uma lágrima esse fantasma mostrava;
+tinha uma fronte de virgem e duas mãos de criança;
+lembrava um lírio que toda a brancura alcança;
+as suas duas mãos juntas acendiam uma luz.
+apontou o abismo onde tudo a pó se reduz,
+tão fundo que nem o eco aí segue a sua lei,
+e disse-me: – se quiseres, a ponte construirei.
+para o desconhecido ergui meus olhos do chão.
+-como te chamas? perguntei. respondeu: – a oração.",fr_XX,pt_XX,"<unk> à frente dos olhos .
+<unk> que não se trata da terra e <unk> .
+<unk> <unk> enorme ; e não <unk> <unk> .
+Sentia-me perdido em <unk> <unk> .
+<unk> através do &quot; <unk> &quot; em <unk> .
+<unk> Deus como uma escuridão .
+<unk> : &quot; O meu <unk> <unk> o meu espírito ! &quot;
+O que é que se passa para o que se passa com o <unk> .
+<unk> esta noite <unk> o vosso Deus <unk> o vosso Deus .
+Vamos construir uma ponte gigante em milhões de dólares .
+&quot; O que é que eu podia fazer ! &quot; Ninguém !
+A chorar ! Um fantasma branco está a <unk> à minha frente .
+Enquanto eu estava a trabalhar em <unk> um olho <unk> .
+e o fantasma tinha a forma <unk> .
+<unk> um grupo de diâmetro com as mãos .
+Estava no <unk> que a <unk> <unk> .
+As suas mãos estão a <unk> da <unk> .
+<unk> <unk> em que ele estava a <unk> .
+<unk> que nunca um &quot; deepfake &quot; <unk> <unk> .
+E eu : &quot; Se quiserem o <unk> o <unk> &quot; ,
+O que eu estava a dizer é que eu estava a <unk> a minha <unk> .
+— o que é o vosso nome ? O que é que ele estava a fazer ?",0.017821342660765543,0.2111098153515432,0.6017763614654541,0.9069002
+"souvenir d’enfance
+j’entendais en pleine nuit,
+un son régulier,
+comme une chanson dans le noir,
+coupant le silence de la nuit.
+je me paniquais, je criais maman.
+mon petit frère se réveillait,
+entendait la chanson dans le noir.
+mon petit frère se paniquait,
+et criait maman aussi.
+la voix de maman,
+magie, splendeur, douceur dans la nuit.
+elle nous assurait que ce son,
+n’était que papa en train de ronfler.
+mais ce son ainsi insistant,
+ouvrait les ailes de l’imagination,
+la peur nous envahissait,
+et voilà que tout à coup, ups !
+quatre petites jambes pardessus le barreau,
+du berceau où nous dormions.
+et ainsi bien collés,
+au chaud entre papa et maman,
+mon petit frère et moi,
+nous dormions comme si on était,
+dans le ciel, dans les bras de dieu …","lembrança de infancia
+eu ouvia em plena madrugada,
+um som regular,
+como uma canção na escuridão,
+cortando o silencio da noite.
+em pânico, eu gritava mamãe.
+meu irmãozinho se acordava,
+escutava a canção na escuridão.
+meu irmãozinho em pânico,
+gritava mamãe tambem.
+a voz de mamãe …
+magia, esplendor e brandura na escuridão.
+ela nos assegurava que este som,
+era so papai roncando no seu sono.
+mas esse som assim persistente,
+abria as asas da imaginação,
+o mêdo nos invadia,
+e eis que de repente, ups !
+quatro perninhas por cima da barra,
+do berço onde dormíamos.
+e assim bem agarradinhos,
+no quentinho entre papai e mamãe,
+meu irmãozinho e eu,
+nós dormíamos como si estivéssemos,
+no céu, nos braços de deus …",fr_XX,pt_XX,"<unk> <unk> <unk> .
+<unk> em <unk> .
+Um som <unk> um som .
+como uma canção no <unk> .
+<unk> o silêncio da <unk> .
+Eu estava a <unk> <unk> .
+O meu irmão <unk> o meu irmão .
+<unk> a música no <unk> .
+O meu irmão <unk> o meu irmão .
+e a gritar mãe .
+A voz de <unk> .
+<unk> <unk> <unk> em <unk> .
+<unk> que este &quot; <unk> &quot; <unk> que este &quot; <unk> &quot; <unk> que o <unk>
+<unk> que o pai está a <unk> .
+Mas o som desta forma <unk> .
+<unk> as asas de <unk> .
+O medo <unk> o medo do medo .
+E , em <unk> <unk> !
+As quatro pernas <unk> o <unk> .
+<unk> em que estamos a <unk> .
+e assim bem <unk> .
+No meio do pai , e <unk> .
+O meu irmão e <unk> o meu irmão .
+<unk> como se estivéssemos a <unk> .
+<unk> nos braços de Deus .",0.04447661602210947,0.23631609379375812,0.6193281412124634,0.8650012
+"horloge! dieu sinistre, effrayant, impassible,
+dont le doigt nous menace et nous dit: “souviens-toi!
+les vibrantes douleurs dans ton cœur plein d’effroi
+se planteront bientôt comme dans une cible;
+le plaisir vaporeux fuira vers l’horizon
+ainsi qu’une sylphide au fond de la coulisse;
+chaque instant te dévore un morceau du délice
+a chaque homme accordé pour toute sa saison.
+trois mille six cents fois par heure, la seconde
+chuchote: souviens-toi! — rapide, avec sa voix
+d’insecte, maintenant dit: je suis autrefois,
+et j’ai pompé ta vie avec ma trompe immonde!
+remember! souviens-toi! prodigue! esto memor!
+(mon gosier de métal parle toutes les langues.)
+les minutes, mortel folâtre, sont des gangues
+qu’il ne faut pas lâcher sans en extraire l’or!
+souviens-toi que le temps est un jouer avide
+qui gagne sans tricher, à tout coup! c’est la loi.
+le jour décroît; la nuit augmente; souviens-toi!
+la gouffre a toujours soif; la clepsydre se vide.","relógio! deus sinistro, hediondo, indiferente,
+que nos aponta o dedo em riste e diz: “recorda!
+a dor vibrante que a lama em pânico te acorda
+como num alvo há de encravar-se brevemente;
+vaporoso, o prazer fugirá no horizonte
+como uma sílfide por trás dos bastidores;
+cada instante devora os melhores sabores
+que todo homem degusta antes que a morte o afronte.
+três mil seiscentas vezes por hora, o segundo
+te murmura: recorda! — e logo, sem demora,
+com voz de inseto, o agora diz: eu sou o outrora,
+e te suguei a vida com meu bulbo imundo!
+remember! souviens-toi! esto memor! (eu falo
+qualquer idioma em minha goela de metal.)
+cada minuto é como uma ganga, ó mortal,
+e há que extrair todo o ouro até purificá-lo!
+recorda: o tempo é sempre um jogador atento
+que ganha, sem furtar, cada jogada! é a lei.
+o dia vai, a noite vem; recordar-te-ei!
+esgota-se a clepsidra; o abismo está sedento.",fr_XX,pt_XX,"<unk> Deus <unk> <unk> <unk> <unk> .
+O que é que o dedo nos leva e <unk> <unk> <unk> .
+O que é que se passa com o seu coração .
+<unk> em breve como uma <unk> em breve .
+O prazer <unk> <unk> para <unk> .
+Por isso , <unk> <unk> no fundo da <unk> .
+Todos os dias <unk> um pedaço do prazer .
+Todos os homens <unk> a toda a sua <unk> .
+São três mil milhões de dólares por ano .
+<unk> <unk> , <unk> com a sua voz .
+<unk> agora <unk> eu sou <unk> .
+e <unk> <unk> a tua vida com a minha vida com a minha vida .
+<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>
+<unk> <unk> de metal .
+Os <unk> mortal são <unk> .
+<unk> não temos de acabar com o <unk> .
+<unk> que o tempo está a brincar .
+<unk> sem <unk> a toda a <unk> <unk> a <unk> .
+O dia <unk> a noite .
+<unk> sempre a <unk> <unk> a <unk> .",0.0177709547347203,0.1797880040263873,0.6107122898101807,0.8615518
+"o muse de mon cœur, amante des palais,
+auras-tu, quand janvier lâchera ses borées,
+durant les noirs ennuis des neigeuses soirées,
+un tison pour chauffer tes deux pieds violets?
+ranimeras-tu donc tes épaules marbrées
+aux nocturnes rayons qui percent les volets?
+sentant ta bourse à sec autant que ton palais,
+récolteras-tu l’or des voûtes azurées?
+il te faut, pour gagner ton pain de chaque soir,
+comme un enfant de chœur, jouer de l’encensoir,
+chanter des te deum auxquels tu ne crois guère,
+ou, saltimbanque à jeun, étaler tes appas
+et ton rire trempé de pleurs qu’on ne voit pas,
+pour faire épanouir la rate du vulgaire.","ó musa de minha alma, amante dos palácios,
+terás, quando janeiro desatar seus ventos,
+no tédio negro dos crepúsculos nevoentos,
+uma brasa que esquente os teus dois pés violáceos?
+aquecerás teus níveos ombros sonolentos
+na luz noturna que os postigos deixam coar?
+sem um níquel na bolsa e seco o paladar,
+colherás o ouro dos cerúleos firmamentos?
+tens que, para ganhar o pão de cada dia,
+esse turíbulo agitar na sacristia,
+entoar esses te deum que nada têm de novo,
+ou, bufão em jejum, exibir teus encantos
+e teu riso molhado de invisíveis prantos
+para desopilar o fígado do povo.",fr_XX,pt_XX,"<unk> <unk> do meu <unk> <unk> .
+<unk> quando janeiro <unk> os seus <unk> .
+Durante os negros , <unk> <unk> .
+Um &quot; <unk> &quot; para o outro dos dois pés .
+Por isso , <unk> os ombros <unk> .
+<unk> os <unk> que <unk> os <unk> .
+<unk> a tua bolsa em seca , como o vosso <unk> .
+<unk> <unk> dos <unk> <unk> .
+<unk> para ganhar o seu pão de cada <unk> .
+como uma criança de <unk> de <unk> de <unk> .
+<unk> os <unk> que não se sentem <unk> .
+<unk> <unk> a <unk> <unk> .
+e o teu pai <unk> de chorar não consegue ver <unk> .
+Para fazer o <unk> do &quot; <unk> &quot; do &quot; <unk> &quot; do &quot; <unk> &quot; do",0.017351165962691952,0.18217219411940347,0.5528028011322021,0.8739833
+"ô colombe qui meurs dans le ciel azuré,
+rouvre un instant les yeux, mourante aux blanches ailes !
+le vautour qui te tue expire, déchiré
+par des flèches mortelles.
+va, tu tombes vengée, ô victime, et ta sœur
+peut voir, en traversant la forêt d’ombre pleine,
+l’oiseau tout sanglant pendre au carquois d’un chasseur
+qui passe dans la plaine.
+le jeune archer, folâtre et chantant des chansons,
+passe, sa proie au dos, par les herbes fleuries,
+laissant déchiqueter par les dents des buissons
+ces dépouilles meurtries.","ó pomba que fenece no céu azulado,
+reabre os olhos e a asa branca, enquanto cais!
+pois morre o teu algoz, o abutre é lacerado
+pelas flechas mortais.
+ó vítima que cai, alguém já te vingou,
+e pelo bosque em sombras, vê-se o teu irmão
+sangrando, atado à aljava de um caçador
+que canta uma canção.
+pelos prados, o arqueiro jovial brincando
+passa entre a relva em flor, com a sua presa atrás,
+enquanto os dentes dos arbustos vão rasgando
+os seus restos mortais!",fr_XX,pt_XX,"<unk> <unk> que <unk> no céu <unk> .
+<unk> um minuto com os <unk> .
+O protocolo que estão a matar <unk> <unk> .
+<unk> <unk> .
+<unk> <unk> <unk> <unk> <unk> e a tua irmã .
+Pode <unk> a floresta <unk> .
+<unk> <unk> <unk> em <unk> <unk> .
+que se passa na <unk> .
+O jovem <unk> <unk> e a cantar .
+<unk> a sua deusa em <unk> , através das ervas <unk> .
+<unk> os dentes pelos dentes .
+<unk> <unk> .",0.012911045942587615,0.1483615160349854,0.5874848961830139,0.81453073
+"je te voulais auprès de moi …
+mais je ne savais pas où te trouver,
+je voulais t’appeler,
+mais je ne savais pas en quelle direction,
+je voulais de ton amour,
+mais je ne savais pas qu’il existait.
+combien de fois dans mes rêves,
+je t’ai emmené auprès de moi …
+je rêvais de toi, sans t’avoir jamais vu.
+je rêvais de ton êtr sans t’avoir jamais rencontré.
+je t’ emmenais déjà auprès de moi …
+je sentais ta chaleur sans que je sache que c’était la tienne.
+je sentais ta vibration sans que je sache que c’était toi.
+je sentais tes baisers sans que je sache que c’étaient tes lèvres.
+aujourd’hui, t’es rentré dans mon âme,
+comme une brise câline et ardente,
+m’apportant paix et sérénité.
+je te respire, je te sens, je te vis profondément.
+reste auprès de moi …","eu ja te queria perto de mim …
+mas não sabia onde te encontrar,
+eu queria te chamar,
+mas não sabia em qual direção,
+eu queria do teu amor,
+mas não sabia que ele existia.
+quantas vezes nos meus sonhos,
+eu te levei junto a mim …
+eu sonhava contigo, sem nunca ter te visto.
+eu sonhava com teu ser, sem nunca ter te encontrado.
+eu ja te levava junto a mim …
+eu sentia teu calor, sem que eu soubesse que era o teu.
+eu sentia tua vibração, sem que eu soubesse que eras tu.
+eu sentia teus beijos, sem que eu soubesse que eram teus lábios.
+hoje, tu entraste na minha alma,
+como uma brisa meiga e cálida,
+me trazendo paz e serenidade.
+eu te respiro, te sinto, te vivo profundamente.
+ficas comigo …",fr_XX,pt_XX,"Eu queria sair de mim .
+Mas eu não sabia onde estão a <unk> .
+Eu queria <unk> .
+Mas eu não sabia o que <unk> .
+Eu queria o teu &quot; <unk> &quot; .
+Mas eu não sabia <unk> <unk> .
+Quanto mais tempo nos meus <unk> .
+Eu estava a <unk> a mim .
+Eu estava a trabalhar em <unk> sem <unk> .
+Eu estava a sair da tua <unk> sem <unk> .
+Eu estava a tentar <unk> .
+Sabia o vosso calor sem conta que a <unk> a <unk> a <unk> .
+Eu estava a sentir o seu &quot; <unk> &quot; sem que eu gostava que <unk> <unk> <unk> .
+Eu estava a sentir o que eu estava a fazer .
+<unk> <unk> decidiu sair do meu <unk> .
+como uma colmeia <unk> e <unk> .
+<unk> paz e <unk> .
+Eu estou a <unk> eu <unk> <unk> .
+O que é que eu estava a fazer é o que eu estava a fazer .",0.026399380500122135,0.22575172465506896,0.6536834239959717,0.9049765
+"homme, libre penseur ! te crois-tu seul pensant
+dans ce monde où la vie éclate en toute chose?
+des forces que tu tiens ta liberté dispose,
+mais de tous tes conseils l’univers est absent.
+respecte dans la bête un esprit agissant:
+chaque fleur est une âme à la nature éclose;
+un mystère d’amour dans le métal repose;
+« tout est sensible ! » et tout sur ton être est puissant.
+crains, dans le mur aveugle, un regard qui t’épie:
+à la matière même un verbe est attaché…
+ne la fais pas servir à quelque usage impie!
+souvent dans l’être obscur habite un dieu caché;
+et comme un œil naissant couvert par ses paupières,
+un pur esprit s’accroît sous l’écorce des pierres!","homem! livre pensador! serás o único que pensa
+neste mundo onde a vida cintila em cada ente?
+de tuas forças tua liberdade dispõe naturalmente,
+mas teus conselhos todos o universo dispensa.
+honra na fera o espírito que fermenta…
+cada flor é uma alma em natura nascente;
+um mistério de amor no metal reside dormente;
+“tudo é sensível!” e poderoso em teu ser se apresenta.
+receia, no muro cego, um olhar curioso:
+à própria matéria encontra-se um verbo unido…
+não te sirvas dela para qualquer fim impiedoso!
+quase sempre no ser obscuro mora um deus escondido.
+e, como um olho novo coberto por suas pálpebras,
+um espírito puro medra sob a crosta das pedras!",fr_XX,pt_XX,"<unk> aberto ! <unk> sozinho .
+Neste mundo , em que a vida está a ser a vida .
+As forças que querem a vossa liberdade <unk> .
+Mas , de qualquer modo , o conselho <unk> é <unk> .
+O que é que se passa com a mente .
+Cada flor é uma alma à natureza .
+Um mistério <unk> no Museu <unk> .
+&quot; <unk> &quot; , e tudo sobre o vosso ser <unk> .
+<unk> na parede <unk> um olhar que <unk> .
+Até a matéria até um &quot; marshmallow &quot; é <unk> .
+Não se trata de usar uma utilização <unk> .
+Muitas vezes , em <unk> negro vive um Deus <unk> .
+e como um olho <unk> por causa dos seus <unk> .
+Um grande espírito <unk> sob o <unk> dos <unk> .",0.046712658961693625,0.29792898414404734,0.6673164367675781,0.9283271
+"dites-moi où, n’en quel pays,
+est flora la belle romaine,
+archipiades, ne thaïs,
+qui fut sa cousine germaine,
+echo, parlant quant bruit on mène
+dessus rivière ou sur étang,
+qui beauté eut trop plus qu’humaine?
+mais où sont les neiges d’antan?
+où est la très sage héloïs,
+pour qui fut châtré et puis moine
+pierre esbaillart à saint-denis?
+pour son amour eut cette essoine.
+semblablement, où est la roine
+qui commanda que buridan
+fût jeté en un sac en seine?
+mais où sont les neiges d’antan?
+la roine blanche comme un lis
+qui chantait à voix de sirène,
+berthe au grand pied, bietrix, aliz,
+haramburgis qui tint le maine,
+et jeanne, la bonne lorraine
+qu’anglais brûlèrent à rouen ;
+où sont-ils, où, vierge souvraine?
+mais où sont les neiges d’antan?
+prince, n’enquerrez de semaine
+où elles sont, ni de cet an,
+que ce refrain ne vous remaine:
+mais où sont les neiges d’antan?","ora dizei-me em que país
+flora estará, bela romana,
+arquipiades ou taís
+que sua prima foi germana.
+eco a falar, quando um som plana
+por rio ou lago, e que já tem o
+dom de formosa mais que humana?
+mas onde estão neves de antanho?
+onde é mui sábia heloís
+por quem castrado e monge pena
+pedro balerdo em s. dinis?
+amor lhe deu provação plena.
+e assim também onde é que reina
+essa que a buridan por banho
+mandou deitar num saco ao sena?
+mas onde estão neves de antanho?
+rainha branca como um lis,
+voz que a sereia em canto irmana,
+berta pé-grande, alis, biatriz,
+aremburgis que foi menana,
+e de lorena a boa joana
+qu’ingrês em ruão queimou no lenho.
+onde estão, virgem soberana?
+mas onde estão neves de antanho?
+senhor, cuidar de ano ou semana
+onde elas são, não voz traz ganho,
+nem meu refrão a vós engana:
+mas onde estão as neves de antanho?",fr_XX,pt_XX,"<unk> <unk> <unk> que <unk> <unk> .
+<unk> a bela <unk> .
+<unk> não <unk> .
+que foi a sua coluna <unk> .
+<unk> falar sobre o barulho .
+Em <unk> ou em <unk> .
+que a beleza teve mais <unk> .
+Mas , em que são os <unk> <unk> .
+O que é que é o que é que é a que é
+Para quem foi <unk> e o Brian e o diretor , e depois
+<unk> a <unk> .
+O seu amor teve esta <unk> .
+<unk> onde é a <unk> .
+que <unk> que a <unk> que <unk> que a <unk> que <unk> que
+Foi uma mochila em <unk> .
+Mas , em que são os <unk> <unk> .
+A <unk> branca como uma arma .
+que estava a lutar para a voz de <unk> .
+<unk> no grande <unk> <unk> .
+<unk> que <unk> o <unk> .
+e <unk> a boa <unk> .
+<unk> <unk> em <unk> .
+O que é que <unk> <unk> em branco .
+Mas , em que são os <unk> <unk> .
+<unk> <unk> de semana .
+Onde estão a <unk> ou este &quot; <unk> &quot; .
+O que é que este &quot; <unk> &quot; não nos diz que o
+Mas , em que são os <unk> <unk> .",0.013584278203977491,0.1675350428402712,0.6137225031852722,0.89463973
+"sous le pont mirabeau coule la seine
+et nos amours
+faut-il qu’il m’em souvienne
+la joie venait toujours après la peine
+vienne la nuit sonne l’heure
+les jours s’en vont je demeure
+les mains dans les mains restons face à face
+tandis que sous
+le pont de nos bras passe
+des éternels regards l’onde si lasse
+vienne la nuit sonne l’heure
+les jours s’en vont je demeure
+l’amour s’en va comme cette eau courante
+l’amour s’en va
+comme la vie est lente
+et comme l’espérance est violente
+vienne la nuit sonne l’heure
+les jours s’en vont je demeure
+passent les jours et passent les semaines
+ni temps passé
+ni les amours reviennet
+sous le pont mirabeau coule la seine
+vienne la nuit sonne l’heure
+les jours s’en vont je demeure","escorre sob a ponte o rio sena
+e em nossos amores
+a lembrança me acena
+vinha sempre o prazer depois da pena
+que venha a noite e soe a hora
+os dias se vão não vou embora
+mãos nas mãos esperemos face a face
+até que sob a ponte
+dos nossos braços passe
+o eterno desse olhar em nosso enlace
+que venha a noite e soe a hora
+os dias se vão não vou embora
+o amor se vai como água turbulenta
+assim o amor se vai
+e como a vida é lenta
+e como esta esperança é violenta
+que venha a noite e soe a hora
+os dias se vão não vou embora
+os dias passam passam as semanas
+não voltam o passado
+nem as paixões humanas
+e o sena flui em águas soberanas
+que venha a noite e soe a hora
+os dias se vão não vou embora
+os dias passam passam mas que pena
+passado amor
+nenhuma volta acena
+na ponte mirabeau se vai o sena
+a noite venha sem demora
+eu fico e o tempo vai embora",fr_XX,pt_XX,"A ponte <unk> <unk> .
+e os nossos <unk> .
+<unk> <unk> <unk> .
+A alegria era sempre depois da pena .
+<unk> a noite .
+Os dias <unk> .
+As mãos estão a lidar com as mãos .
+À medida que sob baixo do que sob baixo do que sob baixo do que sob
+O convés dos nossos braços está a passar .
+<unk> <unk> .
+<unk> a noite .
+Os dias <unk> .
+<unk> <unk> , como esta água .
+<unk> <unk> vai <unk> .
+A vida é lenta como a vida é lenta .
+e como <unk> é violento .
+<unk> a noite .
+Os dias <unk> .
+<unk> os dias e passam as semanas .
+ou tempo passado .
+nem os <unk> <unk> .
+A ponte <unk> <unk> .
+<unk> a noite .
+Os dias <unk> .",0.06045089586290115,0.24190894994782564,0.6263155341148376,0.9348164
+"ne soyons pas trop exigeants:
+le bonheur n’est pas accessible
+à toutes les sortes de gens.
+il faudrait être moins sensible,
+ou bien avoir beaucoup d’argent…
+ne demandons pas l’impossible.
+nous devons nous trouver contents
+d’être les êtres que nous sommes:
+des amoureux intermittents
+qui sont fous l’un de l’autre en somme
+de temps en temps.
+c’est déja beaucoup d’être deux,
+deux côte à cote sur la terre,
+qui peuvent souffrir entre eux
+et vivre sans trop se taire.
+et si l’on est plus exigeant,
+si l’on se sent en y songeant
+l’âme encor trop célibataire,
+c’est qu’on a mauvais caractère…
+ou qu’on est trop intelligent.","não sejamos muito exigentes:
+nem sempre a sorte é acessível
+a todo mundo, a toda a gente.
+ela é só dos menos sensíveis,
+ou dos ricos, naturalmente…
+não desejemos o impossível.
+devemos estar contentes
+de ser quem somos:
+simplesmente namorados intermitentes
+loucamente se namorando
+de vez em quando.
+é já uma grande cousa a gente
+ser dois, à parte, entre os mortais,
+dois que se bastam mutuamente
+e não se aborrecem demais.
+e somos mais exigentes,
+se às vezes a alma ainda se sente
+solteira e triste, isso é explicável:
+temos um gênio insuportável…
+ou somos muito inteligentes.",fr_XX,pt_XX,"Não se parece demasiado <unk> .
+A felicidade não é sustentável .
+em todo o tipo de <unk> .
+Deve ser menos <unk> .
+Ou tenham muito <unk> .
+Não se pede <unk> .
+Temos de nos encontrar felizes .
+<unk> os seres humanos .
+<unk> <unk> .
+<unk> de <unk> <unk> em <unk> .
+<unk> tempo em <unk> .
+<unk> <unk> muito <unk> <unk> .
+O que é que as pessoas estão a fazer na <unk> .
+que podem sofrer entre eles .
+e viver sem se <unk> .
+E se <unk> é mais <unk> .
+Se a <unk> se sente em <unk> .
+<unk> <unk> demasiado <unk> .
+<unk> <unk> <unk> .
+Ou <unk> é demasiado <unk> .",0.010943562662082724,0.17737861570247934,0.6238824725151062,0.84987044
+"vous qui ronflez au coin d’une épouse endormie,
+ruminant! savez-vous ce soupir: l’insomnie?
+— avez-vous vu la nuit, et le sommeil ailé,
+papillon de minuit dans la nuit envolé,
+sans un coup d’aile ami, vous laissant sur le seuil,
+seul, dans le pot-au-noir au couvercle sans œil?
+— avez-vous navigué?… la pensée est la houle
+ressassant le galet: ma tête… votre boule.
+— vous êtes-vous laissé voyager en ballon?
+— non? — bien, c’est l’insomnie. — un grand coup de talon
+là! — vous voyez cligner des chandelles étranges:
+une femme, une gloire en soleil, des archanges…
+et, la nuit s’éteignant dans le jour à demi,
+vous vous réveillez coi, sans vous être endormi.","você que ronca ao pé da esposa adormecida,
+ruminante! conhece a insónia, esse gemido?
+— você já viu a noite, viu o sono alado,
+mariposa à meia-noite alta esvoaçada,
+sem asas amigas, ficando na soleira,
+só, em um buraco negro sem ribanceira?
+já navegou?… — não? — o pensamento restolha
+seixos como a onda: minha cabeça… uma bóia.
+— já deixou-se embarcar em um balão?
+— não? — pois é a insónia. — um pontapé malsão
+lá! — você verá velinhas em desarranjo:
+uma mulher, uma glória de sol, arcanjos…
+e quando apaga a noite no dia mal nascido,
+você acorda imóvel, sem ter adormecido.",fr_XX,pt_XX,"<unk> no canto <unk> .
+<unk> sabem esse &quot; <unk> &quot; .
+<unk> a <unk> e o sono <unk> .
+Na noite <unk> na noite .
+<unk> <unk> <unk> sobre o <unk> .
+<unk> no &quot; <unk> &quot; na ponte .
+<unk> o pensamento é a onda .
+<unk> o &quot; <unk> &quot; a minha <unk> o <unk> o meu <unk> .
+Estão a trabalhar em <unk> em <unk> .
+- <unk> - <unk> <unk> <unk> — um grande obstáculo .
+Estão a ver , <unk> .
+Um &quot; <unk> &quot; de <unk> <unk> .
+<unk> a noite <unk> no dia em <unk> .
+<unk> <unk> sem ser <unk> .",0.011944242114091695,0.13297468368778892,0.575293242931366,0.8354111
+"puis, quand les bords de l’eau ne se distinguent plus,
+a l’heure où toute forme est un spectre confus,
+où l’horizon brunit rayé d’un long trait rouge,
+alors que pas un jonc, pas un glaïeul ne bouge,
+que les rainettes font dans l’air serein leur bruit,
+et que la luciole au clair de lune luit,
+l’oiseau, dans le lac sombre où sous lui se reflète
+la splendeur d’une nuit lactée et violette,
+comme un vase d’argent parmi des diamants,
+dort, la tête sous l’aile, entre deux firmaments","e depois quando as margens tornam-se confusas,
+na hora onde toda forma é um espectro difuso,
+onde reduz um horizonte em rubro risco,
+enquanto nenhum junco ou espadana pisca,
+com as rãs verdes a soar no sereno ar
+e quando o pirilampo refulge ao luar,
+a ave, no sombrio lago aonde se reflete
+o fulgor de uma noite láctea e violeta,
+como um jarro de prata em meio a diamantes,
+dorme, a cabeça entre asas e dois céus brilhantes",fr_XX,pt_XX,"<unk> quando os economistas de <unk> não se <unk> .
+<unk> onde qualquer forma é um espetro <unk> .
+<unk> <unk> <unk> <unk> em vez de <unk> .
+Então , o que é que não se passa um &quot; <unk> &quot; .
+O que é que os <unk> estão a fazer em <unk> <unk> .
+E o que é que a maior parte da Lua <unk> .
+<unk> no lago negro , onde ele está a <unk> .
+<unk> <unk> noite , e <unk> .
+como uma espécie de lata , como uma espécie de lata .
+<unk> a cabeça entre dois <unk> .",0.02476384722142364,0.1993263373940678,0.6056565046310425,0.8711364
+"vous, mon amour; mon amour des yeux verts.
+vous, mon amour.
+mon amour des yeux verts,
+qui j’ai rencontré un jour.
+vous, mon amour.
+mon amour des yeux verts,
+tempête, torrent, volcan dans mon âme,
+dés les premiers instants.
+vous, les yeux verts, visage brun,
+qui je n’ai jamais oublié,
+vous, les yeux verts, visage brun,
+redis-moi ton prénom mon amour,
+pour rêver de vous, vous tenir par la main,
+vous embrasser comme jamais,
+et vous garder auprès de moi.
+vous, mon amour,
+qui m’a tant impressionnée,
+vous êtes plus fort que le passé,
+plus fort que le présent,
+plus fort que le temps.
+ai … si vous le saviez,
+combien mon repenti,
+d’être partie sans vous dire combien,
+combien je vous désirais …","voce, meu amor; meu amor dos olhos verdes.
+voce, meu amor.
+meu amor dos olhos verdes,
+que eu encontrei um dia.
+voce, meu amor.
+meu amor de olhos verdes,
+tempestade, torrente, vulcão na minha alma,
+desde o primeiro instante.
+você, dos olhos verdes, visagem morena,
+que eu nunca esqueci.
+voce, dos olhos verdes, visagem morena,
+repete seu nome pra mim meu amor,
+para eu sonhar com voce,
+lhe trazer pela mão,
+lhe beijar como nunca,
+e lhe guardar junto a mim.
+voce, meu amor,
+que tanto me impressionou,
+é mais forte que o passado,
+é mais forte que o presente
+é mais forte que o tempo.
+ai … si voce soubesse,
+quanto o meu arrependimento,
+ter partido sem lhe dizer o quanto,
+o quanto eu lhe queria …",fr_XX,pt_XX,"<unk> o meu amor do meu amor .
+<unk> o meu <unk> .
+O meu amor dos olhos <unk> .
+O que é que eu estava a fazer .
+<unk> o meu <unk> .
+O meu amor dos olhos <unk> .
+<unk> <unk> <unk> no meu <unk> .
+<unk> os primeiros <unk> .
+<unk> os olhos <unk> .
+que eu eu estava a <unk> .
+<unk> os olhos <unk> .
+<unk> o meu nome o meu nome .
+<unk> de <unk> para a <unk> de <unk> .
+<unk> como <unk> como o <unk> .
+e estão a trabalhar em <unk> .
+<unk> o meu <unk> .
+<unk> como <unk> , que <unk> tanto <unk> .
+Vocês são mais fortes do que o <unk> .
+mais forte do que o &quot; <unk> &quot; mais forte do que o &quot; <unk> &quot;
+mais forte do que o &quot; <unk> &quot; mais forte do que o &quot; <unk> &quot;
+<unk> se o <unk> .
+Quanto o meu <unk> .
+<unk> parte sem vos dizer <unk> .
+Quanto é que eu estou a <unk> .",0.03942134735187981,0.22264591718209592,0.6178416013717651,0.8994503
+"tu m’as dit: “je pense à toi
+tout lê jour.”
+mais tu penses moins à moi
+que a l’amour.
+tu m’as dit: “mes yeux mouillés
+qui ne peuvent t’oublier
+restent longtemps éveillés
+lorsque je me couche.”
+mais ton coeur est moins grisé
+qu’amusé.
+tu penses plus au baiser
+qu’à la bouche.
+tu ne te tourmentes point.
+tu sais, sans chercher plus loin,
+que nos joies sont bien les nôtres…
+mais l’amour est un besoin.
+m’aimerais-tu beaucoup moins
+si j’étais un autre?","você diz: “eu penso apenas em você
+todo o dia.”
+mas pensa em mim muito menos
+que no amor.
+e diz: “meus olhos magoados
+que vivem só de desejo
+passam horas acordados
+quando me deito.”
+mas sua alma é mais satisfeita
+do que louca.
+você pensa mais no beijo
+que na boca.
+você não se inquieta
+tem certeza de que este bem
+é somente seu e meu.
+mas o amor é uma necessidade.
+você gostaria mesmo menos de mim, muito menos
+se eu não fosse eu?",fr_XX,pt_XX,"<unk> <unk> <unk> .
+<unk> <unk> <unk> .
+Mas <unk> menos eu , mas <unk> menos a mim .
+que <unk> a <unk> .
+<unk> <unk> <unk> <unk> .
+que não podem ser <unk> que não pode ser capaz de ser capaz
+<unk> muito tempo .
+Quando eu estava a sair da casa , quando eu me estava a
+Mas o vosso coração é menos <unk> , mas o vosso coração é
+<unk> <unk> .
+<unk> mais ao lado do canal .
+<unk> a <unk> .
+<unk> <unk> <unk> .
+<unk> sem procurar mais <unk> .
+As nossas expetativas são os <unk> .
+Mas <unk> é um <unk> .
+<unk> muito menos .
+<unk> um <unk> .",0.0106272671625339,0.17184650725226014,0.5825782418251038,0.8757341
+"frères humains, qui après nous vivez,
+n’ayez les coeurs contre nous endurcis,
+car, si pitié de nous pauvres avez,
+dieu en aura plus tôt de vous mercis.
+vous nous voyez ci attachés, cinq, six:
+quant à la chair, que trop avons nourrie,
+elle est piéça dévorée et pourrie,
+et nous, les os, devenons cendre et poudre.
+de notre mal personne ne s’en rie;
+mais priez dieu que tous nous veuille absoudre!
+se frères vous clamons, pas n’en devez
+avoir dédain, quoique fûmes occis
+par justice. toutefois, vous savez
+que tous hommes n’ont pas bon sens rassis.
+excusez-nous, puisque sommes transis,
+envers le fils de la vierge marie,
+que sa grâce ne soit pour nous tarie,
+nous préservant de l’infernale foudre.
+nous sommes morts, âme ne nous harie,
+mais priez dieu que tous nous veuille absoudre!
+la pluie nous a débués et lavés,
+et le soleil desséchés et noircis.
+pies, corbeaux nous ont les yeux cavés,
+et arraché la barbe et les sourcils.
+jamais nul temps nous ne sommes assis
+puis çà, puis là, comme le vent varie,
+a son plaisir sans cesser nous charrie,
+plus becquetés d’oiseaux que dés à coudre.
+ne soyez donc de notre confrérie;
+mais priez dieu que tous nous veuille absoudre!
+prince jésus, qui sur tous a maistrie,
+garde qu’enfer n’ait de nous seigneurie:
+a lui n’ayons que faire ne que soudre.
+hommes, ici n’a point de moquerie;
+mais priez dieu que tous nous veuille absoudre!","irmãos humanos que ao redor viveis,
+não nos olheis com duro coração,
+pois se aos pobres de nós absolveis
+também a vós deus vos dará perdão.
+aqui nos vedes presos, cinco, seis:
+quanto era cara viva que comia
+foi devorado e em pouco apodrecia.
+ficamos, cinza e pó, os ossos, sós.
+que de nossa aflição ninguém se ria,
+mas suplicai a deus por todos nós.
+se dizemos irmãos, vós não deveis
+sentir desprezo, embora condenados
+tenhamos sido em vida. bem sabeis:
+nem todos têm os sentidos sentados.
+desculpai-nos, que já estamos gelados,
+perante o filho da virgem maria.
+que seu favor não nos falte um só dia
+para livrar-nos do inimigo atroz.
+estamos mortos: que ninguém sorria,
+mas suplicai a deus por todos nós.
+a chuva nos lavou e nos desfez
+e o sol nos fez negros e ressecados,
+corvos furaram nossos olhos e eis-
+nos de pêlos e cílios despojados,
+paralíticos, nunca mais parados,
+pra cá, pra lá, como o vento varia,
+ao seu talante, sem cessar, levados,
+mais bicados do que um dedal. a vós
+não ofertamos nossa confraria,
+mas suplicai a deus por todos nós.
+meu príncipe jesus, que a tudo vês,
+não nos entregues à soberania
+do inferno, que só ouvimos tua voz.
+homens, aqui não cabe zombaria,
+mas suplicai a deus por todos nós.",fr_XX,pt_XX,"( Aplausos ) <unk> que depois de nós <unk> .
+<unk> os corações contra nós .
+<unk> se o fizéssemos .
+Deus vai ficar mais cedo .
+<unk> <unk> <unk> <unk> <unk> .
+Qual é a <unk> que demasiado <unk> .
+<unk> <unk> e <unk> <unk> .
+e <unk> os <unk> <unk> e <unk> .
+A nossa má pessoa <unk> <unk> .
+Mas <unk> Deus que todos nós queremos <unk> .
+<unk> <unk> .
+<unk> <unk> <unk> .
+<unk> de <unk> <unk> .
+<unk> que todos os homens <unk> .
+<unk> porque estão <unk> .
+O que é que o filho está a fazer ?
+O que é que a sua relação é que a sua relação é que a
+<unk> de <unk> <unk> .
+Estamos a ser <unk> .
+Mas <unk> Deus que todos nós queremos <unk> .
+A chuva <unk> e <unk> .
+e o sol <unk> e o sol .
+<unk> Bush <unk> os olhos <unk> .
+e <unk> a mortalidade e os <unk> .
+<unk> o tempo .
+Depois <unk> e depois <unk> como o vento <unk> .
+<unk> o seu prazer sem parar nos <unk> .
+<unk> mais <unk> do que a <unk> .
+Por isso , não se trata da nossa <unk> .
+Mas <unk> Deus que todos nós queremos <unk> .
+&quot; <unk> <unk> que <unk> a toda a gente . &quot;
+<unk> <unk> <unk> de nós .
+<unk> que o <unk> que eu não <unk> apenas .
+<unk> aqui <unk> .
+Mas <unk> Deus que todos nós queremos <unk> .",0.01814382050866608,0.16845776995959724,0.5693228840827942,0.89370555
+"tais-toi
+je t’aime … mon amour, ma chérie.
+tais-toi, ne répètes plus jamais ça,
+tais-toi, tu ne sais pas ce que tu dis.
+les mots qui caressent,
+viennent en fusion avec dieu.
+je ne veux pas de tes mots,
+qu’ arrivent avec tes ténèbres,
+de ton esprit sans paix,
+qui débat contre ton corps.
+les mots sortis de ta bouche,
+ne guérissent pas ta blessure,
+te rendent encore plus jaloux,
+de ceux qu’ont connu l’amour.
+je t’aime … mon amour, ma chérie.
+tais-toi, tu ne sais pas ce qu’est l’amour,
+tais-toi, tu ne sais pas ce que tu fais.
+si seulement, t’ avais connu musset,
+tu saurais, que tu n’as pas encore vécu.
+que ta vie, n’est pas sommeil,
+elle est seulement … un cauchemar.","cala-te
+eu te amo … meu amor, minha querida.
+cala-te, nao repitas nunca mais isso,
+cala-te, tu nao sabes o que dises.
+as palavras que acariciam,
+vêm em fusao com deus.
+nao quero tuas palavras,
+que chegam com tuas trevas,
+de teu espirito sem paz,
+que debate contra teu corpo.
+as palavras saidas de tua boca,
+não curam tua cicatriz,
+te tornam ainda mais ciumento,
+daqueles que conheceram o amor.
+eu te amo … meu amor, minha querida.
+cala-te, tu nao sabes o que é o amor,
+cala-te, tu nao sabes o que fazes.
+si pelo menos, tu tivesses conhecido musset,
+tu saberias que ainda nao viveu.
+que tua vida nao é sono,
+ela é somente … um pesadelo.",fr_XX,pt_XX,"<unk> <unk> .
+<unk> o meu &quot; <unk> &quot; a minha <unk> .
+<unk> nunca <unk> mais .
+&quot; <unk> &quot; não sabe o que estão a fazer .
+As palavras que estão a <unk> .
+A partir da fusão com a <unk> com a <unk> .
+Não quero que eu não quero .
+<unk> está a acontecer com os teus <unk> .
+A vossa mente sem <unk> .
+Que debate contra o teu &quot; <unk> &quot; contra o teu &quot; <unk> &quot; .
+As palavras <unk> da tua <unk> .
+Não <unk> a tua <unk> .
+<unk> ainda mais <unk> .
+Os <unk> <unk> <unk> .
+<unk> o meu &quot; <unk> &quot; a minha <unk> .
+&quot; <unk> &quot; não sabe esse &quot; <unk> &quot; .
+&quot; <unk> &quot; não sabe o que estão a fazer .
+<unk> <unk> tinha conhecido <unk> .
+<unk> que <unk> ainda <unk> .
+A tua <unk> <unk> não <unk> .
+Ela é apenas um <unk> .",0.025405911650155877,0.20939473753104357,0.6107713580131531,0.87529373
+"ce n’est pas une ville, c’est un monde
+– c’est la mer: – calme plat – et la grande marée,
+avec un grondement lointain, s’est retirée.
+le flot va revenir, se roulant dans son bruit –
+– entendez-vous gratter les crabes de la nuit…
+– c’est le styx asséché: le chiffonnier diogène,
+sa lanterne à la main, s’en vient errer sans gêne.
+le long du ruisseau noir, les poètes pervers
+pêchent; leur crâne creux leur sert de boîte à vers.
+– c’est le champ: pour glaner les impures charpies
+s’abat le vol tournant des hideuses harpies.
+le lapin de gouttière, à l’affût des rongeurs,
+fuit les fils de bondy, nocturnes vendangeurs.
+– c’est la mort: la police gît – en haut, l’amour
+fait la sieste en têtant la viande d’un bras lourd,
+où le baiser éteint laisse sa plaque rouge…
+l’heure est seule – ecoutez: … pas un rêve ne bouge
+– c’est la vie: écoutez: la source vive chante
+l’éternelle chanson, sur la tête gluante
+d’un dieu marin tirant ses membres nus et verts
+sur le lit de la morgue… et les yeux grand` ouverts!","não é uma cidade, é um mundo.
+— é o mar: — calmaria — e a maré gigante
+retirou-se, com seu ribombo já distante.
+a onda voltará, torcendo seu açoite —
+— ouves arranhar o caranguejo da noite?…
+— é o estige seco: diógenes trapeiro,
+a lanterna na mão, lá vem errar fagueiro.
+no riacho negro, pescam poetas perversos;
+em seus crânios ocos levam vermes de versos.
+— e o campo: para espigar impuras filaças
+assenta-se o vôo da harpia que caça. coelhos-pingados, quando afluem roedores,
+deixam bondy aos noturnos vindimadores.
+— é a morte: a polícia jaz — no quarto, ao lado,
+o amor chupa a carne de um braço pesado,
+onde o beijo ardente uma marca rubra esquece…
+a hora está só — ouça: … nenhum sonho se mexe
+— é a vida: ouça: canta a fonte viçosa
+sua eterna canção, na cabeça viscosa de um deus marinho, os membros nus e esverdeados
+no leito da morgue… de olhos arregalados!",fr_XX,pt_XX,"Este <unk> não é uma <unk> <unk> .
+- <unk> o &quot; <unk> &quot; — <unk> , e a grande <unk> .
+Com uma deficiência <unk> <unk> <unk> .
+O que é que se passa para o seu barulho .
+- Tentem os fundadores da <unk> da <unk> .
+<unk> o <unk> <unk> o <unk> <unk> .
+A sua lanterna na <unk> <unk> vem <unk> sem <unk> .
+A longo do lago <unk> os poetas <unk> .
+<unk> o seu cérebro <unk> o seu cérebro .
+- <unk> o <unk> para <unk> os <unk> <unk> .
+<unk> o voo <unk> .
+O coelho de <unk> em <unk> <unk> .
+<unk> os fios de <unk> .
+- <unk> a polícia da polícia , na <unk> <unk> .
+Na verdade , o <unk> <unk> a carne <unk> .
+O que é que o abeto está a passar para a sua caixa <unk> .
+&quot; <unk> &quot; é apenas um sonho <unk> .
+- <unk> a <unk> <unk> a fonte <unk> .
+<unk> <unk> na cabeça <unk> .
+<unk> Deus <unk> os seus membros <unk> e verdes .
+<unk> na cama da <unk> e dos olhos <unk> <unk> .",0.014087557055661462,0.1774431716776161,0.5788387060165405,0.8733407
+"dans vos viviers, dans vos étangs,
+carpes, que vous vivez longtemps!
+est-ce que la mort vous oublie,
+poissons de la mélancolie.","carpas, viveis tão longa vida
+nesses viveiros de água fria!
+será que a morte vos olvida,
+ó peixes da melancolia.",fr_XX,pt_XX,"Nos nossos <unk> nos nossos <unk> nos nossos <unk> nos nossos <unk>
+<unk> que estão a viver <unk> .
+O que é a morte .
+Quanto a peixes da <unk> .",0.022205689604350532,0.16336739037888465,0.6118399500846863,0.8246275
+"au fond, vois-tu, mon erreur,
+ma grande folie,
+c’est d’avoir charge ton coeur
+de tout le poids de ma vie.
+le jours où l’on s’est aimé,
+j’ai cru qu’en ce coeur offert
+j’allais pouvoir enfermer
+tout mon univers.
+c’est de cette erreur profonde
+que maintenant nous souffrons.
+on ne fait pas tenir le monde
+derrière un front.
+ton coeur est tendre et sincère,
+ardent et soumis.
+mais, tout seul, pouvait-il faire
+que je me passe de ma mère
+et de me amis?","afinal, meu gesto doido,
+meu erro, querida,
+foi ter posto em você
+todo o peso da minha vida.
+ao começar este amor
+num coração tão diverso do meu
+pensei poder pôr
+todo o meu universo.
+e é desse erro tão profundo
+que vamos sofrendo então.
+não se pode pôr um mundo
+sobre um coração.
+o seu coração é sincero,
+ardente comigo
+mas, só, será suficiente
+para afastar-me dos parentes
+e dos meus amigos?",fr_XX,pt_XX,"<unk> <unk> o meu <unk> <unk> o meu <unk> .
+A minha grande <unk> .
+<unk> <unk> o vosso coração .
+<unk> do peso da minha <unk> .
+No dia em que <unk> <unk> <unk> <unk> .
+<unk> <unk> o coração <unk> .
+<unk> poder <unk> .
+<unk> toda a minha <unk> .
+<unk> deste erro profundo .
+que agora estamos a <unk> .
+Não estamos a fazer o mundo .
+Por detrás de um <unk> , por detrás de um &quot; <unk> &quot;
+O vosso coração é <unk> e <unk> .
+<unk> e <unk> .
+<unk> tudo o que podia fazer .
+que eu estou a passar da minha mãe .
+e de me <unk> .",0.017668689634246764,0.18246687437599404,0.5998314619064331,0.8882555
+"la splendeur orientale,
+tout y parlerait
+à l’âme en secret
+sa douce langue natale.
+là, tout n’est qu’ordre et beauté,
+luxe, calme et volupté.
+vois sur ces canaux
+dormir ces vaisseaux
+dont l’humeur est vagabonde;
+c’est pour assouvir
+ton moindre désir
+qu’ils viennent du bout du monde.
+— les soleils couchants
+revêtent les champs,
+les canaux, la ville entière,
+d’hyacinthe et d’or;
+le monde s’endort
+dans une chaude lumière.
+là, tout n’est qu’ordre et beauté,
+luxe, calme et volupté.","toda uma pompa oriental,
+tudo aí à alma
+falaria em calma
+seu doce idioma natal.
+lá, tudo é paz e rigor,
+luxo, beleza e langor.
+vê sobre os canais
+dormir junto aos cais
+barcos de humor vagabundo;
+é para atender
+teu menor prazer
+que eles vêm do fim do mundo.
+— os sanguíneos poentes
+banham as vertentes,
+os canais, toda a cidade,
+e em seu ouro os tece;
+o mundo adormece
+na tépida luz que o invade.
+lá, tudo é paz e rigor,
+luxo, beleza e langor.",fr_XX,pt_XX,"<unk> <unk> .
+Tudo o que lá estava a fazer .
+Em <unk> em segredo em segredo em segredo em segredo em segredo
+A sua língua <unk> <unk> .
+<unk> <unk> <unk> e <unk> .
+<unk> , e <unk> .
+Podem ver estes canais .
+dormir esses vasos vasos vasos vasos vasos vasos vasos vasos vasos vasos
+<unk> é <unk> .
+<unk> para <unk> .
+O que é que o vosso melhor desejo faz .
+<unk> vem do fim do <unk> .
+As pessoas <unk> .
+<unk> os <unk> .
+<unk> a cidade <unk> .
+<unk> e <unk> .
+O mundo <unk> o mundo .
+Numa praia <unk> .
+<unk> <unk> <unk> e <unk> .
+<unk> , e <unk> .",0.018289496976167916,0.18852338729609494,0.5857670903205872,0.8596921
+"sans bruit, sous le miroir des lacs profonds et calmes,
+le cygne chasse l’onde avec ses larges palmes,
+et glisse. le duvet de ses flancs est pareil
+a des neiges d’avril qui croulent au soleil;
+mais, ferme et d’un blanc mat, vibrant sous le zéphire,
+sa grande aile l’entraîne ainsi qu’un lent navire.
+il dresse son beau col au-dessus des roseaux,
+le plonge, le promène allongé sur les eaux,
+le courbe gracieux comme un profil d’acanthe,
+et cache son bec noir dans sa gorge éclatante.
+tantôt le long des pins, séjour d’ombre et de paix,
+il serpente, et, laissant les herbages épais
+traîner derrière lui comme une chevelure,
+il va d’une tardive et languissante allure.
+la grotte où le poète écoute ce qu’il sent,
+et la source qui pleure un éternel absent,
+lui plaisent; il y rôde; une feuille de saule
+en silence tombée effleure son épaule.
+tantôt il pousse au large, et, loin du bois obscur,
+superbe, gouvernant du côté de l’azur,
+il choisit, pour fêter sa blancheur qu’il admire,
+la place éblouissante où le soleil se mire.
+puis, quand les bords de l’eau ne se distinguent plus,
+a l’heure où toute forme est un spectre confus,
+où l’horizon brunit rayé d’un long trait rouge,
+alors que pas un jonc, pas un glaïeul ne bouge,
+que les rainettes font dans l’air serein leur bruit,
+et que la luciole au clair de lune luit,
+l’oiseau, dans le lac sombre où sous lui se reflète
+la splendeur d’une nuit lactée et violette,
+comme un vase d’argent parmi des diamants,
+dort, la tête sous l’aile, entre deux firmaments","calmo, do espelho azul d’água profunda e calma
+à face errando, os pés, lânguido, o cisne espalma
+e desliza. da neve os raros flocos brancos
+lembra o fino frouxel que lhe amacia os flancos;
+línea vela parece a asa que encurva e brande,
+esbelto, e ora retrai, ora sacode e expande;
+entre as ninféias indo, o alvo pescoço apruma,
+colhe-o após, some-o n’água, estende-o sobre a espuma,
+curva-o mole e gracioso, e ânfora antiga imita.
+dos pinheiros ao longo, onde o silêncio habita
+e a paz e a sombra, vai; rastejando na esteira,
+que atrás fica, semelha intensa cabeleira
+a basta ervagem fresca a palpitar. a gruta,
+que a alma atrai do poeta e a voz da tarde escuta,
+praz-lhe e a fonte que além flui, regurgita e bolha.
+vendo-as, lento se arrasta. às vezes numa folha
+leve cai do salgueiro e, em sua queda, leve,
+roça-lhe, muda sombra, as plumas cor de neve.
+caminha agora ao largo; o implexo da ramagem
+deixa e a parte procura onde o esplendor selvagem
+diz melhor com o brilhar d’água anilada e pura.
+do lado é a parte mais azul que ele procura;
+e lá vai… a cismar sobre as ondas serenas,
+entrega à luz do sol a brancura das penas.
+depois, quando, em redor, se confundem, caindo
+a noite, do amplo lago as margens, e no infinito
+horizonte há somente um ponto avermelhado;
+quando tudo quedou, quando no ilimitado
+do céu paira da lua o globo enorme e albente;
+quando acende o lampiro a luz fosforescente,
+e nem o menor sopro o débil junco embala:
+o cisne, sob o olhar dessa noite de opala,
+em seu lago sombrio, enfim, descansa; e, acaso
+visto de alguém, assim, lembra de prata um vaso…
+põe sob a asa a cabeça, os olhos sonolentos
+fecha, e dorme, feliz, entre dois firmamentos.",fr_XX,pt_XX,"<unk> o espelho dos lagos em conjunto e <unk> .
+<unk> <unk> com os seus grandes <unk> .
+e <unk> o <unk> dos seus <unk> é mesmo o mesmo .
+<unk> <unk> que <unk> no <unk> <unk> .
+<unk> <unk> e <unk> branco <unk> sob o <unk> .
+A sua grande asa <unk> , por isso , <unk> <unk> .
+<unk> o seu antigo lado dos <unk> .
+O &quot; <unk> &quot; é o &quot; <unk> &quot; .
+O micélio <unk> como um perfil <unk> como um perfil <unk> .
+<unk> o seu canal negro na sua garganta .
+<unk> o longo dos <unk> <unk> e <unk> .
+<unk> <unk> <unk> os <unk> .
+<unk> atrás dele como uma <unk> .
+<unk> <unk> e <unk> <unk> .
+A gruta em que o poeta ouve o <unk> <unk> .
+e a fonte que a procura de uma falha <unk> .
+<unk> a <unk> .
+Em silêncio , <unk> o seu <unk> .
+<unk> o <unk> <unk> , <unk> ao meio da madeira .
+<unk> <unk> do lado de <unk> .
+<unk> para a sua <unk> <unk> <unk> .
+O que é que o sol está a fazer .
+<unk> quando os economistas de <unk> não se <unk> .
+<unk> onde qualquer forma é um espetro <unk> .
+<unk> <unk> <unk> <unk> em vez de <unk> .
+Então , o que é que não se passa um &quot; <unk> &quot; .
+O que é que os <unk> estão a fazer em <unk> <unk> .
+E o que é que a maior parte da Lua <unk> .
+<unk> no lago negro , onde ele está a <unk> .
+<unk> <unk> noite , e <unk> .
+como uma espécie de lata , como uma espécie de lata .
+<unk> a cabeça entre dois <unk> .",0.01760604014099605,0.16553056971863012,0.5893422961235046,0.89525044
+"ayez pitié, ayez pitié de moi,
+a tout le moins, s’il vous plaît, mes amis!
+en fosse gis, non pas sous houx ne mai,
+en cet exil ouquel je suis transmis
+par fortune, comme dieu l’a permis.
+filles aimant jeunes gens et nouveaux,
+danseurs, sauteurs, faisant les pieds de veaux,
+vifs comme dards, aigus comme aiguillon,
+gousiers tintant clair comme cascaveaux,
+le laisserez là, le pauvre villon ?
+chantres chantant à plaisance, sans loi,
+galants riant, plaisants en faits et dits,
+coureux allant francs de faux or, d’aloi,
+gens d’esperit, un petit étourdis,
+trop demourez, car il meurt entandis.
+faiseurs de lais, de motets et rondeaux,
+quand mort sera, vous lui ferez chaudeaux!
+où gît, il n’entre éclair ne tourbillon:
+de murs épais on lui a fait bandeaux.
+le laisserez là, le pauvre villon?
+venez le voir en ce piteux arroi,
+nobles hommes, francs de quart et de dix,
+qui ne tenez d’empereur ne de roi,
+mais seulement de dieu de paradis;
+jeûner lui faut dimanches et merdis,
+dont les dents a plus longues que râteaux;
+après pain sec, non pas après gâteaux,
+en ses boyaux verse eau à gros bouillon;
+bas en terre, table n’a ne tréteaux.
+le laisserez là, le pauvre villon?
+princes nommés, anciens, jouvenceaux,
+lmpétrez-moi grâces et royaux sceaux,
+et me montez en quelque corbillon.
+ainsi le font, l’un à l’autre, pourceaux,
+car, où l’un brait, ils fuient à monceaux.
+le laisserez là, le pauvre villon?","tende piedade, ó tende piedade
+ao menos vós, amigos mais sentidos!
+no fosso estou, e sem amenidades
+cá neste exílio ao qual fui remetido
+pela sorte, e por deus foi permitido.
+moças, amantes, jovens e donzéis,
+saltimbancos girando sobre os pés,
+gargantas-guizos como cascavéis,
+fica o pobre villon sob os grilhões?
+cantores livres, soltos, à vontade,
+galantes palradores desmedidos,
+biltres sem ouro falso ou de verdade,
+seres de tanto espírito aturdido,
+tardais muito, porque morre estendido!
+com rondós e motetos, menestréis,
+dai-lhe, ao morrer, um bom caldo, ao invés!
+onde está, não vão raios, turbilhões:
+muros espessos são vendas cruéis.
+fica o pobre villon sob os grilhões?
+vinde vê-lo em atroz calamidade,
+nobres homens, sem tributos retidos,
+que sois livres de império e majestade,
+e só a deus no céu sois prometidos.
+terça e domingo são jejuns batidos
+e tem os dentes mais longos que ancinhos;
+após pão seco – e nada de pastéis –
+corre nas tripas água aos borbotões.
+jaz no solo, sem mesa e sem tripés:
+fica o pobre villon sob os grilhões?
+príncipes raros, velhos ou donzéis,
+dai-me o selo real sobre os papéis
+e tirai-me em canastra dos porões;
+até os porcos juntos são fiéis:
+se um ronca, seguem outros em tropéis.
+fica o pobre villon sob os grilhões?",fr_XX,pt_XX,"<unk> de <unk> .
+<unk> o <unk> <unk> <unk> os meus <unk> <unk> .
+A <unk> <unk> não está sob a <unk> .
+Neste exílio , <unk> eu .
+<unk> como Deus <unk> <unk> .
+<unk> jovens .
+<unk> <unk> os pés de <unk> .
+<unk> como &quot; <unk> &quot; , como a <unk> , como <unk> .
+<unk> <unk> claro como <unk> .
+O <unk> <unk> o pobre <unk> ?
+<unk> <unk> a <unk> sem <unk> .
+<unk> <unk> <unk> em função e <unk> .
+<unk> <unk> <unk> .
+<unk> uma pequena <unk> .
+<unk> , porque morreu <unk> .
+<unk> de <unk> de <unk> e <unk> .
+Quando morreu a casa <unk> .
+O que é que eu estava a fazer ?
+<unk> <unk> <unk> .
+O <unk> <unk> o pobre <unk> .
+<unk> o <unk> <unk> .
+<unk> <unk> de Nova Iorque .
+que não é fácil <unk> .
+Mas apenas Deus de <unk> .
+&quot; <unk> &quot; e <unk> &quot; <unk> &quot; .
+O que é que os dentes têm mais longas do que a <unk> .
+Depois do pão <unk> não depois de <unk> .
+Em grande parte , os seus <unk> <unk> .
+Em <unk> na mesa <unk> .
+O <unk> <unk> o pobre <unk> .
+<unk> <unk> <unk> <unk> <unk> .
+<unk> <unk> e <unk> <unk> .
+E eu estava a sair de casa .
+A <unk> <unk> em <unk> <unk> .
+<unk> em que <unk> <unk> <unk> a <unk> .
+O <unk> <unk> o pobre <unk> .",0.0066784977537623896,0.12168530351437702,0.5485886335372925,0.85855746
+"buona vespre! dors: ton bout de cierge…
+on l’a posé là, puis on est parti.
+tu n’auras pas peur seul, pauvre petit?…
+c’est le chandelier de ton lit d’auberge.
+du fesse-cahier ne crains plus la verge,
+va!… de t’éveiller point n’est si hardi.
+buona sera! dors: ton bout de cierge…
+est mort. — il n’est plus, ici, de concierge:
+seuls, le vent du nord, le vent du midi
+viendront balancer un fil-de-la-vierge.
+chut! pour les pieds-plats, ton sol est maudit.
+— buona nocte! dors: ton bout de cierge…","buona vespre! dorme: teu círio termina…
+puseram aqui, depois foram embora.
+pobre criança, não tenhas medo agora…
+é um castiçal de albergue que te ilumina.
+dá o livro à palmatória, é tua sina,
+não temas!… acordar-te é o que os apavora.
+buona sera! dorme: teu círio termina…
+de morrer. – no albergue vazio só te nina
+o vento do sul ou do norte, lá fora,
+que na tua teia de aranha bafora.
+psiu! teu solo o pé-de-anjo abomina.
+– buona notte! dorme: teu círio termina…",fr_XX,pt_XX,"<unk> <unk> o seu pedaço de <unk> .
+<unk> <unk> e <unk> <unk> .
+<unk> o medo da <unk> .
+<unk> o <unk> da cama .
+A <unk> não é mais provável da <unk> .
+<unk> de <unk> , se <unk> <unk> .
+<unk> <unk> o seu pedaço de <unk> .
+<unk> <unk> — <unk> <unk> de <unk> .
+<unk> o vento do almoço do almoço do almoço do almoço do almoço do almoço do
+<unk> o <unk> .
+<unk> para os <unk> o chão .
+<unk> <unk> <unk> o seu pedaço de <unk> .",0.013317098560512542,0.09400179051029545,0.5921823382377625,0.83484143
+"serré, fourmillant, comme un million d’helminthes,
+dans nos cerveaux ribote un peuple de démons,
+et, quand nous respirons, la mort dans nos poumons
+descend, fleuve invisible, avec de sourdes plaintes.
+si le viol, le poison, le poignard, l’incendie,
+n’ont pas encor brodé de leurs plaisants dessins
+le canevas banal de nos piteux destins,
+c’est que notre âme, hélas! n’est pas assez hardie.
+mais parmi les chacals, les panthères, les lices,
+les singes, les scorpions, les vautours, les serpents,
+les monstres glapissants, hurlants, grognants, rampants,
+dans la ménagerie infâme de nos vices,
+il en est un plus laid, plus méchant, plus immonde!
+quoiqu’il ne pousse ni grands gestes ni grands cris,
+il ferait volontiers de la terre un débris
+et dans un bâillement avalerait le monde;
+c’est l’ennui! — l’œil chargé d’un pleur involontaire,
+il rêve d’échafauds en fumant son houka.
+tu le connais, lecteur, ce monstre délicat,
+— hypocrite lecteur, — mon semblable, — mon frère!","espesso, a fervilhar, qual um milhão de helmintos,
+em nosso crânio um povo de demônios cresce,
+e, ao respirarmos, aos pulmões a morte desce,
+rio invisível, com lamentos indistintos.
+se o veneno, a paixão, o estupro, a punhalada
+não bordaram ainda com desenhos finos
+a trama vã de nossos míseros destinos,
+é que nossa alma arriscou pouco ou quase nada.
+em meio às hienas, às serpentes, aos chacais,
+aos símios, escorpiões, abutres e panteras,
+aos monstros ululantes e às viscosas feras,
+no lodaçal de nossos vícios imortais,
+um há mais feio, mais iníquo, mais imundo!
+sem grandes gestos ou sequer lançar um grito,
+da terra, por prazer, faria um só detrito
+e num bocejo imenso engoliria o mundo;
+é o tédio! — o olhar esquivo à mínima emoção,
+com patíbulos sonha, ao cachimbo agarrado.
+tu conheces, leitor, o monstro delicado
+— hipócrita leitor, meu igual, meu irmão!",fr_XX,pt_XX,"<unk> <unk> como um milhão de dólares .
+No nosso cérebro <unk> um povo de <unk> .
+<unk> quando <unk> a morte no nosso pulmão .
+<unk> ilegal <unk> com a <unk> <unk> .
+Se o <unk> o <unk> o &quot; <unk> &quot; o <unk> o <unk> <unk> .
+<unk> não <unk> <unk> dos seus favoritos .
+O &quot; <unk> &quot; <unk> dos nossos <unk> <unk> .
+<unk> que o nosso &quot; <unk> &quot; <unk> <unk> .
+Mas , entre os <unk> os <unk> os <unk> os <unk> os <unk> os <unk> os <unk>
+Os <unk> os <unk> os <unk> os <unk> os <unk> .
+Os monstros <unk> <unk> <unk> <unk> <unk> .
+Na <unk> <unk> dos nossos <unk> .
+É um mais <unk> mais <unk> mais <unk> .
+A <unk> não cresce nem grande <unk> nem grande <unk> .
+<unk> a terra num grão de esgotos .
+e num escândalo <unk> o <unk> .
+<unk> <unk> — <unk> <unk> <unk> <unk> .
+O sonho <unk> em <unk> o seu <unk> .
+<unk> o <unk> <unk> esse monstro <unk> .
+<unk> <unk> — o meu <unk> — o meu <unk> — o meu <unk> — o meu",0.014700444376305544,0.1395875834569733,0.5594995021820068,0.8514834
+"tu t’acharnes sur la beauté.
+et quelles femmes ont été
+victimes de ta cruauté !
+eve, eurydice, cléopâtre;
+j’en connais encor trois ou quatre.","sei que te obstinam as beldades
+e que nelas com acuidade
+exerceu tua crueldade!
+cleópatra, eurídice, eva,
+sei de outras três em tua leva.",fr_XX,pt_XX,"<unk> na <unk> .
+e que mulheres foram eles .
+São vítimas da costa .
+<unk> <unk> <unk> <unk> .
+&quot; <unk> &quot; <unk> três ou <unk> .",0.015340231161598132,0.1014871382636656,0.588075578212738,0.80770814
+"la lune était sereine et jouait sur les flots. –
+la fenêtre enfin libre est ouverte à la brise,
+la sultane regarde, et la mer qui se brise,
+là-bas, d’un flot d’argent brode les noirs îlots.
+de ses doigts en vibrant s’échappe la guitare.
+elle écoute… un bruit sourd frappe les sourds échos.
+est-ce un lourd vaisseau turc qui vient des eaux de cos
+battant l’archipel grec de sa rame tartare?
+sont-ce des cormorans qui plongent tour à tour,
+et coupent l’eau, qui roule en perles sur leur aile?
+est-ce un djinn qui là-haut siffle d’une voix grêle,
+et jette dans la mer les créneaux de la tour?
+qui trouble ainsi les flots près du sérail des femmes? –
+ni le noir cormoran, sur la vague bercé,
+ni les pierres du mur, ni le bruit cadencé
+du lourd vaisseau, rampant sur l’onde avec des rames.
+ce sont des sacs pesants, d’où partent des sanglots,
+on verrait, en sondant la mer qui les promène,
+se mouvoir dans leurs flancs comme une forme humaine…
+la lune était sereine et jouait sur les flots.","serena paira a lua e nas ondas rebrilha.
+livre a janela, enfim, aberta para a brisa,
+a sultana olha, além, e o mar que se repisa,
+com um fluxo de prata adorna as negras ilhas.
+vibrando, de seus dedos, escapa a guitarra.
+ela ouve… um surdo som golpeia os surdos ecos.
+uma grande nau turca a vir de águas de cos
+a agitar o arquipélago com remos tártaros?
+os alcatrazes, um a um, a mergulhar
+cotando a água que rola em pérolas sobre as asas?
+será um djim que lá do alto assovia em voz rasa
+e lança ameias lá da torre para o mar?
+quem pois resolve as vagas lá perto do harém?
+nem o negro alcatraz sobre o fluxo embalado,
+nem as pedras do muro ou o rumo ritmado
+da grande nau pela onda e remos em vaivém.
+são alforjes de peso; e dos prantos a trilha.
+ver-se-ia ao sondar o mar que os engalana,
+moverem-se em seus flancos tal qual forma humana…
+serena paira a lua e nas ondas rebrilha.",fr_XX,pt_XX,"A lua era <unk> e estava a trabalhar nos <unk> —
+A janela , finalmente , é aberta à <unk> .
+A <unk> <unk> e o mar que se <unk> .
+<unk> <unk> <unk> <unk> os negros <unk> .
+Os seus dedos <unk> a <unk> <unk> .
+<unk> um barulho que <unk> os médicos <unk> .
+Esta é uma grande nave de <unk> que vem das águas de <unk> .
+<unk> o <unk> grego da sua <unk> <unk> .
+<unk> <unk> que <unk> a <unk> .
+<unk> <unk> que está a andar em <unk> no seu <unk> .
+Este é um génio que está lá em cima <unk> .
+e <unk> no mar os <unk> da <unk> da <unk> .
+O que é que é que as bactérias podem fazer .
+Ou o negro <unk> na onda <unk> .
+Ou as pedras do <unk> nem o ruído <unk> .
+<unk> <unk> <unk> com <unk> <unk> com <unk> .
+Estes são sacos <unk> <unk> .
+<unk> em <unk> o mar que as <unk> <unk> o mar que os <unk> <unk> .
+<unk> nos seus <unk> como uma forma <unk> .
+A lua era <unk> e estava a trabalhar nos <unk> .",0.04180921688314792,0.2165948957216552,0.6198475956916809,0.7951886
+"on a dit qu’une vierge à la parure d’or
+sur l’épaule des flots vint de cypre à cythère,
+et que ses pieds polis, en caressant la terre,
+à chacun de ses pas laissèrent un trésor.
+l’oiseau vermeil, qui chante en prenant son essor,
+emplit d’enchantements la forêt solitaire,
+et les ruisseaux glacés où l’on se désaltère,
+sentirent dans leurs flots plus de fraîcheur encor.
+la fleur s’ouvrit plus pure aux baisers de la brise,
+et sous les myrtes verts, la vierge plus éprise
+releva dans ses bras son amant à genoux.
+de même quand plus tard, autre anadyomène,
+la renaissance vint, et rayonna sur nous,
+toute chose fleurit au fond de l’âme humaine.","diz-se que uma virgem com ornamentos d’ouro,
+no ombro das ondas, vinha entre o chipre e citera,
+que os seus luzentes pés, acariciando a terra,
+a cada passo dado deixava um tesouro.
+canta o pássaro rubro a revoar, sem coro
+encanta o bosque enquanto a solidão aterra,
+e os frios arroios onde o homem se desaltera,
+sentiram mais frescor desde o seu minadouro.
+a flor se abre mais pura aos beijos da nortada,
+e sob murtas a virgem mais enamorada
+reergue nos seus braços o amante ajoelhado,
+tal como floresceu no fundo da alma do homem
+na vinda renascença, e sobre nós brilhado
+tem da mesma maneira esta outra anadiômena.",fr_XX,pt_XX,"&quot; <unk> &quot; em <unk> <unk> .
+<unk> de <unk> <unk> em <unk> .
+e os seus pés <unk> a <unk> a <unk> a <unk> .
+A cada um dos seus passos <unk> um &quot; <unk> &quot; .
+<unk> <unk> que <unk> o seu <unk> .
+<unk> <unk> a floresta <unk> .
+e os <unk> <unk> em que <unk> se <unk> .
+<unk> nos seus raios mais <unk> <unk> .
+A flor <unk> mais sensível aos <unk> da <unk> da <unk> .
+e sob os <unk> <unk> a <unk> .
+<unk> nos braços do seu companheiro a <unk> .
+De mesmo modo , quando mais <unk> mais <unk> .
+<unk> <unk> e <unk> em <unk> em <unk> .
+<unk> no fundo do <unk> <unk> .",0.01661408248394792,0.1853290985268279,0.5788880586624146,0.80356014
+"j’ai vu le soleil dur contre les touffes
+ferrailler. — j’ai vu deux fers soleiller,
+deux fers qui faisaient des parades bouffes;
+des merles en noir regardaient briller.
+un monsieur en ligne arrangeait sa manche;
+blanc, il me semblait un gros camélia;
+une autre fleur rose était sur la branche,
+rose comme… et puis un fleuret plia.
+— je vois rouge… ah oui! c’est juste: on s’égorge —
+… un camélia blanc — là — comme sa gorge…
+un camélia jaune, — ici — tout mâché…
+amour mort, tombé de ma boutonnière.
+— à moi, plaie ouverte et fleur printanière!
+camélia vivant, de sang panaché!","eu vi o sol duro de encontrar aos tufos
+esgrimir. – vi a esgrima ensolarar,
+fazendo paradas em lances bufos;
+melros de negro assistiam brilhar.
+um senhor em camisa se apromtava;
+parecia uma camélia, todo branco;
+no ramo outra flor rosa vicejava
+como… e o florete vergou num flanco.
+– raiva, estou roxo!… ah! ele me degola –
+… camélia branca – lá – como sua gola…
+camélia amarela, – aqui – mastigada…
+meu amor morto, da lapela caiu.
+– eu , chaga aberta, flor primaveril!
+camélia viva, de sangue matizada!",fr_XX,pt_XX,"<unk> o sol , <unk> o sol .
+<unk> ... <unk> .
+<unk> que estavam a fazer <unk> <unk> .
+<unk> em branco .
+Um senhor na linha &quot; online &quot; .
+E eu parecia uma grande <unk> .
+A outra flor foi sobre a <unk> .
+&quot; <unk> &quot; e depois um <unk> <unk> .
+( Risos ) Eu vejo <unk> <unk> <unk> <unk> .
+Um <unk> branco — como a sua <unk> .
+Um &quot; <unk> &quot; <unk> — aqui — tudo — tudo o que está a fazer .
+♪ <unk> <unk> da minha <unk> .
+— a <unk> e a flor <unk> .
+<unk> <unk> de sangue <unk> .",0.01714543305344374,0.1725111300558871,0.6232097148895264,0.846628
+"il paraît que j’ai un beau sourire,
+que mes yeux pétillent,
+que mon regard fascine,
+il est vrai que j’aime la vie.
+il paraît que mes mots sont forts,
+que suis douce et tendre,
+que j’inspire le bonheur,
+il est vrai que les envies me supportent.
+si mon sourire est beau,
+si mes yeux pétillent,
+si mon regard fascine,
+je ne vois que votre âme.
+si mes mots sont forts,
+si je suis douce et tendre,
+si j’inspire le bonheur,
+je ne vois que votre cœur.
+où est le mal, je ne le vois pas,
+si je ne vois que le bien !
+ou est la critique, je ne le fais pas,
+si je ne sais pas juger !
+je me laisse bercer,
+je suis le rythme.
+je me laisse guider,
+j’ai confiance en vous.
+je glisse …
+dans l’intelligence du cœur,
+dans la beauté de l’âme,
+dans la façon élégante,
+dont les choses sont faites.
+et …
+puisse moi ne pas me tromper,
+puissent les anges m’accompagner.","parece que tenho um belo sorriso,
+que meus olhos faíscam,
+que meu olhar facina,
+é verdade que eu amo a vida.
+parece que minhas palavras são fortes,
+que sou serena e carinhosa,
+que inspiro a felicidade,
+é verdade que os desejos me suportam.
+se meu sorriso é bonito,
+se meus olhos faíscam,
+se meu olhar facina,
+é que so vejo sua alma.
+se minhas palavras são fortes,
+se sou serena e carinhosa,
+se inspiro a felicidade,
+é que so vejo seu coração.
+onde esta o mal, eu não o vejo,
+se eu so vejo o bem !
+onde esta a crítica, eu não a faço,
+se eu não sei julgar !
+eu me deixo balançar,
+eu sigo o ritmo,
+eu me deixo guiar,
+tenho confiança em voce.
+eu desliso …
+na inteligência do coração,
+na beleza da alma,
+na maneira elegante,
+com a qual as coisas são feitas.
+e …
+possa eu não me enganar.
+possam os anjos me acompanhar.",fr_XX,pt_XX,"Parece que <unk> um belo <unk> .
+Os meus olhos <unk> que os meus olhos <unk> .
+O meu olhar <unk> que o meu olhar <unk> .
+É verdade que <unk> a <unk> .
+Parece que as minhas palavras são <unk> .
+<unk> e <unk> .
+<unk> o <unk> .
+É verdade que os <unk> <unk> .
+O meu sorriso é <unk> .
+Os meus olhos <unk> .
+O meu olhar <unk> .
+Eu não vejo que o vosso &quot; <unk> &quot; .
+As minhas palavras são <unk> .
+Se eu sou mortal e <unk> .
+<unk> o <unk> .
+Eu não vejo que o vosso &quot; <unk> &quot; .
+Onde é o &quot; <unk> &quot; eu não o vejo .
+Se eu não vejo que o bem !
+Ou seja a <unk> eu não o faço .
+Não sei se eu não sei .
+<unk> <unk> <unk> .
+Eu sou o &quot; <unk> &quot; .
+<unk> <unk> <unk> .
+<unk> confiança em <unk> .
+Eu estava a <unk> .
+Em <unk> do <unk> do <unk> do <unk> .
+Na beleza de <unk> .
+Na forma <unk> , na forma como <unk> .
+As coisas são <unk> .
+e <unk> .
+Posso eu não me <unk> .
+<unk> os impérios <unk> .",0.062360857581693234,0.32750683381975026,0.6084167957305908,0.90804505

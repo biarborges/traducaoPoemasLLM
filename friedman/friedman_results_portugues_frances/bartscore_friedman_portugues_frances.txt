@@ -1,0 +1,4 @@
+Friedman test for BARTSCORE:
+Statistic = 1216.0000
+P-value = 2.4486359580e-258
+Significant difference found.

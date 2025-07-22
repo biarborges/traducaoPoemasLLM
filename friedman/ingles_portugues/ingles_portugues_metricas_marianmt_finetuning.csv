@@ -1,0 +1,1692 @@
+original_poem,translated_poem,src_lang,tgt_lang,translated_by_TA,bleu_score,meteor_score,bertscore,bartscore
+"how can i then return in happy plight,
+that am debarr’d the benefit of rest?
+when day’s oppression is not eas’d by night,
+but day by night, and night by day oppress’d,
+and each, though enemies to either’s reign,
+do in consent shake hands to torture me,
+the one by toil, the other to complain
+how far i toil, still further off from thee.
+i tell the day, to please him thou art bright
+and dost him grace when clouds do blot the heaven:
+so flatter i the swart-complexion’d night;
+when sparkling stars twire not thou gild’st the even.
+but day doth daily draw my sorrows longer,
+and night doth nightly make grief’s strength seem stronger.","como hei de restaurar-me na bonança
+se órfão da graça do repouso vi-me,
+pois a opressão do dia a noite alcança,
+da noite o dia, e dia e noite oprime;
+que ambos, embora em natureza opostos,
+deram-se as mãos para me dar tortura:
+um dá-me a dura pena, outro desgostos,
+que este penar longe de ti mais dura.
+digo que és luz para agradar ao dia,
+e, se há nuvens, que podes removê-las;
+louvo também da noite a tez sombria:
+douras o céu se não houver estrelas.
+mas cada dia, o dia a dor aumenta
+e cada noite, a noite inda a acrescenta.",en_XX,pt_XX,"como posso, então, voltar em feliz situação,
+- que debarr'd o benefício do descanso?
+quando a opressão do dia não é facilitada à noite,
+dia de noite, e noite de dia oprimido,
+e cada um, embora seja inimigo do seu reinado,
+com consentimento, aperte as mãos para me torturar,
+um de labuta, o outro de queixar-se
+o quanto eu trabalho, ainda mais longe de ti.
+eu digo o dia, para agradá-lo tu és brilhante
+e agracia-o quando as nuvens apagam o céu;
+tão lisonjeada a noite da complexão do swart;
+quando as estrelas cintilantes não se agarram ao par.
+mas o dia me tira diariamente as dores por mais tempo,
+e a noite faz a força do luto parecer mais forte.",0.08238831800928506,0.3819438667443096,0.7292607426643372,0.9790107
+"and high above them, over the tall cliffs’
+semi-translucent ranks,
+are scribbled hundreds of fine black birds
+hanging in n’s in banks.
+one can hear their crying, crying,
+the only sound there is
+except for occasional sighing
+as a large aquatic animal breathes.
+in the pink light
+the small red sun goes rolling, rolling,
+round and round and round at the same height
+in perpetual sunset, comprehensive, consoling,
+while the ships consider it.
+apparently they have reached their destination.
+it would be hard to say what brought them there,
+commerce or contemplation.","lá no alto, acima dos barrancos
+diáfanos e solenes,
+centenas de gaivotas garatujam-se,
+formando fileiras de enes.
+elas pipilam, pipilam,
+um som triste, mas simpático,
+tendo por contraponto o suspiro
+de algum mamífero aquático.
+na luz rósea
+um solzinho vermelho rola, rola,
+dá voltas e voltas, na mesma altura,
+num crepúsculo eterno, e consola,
+enquanto o perscrutam os navios.
+chegaram ao porto, pelo visto. mas não
+se sabe o que os trouxe até ali,
+se comércio ou contemplação.",en_XX,pt_XX,"e sobre eles, sobre as arribas altas.
+fileiras semi-translúcidas,
+são rabiscadas centenas de ave-preta
+em n’s em bancos.
+pode-se ouvir o seu choro, o seu choro,
+o único som que existe
+com excepção de suspirações ocasionais
+como um grande animal aquático respira.
+na luz cor-de-rosa
+o pequeno sol vermelho rola, rola,
+round e round e round na mesma altura
+em por do sol perpétuo, compreensivo, consolador,
+enquanto os navios o consideram.
+aparentemente chegaram ao seu destino.
+seria difícil dizer o que os trouxe para lá,
+comércio ou contemplação.",0.1277471851369101,0.40353643724696353,0.7614085078239441,0.9714758
+"i reason, earth is short,
+and anguish absolute,
+and many hurt;
+but what of that?
+i reason, we eould die:
+the best vitality
+cannot excel decay;
+but what of that?
+i reason that in heaven
+somehow, it will be even.
+some new equation given:
+but what of that","a vida é curta,
+a dor absoluta,
+muitos caem na luta:
+mas e daí?
+mesmo o mais forte,
+não vence a morte,
+essa é a humana sorte:
+mas, e daí?
+no céu de algum modo as contas
+se acertarão
+em nova eouação
+mas, e daí?",en_XX,pt_XX,"a razão, a terra é curta,
+e angústia absoluta,
+e muitos feridos;
+mas o que dizer disso?
+eu raciocinar, nós eould morrer:
+a melhor vitalidade
+não pode excel decaimento;
+mas o que dizer disso?
+eu raciocinar que no céu
+de alguma forma, será par.
+uma nova equação dada:
+mas o que isso",0.060338253206241386,0.2866771962364033,0.7275316715240479,0.9629793
+"i never saw a moor,
+i never saw the sea;
+yet know i how the heather looks,
+and what a wave must be.
+i never spoke with god,
+nor visited in heaven:
+yet certain am i of the spot
+as if the chart were given.","nunca vi o deserto,
+nunca vi o mar;
+no entanto sei como é o cactus,
+e a vaga a ondular.
+nunca falei com deus.
+nem fui ao paraíso;
+mas conheço o caminho
+qual mapa preciso.",en_XX,pt_XX,"eu nunca vi um mouro,
+eu nunca vi o mar;
+- ainda sei como a urze se parece,
+e o que uma onda deve ser.
+eu nunca falei com Deus,
+nem visitada no céu:
+– ainda estou certo do ponto
+- como se o gráfico fosse dado.",0.1460138278657807,0.44279038017223277,0.7875751852989197,0.9517009
+"my glass shall not persuade me i am old,
+so long as youth and thou are of one date;
+but when in thee time’s furrows i behold,
+then look i death my days should expiate.
+for all that beauty that doth cover thee
+is but the seemly raiment of my heart,
+which in thy breast doth live, as thine in me:
+how can i then, be elder than thou art?
+o! therefore, love, be of thyself so wary
+as i, not for myself, but for thee will;
+bearing thy heart, which i will keep so chary
+as tender nurse her babe from faring ill.
+presume not on thy heart when mine is slain;
+thou gav’st me thine, not to give back again.","o espelho não me prova que envelheço
+enquanto andares par com a mocidade;
+mas se de rugas vir teu rosto impresso,
+já sei que a morte a minha vida invade.
+pois toda essa beleza que te veste
+vem de meu coração, que é teu espelho;
+o meu vive em teu peito, e o teu me deste:
+por isso como posso ser mais velho?
+portanto, amor, tenhas de ti cuidado
+que eu, não por mim, antes por ti, terei;
+levar teu coração, tão desvelado
+qual ama guarda o doce infante, eu hei.
+e nem penses em volta, morto o meu,
+pois para sempre é que me deste o teu.",en_XX,pt_XX,"o meu copo não me convencerá de que sou velho,
+enquanto a mocidade e tu fores de uma só data;
+mas quando no teu tempo eu eis,
+eis a morte que os meus dias devem expiar.
+por toda a beleza que te cobre
+é, mas as vestes do meu coração,
+que no teu peito vives, como o teu em mim;
+como posso eu, então, ser mais velho do que tu és?
+
+como eu, não para mim, mas para ti;
+Levando o teu coração, que eu vou manter tão acalentado
+como amazã tenra do seu bébé, de se adoecer.
+não presumas no teu coração quando o meu for morto;
+tu me gav’t teu, para não dar de volta.",0.07360118880748553,0.3803028646301023,0.7763482332229614,0.9817457
+"our dual presence has its unity
+in that perfection of body which my love,
+by loving it, became, and did from life
+raise into godness, calm above the strife
+of times, and changing passions far above.
+but since men see more with the eyes than soul,
+still i in stone shall utter this great dole;
+still, eager that men hunger by thy presence,
+i shall to marble carry this regret
+that in my heart like a great star is set.
+thus, even in stone, our love shall stand so great
+in thy statue of us, like a god's fate,
+our love's incarnate and discarnate essence,
+that, like a trumpet reaching over seas
+and going from continent to continent,
+our love shall speak its joy and woe, death-blent,
+over infinities and eternities.","nossa dual presença tem sua unidade
+na perfeição corpórea em que meu amor,
+amando-a, se tornou, e elevou da vida
+à divindade, calma sobre a luta-tempo
+e muito acima das paixões mutáveis.
+mas se homens mais veem d'olhos que d'alma,
+eis que em pedra clamarei minha grande dor;
+e zeloso dos homens, famintos de tua presença,
+transporei ao mármore esta mágoa
+que em meu coração como grande estrela se posta.
+assim, mesmo em pedra se erguerá nosso amor tão grande
+em tua nossa estátua, qual de um deus destino,
+encarnada-desencarnada essência do nosso amor,
+que, qual trompa ressoando além-mar
+e indo de continente a continente,
+nosso amor dirá sua alegre dor, morte-mesclando,
+sobre infinidades e eternidades.",en_XX,pt_XX,"a nossa dupla presença tem a sua unidade
+na perfeição do corpo que o meu amor,
+- por amá-lo, tornou-se, e fez da vida
+elevar a divindade, calma acima da contenda
+de tempos, e de paixões mutáveis muito acima.
+mas, visto que os homens vêem mais com os olhos do que com a alma,
+eu ainda em pedra pronunciarei este grande dole;
+ainda, ansioso para que os homens tenham fome pela tua presença,
+
+Que no meu coração, como uma grande estrela, se ponha.
+assim, mesmo em pedra, o nosso amor se manterá tão grande
+na tua estátua de nós, como o destino de um deus,
+a essência encarnada e desencarnada do nosso amor,
+que, como uma trombeta que se estende sobre o mar
+e indo de continente a continente,
+o nosso amor falará a sua alegria e ai, clemente de morte,
+sobre infinitos e eternidades.",0.18333678493258854,0.5282645694093208,0.8377662897109985,0.98501915
+"the sparrows hurriedly begin their play.
+then, in the west, “boom!” and a cloud of smoke.
+“boom!” and the exploding ball
+of blossom blooms again.
+(and all the employees who work in plants
+where such a sound says “danger,” or once said “death,”
+turn in their sleep and feel
+the short hairs bristling
+on backs of necks.) the cloud of smoke moves off.
+a shirt is taken off a threadlike clothes-line.
+along the street below
+the water-wagon comes
+throwing its hissing, snowy fan across
+peelings and newspapers. the water dries
+light-dry, dark-wet, the pattern
+of the cool watermelon.
+i hear the day-springs of the morning strike
+from stony walls and halls and iron beds,
+scattered or grouped cascades,
+alarms for the expected:
+queer cupids of all persons getting up,
+whose evening meal they will prepare all day,
+you will dine well
+on his heart, on his, and his,
+so send them about your business affectionately,
+dragging in the streets their unique loves.
+scourge them with roses only,
+be light as helium,
+for always to one, or several, morning comes,
+whose head has fallen over the edge of his bed,
+whose face is turned
+so that the image of
+the city grows down into his open eyes
+inverted and distorted. no. i mean
+distorted and revealed,
+if he sees it at all.","pardais apressados começam o espetáculo.
+então, do oeste, um “bum!” e uma nuvem de fumaça.
+“bum!” e a bola de flor
+explode em fogo outra vez.
+(e os operários de fábricas para quem
+este som diz “perigo”, e outrora “morte”,
+se viram na cama e sentem
+eriçar-se os cabelos
+da nuca.) a nuvem de fumaça se afasta.
+de um fio de varal tira-se uma camisa.
+pela rua passa
+o caminhão d’água
+lançando um leque alvo e sibilante
+sobre jornais e cascas. onde seca
+é claro, o molhado é escuro,
+como na fresca melancia.
+ouço as molas da manhã soando
+em muros, corredores, camas de ferro,
+soltas ou em arpejos,
+alarmes esperados:
+levantam-se os cupidos improváveis
+de quem vai preparar-lhes o jantar,
+vocês vão alimentar-se
+do coração dele, e dele,
+assim, despachem com afeto esses que saem
+arrastando pela rua seus amores singulares.
+neles só batam com rosas,
+sejam leves como o hélio,
+pois o dia sempre chega a um caído
+com a cabeça para fora do colchão,
+rosto virado de modo
+que a imagem da cidade
+surge em seus olhos abertos inversa
+e distorcida. não. melhor dizendo:
+distorcida e revelada,
+se é que ele a vê de fato.",en_XX,pt_XX,"os pardais apressam-se a começar a sua peça.
+então, no oeste, “boom!” e uma nuvem de fumaça.
+“boom!” e a bola explodindo
+de flor desabrocha novamente.
+(e todos os funcionários que trabalham em
+onde tal som diz “perigo”, ou uma vez disse “morte”,
+- em seu sono e sentir
+os pêlos curtos
+nas costas dos pescoços.) a nuvem de fumaça se move.
+- uma camisa é retirada de uma linha de roupas threadlike.
+- ao longo da rua abaixo
+- o vagão d'água vem
+jogando seu assobio, fã nevado do outro lado
+peelings e jornais. a água seca
+light-seco, escuro-molhado, o padrão
+da melancia fresca.
+ouço as auroras da greve matinal
+de paredes e halls pedregosos e de leitos de ferro,
+em cascatas dispersas ou agrupadas,
+alarmes para o esperado:
+queer cupidos de todas as pessoas que se levantam,
+cujas refeições da tarde prepararão o dia todo,
+- você vai jantar bem
+no seu coração, no seu, e no seu,
+então mande-os sobre o seu negócio afetuosamente,
+- arrastando nas ruas seus amores únicos.
+esfregando-os apenas com rosas,
+ser leve como o hélio,
+para sempre para um, ou vários, a manhã vem,
+cuja cabeça caiu sobre a orla do seu leito,
+
+para que a imagem de
+a cidade cresce em seus olhos abertos
+invertido e distorcido. não. eu quero dizer
+distorcidas e reveladas,
+se ele o vir de todo.",0.1698064231179223,0.47541731264214815,0.7890636920928955,0.9900876
+"hang with festoons and wreaths and coronals
+the corridors and halls!
+be there all round the sound of gay bells ringing!
+let there be echoing singing!
+pour out like a libation all your joy!
+shout, even ye children, little maid and boy
+whose belly yet unfurred yet whitely decks
+a sexless thing of sex!
+shout out as if ye knew what joy this is
+you clap at in such bliss!","enfeitai com festões, guirlandas e coroas
+os corredores e salas!
+que haja ao redor o alegre som de sino tinindo!
+que haja ecoante canto!
+vertei qual libação toda a alegria!
+gritai mesmo vós, pequenos, menina e rapaz
+cujo ventre 'inda liso orna cândido
+um assexuado algo de sexo!
+berrai como se soubésseis que alegria é esta
+que aplaudis com tal deleite!",en_XX,pt_XX,"com festões e grinaldas e coronais
+os corredores e halls!
+estar lá todo o som de sinos gays tocando!
+faça-se ecoar o canto!
+despeje como uma libação toda a sua alegria!
+shout, que filhinhos, garçom e garçom
+
+- uma coisa sem sexo do sexo!
+gemei como se soubésseis a alegria que isto é
+você aplaude em tal bem-aventurança!",0.06840570875937638,0.3710630336805885,0.7736841440200806,0.9773394
+"lullaby.
+adult and child
+sink to their rest.
+at sea the big ship sinks and dies,
+lead in its breast.
+lullaby.
+let nations rage,
+let nations fall.
+the shadow of the crib makes an enormous cage
+upon the wall.
+lullaby.
+sleep on and on,
+war’s over soon.
+drop the silly, harmless toy,
+pick up the moon.
+lullaby.
+if they should say
+you have no sense,
+don’t you mind them; it won’t make
+much difference.
+lullaby.
+adult and child
+sink to their rest.
+at sea the big ship sinks and dies,
+lead in its breast.","nana neném.
+criança e adulto
+dormem fundo.
+no mar, o navio ferido naufraga,
+cheio de chumbo.
+nana neném.
+países brigam,
+países morrem.
+a sombra do berço traça na parede
+uma gaiola enorme.
+nana neném.
+dorme que a guerra acaba
+e o sono continua.
+larga esse brinquedo bobo
+e pega a lua.
+nana neném.
+se alguém disser
+que criança não tem siso,
+não liga pra eles não, que isso de siso
+não é preciso.
+nana neném.
+criança e adulto
+dormem fundo.
+no mar, o navio ferido naufraga,
+cheio de chumbo.",en_XX,pt_XX,"lullaby.
+adulto e criança
+para o seu descanso.
+no mar o grande navio afunda e morre,
+- chumbo em seu peito.
+lullaby.
+que as nações se enfureçam,
+Que as nações caiam.
+a sombra do presépio faz uma enorme jaula
+sobre a parede.
+lullaby.
+dormir sobre e sobre,
+A guerra está acabada em breve.
+largar o brinquedo tonto e inómodo,
+- Apanha a lua.
+lullaby.
+se é que se deve dizer
+você não tem sentido,
+não se importe com eles; isso não vai fazer
+- muita diferença.
+lullaby.
+adulto e criança
+para o seu descanso.
+no mar o grande navio afunda e morre,
+- chumbo em seu peito.",0.06390478919667687,0.3666818266388275,0.7861669063568115,0.95931095
+"last night another big one fell.
+it splattered like an egg of fire
+against the cliff behind the house.
+the flame ran down. we saw the pair
+of owls who nest there flying up
+and up, their whirling black-and-white
+stained bright pink underneath, until
+they shrieked up out of sight.
+the ancient owls’ nest must have burned.
+hastily, all alone,
+a glistening armadillo left the scene,
+rose-flecked, head down, tail down,
+and then a baby rabbit jumped out,
+short-eared, to our surprise.
+so soft! — a handful of intangible ash
+with fixed, ignited eyes.
+too pretty, dreamlike mimicry!
+o falling fire and piercing cry
+and panic, and a weak mailed fist
+clenched ignorant against the sky!","ontem caiu um grande aqui perto
+na encosta de pedra nua.
+quebrou como um ovo de fogo.
+as chamas desceram. vimos duas
+corujas fugindo do ninho,
+os dorsos das asas ariscas
+tingidas de um rosa vivo,
+guinchando até sumirem de vista.
+o velho ninho se incendiara.
+sozinho, em polvorosa,
+um tatu reluzente fugiu,
+cabisbaixo, salpicado de rosa,
+depois um ser de orelhas curtas,
+por estranho que pareça, um coelho.
+tão macio! — pura cinza intangível
+com olhos fixos, dois pontos vermelhos.
+ah, mimetismo frágil, onírico!
+fogo caindo, um escarcéu
+e um punho cerrado, ignorante
+e débil, voltado contra o céu!",en_XX,pt_XX,"na noite passada, outro grande caiu.
+- slattered como um ovo de fogo
+- contra o precipício atrás da casa.
+a chama afundou. nós vimos o par
+de corujas que nidificam lá voando para cima
+e para cima, o seu ronronar preto-e-branco
+tingido cor-de-rosa brilhante por baixo, até
+eles gritavam para fora da vista.
+o ninho das corujas antigas deve ter sido queimado.
+s pressas, sós,
+um tatu reluzente deixou a cena,
+rose-flecked, head down, tail down,
+e então um coelhinho saltou para fora,
+de orelhas curtas, para nossa surpresa.
+tão macio! um punhado de cinzas intangíveis
+com olhos fixos e inflamados.
+muito bonita, mímica onírica!
+Queda de fogo e piercing
+e pânico, e um punho fraco
+- ignorantes cerrados contra o céu!",0.1283410648489553,0.408353331845072,0.7561956644058228,0.9314325
+"cootchie, miss lula’s servant, lies in marl,
+black into white she went
+below the surface of the coral-reef.
+her life was spent
+in caring for miss lula, who is deaf,
+eating her dinner off the kitchen sink
+while lula ate hers off the kitchen table.
+the skies were egg-white for the funeral
+and the faces sable.
+tonight the moonlight will alleviate
+the melting of the pink wax roses
+planted in tin cans filled with sand
+placed in a line to mark miss lula’s losses;
+but who will shout and make her understand?
+searching the land and sea for someone else,
+the lighthouse will discover cootchie’s grave
+and dismiss all as trivial; the sea, desperate,
+will proffer wave after wave.","cootchie, a criada da dona lula, jaz em marga,
+negra no branco, afundou
+na superfície do recife de coral.
+a vida toda ela passou
+cuidando da dona lula, que escuta mal,
+comendo seu jantar na pia da cozinha
+enquanto lula, na mesa da cozinha, comia o seu.
+no enterro dela, o céu era bem alvo
+e os rostos feito breu.
+esta noite a lua vai aliviar
+o desmanchar-se das rosas de cera rosada
+plantadas em latas de areia grossa
+que assinalam as perdas da dona lula, coitada;
+mas quem há de gritar pra que ela ouça?
+varrendo terra e mar em busca de outro alguém,
+o farol vai dar com cootchie em sua cova funda
+e ignorá-la, por trivial; desesperado, o mar
+há de ofertar onda após onda.",en_XX,pt_XX,"cootchie, serva da senhorita lula, deita-se em marl,
+- preto em branco ela foi
+abaixo da superfície do recife de coral.
+sua vida foi gasta
+no cuidado da senhorita lula, surda,
+jantando na pia da cozinha
+enquanto a lula comia a dela da mesa da cozinha.
+os céus estavam esbranquiçados para o funeral
+e as faces sable.
+esta noite o luar aliviará
+o degelo das rosas de cera cor-de-rosa
+plantado em latas cheias de areia
+colocado numa linha para marcar as perdas de Miss Lula;
+mas quem gritará e a fará entender?
+procurar a terra e o mar por outra pessoa,
+o farol descobrirá o túmulo de cootchie
+e desprezem tudo como trivial; o mar, desesperado,
+",0.14094727721311862,0.39726049818487597,0.8106033205986023,0.9791477
+"the bustle in a house
+the morning after death
+is solemnest of industries
+enacted upon earth,
+the sweeping up the heart,
+and putting love away
+we shall not want to use again
+until eternity.","que alvoroço na casa
+onde alguém morreu
+trabalho mais solene
+entre a terra e o céu,
+varrer do coração,
+e guardar com saudade
+o amor que não se vai usar
+até a eternidade.",en_XX,pt_XX,"a azáfama em uma casa
+a manhã após a morte
+é a mais solene das indústrias
+decretado na terra,
+o arremecer o coração,
+e pondo o amor de lado
+nós não vamos querer usar de novo
+até a eternidade.",0.11039611432552113,0.4537335573619121,0.7635822892189026,0.9645618
+"babies with pointed heads
+wound round and round with string;
+black, naked women with necks
+wound round and round with wire
+like the necks of light bulbs.
+their breasts were horrifying.
+i read it right straight through.
+i was too shy to stop.
+and then i looked at the cover:
+the yellow margins; the date.
+suddenly, from inside,
+came an oh! of pain
+— aunt consuelo’s voice —
+not very loud or long.
+i wasn’t at all surprised;
+even then i knew she was
+a foolish, timid woman.
+i might have been embarrassed,
+but wasn’t. what took me
+completely by surprise
+was that it was me:
+my voice, in my mouth.
+without thinking at all
+i was my foolish aunt,
+i — we — were falling, falling,
+our eyes glued to the cover
+of the national geographic,
+february, 1918.","bebês com cabeças pontudas
+com espirais de barbante;
+mulheres negras e nuas
+com espirais no pescoço
+tal como se fossem lâmpadas.
+seus peitos eram medonhos.
+li a revista todinha,
+sem coragem de parar.
+então olhei para a capa:
+a borda amarela, a data.
+de repente, lá de dentro
+veio um grito, ai!, de dor
+— voz da tia consuelo —
+não muito alto, nem comprido.
+eu não me surpreendi:
+já sabia que ela era
+uma mulher boba e medrosa.
+não senti vergonha alguma,
+embora tivesse motivo.
+o que me espantou por completo
+foi sentir que era eu:
+minha voz, na minha boca.
+sem pensar, eu era agora
+a boboca da minha tia,
+eu — nós — caíamos, olhando
+a capa da national geographic
+de fevereiro de mil
+novecentos e dezoito.",en_XX,pt_XX,"Bebês com cabeça pontiaguda
+ferida rótula e rótula com corda;
+preto, nu, mulheres, com, pescoços
+ferida redonda e redonda com fio
+como os pescoços das lâmpadas.
+seus seios eram horripilantes.
+Eu li direto.
+eu era muito tímido para parar.
+e então eu olhei para a capa:
+as margens amarelas; a data.
+De repente, por dentro,
+um oh! de dor
+a voz da tia consuelo
+não muito alto ou longo.
+não me surpreendi de todo;
+mesmo então eu sabia que ela era
+- uma mulher tola e tímida.
+eu poderia ter ficado envergonhada,
+mas não era. o que me levou
+- completamente de surpresa
+que era eu:
+a minha voz, na minha boca.
+sem pensar em tudo
+eu era a minha tia tola,
+nós estávamos caindo, caindo,
+os nossos olhos colados à capa
+da geografia nacional,
+fevereiro de 1918.",0.2192037212735424,0.532460714552914,0.7957717776298523,0.98670375
+"some glory in their birth, some in their skill,
+some in their wealth, some in their body’s force;
+some in their garments, though new-fangled ill;
+some in their hawks and hounds, some in their horse;
+and every humour hath his adjunct pleasure,
+wherein it finds a joy above the rest:
+but these particulars are not my measure;
+all these i better in one general best.
+thy love is better than high birth to me,
+richer than wealth, prouder than garments’ cost,
+of more delight than hawks or horses be;
+and having thee, of all men’s pride i boast:
+wretched in this alone, that thou mayst take
+all this away, and me most wretched make.","uns se orgulham do berço, ou do talento;
+outros da força física, ou dos bens;
+alguns da feia moda do momento;
+outros dos cães de caça, ou palafréns.
+cada gosto um prazer traz na acolhida,
+uma alegria de virtudes plenas;
+tais minúcias não são minha medida.
+supero a todos com uma só apenas.
+mais do que o berço o teu amor me é caro,
+mais rico que a fortuna, e a moda em uso,
+mais me apraz que os corcéis, ou cães de faro,
+e tendo-te, do orgulho humano abuso.
+o infortúnio seria apenas este:
+tirar de mim o bem que tu me deste.",en_XX,pt_XX,"alguma glória em seu nascimento, alguns em sua habilidade,
+alguns na sua riqueza, outros na força do seu corpo;
+alguns em suas vestes, embora recém-encantados;
+alguns nos seus falcões e cães, outros no seu cavalo;
+e cada humor tem o seu prazer adjuvante,
+onde encontra uma alegria acima do resto:
+mas estas particularidades não são a minha medida;
+tudo isso é melhor em um geral melhor.
+o teu amor é melhor do que o alto nascimento para mim,
+mais rico do que a riqueza, mais orgulhoso do que o custo do vestuário,
+de mais delícias do que os falcões ou os cavalos;
+e tendo-te, do orgulho de todos os homens glorifico-me:
+miserável nisto sozinho, para que tu possas tomar
+tudo isso de distância, e eu, a mais deplorável, mergulhe.",0.07510269523084268,0.3410931565055044,0.7339763045310974,0.96408576
+"think of the long trip home.
+should we have stayed at home and thought of here?
+where should we be today?
+is it right to be watching strangers in a play
+in this strangest of theatres?
+what childishness is it that while there’s a breath of life
+in our bodies, we are determined to rush
+to see the sun the other way around?
+the tiniest green hummingbird in the world?
+to stare at some inexplicable old stonework,
+inexplicable and impenetrable,
+at any view,
+instantly seen and always, always delightful?
+oh, must we dream our dreams
+and have them, too?
+and have we room
+for one more folded sunset, still quite warm?","pensemos na longa viagem de volta.
+devíamos ter ficado em casa pensando nas terras daqui?
+onde estaríamos hoje?
+será direito ver estranhos encenando uma peça
+neste teatro tão estranho?
+que infantilidade nos impele, enquanto houver um sopro de vida
+no corpo, a partir decididos a ver
+o sol nascendo do outro lado?
+o menor beija-flor verde do mundo?
+ficar contemplando uma antiga e inexplicável obra de cantaria,
+inexplicável e impenetrável,
+qualquer paisagem,
+imediatamente vista e sempre, sempre deleitosa?
+ah, por que insistimos em sonhar os nossos sonhos
+e vivê-los também?
+e será que ainda temos lugar
+para mais um pôr do sol extinto, ainda morno?",en_XX,pt_XX,"Pense na longa viagem para casa.
+devíamos ter ficado em casa e pensado aqui?
+- onde devemos estar hoje?
+é certo estar assistindo estranhos em uma peça
+- neste mais estranho dos teatros?
+que infantilidade é que, enquanto há um sopro de vida
+em nossos corpos, estamos determinados a apressar
+para ver o sol do outro lado?
+o mais ínfimo beija-flor verde do mundo?
+olhar para uma pedra inexplicável,
+inexplicável e impenetrável,
+em qualquer ponto de vista,
+- instantaneamente visto e sempre, sempre delicioso?
+
+- e tê-los, também?
+- e temos um quarto
+por mais um pôr-do-sol dobrado, ainda bastante quente?",0.22874953801765807,0.5517958287916537,0.8277665972709656,0.9788979
+"three times now i’ve been there.
+i don’t eat fish any more.
+there is fine mud on my scalp
+and i know from smelling my comb
+that the river smells in my hair.
+my hands and feet are cold.
+i look yellow, my wife says,
+and she brews me stinking teas
+i throw out, behind her back.
+every moonlit night
+i’m to go back again.
+i know some things already,
+but it will take years of study,
+it is all so difficult.
+they gave me a mottled rattle
+and a pale-green coral twig
+and some special weeds like smoke.","três vezes já estive lá.
+eu parei de comer peixe.
+tenho lama na cabeça
+e quando cheiro meu pente
+sinto os odores do rio.
+meus pés e mãos estão frios.
+minha mulher me acha amarelo,
+me dá uns chás fedorentos
+que eu jogo fora escondido.
+toda noite de luar
+eu volto lá outra vez.
+tem coisas que já aprendi,
+mas vou ter que estudar anos,
+que é tudo muito difícil.
+me deram um chocalho mosqueado
+e um galho de coral verde
+e umas ervas feito fumo.",en_XX,pt_XX,"três vezes eu já estive lá.
+Não como mais peixe.
+há lama fina no meu couro cabeludo
+e eu sei por cheirar o meu pente
+que o rio cheira no meu cabelo.
+as mãos e os pés estão frios.
+eu pareço amarelo, minha esposa diz,
+e ela me faz chás fedorentos
+eu atiro fora, atrás das costas dela.
+todas as noites de luar
+vou voltar de novo.
+- Já sei de algumas coisas,
+mas vai levar anos de estudo,
+é tudo tão difícil.
+eles me deram um chocalho mosqueado
+e um galho de coral verde-pálido
+e algumas ervas daninhas especiais como o fumo.",0.16784902059976156,0.5481898516821126,0.7844463586807251,0.9783752
+"unfunny uncles who insist
+in trying on a lady’s hat,
+— oh, even if the joke falls flat,
+we share your slight transvestite twist
+in spite of our embarrassment.
+costume and custom are complex.
+the headgear of the other sex
+inspires us to experiment.
+anandrous aunts, who, at the beach
+with paper plates upon your laps,
+keep putting on the yachtsmen’s caps
+with exhibitionistic screech,
+the visors hanging o’er the ear
+so that the golden anchors drag,
+— the tides of fashion never lag.
+such caps may not be worn next year.
+or you who don the paper plate
+itself, and put some grapes upon it,
+or sport the indian’s feather bonnet,
+— perversities may aggravate
+the natural madness of the hatter.
+and if the opera hats collapse
+and crowns grow draughty, then, perhaps,
+he thinks what might a miter matter?
+unfunny uncle, you who wore a
+hat too big, or one too many,
+tell us, can’t you, are there any
+stars inside your black fedora?
+aunt exemplary and slim,
+with avernal eyes, we wonder
+what slow changes they see under
+their vast, shady, turned-down brim.","tio desengraçado, a quem deu na veneta
+meter na cabeça um chapéu de mulher,
+embora sem graça, dá sempre prazer
+o seu travestismo discreto e zureta,
+que até nos constrange, e causa impaciência.
+pois não se discute costume, nem gosto.
+por isso é que as roupas do sexo oposto
+inspiram essa espécie de experiência.
+ó tia anândrica, que lá na praia
+resolve provar um boné de iatista
+e dá um grito agudo, exibicionista,
+até que os olhares de todos atraia,
+a aba até o brinco — aproveite bem,
+que a moda e as marés estão sempre mudando,
+e esse boné que você está ostentando
+talvez não se use no ano que vem.
+e a quem parecer engraçado um cocar,
+ou prato de uvas bancando sombreiro,
+é recomendável que pense primeiro
+que tais perversões podem bem agravar
+loucuras que haja do lado de dentro.
+e quando por fim desmorona a cartola,
+expondo aos ventos mais frios a cachola,
+que tal um barrete vermelho no centro?
+tio desengraçado, no seu chapéu-coco
+maior que a cabeça, ou nos dois que você
+pôs um sobre o outro, o que é que se vê?
+há estrelas, talvez, nesse seu domo oco?
+ó tia exemplar, com suas formas esguias,
+seus olhos avernos e desassombrados
+que lentas mudanças verão, ocultados
+sob abas enormes, pesadas, sombrias?",en_XX,pt_XX,"tios incansáveis que insistem
+ao experimentar o chapéu de uma dama,
+oh, mesmo que a piada caia,
+partilhamos a sua ligeira torção travesti
+apesar do nosso embaraço.
+traje e costume são complexos.
+o headgear do outro sexo
+nos inspira a experimentar.
+tias anandrosas, que, na praia
+com placas de papel em seus colos,
+continuar a colocar as toucas dos velejadores
+com screech expositivo,
+as viseiras pendurando a orelha
+para que as ancoras de ouro se arrastem,
+as marés da moda nunca ficam defasadas.
+tais tampões não podem ser usados no próximo ano.
+ou você que veste a placa de papel
+por si só, e ponha-lhe um pouco de uvas,
+o capô de penas do índio,
+as perversidades podem agravar-se
+a loucura natural do chapeiro.
+e se os chapéus de ópera colapsarem
+– e as coroas se tornam draughty, então, talvez,
+ele pensa o que uma mitra pode importar?
+unfunny tio, você que usava um
+um chapéu muito grande, ou um demasiado,
+diga-nos, você não pode, há algum
+estrelas dentro de sua fedora negra?
+tia exemplar e slim,
+com olhos avernos, nos perguntamos
+- que mudanças lentas eles vêem sob
+- a sua vastidão, sombra, brem turned-down.",0.02285852942338537,0.25960312126940416,0.7056198120117188,0.8944392
+"this is a boy that pats the floor
+to see if the world is there, is flat,
+for the widowed jew in the newspaper hat
+that dances weeping down the ward
+waltzing the length of a weaving board
+by the silent sailor
+that hears his watch
+that ticks the time
+of the tedious man
+that lies in the house of bedlam.
+these are the years and the walls and the door
+that shut on a boy that pats the floor
+to feel if the world is there and flat.
+this is a jew in a newspaper hat
+that dances joyfully down the ward
+into the parting seas of board
+past the staring sailor
+that shakes his watch
+that tells the time
+of the poet, the man
+that lies in the house of bedlam.
+this is the soldier home from the war.
+these are the years and the walls and the door
+that shut on a boy that pats the floor
+to see if the world is round or flat.
+this is a jew in a newspaper hat
+that dances carefully down the ward,
+walking the plank of a coffin board
+with the crazy sailor
+that shows his watch
+that tells the time
+of the wretched man
+that lies in the house of bedlam.","este é um garoto que apalpa o soalho
+para ver se o mundo existe e é achatado,
+para o judeu viúvo com chapéu de jornal
+que valsa chorando pelo hospital
+pisando as tábuas, que balançam,
+passando pelo marujo
+que escuta o relógio
+que conta o tempo
+do chato
+que mora na casa de orates.
+estes são os anos e as portas e as muralhas
+que encerram um garoto que apalpa o soalho
+para sentir se o mundo existe e é achatado.
+este é um judeu com chapéu de jornal
+que dança alegre pelo hospital
+num mar de tábuas a se abrir quando ele passa
+pelo marujo simplório
+que sacode o relógio
+que marca o tempo
+do poeta, do homem
+que mora na casa de orates.
+este é o soldado voltando das batalhas.
+estes são os anos e as portas e as muralhas
+que encerram um garoto que apalpa o soalho
+para ver se o mundo é redondo ou achatado.
+este é um judeu com chapéu de jornal
+que dança cuidadoso pelo hospital,
+pisando as tábuas de um caixão
+com o marujo louco
+que mostra o relógio
+que marca o tempo
+do desgraçado
+que mora na casa de orates.",en_XX,pt_XX,"Este é um rapaz que afaga o chão
+para ver se o mundo está lá, é plano,
+para o judeu viúvo no chapéu de jornal
+- que danças a chorar pela ala
+waltzing o comprimento de uma tecelagem
+pelo velejador silencioso
+- que ouve o seu relógio
+que tiqueta o tempo
+do homem tedioso
+- que se encontra na casa do bedlam.
+Estes são os anos, as paredes e a porta
+- que se fecha em um menino que bate no chão
+- sentir se o mundo está lá e plano.
+Este é um judeu em um chapéu de jornal
+- que dança alegremente na ala
+nos mares de board
+passado o velejador
+- que agita o relógio
+que diz o tempo
+do poeta, o homem
+- que se encontra na casa do bedlam.
+este é o soldado em casa da guerra.
+Estes são os anos, as paredes e a porta
+- que se fecha em um menino que bate no chão
+para ver se o mundo é redondo ou plano.
+Este é um judeu em um chapéu de jornal
+- que dança com cuidado na ala,
+andando a prancha de um caixão
+com o marinheiro louco
+que mostra o seu relógio
+que diz o tempo
+do homem desventurado
+- que se encontra na casa do bedlam.",0.24860188995068955,0.5183117446649472,0.8126469254493713,0.98466635
+"please, boy, do be more careful with that boat hook!
+watch out! oh! it has caught miss breen’s
+skirt! there! miss breen is about seventy,
+a retired police lieutenant, six feet tall,
+with beautiful bright blue eyes and a kind expression.
+her home, when she is at home, is in glens fall
+s, new york. there. we are settled.
+the customs officials will speak english, we hope,
+and leave us our bourbon and cigarettes.
+ports are necessities, like postage stamps, or soap,
+but they seldom seem to care what impression they make,
+or, like this, only attempt, since it does not matter,
+the unassertive colors of soap, or postage stamps —
+wasting away like the former, slipping the way the latter
+do when we mail the letters we wrote on the boat,
+either because the glue here is very inferior
+or because of the heat. we leave santos at once;
+we are driving to the interior.","cuidado, moço, com esse gancho! ah!
+não é que ele fisgou a saia de miss breen,
+coitada! miss breen tem uns setenta anos,
+um metro e oitenta, lindos olhos azuis, bem
+simpática. é tenente de polícia aposentada.
+quando não está viajando, mora em glen
+s falls, estado de nova york. bom. conseguimos.
+na alfândega deve haver quem fale inglês e não
+implique com nosso estoque de bourbon e cigarros.
+os portos são necessários, como os selos e o sabão,
+e nem ligam para a impressão que causam.
+daí as cores mortas dos sabonetes e selos —
+aqueles desmancham aos poucos, e estes desgrudam
+de nossos cartões-postais antes que possam lê-los
+nossos destinatários, ou porque a cola daqui
+é muito ordinária, ou então por causa do calor.
+partimos de santos imediatamente;
+vamos de carro para o interior.",en_XX,pt_XX,"por favor, garoto, tenha mais cuidado com o anzol do barco!
+cuidado! oh! ele apanhou a sra. breen
+A senhorita breen tem cerca de setenta anos,
+um tenente de polícia reformado, com um metro e meio de altura,
+com belos olhos azuis e uma expressão amistosa.
+sua casa, quando ela está em casa, está em glens cair
+s, nova iorque. lá. nós estamos assentados.
+os funcionários alfandegários falarão inglês, esperamos,
+e deixe-nos o nosso bourbon e cigarros.
+os portos são necessidades, como selos postais, ou sabão,
+- mas eles raramente parecem se importar com a impressão que causam,
+ou, assim, apenas tentar, uma vez que não importa,
+as cores não assertivas do sabão, ou selos postais
+– desperdiçando-se como o primeiro, escorregando do jeito que o último
+- quando enviarmos as cartas que escrevemos no barco,
+ou porque a cola aqui é muito inferior
+ou por causa do calor. deixamos santos de uma só vez;
+estamos a conduzir para o interior.",0.1498427534406563,0.4064568565531499,0.771237313747406,0.92329806
+"out on the high “bird islands,” ciboux and hertford,
+the razorbill auks and the silly-looking puffins all stand
+with their backs to the mainland
+in solemn, uneven lines along the cliff’s brown grass-frayed edge,
+while the few sheep pastured there go “baaa, baaa.”
+(sometimes, frightened by aeroplanes, they stampede
+and fall over into the sea or onto the rocks.)
+the silken water is weaving and weaving,
+disappearing under the mist equally in all directions,
+lifted and penetrated now and then
+by one shag’s dripping serpent-neck,
+and somewhere the mist incorporates the pulse,
+rapid but unurgent, of a motorboat.","nas “ilhas dos pássaros”, altas, ciboux e hertford,
+as alcas e os papagaios-do-ar, com caras de bobos, todos dão
+as costas para o continente
+em filas solenes, irregulares, na beira do penhasco gramado,
+enquanto os poucos carneiros que lá pastam fazem “bééé, bééé”.
+(às vezes, com medo dos aviões, saem em debandada
+e caem no mar ou nas rochas.)
+a água sedosa zanza, zanza,
+sumindo sob a névoa por igual por toda parte,
+levantada e penetrada de vez em quando
+pelo pescoço serpentino de um biguá,
+e em algum lugar a névoa incorpora o pulso,
+rápido mas sem pressa, de um barco a motor.",en_XX,pt_XX,"nas «ilhas avícolas», ciboux e hertford,
+os auks de razorbill e os puffins de aparência tola estão todos de pé
+com as costas para o continente
+em linhas solenes e desiguais ao longo da orla castanha do precipício,
+– enquanto as poucas ovelhas pastavam lá vão “baaa, baaa”.
+(às vezes, assustados por aviões,
+e cair no mar ou sobre as rochas.)
+a água de seda é tecelagem e tecelagem,
+desaparecer sob a neblina igualmente em todas as direcções,
+
+por um gole de serpente gotejante,
+e em algum lugar a neblina incorpora o pulso,
+- rápida, mas não urgente, de uma lancha.",0.2214125116026058,0.4461356149428582,0.7859243154525757,0.9850094
+"but he’s resigned
+to such economical design.
+if the glass slips
+he’s in a fix —
+only one leg etc. but
+while it stays put
+he can walk and run
+and his hands can clasp one
+another. the uncertainty
+he says he
+finds exhilarating. he loves
+that sense of constant re-adjustment.
+he wishes to be quoted as saying at present:
+“half is enough.”","mas ele aceita sem problema
+a parcimônia do esquema.
+se o espelho escorregar
+vai ser de amargar —
+só uma perna etc. mas por ora
+está apoiado na escora,
+e ele anda e corre e pega a mão
+com a outra. a sensação
+de incerteza o deixa feliz,
+ele diz.
+afirma também que gosta
+de estar sempre a se reajustar.
+no momento, eis o que tem a declarar:
+“metade basta.”",en_XX,pt_XX,"mas ele está resignado
+a um design tão econômico.
+se o vidro escorregar
+- ele está em uma correção -
+uma só perna, etc., mas
+- enquanto ele fica put
+- ele pode andar e correr
+e suas mãos podem aplacar um
+outro. a incerteza
+ele diz que
+acha emocionante. ele ama
+essa sensação de reajuste constante.
+ele deseja ser citado como tendo dito no presente:
+“Metade é o suficiente”.",0.04917935135920604,0.25472395786169216,0.7738655209541321,0.97094077
+"when the moon burns white
+and the river makes that sound
+like a primus pumped up high —
+that fast, high whispering
+like a hundred people at once —
+i’ll be there below,
+as the turtle rattle hisses
+and the coral gives the sign,
+travelling fast as a wish,
+with my magic cloak of fish
+swerving as i swerve,
+following the veins,
+the river’s long, long veins,
+to find the pure elixirs.
+godfathers and cousins,
+your canoes are over my head;
+i hear your voices talking.
+you can peer down and down
+or dredge the river bottom
+but never, never catch me.
+when the moon shines and the river
+lies across the earth
+and sucks it like a child,
+then i will go to work
+to get you health and money.
+the dolphin singled me out;
+luandinha seconded it.","quando a lua brilha branca
+e o rio faz aquele som
+de chama de fogão a gás —
+aquele chiado que lembra
+cem pessoas cochichando —
+eu hei de estar lá no fundo,
+o chocalho chocalhando,
+o coral dando sinal,
+voando feito o desejo,
+meu manto de peixe mágico
+esvoaçando atrás de mim,
+seguindo as veias compridas,
+as veias compridas do rio,
+em busca dos elixires.
+meus padrinhos, meus primos,
+ouço vocês conversando
+dentro das suas canoas.
+podem olhar cá pra baixo,
+podem até dragar o fundo
+que nunca vão me encontrar.
+quando a lua brilha branca
+e o rio mama nas tetas
+da terra feito um neném,
+eu trabalho pra vocês
+terem saúde e dinheiro.
+o boto me escolheu,
+e luandinha deu fé.",en_XX,pt_XX,"quando a lua arde de branco
+e o rio faz esse som
+como um primus bombeado
+esse sussurro rápido e alto
+- como uma centena de pessoas ao mesmo tempo -
+Eu estarei lá embaixo,
+como a tartaruga
+e o coral dá o sinal,
+viajar rápido, como um desejo,
+com a minha capa mágica de peixe
+
+seguindo as veias,
+as longas e longas veias do rio,
+para encontrar os elixires puros.
+padrinhos e primos,
+- as tuas canoas estão sobre a minha cabeça;
+ouço suas vozes falando.
+você pode olhar para baixo e para baixo
+ou draga o fundo do rio
+mas nunca, nunca me apanhe.
+Quando a Lua Brilha e o Rio
+
+e a suga como uma criança,
+então eu vou para o trabalho
+para lhe dar saúde e dinheiro.
+o golfinho me selecionou;
+luandinha a seccionou.",0.12046300507453134,0.31635558386849993,0.7797375321388245,0.9707726
+"januaries, nature greets our eyes
+exactly as she must have greeted theirs:
+every square inch filling in with foliage —
+big leaves, little leaves, and giant leaves,
+blue, blue-green, and olive,
+with occasional lighter veins and edges,
+or a satin underleaf turned over;
+monster ferns
+in silver-gray relief,
+and flowers, too, like giant water lilies
+up in the air — up, rather, in the leaves —
+purple, yellow, two yellows, pink,
+rust red and greenish white;
+solid but airy; fresh as if just finished
+and taken off the frame.","janeiros, a natureza se revela
+a nossos olhos como revelou-se aos deles:
+inteiramente recoberta de folhagem —
+folhas grandes, pequenas, gigantescas,
+azuis, verde-azulado, verde-oliva,
+aqui e ali um veio ou borda mais claros,
+ou um dorso de folha acetinado;
+samambaias monstruosas
+em relevo cinza-prata,
+e flores, também, como vitórias-régias imensas
+no céu — melhor, no meio das copas —
+roxas, rosadas, dois tons de amarelo,
+vermelho-ferrugem e branco esverdeado;
+sólidas mas aéreas; frescas como se recém-pintadas
+e retiradas das molduras.",en_XX,pt_XX,"januários, a natureza saúda nossos olhos
+como ela deve ter saudado a deles:
+
+- folhas grandes, folhas pequenas e folhas gigantes,
+azul, azul-esverdeado, e azeitona,
+com veias e arestas esporádicos mais leves,
+ou uma folha de cetim desvirtuada;
+samambaias-monstrusas
+em relevo prateado-cinzento,
+e flores, também, como lírios d'água gigantes
+no ar, no ar, no ar, no ar, no ar, no ar, no ar, no ar, no ar, no ar, no ar, no ar, no ar, no ar, no ar, no ar, no ar, no ar, no ar,
+roxo, amarelo, dois amarelos, cor-de-rosa,
+ferrugem avermelhada e esverdeada;
+sólido, mas arejado; fresco como se acabasse de terminar
+- e tirou a armação.",0.0899681717540919,0.31918683471818604,0.7346377968788147,0.95142365
+"a small bus comes along, in up-and-down rushes,
+packed with people, even to its step.
+(on weekdays with groceries, spare automobile parts, and pump parts,
+but today only two preachers extra, one carrying his frock coat on a
+hanger.)
+it passes the closed roadside stand, the closed schoolhouse,
+where today no flag is flying
+from the rough-adzed pole topped with a white china doorknob.
+it stops, and a man carrying a baby gets off,
+climbs over a stile, and goes down through a small steep meadow,
+which establishes its poverty in a snowfall of daisies,
+to his invisible house beside the water.","um ônibus pequeno vem, num sobe-e-desce,
+cheio de gente, até no estribo.
+(em dias úteis trazem compras, peças de carros e de bombas hidráulicas,
+mas hoje só dois pregadores a mais, um levando a sobrecasaca num
+cabide.)
+ele passa pela barraca de beira-estrada fechada, a escola fechada,
+onde hoje não há bandeira hasteada
+no mastro desbastado com enxó, com uma maçaneta de porcelana branca
+no alto.
+o ônibus para, e salta um homem com um bebê,
+que sobe um torniquete, e desce um prado íngreme,
+que assinala sua pobreza num tapete de margaridas,
+rumo a sua casa invisível junto ao mar.",en_XX,pt_XX,"vem um pequeno autocarro, com rajadas de subida e descida,
+- cheio de pessoas, até o seu degrau.
+(nos dias de semana com mantimentos, peças de automóvel sobressalentes e peças de bomba,
+- mas hoje apenas dois pregadores extras, um carregando seu casaco de focha em um
+cabide.)
+passa a estante de beira de estrada fechada, a escola fechada,
+onde hoje não há bandeira voando
+a partir do poste acidentado coberto com uma maçaneta de porta de porcelana branca.
+pára, e um homem carregando um bebê se desprende,
+sobe sobre um estilete, e desce por um pequeno prado escarpado,
+que estabelece a sua pobreza numa nevasca de margaridas,
+para a sua casa invisível ao lado da água.",0.20285139613314576,0.5619499882984113,0.8205142021179199,0.9810715
+"surge for that carnal complement that will
+your flesh's young juice thrill
+to the wet mortised joints at which you meet
+the coming life to greet,
+in the tilled womb that will bulge till it do
+the planteous curve of spheric earth renew!","ascendei ao carnal complemento que fará
+vossa jovem seiva freme-fluir
+às úmidas junções onde vos unis
+pra saudar a vindoura vida,
+no semeado ventre que irá inchar assim
+que a prenhe curva da esférica terra renove!",en_XX,pt_XX,"para esse complemento carnal que
+a emoção do suco jovem da sua carne
+para as juntas mortizadas molhadas em que você se encontra
+a vida vindoura para saudar,
+- no útero lavrado que vai bulge até que ele o faça
+a curva plantuosa da terra esférica se renova!",0.02234266801513251,0.22959183673469385,0.7578907012939453,0.9454534
+"whispers of heavenly death murmur’d i hear,
+labial gossip of night, sibilant chorals,
+footsteps gently ascending, mystical breezes wafted soft and low,
+ripples of unseen rivers, tides of a current flowing, forever flowing,
+(or is it the plashing of tears? the measureless waters of human tears?)
+i see, just see skyward, great cloud-masses,
+mournfully slowly they roll, silently swelling and mixing,
+with at times a half-dimm’d sadden’d far-off star,
+appearing and disappering.
+(some parturition rather, some solemn immortal birth;
+on the frontiers, to eyes impenetrable,
+some soul is passing over.)","murmúrios da morte celestial sussurrados ouvi,
+conversa labial da noite, coros sibilantes,
+passos ascendendo suavemente, aragens místicas vogavam amenas e baixo,
+ondulações de rios invisíveis, marés de uma corrente a fluir, sempre a fluir,
+(ou será o salpicar de lágrimas? as ilimitadas águas das lágrimas humanas?)
+vejo, vejo exatamente em direção ao céu, imensas massas de nuvens,
+lugubremente devagar elas flutuam, silenciosamente dilatando-se e mesclando-se,
+com às vezes uma entristecida estrela, remota e semi-eclipsada,
+aparecendo e desaparecendo.
+(provavelmente algum parto, algum nascimento solene e imortal;
+impenetrável sobre as fronteiras para os olhos,
+alguma alma está passando por cima.)",en_XX,pt_XX,"– sussurros de murmúrio de morte celestial eu ouvia,
+fofoca labial da noite, corais sibilantes,
+– passos suavemente ascendentes, brisas místicas agitadas, suaves e baixas,
+- ondulações de rios invisíveis, marés de uma corrente fluindo, fluindo para sempre,
+(ou é o plashing de lágrimas? as águas sem medida de lágrimas humanas?)
+eu vejo, apenas vejo para o céu, grandes massas de nuvens,
+rolam lentamente, incham e misturam-se em silêncio,
+por vezes com uma estrela longínqua,
+Aparecer e desagradar.
+uma parturição, um nascimento solene e imortal;
+nas fronteiras, aos olhos impenetráveis,
+alguma alma está passando.)",0.2463779683354646,0.5313172003283433,0.834100604057312,0.9828716
+"what’s that shining in the leaves,
+the shadowy leaves,
+like tears when somebody grieves,
+shining, shining in the leaves?
+is it dew or is it tears,
+dew or tears,
+hanging there for years and years
+like a heavy dew of tears?
+then that dew begins to fall,
+roll down and fall.
+maybe it’s not tears at all.
+see it, see it roll and fall.
+hear it falling on the ground,
+hear, all around.
+that is not a tearful sound,
+beating, beating on the ground.
+see it lying there like seeds,
+like black seeds.
+see it taking root like weeds,
+faster, faster than the weeds,
+all the shining seeds take root,
+conspiring root,
+and what curious flower or fruit
+will grow from that conspiring root?
+fruit or flower? it is a face.
+yes, a face.
+in that dark and dreary place
+each seed grows into a face.
+like an army in a dream
+the faces seem,
+darker, darker, like a dream.
+they’re too real to be a dream.","que é aquilo, entre as folhas, brilhando,
+no escuro, brilhando
+como se houvesse alguém chorando
+no alto da árvore, brilhando?
+será orvalho ou será pranto,
+orvalho ou pranto,
+pendendo há tanto tempo, tanto,
+pesado orvalho de pranto?
+o orvalho começa a escorrer,
+desce a escorrer.
+não é lágrima não, não pode ser.
+olhe só, a gota a escorrer.
+ouve só, vai cair no chão,
+caiu no chão.
+não é som de lágrima, não,
+pois bate e bate e bate no chão.
+e se espalha feito semente,
+negra semente,
+cria raiz e se estende,
+e cresce rapidamente,
+e cada ramo em seu verdor
+conspirador
+vira fruta ou abre-se em flor,
+cada ramo conspirador?
+nem fruta nem flor: é um rosto.
+isso, um rosto.
+nesse lugar escuro e exposto
+cada semente vira um rosto.
+como um exército num sonho
+estranho e medonho,
+rostos negros, como num sonho.
+é real demais para ser sonho.",en_XX,pt_XX,"o que é que brilha nas folhas,
+as folhas sombrias,
+como as lágrimas quando alguém se aflige,
+, brilhando nas folhas?
+é orvalho ou é lágrimas,
+orvalho ou lágrimas,
+lá por anos e anos
+- como um pesado orvalho de lágrimas?
+- então o orvalho começa a cair,
+role para baixo e caia.
+Talvez não sejam lágrimas.
+vê-lo, vê-lo rolar e cair.
+ouvi-lo cair no chão,
+ouçam, por todo o lado.
+não é um som lacrimogêneo,
+bater, bater no chão.
+vê-lo ali deitado como sementes,
+como as sementes pretas.
+ver enraízar-se como ervas daninhas,
+mais rápido do que as ervas daninhas,
+todas as sementes brilhantes enraízam-se,
+raiz conspiradora,
+e que curiosa flor ou fruta
+- vai crescer a partir dessa raiz conspiradora?
+Fruta ou flor? é um rosto.
+sim, um rosto.
+- nesse lugar escuro e sombrio
+cada semente se transforma em um rosto.
+como um exército em um sonho
+os rostos parecem,
+mais escuro, mais escuro, como um sonho.
+Eles são reais demais para ser um sonho.",0.14166520333279098,0.3916558875616362,0.7886837124824524,0.97505444
+"ample make this bed.
+make this bed with awe'
+in it wait ti11 judgement break
+excellent and fair.
+be its ir.attress straight,
+be its pillow round;
+let no sunrise' yellow noise
+interrupt this ground.","arruma a cama bem larga
+arruma a cama com susto:
+e nela espera o juízo
+excelente e justo.
+travesseiro redondo.
+bem firme o colchão:
+rumor louro de aurora
+não perturbe este chão.",en_XX,pt_XX,"- ampla fazer esta cama.
+fazer esta cama com pavor'
+na espera ti11 quebra de julgamento
+- excelente e justo.
+ser o seu ir.attress em linha recta,
+ser o seu travesseiro redondo;
+não deixe o barulho amarelo do nascer do sol
+interrompa este terreno.",0.07447078562414058,0.344620416128362,0.7401189804077148,0.94775146
+"from brooklyn, over the brooklyn bridge, on this fine morning,
+please come flying.
+in a cloud of fiery pale chemicals,
+please come flying,
+to the rapid rolling of thousands of small blue drums
+descending out of the mackerel sky
+over the glittering grandstand of harbor-water,
+please come flying.
+whistles, pennants and smoke are blowing. the ships
+are signaling cordially with multitudes of flags
+rising and falling like birds all over the harbor.
+enter: two rivers, gracefully bearing
+countless little pellucid jellies
+in cut-glass epergnes dragging with silver chains.
+the flight is safe; the weather is all arranged.
+the waves are running in verses this fine morning.
+please come flying.
+come with the pointed toe of each black shoe
+trailing a sapphire highlight,
+with a black capeful of butterfly wings and bon-mots,
+with heaven knows how many angels all riding
+on the broad black brim of your hat,
+please come flying.","do brooklyn, por sobre a brooklyn bridge, nesta manhã tão bela,
+venha voando.
+numa clara nuvem química de fogo,
+venha voando,
+ao rápido rufar de mil tambores azuis
+a descer do céu encarneirado
+e se espalhar sobre a arquibancada brilhante da enseada,
+venha voando.
+apitos, fumaça e flâmulas dançam ao vento. navios
+trocam sinais cordialmente com uma abundância de bandeiras
+que sobem e descem como pássaros por todo o porto.
+entram dois rios, portando, graciosos,
+tantas geleiazinhas translúcidas
+em centros de mesa de cristal a arrastar correias de prata.
+é céu de brigadeiro, conforme o combinado.
+as ondas se sucedem como versos nesta manhã tão bela.
+venha voando.
+venha traçando com o bico fino de cada sapato preto
+uma trilha cor de safira,
+a capa cheia de asas de borboleta e blagues,
+e só deus sabe quantos anjos encarapitados
+na aba negra e larga do chapéu,
+venha voando.",en_XX,pt_XX,"de brooklyn, sobre a ponte de brooklyn, nesta bela manhã,
+por favor, venha voar.
+numa nuvem de produtos químicos flamejantes e pálidos,
+por favor, venha voar,
+para o rolling rápido de milhares de tambores azuis pequenos
+descia do céu de carapau
+sobre a cédula reluzente da água do porto,
+por favor, venha voar.
+os apitos, as cédulas e a fumaça sopram. os navios
+- estão sinalizando cordialmente com multidões de bandeiras
+a subir e a cair como aves por todo o porto.
+: dois rios, graciosamente
+inumeráveis jellies pelúcidas
+em epergnes cut-glass arrastando com correntes prateadas.
+o voo é seguro; o tempo é todo arranjado.
+as ondas estão correndo em versos nesta bela manhã.
+por favor, venha voar.
+com o dedo do pé pontado de cada sapato preto
+- um destaque de safira,
+com um capeful preto das asas e dos bon-mots da borboleta,
+com o céu sabe quantos anjos todos montam
+- na borda preta do teu chapéu,
+por favor, venha voar.",0.09283614950498699,0.3881646412037037,0.7911679744720459,0.9876125
+"each screaming
+“get up! stop dreaming!”
+roosters, what are you projecting?
+you, whom the greeks elected
+to shoot at on a post, who struggled
+when sacrificed, you whom they labeled
+“very combative...”
+what right have you to give
+commands and tell us how to live,
+cry “here!” and “here!”
+and wake us here where are
+unwanted love, conceit and war?
+the crown of red
+set on your little head
+is charged with all your fighting blood.
+yes, that excrescence
+makes a most virile presence,
+plus all that vulgar beauty of iridescence.
+now in mid-air
+by twos they fight each other.
+down comes a first flame-feather,
+and one is flying,
+with raging heroism defying
+even the sensation of dying.","sempre gritando:
+“chega de sonhos! todos levantando!”
+galos, o que vocês estão projetando?
+na antiguidade
+vocês já combatiam à saciedade
+quando ofertados a alguma divindade,
+e eram tidos
+por “muito aguerridos...”
+com que direito agridem nossos ouvidos
+com ordens feras
+e nos despertam nesta terra
+de amor malquisto, arrogância e guerra?
+a coroa feia
+na cabecinha altaneira
+é vermelha de sangue de guerreiro.
+essa excrescência
+soma-se à viril eloquência
+da beleza vulgar da iridescência.
+em pleno ar,
+aos pares, começam a se atracar.
+e a primeira pena começa a voar.
+um, moribundo,
+ainda briga, furibundo,
+disposto a enfrentar sozinho o mundo.",en_XX,pt_XX,"- cada um gritando
+“Levante-se, pare de sonhar!”
+poosters, o que você está projetando?
+tu, a quem os gregos elegeram
+para atirar em um post, que lutou
+quando sacrificado, você a quem eles rotularam
+“Muito combativo...”
+o que você tem o direito de dar
+e diz-nos como viver,
+chore “aqui!” e “aqui!”
+e nos acordem aqui onde estão
+amor indesejado, presunção e guerra?
+a coroa de vermelho
+ponha na sua cabecinha
+- é acusado de todo o seu sangue de combate.
+sim, essa excrescência
+faz uma presença mais viril,
+mais aquela beleza vulgar da iridescência.
+agora no ar
+- por dois eles lutam um contra o outro.
+vem uma primeira flame-feather,
+e um está voando,
+com o heroísmo a desafiar
+- até a sensação de morrer.",0.08798259326570858,0.35688137755102056,0.7440411448478699,0.9731922
+"[from the plane]
+no foot could endure it,
+shoes are too thin.
+broken glass, broken bottles,
+heaps of them burn.
+over those fires
+no one could walk:
+those flaring acids
+and variegated bloods.
+the city burns tears.
+a gathered lake
+of aquamarine
+begins to smoke.
+the city burns guilt.
+— for guilt-disposal
+the central heat
+must be this intense.
+diaphanous lymph,
+bright turgid blood,
+spatter outward
+in clots of gold
+to where run, molten,
+in the dark environs
+green and luminous
+silicate rivers.
+a pool of bitumen
+one tycoon
+wept by himself,
+a blackened moon.
+another cried
+a skyscraper up.
+look! incandescent,
+its wires drip.
+the conflagration
+fights for air
+in a dread vacuum.
+the sky is dead.
+(still, there are creatures,
+careful ones, overhead.
+they set down their feet, they walk
+green, red; green, red.)","[do alto do avião]
+não há pé que aguente,
+sapato que resista.
+cacos de copos quebrados,
+em pilhas, pegando fogo.
+ninguém seria capaz
+de andar sobre essas fogueiras:
+esses ácidos ardentes
+e sangues variegados.
+a cidade queima lágrimas.
+um lago acumulado
+de tom azul-claro
+começa a fumegar.
+a cidade queima culpa.
+— o incinerador de culpas
+opera com a mais
+extrema temperatura.
+a linfa diáfana,
+o sangue rubro e túrgido,
+respingam ao redor
+em coágulos dourados
+até lá onde escorrem,
+liquefeitos no escuro,
+verdes e luminosos,
+rios de silicato.
+uma poça de betume
+que um único magnata
+chorou por conta própria,
+uma lua tisnada.
+já um outro chorou
+um arranha-céu inteiro.
+vejam só! incandescente,
+seus fios a gotejar.
+essa conflagração
+arqueja com esforço
+num vácuo terrível.
+o céu está morto.
+(no entanto, lá no alto,
+criaturas prudentes
+caminham, passos medidos,
+verde, vermelho, verde.)",en_XX,pt_XX,"[do avião]
+nenhum pé aguentou,
+Os sapatos são muito finos.
+vidro quebrado, garrafas quebradas,
+- montes deles queimam.
+sobre esses fogos
+ninguém podia andar:
+esses ácidos flaringos
+e sangues variegados.
+a cidade queima lágrimas.
+um lago reunido
+de aquamarina
+começa a fumar.
+a cidade arde a culpa.
+para a destituição da culpa
+o calor central
+deve ser tão intenso.
+linfa diafã,
+sangue túrgido,
+spatter para fora
+em coágulos de ouro
+para onde correr, derretido,
+nos ambientes escuros
+verde e luminoso
+rios de silicato.
+uma poça de betume
+um tycoon
+- chorado por si mesmo,
+- uma lua enegrecida.
+outro chorou
+- um arranha-céu.
+olhe! incandescente,
+seus fios gotejam.
+a conflagração
+luta pelo ar
+- em um vácuo pavoroso.
+O céu está morto.
+(ainda, existem criaturas,
+- Cuidado, overhead.
+eles pousam os pés, caminham
+, vermelho; verde, vermelho.)",0.2213003041570358,0.4743437997998741,0.8141302466392517,0.98868644

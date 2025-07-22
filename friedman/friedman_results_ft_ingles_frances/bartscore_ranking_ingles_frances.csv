@@ -1,0 +1,12 @@
+model,average_rank
+bartscore_maritaca_p1,3.8333333333333335
+bartscore_google,3.933333333333333
+bartscore_chatgpt_p1,4.166666666666667
+bartscore_marianmt_pt,4.566666666666666
+bartscore_maritaca_p2,4.866666666666666
+bartscore_marianmt_ft,5.066666666666666
+bartscore_chatgpt_p2,5.9
+bartscore_mbart_pt,5.933333333333334
+bartscore_mbart_ft,7.333333333333333
+bartscore_openrnn_opus,10.166666666666666
+bartscore_openrnn_ft,10.233333333333333

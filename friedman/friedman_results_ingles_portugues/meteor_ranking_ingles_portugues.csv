@@ -1,0 +1,9 @@
+model,average_rank
+meteor_google,2.975083056478405
+meteor_chatgpt_p1,3.1461794019933556
+meteor_maritaca_p2,3.504983388704319
+meteor_chatgpt_p2,3.5166112956810633
+meteor_maritaca_p1,3.5847176079734218
+meteor_marianmt_pt,4.9933554817275745
+meteor_mbart_pt,6.295681063122924
+meteor_openrnn_opus,7.983388704318937

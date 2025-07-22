@@ -1,0 +1,4 @@
+Friedman test for BERTSCORE:
+Statistic = 240.3455
+P-value = 5.7974280027e-46
+Significant difference found.
