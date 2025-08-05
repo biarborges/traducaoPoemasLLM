@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Caminho para o arquivo CSV com os tópicos
-CAMINHO_CSV = "chatGPTPrompt1/ingles_frances_poems_chatgpt_prompt1.csv"
+CAMINHO_CSV = "modelagemTopicos/results/ingles_portugues/original/poemas_com_topicos_original.csv"
 
 # Lê o arquivo CSV
 df = pd.read_csv(CAMINHO_CSV)

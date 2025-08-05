@@ -16,9 +16,9 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # 1. CONFIGURAÇÕES E CONSTANTES
 # =======================================================================
 
-TITLE = "maritacaPrompt2"
-CAMINHO_CSV = "results/ingles_portugues/maritacaPrompt2/poemas_com_topicos_maritacaPrompt2.csv" 
-PASTA_SAIDA = "results"
+TITLE = "openRNN"
+CAMINHO_CSV = "modelagemTopicos/results/ingles_portugues/openRNN/poemas_com_topicos_openRNN.csv" 
+PASTA_SAIDA = "modelagemTopicos/results/ingles_portugues/openRNN"
 COLUNA_POEMAS = "translated_by_TA" # "original_poem", "translated_poem", "translated_by_TA"
 IDIOMA_ORIGEM = "en_XX"
 IDIOMA_DESTINO = "pt_XX"
@@ -32,6 +32,7 @@ correcoes_lemas = {
     "odeiar": "odiar",
     "deuse": "deuses",
     "vivir": "viver",
+
     "écrir": "écrire",
 }
 
@@ -48,6 +49,7 @@ normalizacao_lemas = {
     "tromperie": "tromper",
     "chrétiens": "chrétien",
     "sauraient": "savoir",
+
     "ressurgiremos": "ressurgir",
     "falhou": "falhar",
     "podias": "poder",
@@ -57,6 +59,7 @@ normalizacao_lemas = {
     "inteligente": "inteligência",
     "odio": "odiar",
     "morto": "morte",
+
     "daddy": "dad",
     "hidden": "hide",
     "vaguely": "vague",
@@ -128,14 +131,14 @@ if __name__ == '__main__':
             "le", "la", "les", "un", "une", "jean", "john", "kaku", "lorsqu", "jusqu", "sai",
             "congnois", "mme", "williams", "non", "tatactatoum", "aucun", "rien", "worsted",
             "sandwich", "prononciation", "sûrement", "oui", "nao", "not", "não", "this", "that",
-            "lover", "lorenzo", "oliver", "tão", "translation", "english", "weep", "poetic", "vanished"
+            "lover", "lorenzo", "oliver", "tão", "translation", "english", "weep", "poetic", "vanished", "unk", "quot"
         ])
     elif IDIOMA_PROC == "pt_XX":
         stopwords_personalizadas.update(["o", "a", "os", "as", "um", "uma", "eu", "tu", "ele", "ela",
-            "nós", "vós", "eles", "elas", "voce", "nao", "algum", "bedlam", "quão", "quao", "pra","vejor"])
+            "nós", "vós", "eles", "elas", "voce", "nao", "algum", "bedlam", "quão", "quao", "pra","vejor", "meme", "unk", "quot"])
     elif IDIOMA_PROC == "en_XX":
         stopwords_personalizadas.update(["the", "a", "an", "and", "but", "or", "so", "to", "of",
-            "in", "for", "on", "at", "peter", "john", "mary", "jane", "kaku", "thee", "thy","thou"])
+            "in", "for", "on", "at", "peter", "john", "mary", "jane", "kaku", "thee", "thy","thou", "unk", "quot"])
 
     nlp = carregar_modelo_spacy(IDIOMA_PROC)
 

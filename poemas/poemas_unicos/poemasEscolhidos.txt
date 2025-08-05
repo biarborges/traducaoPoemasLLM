@@ -1,0 +1,72 @@
+Francês-Inglês:
+2
+Clair de lune
+Paul Verlaine
+
+Moonlight
+Norman R. Shapiro
+
+
+MT: Google Tradutor
+LLM: ChatGPT prompt 1
+--------------------------------------------------------------------------------------
+Francês-Português:
+1
+Demain, dès l’aube
+Victor Hugo
+
+Amanhã, ao amanhecer
+JB Xavier
+
+
+MT: Google Tradutor
+LLM: Maritaca prompt 2
+--------------------------------------------------------------------------------------
+Inglês-Francês:
+3
+The road not taken
+Robert Frost
+
+Le chemin délaissé
+François Charton
+
+
+MT: Google Tradutor
+LLM: ChatGPT prompt 1
+--------------------------------------------------------------------------------------
+Inglês-Português:
+1
+Do not go gentle into that good night
+Dylan Thomas
+
+Não entres mansamente nessa noite funda
+José Francisco Botelho
+
+
+MT: Google Tradutor
+LLM: Maritaca prompt 2
+--------------------------------------------------------------------------------------
+Português-Francês:
+1
+Traduzir-se
+Ferreira Gullar
+
+Se Traduire
+L. Gonçalves et D. Lamaison
+
+
+MT: Google Tradutor
+LLM: ChatGPT prompt 1
+--------------------------------------------------------------------------------------
+Português-Inglês:
+1
+Canção do Exílio
+Gonçalves Dias
+
+The song of exile
+Nelson Ascher
+
+
+MT: Google Tradutor
+LLM: ChatGPT prompt 1
+--------------------------------------------------------------------------------------

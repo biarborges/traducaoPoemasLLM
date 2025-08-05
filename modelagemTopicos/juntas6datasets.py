@@ -3,9 +3,9 @@ import glob
 import os
 
 # --- 1. CONFIGURAÇÃO ---
-caminho_para_arquivos = "googleTradutor" 
+caminho_para_arquivos = "poemas/openRNN" 
 
-padrao_arquivos = os.path.join(caminho_para_arquivos, "*_*_poems_*.csv")
+padrao_arquivos = os.path.join(caminho_para_arquivos, "*_*_poems_openRNN.csv")
 
 lista_arquivos = glob.glob(padrao_arquivos)
 

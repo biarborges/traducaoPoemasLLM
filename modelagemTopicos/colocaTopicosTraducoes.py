@@ -1,9 +1,9 @@
 import pandas as pd
 
 # Caminhos dos arquivos
-arquivo_topicos = "results/ingles_portugues/original/poemas_com_topicos_original.csv"
-arquivo_traducao = "results/ingles_portugues/maritacaPrompt2/ingles_portugues_poems_maritaca_Prompt2.csv"
-saida_arquivo = "results/ingles_portugues/maritacaPrompt2/poemas_com_topicos_maritacaPrompt2.csv"
+arquivo_topicos = "modelagemTopicos/results/ingles_portugues/original/poemas_com_topicos_original.csv"
+arquivo_traducao = "modelagemTopicos/results/ingles_portugues/openRNN/ingles_portugues_poems_openRNN.csv"
+saida_arquivo = "modelagemTopicos/results/ingles_portugues/openRNN/poemas_com_topicos_openRNN.csv"
 
 # Lê os dois arquivos CSV
 df_topicos = pd.read_csv(arquivo_topicos)
