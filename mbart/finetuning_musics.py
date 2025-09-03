@@ -63,7 +63,7 @@ val_dataset = val_dataset.map(preprocess_function, batched=True, desc="Tokenizan
 # Definir parâmetros de treinamento
 training_args = TrainingArguments(
     output_dir="/home/ubuntu/finetuning_pt_en",
-    evaluation_strategy="epoch",
+    eval_strategy="epoch",
     save_strategy="epoch",
     per_device_train_batch_size=4, #8 no artigo
     per_device_eval_batch_size=8,

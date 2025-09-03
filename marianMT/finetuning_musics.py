@@ -19,8 +19,8 @@ if device == "cuda":
 music_train_csv = "../musicas/train/frances_ingles_musics_train.csv"
 music_val_csv = "../musicas/validation/frances_ingles_musics_validation.csv"
 
-model = "/home/ubuntu/finetuning_fr_en"
-tokenizer = "/home/ubuntu/finetuning_fr_en"
+m = "/home/ubuntu/finetuning_fr_en"
+t = "/home/ubuntu/finetuning_fr_en"
 
 def load_dataset(csv_path):
     df = pd.read_csv(csv_path)
@@ -105,8 +105,8 @@ except Exception as e:
 
 # Salvar modelo
 try:
-    model.save_pretrained(model)
-    tokenizer.save_pretrained(tokenizer)
+    model.save_pretrained("/home/ubuntu/finetuning_fr_en")
+    tokenizer.save_pretrained("/home/ubuntu/finetuning_fr_en")
     print("Modelo salvo com sucesso.")
 except Exception as e:
     print(f"Erro ao salvar: {e}")

@@ -61,7 +61,7 @@ def train_model(model_name, train_csv1, train_csv2, val_csv1, val_csv2, output_d
 
         training_args = Seq2SeqTrainingArguments(
             output_dir=output_dir,
-            evaluation_strategy="epoch",
+            eval_strategy="epoch",
             learning_rate=2e-5,
             per_device_train_batch_size=8,
             per_device_eval_batch_size=8,
