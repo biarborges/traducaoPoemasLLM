@@ -1,0 +1,447 @@
+original_poem,translated_poem,src_lang,tgt_lang,translated_by_TA,topic
+"mon fils …
+vingt ans se sont passés …
+avant je te soutenais dans mes bras,
+et ne ratais un seul instant,
+pour te faire plein de bisous partout.
+aujourd’hui t’as pris tes pas,
+et suis seul ton avenir.
+comme un grand, plein de sagesse,
+t’es ma fierté, mon seul but.
+j’ai toute confiance en toi,
+pour mettre en œuvre ce que je t’ai appris,
+pour bâtir une vie honnête,
+remplie de toutes les vertus.
+et mon amour qui te suit,
+ne demande qu’à te soutenir,
+te donner la force pour réussir,
+et à dieu de te protéger toujours.","meu filho …
+vinte anos se passaram …
+antes eu lhe amparava nos meus braços,
+e não perdia um so instante,
+para lhe dar um montão de beijinhos.
+hoje voce caminha autônomo,
+et segue sozinho seu futuro.
+como um senhor,
+cheio de juizo,
+voce é meu orgullo,
+meu único alvo.
+tenho toda confiança em voce,
+para colocar em obras tudo que lhe ensinei,
+para construir uma vida honesta,
+cheia de todas as virtudes.
+et meu amor que lhe segue,
+pede para lhe apoiar sempre,
+lhe dar forças para vencer,
+et a deus de lhe proteger.",fr_XX,pt_XX,"meu filho …
+vinte anos se passaram …
+antes, eu te segurava nos meus braços,
+e não perdia um só momento,
+para te encher de beijos por toda parte.
+hoje, você deu seus passos,
+e eu acompanho sozinho o seu futuro.
+como um grande, cheio de sabedoria,
+você é o meu orgulho, o meu único objetivo.
+tenho total confiança em você,
+para colocar em prática o que te ensinei,
+para construir uma vida honesta,
+repleta de todas as virtudes.
+e o meu amor que te segue,
+só deseja te apoiar,
+te dar a força para ter sucesso,
+e a Deus para te proteger sempre.",2
+"inch allah !
+quel bonheur …
+tenir dans ses bras son bien aimé.
+quel tourment …
+le voir partir engloutit par la nuit.
+inch allah ! pouvoir se glisser dans son intérieur,
+faire de son corps une coquille,
+etre avec lui, là où qu’il soit.","oxala !
+que felicidade …
+ter nos seus braços seu bem amado.
+que tormento …
+vê-lo partir, submergido pela noite.
+oxala ! poder se deslisar no seu interior,
+fazer do seu corpo uma conchinha,
+estar com ele, seja la onde ele estiver.",fr_XX,pt_XX,"se Deus quiser!
+Que felicidade...
+Segurar nos braços o amado.
+Que tormento...
+Vê-lo partir engolido pela noite.
+se Deus quiser! Poder deslizar para dentro dele,
+fazer do seu corpo uma concha,
+estar com ele, onde quer que esteja.",2
+"comme un sourire …
+si mon regard dans le tien
+mon âme te dire : viens.
+si à ton toucher câlin,
+ma peau crier : oui.
+je ne serai qu’émoi
+pour nos désirs ardents …
+brulante,
+par tes mots qui m’excitent,
+par tes caresses qui m’exaltent,
+par tes désirs qui m’animent,
+mes fermetés s’envolent,
+comme un sourire …
+je suis le plaisir, la sensualité, la jouissance …","como um sorriso …
+se meu olhar no seu
+minha alma lhe disser : vem.
+se ao seu tocar carinhoso,
+minha pele disser : sim.
+eu serei so emoção
+para nossos desejos ardentes …
+abrasiva,
+por suas palavras que me excitam,
+por seus carinhos que me exaltam
+por seus desejos que me animam,
+minhas firmezas se vão,
+como um sorriso …
+eu sou o prazer, a sensualidade, o júbilo …",fr_XX,pt_XX,"como um sorriso...
+se meu olhar no teu
+minha alma te diz: vem.
+se com teu toque carinhoso,
+minha pele grita: sim.
+serei apenas emoção
+para nossos desejos ardentes...
+ardente,
+com suas palavras que me excitam,
+com suas carícias que me exaltam,
+com seus desejos que me animam,
+minhas resistências se dissipam,
+como um sorriso...
+sou o prazer, a sensualidade, o êxtase...",2
+"alors, ô ma beauté! dites à la vermine
+qui vous mangera de baisers,
+que j’ai gardé la forme et l’essence divine
+de mes amours décomposés!","então, querida, dize à carne que se arruína,
+ao verme que te beija o rosto,
+que eu preservei a forma e a substância divina
+de meu amor já decomposto!",fr_XX,pt_XX,"Então, ó minha beleza! Diga ao verme
+que te beijará devorando,
+que guardei a forma e a essência divina
+dos meus amores decompostos!",2
+"tantôt sonnera l’heure où le divin hasard,
+où l’auguste vertu, ton épouse encor vierge,
+où le repentir même (oh! la dernière auberge!),
+où tout te dira: meurs, vieux lâche! il est trop tard!”","virá a hora em que o acaso, onde quer que te aguarde,
+em que a augusta virtude, esposa ainda intocada,
+e até mesmo o remorso (oh, a última pousada!)
+te dirão: vais morrer, velho medroso! é tarde!”",fr_XX,pt_XX,"Em breve soará a hora em que o divino acaso,
+em que a augusta virtude, tua esposa ainda virgem,
+em que o arrependimento mesmo (oh! a última pousada!),
+em que tudo te dirá: morre, velho covarde! É tarde demais!",2
+"je me suis enfin détaché
+de toutes choses naturelles
+je peux enfin mourir mais non pêcher
+et ce qu’on n’a jamais touché
+je l’ai touché je l’ai palpé
+et j’ai scruté tout ce que nul
+ne peut en rien imaginer
+et j’ai soupesé maintes fois
+même la vie impondérable
+je peux mourir en souriant","eu finalmente me afastei
+de tudo que há de natural
+posso morrer mas não pecar
+e o que ninguém jamais tocou
+não só toquei como apalpei
+já perscrutei o que ninguém
+nunca sequer imaginou
+e sopesei vezes sem conta
+até a vida imponderável
+se vou morrer, morro sorrindo",fr_XX,pt_XX,"Eu finalmente me libertei
+de todas as coisas naturais
+finalmente posso morrer mas não pecar
+e o que nunca foi tocado
+eu toquei eu apalpei
+e examinei tudo o que ninguém
+pode sequer imaginar
+e eu pesei muitas vezes
+até mesmo a vida imponderável
+eu posso morrer sorrindo.",2
+"dans vos viviers, dans vos étangs,
+carpes, que vous vivez longtemps!
+est-ce que la mort vous oublie,
+poissons de la mélancolie.","carpas, viveis tão longa vida
+nesses viveiros de água fria!
+será que a morte vos olvida,
+ó peixes da melancolia.",fr_XX,pt_XX,"nos vossos tanques, nos vossos lagos,
+carpas, que vivem por muito tempo!
+será que a morte vos esquece,
+peixes da melancolia.",2
+"mes durs rêves formels sauront te chevaucher,
+mon destin au char d’or sera ton beau cocher
+qui pour rênes tiendra tendus à frénésie,
+mes vers, les parangons de toute poésie.","os meus sonhos formais serão teu cavaleiro,
+meu destino luzindo teu belo cocheiro
+por rédeas terás tensos levando à agonia,
+meus versos, o modelo de toda poesia.",fr_XX,pt_XX,"Meus duros sonhos formais saberão te cavalgar,
+meu destino no carro de ouro será teu belo cocheiro
+que as rédeas segurará firmes com frenesi,
+meus versos, os modelos de toda poesia.",2
+"tu t’acharnes sur la beauté.
+et quelles femmes ont été
+victimes de ta cruauté !
+eve, eurydice, cléopâtre;
+j’en connais encor trois ou quatre.","sei que te obstinam as beldades
+e que nelas com acuidade
+exerceu tua crueldade!
+cleópatra, eurídice, eva,
+sei de outras três em tua leva.",fr_XX,pt_XX,"Tu te obstinas com a beleza.
+E quais mulheres foram
+vítimas de tua crueldade!
+Eva, Eurídice, Cleópatra;
+Conheço ainda três ou quatro.",2
+"je souhaite dans ma maison :
+une femme ayant sa raison,
+un chat passant parmi les livres,
+des amis en toute saison
+sans lesquels je ne peux pas vivre.","desejo manter em meu lar:
+uma companheira a pensar,
+andando entre livros um gato,
+bons amigos sempre a passar
+sem os quais o viver é ingrato.",fr_XX,pt_XX,"Desejo em minha casa:
+uma mulher com sua razão,
+um gato passando entre os livros,
+amigos em todas as estações
+sem os quais não posso viver.",2
+"ne soit pas lascif et peureux
+comme le lièvre et l’amoureux.
+mais que toujours ton cerveau soit
+la hase pleine qui conçoit.","não sejas lascivo e assustado
+como a lebre e o apaixonado,
+faça com que o célebro seja
+a fêmea que vários enseja.",fr_XX,pt_XX,"Não sejas lascivo e medroso
+como a lebre e o amante.
+Mas que sempre teu cérebro seja
+a lebre fêmea que concebe.",2
+"belles journées, souris du temps,
+vous rongez peu à peu ma vie.
+dieu! je vais avoir vingt-huit ans,
+et mal vécus, à mon envie.","belos dias, rato das horas,
+roído assim faço-me idas.
+deus! foram-me vinte e oito auroras,
+penso eu muito mal vividas.",fr_XX,pt_XX,"belos dias, ratos do tempo,
+vocês roem pouco a pouco minha vida.
+Deus! Estou prestes a completar vinte e oito anos,
+e vividos mal, ao meu desejo.",2
+"saché-je d’où provient, sirènes, votre ennui
+quand vous vous lamentez, au large, dans la nuit ?
+mer, je suis comme toi, plein de voix machinées
+et mes vaisseaux chantants se nomment les années.","saberei eu porque cantam entediadas
+longas ladainhas durante as madrugadas?
+mas, sou como tu, onde há vozes maquinando
+meus cantantes barcos são anos navegando.",fr_XX,pt_XX,"sabeis, sereias, de onde vem vossa melancolia
+quando vos lamentais, no largo, na noite?
+mar, sou como tu, cheio de vozes maquinadas
+e meus navios cantantes se chamam os anos.",2
+"la femelle de l’alcyon,
+l’amour, les volantes sirènes,
+savent de mortelles chansons
+dangereuses et inhumaines.
+n’oyez pas ces oiseaux maudits,
+mais les anges du paradis.","a fatal fêmea do alcião,
+o amor, as aladas sereias,
+sabem uma mortal canção
+inumanas e cheias de teias.
+que não te encantem tais ruídos,
+só anjos devem ser ouvidos.",fr_XX,pt_XX,"A fêmea do alcyon,
+o amor, as sereias voantes,
+conhecem canções mortais
+perigosas e desumanas.
+Não ouçais essas aves malditas,
+mas os anjos do paraíso.",2
+"prière
+gloire et louange à toi, satan, dans les hauteurs
+du ciel, où tu régnas, et dans les profondeurs
+de l’enfer, où, vaincu, tu rêves en silence!
+fais que mon âme un jour, sous l’arbre de science,
+près de toi se repose, à l’heure où sur ton front
+comme un temple nouveau ses rameaux s’épandront!","oração
+glória e louvor a ti, satã, nas amplidões
+do céu, em que reinaste, e nas escuridões
+do inferno, em que, vencido, sonhas com prudência!
+deixa que eu, junto a ti, sob a árvore da ciência,
+repouse, na hora em que, sobre a fronte, hás de ver
+seus ramos como um templo novo a se estender!",fr_XX,pt_XX,"Oração
+glória e louvor a ti, satã, nas alturas
+do céu, onde reinaste, e nas profundezas
+do inferno, onde, vencido, sonhas em silêncio!
+faz com que minha alma um dia, sob a árvore do conhecimento,
+perto de ti repouse, na hora em que sobre tua testa
+como um novo templo se espalharão seus ramos!",2
+"sourire…
+sourire
+quand je la croise sur son visage
+sur son visage comme sur les nôtres
+sur leur visages il y a
+des restes de la rencontre precedente","sorriso
+quando cruzo com ela no seu rosto
+no seu rosto assim como nos nossos
+nos rostos deles há
+restos daquele encontro precedente",fr_XX,pt_XX,"sorriso...
+sorriso
+quando a encontro em seu rosto
+em seu rosto como nos nossos
+em seus rostos há
+restos do encontro anterior",2
+"gardez le trait de la fenestre,
+amans, qui par ruez passez,
+car plus tot en serez blessez
+que de trait d’arc ou d’alabestre
+n’alez a destre ne a senestre
+regardant, mais le yeulx bessez;
+gardez le trait de la fenestre,
+amans, qui par ruez passez,
+se n’avez medecin, bon maistre,
+si tost que vous serez navrez
+a dieu soyez recommendez;
+mort vous tiens, demandez le prestre:
+gardez le trait de la fenestre.","cuida das setas da janela,
+amante que nas ruas vais,
+porque são elas mais mortais
+que setas de arco, que quadrelos.
+não olhes esta parte, aquela,
+baixar os olhos convém mais.
+cuida das setas da janela,
+amante que nas ruas vais.
+se médico por ti não zela,
+e se ferido acaso cais,
+entrega a alma a deus, ao pai,
+a morte é certa: ao padre apela.
+cuida das setas da janela.",fr_XX,pt_XX,"mantenha-se afastado da flecha da janela,
+amantes, que passam correndo,
+pois mais cedo você será ferido
+do que por flechas de arco ou de alabastro
+não vá para a direita nem para a esquerda
+olhando, mas com os olhos baixos;
+mantenha-se afastado da flecha da janela,
+amantes, que passam correndo,
+se não tiver médico, bom mestre,
+assim que estiver ferido
+recomende-se a Deus;
+a morte o espera, chame o padre:
+mantenha-se afastado da flecha da janela.",2
+"il y eut un grand rire triste
+la pendule s’arrêta
+une bête fauve sauvait ses petits.
+rires opaques dans les cadres d’agonie
+autant de nudités tournant en dérision leur pâleur
+tournant en dérision
+les yeux vertueux du phare des naufrages.","houve um grande riso triste
+o pêndulo parou
+um bicho do mato salvava seus filhotes.
+risos opacos em quadros de agonia
+tantas nudezes transformando em irrisão a sua palidez
+transformando em irrisão
+os olhos virtuosos do farol dos náufragos.",fr_XX,pt_XX,"Houve uma grande risada triste
+o relógio parou
+um animal selvagem salvou seus filhotes.
+risos opacos nos quadros de agonia
+tantas nudezes zombando de sua palidez
+zombando
+dos olhos virtuosos do farol dos naufrágios.",2
+"caresse l’horizon de la nuit, cherche le coeur de jais que l’aube recouvre de chair. il mettrait dans tes yeux des pensées innocentes, des flammes, des ailes et des verdures que le soleil n’inventa pas.
+ce n’est pas la nuit qui te manque, mais sa puissance.","acaricia o horizonte da noite, busca o coração de azeviche que a aurora recobre de carne. ele te porá nos olhos pensamentos inocentes, chamas, asas e verduras que o sol ainda não inventou.
+não é a noite que te falta, mas o seu poder.",fr_XX,pt_XX,"Acaricia o horizonte da noite, procura o coração de ébano que a alvorada cobre de carne. Ele colocaria em teus olhos pensamentos inocentes, chamas, asas e verduras que o sol não inventou. Não é a noite que te falta, mas sim o seu poder.",2
+"tes jeunes seins brillaient sous la lune
+mais il a jeté
+le caillou glacé
+la froide pierre de la jalousie
+sur le reflet
+de ta beauté
+qui dansait nue sur la rivière
+dans la splendeur de l’été.","teus jovens seios brilhavam ao luar
+mas arremeti o
+gelo frio
+da pedra gélida do ciúme
+contra o rio
+que refletia o
+dançar de tua nudez na riviera
+pelo esplendor do estio.",fr_XX,pt_XX,"teus seios jovens brilhavam sob a lua
+mas ele lançou
+a pedra gelada
+a fria pedra do ciúme
+sobre o reflexo
+da tua beleza
+que dançava nua sobre o rio
+na esplendor do verão.",2
+"pâle comme l’aube
+dans les cercles de la nuit lourde
+le donjon sort de son gant de taupe
+comme l’apparition de la voleuse de larmes.","pálida com a alva
+nos círculos das noites pesadas
+a masmorra da sua luva de toupeira parda
+como a aparição da ladra de lágrimas.",fr_XX,pt_XX,"pálido como a alvorada
+nos círculos da noite pesada
+a torre emerge de sua luva de toupeira
+como a aparição da ladra de lágrimas.",2
+"n’apprends qu’avec réserve.
+toute une vie ne suffit pas pour désapprendre, ce que naïf, soumis, tu t’es laissé mettre dans la tête – innocent! – sans songer aux conséquences.","aprende tão somente com reservas.
+toda uma vida não basta para desaprender o que, ingênuo, submisso, tu deixaste que te colocassem na cabeça – inocente! – sem pensar nas consequências.",fr_XX,pt_XX,"Aprende apenas com cautela.
+Uma vida inteira não é suficiente para desaprender o que, ingênuo, submisso, deixaste entrar em tua cabeça - inocente! - sem pensar nas consequências.",2
+"avec tes défauts, pas de hâte. ne va pas à la légére les corriger.
+qu’irais-tu mettre à la place?","sem pressa com teus defeitos. não vás corrigi-los inconsideradamente.
+o que colocarias no lugar?",fr_XX,pt_XX,"Com os teus defeitos, não tenhas pressa. Não os corrijas de ânimo leve.
+O que colocarias no lugar deles?",2
+"réalisation. pas trop. seulement ce qu’il faut pour qu’on te laisse la paix avec les réalisations, de façon que tu puisses, en rêvant, pour toi seul, bientôt rentrer dans l’irréel, l’irréalisable, l’indifférence à la réalisation.","realização. não demais. apenas o necessário para que te deixem em paz com as realizações de modo que possas, sonhando, só para ti, logo entrar no irreal, no irrealizável, na indiferença à realização.",fr_XX,pt_XX,"realização. não muito. apenas o necessário para que te deixem em paz com as realizações, de modo que possas, sonhando, para ti mesmo, em breve entrar no irreal, no inatingível, na indiferença à realização.",2
+"quoi qu’il t’arrive, ne te laisse jamais aller – faute suprême – à te croire maître, même pas un maître à mal penser. il te reste beaucoup à faire, énormément, presque tout. la mort cueillera un fruit encore vert.","aconteça o que acontecer, nunca te deixes levar – erro supremo – pela crença de que és o mestre, nem mesmo um mestre do mal pensar. resta muito a fazer, enormemente, quase tudo. a morte colherá um fruto ainda verde.",fr_XX,pt_XX,"Seja o que for que te aconteça, nunca te deixes cair - falta suprema - a acreditar ser mestre, nem sequer um mestre em maus pensamentos. Ainda tens muito a fazer, imenso, quase tudo. A morte colherá uma fruta ainda verde.",2
+"… bêtes pour avoir été intelligents trop tôt. toi, ne te hâte pas vers l’adaptation.
+toujours garde en réserve de l’inadaptation.","… bobos por terem sido inteligentes cedo demais. não te apresses rumo à adaptação.
+guarda sempre uma reserva de inadaptação.",fr_XX,pt_XX,"… animais por terem sido inteligentes cedo demais. tu, não te apresses em direção à adaptação.
+sempre mantém em reserva a inadaptação.",2
+"maintenant que je suis loin de la populace
+je puis sonder mon âme et recueillir mes
+pleurs.
+j’ai mis un voile sur le front de mes douleurs,
+et personne n’a vu la souffrance en ma face.
+car j’ai trop de fierté pour montrer mes émois
+et tout ce que mes yeux reflètent d’amertume,
+et mon rire toujours comme une dense brume
+empêche l’étranger de connaître mon “moi”.
+je fais semblant de rire alors que dans moi
+même
+quelque chose de las, de lourd et d’étouffant
+contemple ma gaîté et, sombre, la blasphème.
+devant l’indifférent je sonne l’olifant,
+pour que le monde croie encor ma vie heureuse
+et ne découvre point ma lassitude affreuse.","agora que distante estou da populaça
+posso sondar minha alma e recolher meu
+pranto.
+minhas dores cobri com um espesso manto,
+e ninguém entreviu em meu rosto a desgraça.
+pois sou muito vaidoso e não mostro o que sinto
+nem o que meu olhar reflete de amargores,
+e tal qual densa bruma afinal meus humores
+vedam ter de meu “eu” ao estranho o instinto.
+eu simulo sorrir, dentro de mim, contudo,
+um quê de farto e árduo e muito sufocante
+contempla meu contento e o blasfema, sisudo.
+ante o desimportante eu toco um olifante,
+para que o mundo creia em minha alegre vida
+e que nunca descubra a minha alma abatida.",fr_XX,pt_XX,"Agora que estou longe da multidão
+Posso sondar minha alma e recolher minhas
+lágrimas.
+Coloquei um véu sobre a testa das minhas dores,
+E ninguém viu o sofrimento em meu rosto.
+Pois tenho muito orgulho para mostrar meus sentimentos
+E tudo o que meus olhos refletem de amargura,
+E meu riso sempre como uma densa névoa
+Impede o estranho de conhecer o meu ""eu"".
+Finjo rir enquanto dentro de mim
+Alguma coisa cansada, pesada e sufocante
+Contempla minha alegria e, sombria, a blasfema.
+Diante do indiferente eu toco o olifante,
+Para que o mundo ainda acredite em minha vida feliz
+E não descubra minha terrível exaustão.",2
+"une fille nue nage dans la mer
+un homme barbu marche sur l’eau
+où est la merveille des merveilles
+le miracle annoncé plus haut ?","uma moça nua nadando no mar
+um homem barbudo andando sobre a água
+onde está a maravilha das maravilhas
+do milagre anunciado acima?",fr_XX,pt_XX,"uma garota nua nada no mar
+um homem barbudo caminha sobre a água
+onde está a maravilha das maravilhas
+o milagre anunciado acima?",2

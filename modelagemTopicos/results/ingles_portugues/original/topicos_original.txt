@@ -1,48 +1,48 @@
-Topic -1 (Quantity of poems: 86):
-  like: 0.2486
-  love: 0.2436
-  eye: 0.2038
-  look: 0.1641
-  man: 0.1392
-  hand: 0.1342
-  know: 0.1293
-  day: 0.1293
-  house: 0.1202
-  sea: 0.1143
+Topic -1 (Quantity of poems: 102):
+  look: 0.1921
+  love: 0.1788
+  eye: 0.1712
+  hand: 0.1462
+  come: 0.1295
+  night: 0.1295
+  death: 0.1277
+  white: 0.1226
+  day: 0.1211
+  know: 0.1169
 
-Topic 0 (Quantity of poems: 134):
-  like: 0.3299
-  come: 0.1924
-  white: 0.1567
-  house: 0.1537
-  blue: 0.1446
-  water: 0.1244
-  river: 0.1177
-  eye: 0.1072
-  look: 0.1045
-  light: 0.1045
+Topic 0 (Quantity of poems: 118):
+  come: 0.2080
+  white: 0.1850
+  house: 0.1734
+  water: 0.1666
+  blue: 0.1619
+  gray: 0.1333
+  bird: 0.1285
+  leave: 0.1233
+  little: 0.1166
+  river: 0.1143
 
-Topic 1 (Quantity of poems: 52):
-  love: 0.5296
-  shall: 0.2724
-  time: 0.2106
-  beauty: 0.1840
-  god: 0.1444
-  truth: 0.1384
-  art: 0.1325
-  true: 0.1091
-  live: 0.1023
-  doth: 0.1023
+Topic 1 (Quantity of poems: 64):
+  love: 0.6279
+  beauty: 0.1827
+  god: 0.1713
+  time: 0.1680
+  death: 0.1541
+  art: 0.1410
+  doth: 0.1142
+  eye: 0.1120
+  man: 0.1073
+  truth: 0.1073
 
-Topic 2 (Quantity of poems: 28):
-  thought: 0.2683
-  hand: 0.2071
-  day: 0.1949
-  feel: 0.1937
-  night: 0.1828
-  like: 0.1828
-  head: 0.1639
-  look: 0.1584
-  sense: 0.1340
-  eye: 0.1340
+Topic 2 (Quantity of poems: 16):
+  day: 0.1963
+  eye: 0.1963
+  fear: 0.1867
+  half: 0.1745
+  feel: 0.1745
+  thought: 0.1600
+  look: 0.1527
+  thing: 0.1527
+  joy: 0.1334
+  mirror: 0.1334
 

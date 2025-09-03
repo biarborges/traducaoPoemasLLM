@@ -1,0 +1,48 @@
+Topic -1 (Quantity of poems: 97):
+  animal: 0.6758
+  write: 0.2368
+  day: 0.1326
+  word: 0.1326
+  body: 0.1137
+  place: 0.1042
+  time: 0.0947
+  remember: 0.0927
+  eye: 0.0888
+  love: 0.0884
+
+Topic 0 (Quantity of poems: 156):
+  know: 0.2107
+  cage: 0.2019
+  love: 0.1816
+  day: 0.1556
+  time: 0.1200
+  leave: 0.1200
+  dream: 0.1190
+  child: 0.1190
+  long: 0.1135
+  night: 0.1102
+
+Topic 1 (Quantity of poems: 27):
+  snow: 0.4480
+  child: 0.1651
+  edge: 0.1651
+  extra: 0.1478
+  tree: 0.1349
+  light: 0.1349
+  mirror: 0.1179
+  window: 0.1179
+  mist: 0.1165
+  shadow: 0.1157
+
+Topic 2 (Quantity of poems: 20):
+  poem: 0.3791
+  poetry: 0.2446
+  poet: 0.2394
+  say: 0.2079
+  forget: 0.1646
+  write: 0.1590
+  artist: 0.1406
+  man: 0.1346
+  word: 0.1223
+  great: 0.1223
+

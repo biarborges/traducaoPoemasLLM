@@ -1,0 +1,48 @@
+Topic -1 (Quantity of poems: 97):
+  animal: 0.8580
+  écrire: 0.1601
+  nom: 0.1116
+  souvenir: 0.0928
+  jour: 0.0843
+  histoire: 0.0825
+  version: 0.0796
+  corps: 0.0779
+  amour: 0.0674
+  mort: 0.0611
+
+Topic 0 (Quantity of poems: 156):
+  cage: 0.2237
+  amour: 0.2159
+  savoir: 0.1758
+  jour: 0.1465
+  voir: 0.1280
+  docteur: 0.1271
+  bien: 0.1157
+  enfant: 0.1095
+  faire: 0.1049
+  temps: 0.1038
+
+Topic 1 (Quantity of poems: 27):
+  neige: 0.5137
+  arbre: 0.1547
+  bord: 0.1352
+  miroir: 0.1352
+  monde: 0.1326
+  main: 0.1105
+  lumière: 0.1105
+  grand: 0.1105
+  voir: 0.1105
+  corps: 0.1105
+
+Topic 2 (Quantity of poems: 20):
+  poème: 0.4443
+  poésie: 0.2777
+  poète: 0.2221
+  grand: 0.2157
+  dire: 0.1816
+  siècle: 0.1543
+  france: 0.1527
+  oublier: 0.1527
+  écrire: 0.1362
+  artiste: 0.1305
+

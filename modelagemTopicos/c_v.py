@@ -10,11 +10,13 @@ import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 # --- Configurações ---
-CAMINHO_CSV = "results/ingles_portugues/maritacaPrompt2/poemas_com_topicos_maritacaPrompt2.csv"
-COLUNA_POEMAS = "translated_by_TA"  # coluna com texto original (não processado)
-IDIOMA_PROC = "pt_XX"
+CAMINHO_CSV = "modelagemTopicos/results/frances_ingles/original/poemas_com_topicos_original.csv"
+CAMINHO_TOPICOS = "modelagemTopicos/results/frances_ingles/original/topicos_original.txt"
+CAMINHO_SAIDA = "modelagemTopicos/results/frances_ingles/original/coerencia_topicos.csv"
+COLUNA_POEMAS = "original_poem"  # Pode ser translated_by_TA, original_poem ou translated_poem
+IDIOMA_PROC = "fr_XX"
 
-# Correções e normalizações de lemas (se quiser pode incluir mais)
+# Correções e normalizações
 correcoes_lemas = {
     "conheçar": "conhecer",
     "escrevar": "escrever",
@@ -23,6 +25,7 @@ correcoes_lemas = {
     "odeiar": "odiar",
     "deuse": "deuses",
     "vivir": "viver",
+
     "écrir": "écrire",
 }
 
@@ -39,6 +42,7 @@ normalizacao_lemas = {
     "tromperie": "tromper",
     "chrétiens": "chrétien",
     "sauraient": "savoir",
+
     "ressurgiremos": "ressurgir",
     "falhou": "falhar",
     "podias": "poder",
@@ -48,6 +52,7 @@ normalizacao_lemas = {
     "inteligente": "inteligência",
     "odio": "odiar",
     "morto": "morte",
+
     "daddy": "dad",
     "hidden": "hide",
     "vaguely": "vague",
@@ -55,7 +60,6 @@ normalizacao_lemas = {
 }
 
 # --- Funções ---
-
 def carregar_modelo_spacy(idioma: str):
     modelos = {
         "pt_XX": "pt_core_news_md",
@@ -84,27 +88,34 @@ def preprocessar_texto(texto: str, nlp_model, stopwords_custom: set, usar_lemati
         token for token in tokens
         if token.isalpha() and token not in stopwords_custom and len(token) > 2
     ]
-    return tokens_filtrados  # Retorna lista de tokens, não string
+    return tokens_filtrados
+
+def carregar_topicos_arquivo(caminho_txt):
+    topicos = []
+    with open(caminho_txt, "r", encoding="utf-8") as f:
+        for linha in f:
+            if ":" in linha:
+                palavras = linha.split(":")[1].strip().split(", ")
+                topicos.append(palavras)
+    return topicos
 
 # --- Execução principal ---
-
 if __name__ == "__main__":
     # Carrega CSV
     df = pd.read_csv(CAMINHO_CSV)
     print(f"Total de poemas: {len(df)}")
 
-    # Carregar spaCy
+    # Carrega spaCy
     nlp = carregar_modelo_spacy(IDIOMA_PROC)
 
-    # Carregar stopwords nltk para o idioma
-    from nltk.corpus import stopwords
+    # Stopwords
     import nltk
     nltk.download('stopwords')
     nltk.download('punkt')
     idioma_nltk = {"pt_XX": "portuguese", "en_XX": "english", "fr_XX": "french"}[IDIOMA_PROC]
     stopwords_personalizadas = set(stopwords.words(idioma_nltk))
 
-    # Pré-processar poemas (lista de listas de tokens)
+    # Pré-processamento
     poemas_tokenizados = []
     for poema in tqdm(df[COLUNA_POEMAS].astype(str), desc="Pré-processando poemas"):
         tokens = preprocessar_texto(poema, nlp, stopwords_personalizadas, usar_lematizacao=True)
@@ -114,25 +125,37 @@ if __name__ == "__main__":
     dictionary = Dictionary(poemas_tokenizados)
     print(f"Dicionário com {len(dictionary)} tokens únicos.")
 
-    # Defina seus grupos e tópicos (exemplo para 3 grupos só, adapte conforme seu caso)
-    topic_groups = {
-       "Maritaca Prompt 2": [
-           ["casa", "rio", "branco", "sol", "pequeno", "lua", "céu", "olho", "água", "café"],
-           ["amor", "beleza", "vida", "verdade", "deus", "mundo", "morte", "estátua", "olho", "fazer"],
-            ["pensamento", "mão", "noite", "dia", "olhar", "espelho", "olho", "cabeça", "sentir", "coração"],
-        ],
-    }
+    # Carregar tópicos do arquivo TXT
+    topicos = carregar_topicos_arquivo(CAMINHO_TOPICOS)
+    print(f"Total de tópicos carregados: {len(topicos)}")
 
-    # Calcular coerência para cada grupo
-    for grupo, topicos in topic_groups.items():
-        cm = CoherenceModel(
-            topics=topicos,
-            texts=poemas_tokenizados,
-            dictionary=dictionary,
-            coherence='c_v'
-        )
-        media = cm.get_coherence()
-        print(f"\nGrupo {grupo} — Coerência média c_v: {media:.4f}")
-        scores_topicos = cm.get_coherence_per_topic()
-        for i, score in enumerate(scores_topicos):
-            print(f"  Tópico {i}: {score:.4f}")
+    # Calcular coerência
+    cm = CoherenceModel(
+        topics=topicos,
+        texts=poemas_tokenizados,
+        dictionary=dictionary,
+        coherence='c_v'
+    )
+    media = cm.get_coherence()
+    scores_topicos = cm.get_coherence_per_topic()
+
+    # Exibir resultados no console
+    print(f"\n✔️ Coerência média c_v: {media:.4f}")
+    for i, score in enumerate(scores_topicos):
+        print(f"  Tópico {i}: {score:.4f}")
+
+    # Salvar resultados em CSV
+    resultados = pd.DataFrame({
+        "Tópico": [f"Tópico {i}" for i in range(len(scores_topicos))],
+        "Coerência": scores_topicos
+    })
+    resultados.loc[len(resultados)] = ["Média", media]
+    
+    print(f"🔍 Tentando salvar em: {os.path.abspath(CAMINHO_SAIDA)}")
+    print(f"Arquivo será salvo com {len(resultados)} linhas")
+
+    resultados.to_csv(CAMINHO_SAIDA, index=False, encoding="utf-8")
+
+    print("✔ Arquivo salvo com sucesso?" , os.path.exists(CAMINHO_SAIDA))
+
+    print(f"\n📂 Resultados salvos em: {CAMINHO_SAIDA}")

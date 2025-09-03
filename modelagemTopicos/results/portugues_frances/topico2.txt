@@ -1,0 +1,140 @@
+Original:
+  terra: 0.3364
+  gente: 0.3364
+  mar: 0.1842
+  rei: 0.1567
+  mouro: 0.1442
+  capitão: 0.1274
+  cortar: 0.1210
+  lusitano: 0.1089
+  ter: 0.1078
+  céu: 0.1078
+
+------------------------------------------------
+
+Reference:
+  terre: 0.2177
+  voir: 0.1537
+  gloire: 0.1385
+  venir: 0.1385
+  mer: 0.1375
+  roi: 0.1286
+  portugais: 0.1286
+  bien: 0.1133
+  dieu: 0.1089
+  faire: 0.1052
+
+------------------------------------------------
+
+MarianMT:
+  terre: 0.2746
+  voir: 0.2330
+  venir: 0.2036
+  mer: 0.1997
+  roi: 0.1527
+  fort: 0.1332
+  capitaine: 0.1323
+  avoir: 0.1221
+  peuple: 0.1165
+  ciel: 0.1120
+
+------------------------------------------------
+
+mBart:
+  croire: 0.4637
+  affaire: 0.3047
+  terre: 0.2782
+  lieu: 0.2252
+  agir: 0.1987
+  faire: 0.1855
+  roi: 0.1801
+  falloir: 0.1523
+  temps: 0.1296
+  mer: 0.1296
+
+------------------------------------------------
+
+OpenRNN:
+  terre: 0.3648
+  roi: 0.2940
+  mer: 0.2189
+  liberté: 0.1934
+  fort: 0.1837
+  venir: 0.1785
+  voir: 0.1581
+  dieu: 0.1339
+  grand: 0.1339
+  eau: 0.1338
+
+------------------------------------------------
+
+Google Translator:
+  terre: 0.2694
+  voir: 0.2531
+  mer: 0.1959
+  roi: 0.1697
+  venir: 0.1498
+  maure: 0.1469
+  fort: 0.1398
+  peuple: 0.1306
+  capitaine: 0.1298
+  grand: 0.1143
+
+------------------------------------------------
+
+ChatGPT Prompt 1:
+  terre: 0.3373
+  voir: 0.2169
+  venir: 0.1867
+  mer: 0.1847
+  maure: 0.1606
+  roi: 0.1572
+  grand: 0.1365
+  capitaine: 0.1277
+  donner: 0.1277
+  lusitanien: 0.1213
+
+------------------------------------------------
+
+ChatGPT Prompt 2:
+  terre: 0.3059
+  mer: 0.2326
+  voir: 0.2232
+  venir: 0.1820
+  roi: 0.1618
+  maure: 0.1571
+  peuple: 0.1240
+  capitaine: 0.1213
+  grand: 0.1157
+  lusitanien: 0.1124
+
+------------------------------------------------
+
+Maritaca Prompt 1:
+  terre: 0.2927
+  voir: 0.2258
+  venir: 0.1841
+  roi: 0.1637
+  mer: 0.1505
+  peuple: 0.1422
+  maure: 0.1422
+  capitaine: 0.1330
+  lusitanien: 0.1263
+  grand: 0.1254
+
+------------------------------------------------
+
+Maritaca Prompt 2:
+  terre: 0.3484
+  voir: 0.2035
+  peuple: 0.1709
+  bien: 0.1593
+  roi: 0.1593
+  maure: 0.1546
+  venir: 0.1394
+  grand: 0.1384
+  mer: 0.1302
+  capitaine: 0.1195
+
+------------------------------------------------
+

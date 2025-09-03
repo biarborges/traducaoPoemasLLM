@@ -1,0 +1,132 @@
+Original:
+  neige: 0.5137
+  arbre: 0.1547
+  bord: 0.1352
+  miroir: 0.1352
+  monde: 0.1326
+  main: 0.1105
+  lumière: 0.1105
+  grand: 0.1105
+  voir: 0.1105
+  corps: 0.1105
+
+------------------------------------------------
+Reference:
+  snow: 0.4223
+  come: 0.2001
+  light: 0.1778
+  world: 0.1556
+  tree: 0.1556
+  edge: 0.1556
+  mirror: 0.1359
+  mist: 0.1343
+  little: 0.1111
+  leave: 0.1111
+
+------------------------------------------------
+MarianMT:
+  snow: 0.4351
+  come: 0.1603
+  tree: 0.1603
+  little: 0.1603
+  mirror: 0.1400
+  window: 0.1374
+  light: 0.1374
+  world: 0.1374
+  night: 0.1145
+  hand: 0.1145
+
+------------------------------------------------
+mBart:
+
+  snow: 0.3897
+  light: 0.1705
+  tree: 0.1705
+  window: 0.1461
+  leave: 0.1461
+  world: 0.1461
+  child: 0.1218
+  hand: 0.1218
+  body: 0.1218
+  mirror: 0.1218
+
+------------------------------------------------
+OpenRNN:
+  edge: 0.3226
+  color: 0.2637
+  artificial: 0.2527
+  guide: 0.2527
+  sun: 0.2419
+  block: 0.1992
+  hold: 0.1815
+  light: 0.1813
+  closed: 0.1743
+  leave: 0.1648
+
+------------------------------------------------
+Google Translator:
+  snow: 0.4075
+  edge: 0.1661
+  light: 0.1585
+  tree: 0.1585
+  mirror: 0.1384
+  mist: 0.1368
+  world: 0.1358
+  little: 0.1358
+  know: 0.1132
+  hand: 0.1132
+
+------------------------------------------------
+ChatGPT Prompt 1:
+  snow: 0.5016
+  tree: 0.1511
+  child: 0.1320
+  mirror: 0.1320
+  edge: 0.1320
+  mist: 0.1304
+  world: 0.1295
+  little: 0.1295
+  light: 0.1295
+  know: 0.1079
+
+------------------------------------------------
+ChatGPT Prompt 2:
+  snow: 0.4670
+  edge: 0.1557
+  tree: 0.1485
+  world: 0.1485
+  light: 0.1485
+  window: 0.1297
+  child: 0.1297
+  mirror: 0.1297
+  hand: 0.1061
+  body: 0.1061
+
+------------------------------------------------
+Maritaca Prompt 1:
+  snow: 0.4987
+  edge: 0.1575
+  tree: 0.1502
+  mirror: 0.1312
+  world: 0.1287
+  light: 0.1287
+  body: 0.1073
+  come: 0.1073
+  hand: 0.1073
+  leave: 0.1073
+
+------------------------------------------------
+Maritaca Prompt 2:
+  snow: 0.4480
+  child: 0.1651
+  edge: 0.1651
+  extra: 0.1478
+  tree: 0.1349
+  light: 0.1349
+  mirror: 0.1179
+  window: 0.1179
+  mist: 0.1165
+  shadow: 0.1157
+
+------------------------------------------------
+

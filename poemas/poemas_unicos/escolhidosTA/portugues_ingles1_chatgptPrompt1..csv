@@ -1,4 +1,4 @@
-original_poem,translated_poem,src_lang,tgt_lang,translated_by_TA
+original_poem,translated_poem,src_lang,tgt_lang,chatgptPrompt1,googleTradutor
 "Minha terra tem palmeiras,
 Onde canta o Sabiá;
 As aves, que aqui gorjeiam,
@@ -81,4 +81,31 @@ Without returning there;
 Without enjoying the wonders
 I do not find here;
 Without still beholding the palm trees,
+Where the thrush sings.","My land has palm trees,
+Where the thrush sings;
+The birds that chirp here,
+Don't chirp like they do there.
+
+Our sky has more stars,
+Our meadows have more flowers,
+Our forests have more life,
+Our life more loves.
+
+In brooding alone at night,
+I find more pleasure there;
+My land has palm trees,
+Where the thrush sings.
+
+My land has delights,
+I don't find such here;
+In brooding—alone at night—
+I find more pleasure there;
+My land has palm trees,
+Where the thrush sings.
+
+God forbid that I die,
+Without returning there;
+Without enjoying the delights
+I don't find here;
+Without still seeing the palm trees,
 Where the thrush sings."

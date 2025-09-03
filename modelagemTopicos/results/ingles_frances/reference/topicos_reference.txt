@@ -1,0 +1,60 @@
+Topic -1 (Quantity of poems: 157):
+  dire: 0.1938
+  homme: 0.1870
+  mort: 0.1825
+  mourir: 0.1758
+  amour: 0.1411
+  vent: 0.1397
+  ciel: 0.1259
+  jour: 0.1259
+  nuit: 0.1235
+  jamais: 0.1164
+
+Topic 0 (Quantity of poems: 111):
+  jamais: 0.1548
+  voir: 0.1401
+  terre: 0.1358
+  bien: 0.1290
+  prendre: 0.1267
+  fleur: 0.1227
+  jour: 0.1217
+  petit: 0.1214
+  venir: 0.1161
+  oeil: 0.1154
+
+Topic 1 (Quantity of poems: 14):
+  nuit: 0.2620
+  oeil: 0.2396
+  pouvoir: 0.2130
+  regard: 0.1574
+  pleurer: 0.1497
+  couche: 0.1497
+  misère: 0.1353
+  amour: 0.1331
+  voir: 0.1259
+  regarder: 0.1123
+
+Topic 2 (Quantity of poems: 10):
+  jamais: 0.3725
+  heureux: 0.2483
+  amour: 0.2100
+  doux: 0.1575
+  coeur: 0.1575
+  grand: 0.1476
+  fleur: 0.1476
+  quitter: 0.1334
+  point: 0.1107
+  arbre: 0.1107
+
+Topic 3 (Quantity of poems: 8):
+  amour: 0.6138
+  perdre: 0.1395
+  vouloir: 0.1176
+  pitié: 0.1176
+  jeune: 0.1116
+  oeil: 0.1116
+  temps: 0.0990
+  adieu: 0.0990
+  jour: 0.0990
+  souhaiter: 0.0945
+

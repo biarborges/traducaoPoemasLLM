@@ -1,0 +1,140 @@
+Original:
+  écrire: 0.2211
+  nom: 0.1684
+  amour: 0.1514
+  jour: 0.1276
+  coeur: 0.1247
+  grand: 0.1247
+  mort: 0.1247
+  voir: 0.1217
+  venir: 0.1158
+  soleil: 0.1128
+
+------------------------------------------------
+
+Reference:
+  nome: 0.2281
+  escrever: 0.1955
+  dia: 0.1457
+  morte: 0.1358
+  flor: 0.1214
+  branco: 0.1210
+  olho: 0.1159
+  noite: 0.1159
+  conhecer: 0.1136
+  sol: 0.1126
+
+------------------------------------------------
+
+MarianMT:
+  escrever: 0.3426
+  nome: 0.2597
+  água: 0.2024
+  noite: 0.1555
+  dia: 0.1530
+  morte: 0.1382
+  sol: 0.1160
+  coração: 0.1086
+  flor: 0.1080
+  branco: 0.0992
+
+------------------------------------------------
+
+mBart:
+  escrever: 0.3883
+  nome: 0.2491
+  embaixo: 0.1674
+  preto: 0.1534
+  dia: 0.1274
+  flor: 0.1194
+  velho: 0.1161
+  noite: 0.1161
+  amor: 0.1132
+  coração: 0.0991
+
+------------------------------------------------
+
+OpenRNN:
+  nome: 0.4527
+  noite: 0.2164
+  lanterna: 0.1665
+  morte: 0.1492
+  dia: 0.1483
+  memória: 0.1429
+  vida: 0.1363
+  guerreiro: 0.1209
+  branco: 0.1122
+  perfeitamente: 0.1067
+
+------------------------------------------------
+
+Google Translator:
+  escrever: 0.2872
+  nome: 0.2652
+  noite: 0.1738
+  dia: 0.1595
+  morte: 0.1371
+  sol: 0.1196
+  velho: 0.1031
+  coração: 0.1022
+  passar: 0.1022
+  branco: 0.1002
+
+------------------------------------------------
+
+ChatGPT Prompt 1:
+  escrever: 0.3512
+  nome: 0.2691
+  noite: 0.1543
+  dia: 0.1543
+  morte: 0.1290
+  sol: 0.1088
+  coração: 0.1062
+  branco: 0.1017
+  flor: 0.1017
+  onda: 0.0987
+
+------------------------------------------------
+
+ChatGPT Prompt 2:
+  escrever: 0.3043
+  nome: 0.2776
+  dia: 0.1618
+  noite: 0.1383
+  morte: 0.1331
+  água: 0.1252
+  flor: 0.1172
+  sol: 0.1070
+  branco: 0.1049
+  coração: 0.1044
+
+------------------------------------------------
+
+Maritaca Prompt 1:
+  escrever: 0.3537
+  nome: 0.2678
+  dia: 0.1586
+  noite: 0.1384
+  morte: 0.1233
+  sol: 0.1032
+  coração: 0.1032
+  flor: 0.1012
+  negro: 0.1012
+  onda: 0.1012
+
+------------------------------------------------
+
+Maritaca Prompt 2:
+  nome: 0.3188
+  escrever: 0.2973
+  dia: 0.1478
+  noite: 0.1300
+  onda: 0.1254
+  flor: 0.1115
+  morte: 0.1071
+  sol: 0.1020
+  negro: 0.0934
+  branco: 0.0904
+
+------------------------------------------------
+

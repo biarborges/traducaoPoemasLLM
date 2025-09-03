@@ -1,41 +1,401 @@
 Original:
-
+  cage: 0.2237
+  amour: 0.2159
+  savoir: 0.1758
+  jour: 0.1465
+  voir: 0.1280
+  docteur: 0.1271
+  bien: 0.1157
+  enfant: 0.1095
+  faire: 0.1049
+  temps: 0.1038
 
 ------------------------------------------------
 Reference:
+  cage: 0.2610
+  know: 0.2280
+  love: 0.1721
+  day: 0.1577
+  time: 0.1319
+  come: 0.1305
+  doctor: 0.1264
+  away: 0.1105
+  long: 0.1047
+  light: 0.1047
+
+------------------------------------------------
+MarianMT:
+  pink: 0.8205
+  love: 0.1713
+  know: 0.1255
+  fowl: 0.1227
+  cage: 0.1131
+  day: 0.0890
+  time: 0.0831
+  come: 0.0707
+  letter: 0.0657
+  doctor: 0.0589
+
+------------------------------------------------
+mBart:
+  know: 0.2184
+  man: 0.2029
+  cage: 0.2012
+  day: 0.1719
+  time: 0.1705
+  come: 0.1502
+  love: 0.1440
+  long: 0.1208
+  light: 0.1100
+  child: 0.1100
+
+------------------------------------------------
+OpenRNN:
+  correspondence: 0.6096
+  end: 0.3294
+  know: 0.2587
+  winter: 0.2373
+  train: 0.2083
+  time: 0.1280
+  little: 0.1096
+  walk: 0.0898
+  day: 0.0871
+  night: 0.0845
+
+------------------------------------------------
+Google Translator:
+  know: 0.2389
+  cage: 0.1756
+  love: 0.1736
+  day: 0.1609
+  time: 0.1354
+  child: 0.1051
+  leave: 0.1035
+  light: 0.1035
+  away: 0.1032
+  dream: 0.1013
+
+------------------------------------------------
+ChatGPT Prompt 1:
+  cage: 0.2740
+  know: 0.2223
+  love: 0.1694
+  day: 0.1492
+  time: 0.1383
+  child: 0.1350
+  long: 0.1072
+  eye: 0.1008
+  dream: 0.1008
+  letter: 0.0964
+
+------------------------------------------------
+ChatGPT Prompt 2:
+  cage: 0.2678
+  know: 0.2205
+  love: 0.1848
+  day: 0.1366
+  child: 0.1330
+  time: 0.1289
+  doctor: 0.1280
+  dream: 0.0988
+  eye: 0.0988
+  long: 0.0978
+
+------------------------------------------------
+Maritaca Prompt 1:
+  know: 0.2306
+  cage: 0.2207
+  love: 0.1876
+  day: 0.1461
+  time: 0.1276
+  child: 0.1046
+  long: 0.1046
+  night: 0.0999
+  come: 0.0984
+  dream: 0.0978
+
+------------------------------------------------
+Maritaca Prompt 2:
+  know: 0.2107
+  cage: 0.2019
+  love: 0.1816
+  day: 0.1556
+  time: 0.1200
+  leave: 0.1200
+  dream: 0.1190
+  child: 0.1190
+  long: 0.1135
+  night: 0.1102
+
+
+------------------------------------------------
+
+Original:
+  neige: 0.5137
+  arbre: 0.1547
+  bord: 0.1352
+  miroir: 0.1352
+  monde: 0.1326
+  main: 0.1105
+  lumière: 0.1105
+  grand: 0.1105
+  voir: 0.1105
+  corps: 0.1105
+
+------------------------------------------------
+Reference:
+  snow: 0.4223
+  come: 0.2001
+  light: 0.1778
+  world: 0.1556
+  tree: 0.1556
+  edge: 0.1556
+  mirror: 0.1359
+  mist: 0.1343
+  little: 0.1111
+  leave: 0.1111
+
+------------------------------------------------
+MarianMT:
+  snow: 0.4351
+  come: 0.1603
+  tree: 0.1603
+  little: 0.1603
+  mirror: 0.1400
+  window: 0.1374
+  light: 0.1374
+  world: 0.1374
+  night: 0.1145
+  hand: 0.1145
+
+------------------------------------------------
+mBart:
+
+  snow: 0.3897
+  light: 0.1705
+  tree: 0.1705
+  window: 0.1461
+  leave: 0.1461
+  world: 0.1461
+  child: 0.1218
+  hand: 0.1218
+  body: 0.1218
+  mirror: 0.1218
+
+------------------------------------------------
+OpenRNN:
+  edge: 0.3226
+  color: 0.2637
+  artificial: 0.2527
+  guide: 0.2527
+  sun: 0.2419
+  block: 0.1992
+  hold: 0.1815
+  light: 0.1813
+  closed: 0.1743
+  leave: 0.1648
+
+------------------------------------------------
+Google Translator:
+  snow: 0.4075
+  edge: 0.1661
+  light: 0.1585
+  tree: 0.1585
+  mirror: 0.1384
+  mist: 0.1368
+  world: 0.1358
+  little: 0.1358
+  know: 0.1132
+  hand: 0.1132
+
+------------------------------------------------
+ChatGPT Prompt 1:
+  snow: 0.5016
+  tree: 0.1511
+  child: 0.1320
+  mirror: 0.1320
+  edge: 0.1320
+  mist: 0.1304
+  world: 0.1295
+  little: 0.1295
+  light: 0.1295
+  know: 0.1079
+
+------------------------------------------------
+ChatGPT Prompt 2:
+  snow: 0.4670
+  edge: 0.1557
+  tree: 0.1485
+  world: 0.1485
+  light: 0.1485
+  window: 0.1297
+  child: 0.1297
+  mirror: 0.1297
+  hand: 0.1061
+  body: 0.1061
+
+------------------------------------------------
+Maritaca Prompt 1:
+  snow: 0.4987
+  edge: 0.1575
+  tree: 0.1502
+  mirror: 0.1312
+  world: 0.1287
+  light: 0.1287
+  body: 0.1073
+  come: 0.1073
+  hand: 0.1073
+  leave: 0.1073
+
+------------------------------------------------
+Maritaca Prompt 2:
+  snow: 0.4480
+  child: 0.1651
+  edge: 0.1651
+  extra: 0.1478
+  tree: 0.1349
+  light: 0.1349
+  mirror: 0.1179
+  window: 0.1179
+  mist: 0.1165
+  shadow: 0.1157
+
+------------------------------------------------
+
+Original:
+
+  poème: 0.4443
+  poésie: 0.2777
+  poète: 0.2221
+  grand: 0.2157
+  dire: 0.1816
+  siècle: 0.1543
+  france: 0.1527
+  oublier: 0.1527
+  écrire: 0.1362
+  artiste: 0.1305
+
+------------------------------------------------
+Reference:
+  poem: 0.4365
+  poetry: 0.2646
+  say: 0.2379
+  poet: 0.2249
+  great: 0.2249
+  century: 0.1471
+  forget: 0.1455
+  france: 0.1455
+  write: 0.1406
+  come: 0.1298
 
 
 ------------------------------------------------
 MarianMT:
 
+  fruit: 0.9347
+  poem: 0.1558
+  poetry: 0.0974
+  say: 0.0925
+  poet: 0.0876
+  great: 0.0677
+  century: 0.0601
+  write: 0.0557
+  artist: 0.0458
+  france: 0.0438
 
 ------------------------------------------------
 mBart:
+  poet: 0.4058
+  poetry: 0.3111
+  poem: 0.2435
+  say: 0.2322
+  write: 0.1991
+  century: 0.1504
+  time: 0.1353
+  france: 0.1337
+  artist: 0.1272
+  forget: 0.1217
+
 
 
 ------------------------------------------------
 OpenRNN:
+  january: 0.3933
+  discriminate: 0.3741
+  art: 0.3644
+  poetry: 0.2528
+  poem: 0.2388
+  great: 0.1723
+  poet: 0.1686
+  century: 0.1562
+  circumstance: 0.1541
+  say: 0.1405
 
 
 ------------------------------------------------
 Google Translator:
-
+  poem: 0.4362
+  poetry: 0.2804
+  say: 0.2420
+  forget: 0.1714
+  word: 0.1401
+  write: 0.1274
+  enter: 0.1155
+  man: 0.1146
+  day: 0.1019
+  time: 0.1019
 
 ------------------------------------------------
 ChatGPT Prompt 1:
-
+  poem: 0.4339
+  poetry: 0.2712
+  say: 0.2712
+  poet: 0.2305
+  write: 0.1884
+  great: 0.1884
+  century: 0.1507
+  france: 0.1491
+  artist: 0.1275
+  word: 0.1219
 
 ------------------------------------------------
 ChatGPT Prompt 2:
-
+  poem: 0.4472
+  poetry: 0.2846
+  say: 0.2304
+  poet: 0.2304
+  great: 0.1884
+  write: 0.1773
+  century: 0.1507
+  forget: 0.1491
+  france: 0.1491
+  artist: 0.1274
 
 ------------------------------------------------
 Maritaca Prompt 1:
-
+  poem: 0.3677
+  say: 0.2862
+  poetry: 0.2862
+  poet: 0.2317
+  great: 0.2006
+  century: 0.1515
+  forget: 0.1499
+  write: 0.1448
+  france: 0.1363
+  artist: 0.1281
 
 ------------------------------------------------
 Maritaca Prompt 2:
-
+  poem: 0.3791
+  poetry: 0.2446
+  poet: 0.2394
+  say: 0.2079
+  forget: 0.1646
+  write: 0.1590
+  artist: 0.1406
+  man: 0.1346
+  word: 0.1223
+  great: 0.1223
 
 ------------------------------------------------
 

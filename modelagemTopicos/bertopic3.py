@@ -29,10 +29,10 @@ min_topic_size = 6
 TITLE = "original"
 # original reference chatGPTPrompt1 googleTradutor maritacaPrompt1
 
-CAMINHO_CSV = "poemas_unificados.csv"
+CAMINHO_CSV = "modelagemTopicos/poemas_unificados.csv"
 # chatGPTPrompt1 googleTradutor maritacaPrompt1
 
-PASTA_SAIDA = "results"
+PASTA_SAIDA = "modelagemTopicos/results/frances_ingles/original"
 
 COLUNA_POEMAS = "original_poem"  # "original_poem", "translated_poem", "translated_by_TA"
 
@@ -202,60 +202,60 @@ if __name__ == '__main__':
     salvar_topicos_legiveis(topic_model, f"{PASTA_SAIDA}/topicos_{TITLE}.txt")
 
     # --- Parte 6: Geração de Visualizações ---
-    print("🎨 Gerando e salvando gráficos...")
+    #print("🎨 Gerando e salvando gráficos...")
     
     # Gráfico de Barras dos Tópicos
-    n_topicos_reais = len(topic_model.get_topic_freq()) - (1 if -1 in topic_model.get_topic_freq().Topic.values else 0)
-    fig_bar = topic_model.visualize_barchart(top_n_topics=n_topicos_reais, n_words=10, width=400, height=400)
-    pio.write_image(fig_bar, f"{PASTA_SAIDA}/grafico_barras_topicos_{TITLE}.png")
+    #n_topicos_reais = len(topic_model.get_topic_freq()) - (1 if -1 in topic_model.get_topic_freq().Topic.values else 0)
+    #fig_bar = topic_model.visualize_barchart(top_n_topics=n_topicos_reais, n_words=10, width=400, height=400)
+    #pio.write_image(fig_bar, f"{PASTA_SAIDA}/grafico_barras_topicos_{TITLE}.png")
 
     # Nuvem de Palavras Geral
-    texto_total = " ".join(poemas_limpos)
-    wc = WordCloud(width=1200, height=600, background_color='white', colormap='viridis').generate(texto_total)
-    wc.to_file(f"{PASTA_SAIDA}/nuvem_palavras_geral_{TITLE}.png")
+    #texto_total = " ".join(poemas_limpos)
+    #wc = WordCloud(width=1200, height=600, background_color='white', colormap='viridis').generate(texto_total)
+    #wc.to_file(f"{PASTA_SAIDA}/nuvem_palavras_geral_{TITLE}.png")
 
     # Gráfico de Pizza da Distribuição dos Tópicos
-    topic_freq = topic_model.get_topic_freq()
-    topic_freq = topic_freq[topic_freq.Topic != -1] # Exclui outliers
-    plt.figure(figsize=(8, 8))
-    plt.pie(
-        topic_freq["Count"],
-        labels=[f"Topic {i}" for i in topic_freq["Topic"]],
-        autopct='%1.1f%%',
-        startangle=140
-    )
-    plt.title("Percentage Distribution of Topics")
-    plt.savefig(f"{PASTA_SAIDA}/grafico_pizza_{TITLE}.png")
-    plt.close()
+    #topic_freq = topic_model.get_topic_freq()
+    #topic_freq = topic_freq[topic_freq.Topic != -1] # Exclui outliers
+    #plt.figure(figsize=(8, 8))
+    #plt.pie(
+     #   topic_freq["Count"],
+     #   labels=[f"Topic {i}" for i in topic_freq["Topic"]],
+     #   autopct='%1.1f%%',
+     #  startangle=140
+    #)
+    #plt.title("Percentage Distribution of Topics")
+    #plt.savefig(f"{PASTA_SAIDA}/grafico_pizza_{TITLE}.png")
+    #plt.close()
     
 
     # --- Parte 7: Cálculo de Coerência dos Tópicos ---
-    print("🧮 Preparando dados para o cálculo de coerência...")
+    #print("🧮 Preparando dados para o cálculo de coerência...")
 
-    documentos_tokenizados = [doc.split() for doc in tqdm(poemas_limpos, desc="   Tokenizando documentos")]
+    #documentos_tokenizados = [doc.split() for doc in tqdm(poemas_limpos, desc="   Tokenizando documentos")]
 
-    dicionario = Dictionary(documentos_tokenizados)
+    #dicionario = Dictionary(documentos_tokenizados)
 
-    corpus = [dicionario.doc2bow(doc) for doc in tqdm(documentos_tokenizados, desc="   Criando corpus BoW   ")]
+    #corpus = [dicionario.doc2bow(doc) for doc in tqdm(documentos_tokenizados, desc="   Criando corpus BoW   ")]
 
-    topicos_palavras = []
-    for topic_num in sorted(topic_model.get_topics().keys()):
-        if topic_num == -1:
-            continue
-        palavras = [palavra for palavra, _ in topic_model.get_topic(topic_num)]
-        topicos_palavras.append(palavras)
+    #topicos_palavras = []
+    #for topic_num in sorted(topic_model.get_topics().keys()):
+     #   if topic_num == -1:
+      #      continue
+       # palavras = [palavra for palavra, _ in topic_model.get_topic(topic_num)]
+       # topicos_palavras.append(palavras)
 
-    print("⏳ Calculando a coerência do modelo")
+    #print("⏳ Calculando a coerência do modelo")
 
-    coherence_model = CoherenceModel(
-        topics=topicos_palavras,
-        texts=documentos_tokenizados,
-        dictionary=dicionario,
-        corpus=corpus,
-        coherence='c_v'
-    )
-    coherence_score = coherence_model.get_coherence()
-    print(f"✅ Coerência do Modelo c_v: {coherence_score:.4f}")
-    print(f"Quantidade de Tópicos: {len(topicos_palavras)}")
+    #coherence_model = CoherenceModel(
+     #   topics=topicos_palavras,
+      #  texts=documentos_tokenizados,
+       # dictionary=dicionario,
+       # corpus=corpus,
+       # coherence='c_v'
+    #)
+    #coherence_score = coherence_model.get_coherence()
+    #print(f"✅ Coerência do Modelo c_v: {coherence_score:.4f}")
+    #print(f"Quantidade de Tópicos: {len(topicos_palavras)}")
     print(f"min_topic_size: {min_topic_size}")
     print("\n🎉 Processo concluído com sucesso!")

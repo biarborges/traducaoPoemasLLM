@@ -1,0 +1,60 @@
+Topic -1 (Quantity of poems: 291):
+  mourir: 0.2694
+  mort: 0.2461
+  feu: 0.1904
+  glace: 0.1833
+  petit: 0.1722
+  sombre: 0.1397
+  terre: 0.1395
+  ciel: 0.1278
+  vivre: 0.1278
+  lumière: 0.1244
+
+Topic 0 (Quantity of poems: 121):
+  doux: 0.1870
+  terre: 0.1481
+  jamais: 0.1444
+  regarder: 0.1433
+  voir: 0.1185
+  prendre: 0.1185
+  étoile: 0.1115
+  venir: 0.1111
+  trouver: 0.1074
+  petit: 0.1070
+
+Topic 1 (Quantity of poems: 14):
+  nuit: 0.2694
+  oeil: 0.1943
+  voir: 0.1925
+  doux: 0.1917
+  canapé: 0.1724
+  amour: 0.1643
+  regarder: 0.1619
+  pouvoir: 0.1295
+  œil: 0.1295
+  beauté: 0.1295
+
+Topic 2 (Quantity of poems: 10):
+  heureux: 0.2384
+  amour: 0.2261
+  jamais: 0.1986
+  fleur: 0.1986
+  coeur: 0.1696
+  doux: 0.1696
+  bonheur: 0.1589
+  bien: 0.1413
+  arbre: 0.1192
+  vert: 0.1192
+
+Topic 3 (Quantity of poems: 8):
+  amour: 0.5949
+  faire: 0.1675
+  perdre: 0.1340
+  temps: 0.1340
+  douleur: 0.1340
+  tomber: 0.1195
+  revoir: 0.1189
+  manque: 0.1189
+  mal: 0.1005
+  vie: 0.1005
+

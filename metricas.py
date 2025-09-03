@@ -163,7 +163,7 @@ import numpy as np
 from concurrent.futures import ThreadPoolExecutor
 
 # Carregar o modelo BART e o tokenizer
-model_name = "facebook/bart-large-cnn"
+model_name = "facebook/mbart-large-50"
 tokenizer = BartTokenizer.from_pretrained(model_name)
 model = BartForConditionalGeneration.from_pretrained(model_name).to(device)  
 

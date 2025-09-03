@@ -17,26 +17,29 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Caminhos dos arquivos CSV
-poemas_train = "../poemas/train/portugues_ingles_train.csv"
-poemas_val = "../poemas/validation/portugues_ingles_validation.csv"
+#poemas_train = "../poemas/train/portugues_ingles_train.csv"
+#poemas_val = "../poemas/validation/portugues_ingles_validation.csv"
 musicas_train = "../musicas/train/portugues_ingles_musics_train.csv"
 musicas_val = "../musicas/validation/portugues_ingles_musics_validation.csv"
 
 # Carregar os dados
-df_poemas_train = pd.read_csv(poemas_train).dropna()
-df_poemas_val = pd.read_csv(poemas_val).dropna()
+#df_poemas_train = pd.read_csv(poemas_train).dropna()
+#df_poemas_val = pd.read_csv(poemas_val).dropna()
 df_musicas_train = pd.read_csv(musicas_train).dropna()
 df_musicas_val = pd.read_csv(musicas_val).dropna()
 
 # Converter para datasets Hugging Face
-poemas_train_dataset = Dataset.from_pandas(df_poemas_train)
-poemas_val_dataset = Dataset.from_pandas(df_poemas_val)
+#poemas_train_dataset = Dataset.from_pandas(df_poemas_train)
+#poemas_val_dataset = Dataset.from_pandas(df_poemas_val)
 musicas_train_dataset = Dataset.from_pandas(df_musicas_train)
 musicas_val_dataset = Dataset.from_pandas(df_musicas_val)
 
 # Concatenar datasets de treino e validação
-train_dataset = concatenate_datasets([poemas_train_dataset, musicas_train_dataset])
-val_dataset = concatenate_datasets([poemas_val_dataset, musicas_val_dataset])
+#train_dataset = concatenate_datasets([poemas_train_dataset, musicas_train_dataset])
+#val_dataset = concatenate_datasets([poemas_val_dataset, musicas_val_dataset])
+
+train_dataset = concatenate_datasets([musicas_train_dataset])
+val_dataset = concatenate_datasets([musicas_val_dataset])
 
 # Carregar modelo e tokenizer do mBART
 model_name = "facebook/mbart-large-50-many-to-many-mmt"

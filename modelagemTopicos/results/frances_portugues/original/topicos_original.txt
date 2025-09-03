@@ -1,0 +1,60 @@
+Topic -1 (Quantity of poems: 68):
+  amour: 0.4325
+  vouloir: 0.1722
+  oeil: 0.1589
+  jour: 0.1501
+  nuit: 0.1412
+  ciel: 0.1147
+  main: 0.1096
+  coeur: 0.1059
+  monde: 0.1059
+  grand: 0.0971
+
+Topic 0 (Quantity of poems: 109):
+  écrire: 0.2211
+  nom: 0.1684
+  amour: 0.1514
+  jour: 0.1276
+  coeur: 0.1247
+  grand: 0.1247
+  mort: 0.1247
+  voir: 0.1217
+  venir: 0.1158
+  soleil: 0.1128
+
+Topic 1 (Quantity of poems: 77):
+  amour: 0.5335
+  sommeil: 0.1936
+  âme: 0.1663
+  savoir: 0.1524
+  bien: 0.1455
+  coeur: 0.1455
+  voir: 0.1455
+  vie: 0.1316
+  oeil: 0.1247
+  soir: 0.1188
+
+Topic 2 (Quantity of poems: 28):
+  réalisation: 0.1682
+  amour: 0.1335
+  mettre: 0.1335
+  vie: 0.1335
+  nuit: 0.1335
+  trait: 0.1263
+  sourire: 0.1263
+  plein: 0.1263
+  dérision: 0.1121
+  fierté: 0.1121
+
+Topic 3 (Quantity of poems: 18):
+  pitié: 0.2557
+  adieu: 0.2490
+  long: 0.2038
+  misère: 0.2019
+  satan: 0.1924
+  dieu: 0.1915
+  prendre: 0.1915
+  bien: 0.1915
+  absoudre: 0.1607
+  prier: 0.1459
+

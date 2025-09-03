@@ -1,0 +1,48 @@
+Topic -1 (Quantity of poems: 79):
+  monde: 0.3154
+  savoir: 0.2179
+  oeil: 0.2083
+  amour: 0.2067
+  vie: 0.1686
+  dieu: 0.1632
+  vouloir: 0.1601
+  venir: 0.1577
+  rue: 0.1478
+  homme: 0.1360
+
+Topic 0 (Quantity of poems: 142):
+  amour: 0.3960
+  vie: 0.2428
+  mer: 0.1561
+  oeil: 0.1456
+  voir: 0.1445
+  rêve: 0.1427
+  nuit: 0.1343
+  fleur: 0.1281
+  coeur: 0.1273
+  ciel: 0.1249
+
+Topic 1 (Quantity of poems: 78):
+  terre: 0.2694
+  voir: 0.2531
+  mer: 0.1959
+  roi: 0.1697
+  venir: 0.1498
+  maure: 0.1469
+  fort: 0.1398
+  peuple: 0.1306
+  capitaine: 0.1298
+  grand: 0.1143
+
+Topic 2 (Quantity of poems: 7):
+  chrétien: 0.3702
+  voir: 0.2523
+  île: 0.2018
+  maure: 0.2018
+  capitaine: 0.1851
+  proximité: 0.1524
+  faux: 0.1514
+  tromper: 0.1514
+  pouvoir: 0.1514
+  méchant: 0.1234
+

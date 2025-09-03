@@ -1,4 +1,4 @@
-original_poem,translated_poem,src_lang,tgt_lang,translated_by_TA
+original_poem,translated_poem,src_lang,tgt_lang,googleTradutor,maritacaPrompt2
 "Demain, dès l’aube, à l’heure où blanchit la campagne,
 Je partirai. Vois-tu, je sais que tu m’attends.
 J’irai par la forêt, j’irai par la montagne.
@@ -38,4 +38,17 @@ Triste, e o dia será como a noite para mim.
 Não olharei para o dourado da tarde caindo,
 Nem para as velas distantes descendo em direção a Harfleur,
 E quando eu chegar, colocarei em seu túmulo
-Um buquê de azevinho verde e urze em flor."
+Um buquê de azevinho verde e urze em flor.","Amanhã, ao romper da aurora, quando a campina se alveja,
+Eu partirei. Sabes, eu sei que me aguardas.
+Irei pela floresta, irei pela montanha.
+Não posso permanecer longe de ti por mais tempo.
+
+Caminharei com os olhos fixos em meus pensamentos,
+Sem nada ver ao redor, sem ouvir qualquer rumor,
+Só, incógnito, o dorso curvado, as mãos cruzadas,
+Triste, e o dia para mim será como a noite.
+
+Não olharei o ouro do crepúsculo que desce,
+Nem as velas ao longe que rumam para Harfleur,
+E quando eu chegar, sobre tua sepultura,
+Um ramo de azevinho verde e urze em flor eu colocarei."

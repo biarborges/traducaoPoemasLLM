@@ -1,4 +1,4 @@
-original_poem,translated_poem,src_lang,tgt_lang,translated_by_TA
+original_poem,translated_poem,src_lang,tgt_lang,googleTradutor,maritacaPrompt2
 "Do not go gentle into that good night,
 Old age should burn and rave at close of day;
 Rage, rage against the dying of the light.
@@ -68,4 +68,27 @@ Fúria, fúria contra o morrer da luz.
 E você, meu pai, lá no alto triste,
 Amaldiçoe-me, abençoe-me agora com suas lágrimas ferozes, eu oro.
 Não entrem mansos nessa boa noite.
-Fúria, fúria contra o morrer da luz."
+Fúria, fúria contra o morrer da luz.","Não entres docilmente nessa noite serena,
+Que a velhice arda e brade ao fim do dia;
+Brada, brada contra o apagar da luz.
+
+Embora sábios saibam, ao fim, que a noite é certa,
+Porque suas palavras não roubaram o raio,
+Não entres docilmente nessa noite serena.
+
+Homens bons, na última onda, clamam quão brilhante
+Suas frágeis ações poderiam ter dançado em um verde golfo,
+Brada, brada contra o apagar da luz.
+
+Homens selvagens que capturaram e cantaram o sol em fuga,
+E aprendem, tarde demais, que o lamentaram em sua jornada,
+Não entres docilmente nessa noite serena.
+
+Homens graves, ao morrer, que veem com visão que cega
+Olhos cegos poderiam brilhar como meteoros e ser alegres,
+Brada, brada contra o apagar da luz.
+
+E tu, meu pai, lá na triste elevação,
+Amaldiçoa, abençoa-me agora com tuas ferozes lágrimas, eu rogo.
+Não entres docilmente nessa noite serena.
+Brada, brada contra o apagar da luz."

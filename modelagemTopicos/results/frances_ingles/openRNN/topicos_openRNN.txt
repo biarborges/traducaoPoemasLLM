@@ -1,0 +1,48 @@
+Topic -1 (Quantity of poems: 97):
+  animal: 0.7274
+  write: 0.5571
+  chapter: 0.1137
+  time: 0.0809
+  day: 0.0790
+  word: 0.0790
+  remember: 0.0783
+  snake: 0.0711
+  body: 0.0696
+  identity: 0.0685
+
+Topic 0 (Quantity of poems: 156):
+  correspondence: 0.6096
+  end: 0.3294
+  know: 0.2587
+  winter: 0.2373
+  train: 0.2083
+  time: 0.1280
+  little: 0.1096
+  walk: 0.0898
+  day: 0.0871
+  night: 0.0845
+
+Topic 1 (Quantity of poems: 27):
+  edge: 0.3226
+  color: 0.2637
+  artificial: 0.2527
+  guide: 0.2527
+  sun: 0.2419
+  block: 0.1992
+  hold: 0.1815
+  light: 0.1813
+  closed: 0.1743
+  leave: 0.1648
+
+Topic 2 (Quantity of poems: 20):
+  january: 0.3933
+  discriminate: 0.3741
+  art: 0.3644
+  poetry: 0.2528
+  poem: 0.2388
+  great: 0.1723
+  poet: 0.1686
+  century: 0.1562
+  circumstance: 0.1541
+  say: 0.1405
+

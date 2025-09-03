@@ -1,0 +1,140 @@
+Original:
+  réalisation: 0.1682
+  amour: 0.1335
+  mettre: 0.1335
+  vie: 0.1335
+  nuit: 0.1335
+  trait: 0.1263
+  sourire: 0.1263
+  plein: 0.1263
+  dérision: 0.1121
+  fierté: 0.1121
+
+------------------------------------------------
+
+Reference:
+  seta: 0.1858
+  realização: 0.1727
+  morte: 0.1646
+  rosto: 0.1621
+  cuidar: 0.1393
+  vida: 0.1371
+  pensar: 0.1297
+  irrisão: 0.1151
+  alma: 0.1097
+  noite: 0.1097
+
+------------------------------------------------
+
+MarianMT:
+  rosto: 0.1591
+  vida: 0.1415
+  noite: 0.1415
+  passar: 0.1415
+  linha: 0.1193
+  realização: 0.1188
+  falha: 0.1188
+  deus: 0.1132
+  morte: 0.1132
+  olho: 0.1132
+
+------------------------------------------------
+
+mBart:
+  vida: 0.1467
+  através: 0.1467
+  realização: 0.1231
+  allah: 0.1231
+  polegadas: 0.1231
+  carro: 0.1231
+  face: 0.1173
+  noite: 0.1173
+  olho: 0.1040
+  modo: 0.0993
+
+------------------------------------------------
+
+OpenRNN:
+  oração: 0.6063
+  sorrir: 0.3705
+  natural: 0.2515
+  reflexo: 0.2435
+  sorriso: 0.1417
+  vida: 0.1417
+  estação: 0.1217
+  alma: 0.1198
+  cara: 0.1133
+  noite: 0.1133
+
+------------------------------------------------
+
+Google Translator:
+  realização: 0.1745
+  vida: 0.1663
+  noite: 0.1638
+  manter: 0.1638
+  linha: 0.1558
+  morte: 0.1385
+  rosto: 0.1310
+  sorriso: 0.1310
+  reserva: 0.1163
+  inshallah: 0.1163
+
+------------------------------------------------
+
+ChatGPT Prompt 1:
+  realização: 0.1721
+  morte: 0.1640
+  noite: 0.1367
+  deus: 0.1367
+  vida: 0.1367
+  rosto: 0.1293
+  sorriso: 0.1293
+  flecha: 0.1293
+  mestre: 0.1152
+  fêmea: 0.1147
+
+------------------------------------------------
+
+ChatGPT Prompt 2:
+  realização: 0.1724
+  morte: 0.1643
+  guardar: 0.1391
+  deus: 0.1369
+  vida: 0.1369
+  noite: 0.1369
+  pesar: 0.1295
+  rosto: 0.1295
+  sorriso: 0.1295
+  reserva: 0.1149
+
+------------------------------------------------
+
+Maritaca Prompt 1:
+  realização: 0.1732
+  morte: 0.1650
+  noite: 0.1375
+  vida: 0.1375
+  sorriso: 0.1301
+  tiro: 0.1160
+  mestre: 0.1160
+  reserva: 0.1154
+  allah: 0.1154
+  olho: 0.1100
+
+------------------------------------------------
+
+Maritaca Prompt 2:
+  guardar: 0.1987
+  realização: 0.1780
+  morte: 0.1696
+  noite: 0.1414
+  traço: 0.1192
+  mestre: 0.1192
+  allah: 0.1187
+  passar: 0.1187
+  vida: 0.1131
+  olho: 0.1131
+
+------------------------------------------------
+

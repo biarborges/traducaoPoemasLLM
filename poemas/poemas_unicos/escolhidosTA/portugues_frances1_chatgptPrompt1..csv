@@ -1,4 +1,4 @@
-original_poem,translated_poem,src_lang,tgt_lang,translated_by_TA
+original_poem,translated_poem,src_lang,tgt_lang,chatgptPrompt1,googleTradutor
 "Uma parte de mim
 é todo mundo:
 outra parte é ninguém:
@@ -138,4 +138,40 @@ dans l’autre partie
 — ce qui est une question
   de vie ou de mort —  
 
-  serait-ce de l’art ?"
+  serait-ce de l’art ?","Une partie de moi
+est tout le monde :
+une autre partie n’est personne :
+une profondeur sans fond.
+
+Une partie de moi
+est multitude :
+une autre partie étrangeté
+et solitude.
+
+Une partie de moi
+pese, médite :
+une autre partie
+s’extasie.
+
+Une partie de moi
+mange et dîne :
+une autre partie
+s’étonne.
+
+Une partie de moi
+est permanente :
+une autre partie
+sait soudain.
+
+Une partie de moi
+n’est que vertige :
+une autre partie,
+le langage.
+
+Traduire une partie
+
+en une autre partie
+
+— ce qui est une question de vie ou de mort —
+
+serait-ce de l’art ?"

@@ -1,0 +1,60 @@
+Topic -1.0 (Quantity of poems: 90):
+  noite: 0.2097
+  amar: 0.2058
+  olho: 0.1971
+  dia: 0.1774
+  morte: 0.1511
+  céu: 0.1412
+  amor: 0.1314
+  estrela: 0.1293
+  hora: 0.1282
+  passar: 0.1150
+
+Topic 0.0 (Quantity of poems: 120):
+  escrever: 0.2872
+  nome: 0.2652
+  noite: 0.1738
+  dia: 0.1595
+  morte: 0.1371
+  sol: 0.1196
+  velho: 0.1031
+  coração: 0.1022
+  passar: 0.1022
+  branco: 0.1002
+
+Topic 1.0 (Quantity of poems: 86):
+  amor: 0.2902
+  noite: 0.2762
+  amar: 0.2720
+  alma: 0.1876
+  olho: 0.1593
+  vida: 0.1522
+  coração: 0.1486
+  dormir: 0.1213
+  sono: 0.1079
+  dia: 0.1062
+
+Topic 2.0 (Quantity of poems: 27):
+  realização: 0.1745
+  vida: 0.1663
+  noite: 0.1638
+  manter: 0.1638
+  linha: 0.1558
+  morte: 0.1385
+  rosto: 0.1310
+  sorriso: 0.1310
+  reserva: 0.1163
+  inshallah: 0.1163
+
+Topic 3.0 (Quantity of poems: 22):
+  reze: 0.2710
+  absolver: 0.2710
+  piedade: 0.2596
+  deus: 0.2583
+  miséria: 0.1815
+  homem: 0.1695
+  satanás: 0.1622
+  fazer: 0.1372
+  longo: 0.1372
+  domínio: 0.1355
+

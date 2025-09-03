@@ -1,41 +1,501 @@
 Original:
+Topic 0 (Quantity of poems: 111):
+  dream: 0.1610
+  sweet: 0.1362
+  eye: 0.1245
+  day: 0.1176
+  see: 0.1171
+  come: 0.1115
+  golden: 0.1101
+  let: 0.1098
+  new: 0.1088
+  leave: 0.1062
 
+Topic 1 (Quantity of poems: 14):
+  eye: 0.3221
+  night: 0.2680
+  couch: 0.1715
+  love: 0.1635
+  weep: 0.1532
+  come: 0.1362
+  beauty: 0.1288
+  quick: 0.1149
+  tale: 0.1149
+  look: 0.1090
+
+Topic 2 (Quantity of poems: 10):
+  happy: 0.3518
+  love: 0.2225
+  sweet: 0.1669
+  great: 0.1563
+  heart: 0.1390
+  green: 0.1173
+  grow: 0.1173
+  pipe: 0.1173
+  tree: 0.1173
+  blossom: 0.1173
+
+Topic 3 (Quantity of poems: 8):
+  love: 0.6458
+  time: 0.1346
+  lose: 0.1273
+  say: 0.1273
+  live: 0.1135
+  fall: 0.1135
+  bye: 0.1129
+  sweet: 0.1076
+  eye: 0.0954
+  pain: 0.0954
 
 ------------------------------------------------
 Reference:
+Topic 0 (Quantity of poems: 111):
+  jamais: 0.1548
+  voir: 0.1401
+  terre: 0.1358
+  bien: 0.1290
+  prendre: 0.1267
+  fleur: 0.1227
+  jour: 0.1217
+  petit: 0.1214
+  venir: 0.1161
+  oeil: 0.1154
 
+Topic 1 (Quantity of poems: 14):
+  nuit: 0.2620
+  oeil: 0.2396
+  pouvoir: 0.2130
+  regard: 0.1574
+  pleurer: 0.1497
+  couche: 0.1497
+  misère: 0.1353
+  amour: 0.1331
+  voir: 0.1259
+  regarder: 0.1123
+
+Topic 2 (Quantity of poems: 10):
+  jamais: 0.3725
+  heureux: 0.2483
+  amour: 0.2100
+  doux: 0.1575
+  coeur: 0.1575
+  grand: 0.1476
+  fleur: 0.1476
+  quitter: 0.1334
+  point: 0.1107
+  arbre: 0.1107
+
+Topic 3 (Quantity of poems: 8):
+  amour: 0.6138
+  perdre: 0.1395
+  vouloir: 0.1176
+  pitié: 0.1176
+  jeune: 0.1116
+  oeil: 0.1116
+  temps: 0.0990
+  adieu: 0.0990
+  jour: 0.0990
+  souhaiter: 0.0945
 
 ------------------------------------------------
 MarianMT:
+Topic 0 (Quantity of poems: 121):
+  doux: 0.1870
+  terre: 0.1481
+  jamais: 0.1444
+  regarder: 0.1433
+  voir: 0.1185
+  prendre: 0.1185
+  étoile: 0.1115
+  venir: 0.1111
+  trouver: 0.1074
+  petit: 0.1070
 
+Topic 1 (Quantity of poems: 14):
+  nuit: 0.2694
+  oeil: 0.1943
+  voir: 0.1925
+  doux: 0.1917
+  canapé: 0.1724
+  amour: 0.1643
+  regarder: 0.1619
+  pouvoir: 0.1295
+  œil: 0.1295
+  beauté: 0.1295
+
+Topic 2 (Quantity of poems: 10):
+  heureux: 0.2384
+  amour: 0.2261
+  jamais: 0.1986
+  fleur: 0.1986
+  coeur: 0.1696
+  doux: 0.1696
+  bonheur: 0.1589
+  bien: 0.1413
+  arbre: 0.1192
+  vert: 0.1192
+
+Topic 3 (Quantity of poems: 8):
+  amour: 0.5949
+  faire: 0.1675
+  perdre: 0.1340
+  temps: 0.1340
+  douleur: 0.1340
+  tomber: 0.1195
+  revoir: 0.1189
+  manque: 0.1189
+  mal: 0.1005
+  vie: 0.1005
 
 ------------------------------------------------
 mBart:
+Topic 0 (Quantity of poems: 121):
+  écouler: 0.2282
+  jamais: 0.1578
+  terre: 0.1368
+  prendre: 0.1269
+  eau: 0.1268
+  trouver: 0.1263
+  doux: 0.1180
+  échantillon: 0.1152
+  jour: 0.1151
+  mort: 0.1122
 
+Topic 1 (Quantity of poems: 14):
+  nuit: 0.2877
+  oeil: 0.2420
+  pouvoir: 0.1815
+  regarder: 0.1815
+  voir: 0.1798
+  doux: 0.1513
+  beauté: 0.1438
+  mort: 0.1438
+  brûlure: 0.1300
+  amour: 0.1279
+
+Topic 2 (Quantity of poems: 10):
+  heureux: 0.2430
+  jamais: 0.2025
+  amour: 0.1729
+  doux: 0.1703
+  fleur: 0.1620
+  coeur: 0.1441
+  grand: 0.1363
+  bonheur: 0.1363
+  vert: 0.1215
+  nourrir: 0.1215
+
+Topic 3 (Quantity of poems: 8):
+  vie: 0.8773
+  amour: 0.2842
+  guilde: 0.0663
+  perdre: 0.0560
+  douleur: 0.0560
+  oeil: 0.0560
+  ambition: 0.0535
+  jeune: 0.0474
+  fin: 0.0444
+  souffle: 0.0444
 
 ------------------------------------------------
 OpenRNN:
+Topic 0 (Quantity of poems: 121):
+  petit: 0.2269
+  jamais: 0.2230
+  nuit: 0.1636
+  travail: 0.1552
+  montagne: 0.1493
+  terre: 0.1487
+  doux: 0.1459
+  cher: 0.1433
+  ici: 0.1433
+  jour: 0.1314
 
+Topic 1 (Quantity of poems: 14):
+  porte: 0.3048
+  crime: 0.2540
+  pouvoir: 0.2530
+  heure: 0.2128
+  nuit: 0.2108
+  front: 0.2032
+  respiration: 0.1889
+  souple: 0.1687
+  beauté: 0.1687
+  douche: 0.1524
+
+Topic 2 (Quantity of poems: 10):
+  dernier: 0.4980
+  jamais: 0.3735
+  heureux: 0.2444
+  arbre: 0.2075
+  pair: 0.1859
+  laisse: 0.1660
+  grand: 0.1476
+  art: 0.1245
+  université: 0.1239
+  partenariat: 0.1239
+
+Topic 3 (Quantity of poems: 8):
+  amour: 0.4842
+  douleur: 0.3969
+  fin: 0.2862
+  pâle: 0.2862
+  recherche: 0.2049
+  oeil: 0.1908
+  noir: 0.1701
+  esprit: 0.1431
+  perdre: 0.1134
+  bon: 0.1134
 
 ------------------------------------------------
 Google Translator:
+Topic 0 (Quantity of poems: 121):
+  doux: 0.2036
+  jamais: 0.1859
+  terre: 0.1341
+  bien: 0.1280
+  petit: 0.1222
+  voir: 0.1196
+  oeil: 0.1128
+  prendre: 0.1091
+  éternellement: 0.1082
+  étoile: 0.1048
 
+Topic 1 (Quantity of poems: 14):
+  nuit: 0.2670
+  voir: 0.1907
+  pouvoir: 0.1900
+  doux: 0.1900
+  oeil: 0.1604
+  pleurer: 0.1526
+  lit: 0.1526
+  amour: 0.1357
+  ciel: 0.1283
+  beauté: 0.1283
+
+Topic 2 (Quantity of poems: 10):
+  heureux: 0.3378
+  doux: 0.2403
+  amour: 0.2136
+  coeur: 0.1894
+  fleur: 0.1501
+  grand: 0.1501
+  chanson: 0.1501
+  jamais: 0.1263
+  beau: 0.1263
+  revenir: 0.1263
+
+Topic 3 (Quantity of poems: 8):
+  amour: 0.6591
+  temps: 0.1482
+  entier: 0.1339
+  jeune: 0.1055
+  perdre: 0.1055
+  vie: 0.0935
+  fille: 0.0935
+  ambition: 0.0893
+  atteindre: 0.0893
+  mourir: 0.0741
 
 ------------------------------------------------
 ChatGPT Prompt 1:
+Topic 0 (Quantity of poems: 121):
+  doux: 0.2066
+  jamais: 0.1435
+  terre: 0.1343
+  prendre: 0.1312
+  petit: 0.1268
+  bien: 0.1239
+  voir: 0.1234
+  autour: 0.1089
+  fleur: 0.1052
+  entendre: 0.1052
 
+Topic 1 (Quantity of poems: 14):
+  nuit: 0.2951
+  pouvoir: 0.2362
+  voir: 0.2213
+  oeil: 0.2172
+  doux: 0.1575
+  amour: 0.1575
+  lit: 0.1476
+  pleurer: 0.1241
+  beauté: 0.1241
+  demander: 0.1107
+
+Topic 2 (Quantity of poems: 10):
+  heureux: 0.2367
+  chanson: 0.1972
+  doux: 0.1965
+  amour: 0.1965
+  jamais: 0.1659
+  fleur: 0.1578
+  grand: 0.1578
+  coeur: 0.1403
+  joyeux: 0.1327
+  beau: 0.1183
+
+Topic 3 (Quantity of poems: 8):
+  amour: 0.6675
+  temps: 0.1501
+  fille: 0.1126
+  jeune: 0.1068
+  perdre: 0.1068
+  douleur: 0.0947
+  ambition: 0.0904
+  tomber: 0.0751
+  peine: 0.0751
+  pitié: 0.0751
 
 ------------------------------------------------
 ChatGPT Prompt 2:
+Topic 0 (Quantity of poems: 121):
+  doux: 0.1925
+  terre: 0.1615
+  petit: 0.1312
+  jamais: 0.1138
+  oeil: 0.1106
+  entendre: 0.1089
+  voir: 0.1089
+  autour: 0.1086
+  bien: 0.1069
+  prendre: 0.1052
 
+Topic 1 (Quantity of poems: 14):
+  pouvoir: 0.2800
+  nuit: 0.2588
+  voir: 0.2219
+  oeil: 0.1866
+  amour: 0.1579
+  doux: 0.1579
+  lit: 0.1479
+  pleurer: 0.1109
+  milieu: 0.1109
+  trouble: 0.1104
+
+Topic 2 (Quantity of poems: 10):
+  heureux: 0.2761
+  doux: 0.2245
+  amour: 0.1964
+  jamais: 0.1659
+  fleur: 0.1578
+  grand: 0.1578
+  coeur: 0.1403
+  bien: 0.1403
+  beau: 0.1183
+  art: 0.1183
+
+Topic 3 (Quantity of poems: 8):
+  amour: 0.6891
+  temps: 0.1490
+  revoir: 0.1112
+  perdre: 0.1060
+  ambition: 0.0897
+  pitié: 0.0745
+  faire: 0.0745
+  malade: 0.0745
+  grâce: 0.0745
+  dévorer: 0.0745
 
 ------------------------------------------------
 Maritaca Prompt 1:
+Topic 0 (Quantity of poems: 121):
+  doux: 0.1699
+  terre: 0.1664
+  petit: 0.1394
+  jamais: 0.1308
+  fois: 0.1085
+  venir: 0.1085
+  prendre: 0.1085
+  grand: 0.1049
+  chose: 0.1046
+  étoile: 0.1046
 
+Topic 1 (Quantity of poems: 14):
+  pouvoir: 0.2984
+  nuit: 0.2838
+  oeil: 0.2089
+  voir: 0.1790
+  amour: 0.1767
+  doux: 0.1514
+  lit: 0.1419
+  milieu: 0.1419
+  pleurer: 0.1194
+  arriver: 0.1064
+
+Topic 2 (Quantity of poems: 10):
+  heureux: 0.2987
+  amour: 0.2657
+  jamais: 0.2513
+  doux: 0.1860
+  coeur: 0.1594
+  fleur: 0.1494
+  grand: 0.1494
+  bien: 0.1328
+  air: 0.1257
+  vert: 0.1120
+
+Topic 3 (Quantity of poems: 8):
+  amour: 0.6729
+  temps: 0.1513
+  vouloir: 0.1135
+  perdre: 0.1077
+  jeune: 0.1077
+  laisse: 0.0955
+  douleur: 0.0955
+  ambition: 0.0911
+  fille: 0.0807
+  joue: 0.0757
 
 ------------------------------------------------
 Maritaca Prompt 2:
+Topic 0 (Quantity of poems: 121):
+  doux: 0.1842
+  voir: 0.1438
+  bien: 0.1169
+  terre: 0.1150
+  petit: 0.1138
+  jamais: 0.1002
+  étoile: 0.0990
+  chose: 0.0990
+  congé: 0.0982
+  fleur: 0.0945
 
+Topic 1 (Quantity of poems: 14):
+  nuit: 0.2875
+  pouvoir: 0.2418
+  oeil: 0.2418
+  voir: 0.2156
+  doux: 0.1790
+  amour: 0.1534
+  milieu: 0.1437
+  lit: 0.1437
+  pleurer: 0.1209
+  beauté: 0.1209
+
+Topic 2 (Quantity of poems: 10):
+  heureux: 0.3443
+  amour: 0.2177
+  fleur: 0.1913
+  jamais: 0.1609
+  coeur: 0.1609
+  doux: 0.1361
+  pouvoir: 0.1287
+  arbre: 0.1148
+  vert: 0.1148
+  tempérer: 0.1142
+
+Topic 3 (Quantity of poems: 8):
+  amour: 0.6701
+  temps: 0.1524
+  effroi: 0.1082
+  jeune: 0.1031
+  perdre: 0.1031
+  oeil: 0.0914
+  fille: 0.0914
+  saveur: 0.0873
+  mesure: 0.0873
+  sorte: 0.0873
 
 ------------------------------------------------
 

@@ -16,13 +16,13 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # 1. CONFIGURAÇÕES E CONSTANTES
 # =======================================================================
 
-TITLE = "openRNN"
-CAMINHO_CSV = "modelagemTopicos/results/ingles_portugues/openRNN/poemas_com_topicos_openRNN.csv" 
-PASTA_SAIDA = "modelagemTopicos/results/ingles_portugues/openRNN"
+TITLE = "mbart"
+CAMINHO_CSV = "modelagemTopicos/results/portugues_ingles/mbart/poemas_com_topicos.csv" 
+PASTA_SAIDA = "modelagemTopicos/results/portugues_ingles/mbart"
 COLUNA_POEMAS = "translated_by_TA" # "original_poem", "translated_poem", "translated_by_TA"
-IDIOMA_ORIGEM = "en_XX"
-IDIOMA_DESTINO = "pt_XX"
-IDIOMA_PROC = "pt_XX"
+IDIOMA_ORIGEM = "pt_XX"
+IDIOMA_DESTINO = "en_XX"
+IDIOMA_PROC = "en_XX"
 
 correcoes_lemas = {
     "conheçar": "conhecer",
@@ -32,13 +32,28 @@ correcoes_lemas = {
     "odeiar": "odiar",
     "deuse": "deuses",
     "vivir": "viver",
+    "sòmente": "somente",
+    "facto": "fato",
+    "desenterrá": "desenterrar",
+    "disser": "dizer",
+    "villon": "vilão",
+    "absolvar": "absolver",
+    "absolvamos": "absolver",
+    "guarder": "guardar",
 
     "écrir": "écrire",
+    "pensée": "penser",
+    "fenestre": "fenêtre",
+    "mensuille": "mensuel",
+    "mensuil": "mensuel",
+    "moscambique": "mozambique",
+    "écoulont": "écouler",
+    "donne": "donner",
 }
 
 normalizacao_lemas = {
-    "neiger": "neige",
-    "ensoleillé": "soleil",
+    "neiger": "neige", 
+    "ensoleillé": "soleil", 
     "pluvieux": "pluie",
     "aimé": "amour",
     "aimer": "amour",
@@ -49,6 +64,8 @@ normalizacao_lemas = {
     "tromperie": "tromper",
     "chrétiens": "chrétien",
     "sauraient": "savoir",
+    "désir": "désirer",
+    "laisser": "laisser",
 
     "ressurgiremos": "ressurgir",
     "falhou": "falhar",
@@ -59,11 +76,18 @@ normalizacao_lemas = {
     "inteligente": "inteligência",
     "odio": "odiar",
     "morto": "morte",
-
+    "morrer": "morte",
+    "escrevi": "escrever",
+    "triste": "tristeza",
+    "esqueças": "esquecer",
+    "escrevo": "escrever",
+    
     "daddy": "dad",
     "hidden": "hide",
     "vaguely": "vague",
     "writing": "write",
+    "wake": "awake",
+    "dead":"death"
 }
 
 # =======================================================================
@@ -127,18 +151,23 @@ if __name__ == '__main__':
 
     stopwords_personalizadas = set(stopwords.words(idioma_nltk))
     if IDIOMA_PROC == "fr_XX":
-        stopwords_personalizadas.update([
-            "le", "la", "les", "un", "une", "jean", "john", "kaku", "lorsqu", "jusqu", "sai",
-            "congnois", "mme", "williams", "non", "tatactatoum", "aucun", "rien", "worsted",
-            "sandwich", "prononciation", "sûrement", "oui", "nao", "not", "não", "this", "that",
-            "lover", "lorenzo", "oliver", "tão", "translation", "english", "weep", "poetic", "vanished", "unk", "quot"
-        ])
+        stopwords_personalizadas.update(["le", "la", "les", "un", "une", "jean", "john", 
+                                         "kaku", "lorsqu", "jusqu", "sai", "congnois", "mme", 
+                                         "williams", "non", "tatactatoum", "aucun", "rien", "worsted", 
+                                         "sandwich", "prononciation", "sûrement", "oui", "nao", "not", "não", 
+                                         "this", "that", "lover", "lorenzo", "oliver", "tão", "translation", 
+                                         "english", "weep", "poetic", "vanished", "presque", "quot", "unk", 
+                                         "isabelle","travers", "isabel","tandis", "jusque", "the", "and", "french", "être", "you", "gama", "inch", "pourezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezez", "christians"])
     elif IDIOMA_PROC == "pt_XX":
-        stopwords_personalizadas.update(["o", "a", "os", "as", "um", "uma", "eu", "tu", "ele", "ela",
-            "nós", "vós", "eles", "elas", "voce", "nao", "algum", "bedlam", "quão", "quao", "pra","vejor", "meme", "unk", "quot"])
+        stopwords_personalizadas.update(["o", "a", "os", "as", "um", "uma", "eu", 
+                                         "tu", "ele", "ela", "nós", "vós", "eles", "elas", 
+                                         "voce", "nao", "algum", "bedlam", "quão", "quao", "pra", "negal", 
+                                         "senão", "senao", "alexandre", "sha", "quot","unk", "amans", "meme"])
     elif IDIOMA_PROC == "en_XX":
-        stopwords_personalizadas.update(["the", "a", "an", "and", "but", "or", "so", "to", "of",
-            "in", "for", "on", "at", "peter", "john", "mary", "jane", "kaku", "thee", "thy","thou", "unk", "quot"])
+        stopwords_personalizadas.update(["the", "a", "an", "and", "but", "or", "so", "to", 
+                                         "of", "in", "for", "on", "at", "peter", "john", 
+                                         "mary", "jane", "kaku", "thee", "thy", "thou", "unk", "quot", "pierre", 
+                                         "jean", "yeah", "berdichev", "lorenzo", "shall", "like", "uncredited", "hey", "whoa"])
 
     nlp = carregar_modelo_spacy(IDIOMA_PROC)
 
@@ -223,7 +252,7 @@ if __name__ == '__main__':
         plt.title(f'Top {top_n} words by topic')
         plt.legend()
         plt.tight_layout()
-        plt.savefig(f"{PASTA_SAIDA}/top_palavras_todos_topicos_{TITLE}.png")
+        plt.savefig(f"{PASTA_SAIDA}/grafico_barras_topicos_{TITLE}.png")
         plt.close()
 
     # --- Chamada da função para gerar gráfico de top palavras por tópico ---

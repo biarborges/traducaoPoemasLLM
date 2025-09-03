@@ -1,0 +1,36 @@
+Topic -1 (Quantity of poems: 63):
+  time: 0.2185
+  life: 0.1942
+  know: 0.1942
+  river: 0.1797
+  world: 0.1699
+  day: 0.1639
+  think: 0.1639
+  innocent: 0.1563
+  asymmetric: 0.1439
+  wait: 0.1407
+
+Topic 0 (Quantity of poems: 227):
+  come: 0.2163
+  light: 0.2162
+  know: 0.2022
+  time: 0.2006
+  death: 0.1942
+  eye: 0.1617
+  body: 0.1524
+  water: 0.1422
+  life: 0.1228
+  poem: 0.1201
+
+Topic 1 (Quantity of poems: 12):
+  love: 0.6055
+  know: 0.2906
+  friend: 0.2664
+  lose: 0.2422
+  look: 0.1938
+  life: 0.1695
+  practical: 0.1640
+  new: 0.1453
+  think: 0.1453
+  early: 0.1247
+

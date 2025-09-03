@@ -1,4 +1,4 @@
-original_poem,translated_poem,src_lang,tgt_lang,translated_by_TA
+original_poem,translated_poem,src_lang,tgt_lang,chatgptPrompt1, googleTradutor
 "Votre âme est un paysage choisi
 Que vont charmant masques et bergamasques
 Jouant du luth et dansant et quasi
@@ -38,4 +38,17 @@ And their song mingles with the moonlight,
 With the still, clear moonlight, sad and lovely,
 That sets the birds dreaming in the trees
 And makes the fountains sob with ecstasy—
-Tall, slender fountains among the marble."
+Tall, slender fountains among the marble.", "Your soul is a chosen landscape
+Which charming masks and Bergamasques go
+Playing the lute and dancing and almost
+Sad beneath their fanciful disguises.
+
+While singing in a minor key
+Victorious love and opportune life
+They don't seem to believe in their happiness
+And their song mingles with the moonlight,
+
+With the calm, sad and beautiful moonlight,
+Which makes the birds dream in the trees
+And the fountains sob with ecstasy,
+The great, slender fountains among the marble."

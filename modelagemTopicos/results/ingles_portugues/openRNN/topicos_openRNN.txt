@@ -1,48 +1,48 @@
-Topic -1.0 (Quantity of poems: 86):
-  homem: 0.2388
-  casa: 0.2299
-  olho: 0.2083
-  dia: 0.1727
-  pequeno: 0.1626
-  amor: 0.1524
-  colina: 0.1458
-  mão: 0.1422
-  relógio: 0.1367
-  soldado: 0.1305
+Topic -1.0 (Quantity of poems: 102):
+  olho: 0.1910
+  pequeno: 0.1779
+  dia: 0.1736
+  rio: 0.1639
+  mão: 0.1432
+  amor: 0.1380
+  ter: 0.1302
+  branco: 0.1274
+  colina: 0.1246
+  olhar: 0.1172
 
-Topic 0.0 (Quantity of poems: 134):
-  pequeno: 0.2207
-  branco: 0.1865
-  antigo: 0.1639
-  água: 0.1542
-  olho: 0.1524
-  vir: 0.1317
-  acima: 0.1253
-  céu: 0.1253
-  azul: 0.1230
-  sol: 0.1189
+Topic 0.0 (Quantity of poems: 118):
+  branco: 0.2129
+  pequeno: 0.2072
+  vir: 0.1753
+  homem: 0.1713
+  antigo: 0.1588
+  casa: 0.1575
+  relógio: 0.1503
+  água: 0.1487
+  acima: 0.1487
+  olho: 0.1381
 
-Topic 1.0 (Quantity of poems: 52):
-  amor: 0.5667
-  futuro: 0.2111
-  beleza: 0.1709
-  verdade: 0.1636
-  vida: 0.1630
-  arte: 0.1424
-  pensamento: 0.1329
-  morte: 0.1242
-  bom: 0.1164
-  desejo: 0.1164
+Topic 1.0 (Quantity of poems: 64):
+  amor: 0.6174
+  beleza: 0.2399
+  morte: 0.2359
+  vida: 0.1665
+  futuro: 0.1542
+  arte: 0.1285
+  deus: 0.1249
+  olho: 0.1248
+  verdade: 0.1195
+  velho: 0.1110
 
-Topic 2.0 (Quantity of poems: 28):
-  pensamento: 0.3843
-  dia: 0.2581
-  metade: 0.2132
-  mão: 0.2020
-  calor: 0.1683
-  sentido: 0.1571
-  noite: 0.1459
-  olho: 0.1459
-  perna: 0.1373
-  cabeça: 0.1373
+Topic 2.0 (Quantity of poems: 16):
+  dia: 0.2574
+  metade: 0.2574
+  pensamento: 0.2519
+  horizonte: 0.2309
+  arranjo: 0.1973
+  mão: 0.1716
+  aula: 0.1644
+  olho: 0.1545
+  medo: 0.1545
+  infinito: 0.1469
 

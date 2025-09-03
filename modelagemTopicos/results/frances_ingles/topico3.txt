@@ -1,0 +1,137 @@
+Original:
+
+  poème: 0.4443
+  poésie: 0.2777
+  poète: 0.2221
+  grand: 0.2157
+  dire: 0.1816
+  siècle: 0.1543
+  france: 0.1527
+  oublier: 0.1527
+  écrire: 0.1362
+  artiste: 0.1305
+
+------------------------------------------------
+Reference:
+  poem: 0.4365
+  poetry: 0.2646
+  say: 0.2379
+  poet: 0.2249
+  great: 0.2249
+  century: 0.1471
+  forget: 0.1455
+  france: 0.1455
+  write: 0.1406
+  come: 0.1298
+
+
+------------------------------------------------
+MarianMT:
+
+  fruit: 0.9347
+  poem: 0.1558
+  poetry: 0.0974
+  say: 0.0925
+  poet: 0.0876
+  great: 0.0677
+  century: 0.0601
+  write: 0.0557
+  artist: 0.0458
+  france: 0.0438
+
+------------------------------------------------
+mBart:
+  poet: 0.4058
+  poetry: 0.3111
+  poem: 0.2435
+  say: 0.2322
+  write: 0.1991
+  century: 0.1504
+  time: 0.1353
+  france: 0.1337
+  artist: 0.1272
+  forget: 0.1217
+
+
+
+------------------------------------------------
+OpenRNN:
+  january: 0.3933
+  discriminate: 0.3741
+  art: 0.3644
+  poetry: 0.2528
+  poem: 0.2388
+  great: 0.1723
+  poet: 0.1686
+  century: 0.1562
+  circumstance: 0.1541
+  say: 0.1405
+
+
+------------------------------------------------
+Google Translator:
+  poem: 0.4362
+  poetry: 0.2804
+  say: 0.2420
+  forget: 0.1714
+  word: 0.1401
+  write: 0.1274
+  enter: 0.1155
+  man: 0.1146
+  day: 0.1019
+  time: 0.1019
+
+------------------------------------------------
+ChatGPT Prompt 1:
+  poem: 0.4339
+  poetry: 0.2712
+  say: 0.2712
+  poet: 0.2305
+  write: 0.1884
+  great: 0.1884
+  century: 0.1507
+  france: 0.1491
+  artist: 0.1275
+  word: 0.1219
+
+------------------------------------------------
+ChatGPT Prompt 2:
+  poem: 0.4472
+  poetry: 0.2846
+  say: 0.2304
+  poet: 0.2304
+  great: 0.1884
+  write: 0.1773
+  century: 0.1507
+  forget: 0.1491
+  france: 0.1491
+  artist: 0.1274
+
+------------------------------------------------
+Maritaca Prompt 1:
+  poem: 0.3677
+  say: 0.2862
+  poetry: 0.2862
+  poet: 0.2317
+  great: 0.2006
+  century: 0.1515
+  forget: 0.1499
+  write: 0.1448
+  france: 0.1363
+  artist: 0.1281
+
+------------------------------------------------
+Maritaca Prompt 2:
+  poem: 0.3791
+  poetry: 0.2446
+  poet: 0.2394
+  say: 0.2079
+  forget: 0.1646
+  write: 0.1590
+  artist: 0.1406
+  man: 0.1346
+  word: 0.1223
+  great: 0.1223
+
+------------------------------------------------
+

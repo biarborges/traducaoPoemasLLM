@@ -1,0 +1,60 @@
+Topic -1 (Quantity of poems: 157):
+  man: 0.2098
+  death: 0.1604
+  die: 0.1512
+  wind: 0.1502
+  rage: 0.1424
+  think: 0.1414
+  light: 0.1357
+  love: 0.1174
+  away: 0.1149
+  night: 0.1137
+
+Topic 0 (Quantity of poems: 111):
+  dream: 0.1610
+  sweet: 0.1362
+  eye: 0.1245
+  day: 0.1176
+  see: 0.1171
+  come: 0.1115
+  golden: 0.1101
+  let: 0.1098
+  new: 0.1088
+  leave: 0.1062
+
+Topic 1 (Quantity of poems: 14):
+  eye: 0.3221
+  night: 0.2680
+  couch: 0.1715
+  love: 0.1635
+  weep: 0.1532
+  come: 0.1362
+  beauty: 0.1288
+  quick: 0.1149
+  tale: 0.1149
+  look: 0.1090
+
+Topic 2 (Quantity of poems: 10):
+  happy: 0.3518
+  love: 0.2225
+  sweet: 0.1669
+  great: 0.1563
+  heart: 0.1390
+  green: 0.1173
+  grow: 0.1173
+  pipe: 0.1173
+  tree: 0.1173
+  blossom: 0.1173
+
+Topic 3 (Quantity of poems: 8):
+  love: 0.6458
+  time: 0.1346
+  lose: 0.1273
+  say: 0.1273
+  live: 0.1135
+  fall: 0.1135
+  bye: 0.1129
+  sweet: 0.1076
+  eye: 0.0954
+  pain: 0.0954
+

@@ -1,0 +1,140 @@
+Original:
+  dream: 0.1610
+  sweet: 0.1362
+  eye: 0.1245
+  day: 0.1176
+  see: 0.1171
+  come: 0.1115
+  golden: 0.1101
+  let: 0.1098
+  new: 0.1088
+  leave: 0.1062
+
+------------------------------------------------
+
+Reference:
+  jamais: 0.1548
+  voir: 0.1401
+  terre: 0.1358
+  bien: 0.1290
+  prendre: 0.1267
+  fleur: 0.1227
+  jour: 0.1217
+  petit: 0.1214
+  venir: 0.1161
+  oeil: 0.1154
+
+------------------------------------------------
+
+MarianMT:
+  doux: 0.1870
+  terre: 0.1481
+  jamais: 0.1444
+  regarder: 0.1433
+  voir: 0.1185
+  prendre: 0.1185
+  étoile: 0.1115
+  venir: 0.1111
+  trouver: 0.1074
+  petit: 0.1070
+
+------------------------------------------------
+
+mBart:
+  écouler: 0.2282
+  jamais: 0.1578
+  terre: 0.1368
+  prendre: 0.1269
+  eau: 0.1268
+  trouver: 0.1263
+  doux: 0.1180
+  échantillon: 0.1152
+  jour: 0.1151
+  mort: 0.1122
+
+------------------------------------------------
+
+OpenRNN:
+  petit: 0.2269
+  jamais: 0.2230
+  nuit: 0.1636
+  travail: 0.1552
+  montagne: 0.1493
+  terre: 0.1487
+  doux: 0.1459
+  cher: 0.1433
+  ici: 0.1433
+  jour: 0.1314
+
+------------------------------------------------
+
+Google Translator:
+  doux: 0.2036
+  jamais: 0.1859
+  terre: 0.1341
+  bien: 0.1280
+  petit: 0.1222
+  voir: 0.1196
+  oeil: 0.1128
+  prendre: 0.1091
+  éternellement: 0.1082
+  étoile: 0.1048
+
+------------------------------------------------
+
+ChatGPT Prompt 1:
+  doux: 0.2066
+  jamais: 0.1435
+  terre: 0.1343
+  prendre: 0.1312
+  petit: 0.1268
+  bien: 0.1239
+  voir: 0.1234
+  autour: 0.1089
+  fleur: 0.1052
+  entendre: 0.1052
+
+------------------------------------------------
+
+ChatGPT Prompt 2:
+  doux: 0.1925
+  terre: 0.1615
+  petit: 0.1312
+  jamais: 0.1138
+  oeil: 0.1106
+  entendre: 0.1089
+  voir: 0.1089
+  autour: 0.1086
+  bien: 0.1069
+  prendre: 0.1052
+
+------------------------------------------------
+
+Maritaca Prompt 1:
+  doux: 0.1699
+  terre: 0.1664
+  petit: 0.1394
+  jamais: 0.1308
+  fois: 0.1085
+  venir: 0.1085
+  prendre: 0.1085
+  grand: 0.1049
+  chose: 0.1046
+  étoile: 0.1046
+
+------------------------------------------------
+
+Maritaca Prompt 2:
+  doux: 0.1842
+  voir: 0.1438
+  bien: 0.1169
+  terre: 0.1150
+  petit: 0.1138
+  jamais: 0.1002
+  étoile: 0.0990
+  chose: 0.0990
+  congé: 0.0982
+  fleur: 0.0945
+
+------------------------------------------------
+

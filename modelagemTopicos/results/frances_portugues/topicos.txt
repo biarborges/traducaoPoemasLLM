@@ -1,41 +1,509 @@
 Original:
 
+Topic 0 (Quantity of poems: 109):
+  écrire: 0.2211
+  nom: 0.1684
+  amour: 0.1514
+  jour: 0.1276
+  coeur: 0.1247
+  grand: 0.1247
+  mort: 0.1247
+  voir: 0.1217
+  venir: 0.1158
+  soleil: 0.1128
+
+Topic 1 (Quantity of poems: 77):
+  amour: 0.5335
+  sommeil: 0.1936
+  âme: 0.1663
+  savoir: 0.1524
+  bien: 0.1455
+  coeur: 0.1455
+  voir: 0.1455
+  vie: 0.1316
+  oeil: 0.1247
+  soir: 0.1188
+
+Topic 2 (Quantity of poems: 28):
+  réalisation: 0.1682
+  amour: 0.1335
+  mettre: 0.1335
+  vie: 0.1335
+  nuit: 0.1335
+  trait: 0.1263
+  sourire: 0.1263
+  plein: 0.1263
+  dérision: 0.1121
+  fierté: 0.1121
+
+Topic 3 (Quantity of poems: 18):
+  pitié: 0.2557
+  adieu: 0.2490
+  long: 0.2038
+  misère: 0.2019
+  satan: 0.1924
+  dieu: 0.1915
+  prendre: 0.1915
+  bien: 0.1915
+  absoudre: 0.1607
+  prier: 0.1459
+
+
+
 
 ------------------------------------------------
 Reference:
 
+Topic 0 (Quantity of poems: 109):
+  nome: 0.2281
+  escrever: 0.1955
+  dia: 0.1457
+  morte: 0.1358
+  flor: 0.1214
+  branco: 0.1210
+  olho: 0.1159
+  noite: 0.1159
+  conhecer: 0.1136
+  sol: 0.1126
+
+Topic 1 (Quantity of poems: 77):
+  amor: 0.3730
+  alma: 0.2246
+  sono: 0.1966
+  noite: 0.1780
+  vida: 0.1653
+  amar: 0.1653
+  olhar: 0.1483
+  olho: 0.1399
+  coração: 0.1314
+  ninguem: 0.1148
+
+Topic 2 (Quantity of poems: 28):
+  seta: 0.1858
+  realização: 0.1727
+  morte: 0.1646
+  rosto: 0.1621
+  cuidar: 0.1393
+  vida: 0.1371
+  pensar: 0.1297
+  irrisão: 0.1151
+  alma: 0.1097
+  noite: 0.1097
+
+Topic 3 (Quantity of poems: 18):
+  piedade: 0.3407
+  miséria: 0.2495
+  satã: 0.2379
+  deus: 0.2249
+  longo: 0.1894
+  bordel: 0.1242
+  amor: 0.1184
+  clamai: 0.0994
+  suplicai: 0.0994
+  absolver: 0.0994
 
 ------------------------------------------------
 MarianMT:
 
+Topic 0 (Quantity of poems: 120):
+  escrever: 0.3426
+  nome: 0.2597
+  água: 0.2024
+  noite: 0.1555
+  dia: 0.1530
+  morte: 0.1382
+  sol: 0.1160
+  coração: 0.1086
+  flor: 0.1080
+  branco: 0.0992
+
+Topic 1 (Quantity of poems: 86):
+  alto: 0.7452
+  amor: 0.2109
+  noite: 0.1668
+  olho: 0.1570
+  alma: 0.1324
+  amar: 0.1275
+  coração: 0.1128
+  vida: 0.1104
+  olhar: 0.1104
+  sozinho: 0.0812
+
+Topic 2 (Quantity of poems: 28):
+  rosto: 0.1591
+  vida: 0.1415
+  noite: 0.1415
+  passar: 0.1415
+  linha: 0.1193
+  realização: 0.1188
+  falha: 0.1188
+  deus: 0.1132
+  morte: 0.1132
+  olho: 0.1132
+
+Topic 3 (Quantity of poems: 22):
+  absolver: 0.2785
+  ore: 0.2785
+  deus: 0.2655
+  satanás: 0.1982
+  miséria: 0.1749
+  piedade: 0.1749
+  longo: 0.1667
+  coração: 0.1327
+  homem: 0.1327
+  lavar: 0.1264
 
 ------------------------------------------------
 mBart:
+Topic 0 (Quantity of poems: 120):
+  escrever: 0.3883
+  nome: 0.2491
+  embaixo: 0.1674
+  preto: 0.1534
+  dia: 0.1274
+  flor: 0.1194
+  velho: 0.1161
+  noite: 0.1161
+  amor: 0.1132
+  coração: 0.0991
 
+Topic 1 (Quantity of poems: 86):
+  amor: 0.4075
+  vida: 0.1938
+  coração: 0.1622
+  olhos: 0.1590
+  tour: 0.1541
+  noite: 0.1464
+  pobre: 0.1450
+  alma: 0.1424
+  dia: 0.1187
+  amar: 0.1169
+
+Topic 2 (Quantity of poems: 28):
+  vida: 0.1467
+  através: 0.1467
+  realização: 0.1231
+  allah: 0.1231
+  polegadas: 0.1231
+  carro: 0.1231
+  face: 0.1173
+  noite: 0.1173
+  olho: 0.1040
+  modo: 0.0993
+
+Topic 3 (Quantity of poems: 22):
+  deus: 0.2513
+  senhor: 0.2049
+  duro: 0.1962
+  adeus: 0.1962
+  satan: 0.1871
+  irmãos: 0.1563
+  pena: 0.1100
+  flores: 0.0990
+  pobre: 0.0990
+  príncipe: 0.0916
 
 ------------------------------------------------
 OpenRNN:
+Topic 0 (Quantity of poems: 120):
+  nome: 0.4527
+  noite: 0.2164
+  lanterna: 0.1665
+  morte: 0.1492
+  dia: 0.1483
+  memória: 0.1429
+  vida: 0.1363
+  guerreiro: 0.1209
+  branco: 0.1122
+  perfeitamente: 0.1067
 
+Topic 1 (Quantity of poems: 86):
+  solidão: 0.6265
+  noite: 0.2156
+  olho: 0.1874
+  vida: 0.1737
+  amor: 0.1368
+  nome: 0.1353
+  sonho: 0.1318
+  coração: 0.1317
+  olhar: 0.1216
+  mulher: 0.1114
+
+Topic 2 (Quantity of poems: 28):
+  oração: 0.6063
+  sorrir: 0.3705
+  natural: 0.2515
+  reflexo: 0.2435
+  sorriso: 0.1417
+  vida: 0.1417
+  estação: 0.1217
+  alma: 0.1198
+  cara: 0.1133
+  noite: 0.1133
+
+Topic 3 (Quantity of poems: 22):
+  persuasão: 0.4086
+  deus: 0.3042
+  pena: 0.2734
+  tomar: 0.2566
+  deixar: 0.2566
+  querer: 0.2446
+  longo: 0.2302
+  parar: 0.1648
+  pobre: 0.1583
+  graça: 0.1277
 
 ------------------------------------------------
 Google Translator:
 
+Topic 0.0 (Quantity of poems: 120):
+  escrever: 0.2872
+  nome: 0.2652
+  noite: 0.1738
+  dia: 0.1595
+  morte: 0.1371
+  sol: 0.1196
+  velho: 0.1031
+  coração: 0.1022
+  passar: 0.1022
+  branco: 0.1002
+
+Topic 1.0 (Quantity of poems: 86):
+  amor: 0.2902
+  noite: 0.2762
+  amar: 0.2720
+  alma: 0.1876
+  olho: 0.1593
+  vida: 0.1522
+  coração: 0.1486
+  dormir: 0.1213
+  sono: 0.1079
+  dia: 0.1062
+
+Topic 2.0 (Quantity of poems: 27):
+  realização: 0.1745
+  vida: 0.1663
+  noite: 0.1638
+  manter: 0.1638
+  linha: 0.1558
+  morte: 0.1385
+  rosto: 0.1310
+  sorriso: 0.1310
+  reserva: 0.1163
+  inshallah: 0.1163
+
+Topic 3.0 (Quantity of poems: 22):
+  reze: 0.2710
+  absolver: 0.2710
+  piedade: 0.2596
+  deus: 0.2583
+  miséria: 0.1815
+  homem: 0.1695
+  satanás: 0.1622
+  fazer: 0.1372
+  longo: 0.1372
+  domínio: 0.1355
 
 ------------------------------------------------
 ChatGPT Prompt 1:
 
+Topic 0 (Quantity of poems: 120):
+  escrever: 0.3512
+  nome: 0.2691
+  noite: 0.1543
+  dia: 0.1543
+  morte: 0.1290
+  sol: 0.1088
+  coração: 0.1062
+  branco: 0.1017
+  flor: 0.1017
+  onda: 0.0987
+
+Topic 1 (Quantity of poems: 86):
+  amor: 0.3184
+  noite: 0.2518
+  amar: 0.2258
+  sono: 0.2131
+  alma: 0.1888
+  coração: 0.1629
+  vida: 0.1555
+  olho: 0.1518
+  olhar: 0.1370
+  dia: 0.1148
+
+Topic 2 (Quantity of poems: 28):
+  realização: 0.1721
+  morte: 0.1640
+  noite: 0.1367
+  deus: 0.1367
+  vida: 0.1367
+  rosto: 0.1293
+  sorriso: 0.1293
+  flecha: 0.1293
+  mestre: 0.1152
+  fêmea: 0.1147
+
+Topic 3 (Quantity of poems: 22):
+  absolver: 0.2714
+  rogai: 0.2714
+  deus: 0.2587
+  piedade: 0.2386
+  satanás: 0.2327
+  longo: 0.1720
+  miséria: 0.1704
+  querer: 0.1374
+  homem: 0.1293
+  morte: 0.1212
 
 ------------------------------------------------
 ChatGPT Prompt 2:
+Topic 0 (Quantity of poems: 120):
+  escrever: 0.3043
+  nome: 0.2776
+  dia: 0.1618
+  noite: 0.1383
+  morte: 0.1331
+  água: 0.1252
+  flor: 0.1172
+  sol: 0.1070
+  branco: 0.1049
+  coração: 0.1044
 
+Topic 1 (Quantity of poems: 86):
+  amor: 0.3269
+  noite: 0.2489
+  sono: 0.2138
+  amar: 0.2080
+  alma: 0.1894
+  coração: 0.1560
+  vida: 0.1523
+  olho: 0.1486
+  olhar: 0.1337
+  dia: 0.1151
+
+Topic 2 (Quantity of poems: 28):
+  realização: 0.1724
+  morte: 0.1643
+  guardai: 0.1391
+  deus: 0.1369
+  vida: 0.1369
+  noite: 0.1369
+  pesar: 0.1295
+  rosto: 0.1295
+  sorriso: 0.1295
+  reserva: 0.1149
+
+Topic 3 (Quantity of poems: 22):
+  absolver: 0.2739
+  rogai: 0.2739
+  deus: 0.2610
+  piedade: 0.2408
+  satanás: 0.1949
+  miséria: 0.1720
+  longo: 0.1468
+  querer: 0.1387
+  homem: 0.1224
+  coração: 0.1224
 
 ------------------------------------------------
 Maritaca Prompt 1:
+Topic 0 (Quantity of poems: 120):
+  escrever: 0.3537
+  nome: 0.2678
+  dia: 0.1586
+  noite: 0.1384
+  morte: 0.1233
+  sol: 0.1032
+  coração: 0.1032
+  flor: 0.1012
+  negro: 0.1012
+  onda: 0.1012
 
+Topic 1 (Quantity of poems: 86):
+  amor: 0.3116
+  amar: 0.2639
+  noite: 0.2309
+  sono: 0.2048
+  alma: 0.1979
+  coração: 0.1613
+  vida: 0.1540
+  olho: 0.1503
+  dia: 0.1320
+  olhar: 0.1210
+
+Topic 2 (Quantity of poems: 28):
+  realização: 0.1732
+  morte: 0.1650
+  noite: 0.1375
+  vida: 0.1375
+  sorriso: 0.1301
+  tiro: 0.1160
+  mestre: 0.1160
+  reserva: 0.1154
+  allah: 0.1154
+  olho: 0.1100
+
+Topic 3 (Quantity of poems: 22):
+  orai: 0.2680
+  satan: 0.2680
+  absolver: 0.2680
+  deus: 0.2555
+  piedade: 0.2356
+  querer: 0.1793
+  longo: 0.1699
+  miséria: 0.1683
+  ter: 0.1277
+  homem: 0.1197
 
 ------------------------------------------------
 Maritaca Prompt 2:
+Topic 0 (Quantity of poems: 120):
+  nome: 0.3188
+  escrever: 0.2973
+  dia: 0.1478
+  noite: 0.1300
+  onda: 0.1254
+  flor: 0.1115
+  morte: 0.1071
+  sol: 0.1020
+  negro: 0.0934
+  branco: 0.0904
 
+Topic 1 (Quantity of poems: 86):
+  amor: 0.3236
+  amar: 0.2739
+  sono: 0.2117
+  alma: 0.2059
+  noite: 0.2059
+  vida: 0.1545
+  coração: 0.1434
+  olho: 0.1361
+  olhar: 0.1287
+  dia: 0.1287
+
+Topic 2 (Quantity of poems: 28):
+  guardar: 0.1987
+  realização: 0.1780
+  morte: 0.1696
+  noite: 0.1414
+  traço: 0.1192
+  mestre: 0.1192
+  allah: 0.1187
+  passais: 0.1187
+  vida: 0.1131
+  olho: 0.1131
+
+Topic 3 (Quantity of poems: 22):
+  satã: 0.2857
+  clamai: 0.2689
+  absolver: 0.2689
+  deus: 0.2482
+  piedade: 0.2305
+  miséria: 0.1688
+  longo: 0.1441
+  homem: 0.1121
+  sofrimento: 0.0949
+  irmão: 0.0900
 
 ------------------------------------------------
 

@@ -14,8 +14,8 @@ if device == "cuda":
     print("Memória da GPU liberada.")
 
 # Caminhos dos arquivos
-poem_train_csv = "../poemas/train/portugues_ingles_train.csv"
-poem_val_csv = "../poemas/validation/portugues_ingles_validation.csv"
+#poem_train_csv = "../poemas/train/portugues_ingles_train.csv"
+#poem_val_csv = "../poemas/validation/portugues_ingles_validation.csv"
 music_train_csv = "../musicas/train/portugues_ingles_musics_train.csv"
 music_val_csv = "../musicas/validation/portugues_ingles_musics_validation.csv"
 
@@ -25,17 +25,20 @@ def load_dataset(csv_path):
 
 # Carregar os datasets individualmente
 try:
-    poem_train = load_dataset(poem_train_csv)
+    #poem_train = load_dataset(poem_train_csv)
     music_train = load_dataset(music_train_csv)
-    poem_val = load_dataset(poem_val_csv)
+    #poem_val = load_dataset(poem_val_csv)
     music_val = load_dataset(music_val_csv)
 except Exception as e:
     print(f"Erro ao carregar datasets: {e}")
     exit(1)
 
 # Concatenar os conjuntos de poemas + músicas
-train_dataset = concatenate_datasets([poem_train, music_train])
-val_dataset = concatenate_datasets([poem_val, music_val])
+train_dataset = concatenate_datasets([music_train])
+val_dataset = concatenate_datasets([music_val])
+
+#train_dataset = concatenate_datasets([poem_train, music_train])
+#val_dataset = concatenate_datasets([poem_val, music_val])
 
 # Carregar modelo e tokenizer
 model_name = "Helsinki-NLP/opus-mt-ROMANCE-en"  

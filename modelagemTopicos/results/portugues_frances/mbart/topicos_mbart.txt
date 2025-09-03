@@ -1,0 +1,48 @@
+Topic -1 (Quantity of poems: 79):
+  monde: 0.3928
+  vouloir: 0.2463
+  savoir: 0.2463
+  agir: 0.1804
+  faire: 0.1716
+  vie: 0.1614
+  amour: 0.1614
+  lieu: 0.1540
+  real: 0.1517
+  homme: 0.1507
+
+Topic 0 (Quantity of poems: 142):
+  amour: 0.3000
+  savoir: 0.2492
+  vie: 0.2414
+  agir: 0.2173
+  rêve: 0.2079
+  lieu: 0.1854
+  temps: 0.1805
+  mer: 0.1780
+  coeur: 0.1415
+  falloir: 0.1396
+
+Topic 1 (Quantity of poems: 78):
+  croire: 0.4637
+  affaire: 0.3047
+  terre: 0.2782
+  lieu: 0.2252
+  agir: 0.1987
+  faire: 0.1855
+  roi: 0.1801
+  falloir: 0.1523
+  temps: 0.1296
+  mer: 0.1296
+
+Topic 2 (Quantity of poems: 7):
+  écouler: 0.5954
+  eau: 0.2977
+  cours: 0.2977
+  chrétien: 0.2249
+  agir: 0.2233
+  lieu: 0.1861
+  mensuel: 0.1124
+  île: 0.1116
+  donner: 0.1116
+  admettre: 0.1116
+

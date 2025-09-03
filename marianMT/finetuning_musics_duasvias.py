@@ -16,9 +16,9 @@ if device == "cuda":
     print("Memória da GPU liberada.")
 
 # Caminhos dos arquivos CSV
-train_csv_poemas = "../poemas/train/frances_portugues_train.csv"
+#train_csv_poemas = "../poemas/train/frances_portugues_train.csv"
 train_csv_musicas = "../musicas/train/frances_portugues_musics_train.csv"
-val_csv_poemas = "../poemas/validation/frances_portugues_validation.csv"
+#val_csv_poemas = "../poemas/validation/frances_portugues_validation.csv"
 val_csv_musicas = "../musicas/validation/frances_portugues_musics_validation.csv"
 intermediate_csv_path = "../poemas/train/frances_portugues_train_intermediario.csv"
 
@@ -108,17 +108,18 @@ def translate_texts(texts, model, tokenizer, target_lang=None):
 print("\nIniciando o fine-tuning Francês → Inglês...")
 model_fr_en, tokenizer_fr_en = train_model(
     model_name="Helsinki-NLP/opus-mt-fr-en", 
-    train_csv1=train_csv_poemas,
+    #train_csv1=train_csv_poemas,
     train_csv2=train_csv_musicas,
-    val_csv1=val_csv_poemas,
+    #val_csv1=val_csv_poemas,
     val_csv2=val_csv_musicas,
     output_dir="/home/ubuntu/finetuning_fr_pt/frances_portugues_intermediario"
 )
 
 # Gerar dataset intermediário (Francês → Inglês)
-df_poemas = pd.read_csv(train_csv_poemas)
+#df_poemas = pd.read_csv(train_csv_poemas)
 df_musicas = pd.read_csv(train_csv_musicas)
-df_fr = pd.concat([df_poemas, df_musicas], ignore_index=True)
+#df_fr = pd.concat([df_poemas, df_musicas], ignore_index=True)
+df_fr = pd.concat([df_musicas], ignore_index=True)
 print("Gerando traduções intermediárias do Francês para o Inglês...")
 english_translations = translate_texts(df_fr["original_poem"].tolist(), model_fr_en, tokenizer_fr_en)
 

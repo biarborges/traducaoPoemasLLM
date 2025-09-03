@@ -1,0 +1,36 @@
+Topic -1 (Quantity of poems: 63):
+  vida: 0.2337
+  vento: 0.1787
+  criança: 0.1680
+  hora: 0.1505
+  mundo: 0.1460
+  rio: 0.1410
+  passar: 0.1314
+  dia: 0.1314
+  ter: 0.1241
+  mão: 0.1222
+
+Topic 0 (Quantity of poems: 225):
+  morte: 0.2260
+  casa: 0.1773
+  olho: 0.1669
+  vida: 0.1549
+  dia: 0.1532
+  mão: 0.1485
+  água: 0.1440
+  noite: 0.1360
+  luz: 0.1325
+  terra: 0.1256
+
+Topic 1 (Quantity of poems: 12):
+  amar: 0.4497
+  amor: 0.3748
+  vida: 0.2249
+  dar: 0.2249
+  pensar: 0.1749
+  alma: 0.1499
+  perder: 0.1499
+  olho: 0.1499
+  esperança: 0.1499
+  olhar: 0.1249
+

@@ -1,0 +1,48 @@
+Topic -1 (Quantity of poems: 73):
+  mundo: 0.2697
+  olho: 0.2543
+  deus: 0.2059
+  vida: 0.1917
+  amor: 0.1562
+  verde: 0.1315
+  beijo: 0.1315
+  homem: 0.1278
+  paz: 0.1278
+  tristeza: 0.1228
+
+Topic 0 (Quantity of poems: 142):
+  vida: 0.2759
+  amor: 0.2650
+  mar: 0.1809
+  noite: 0.1666
+  olho: 0.1620
+  flor: 0.1586
+  sonho: 0.1518
+  céu: 0.1503
+  terra: 0.1474
+  cantar: 0.1393
+
+Topic 1 (Quantity of poems: 78):
+  terra: 0.3364
+  gente: 0.3364
+  mar: 0.1842
+  rei: 0.1567
+  mouro: 0.1442
+  capitão: 0.1274
+  cortar: 0.1210
+  lusitano: 0.1089
+  ter: 0.1078
+  céu: 0.1078
+
+Topic 2 (Quantity of poems: 7):
+  cristão: 0.3699
+  gente: 0.2520
+  ilha: 0.2016
+  mouro: 0.2016
+  capitão: 0.1850
+  falso: 0.1512
+  levar: 0.1512
+  cristo: 0.1233
+  sorte: 0.1233
+  força: 0.1008
+

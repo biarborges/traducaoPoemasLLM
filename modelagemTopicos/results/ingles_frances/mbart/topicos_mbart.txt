@@ -1,0 +1,60 @@
+Topic -1 (Quantity of poems: 291):
+  mourir: 0.2708
+  mort: 0.1808
+  doux: 0.1791
+  écouler: 0.1588
+  lumière: 0.1535
+  glace: 0.1506
+  feu: 0.1470
+  dire: 0.1393
+  homme: 0.1318
+  tissu: 0.1262
+
+Topic 0 (Quantity of poems: 121):
+  écouler: 0.2282
+  jamais: 0.1578
+  terre: 0.1368
+  prendre: 0.1269
+  eau: 0.1268
+  trouver: 0.1263
+  doux: 0.1180
+  échantillon: 0.1152
+  jour: 0.1151
+  mort: 0.1122
+
+Topic 1 (Quantity of poems: 14):
+  nuit: 0.2877
+  oeil: 0.2420
+  pouvoir: 0.1815
+  regarder: 0.1815
+  voir: 0.1798
+  doux: 0.1513
+  beauté: 0.1438
+  mort: 0.1438
+  brûlure: 0.1300
+  amour: 0.1279
+
+Topic 2 (Quantity of poems: 10):
+  heureux: 0.2430
+  jamais: 0.2025
+  amour: 0.1729
+  doux: 0.1703
+  fleur: 0.1620
+  coeur: 0.1441
+  grand: 0.1363
+  bonheur: 0.1363
+  vert: 0.1215
+  nourrir: 0.1215
+
+Topic 3 (Quantity of poems: 8):
+  vie: 0.8773
+  amour: 0.2842
+  guilde: 0.0663
+  perdre: 0.0560
+  douleur: 0.0560
+  oeil: 0.0560
+  ambition: 0.0535
+  jeune: 0.0474
+  fin: 0.0444
+  souffle: 0.0444
+

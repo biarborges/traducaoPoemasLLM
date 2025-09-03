@@ -1,0 +1,36 @@
+Topic -1 (Quantity of poems: 63):
+  know: 0.2164
+  life: 0.1910
+  wind: 0.1557
+  thing: 0.1528
+  time: 0.1464
+  child: 0.1464
+  love: 0.1400
+  end: 0.1312
+  fig: 0.1312
+  tree: 0.1312
+
+Topic 0 (Quantity of poems: 227):
+  know: 0.1642
+  time: 0.1565
+  death: 0.1502
+  light: 0.1488
+  eye: 0.1458
+  life: 0.1427
+  water: 0.1383
+  hand: 0.1304
+  house: 0.1265
+  love: 0.1228
+
+Topic 1 (Quantity of poems: 12):
+  love: 0.6882
+  lose: 0.2360
+  life: 0.1966
+  know: 0.1770
+  soul: 0.1573
+  hope: 0.1376
+  look: 0.1180
+  give: 0.1180
+  see: 0.1180
+  think: 0.0983
+

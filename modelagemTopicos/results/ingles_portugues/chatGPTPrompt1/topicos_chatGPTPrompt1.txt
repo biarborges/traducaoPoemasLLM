@@ -1,48 +1,48 @@
-Topic -1.0 (Quantity of poems: 86):
-  olho: 0.2368
-  amor: 0.1973
-  casa: 0.1789
-  homem: 0.1410
-  dia: 0.1410
-  mão: 0.1353
-  mar: 0.1353
-  morte: 0.1184
-  amar: 0.1103
-  sol: 0.1103
+Topic -1.0 (Quantity of poems: 102):
+  olho: 0.1763
+  mão: 0.1446
+  rio: 0.1434
+  branco: 0.1382
+  noite: 0.1356
+  mar: 0.1311
+  água: 0.1298
+  pequeno: 0.1266
+  dia: 0.1266
+  amor: 0.1216
 
-Topic 0.0 (Quantity of poems: 134):
-  casa: 0.2223
-  branco: 0.1563
-  pequeno: 0.1563
-  azul: 0.1435
-  rio: 0.1425
-  água: 0.1237
-  olho: 0.1195
-  luz: 0.1134
-  ilha: 0.1057
-  poder: 0.1050
+Topic 0.0 (Quantity of poems: 118):
+  casa: 0.2280
+  branco: 0.1741
+  água: 0.1485
+  pequeno: 0.1457
+  rio: 0.1331
+  pássaro: 0.1229
+  azul: 0.1202
+  folha: 0.1126
+  olho: 0.1084
+  luz: 0.1084
 
-Topic 1.0 (Quantity of poems: 52):
-  amor: 0.5578
-  beleza: 0.2443
-  verdade: 0.1561
-  deus: 0.1377
-  morte: 0.1171
-  mundo: 0.1095
-  dor: 0.1095
-  olho: 0.1033
-  vida: 0.1033
-  verdadeiro: 0.0936
+Topic 1.0 (Quantity of poems: 64):
+  amor: 0.6316
+  beleza: 0.2274
+  morte: 0.1832
+  deus: 0.1579
+  olho: 0.1343
+  vida: 0.1074
+  homem: 0.0981
+  verdade: 0.0947
+  terra: 0.0884
+  dor: 0.0884
 
-Topic 2.0 (Quantity of poems: 28):
-  pensamento: 0.3099
-  mão: 0.2267
-  dia: 0.2133
-  noite: 0.2000
-  cabeça: 0.1794
-  sentido: 0.1600
-  olhar: 0.1467
-  olho: 0.1200
-  sol: 0.1142
-  alegria: 0.1067
+Topic 2.0 (Quantity of poems: 16):
+  olhar: 0.2136
+  dia: 0.2136
+  pensamento: 0.2032
+  olho: 0.1898
+  noite: 0.1661
+  mão: 0.1424
+  espelho: 0.1424
+  luz: 0.1424
+  pensar: 0.1186
+  coisa: 0.1186
 

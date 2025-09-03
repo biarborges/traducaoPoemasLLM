@@ -16,8 +16,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Caminhos dos arquivos CSV
-CSV_POEM_TRAIN = "../poemas/train/portugues_ingles_train.csv"
-CSV_POEM_VALID = "../poemas/validation/portugues_ingles_validation.csv"
+#CSV_POEM_TRAIN = "../poemas/train/portugues_ingles_train.csv"
+#CSV_POEM_VALID = "../poemas/validation/portugues_ingles_validation.csv"
 CSV_SONG_TRAIN = "../musicas/train/portugues_ingles_musics_train.csv"
 CSV_SONG_VALID = "../musicas/validation/portugues_ingles_musics_validation.csv"
 
@@ -112,8 +112,8 @@ def train_model():
 # Função principal
 def run():
     # Pré-processar poemas e músicas
-    preprocess_csv(CSV_POEM_TRAIN, "poem_train")
-    preprocess_csv(CSV_POEM_VALID, "poem_valid")
+    #preprocess_csv(CSV_POEM_TRAIN, "poem_train")
+    #preprocess_csv(CSV_POEM_VALID, "poem_valid")
     preprocess_csv(CSV_SONG_TRAIN, "song_train")
     preprocess_csv(CSV_SONG_VALID, "song_valid")
 
@@ -123,10 +123,15 @@ def run():
             fout.writelines(f1.readlines() + f2.readlines())
         print(f"{out_file} combinado.")
 
-    combine_files(f"{OUTPUT_DIR}/poem_train.src", f"{OUTPUT_DIR}/song_train.src", f"{OUTPUT_DIR}/train.src")
-    combine_files(f"{OUTPUT_DIR}/poem_train.tgt", f"{OUTPUT_DIR}/song_train.tgt", f"{OUTPUT_DIR}/train.tgt")
-    combine_files(f"{OUTPUT_DIR}/poem_valid.src", f"{OUTPUT_DIR}/song_valid.src", f"{OUTPUT_DIR}/valid.src")
-    combine_files(f"{OUTPUT_DIR}/poem_valid.tgt", f"{OUTPUT_DIR}/song_valid.tgt", f"{OUTPUT_DIR}/valid.tgt")
+    combine_files(f"{OUTPUT_DIR}/song_train.src", f"{OUTPUT_DIR}/train.src")
+    combine_files(f"{OUTPUT_DIR}/song_train.tgt", f"{OUTPUT_DIR}/train.tgt")
+    combine_files(f"{OUTPUT_DIR}/song_valid.src", f"{OUTPUT_DIR}/valid.src")
+    combine_files(f"{OUTPUT_DIR}/song_valid.tgt", f"{OUTPUT_DIR}/valid.tgt")
+
+    #combine_files(f"{OUTPUT_DIR}/poem_train.src", f"{OUTPUT_DIR}/song_train.src", f"{OUTPUT_DIR}/train.src")
+    #combine_files(f"{OUTPUT_DIR}/poem_train.tgt", f"{OUTPUT_DIR}/song_train.tgt", f"{OUTPUT_DIR}/train.tgt")
+    #combine_files(f"{OUTPUT_DIR}/poem_valid.src", f"{OUTPUT_DIR}/song_valid.src", f"{OUTPUT_DIR}/valid.src")
+    #combine_files(f"{OUTPUT_DIR}/poem_valid.tgt", f"{OUTPUT_DIR}/song_valid.tgt", f"{OUTPUT_DIR}/valid.tgt")
 
     # Tokenizar com multiprocessing
     jobs = [

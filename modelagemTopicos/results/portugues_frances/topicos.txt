@@ -1,40 +1,400 @@
 Original:
+Topic 0 (Quantity of poems: 142):
+  vida: 0.2759
+  amor: 0.2650
+  mar: 0.1809
+  noite: 0.1666
+  olho: 0.1620
+  flor: 0.1586
+  sonho: 0.1518
+  céu: 0.1503
+  terra: 0.1474
+  cantar: 0.1393
+
+Topic 1 (Quantity of poems: 78):
+  terra: 0.3364
+  gente: 0.3364
+  mar: 0.1842
+  rei: 0.1567
+  mouro: 0.1442
+  capitão: 0.1274
+  cortar: 0.1210
+  lusitano: 0.1089
+  ter: 0.1078
+  céu: 0.1078
+
+Topic 2 (Quantity of poems: 7):
+  cristão: 0.3699
+  gente: 0.2520
+  ilha: 0.2016
+  mouro: 0.2016
+  capitão: 0.1850
+  falso: 0.1512
+  levar: 0.1512
+  cristo: 0.1233
+  sorte: 0.1233
+  força: 0.1008
+
 
 
 ------------------------------------------------
 Reference:
+Topic 0 (Quantity of poems: 142):
+  amour: 0.4011
+  vie: 0.3031
+  savoir: 0.1463
+  rêve: 0.1457
+  mer: 0.1428
+  voir: 0.1428
+  fleur: 0.1399
+  coeur: 0.1392
+  ciel: 0.1345
+  nuit: 0.1321
+
+Topic 1 (Quantity of poems: 78):
+  terre: 0.2177
+  voir: 0.1537
+  gloire: 0.1385
+  venir: 0.1385
+  mer: 0.1375
+  roi: 0.1286
+  portugais: 0.1286
+  bien: 0.1133
+  dieu: 0.1089
+  faire: 0.1052
+
+Topic 2 (Quantity of poems: 7):
+  chrétien: 0.3863
+  succès: 0.1363
+  piège: 0.1363
+  île: 0.1354
+  voir: 0.1354
+  vrai: 0.1104
+  pilote: 0.1104
+  grand: 0.0902
+  terrible: 0.0902
+  christ: 0.0902
+
 
 
 ------------------------------------------------
 MarianMT:
+Topic 0 (Quantity of poems: 142):
+  amour: 0.3374
+  coeur: 0.2780
+  peur: 0.2674
+  vie: 0.2165
+  aller: 0.1926
+  savoir: 0.1804
+  faux: 0.1544
+  mer: 0.1405
+  venir: 0.1358
+  vouloir: 0.1316
+
+Topic 1 (Quantity of poems: 78):
+  terre: 0.2746
+  voir: 0.2330
+  venir: 0.2036
+  mer: 0.1997
+  roi: 0.1527
+  fort: 0.1332
+  capitaine: 0.1323
+  avoir: 0.1221
+  peuple: 0.1165
+  ciel: 0.1120
+
+Topic 2 (Quantity of poems: 7):
+  chrétien: 0.3798
+  voir: 0.2587
+  île: 0.2070
+  capitaine: 0.1899
+  soupçon: 0.1564
+  faux: 0.1552
+  méchant: 0.1552
+  tromper: 0.1035
+  pouvoir: 0.1035
+  maure: 0.1035
+
 
 
 ------------------------------------------------
 mBart:
 
+Topic 0 (Quantity of poems: 142):
+  amour: 0.3000
+  savoir: 0.2492
+  vie: 0.2414
+  agir: 0.2173
+  rêve: 0.2079
+  lieu: 0.1854
+  temps: 0.1805
+  mer: 0.1780
+  coeur: 0.1415
+  falloir: 0.1396
+
+Topic 1 (Quantity of poems: 78):
+  croire: 0.4637
+  affaire: 0.3047
+  terre: 0.2782
+  lieu: 0.2252
+  agir: 0.1987
+  faire: 0.1855
+  roi: 0.1801
+  falloir: 0.1523
+  temps: 0.1296
+  mer: 0.1296
+
+Topic 2 (Quantity of poems: 7):
+  écouler: 0.5954
+  eau: 0.2977
+  cours: 0.2977
+  chrétien: 0.2249
+  agir: 0.2233
+  lieu: 0.1861
+  mensuel: 0.1124
+  île: 0.1116
+  donner: 0.1116
+  admettre: 0.1116
+
 
 ------------------------------------------------
 OpenRNN:
+Topic 0 (Quantity of poems: 142):
+  amour: 0.3755
+  vie: 0.3307
+  vouloir: 0.1665
+  oeil: 0.1654
+  savoir: 0.1575
+  terre: 0.1575
+  rêve: 0.1573
+  nuit: 0.1535
+  temps: 0.1404
+  venir: 0.1241
+
+Topic 1 (Quantity of poems: 78):
+  terre: 0.3648
+  roi: 0.2940
+  mer: 0.2189
+  liberté: 0.1934
+  fort: 0.1837
+  venir: 0.1785
+  voir: 0.1581
+  dieu: 0.1339
+  grand: 0.1339
+  eau: 0.1338
+
+Topic 2 (Quantity of poems: 7):
+  chrétien: 0.3282
+  capitaine: 0.2588
+  tuer: 0.2588
+  feu: 0.2095
+  siège: 0.2095
+  chance: 0.2095
+  île: 0.1713
+  pouvoir: 0.1713
+  voir: 0.1713
+  terre: 0.1713
+
 
 
 ------------------------------------------------
 Google Translator:
+Topic 0 (Quantity of poems: 142):
+  amour: 0.3960
+  vie: 0.2428
+  mer: 0.1561
+  oeil: 0.1456
+  voir: 0.1445
+  rêve: 0.1427
+  nuit: 0.1343
+  fleur: 0.1281
+  coeur: 0.1273
+  ciel: 0.1249
+
+Topic 1 (Quantity of poems: 78):
+  terre: 0.2694
+  voir: 0.2531
+  mer: 0.1959
+  roi: 0.1697
+  venir: 0.1498
+  maure: 0.1469
+  fort: 0.1398
+  peuple: 0.1306
+  capitaine: 0.1298
+  grand: 0.1143
+
+Topic 2 (Quantity of poems: 7):
+  chrétien: 0.3702
+  voir: 0.2523
+  île: 0.2018
+  maure: 0.2018
+  capitaine: 0.1851
+  proximité: 0.1524
+  faux: 0.1514
+  tromper: 0.1514
+  pouvoir: 0.1514
+  méchant: 0.1234
+
 
 
 ------------------------------------------------
 ChatGPT Prompt 1:
+Topic 0 (Quantity of poems: 142):
+  amour: 0.3822
+  vie: 0.2485
+  mer: 0.1602
+  rêve: 0.1416
+  nuit: 0.1410
+  oeil: 0.1387
+  ciel: 0.1338
+  voir: 0.1328
+  fleur: 0.1298
+  venir: 0.1290
+
+Topic 1 (Quantity of poems: 78):
+  terre: 0.3373
+  voir: 0.2169
+  venir: 0.1867
+  mer: 0.1847
+  maure: 0.1606
+  roi: 0.1572
+  grand: 0.1365
+  capitaine: 0.1277
+  donner: 0.1277
+  lusitanien: 0.1213
+
+Topic 2 (Quantity of poems: 7):
+  chrétien: 0.3642
+  voir: 0.2481
+  île: 0.1985
+  maure: 0.1985
+  pouvoir: 0.1985
+  capitaine: 0.1821
+  dessein: 0.1500
+  faux: 0.1489
+  astucieux: 0.1214
+  tromper: 0.1214
+
 
 
 ------------------------------------------------
 ChatGPT Prompt 2:
+Topic 0 (Quantity of poems: 142):
+  amour: 0.3930
+  vie: 0.2462
+  mer: 0.1917
+  rêve: 0.1462
+  oeil: 0.1404
+  nuit: 0.1397
+  vouloir: 0.1326
+  ciel: 0.1326
+  fleur: 0.1257
+  voir: 0.1239
+
+Topic 1 (Quantity of poems: 78):
+  terre: 0.3059
+  mer: 0.2326
+  voir: 0.2232
+  venir: 0.1820
+  roi: 0.1618
+  maure: 0.1571
+  peuple: 0.1240
+  capitaine: 0.1213
+  grand: 0.1157
+  lusitanien: 0.1124
+
+Topic 2 (Quantity of poems: 7):
+  chrétien: 0.3565
+  voir: 0.2429
+  tromper: 0.1943
+  maure: 0.1943
+  île: 0.1943
+  capitaine: 0.1782
+  dessein: 0.1468
+  pouvoir: 0.1457
+  acte: 0.1188
+  astucieux: 0.1188
+
 
 
 ------------------------------------------------
 Maritaca Prompt 1:
+Topic 0 (Quantity of poems: 142):
+  amour: 0.3826
+  vie: 0.2503
+  mer: 0.1456
+  rêve: 0.1397
+  voir: 0.1377
+  vouloir: 0.1372
+  fleur: 0.1367
+  nuit: 0.1324
+  ciel: 0.1299
+  coeur: 0.1298
+
+Topic 1 (Quantity of poems: 78):
+  terre: 0.2927
+  voir: 0.2258
+  venir: 0.1841
+  roi: 0.1637
+  mer: 0.1505
+  peuple: 0.1422
+  maure: 0.1422
+  capitaine: 0.1330
+  lusitanien: 0.1263
+  grand: 0.1254
+
+Topic 2 (Quantity of poems: 7):
+  chrétien: 0.4174
+  voir: 0.2437
+  île: 0.1950
+  pouvoir: 0.1950
+  capitaine: 0.1789
+  demande: 0.1789
+  faux: 0.1462
+  maure: 0.1462
+  souhaiter: 0.1193
+  envoyer: 0.0975
+
 
 
 ------------------------------------------------
 Maritaca Prompt 2:
+Topic 0 (Quantity of poems: 142):
+  amour: 0.3929
+  vie: 0.2362
+  mer: 0.1423
+  fleur: 0.1351
+  vouloir: 0.1343
+  nuit: 0.1318
+  coeur: 0.1301
+  voir: 0.1260
+  terre: 0.1243
+  rêve: 0.1229
+
+Topic 1 (Quantity of poems: 78):
+  terre: 0.3484
+  voir: 0.2035
+  peuple: 0.1709
+  bien: 0.1593
+  roi: 0.1593
+  maure: 0.1546
+  venir: 0.1394
+  grand: 0.1384
+  mer: 0.1302
+  capitaine: 0.1195
+
+Topic 2 (Quantity of poems: 7):
+  chrétien: 0.4028
+  maure: 0.1882
+  île: 0.1882
+  demande: 0.1882
+  observer: 0.1803
+  capitaine: 0.1726
+  dessein: 0.1421
+  voir: 0.1411
+  connaître: 0.1411
+  pouvoir: 0.1411
+
 
 
 ------------------------------------------------

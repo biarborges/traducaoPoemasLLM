@@ -1,0 +1,60 @@
+Topic -1 (Quantity of poems: 291):
+  génial: 0.4523
+  destruction: 0.2714
+  préférer: 0.1809
+  désirer: 0.1809
+  dire: 0.1682
+  vent: 0.1682
+  petit: 0.1541
+  sombre: 0.1378
+  doigt: 0.1338
+  pouvoir: 0.1296
+
+Topic 0 (Quantity of poems: 121):
+  petit: 0.2269
+  jamais: 0.2230
+  nuit: 0.1636
+  travail: 0.1552
+  montagne: 0.1493
+  terre: 0.1487
+  doux: 0.1459
+  cher: 0.1433
+  ici: 0.1433
+  jour: 0.1314
+
+Topic 1 (Quantity of poems: 14):
+  porte: 0.3048
+  crime: 0.2540
+  pouvoir: 0.2530
+  heure: 0.2128
+  nuit: 0.2108
+  front: 0.2032
+  respiration: 0.1889
+  souple: 0.1687
+  beauté: 0.1687
+  douche: 0.1524
+
+Topic 2 (Quantity of poems: 10):
+  dernier: 0.4980
+  jamais: 0.3735
+  heureux: 0.2444
+  arbre: 0.2075
+  pair: 0.1859
+  laisse: 0.1660
+  grand: 0.1476
+  art: 0.1245
+  université: 0.1239
+  partenariat: 0.1239
+
+Topic 3 (Quantity of poems: 8):
+  amour: 0.4842
+  douleur: 0.3969
+  fin: 0.2862
+  pâle: 0.2862
+  recherche: 0.2049
+  oeil: 0.1908
+  noir: 0.1701
+  esprit: 0.1431
+  perdre: 0.1134
+  bon: 0.1134
+
