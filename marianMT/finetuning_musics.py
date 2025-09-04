@@ -21,7 +21,7 @@ music_val_csv = "../musicas/validation/ingles_portugues_musics_validation.csv"
 
 m = "/home/ubuntu/finetuning_en_pt"
 t = "/home/ubuntu/finetuning_en_pt"
-n = "Helsinki-NLP/opus-mt-ROAMNCE-en"  #romance pra pt
+n = "Helsinki-NLP/opus-mt-ROMANCE-en"  #romance pra pt
 
 def load_dataset(csv_path):
     df = pd.read_csv(csv_path)
