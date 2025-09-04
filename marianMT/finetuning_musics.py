@@ -45,7 +45,7 @@ val_dataset = concatenate_datasets([music_val])
 #val_dataset = concatenate_datasets([poem_val, music_val])
 
 # Carregar modelo e tokenizer
-model_name = "Helsinki-NLP/opus-mt-ROAMNCE-en"  
+model_name = "Helsinki-NLP/opus-mt-ROMANCE-en"  
 try:
     tokenizer = MarianTokenizer.from_pretrained(model_name)
     model = MarianMTModel.from_pretrained(model_name).to(device)
