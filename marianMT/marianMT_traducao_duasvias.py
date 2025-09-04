@@ -14,8 +14,8 @@ print(f"Usando dispositivo: {device}")
 #model1 = "Helsinki-NLP/opus-mt-ROMANCE-en"  
 #model2 = "Helsinki-NLP/opus-mt-en-pt"  
 
-model1 = "/home/ubuntu/finetuning_fr_en/checkpoint-3030"
-model2 = "/home/ubuntu/finetuning_en_pt/checkpoint-2583"
+model1 = "/home/ubuntu/finetuning_fr_en/checkpoint-1013"
+model2 = "/home/ubuntu/finetuning_en_pt/checkpoint-2433"
 
 # Carregar tokenizers e modelos
 tokenizer1 = MarianTokenizer.from_pretrained(model1)
@@ -42,7 +42,7 @@ def traduzir_duas_etapas(poema, tokenizer1, model1, tokenizer2, model2, device):
     # Segunda etapa: Inglês → Português
     traducao_final = []
     for verso in traducao_intermediaria_texto.split("\n"):
-        encoded = tokenizer2(f">>fr<< {verso.strip()}", return_tensors="pt", truncation=True, padding=True, max_length=512)
+        encoded = tokenizer2(f">>pt<< {verso.strip()}", return_tensors="pt", truncation=True, padding=True, max_length=512)
         encoded = {key: value.to(device) for key, value in encoded.items()}
         with torch.no_grad():
             generated_tokens = model2.generate(**encoded, max_length=512, num_beams=5)
@@ -51,7 +51,7 @@ def traduzir_duas_etapas(poema, tokenizer1, model1, tokenizer2, model2, device):
     return "\n".join(traducao_final)
 
 # Carregar o CSV com os poemas
-df = pd.read_csv('../poemas/test/portugues_frances_test.csv')
+df = pd.read_csv('../poemas/frances_portugues_poems.csv')
 
 # Adicionar barra de progresso com tqdm
 tqdm.pandas(desc="Traduzindo poemas em duas etapas")
@@ -62,7 +62,7 @@ df['translated_by_TA'] = df['original_poem'].progress_apply(
 )
 
 # Salvar o CSV com apenas a tradução final
-df.to_csv('../poemas/marianmt/finetuning_musics/portugues_frances.csv', index=False)
+df.to_csv('../poemas/marianmt/finetuning_musics/frances_portugues.csv', index=False)
 
 print("Tradução concluída e salva.")
 
