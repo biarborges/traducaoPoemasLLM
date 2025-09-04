@@ -36,7 +36,8 @@ def traduzir_poema(poema, tokenizer, model, device):
     return "\n".join(traducao_completa)
 
 # Carregar o CSV com os poemas
-df = pd.read_csv('../poemas/test/frances_ingles_test.csv')
+#df = pd.read_csv('../poemas/test/frances_ingles_test.csv')
+df = pd.read_csv('../poemas/frances_ingles_poems.csv')
 
 # Usar tqdm para mostrar o progresso da tradução
 tqdm.pandas(desc="Traduzindo poemas")
