@@ -16,11 +16,11 @@ if device == "cuda":
     print("Memória da GPU liberada.")
 
 # Caminhos dos arquivos CSV
-#train_csv_poemas = "../poemas/train/frances_portugues_train.csv"
-train_csv_musicas = "../musicas/train/frances_portugues_musics_train.csv"
-#val_csv_poemas = "../poemas/validation/frances_portugues_validation.csv"
-val_csv_musicas = "../musicas/validation/frances_portugues_musics_validation.csv"
-intermediate_csv_path = "../poemas/train/frances_portugues_train_intermediario.csv"
+#train_csv_poemas = "../poemas/train/portugues_frances_train.csv"
+train_csv_musicas = "../musicas/train/portugues_frances_musics_train.csv"
+#val_csv_poemas = "../poemas/validation/portugues_frances_validation.csv"
+val_csv_musicas = "../musicas/validation/portugues_frances_musics_validation.csv"
+intermediate_csv_path = "../poemas/train/portugues_frances_train_intermediario.csv"
 
 # Função para carregar e combinar dois datasets
 def load_combined_data(csv_path1, csv_path2):
@@ -112,7 +112,7 @@ model_fr_en, tokenizer_fr_en = train_model(
     train_csv2=train_csv_musicas,
     #val_csv1=val_csv_poemas,
     val_csv2=val_csv_musicas,
-    output_dir="/home/ubuntu/finetuning_fr_pt/frances_portugues_intermediario"
+    output_dir="/home/ubuntu/finetuning_fr_pt/portugues_frances_intermediario"
 )
 
 # Gerar dataset intermediário (Francês → Inglês)
@@ -140,7 +140,7 @@ model_en_pt, tokenizer_en_pt = train_model(
     train_csv2=intermediate_csv_path,  # Dummy, pois só temos um CSV aqui
     val_csv1=intermediate_csv_path,
     val_csv2=intermediate_csv_path,
-    output_dir="/home/ubuntu/finetuning_fr_pt/frances_portugues"
+    output_dir="/home/ubuntu/finetuning_fr_pt/portugues_frances"
 )
 
 # Tempo total de execução
