@@ -14,13 +14,13 @@ if device == "cuda":
     print("Memória da GPU liberada.")
 
 # Caminhos dos arquivos
-#poem_train_csv = "../poemas/train/frances_ingles_train.csv"
-#poem_val_csv = "../poemas/validation/frances_ingles_validation.csv"
-music_train_csv = "../musicas/train/frances_ingles_musics_train.csv"
-music_val_csv = "../musicas/validation/frances_ingles_musics_validation.csv"
+#poem_train_csv = "../poemas/train/ingles_portugues_train.csv"
+#poem_val_csv = "../poemas/validation/ingles_portugues_validation.csv"
+music_train_csv = "../musicas/train/ingles_portugues_musics_train.csv"
+music_val_csv = "../musicas/validation/ingles_portugues_musics_validation.csv"
 
-m = "/home/ubuntu/finetuning_fr_en"
-t = "/home/ubuntu/finetuning_fr_en"
+m = "/home/ubuntu/finetuning_en_pt"
+t = "/home/ubuntu/finetuning_en_pt"
 
 def load_dataset(csv_path):
     df = pd.read_csv(csv_path)
@@ -72,7 +72,7 @@ except Exception as e:
 
 # Argumentos de treinamento
 training_args = Seq2SeqTrainingArguments(
-    output_dir="/home/ubuntu/finetuning_fr_en",
+    output_dir="/home/ubuntu/finetuning_en_pt",
     eval_strategy="epoch",
     learning_rate=2e-5,
     per_device_train_batch_size=8,
@@ -105,8 +105,8 @@ except Exception as e:
 
 # Salvar modelo
 try:
-    model.save_pretrained("/home/ubuntu/finetuning_fr_en")
-    tokenizer.save_pretrained("/home/ubuntu/finetuning_fr_en")
+    model.save_pretrained("/home/ubuntu/finetuning_en_pt")
+    tokenizer.save_pretrained("/home/ubuntu/finetuning_en_pt")
     print("Modelo salvo com sucesso.")
 except Exception as e:
     print(f"Erro ao salvar: {e}")
