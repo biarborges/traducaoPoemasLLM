@@ -14,8 +14,16 @@ print(f"Usando dispositivo: {device}")
 #model1 = "Helsinki-NLP/opus-mt-ROMANCE-en"  
 #model2 = "Helsinki-NLP/opus-mt-en-pt"  
 
-model1 = "/home/ubuntu/finetuning_fr_en/checkpoint-1013"
-model2 = "/home/ubuntu/finetuning_en_pt/checkpoint-2433"
+#model1 = "/home/ubuntu/finetuning_fr_en/checkpoint-1013"
+#model2 = "/home/ubuntu/finetuning_en_pt/checkpoint-2433"
+
+tokenizer1 = MarianTokenizer.from_pretrained("/home/ubuntu/finetuning_fr_en")
+model1 = MarianMTModel.from_pretrained("/home/ubuntu/finetuning_fr_en/checkpoint-1013").to(device)
+
+
+tokenizer2 = MarianTokenizer.from_pretrained("/home/ubuntu/finetuning_en_pt")
+model2 = MarianMTModel.from_pretrained("/home/ubuntu/finetuning_en_pt/checkpoint-2433").to(device)
+
 
 # Carregar tokenizers e modelos
 tokenizer1 = MarianTokenizer.from_pretrained(model1)
