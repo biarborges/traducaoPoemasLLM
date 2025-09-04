@@ -18,7 +18,8 @@ except LookupError:
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-input_file = os.path.abspath("poemas/marianmt/frances_ingles_test_finetuning_marianmt.csv")
+input_file = os.path.abspath("poemas/marianmt/finetuning_musics/frances_ingles.csv")
+lang="en"
 
 #BLEU
 
@@ -111,7 +112,7 @@ from bert_score import score
 # Função para calcular o BERTScore para um único poema
 def calcular_bertscore(referencia, traducao):
     # Calcular o BERTScore entre a referência e a tradução
-    P, R, F1 = score([traducao], [referencia], lang="pt")
+    P, R, F1 = score([traducao], [referencia], lang=lang)
     return F1.mean().item()  # Retornar a pontuação F1 média (similaridade semântica)
 
 # Função para calcular a média do BERTScore de todos os poemas
