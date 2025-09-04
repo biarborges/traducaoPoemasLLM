@@ -152,43 +152,42 @@ calcular_bertscore_media(input_file)
 import sys
 #sys.path.append("../BARTScore")
 from BARTScore.bart_score import BARTScorer
-
-
 import pandas as pd
+import numpy as np
+
+# Inicializar o scorer só uma vez
+scorer = BARTScorer(device='cuda', checkpoint='facebook/bart-large-cnn')  
+# você pode trocar o checkpoint se quiser: 'facebook/bart-large' ou 'facebook/mbart-large-50'
+
+# Função para normalizar com sigmoid
+def normalizar(score):
+    return 1 / (1 + np.exp(-score))
 
 # Função para calcular o BARTScore para um único poema
 def calcular_bartscore(referencia, traducao):
-    # Inicializar o BARTScorer (usando GPU ou CPU conforme disponível)
-    scorer = BARTScorer(device='cuda')  # Ou 'cpu' se não tiver GPU
-
-    # Calcular o BARTScore entre a tradução e a referência
-    score = scorer.score([traducao], [referencia])
-    return score  # Retorna o BARTScore
+    score = scorer.score([traducao], [referencia])[0]  # retorna lista, pegar primeiro
+    return normalizar(score)
 
 # Função para calcular a média do BARTScore de todos os poemas
 def calcular_bartscore_media(input_file):
     df = pd.read_csv(input_file)
 
-    # Verificar se as colunas necessárias estão presentes
     if "translated_poem" not in df.columns or "translated_by_TA" not in df.columns:
         raise ValueError("O arquivo CSV deve conter as colunas 'translated_poem' e 'translated_by_TA'.")
 
     bartscore_scores = []
 
-    # Calcular o BARTScore para cada poema
     for i in range(len(df)):
         referencia_poema = df["translated_poem"].iloc[i]
         traducao_TA = df["translated_by_TA"].iloc[i]
 
-        # Calcular o BARTScore para o poema
         bartscore_value = calcular_bartscore(referencia_poema, traducao_TA)
         bartscore_scores.append(bartscore_value)
 
-    # Calcular a média do BARTScore
     bartscore_media = sum(bartscore_scores) / len(bartscore_scores)
 
-    # Imprimir o resultado
-    print(f"Pontuação média BARTScore para todos os poemas: {bartscore_media:.4f}")
+    print(f"Pontuação média BARTScore (normalizada) para todos os poemas: {bartscore_media:.4f}")
 
-# Calcular a média do BARTScore e exibir o resultado
+# Executar
 calcular_bartscore_media(input_file)
+
