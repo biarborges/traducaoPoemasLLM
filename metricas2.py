@@ -4,6 +4,9 @@ import os
 import warnings
 import torch
 warnings.filterwarnings("ignore")
+from transformers import logging
+logging.set_verbosity_error()   # só erros, sem warnings
+
 
 # Verificar se o recurso nltk está disponível
 try:

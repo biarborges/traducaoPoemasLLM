@@ -5,6 +5,9 @@ import warnings
 import torch
 import time
 warnings.filterwarnings("ignore")
+from transformers import logging
+logging.set_verbosity_error()   # só erros, sem warnings
+
 
 start_time = time.time()
 
