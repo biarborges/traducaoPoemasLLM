@@ -54,7 +54,7 @@ print(df[['original_poem', 'src_lang', 'tgt_lang']].head())
 df['translated_by_TA'] = df.apply(lambda row: traduzir_poema(row['original_poem'], src_lang=row['src_lang'], tgt_lang=row['tgt_lang']), axis=1)
 
 # Salvar o resultado em um novo CSV
-df.to_csv("../poemas/mbart/finetuning_musics/portugues_ingles.csv", index=False)
+df.to_csv("../poemas/mbart/finetuning_musics/ingles_frances.csv", index=False)
 
 print("Tradução concluída e salva.")
 
