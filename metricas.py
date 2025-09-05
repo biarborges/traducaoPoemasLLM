@@ -26,7 +26,7 @@ except LookupError:
     nltk.download('punkt_tab')
     nltk.download('wordnet')
 
-input_file = os.path.abspath("poemas/marianmt/finetuning_musics/frances_ingles.csv")
+input_file = os.path.abspath("poemas/marianmt/frances_ingles_poems_marianmt.csv")
 lang="en"
 
 print(f"Arquivo de entrada: {input_file}")
@@ -156,61 +156,6 @@ def calcular_bertscore_media(input_file):
 # Calcular a média do BERTScore e exibir o resultado
 calcular_bertscore_media(input_file)
 
-
-#BARTSCORE
-
-import torch
-from transformers import BartTokenizer, BartForConditionalGeneration
-from sklearn.metrics.pairwise import cosine_similarity
-import numpy as np
-from concurrent.futures import ThreadPoolExecutor
-
-# Carregar o modelo BART e o tokenizer
-model_name = "facebook/mbart-large-50"
-tokenizer = BartTokenizer.from_pretrained(model_name)
-model = BartForConditionalGeneration.from_pretrained(model_name).to(device)  
-
-
-# Função para calcular o BARTScore
-def calcular_bartscore(referencia, traducao):
-    # Tokenizar a referência e a tradução
-    inputs_ref = tokenizer(referencia, return_tensors="pt", truncation=True, padding=True, max_length=1024).to(device)
-    inputs_trad = tokenizer(traducao, return_tensors="pt", truncation=True, padding=True, max_length=1024).to(device)
-
-
-    # Gerar os embeddings de BART para a referência e tradução
-    with torch.no_grad():
-        embeddings_ref = model.get_encoder()(inputs_ref['input_ids'])[0]
-        embeddings_trad = model.get_encoder()(inputs_trad['input_ids'])[0]
-
-    # Calcular similaridade de cosseno entre os embeddings
-    cosine_sim = cosine_similarity(embeddings_ref.mean(dim=1).cpu().numpy(), embeddings_trad.mean(dim=1).cpu().numpy())
-
-    return cosine_sim[0][0]
-
-# Função para calcular o BARTScore para todos os poemas de forma paralela
-def calcular_bartscore_media_paralela(input_file):
-    df = pd.read_csv(input_file)
-
-    # Verificar se as colunas necessárias estão presentes
-    if "translated_poem" not in df.columns or "translated_by_TA" not in df.columns:
-        raise ValueError("O arquivo CSV deve conter as colunas 'translated_poem' e 'translated_by_TA'.")
-
-    # Usar ThreadPoolExecutor para processar os poemas em paralelo
-    with ThreadPoolExecutor() as executor:
-        # Calcular o BARTScore para todos os poemas em paralelo
-        bartscore_scores = list(executor.map(calcular_bartscore,
-                                            df["translated_poem"],
-                                            df["translated_by_TA"]))
-
-    # Calcular a média do BARTScore
-    bartscore_media = sum(bartscore_scores) / len(bartscore_scores)
-
-    # Imprimir o resultado
-    print(f"Pontuação média BARTScore para todos os poemas: {bartscore_media:.4f}")
-
-# Calcular o BARTScore médio para todos os poemas e exibir o resultado
-calcular_bartscore_media_paralela(input_file)
 
 
 end_time = time.time()

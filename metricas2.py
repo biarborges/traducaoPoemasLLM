@@ -21,7 +21,7 @@ except LookupError:
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-input_file = os.path.abspath("poemas/marianmt/finetuning_musics/frances_ingles.csv")
+input_file = os.path.abspath("poemas/marianmt/frances_ingles_poems_marianmt.csv")
 lang="en"
 
 #BLEU
@@ -145,49 +145,3 @@ def calcular_bertscore_media(input_file):
 
 # Calcular a média do BERTScore e exibir o resultado
 calcular_bertscore_media(input_file)
-
-
-#BARTSCORE
-
-import sys
-#sys.path.append("../BARTScore")
-from BARTScore.bart_score import BARTScorer
-import pandas as pd
-import numpy as np
-
-# Inicializar o scorer só uma vez
-scorer = BARTScorer(device='cuda', checkpoint='facebook/bart-large-cnn')  
-# você pode trocar o checkpoint se quiser: 'facebook/bart-large' ou 'facebook/mbart-large-50'
-
-# Função para normalizar com sigmoid
-def normalizar(score):
-    return 1 / (1 + np.exp(-score))
-
-# Função para calcular o BARTScore para um único poema
-def calcular_bartscore(referencia, traducao):
-    score = scorer.score([traducao], [referencia])[0]  # retorna lista, pegar primeiro
-    return normalizar(score)
-
-# Função para calcular a média do BARTScore de todos os poemas
-def calcular_bartscore_media(input_file):
-    df = pd.read_csv(input_file)
-
-    if "translated_poem" not in df.columns or "translated_by_TA" not in df.columns:
-        raise ValueError("O arquivo CSV deve conter as colunas 'translated_poem' e 'translated_by_TA'.")
-
-    bartscore_scores = []
-
-    for i in range(len(df)):
-        referencia_poema = df["translated_poem"].iloc[i]
-        traducao_TA = df["translated_by_TA"].iloc[i]
-
-        bartscore_value = calcular_bartscore(referencia_poema, traducao_TA)
-        bartscore_scores.append(bartscore_value)
-
-    bartscore_media = sum(bartscore_scores) / len(bartscore_scores)
-
-    print(f"Pontuação média BARTScore (normalizada) para todos os poemas: {bartscore_media:.4f}")
-
-# Executar
-calcular_bartscore_media(input_file)
-
