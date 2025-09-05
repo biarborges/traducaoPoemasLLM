@@ -18,12 +18,12 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Diretórios
-tmp_output_dir = "/tmp/finetuning_fr_en"
-final_output_dir = os.path.expanduser("~/finetuning_fr_en")
+tmp_output_dir = "/tmp/finetuning_fr_pt"
+final_output_dir = os.path.expanduser("~/finetuning_fr_pt")
 
 # Caminhos dos arquivos CSV
-musicas_train = "../musicas/train/frances_ingles_musics_train.csv"
-musicas_val = "../musicas/validation/frances_ingles_musics_validation.csv"
+musicas_train = "../musicas/train/frances_portugues_musics_train.csv"
+musicas_val = "../musicas/validation/frances_portugues_musics_validation.csv"
 
 # Carregar os dados
 df_musicas_train = pd.read_csv(musicas_train).dropna()
