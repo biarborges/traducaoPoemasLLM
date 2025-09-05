@@ -6,6 +6,7 @@ from datasets import Dataset, concatenate_datasets
 from transformers import TrainingArguments, Trainer
 from tqdm.auto import tqdm
 import os
+import shutil
 
 # Configurar ambiente para liberar memória GPU
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
@@ -16,28 +17,23 @@ start_time = time.time()
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
+# Diretórios
+tmp_output_dir = "/tmp/finetuning_fr_en"
+final_output_dir = os.path.expanduser("~/finetuning_fr_en")
+
 # Caminhos dos arquivos CSV
-#poemas_train = "../poemas/train/frances_ingles_train.csv"
-#poemas_val = "../poemas/validation/frances_ingles_validation.csv"
 musicas_train = "../musicas/train/frances_ingles_musics_train.csv"
 musicas_val = "../musicas/validation/frances_ingles_musics_validation.csv"
 
 # Carregar os dados
-#df_poemas_train = pd.read_csv(poemas_train).dropna()
-#df_poemas_val = pd.read_csv(poemas_val).dropna()
 df_musicas_train = pd.read_csv(musicas_train).dropna()
 df_musicas_val = pd.read_csv(musicas_val).dropna()
 
 # Converter para datasets Hugging Face
-#poemas_train_dataset = Dataset.from_pandas(df_poemas_train)
-#poemas_val_dataset = Dataset.from_pandas(df_poemas_val)
 musicas_train_dataset = Dataset.from_pandas(df_musicas_train)
 musicas_val_dataset = Dataset.from_pandas(df_musicas_val)
 
-# Concatenar datasets de treino e validação
-#train_dataset = concatenate_datasets([poemas_train_dataset, musicas_train_dataset])
-#val_dataset = concatenate_datasets([poemas_val_dataset, musicas_val_dataset])
-
+# Definir datasets de treino e validação
 train_dataset = concatenate_datasets([musicas_train_dataset])
 val_dataset = concatenate_datasets([musicas_val_dataset])
 
@@ -53,26 +49,27 @@ def preprocess_function(examples):
     inputs["labels"] = targets["input_ids"]
     return inputs
 
-# Tokenizar datasets com tqdm
 print("Tokenizando dataset de treino...")
 train_dataset = train_dataset.map(preprocess_function, batched=True, desc="Tokenizando treino", batch_size=32)
 
 print("Tokenizando dataset de validação...")
 val_dataset = val_dataset.map(preprocess_function, batched=True, desc="Tokenizando validação", batch_size=32)
 
+
+
 # Definir parâmetros de treinamento
 training_args = TrainingArguments(
-    output_dir="/home/ubuntu/finetuning_fr_en",
-    eval_strategy="epoch",
-    save_strategy="no",
-    per_device_train_batch_size=2, #8 no artigo
-    per_device_eval_batch_size=4,
-    gradient_accumulation_steps=40, #10 no artigo
+    output_dir=tmp_output_dir,
+    save_strategy="no",        # não salva checkpoints intermediários
+    evaluation_strategy="epoch",
+    per_device_train_batch_size=4,
+    per_device_eval_batch_size=8,
+    gradient_accumulation_steps=20,
     learning_rate=2e-5,
     weight_decay=0.01,
     num_train_epochs=3,
-    save_total_limit=1,
     fp16=True,
+    save_safetensors=True,     # formato mais leve e seguro
     logging_dir="./logs",
     logging_steps=50,
     report_to="none"
@@ -91,11 +88,16 @@ trainer = Trainer(
 # Iniciar o treinamento
 trainer.train()
 
-# Salvar modelo treinado
-model.save_pretrained("/home/ubuntu/finetuning_fr_en")
-tokenizer.save_pretrained("/home/ubuntu/finetuning_fr_en")
+# Salvar modelo e tokenizer no diretório temporário
+model.save_pretrained(tmp_output_dir)
+tokenizer.save_pretrained(tmp_output_dir)
 
-print("Fine-tuning concluído e modelo salvo.")
+# Copiar resultado final para home
+if os.path.exists(final_output_dir):
+    shutil.rmtree(final_output_dir)  # remove versão antiga
+shutil.copytree(tmp_output_dir, final_output_dir)
+
+print(f"Modelo salvo em: {final_output_dir}")
 
 # Tempo total de execução
 end_time = time.time()
