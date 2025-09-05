@@ -8,9 +8,9 @@ def normalize_text(text):
     text = " ".join(text.split())
     return text
 
-arquivo_20 = "poemas/test/ingles_portugues_test.csv"
-arquivo_300 = "poemas/maritaca/ingles_portugues_poems_maritaca_prompt2.csv"
-saida = "poemas/maritaca/poems_test_prompt2/ingles_portugues_20PorCento.csv"
+arquivo_20 = "poemas/test/portugues_frances_test.csv"
+arquivo_300 = "poemas/openRNN/portugues_frances_poems_openRNN.csv"
+saida = "poemas/openRNN/poems_test/portugues_frances_20PorCento.csv"
 
 # Carrega os CSVs
 df_20 = pd.read_csv(arquivo_20)

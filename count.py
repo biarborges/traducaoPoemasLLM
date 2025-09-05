@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Caminho do arquivo final
-saida = "poemas/maritaca/poems_test_prompt2/ingles_portugues_20PorCento.csv"
+saida = "poemas/openRNN/poems_test/portugues_frances_20PorCento.csv"
 
 # Carrega o CSV
 df = pd.read_csv(saida)

@@ -10,13 +10,13 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {device}")
 
 # Carregar modelo e tokenizer do mBART
-tmp_output_dir = "/tmp/finetuning_pt_en"
+tmp_output_dir = "/tmp/finetuning_en_fr"
 model_name = tmp_output_dir
 tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
 model = MBartForConditionalGeneration.from_pretrained(model_name).to(device)
 
 # Função para traduzir poema
-def traduzir_poema(poema, src_lang="pt_XX", tgt_lang="en_XX"):
+def traduzir_poema(poema, src_lang="en_XX", tgt_lang="fr_XX"):
     if not isinstance(poema, str) or poema.strip() == "":
         return ""  # Evitar erros com valores nulos ou vazios
 
