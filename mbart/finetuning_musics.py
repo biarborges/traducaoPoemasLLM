@@ -56,15 +56,14 @@ print("Tokenizando dataset de validação...")
 val_dataset = val_dataset.map(preprocess_function, batched=True, desc="Tokenizando validação", batch_size=32)
 
 
-
 # Definir parâmetros de treinamento
 training_args = TrainingArguments(
     output_dir=tmp_output_dir,
     save_strategy="no",        # não salva checkpoints intermediários
-    evaluation_strategy="epoch",
-    per_device_train_batch_size=4,
+    eval_strategy="epoch",
+    per_device_train_batch_size=4, #8 artigo
     per_device_eval_batch_size=8,
-    gradient_accumulation_steps=20,
+    gradient_accumulation_steps=20, #10 artigo
     learning_rate=2e-5,
     weight_decay=0.01,
     num_train_epochs=3,
