@@ -21,7 +21,7 @@ except LookupError:
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-input_file = os.path.abspath("poemas/marianmt/frances_ingles_poems_marianmt.csv")
+input_file = os.path.abspath("poemas/marianmt/frances_portugues_poems_marianmt.csv")
 lang="en"
 
 #BLEU
