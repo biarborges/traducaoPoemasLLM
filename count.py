@@ -1,22 +1,21 @@
-import csv
+import pandas as pd
 
-# Nome do arquivo CSV
-csv_file = "../traducaoPoemasLLM/poemas/ingles_portugues_poems.csv"
+# Caminho do arquivo final
+saida = "poemas/maritaca/poems_test_prompt2/ingles_portugues_20PorCento.csv"
 
-# Inicializar o contador de poemas
-poem_count = 0
+# Carrega o CSV
+df = pd.read_csv(saida)
 
-# Ler o arquivo CSV e contar os poemas
-with open(csv_file, "r", encoding="utf-8") as f:
-    reader = csv.reader(f)
-    next(reader, None)  # Pular o cabeçalho de forma segura
-    
-    for row in reader:
-        # Ignorar linhas vazias ou com espaços extras
-        row = [col.strip() for col in row]  # Remover espaços antes e depois
-        
-        # Verificar se a linha tem exatamente 2 colunas e ambas não são vazias
-        if len(row) == 4 and row[0] and row[1] and row[2] and row[3]:
-            poem_count += 1
+# Conta quantos poemas tem
+total_poemas = len(df)
+print(f"Total de poemas: {total_poemas}")
 
-print(f"Total de poemas no CSV: {poem_count}")
+# Verifica se há traduções faltando
+faltando = df[df["translated_by_TA"].isna()]
+
+if len(faltando) == 0:
+    print("Todos os poemas têm translated_by_TA.")
+else:
+    print(f"Poemas sem translated_by_TA: {len(faltando)}")
+    print("Exemplo de poema sem tradução:")
+    print(faltando.iloc[0]["original_poem"])

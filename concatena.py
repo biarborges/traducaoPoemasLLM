@@ -1,36 +1,39 @@
 import pandas as pd
-import glob
-import os
 
-# Definir o diretório correto
-caminho_diretorio = os.path.abspath("../modelos/poemas300_normalizados/validation/")
+def normalize_text(text):
+    if pd.isna(text):
+        return ""
+    text = text.strip()
+    text = text.replace("\n", " ")
+    text = " ".join(text.split())
+    return text
 
-# Lista de arquivos CSV no diretório especificado
-arquivos_csv = glob.glob(os.path.join(caminho_diretorio, "*.csv"))
+arquivo_20 = "poemas/test/ingles_portugues_test.csv"
+arquivo_300 = "poemas/maritaca/ingles_portugues_poems_maritaca_prompt2.csv"
+saida = "poemas/maritaca/poems_test_prompt2/ingles_portugues_20PorCento.csv"
 
-# Verificar se arquivos foram encontrados
-if not arquivos_csv:
-    print(f"Nenhum arquivo CSV encontrado em: {caminho_diretorio}")
-    print(f"Caminho verificado: {caminho_diretorio}")
-    print("Existe o diretório?", os.path.exists(caminho_diretorio))
-    exit()
+# Carrega os CSVs
+df_20 = pd.read_csv(arquivo_20)
+df_300 = pd.read_csv(arquivo_300)
 
-print("Arquivos encontrados:", arquivos_csv)
+# Normaliza textos para merge
+df_20["original_norm"] = df_20["original_poem"].apply(normalize_text)
+df_20["translated_norm"] = df_20["translated_poem"].apply(normalize_text)
 
-# Lista para armazenar os DataFrames
-dataframes = []
+df_300["original_norm"] = df_300["original_poem"].apply(normalize_text)
+df_300["translated_norm"] = df_300["translated_poem"].apply(normalize_text)
 
-# Ler e concatenar os arquivos
-for arquivo in arquivos_csv:
-    df = pd.read_csv(arquivo)
-    dataframes.append(df)
+# Merge usando as duas colunas como chave
+df_merge = pd.merge(
+    df_20,
+    df_300[["original_norm", "translated_norm", "translated_by_TA"]],
+    left_on=["original_norm", "translated_norm"],
+    right_on=["original_norm", "translated_norm"],
+    how="left",
+    sort=False
+)
 
-# Concatenar tudo em um único DataFrame
-resultado = pd.concat(dataframes, ignore_index=True)
+# Salva apenas as colunas finais
+df_merge[["original_poem", "translated_poem", "src_lang", "tgt_lang", "translated_by_TA"]].to_csv(saida, index=False, encoding="utf-8")
 
-# Salvar o resultado em um novo arquivo CSV
-resultado.to_csv("poems_validation.csv", index=False)
-
-print("Arquivos concatenados com sucesso em 'poems_validation.csv'!")
-
-
+print(f"Arquivo salvo em: {saida}")

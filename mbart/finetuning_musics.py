@@ -19,7 +19,6 @@ print(f"Usando dispositivo: {device}")
 
 # Diretórios
 tmp_output_dir = "/tmp/finetuning_pt_en"
-final_output_dir = os.path.expanduser("~/finetuning_pt_en")
 
 # Caminhos dos arquivos CSV
 musicas_train = "../musicas/train/portugues_ingles_musics_train.csv"
@@ -91,12 +90,8 @@ trainer.train()
 model.save_pretrained(tmp_output_dir)
 tokenizer.save_pretrained(tmp_output_dir)
 
-# Copiar resultado final para home
-if os.path.exists(final_output_dir):
-    shutil.rmtree(final_output_dir)  # remove versão antiga
-shutil.copytree(tmp_output_dir, final_output_dir)
 
-print(f"Modelo salvo em: {final_output_dir}")
+print(f"Modelo salvo em: {tmp_output_dir}")
 
 # Tempo total de execução
 end_time = time.time()
