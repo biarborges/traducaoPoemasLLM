@@ -47,6 +47,9 @@ Bishop, E.: Poemas escolhidos. Seleção, tradução e textos introdutórios de 
 Shakespeare, W.: 50 sonetos. Tradução de Ivo Barroso, prefácio de Antônio Houaiss, estudo de Nehemias Gueiros. [Ed. especial]. Rio de Janeiro: Nova Fronteira, 2015. (Coleção 50 anos), 138 p.
 
 
-![Logo 1](logos/Imagem1.png)
-![Logo 2](logos/Imagem2.png)
-![Logo 3](logos/Imagem3.png)
+<p align="center">
+  <img src="logos/Imagem1.png" width="90">
+  <img src="logos/Imagem2.png" width="90">
+  <img src="logos/Imagem3.png" width="90">
+</p>
+
