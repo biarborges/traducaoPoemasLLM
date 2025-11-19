@@ -45,3 +45,8 @@ Baudelaire, C.: As flores do mal. Apresentação de Marcelo Jacques; tradução,
 Bishop, E.: Poemas escolhidos. Seleção, tradução e textos introdutórios de Paulo Henriques Britto. 1ª ed. São Paulo: Companhia das Letras, 2012, 416 p.
 
 Shakespeare, W.: 50 sonetos. Tradução de Ivo Barroso, prefácio de Antônio Houaiss, estudo de Nehemias Gueiros. [Ed. especial]. Rio de Janeiro: Nova Fronteira, 2015. (Coleção 50 anos), 138 p.
+
+
+![Logo 1](logos/Imagem1.png)
+![Logo 2](logos/Imagem2.png)
+![Logo 3](logos/Imagem3.png)
