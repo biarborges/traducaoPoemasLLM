@@ -48,9 +48,16 @@ Shakespeare, W.: 50 sonetos. Tradução de Ivo Barroso, prefácio de Antônio Ho
 
 
 <p align="center">
-  <img src="logos/Imagem1.png" width="90" style="margin-right: 150px;">
-  <img src="logos/Imagem2.png" width="90" style="margin-right: 15px;">
-  <img src="logos/Imagem3.png" width="90">
+  <span style="padding: 0 15px;">
+    <img src="logos/Imagem1.png" width="90">
+  </span>
+  <span style="padding: 0 15px;">
+    <img src="logos/Imagem2.png" width="90">
+  </span>
+  <span style="padding: 0 15px;">
+    <img src="logos/Imagem3.png" width="90">
+  </span>
 </p>
+
 
 
