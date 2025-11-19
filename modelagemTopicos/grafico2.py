@@ -11,10 +11,10 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), ".")))
 
 from results.dicionario2 import equivalents
 
-arquivo_entrada = "modelagemTopicos/results/portugues_ingles/topico2.txt"
-titulo = "PT-EN - Topic 2"
+arquivo_entrada = "modelagemTopicos/results/ingles_portugues/topico3 - Copia.txt"
+titulo = "EN-PT - Topic 3"
 salvar_grafico = True
-arquivo_grafico = "modelagemTopicos/results/portugues_ingles/PTENtopico2.png"
+arquivo_grafico = "modelagemTopicos/results/ingles_portugues/ENPTtopico3sn.png"
 
 # -------------------------------
 # Normalizar e criar um mapeamento global de equivalentes

@@ -3,7 +3,7 @@ import pandas as pd
 import time
 from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
 from datasets import Dataset
-from transformers import TrainingArguments, Trainer
+from transformers import TrainingArguments, Trainer, EarlyStoppingCallback
 import os
 
 # Configurar ambiente para liberar memória GPU
@@ -69,7 +69,8 @@ trainer = Trainer(
     train_dataset=train_dataset,
     eval_dataset=val_dataset,
     tokenizer=tokenizer,
-    data_collator=None,  
+    data_collator=None,
+    callbacks=[EarlyStoppingCallback(early_stopping_patience=2)],
 )
 
 # Iniciar o treinamento

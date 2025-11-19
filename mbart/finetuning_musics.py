@@ -3,7 +3,7 @@ import pandas as pd
 import time
 from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
 from datasets import Dataset, concatenate_datasets
-from transformers import TrainingArguments, Trainer
+from transformers import TrainingArguments, Trainer, EarlyStoppingCallback
 from tqdm.auto import tqdm
 import os
 import shutil
@@ -81,6 +81,7 @@ trainer = Trainer(
     eval_dataset=val_dataset,
     tokenizer=tokenizer,
     data_collator=None,
+    callbacks=[EarlyStoppingCallback(early_stopping_patience=2)],
 )
 
 # Iniciar o treinamento

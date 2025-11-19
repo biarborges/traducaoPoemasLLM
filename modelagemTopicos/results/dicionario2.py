@@ -1,6 +1,5 @@
 equivalents = [
     ['amour', 'amor', 'love', 'amar', 'aimer', 'love'],
-    ['savoir', 'saber', 'know'],
     ['jour', 'dia', 'day'],
     ['voir', 'ver', 'see'], 
     ['olhar', 'regarder', 'look', 'regard'],
@@ -83,7 +82,7 @@ equivalents = [
     ['vida', 'life', 'vie'],
     ['velho', 'old', 'vieux'],
     ['guerreiro', 'warrior', 'guerrier'],
-    ['conhecer', 'know', 'connaître'],
+    ['conhecer', 'know', 'connaître', 'savoir', 'saber'],
     ['passar', 'pass', 'passer', 'passais'],
     ['perfeitamente', 'perfectly', 'parfaitement', 'perfeito', 'perfect', 'parfait'],
     ['alto', 'high', 'haut'],
@@ -301,7 +300,6 @@ equivalents = [
     ['sorte', 'luck', 'chance', 'chance'],
     ['terrible', 'terrible', 'terrível'],
     ['astucieux', 'clever', 'astucioso'],
-    ['connaître', 'know', 'conhecer'],
     ['admettre', 'admit', 'admitir'],
     ['envoyer', 'send', 'enviar'],
     ['wrong', 'errado', 'faux'],

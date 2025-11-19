@@ -2,7 +2,7 @@ import torch
 import pandas as pd
 import time
 from datasets import Dataset
-from transformers import MarianMTModel, MarianTokenizer, Seq2SeqTrainer, Seq2SeqTrainingArguments, DataCollatorForSeq2Seq
+from transformers import MarianMTModel, MarianTokenizer, Seq2SeqTrainer, Seq2SeqTrainingArguments, DataCollatorForSeq2Seq, EarlyStoppingCallback
 
 # Marcar o início do tempo
 start_time = time.time()
@@ -78,6 +78,7 @@ def train_model(model_name, train_csv, val_csv, output_dir):
             eval_dataset=val_dataset,
             tokenizer=tokenizer,
             data_collator=DataCollatorForSeq2Seq(tokenizer, model=model),
+            callbacks=[EarlyStoppingCallback(early_stopping_patience=2)],
         )
 
         trainer.train()

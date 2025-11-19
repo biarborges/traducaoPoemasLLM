@@ -1,0 +1,281 @@
+Original:
+Topic 0 (Quantity of poems: 225):
+  morte: 0.2260
+  casa: 0.1773
+  olho: 0.1669
+  vida: 0.1549
+  dia: 0.1532
+  mão: 0.1485
+  água: 0.1440
+  noite: 0.1360
+  luz: 0.1325
+  terra: 0.1256
+
+Topic 1 (Quantity of poems: 12):
+  amar: 0.4497
+  amor: 0.3748
+  vida: 0.2249
+  dar: 0.2249
+  pensar: 0.1749
+  alma: 0.1499
+  perder: 0.1499
+  olho: 0.1499
+  esperança: 0.1499
+  olhar: 0.1249
+
+
+
+------------------------------------------------
+Reference:
+Topic 0 (Quantity of poems: 225):
+  time: 0.1552
+  know: 0.1537
+  day: 0.1523
+  eye: 0.1508
+  life: 0.1435
+  death: 0.1433
+  light: 0.1405
+  fall: 0.1338
+  love: 0.1288
+  night: 0.1288
+
+Topic 1 (Quantity of poems: 12):
+  love: 0.7278
+  know: 0.1819
+  life: 0.1637
+  soul: 0.1637
+  lose: 0.1456
+  think: 0.1274
+  hope: 0.1092
+  see: 0.1092
+  give: 0.1092
+  feel: 0.0910
+
+
+
+------------------------------------------------
+MarianMT:
+Topic 0 (Quantity of poems: 227):
+  cry: 0.5072
+  know: 0.1688
+  time: 0.1604
+  father: 0.1557
+  come: 0.1544
+  light: 0.1317
+  eye: 0.1245
+  water: 0.1172
+  fall: 0.1172
+  day: 0.1161
+
+Topic 1 (Quantity of poems: 12):
+  love: 0.5533
+  wrong: 0.5533
+  know: 0.1844
+  want: 0.1677
+  lose: 0.1677
+  life: 0.1509
+  see: 0.1174
+  look: 0.1174
+  soul: 0.1174
+  think: 0.1006
+
+
+
+------------------------------------------------
+mBart:
+
+Topic 0 (Quantity of poems: 227):
+  know: 0.1892
+  come: 0.1783
+  time: 0.1565
+  water: 0.1490
+  look: 0.1470
+  light: 0.1456
+  love: 0.1388
+  eye: 0.1361
+  day: 0.1266
+  hand: 0.1244
+
+Topic 1 (Quantity of poems: 12):
+  love: 0.6932
+  know: 0.2243
+  life: 0.1835
+  think: 0.1427
+  look: 0.1427
+  hope: 0.1427
+  soul: 0.1223
+  want: 0.1223
+  see: 0.1019
+  lose: 0.1019
+
+
+------------------------------------------------
+OpenRNN:
+Topic 0 (Quantity of poems: 227):
+  come: 0.2163
+  light: 0.2162
+  know: 0.2022
+  time: 0.2006
+  death: 0.1942
+  eye: 0.1617
+  body: 0.1524
+  water: 0.1422
+  life: 0.1228
+  poem: 0.1201
+
+Topic 1 (Quantity of poems: 12):
+  love: 0.6055
+  know: 0.2906
+  friend: 0.2664
+  lose: 0.2422
+  look: 0.1938
+  life: 0.1695
+  practical: 0.1640
+  new: 0.1453
+  think: 0.1453
+  early: 0.1247
+
+
+
+------------------------------------------------
+Google Translator:
+Topic 0.0 (Quantity of poems: 225):
+  know: 0.1776
+  time: 0.1713
+  light: 0.1586
+  death: 0.1470
+  eye: 0.1443
+  house: 0.1409
+  life: 0.1380
+  hand: 0.1286
+  water: 0.1266
+  day: 0.1237
+
+Topic 1.0 (Quantity of poems: 12):
+  love: 0.6689
+  know: 0.2230
+  life: 0.1824
+  lose: 0.1824
+  soul: 0.1622
+  think: 0.1419
+  hope: 0.1419
+  see: 0.1419
+  want: 0.1216
+  look: 0.1216
+
+
+
+------------------------------------------------
+ChatGPT Prompt 1:
+Topic 0 (Quantity of poems: 227):
+  time: 0.1682
+  know: 0.1634
+  light: 0.1539
+  death: 0.1491
+  eye: 0.1428
+  life: 0.1380
+  water: 0.1287
+  house: 0.1287
+  night: 0.1269
+  hand: 0.1267
+
+Topic 1 (Quantity of poems: 12):
+  love: 0.6831
+  lose: 0.1808
+  life: 0.1808
+  know: 0.1808
+  soul: 0.1607
+  hope: 0.1406
+  give: 0.1406
+  see: 0.1206
+  think: 0.1206
+  want: 0.1005
+
+
+
+------------------------------------------------
+ChatGPT Prompt 2:
+
+Topic 0 (Quantity of poems: 227):
+  know: 0.1632
+  light: 0.1552
+  death: 0.1504
+  time: 0.1488
+  eye: 0.1456
+  life: 0.1344
+  house: 0.1319
+  night: 0.1280
+  hand: 0.1257
+  water: 0.1257
+
+Topic 1 (Quantity of poems: 12):
+  love: 0.6481
+  lose: 0.1944
+  soul: 0.1728
+  life: 0.1728
+  hope: 0.1728
+  know: 0.1512
+  great: 0.1296
+  give: 0.1296
+  eye: 0.1080
+  see: 0.1080
+
+
+------------------------------------------------
+Maritaca Prompt 1:
+Topic 0 (Quantity of poems: 227):
+  know: 0.1642
+  time: 0.1565
+  death: 0.1502
+  light: 0.1488
+  eye: 0.1458
+  life: 0.1427
+  water: 0.1383
+  hand: 0.1304
+  house: 0.1265
+  love: 0.1228
+
+Topic 1 (Quantity of poems: 12):
+  love: 0.6882
+  lose: 0.2360
+  life: 0.1966
+  know: 0.1770
+  soul: 0.1573
+  hope: 0.1376
+  look: 0.1180
+  give: 0.1180
+  see: 0.1180
+  think: 0.0983
+
+
+
+------------------------------------------------
+Maritaca Prompt 2:
+Topic 0 (Quantity of poems: 227):
+  light: 0.1640
+  death: 0.1554
+  eye: 0.1532
+  time: 0.1501
+  know: 0.1485
+  life: 0.1424
+  hand: 0.1335
+  water: 0.1315
+  house: 0.1295
+  day: 0.1284
+
+Topic 1 (Quantity of poems: 12):
+  love: 0.6805
+  life: 0.1856
+  soul: 0.1650
+  lose: 0.1650
+  give: 0.1237
+  hope: 0.1237
+  soon: 0.1062
+  pain: 0.1031
+  see: 0.1031
+  know: 0.1031
+
+
+
+------------------------------------------------
+

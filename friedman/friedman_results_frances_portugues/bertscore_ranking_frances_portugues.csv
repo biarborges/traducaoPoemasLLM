@@ -1,9 +1,9 @@
 model,average_rank
-bertscore_maritaca_p2,2.816666666666667
-bertscore_chatgpt_p1,2.8666666666666667
-bertscore_chatgpt_p2,2.933333333333333
-bertscore_maritaca_p1,3.203333333333333
-bertscore_google,3.72
-bertscore_marianmt,5.536666666666667
-bertscore_mbart,6.966666666666667
-bertscore_openrnn,7.956666666666667
+maritaca_p2,2.816666666666667
+chatgpt_p1,2.8666666666666667
+chatgpt_p2,2.933333333333333
+maritaca_p1,3.203333333333333
+google,3.72
+marianmt,5.536666666666667
+mbart,6.966666666666667
+openrnn,7.956666666666667
