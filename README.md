@@ -2,7 +2,7 @@
 
 ## Automatic Poetry Translation with Machine Translation Models and LLMs
 
-This repository contains the resources and experiments developed as part of the research on automatic poetry translation. The study investigates both traditional machine translation models (e.g., MarianMT, mBart, OpenNMT) and large language models (LLMs) such as ChatGPT and Maritaca AI, focusing on translating poems between Portuguese, English, and French.
+This repository contains the resources and experiments developed as part of the research on automatic poetry translation for the Master’s program in Computer Science with an emphasis on Artificial Intelligence at the Federal University of Uberlândia. The study investigates both traditional machine translation models (MarianMT, mBart, OpenNMT, and Google Translate) and large language models such as ChatGPT and Maritaca AI, focusing on translating poems between Portuguese, English, and French.
 
 The goal is to evaluate how these models handle poetic elements like rhyme, rhythm, structure, and semantics, and to compare their outputs with human references. The repository includes datasets, translation scripts and evaluation metrics.
 
